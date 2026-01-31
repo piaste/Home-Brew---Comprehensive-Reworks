@@ -1538,7 +1538,7 @@
 											<attribute id="Animation" type="FixedString" value="" />
 											<attribute id="Conditions" type="LSString" value="" />
 											<attribute id="Consume" type="bool" value="True" />
-											<attribute id="IsHiddenStatus" type="bool" value="False" />
+											<attribute id="IsHiddenStatus" type="bool" value="True" />
 											<attribute id="StatsId" type="FixedString" value="ALCH_POTION_REST_SLEEP_LESSER" />
 											<attribute id="StatusDuration" type="int32" value="3" />
 										</node>
@@ -1766,8 +1766,38 @@
 											<attribute id="Animation" type="FixedString" value="" />
 											<attribute id="Conditions" type="LSString" value="" />
 											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="True" />
 											<attribute id="StatsId" type="FixedString" value="ALCH_POTION_REST_SLEEP_GREATER_RESTORATION" />
 											<attribute id="StatusDuration" type="int32" value="3" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="hf2d7ada6g36efg42d2g8c81g73e8b59ddad9" version="2" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="27d74bd9-b852-43fd-98ac-999f33e05aa9" />
+					<attribute id="Name" type="LSString" value="CONS_Hag_MysteriousGift" />
+					<attribute id="ParentTemplateId" type="FixedString" value="d4fc499a-945e-4e0b-a4db-ba6157281616" />
+					<attribute id="Stats" type="FixedString" value="Hag_MysteriousGift" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144959613005987940" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+											<attribute id="StatsId" type="FixedString" value="HAG_MYSTERIOUS_GIFT_DRINK" />
+											<attribute id="StatusDuration" type="int32" value="-1" />
 										</node>
 									</children>
 								</node>
@@ -2015,7 +2045,7 @@
 											<attribute id="Animation" type="FixedString" value="" />
 											<attribute id="Consume" type="bool" value="True" />
 											<attribute id="StatsId" type="FixedString" value="HAG_MISSING_PETS" />
-											<attribute id="StatusDuration" type="int32" value="3" />
+											<attribute id="StatusDuration" type="int32" value="-1" />
 										</node>
 									</children>
 								</node>
@@ -2077,7 +2107,7 @@
 											<attribute id="Animation" type="FixedString" value="" />
 											<attribute id="Consume" type="bool" value="True" />
 											<attribute id="StatsId" type="FixedString" value="HAG_STILLBORN" />
-											<attribute id="StatusDuration" type="int32" value="3" />
+											<attribute id="StatusDuration" type="int32" value="-1" />
 										</node>
 									</children>
 								</node>
@@ -2139,7 +2169,7 @@
 											<attribute id="Animation" type="FixedString" value="" />
 											<attribute id="Consume" type="bool" value="True" />
 											<attribute id="StatsId" type="FixedString" value="HAG_LOST_TIME" />
-											<attribute id="StatusDuration" type="int32" value="50" />
+											<attribute id="StatusDuration" type="int32" value="-1" />
 										</node>
 									</children>
 								</node>
@@ -2390,7 +2420,7 @@
 											<attribute id="Animation" type="FixedString" value="" />
 											<attribute id="Consume" type="bool" value="True" />
 											<attribute id="StatsId" type="FixedString" value="HAG_INSANITYS_KISS" />
-											<attribute id="StatusDuration" type="int32" value="3" />
+											<attribute id="StatusDuration" type="int32" value="-1" />
 										</node>
 									</children>
 								</node>
@@ -3563,7 +3593,7 @@
 					<attribute id="PhysicsTemplate" type="FixedString" value="03558115-2556-2174-f168-cc3e78d9284b" />
 					<attribute id="Stats" type="FixedString" value="ALCH_Solution_Elixir_Bloodlust" />
 					<attribute id="TechnicalDescription" type="TranslatedString" handle="ha7c28a23g532cg4fbfg8b0ag5a79e27210df" version="5" />
-					<attribute id="TechnicalDescriptionParams" type="LSString" value="10" />
+					<attribute id="TechnicalDescriptionParams" type="LSString" value="12" />
 					<attribute id="TreasureOnDestroy" type="bool" value="True" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="VisualTemplate" type="FixedString" value="d4245897-7549-f594-31c6-b6f36b6b661d" />
@@ -5112,6 +5142,103 @@
 											<attribute id="Conditions" type="LSString" value="" />
 											<attribute id="Consume" type="bool" value="True" />
 											<attribute id="StatsId" type="FixedString" value="ALCH_ELIXIR_MEDITATION_SUPREME" />
+											<attribute id="StatusDuration" type="int32" value="-1" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h54cad4c4g3d4cg4030g856ag382493b0ccc6" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h39822e80g87e6g4797g988dg92856cb4c68c" version="3" />
+					<attribute id="DisplayNameAlchemy" type="TranslatedString" handle="h86ad8499g0af9g4582g8c45ge80424b3230f" version="1" />
+					<attribute id="Flag" type="uint8" value="0" />
+					<attribute id="Icon" type="FixedString" value="Item_CONS_Potion_Resistance_2" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="7eb0b7b6-97fa-4ff5-a7bb-570ca11a3c64" />
+					<attribute id="Name" type="LSString" value="CONS_Potion_Invulnerability" />
+					<attribute id="ParentTemplateId" type="FixedString" value="eef254dd-b983-4e59-bf49-5ed76a536220" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="053c548e-67ff-1aeb-ec26-7060195d3f2c" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Potion_Of_Invulnerability" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="h30892f13gea7dg423bgada1g86cdcfa49e2a" version="1" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="dbf44ae9-1ab1-096c-6adb-f696016bba6f" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144818875517633112" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.11748781 0.4560892 0.11800283" />
+									<attribute id="Min" type="fvec3" value="-0.11748781 -2.2351742E-06 -0.11800283" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.11748781 0.4560892 0.11800283" />
+									<attribute id="Min" type="fvec3" value="-0.11748781 -2.2351742E-06 -0.11800283" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.11748781 0.4560892 0.11800283" />
+									<attribute id="Min" type="fvec3" value="-0.11748781 -2.2351742E-06 -0.11800283" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ExplodeFX" type="FixedString" value="5b260863-16fe-4398-cea6-4f7d041caa0c" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="SnapToGround" type="bool" value="True" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+											<attribute id="StatsId" type="FixedString" value="POTION_OF_INVULNERABILITY" />
 											<attribute id="StatusDuration" type="int32" value="-1" />
 										</node>
 									</children>

@@ -166,7 +166,7 @@
 	<content contentuid="hf729263eg37dcg43fbg923cg24cc642ss699" version="2">Affected creature has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and damage for the rest of their turn.</content>
 
 	<content contentuid="h4c1f2f2dg8a14g4391gaf11g78e249692115" version="2">War Priest</content>
-	<content contentuid="h5846ba7cg19b5g475cg88dbg2ea9d3793ea6" version="3">When you make an unarmed or weapon based attack against a target, you can make an additional attack as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
+	<content contentuid="h5846ba7cg19b5g475cg88dbg2ea9d3793ea6" version="3">When you make a weapon based attack against a target, you can make an additional attack as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
 	<content contentuid="h4c1f2f2dg8a14g4391gaf11g78e249692116" version="2">War Priest</content>
 	<content contentuid="h5846ba7cg19b5g475cg88dbg2ea9d3793ea7" version="3">Affected creature may make an additional attack as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
 	<content contentuid="h4c1f2f2dg8a14g4391gaf11g78e249692117" version="2">War Priest (Melee)</content>

@@ -33,6 +33,68 @@
 	<content contentuid="h6eb72b35g6633g4642gaf97gcca542wizard" version="3">Knowledgeable</content>
 	<content contentuid="h8612a65dg446cg427bga712g7602cewizard" version="3">You are analytical to the point of obsession, dissecting problems in pursuit of deeper truths.</content>
 
+	<content contentuid="h0160ada8gc451g4c15ga08bg4d6a65202a90" version="2">Tyr</content>
+	<content contentuid="h2e52ac7dg2619g4f6dgb3c0g4ec3a4e83b09" version="1">Mielikki</content>
+	<content contentuid="h3723f319g29dfg46a3g8745g6a2cc64c9b37" version="2">Bane</content>
+	<content contentuid="h3dd583fag3348g4e4agab02g0df9aaf664be" version="2">Myrkul</content>
+	<content contentuid="h3ea30052ga0fbg413cgb7adg1b45bc32d9c2" version="2">Kelemvor</content>
+	<content contentuid="h3f7a3486g7ecbg49c1g8aaaga27b791f6b18" version="2">Ilmater</content>
+	<content contentuid="h40e4943ag93d4g4a14g8876g5df8578ac476" version="1">Helm</content>
+	<content contentuid="h424dcdc3g3e2bg489bga3e7g9b88a5b658f1" version="2">Shar</content>
+	<content contentuid="h661e3b22gf74cg4952g950ag555a443dec3d" version="3">Helm</content>
+	<content contentuid="h6830c2acg119dg4aecg846dg685829f9e98f" version="2">Mystra</content>
+	<content contentuid="h6f2ed899g25deg45e0gbfa1gdbd0b30d50cc" version="1">Lathander</content>
+	<content contentuid="h78970a10ga684g4c82g8f2fgc61e1ec08039" version="2">Eilistraee</content>
+	<content contentuid="h790eaa77ge697g49a8g8d8ag6836896c5f1a" version="3">Laduguer</content>
+	<content contentuid="h831a99dcg5137g4a4cgb8b9gaa3ef736a35c" version="1">Gruumsh</content>
+	<content contentuid="h8d7cf36eg3db9g4885gbabeg75d12b6951dd" version="1">Bahamut</content>
+	<content contentuid="h91bdb028gffbcg4f0egbc44g39fee27fed7f" version="1">Laduguer</content>
+	<content contentuid="ha1cddb35gcd4fg4d37gb3bcgc3913d2b2338" version="2">Oghma</content>
+	<content contentuid="ha7fbb66bgfe19g4a30gaceeg14e2a546fe55" version="2">Lolth</content>
+	<content contentuid="hac9b42b6g0fafg4053g850bgdd3d4e0b2268" version="1">Tymora</content>
+	<content contentuid="hae70879agd7f7g4281ga84cgf942e5f07a64" version="3">Vlaakith</content>
+	<content contentuid="hb455b695g66abg46a3g81c3g5c4e4e1e7b16" version="3">Yondalla</content>
+	<content contentuid="hbb146368g6f1bg4d90gb5a9g89a6a9821025" version="1">the Absolute</content>
+	<content contentuid="hbe4de057g8105g420fg9d83gf02a15a12d3b" version="3">Moradin</content>
+	<content contentuid="hbee34fd4gb359g42a9gbb76g1aa6aa53d87c" version="1">Mystra</content>
+	<content contentuid="hc9cbfccdg24e3g4416g80feg9e2831319847" version="1">Talos</content>
+	<content contentuid="hca4b5645ge53fg4d13g84b7gf05e026c133b" version="1">the Absolute</content>
+	<content contentuid="hcb2af586gb16cg4566gbb69ge1e39bb45666" version="3">Corellon Larethian</content>
+	<content contentuid="hd5559499geed3g4675g9172g7b0ad360cde4" version="2">Selûne</content>
+	<content contentuid="he2163839gec02g49dfg867dge95799dac6fe" version="1">Tiamat</content>
+	<content contentuid="hebee59dfg9440g4c04ga787g8125a2c48636" version="2">Tempus</content>
+	<content contentuid="hf6050ef3g4121g4975g8ce5gf645ef79a7b6" version="2">Bhaal</content>
+	<content contentuid="hf9671c0egeb44g4c08g870dg3a4513e81ebb" version="3">Garl Glittergold</content>
+
+	<content contentuid="h072340c0g50b5g484dgb395g285e2be21a64" version="2">Bane</content>
+	<content contentuid="h157e76fdgb8c1g41ccg84f3g55cb0267b0dc" version="2">Mystra</content>
+	<content contentuid="h2da694b6gdb23g4bcdgb649g6c0c3aee79a9" version="1">Lathander</content>
+	<content contentuid="h31a1312eg65c0g48e0gac84g719baebd890e" version="3">Moradin</content>
+	<content contentuid="h3457a3f8gf46cg48aag8d04gce67966ae967" version="2">Helm</content>
+	<content contentuid="h46da3cacgc695g4973g87d5g385f073b6294" version="3">Yondalla</content>
+	<content contentuid="h4feab1f8gf372g4044g9f3ag6eb3569a0384" version="2">Lolth</content>
+	<content contentuid="h517064e5gf5acg417ega6d1gaa6e0a400437" version="1">Tiamat</content>
+	<content contentuid="h52c6eae1g30c0g48efga035g4c78ab6a9fd0" version="3">Corellon Larethian</content>
+	<content contentuid="h6ae5390cgdc22g4a19g974bge7b9549dc6d6" version="1">Tymora</content>
+	<content contentuid="h704de4aeg457ag4135g9032g1cede1de01e8" version="2">Eilistraee</content>
+	<content contentuid="h710d8fd3g4e1dg4df1g9238g3209e1864961" version="3">Vlaakith</content>
+	<content contentuid="h8c307790g6355g4ecfgb456gaacb3fbad3d5" version="1">Talos</content>
+	<content contentuid="h96aa14f8g7ccfg4f50g872dgba73ade6307f" version="2">Selûne</content>
+	<content contentuid="h9982a072g4b6bg4eb3g8130ge1c7bd03be26" version="2">Oghma</content>
+	<content contentuid="ha204b75bgefb5g44cega4fag9d1c79c51278" version="4">Vlaakith</content>
+	<content contentuid="ha4288982g21c4g44e0g9b33g39e58d578c69" version="2">Tyr</content>
+	<content contentuid="hadc531begf348g4d74gbe54g2e7f74c147fe" version="3">Garl Glittergold</content>
+	<content contentuid="hae826047g245dg4af9g9f9dg91ac04211c19" version="1">Gruumsh</content>
+	<content contentuid="hb89ddff2ga0a9g4a9fgadc2gf7e6db76dc81" version="1">Bahamut</content>
+	<content contentuid="hba15336dg4566g4f35g974bg7d4cdf993c26" version="3">Laduguer</content>
+	<content contentuid="hca59b96ag10cdg493bga69fgd5252a912885" version="2">Kelemvor</content>
+	<content contentuid="hcc7b4e61gf950g4928g84a6g56245324167d" version="1">Mielikki</content>
+	<content contentuid="hd8533064g0806g4274gb35cge82f653cd5c3" version="2">Ilmater</content>
+	<content contentuid="hddeecfe7gf119g4f89g8f83g81ee9a31ab94" version="2">Shar</content>
+	<content contentuid="hf6afe3aag33d6g4922ga6e5gb671fd878687" version="2">Tempus</content>
+	<content contentuid="hfad0c132g3b91g409cg95c3g03c350218ea2" version="2">Myrkul</content>
+	<content contentuid="hff37a806g3b3ag46fdgad68g10d996789b72" version="2">Bhaal</content>
+
 <!--CHARACTER TRAITS-->
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fdtrait" version="3">Character Trait</content>
@@ -252,6 +314,7 @@
 	<content contentuid="h988e7e8d83e64ee69e0cdced053127c8e7f2" version="1">Cleric: Tempest Domain</content>
 	<content contentuid="ha4f7ddc08e144bbd89108ce54da37ab1e8ee" version="1">Cleric: War Domain</content>
 
+	<content contentuid="hce77bbc6faab4af68df9778e8922d5f45d66" version="1">Druid: Circle of the Elements</content>
 	<content contentuid="hce77bbc6faab4af68df9778e89b4b1c91e59" version="1">Druid: Circle of the Land</content>
 	<content contentuid="h937c303643d243128ee28e429ffc02fbdc89" version="1">Druid: Circle of the Moon</content>
 	<content contentuid="h4d4b577779a048fbb78cd244e0b84b17b85b" version="1">Druid: Circle of the Spores</content>

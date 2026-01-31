@@ -13,16 +13,17 @@
 					<attribute id="ForceLifetimeDeath" type="bool" value="True" />
 					<attribute id="IsLootable" type="bool" value="False" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="122ce989-2603-4bf4-a3ee-8b2513c39d5e" />
-					<attribute id="Name" type="LSString" value="Shadow_TurntheLiving" />
+					<attribute id="MapKey" type="FixedString" value="122ce989-2603-4bf4-a3ee-000000000001" />
+					<attribute id="Name" type="LSString" value="Shadow_TurntheLiving_1" />
 					<attribute id="ParentTemplateId" type="FixedString" value="749b1e7d-63a1-4a3d-b0ca-f237b9ada5c4" />
 					<attribute id="PhysicsTemplate" type="FixedString" value="efc67096-7e61-46ce-3542-74884e07e693" />
 					<attribute id="Race" type="guid" value="02e5c59e-80e7-4176-a289-1d08699583f5" />
 					<attribute id="SoundObjectIndex" type="uint8" value="0" />
-					<attribute id="Stats" type="FixedString" value="Shadow_TurntheLiving" />
+					<attribute id="Stats" type="FixedString" value="Shadow_TurntheLiving_1" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="VisualTemplate" type="FixedString" value="" />
 					<attribute id="VocalDeathResourceID" type="FixedString" value="" />
+					<attribute id="LevelOverride" type="int32" value="1" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144818875517633012" />
 					<children>
 						<node id="Bounds">
@@ -110,6 +111,33 @@
 										</node>
 									</children>
 								</node>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Target_Teleport_Shadow_TurntheLiving" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
 							</children>
 						</node>
 						<node id="SpeakerGroupList">
@@ -133,6 +161,149 @@
 								</node>
 							</children>
 						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="122ce989-2603-4bf4-a3ee-000000000002" />
+					<attribute id="Name" type="LSString" value="Shadow_TurntheLiving_2" />
+					<attribute id="ParentTemplateId" type="FixedString" value="122ce989-2603-4bf4-a3ee-000000000001" />
+					<attribute id="Stats" type="FixedString" value="Shadow_TurntheLiving_2" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="LevelOverride" type="int32" value="2" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="122ce989-2603-4bf4-a3ee-000000000003" />
+					<attribute id="Name" type="LSString" value="Shadow_TurntheLiving_3" />
+					<attribute id="ParentTemplateId" type="FixedString" value="122ce989-2603-4bf4-a3ee-000000000001" />
+					<attribute id="Stats" type="FixedString" value="Shadow_TurntheLiving_3" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="LevelOverride" type="int32" value="3" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="122ce989-2603-4bf4-a3ee-000000000004" />
+					<attribute id="Name" type="LSString" value="Shadow_TurntheLiving_4" />
+					<attribute id="ParentTemplateId" type="FixedString" value="122ce989-2603-4bf4-a3ee-000000000001" />
+					<attribute id="Stats" type="FixedString" value="Shadow_TurntheLiving_4" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="LevelOverride" type="int32" value="4" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="122ce989-2603-4bf4-a3ee-000000000005" />
+					<attribute id="Name" type="LSString" value="Shadow_TurntheLiving_5" />
+					<attribute id="ParentTemplateId" type="FixedString" value="122ce989-2603-4bf4-a3ee-000000000001" />
+					<attribute id="Stats" type="FixedString" value="Shadow_TurntheLiving_5" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="LevelOverride" type="int32" value="5" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="122ce989-2603-4bf4-a3ee-000000000006" />
+					<attribute id="Name" type="LSString" value="Shadow_TurntheLiving_6" />
+					<attribute id="ParentTemplateId" type="FixedString" value="122ce989-2603-4bf4-a3ee-000000000001" />
+					<attribute id="Stats" type="FixedString" value="Shadow_TurntheLiving_6" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="LevelOverride" type="int32" value="6" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="122ce989-2603-4bf4-a3ee-000000000007" />
+					<attribute id="Name" type="LSString" value="Shadow_TurntheLiving_7" />
+					<attribute id="ParentTemplateId" type="FixedString" value="122ce989-2603-4bf4-a3ee-000000000001" />
+					<attribute id="Stats" type="FixedString" value="Shadow_TurntheLiving_7" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="LevelOverride" type="int32" value="7" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="122ce989-2603-4bf4-a3ee-000000000008" />
+					<attribute id="Name" type="LSString" value="Shadow_TurntheLiving_8" />
+					<attribute id="ParentTemplateId" type="FixedString" value="122ce989-2603-4bf4-a3ee-000000000001" />
+					<attribute id="Stats" type="FixedString" value="Shadow_TurntheLiving_8" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="LevelOverride" type="int32" value="8" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="122ce989-2603-4bf4-a3ee-000000000009" />
+					<attribute id="Name" type="LSString" value="Shadow_TurntheLiving_9" />
+					<attribute id="ParentTemplateId" type="FixedString" value="122ce989-2603-4bf4-a3ee-000000000001" />
+					<attribute id="Stats" type="FixedString" value="Shadow_TurntheLiving_9" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="LevelOverride" type="int32" value="9" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="122ce989-2603-4bf4-a3ee-000000000010" />
+					<attribute id="Name" type="LSString" value="Shadow_TurntheLiving_10" />
+					<attribute id="ParentTemplateId" type="FixedString" value="122ce989-2603-4bf4-a3ee-000000000001" />
+					<attribute id="Stats" type="FixedString" value="Shadow_TurntheLiving_10" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="LevelOverride" type="int32" value="10" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="122ce989-2603-4bf4-a3ee-000000000011" />
+					<attribute id="Name" type="LSString" value="Shadow_TurntheLiving_11" />
+					<attribute id="ParentTemplateId" type="FixedString" value="122ce989-2603-4bf4-a3ee-000000000001" />
+					<attribute id="Stats" type="FixedString" value="Shadow_TurntheLiving_11" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="LevelOverride" type="int32" value="11" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="122ce989-2603-4bf4-a3ee-000000000012" />
+					<attribute id="Name" type="LSString" value="Shadow_TurntheLiving_12" />
+					<attribute id="ParentTemplateId" type="FixedString" value="122ce989-2603-4bf4-a3ee-000000000001" />
+					<attribute id="Stats" type="FixedString" value="Shadow_TurntheLiving_12" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="LevelOverride" type="int32" value="12" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="LocomotionParams" />
 					</children>
 				</node>
 			</children>

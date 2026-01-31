@@ -5216,7 +5216,6 @@ data "DisplayName" "39f18b02804848b18a0b8dbbf2c386130z13;1"
 data "Description" "39f18b02804848b18a0b8dbbf2c3861300zm;1"
 data "Icon" "Spell_Divination_RarysTelepathicBond"
 data "StackId" "TRANSPOSITION_WARP"
-data "Boosts" "IgnoreFallDamage()"
 data "TickType" "EndTurn"
 
 new entry "TRANSPOSITION_WARP_TECHNICAL"

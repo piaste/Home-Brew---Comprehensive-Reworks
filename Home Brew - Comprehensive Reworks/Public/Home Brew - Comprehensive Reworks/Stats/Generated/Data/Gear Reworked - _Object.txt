@@ -2415,6 +2415,11 @@ type "Object"
 using "_Potion"
 data "RootTemplate" "b0ff8d30-5825-49d4-8cd4-ebf3a3d0a024"
 
+new entry "ALCH_Solution_Potion_Rest_Greater"
+type "Object"
+using "_Potion"
+data "RootTemplate" "4d801c1a-691e-47c8-88e7-78367b4e2c8e"
+
 new entry "OBJ_Potion_Of_Animal_Speaking"
 type "Object"
 using "_Potion"

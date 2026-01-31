@@ -2939,7 +2939,6 @@
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="1b711321-3eb1-f72c-58a4-de30e64c5393" />
 					<attribute id="DeathEffect" type="guid" value="61916582-9eef-4ae4-b2f5-fe5f8cb732a9" />
 					<attribute id="DisplayName" type="TranslatedString" handle="h4454015dg5696g42a0ga864g2cc4228d7874" version="2" />
-					<attribute id="Equipment" type="FixedString" value="EQP_Air_Myrmidon" />
 					<attribute id="Icon" type="FixedString" value="1b711321-3eb1-f72c-58a4-de30e64c5393-EQP_Air_Myrmidon_(Icon_Myrmidon_Air)" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="6c82f01b-d201-444c-0012-000000000001" />
@@ -3010,6 +3009,33 @@
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
 									<attribute id="Skill" type="FixedString" value="CTarget_RagingVortex_Myrmidon_Air" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Target_LightningStrike_Myrmidon_Air" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -3484,7 +3510,6 @@
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="475e72a1-6ebd-36f5-9a28-af46737cfe79" />
 					<attribute id="DeathEffect" type="guid" value="a5b14c9a-d27e-473c-a27c-adcae4f1d6cb" />
 					<attribute id="DisplayName" type="TranslatedString" handle="h27d04e3fg3b3dg42f2g81bcg156c7f4fc127" version="1" />
-					<attribute id="Equipment" type="FixedString" value="EQP_Fire_Myrmidon_Wildshape" />
 					<attribute id="GeneratePortrait" type="LSString" value="Icon_Myrmidon_Fire" />
 					<attribute id="Icon" type="FixedString" value="475e72a1-6ebd-36f5-9a28-af46737cfe79-EQP_Fire_Myrmidon_(Icon_Myrmidon_Fire)" />
 					<attribute id="LevelName" type="FixedString" value="" />
@@ -3736,7 +3761,6 @@
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="5950d08e-128d-3f9e-61bb-22fc6edb6c18" />
 					<attribute id="DeathEffect" type="guid" value="e810848c-ed90-40bd-a329-7269d1cdf6b3" />
 					<attribute id="DisplayName" type="TranslatedString" handle="h94df802eg0d56g4877g98a6g008f1f751832" version="1" />
-					<attribute id="Equipment" type="FixedString" value="EQP_Water_Myrmidon_WildShape" />
 					<attribute id="GeneratePortrait" type="LSString" value="Icon_Myrmidon_Water" />
 					<attribute id="Icon" type="FixedString" value="5950d08e-128d-3f9e-61bb-22fc6edb6c18-EQP_Water_Myrmidon_(Icon_Myrmidon_Water)" />
 					<attribute id="LevelName" type="FixedString" value="" />

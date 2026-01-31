@@ -1,41 +1,58 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <contentList>
 
-<!--THIS ELIXIR CAN NOT BE THROWN-->
-	<content contentuid="h5cd60da9g815eg4e19gb6c2g7f0ff4aa9d25" version="4">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Psychic damage.</content>
-	<content contentuid="h5dc39112ge18eg489bg81ccg081eb03a715a" version="4">You gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Fire damage, and can no longer &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burn&lt;/LSTag&gt;.</content>
-	<content contentuid="h6adb8021g3c95g425aga62eg1217829fc41b" version="4">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Necrotic damage.</content>
-	<content contentuid="hc4fbfb7dg4f89g46e3gadbage84d297cbffc" version="4">You gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Poison damage and can no longer be &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisoned&lt;/LSTag&gt;.</content>
-	<content contentuid="hd280d2d6g6781g43ebg8623gf51b8c71d436" version="4">You gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Lightning damage and can no longer be &lt;LSTag Type="Status" Tooltip="SHOCKED"&gt;Shocked&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="SHOCKED_SURFACE"&gt;Electrocuted&lt;/LSTag&gt;, or &lt;LSTag Type="Status" Tooltip="MAG_CHARGED_LIGHTNING_AURA_ELECTRIFIED"&gt;Jolted&lt;/LSTag&gt;. </content>
-
 <!--HEALING POTIONS-->
 	<content contentuid="hd758f907g0b31g4e74ga4d4g4e8dc919a454" version="1">The amount of &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; restored by potions increases along with your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
 	<content contentuid="h26289dbdg9b04g4f4dgaa93g54e83767896b" version="1">The amount of &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; restored by potions increases along with your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
 	<content contentuid="h26289dbdg9b04g4f4dgaa95sd4f58e4f8458" version="1">Affected creature's consumed potion will restore additional &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; once this status has expired.&lt;br&gt;&lt;br&gt;No effect if &lt;LSTag Type="Status" Tooltip="DOWNED"&gt;Downed&lt;/LSTag&gt;. Consuming another potion will reset the duration of this status.</content>
 
+<!--ANTIDOTE-->
+	<content contentuid="h0f5e7eb3gd286g4e51g915agf222b686bbc7" version="2">Antidote</content>
+	<content contentuid="h89a7f4d8gf54dg4860gac3cgccc4ae36062b" version="4">Drink to neutralize the effects of all forms of poison.</content>
+
+<!--BASILISK OIL-->
+	<content contentuid="h9ff676fagc7f6g4c6fg8483gc4b37acacde2" version="1">Basilisk Oil</content>
+	<content contentuid="ha975ad8agc567g4a25gbb21gaa32557fc95d" version="3">Turn a &lt;LSTag Type="Status" Tooltip="PETRIFIED"&gt;Petrified&lt;/LSTag&gt; creature back to their original form.</content>
+
+<!--POTION OF ANGELIC REPRIEVE-->
+	<content contentuid="h1832d529g6a51g4289g9ba1gd200debcdabb" version="5">Drink to fall into a &lt;LSTag Type="Status" Tooltip="SLEEP"&gt;Slumber&lt;/LSTag&gt; for three turns. You gain the benefits of a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
+	<content contentuid="haa838449gc16bg471eg9d0fg7236bd07897a" version="3">Affected creature has fallen asleep. When it wakes up, it will receive the effects of a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
+
+<!--POTION OF ANGELIC SLUMBER-->
+	<content contentuid="h59f09350g03d7g4a05ga6aag79592cd7ed13" version="4">Drink to fall into a &lt;LSTag Type="Status" Tooltip="SLEEP"&gt;Slumber&lt;/LSTag&gt; for three turns. You gain the benefits of a &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
+	<content contentuid="hdbf2d639g4c83g49afgaf1dg6e23f311cc07" version="3">Affected creature has fallen asleep. When it wakes up, it will receive the effects of a &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
+
 <!--POTION OF ANIMAL SPEAKING-->
-	<content contentuid="hc37cbafdgfa6cg4ce7g8a12g1fd2990b8d66" version="1">Gain the ability to temporarily comprehend and verbally communicate with beasts.</content>
+	<content contentuid="hc37cbafdgfa6cg4ce7g8a12g1fd2990b8d66" version="1">Drink to gain the ability to temporarily comprehend and verbally communicate with beasts.</content>
+
+<!--POTION OF GASEOUS FORM-->
+	<content contentuid="h48234255g85cbg4406ga6d5gefb86678af0f" version="1">Potion of Gaseous Form</content>
+	<content contentuid="h144d0ee8g980fg4327ga0e9g46dd7368310e" version="1">Drink to transform into a cloud of mist, becoming &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to all non-magical damage. You gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Strength, Dexterity, and Constitution based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;, and shrink in size.</content>
+
+<!--POTION OF GLORIOUS VAULTING-->
+	<content contentuid="h6726923fg0833g4dfdg83b1g2414309ffc4a" version="10">Drink to double your &lt;LSTag Type="Spell" Tooltip="Projectile_Jump"&gt;Jump&lt;/LSTag&gt; distance. While active, you may jump without expending a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
+	<content contentuid="h4a8fdda7g57bdg44begaed2g429639fa3238" version="3">Affected creature's &lt;LSTag Type="Spell" Tooltip="Projectile_Jump"&gt;Jump&lt;/LSTag&gt; distance has been doubled. They may jump without expending a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
 
 <!--POTION OF SLEEP-->
 	<content contentuid="h6af0c0b4ga716g4077ga346gf19db8d7574c" version="1">Soporific Oil</content>
 	<content contentuid="hab1c6872g65e7g405egbfc5ge120d3a64b95" version="2">When applied to a creature, they fall into a magical slumber. Condition ends when the creature takes damage or they are &lt;LSTag Type="Spell" Tooltip="Target_Help"&gt;Helped&lt;/LSTag&gt;.</content>
 
 <!--POTION OF VITALITY-->
-	<content contentuid="h32c8dbe5g463fg4394gbe02ge4d876634ecb" version="1">Cures any form of disease.</content>
+	<content contentuid="h32c8dbe5g463fg4394gbe02ge4d876634ecb" version="1">Drink to cure any form of disease.</content>
 	<content contentuid="h361555aega14cg4908g9669gf45e31f111b6" version="2">Affected creature is cured of all disease.</content>
 
 <!--POTION OF SPEED-->
-	<content contentuid="h9c035a0dga908g41c0g8f99g2b7184a971a9" version="5">Spike your adrenaline, granting yourself the ability to exert beyond your physical limits. While &lt;LSTag Type="Status" Tooltip="HASTE"&gt;Hastened&lt;/LSTag&gt;, you are able to make one action per turn without expending an &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt;, &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;, or &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;These Hastened actions generate a stack of &lt;LSTag Type="Status" Tooltip="HASTE_LETHARGY"&gt;Exhaustion&lt;/LSTag&gt;, and Exhaustion stacks are also generated when damaged. All &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made against Exhausted creatures are rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;, and should you reach ten stacks of Exhaustion, you immediately fall &lt;LSTag Type="Status" Tooltip="UNCONSCIOUS"&gt;Unconscious&lt;/LSTag&gt; for three turns.</content>
+	<content contentuid="h9c035a0dga908g41c0g8f99g2b7184a971a9" version="5">Drink to spike your adrenaline, granting yourself the ability to exert beyond your physical limits. While &lt;LSTag Type="Status" Tooltip="HASTE"&gt;Hastened&lt;/LSTag&gt;, you are able to make one action per turn without expending an &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt;, &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;, or &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;These Hastened actions generate a stack of &lt;LSTag Type="Status" Tooltip="HASTE_LETHARGY"&gt;Exhaustion&lt;/LSTag&gt;, and Exhaustion stacks are also generated when damaged. All &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made against Exhausted creatures are rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;, and should you reach ten stacks of Exhaustion, you immediately fall &lt;LSTag Type="Status" Tooltip="UNCONSCIOUS"&gt;Unconscious&lt;/LSTag&gt; for three turns.</content>
 
 <!--REMEDIAL POTION-->
-	<content contentuid="h732b0d75g52c6g427ag9604g8c8a52aa8618" version="2">Cures all forms of &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blindness&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="PARALYZED"&gt;Paralysis&lt;/LSTag&gt;.</content>
+	<content contentuid="h732b0d75g52c6g427ag9604g8c8a52aa8618" version="2">Drink to cure all forms of blindness and paralysis.</content>
 	<content contentuid="hbd392c50gcba2g483ag9c27gdc1d29bc5684" version="1">Affected creature is cured of all forms of &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blindness&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="PARALYZED"&gt;Paralysis&lt;/LSTag&gt;.</content>
 
-<!--POTION OF ANGELIC REPRIEVE-->
-	<content contentuid="h1832d529g6a51g4289g9ba1gd200debcdabb" version="5">Drink to fall into a &lt;LSTag Type="Status" Tooltip="SLEEP"&gt;Slumber&lt;/LSTag&gt; for three turns. You gain the benefits of a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
-
-<!--POTION OF ANGELIC SLUMBER-->
-	<content contentuid="h59f09350g03d7g4a05ga6aag79592cd7ed13" version="4">Drink to fall into a &lt;LSTag Type="Status" Tooltip="SLEEP"&gt;Slumber&lt;/LSTag&gt; for three turns. You gain the benefits of a &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
+<!--BOON OF THE HAG-->
+	<content contentuid="h9068ffe5gcac2g4173g813agaa6677372aaf" version="1">Auntie Ethel's Special Brew</content>
+	<content contentuid="h2711cfddgffc4g430dg84b2g621fda3c5fad" version="2">A liquid gift from a hag of suspect motivation.</content>
+	<content contentuid="h417ac56fgf2abg4f05gbf67g25bee1e6d3c4" version="1">Auntie Ethel's Special Brew</content>
+	<content contentuid="h7413905agec21g4492ga5aeg020d845bbe19" version="2">Affected creature takes [1] at the start of every turn until they succeed a Constitution based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.</content>
 
 <!--HAG LOVERS AVARICE-->
 	<content contentuid="h1413056dgcfe0g4935gb8d5ga49d5c9656d9" version="1">Affected creature's &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; is indefinitely reduced by 1.</content>
@@ -61,9 +78,25 @@
 <!--INSANITYS KISS-->
 	<content contentuid="hd76f0053gcf7cg4664ga8e8g1ac530af45d4" version="1">Affected creature is hostile to all other creatures.</content>
 
-<!--ELIXIR OF GIANT HILL STRENGTH-->
-	<content contentuid="hf8dbc1d6gae25g4265g99c4gcc422d88cdce" version="3">Increase your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; by 2.</content>
-	<content contentuid="h70b7c142g4172g433dg860dg05962e3aa866" version="1">Affected creature's &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; has increased by 2.</content>
+<!--MISSING PETS-->
+	<content contentuid="h1c1230d9g2e67g4f23gb171g00bd6286c2c6" version="2">Affected creature feels illusory spiders running up and down their body, imposing &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
+
+<!--DRUGS-->
+	<content contentuid="h3e177552g1a88g49d6gacc1g3b271a764e09" version="1">Affected creature is seeing myriad visions of a world beyond reckoning - or so they keep insisting.</content>
+	<content contentuid="he4cf644ag0f97g4bfdgbce2gce8ef84e20fd" version="3">Affected creature has been overcome by a deep, dream-ridden sleep, induced by judicious ingesting of Ether.</content>
+	<content contentuid="h01a82606g802fg46dcg952fgdd1c16ad9c09" version="2">Affected creature has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Dexterity and Charisma based &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt; while under the Silkroot's silky-sweet beguilement.</content>
+	<content contentuid="h750addc7g8bc7g43b9ga5d6g4ec7bab6778c" version="2">Affected creature moves faster but becomes &lt;LSTag Type="Status" Tooltip="EXHAUSTED"&gt;Exhausted&lt;/LSTag&gt; while under the frenetic influence of Terazul.</content>
+
+<!--DUERGAR ANTIDOTE-->
+	<content contentuid="h9e98aac4g9004g4b73g8fcbg6a9d7be8a052" version="2">Drink to nullify the effects of poisons, gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; against being Poisoned, and gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Poison damage.</content>
+	<content contentuid="h810da48bgc6a4g46e1gaa40g3ff1a82f7669" version="2">Duergar Antidote</content>
+	<content contentuid="h8a2470abg3c00g4b21ga309g8ac90b10c634" version="3">Affected creature has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; against being Poisoned and &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Poison damage.</content>
+
+<!--ELIXIR OF HEALTH-->
+	<content contentuid="hb358275dg5019g45e9gb26ag8bdc7b3a1bc8" version="3">Drink to cure any form of disease, &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blindness&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="PARALYZED"&gt;Paralysis&lt;/LSTag&gt;, or &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt;.</content>
+
+<!--POTION OF EVERLASTING VIGOR-->
+	<content contentuid="ha1fd1babg6bf2g4dcagb1c9gef447c083e6e" version="1">Drink to permanently increase your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; by 2.</content>
 
 <!--ELIXIR OF BARKSKIN-->
 	<content contentuid="h5f5c93b3g2b39g44a5g84a8g5e9177042db6" version="6">Drink to increase your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by 2. Replaces effects from other elixirs when drunk.</content>
@@ -77,13 +110,13 @@
 
 <!--ELIXIR OF HEROISM-->
 	<content contentuid="h02ff4011g4112g47a8g8ea2gffb18f4a1284" version="2">Elixir of Reverence</content>
-	<content contentuid="he873af54g80d9g45f7g9e67gb2b728f5df6c" version="4">Become &lt;LSTag Type="Status" Tooltip="BLESS"&gt;Blessed&lt;/LSTag&gt;. Replaces effects from other elixirs when drunk.</content>
+	<content contentuid="he873af54g80d9g45f7g9e67gb2b728f5df6c" version="4">Drink to become &lt;LSTag Type="Status" Tooltip="BLESS"&gt;Blessed&lt;/LSTag&gt;. Replaces effects from other elixirs when drunk.</content>
 	<content contentuid="heb2888f4gf7cfg47b8gb302gaeac48d044ce" version="3">Elixir of Reverence</content>
 	<content contentuid="h3297dd76g7e72g436fg9ad1ge8266700ffdc" version="3">Affected creature is &lt;LSTag Type="Status" Tooltip="BLESS"&gt;Blessed&lt;/LSTag&gt;.</content>
 
 <!--ELIXIR OF PEERLESS FOCUS-->
-	<content contentuid="hd4793eccg9e67g4c2aga7ddg724fb90348b8" version="13">Drink to gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;, and against being &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charmed&lt;/LSTag&gt;. Additionally, magic can't put you to sleep. Replaces effects from other elixirs when drunk.</content>
-	<content contentuid="h5451dd44g0411g4c38gb4a1g1fe024bca3a4" version="14">Affected creature's ability to maintain its spells has increased.&lt;br&gt;&lt;br&gt;It has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; to &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; against being &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charmed&lt;/LSTag&gt; and for maintaining &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt;. Additionally, magic can't put it to sleep.</content>
+	<content contentuid="hd4793eccg9e67g4c2aga7ddg724fb90348b8" version="13">Drink to gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;. Replaces effects from other elixirs when drunk.</content>
+	<content contentuid="h5451dd44g0411g4c38gb4a1g1fe024bca3a4" version="14">Affected creature rolls with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
 
 <!--ELIXIR OF VIGILENCE-->
 	<content contentuid="h140cc067g2277g4761gaa1fg9f35b56415c9" version="2">Elixir of Vigilance</content>
@@ -91,19 +124,73 @@
 	<content contentuid="h99534c99gfa1cg4564g8e7ag6c09f5576335" version="7">Affected creature has a +4 bonus to Initiative and can't be &lt;LSTag Type="Status" Tooltip="SURPRISED"&gt;Surprised&lt;/LSTag&gt;.</content>
 
 <!--ELIXIR OF CLOUD GIANT STRENGTH-->
-	<content contentuid="h3c6eae5bg5105g40bcg855agfa0686f36ae0" version="4">Increase your &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; by 2. Replaces effects from other elixirs when drunk.</content>
+	<content contentuid="h3c6eae5bg5105g40bcg855agfa0686f36ae0" version="4">Drink to increase your &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; by 2. Replaces effects from other elixirs when drunk.</content>
 	<content contentuid="h4cc04179gb1feg40bbgb5cbg1a4601a279d3" version="1">Affected creature's &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; has increased by 2.</content>
 
+<!--ELIXIR OF VICIOUSNESS-->
+	<content contentuid="hfcc699cag2bd0g482egbcdag07ef310bc5c7" version="2">Drink to reduce the number you need to roll to land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; by 1. Replaces effects from other elixirs when drunk.</content>
+	<content contentuid="h3232a28fg2bb2g4c80g9348gbb88f2c8a765" version="3">Affected creature needs to roll 1 lower in order to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;. Replaces effects from other elixirs when drunk. </content>
+
+<!--TADPOLE ELIXIR-->
+	<content contentuid="h9528c13eg8800g475agb466gd0698d62fa8b" version="2">Drink to gain &lt;LSTag Type="Status" Tooltip="ALCH_ELIXIR_TADPOLE"&gt;Psionic Weakening&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="ALCH_ELIXIR_TADPOLE_ADVANTAGE"&gt;Psionic Enrichment&lt;/LSTag&gt;. Replaces effects from other elixirs when drunk.</content>
+
 <!--ELIXIR OF GUILEFUL MOVEMENT-->
-	<content contentuid="h31ff69dcg5ac7g48b1gbae2gdf9510c96228" version="8">Increase your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; by 2. Replaces effects from other elixirs when drunk.</content>
+	<content contentuid="h31ff69dcg5ac7g48b1gbae2gdf9510c96228" version="8">Drink to increase your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; by 2. Replaces effects from other elixirs when drunk.</content>
 	<content contentuid="he142a257g3af4g4c59g92ccg50ff1902a0e6" version="1">Affected creature's &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; has increased by 2.</content>
 
-<!--SUPREME ELIXIR OF ARCANE CULTIVATION-->
-	<content contentuid="hdc8b0085gb95fg42f9g9654g3afd728daf6b" version="2">Gain an additional Level 1, 2, and 3 &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;. Replaces effects from other elixirs when drunk.</content>
+<!--ELIXIRS OF ARCANE CULTIVATION-->
+	<content contentuid="h8ec8380fg3ef3g46a7gb0e5g27bdb4569c92" version="4">Drink to gain an additional Level [1] &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;. Replaces effects from other elixirs when drunk.</content>
+	<content contentuid="h938e2828g4df0g42d3gb26bg0c4961c3aebc" version="2">Drink to gain an additional Level [1] &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;. Replaces effects from other elixirs when drunk.</content>
+	<content contentuid="hde02239ag7eabg405dg8075g9cd267711ebf" version="2">Drink to gain an additional Level [1] &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;. Replaces effects from other elixirs when drunk.</content>
+	<content contentuid="hdc8b0085gb95fg42f9g9654g3afd728daf6b" version="2">Drink to gain an additional Level 1, 2, and 3 &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;. Replaces effects from other elixirs when drunk.</content>
 	<content contentuid="h3b8232a3g5fa0g4c90ga49ag02fc5377a372" version="3">Affected creature has an additional Level 1, 2, and 3 &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;.</content>
+	<content contentuid="h45b37617g689fg422fgbf35g2072c006acb8" version="3">Affected creature has an additional Level [1] &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;. Replaces effects from other elixirs when drunk.</content>
+	<content contentuid="hac09177eg976cg4f63gb6fdg4c365593ed73" version="3">Affected creature has an additional Level [1] &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;. Replaces effects from other elixirs when drunk.</content>
+	<content contentuid="hb8656736gcdc9g4645gbbe9g01621027284c" version="3">Affected creature has an additional Level [1] &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;. Replaces effects from other elixirs when drunk.</content>
 
 <!--ELIXIR OF DARKVISION-->
 	<content contentuid="hd66e0762g5ee9g4d66ga85bg6175c15f0fe6" version="2">Elixir of Darkvision</content>
 	<content contentuid="h6313fb91gb2bdg432agbce6g9cfdabbe402f" version="2">Affected creature can see in the dark, magical or otherwise, up to [1].</content>
+
+<!--RESISTANCE ELIXIRS-->
+	<content contentuid="h293d1603g2a90g4886ga2cagafb3d6d2ed13" version="2">Acid Resistance</content>
+	<content contentuid="hc2071a24g6b83g4907gbb71g2e9e185f55f9" version="2">Affected creature is &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Acid damage. Replaces effects from other elixirs when drunk.</content>
+	<content contentuid="h5e37be65ga73bg4788gafc9g3af96fea5959" version="2">Cold Resistance</content>
+	<content contentuid="h4c0898fcg912ag4ad7gb200gfb7c13012241" version="2">Affected creature is &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Cold damage. Replaces effects from other elixirs when drunk.</content>
+	<content contentuid="h335e2d66gf794g4be0ga3ccg7bdea85d69f9" version="2">Fire Resistance</content>
+	<content contentuid="h79915f25g14c8g4437g86b1g156fe2536b87" version="3">Affected creature is &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Fire damage. Can no longer &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burn&lt;/LSTag&gt;. Replaces effects from other elixirs when drunk.</content>
+	<content contentuid="h07cd37a7g451fg4df6gae29g094a3d1f052a" version="2">Force Resistance</content>
+	<content contentuid="h1d04f1d3g0684g4085g84f3g35b20f553519" version="2">Affected creature is &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Force damage. Replaces effects from other elixirs when drunk.</content>
+	<content contentuid="h2ac6662dg7ddcg42e3g871fg6331c114af35" version="2">Lightning Resistance</content>
+	<content contentuid="hf30f08d5ga965g4f81gbabdgb28291bc01d3" version="3">Affected creature is &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Lightning damage. Can no longer be &lt;LSTag Type="Status" Tooltip="SHOCKED"&gt;Shocked&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="SHOCKED_SURFACE"&gt;Electrocuted&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="MAG_CHARGED_LIGHTNING_AURA_ELECTRIFIED"&gt;Jolted&lt;/LSTag&gt;, or otherwise affected by lightning. Replaces effects from other elixirs when drunk.</content>
+	<content contentuid="hdc089cfdgc955g445ag8738g38247669d0d8" version="2">Necrotic Resistance</content>
+	<content contentuid="ha475907cg50e7g4765g94bcg66f14ccf27ab" version="2">Affected creature is &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Necrotic damage. Replaces effects from other elixirs when drunk.</content>
+	<content contentuid="h59c6f728g19b8g4666gb66cg8c4758ecfa1f" version="2">Poison Resistance</content>
+	<content contentuid="h4ad51b21g4ed1g4c64g8f5agcf8ab88f3d8a" version="3">Affected creature is &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Poison damage. Can no longer be &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisoned&lt;/LSTag&gt;. Replaces effects from other elixirs when drunk.</content>
+	<content contentuid="h790236b5g2257g41begb3a7g3c6f69379b3c" version="2">Psychic Resistance</content>
+	<content contentuid="h9e55cd04gca02g402fga02cgdadd49f9432b" version="2">Affected creature is &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Psychic damage. Replaces effects from other elixirs when drunk.</content>
+	<content contentuid="h59b11da1ga0d6g4a52gb0c9g017a8fb33394" version="2">Radiant Resistance</content>
+	<content contentuid="h01a96c23g3209g4b96g9923g2edf6fb775d8" version="2">Affected creature is &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Radiant damage. Replaces effects from other elixirs when drunk.</content>
+	<content contentuid="h50c45445gd053g40fcg9841g4ed481ef0fc7" version="2">Thunder Resistance</content>
+	<content contentuid="hdac6cddag6653g455agba32gf8bddfd3f5f0" version="2">Affected creature is &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Thunder damage. Replaces effects from other elixirs when drunk.</content>
+	<content contentuid="hd8ec18dage540g4213gafccg739bb41ad426" version="3">Damage Resistance</content>
+	<content contentuid="h2a465796gd6efg4c5dg95d2g6175a2176546" version="2">Affected creature is &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to all damage. Replaces effects from other elixirs when drunk.</content>
+
+	<content contentuid="h66f7843agb999g4ae0g83afg5d501cd4e239" version="2">Drink to gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Acid damage. Replaces effects from other elixirs when drunk.</content>
+	<content contentuid="hd6cf0574gb634g426dg9becgf9bb3cc53406" version="3">Drink to gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Cold damage. Replaces effects from other elixirs when drunk.</content>
+	<content contentuid="h8f1eda2bge312g4d93g8ed8g110e5b99e77b" version="3">Drink to gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Force damage. Replaces effects from other elixirs when drunk.</content>
+	<content contentuid="h477f6695ge7c3g4906g85b2g316828ff28a8" version="3">Drink to gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Radiant damage. Replaces effects from other elixirs when drunk.</content>
+	<content contentuid="hf201811ag1ef8g44acg9a9fg79bc5ea3413b" version="3">Drink to gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Thunder damage. Replaces effects from other elixirs when drunk.</content>
+	<content contentuid="h5dc39112ge18eg489bg81ccg081eb03a715a" version="4">Drink to gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Fire damage. In addition, you can no longer &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burn&lt;/LSTag&gt;. Replaces effects from other elixirs when drunk.</content>
+	<content contentuid="hd280d2d6g6781g43ebg8623gf51b8c71d436" version="4">Drink to gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Lightning damage. In addition, you can no longer be &lt;LSTag Type="Status" Tooltip="SHOCKED"&gt;Shocked&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="SHOCKED_SURFACE"&gt;Electrocuted&lt;/LSTag&gt;, or &lt;LSTag Type="Status" Tooltip="MAG_CHARGED_LIGHTNING_AURA_ELECTRIFIED"&gt;Jolted&lt;/LSTag&gt;. Replaces effects from other elixirs when drunk.</content>
+	<content contentuid="hc4fbfb7dg4f89g46e3gadbage84d297cbffc" version="4">Drink to gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Poison damage. In addition, you can no longer be &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisoned&lt;/LSTag&gt;. Replaces effects from other elixirs when drunk.</content>
+	<content contentuid="h6adb8021g3c95g425aga62eg1217829fc41b" version="4">Drink to gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Necrotic damage. Replaces effects from other elixirs when drunk.</content>
+	<content contentuid="h5cd60da9g815eg4e19gb6c2g7f0ff4aa9d25" version="4">Drink to gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Psychic damage. Replaces effects from other elixirs when drunk.</content>
+	<content contentuid="h30892f13gea7dg423bgada1g86cdcfa49e2a" version="1">Drink to gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to all damage. Replaces effects from other elixirs when drunk.</content>
+
+<!--ELIXIR OF GIANT HILL STRENGTH-->
+	<content contentuid="h870917degc275g4ba5g9e27g0266c13f0fca" version="3">Elixir of Hill Giant Strength</content>
+	<content contentuid="hf8dbc1d6gae25g4265g99c4gcc422d88cdce" version="3">Drink to increase your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; by 2. Replaces effects from other elixirs when drunk.</content>
+	<content contentuid="h70b7c142g4172g433dg860dg05962e3aa866" version="1">Affected creature's &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; has increased by 2.</content>
 
 </contentList>

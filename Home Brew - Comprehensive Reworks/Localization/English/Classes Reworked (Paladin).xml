@@ -9,8 +9,8 @@
 	<content contentuid="h4c613264gb41123r6egb992839r7987fe983" version="4">Smite Charges: 3</content>
 	<content contentuid="h50416111g8a61g43fs54fs9283r9w78rw97f" version="2">You gain three Smite Charges per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, which allow you to deal tremendous damage to your enemies.</content>
 
-	<content contentuid="h4c613264gb41123r6egb997s2d6f54s5e64f" version="4">Wildshape Charges: 3</content>
-	<content contentuid="h50416111g8a61g43fs54fs84ef4f54e84585" version="2">You gain three Wildshape Charges per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, which allow you to turn into various animals.</content>
+	<content contentuid="9b7b811b9c3043e189f94554a64sw6df84fed" version="3">Allow Respec</content>
+	<content contentuid="9b7b811b9c3043e189f94556s8ef4e8f45845" version="3">Selecting an Oathbreaker as your starting class grants the Oathbreaker dialogue tag, disabling your ability to respec. Toggle this passive off in order to remove the Oathbreaker dialogue tag, allowing you to respec. This can be toggled at any time.</content>
 
 	<content contentuid="9b7b811b9c3043e189f945540bf5116eff2d5" version="3">Break Oath</content>
 	<content contentuid="9b7b811b9c3043e189f945540bf5116ess6d8" version="3">A Paladin's oath is a sacred, binding vow. Their power a manifestation of their devotion to a just cause. To rescind one's oath would be utterly unconscionable...right?</content>
@@ -37,9 +37,9 @@
 	<content contentuid="fe6f4159abae42539029e284001d12de11111" version="3">Oath Broken</content>
 	<content contentuid="fe6f4159abae42539029e284001d12de22222" version="3">Gain &lt;LSTag Type="Spell" Tooltip="CTarget_Smite_Oathbroken"&gt;Oathbroken Smite&lt;/LSTag&gt;.</content>
 	<content contentuid="h940c3156gad0fg4a92g8573gff26b0433333" version="1">Oathbroken Smite</content>
-	<content contentuid="he9150fbcg1b55g49aegaa3egc4717c944444" version="2">Shatter the mind of your target with necrotic wrath, afflicting them with &lt;LSTag Type="Status" Tooltip="SPITEFUL_SUFFERING"&gt;Spiteful Suffering&lt;/LSTag&gt;. This action always rolls with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+	<content contentuid="he9150fbcg1b55g49aegaa3egc4717c944444" version="2">Shatter the mind of your target with necrotic wrath, afflicting them with &lt;LSTag Type="Status" Tooltip="SPITEFUL_SUFFERING_1"&gt;Spiteful Suffering&lt;/LSTag&gt;. This action always rolls with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Targeting a corpse will instead immediately raise a Shadow servant until the end of your current combat encounter.</content>
 	<content contentuid="h940c3156gad0fg4a92g8573gff26b0455555" version="1">Oathbroken Smite</content>
-	<content contentuid="he9150fbcg1b55g49aegaa3egc4717c966666" version="2">Shatter the mind of your target with necrotic wrath, afflicting them with &lt;LSTag Type="Status" Tooltip="SPITEFUL_SUFFERING"&gt;Spiteful Suffering&lt;/LSTag&gt;.</content>
+	<content contentuid="he9150fbcg1b55g49aegaa3egc4717c966666" version="2">Shatter the mind of your target with necrotic wrath, afflicting them with &lt;LSTag Type="Status" Tooltip="SPITEFUL_SUFFERING_1"&gt;Spiteful Suffering&lt;/LSTag&gt;.</content>
 	<content contentuid="h5b946111g68b0g402dg8509g7e0582a72f04" version="1">Oathbroken Smite: Critical</content>
 
 	<content contentuid="fe6f4159abae42539029e284001d12de00011" version="3">Blinding Smite</content>
@@ -241,12 +241,12 @@
 <!--OATHBREAKER-->
 
 	<content contentuid="ha612b54dg48c5g45cegbe8fg273c791e5a41" version="1">Subjugate Creature</content>
-	<content contentuid="h7c01bf17g01deg4907gb001g8280ca511db6" version="3">Use the powerful influence of your shattered Oath to force control over another creature.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Status" Tooltip="Tooltip_Dangerous_Encounter"&gt;Dangerous&lt;/LSTag&gt; and &lt;LSTag Type="Passive" Tooltip="Fatal_Encounter"&gt;Fatal&lt;/LSTag&gt; foes cannot be Subjugated.</content>
+	<content contentuid="h7c01bf17g01deg4907gb001g8280ca511db6" version="3">Use the power of your shattered Oath to exert control over another creature, influencing them to attack their allies.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Status" Tooltip="Tooltip_Dangerous_Encounter"&gt;Dangerous&lt;/LSTag&gt; and &lt;LSTag Type="Passive" Tooltip="Fatal_Encounter"&gt;Fatal&lt;/LSTag&gt; foes cannot be Subjugated.</content>
 	<content contentuid="hb02ee372ga5eag4cb9g98eegdf84c040f8f1" version="1">Subjugated</content>
-	<content contentuid="hd7ff90f2gdbe7g475aga57ege03e858ceb9f" version="1">Affected creature has been forcefully claimed by an Oathbreaker. It will attack it's allies indescriminately.</content>
+	<content contentuid="hd7ff90f2gdbe7g475aga57ege03e858ceb9f" version="1">Affected creature has had their will bent by an Oathbreaker, influencing it to attack it's allies indescriminately.</content>
 
 	<content contentuid="hbe9433acg21f7g450fg8e4dg52d76d77c680" version="1">Spiteful Suffering</content>
-	<content contentuid="hd646ac32g6ba7g4baagb3beg2ddef1a43dac" version="2">Submit your target to a malicious onslaught of spite, filling them with a sense of imposing dread. All &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made against them will roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Upon dying, your target's dread will then manifest as a shadow under your command.</content>
+	<content contentuid="hd646ac32g6ba7g4baagb3beg2ddef1a43dac" version="2">Submit your target to a malicious onslaught of spite, filling them with a sense of imposing dread. All &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made against them will roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Upon dying, your target's dread will then manifest as a shadow under your command.&lt;br&gt;&lt;br&gt;Targeting a corpse will instead immediately raise a Shadow servant until the end of your current combat encounter.</content>
 	<content contentuid="h32f822f1g557fg4f77g9e90gbe3d36acc9eb" version="1">Spiteful Suffering</content>
 	<content contentuid="h058b7513g6ddcg4f92gafc7gd608373e8c13" version="1">Affected creature suffers from an imposing sense of dread. &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made against them roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Upon dying, the affected creature's dread will then manifest as a shadow, allied to whomever applied this condition.</content>
 
@@ -258,7 +258,7 @@
 	<content contentuid="hb2400634gf3e4g46f1gb93dg1330asdf8584" version="3">Affected weapon deals an additional [1] and may &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frighten&lt;/LSTag&gt; other creatures upon dealing damage.</content>
 
 	<content contentuid="hb27de5a4g2331g490cgbbd5g86200d79a878" version="1">Turn the Living</content>
-	<content contentuid="h3961da1bg0e72g49a3gb0c0g2e5d38aasdf5" version="3">Raise all corpses within [1] of you as Shadow servants until the end of your current combat encounter.</content>
+	<content contentuid="h3961da1bg0e72g49a3gb0c0g2e5d38aasdf5" version="3">Afflict all enemies within [1] of you with &lt;LSTag Type="Status" Tooltip="SPITEFUL_SUFFERING_1"&gt;Spiteful Suffering&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Additionally, all corpses within [1] of you will immediately be raised as Shadow servants until the end of your current combat encounter.</content>
 	<content contentuid="heb5cd4e1g2b8bg4fd7ga15bgc13cbd621245" version="1">Drain Life</content>
 	<content contentuid="hfedc0248gd215g47d3gbeaag829f4db66858" version="3">Drain the life essecnce from a target of your choice.</content>
 
@@ -273,7 +273,7 @@
 	<content contentuid="hb90cac90gf224g4f5dg85aeg85fb08a983d9" version="3">Deals an additional [2] while within [1] of the Paladin responsible for this status.</content>
 
 	<content contentuid="h298b9a29g5657g4aa9gaad6gad3a8af1a141" version="1">Oathbreaker Supreme</content>
-	<content contentuid="hb2400634gf3e4g46f1gb93dg1330e4asd141" version="3">In addition to raising Shadow servants, &lt;LSTag Type="Spell" Tooltip="Shout_TurnTheLiving"&gt;Turn the Living&lt;/LSTag&gt; now &lt;LSTag Type="Status" Tooltip="FEARED"&gt;Terrifies&lt;/LSTag&gt; living creatures for one turn.</content>
+	<content contentuid="hb2400634gf3e4g46f1gb93dg1330e4asd141" version="3">Afflicting a creature with &lt;LSTag Type="Status" Tooltip="SPITEFUL_SUFFERING_1"&gt;Spiteful Suffering&lt;/LSTag&gt; now &lt;LSTag Type="Status" Tooltip="FEARED"&gt;Terrifies&lt;/LSTag&gt; them for one turn.</content>
 
 <!--PASSIVES-->
 
@@ -287,7 +287,7 @@
   <content contentuid="fe6f4159abae42539029e284001d12desdf64" version="3">Once per turn, upon rolling a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, immediately restore one of your &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; charges.</content>
 
   <content contentuid="fe6f4159abae42539029e284001d12de00009" version="3">Death Sentence</content>
-  <content contentuid="fe6f4159abae42539029e284001d12de0000i" version="3">Once per turn, landing a killing blow on an enemy will restore a &lt;LSTag Type="ActionResource" Tooltip="WarPriestActionPoint"&gt;Crusader's Smite&lt;/LSTag&gt; charge.</content>
+  <content contentuid="fe6f4159abae42539029e284001d12de0000i" version="3">At the start of each turn, you have a 33% chance to restore a &lt;LSTag Type="ActionResource" Tooltip="WarPriestActionPoint"&gt;Crusader's Smite&lt;/LSTag&gt; charge.</content>
 
   <content contentuid="fe6f4159abae42539029e284001d12de00001" version="3">Divine Health</content>
   <content contentuid="fe6f4159abae42539029e284001d12de0000a" version="3">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Poison and Necrotic damage. Once per turn, landing a killing blow on an enemy will restore +1d6 &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; multiplied by your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
@@ -333,10 +333,10 @@
   <content contentuid="fe6f4159abae42539029e284001d12deafiow" version="3">Affected creature will recover one &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; charge when this status expires.</content>
 
   <content contentuid="fe6f4159abae42539029e284001d12de00010" version="3">Principle of Belief</content>
-  <content contentuid="fe6f4159abae42539029e284001d12de0000j" version="3">On any successful &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against Aberrations, Fey, Fiends, or Undead, deal an additional +1d12 Radiant damage.</content>
+  <content contentuid="fe6f4159abae42539029e284001d12de0000j" version="3">On any successful &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against Aberrations, Fey, Fiends, or Undead, deal an additional +1d12 damage. The type of damage dealt changes depending on your choice of subclass.</content>
 
   <content contentuid="h3e63e6aag19b0g400agb559g2e125483261f" version="3">Repel the Damned</content>
-  <content contentuid="h90dc6c92g4bdag440cg8119g6a95df4567cf" version="3">All enemies within [1] of you take Radiant damage at the start of their turns equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Charisma Modifier&lt;/LSTag&gt;.</content>
+  <content contentuid="h90dc6c92g4bdag440cg8119g6a95df4567cf" version="3">All enemies within [1] of you take damage at the start of their turns equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Charisma Modifier&lt;/LSTag&gt;. The type of damage dealt changes depending on your choice of subclass.</content>
 
   <content contentuid="h3e63e6aag19b0g400agb559g2e125489a321" version="3">Resplendent Reverb</content>
   <content contentuid="h90dc6c92g4bdag440cg8119g6a95df4adf44" version="3">Healing another creature with a Spell immediately causes an additional heal for yourself equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Charisma Modifier&lt;/LSTag&gt; multiplied by your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>

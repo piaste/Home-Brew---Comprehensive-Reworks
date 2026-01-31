@@ -466,6 +466,10 @@
 	<content contentuid="h46674db7g5b8ag4bddga9b3gf9c837144fc6" version="3">Elemental Momentum</content>
 	<content contentuid="h81ea88e6gef57g4a69g8d0cg1af089f7826b" version="6">Whenever the wearer deals Acid, Cold, Fire, Lightning or Thunder damage with a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt;, they gain one stack of &lt;LSTag Type="Status" Tooltip="MAG_MOMENTUM"&gt;Momentum&lt;/LSTag&gt;.</content>
 
+<!--SWORD OF THE EMPEROR-->
+	<content contentuid="h5d5efdd1g9095g4057gb23dge01f42e5d9a3" version="2">Illithid Edge</content>
+	<content contentuid="haf3e2d25gd0d3g44fdgbe3dg97e288e89ccc" version="4">This weapon deals an additional point of damage for each tadpole power you have taken, up to a maximum of +8 damage.</content>
+
 <!--BOW OF AWARENESS-->
 	<content contentuid="791a0319eeed4e25949847ad3a0ss6f9d7f88" version="3">Lookout</content>
 	<content contentuid="791a0319eeed4e25949847ad3a0ff2d5d5f88" version="6">Gain a +2 bonus to your Initiative.</content>
@@ -536,7 +540,7 @@
 
 <!--AMULET OF SYLVANUS-->
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f593888" version="2">Sylvanus' Blessing</content>
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f592999" version="3">Upon killing an enemy, immediately restore one &lt;LSTag Type="ActionResource" Tooltip="Wildshape"&gt;Wildshape&lt;/LSTag&gt; charge.</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f592999" version="3">Once per turn, upon killing an enemy, you immediately restore one &lt;LSTag Type="ActionResource" Tooltip="Wildshape"&gt;Wildshape&lt;/LSTag&gt; charge.</content>
 
 <!--THORN BLADE-->
 	<content contentuid="h320d2231g0d94g4478gbdadg5bffef3ef9cb" version="4">Poisonous Synergy</content>
@@ -2216,7 +2220,7 @@
 	<content contentuid="h4a5326aaga75ag4348ga87fg51c83fe194ec" version="1">Dealbreaker</content>
 	<content contentuid="h043aaeb2g0379g462eg86c8g0abf03bbe1ae" version="1">Raphael's golden fiddle. It radiates with incredible power.</content>
 	<content contentuid="h72ce85ebg558bg448ag9a32g6ad78de3d9d0" version="1">Devilish Charms</content>
-	<content contentuid="h297f440bgf832g4be1gbd65g8c330664a8ef" version="1">When damaged by a melee attack, the attacker is &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charmed&lt;/LSTag&gt; for 1 turn. This effect can only occur once per turn.</content>
+	<content contentuid="h297f440bgf832g4be1gbd65g8c330664a8ef" version="1">When damaged by a melee attack, the attacker is &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charmed&lt;/LSTag&gt; for 1 turn.</content>
 
 	<content contentuid="hbe3c8e51g573fg4205g9ec0gd60aacdd7b55" version="1">Battle Standard of Infernal Power</content>
 	<content contentuid="hb4b5c788g5a3dg4de6g81edg9f9b89dbadeb" version="1">Hell-forged with infernal iron, this twisted metal banner holds the soul of a quasit inside.</content>

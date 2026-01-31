@@ -251,13 +251,13 @@ the Tome</content>
 	<content contentuid="hc5506949g2e54g47b0gb8b6g69dffdd0000e" version="3">Upon dealing damage with your &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt;, you apply one stack of &lt;LSTag Type="Status" Tooltip="ELDRITCH_STRIKE"&gt;Eldritch Inertia&lt;/LSTag&gt;.</content>
 
 	<content contentuid="ha9cadfc2g5dbcg4e6bgb410gb25e02e00002" version="1">Eldritch Overflow</content>
-	<content contentuid="hc5506949g2e54g47b0gb8b6g69dffdd0000b" version="3">You are capable of dividing your &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt; into two separate beams. Each beam will deal [1]. This can be toggled at any time.</content>
+	<content contentuid="hc5506949g2e54g47b0gb8b6g69dffdd0000b" version="3">You are capable of dividing your &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt; into two separate beams. Each beam will deal 1d12 Force damage. This can be toggled at any time.</content>
 
 	<content contentuid="ha9cadfc2g5dbcg4e6bgb410gb25e02e00001" version="1">Mystic Precision</content>
 	<content contentuid="hc5506949g2e54g47b0gb8b6g69dffdd0000a" version="3">When you cast &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt;, the number you need in order to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; is reduced by 1.</content>
 
 	<content contentuid="ha9cadfc2g5dbcg4e6bgb410gb25e02e00004" version="1">Eldritch Surge</content>
-	<content contentuid="hc5506949g2e54g47b0gb8b6g69dffdd0000d" version="3">You are capable of dividing your &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt; into three separate beams. Each beam will deal [1]. This can be toggled at any time.</content>
+	<content contentuid="hc5506949g2e54g47b0gb8b6g69dffdd0000d" version="3">You are capable of dividing your &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt; into three separate beams. Each beam will deal 1d12 Force damage. This can be toggled at any time.</content>
 
 	<content contentuid="ha9cadfc2g5dbcg4e6bgb410gb25e02e00003" version="1">Abyssal Desolation</content>
 	<content contentuid="hc5506949g2e54g47b0gb8b6g69dffdd0000c" version="3">When you roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, you roll an additional damage die.</content>

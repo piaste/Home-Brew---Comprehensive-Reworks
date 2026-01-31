@@ -108,6 +108,16 @@ data "StatusType" "BOOST"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 data "TickType" "EndTurn"
 
+<!--TUTORIAL PODS-->
+
+new entry "TUT_RESTORATION"
+type "StatusData"
+data "StatusType" "BOOST"
+using "ALCH_POTION_REST_SLEEP_GREATER_RESTORATION"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;ApplyToDead"
+data "OnApplyFunctors" "ResetCooldowns(UntilRest);RegainHitPoints(Target.MaxHP);RemoveStatus(SPELLSLOT_1);RemoveStatus(SPELLSLOT_2);RemoveStatus(SPELLSLOT_3);RemoveStatus(SPELLSLOT_4);RemoveStatus(SPELLSLOT_5);RestoreResource(SpellSlot,100%,1);RestoreResource(SpellSlot,100%,2);RestoreResource(SpellSlot,100%,3);RestoreResource(SpellSlot,100%,4);RestoreResource(SpellSlot,100%,5);RestoreResource(SpellSlot,100%,6);RestoreResource(WarlockSpellSlot,100%,1);RestoreResource(WarlockSpellSlot,100%,2);RestoreResource(WarlockSpellSlot,100%,3);RestoreResource(WarlockSpellSlot,100%,4);RestoreResource(WarlockSpellSlot,100%,5);RestoreResource(WarlockSpellSlot,100%,6);RestoreResource(ShadowSpellSlot,100%,1);RemoveStatus(SORCERYPOINT_1);RemoveStatus(SORCERYPOINT_2);RemoveStatus(SORCERYPOINT_3);RemoveStatus(SORCERYPOINT_4);RemoveStatus(SORCERYPOINT_5);RemoveStatus(TRANSMUTERS_STONE_USED);RestoreResource(WeaponActionPoint,100%,0);RestoreResource(TidesOfChaos,100%,0);RestoreResource(HitDice,100%,0);RestoreResource(RitualPoint,100%,0);RestoreResource(LayOnHandsCharge,100%,0);RestoreResource(Interrupt_HellishRebukeTiefling_Charge,100%,0);RestoreResource(Interrupt_HellishRebukeWarlockMI_Charge,100%,0);RestoreResource(FungalInfestationCharge,100%,0);RestoreResource(WarPriestActionPoint,100%,0);RestoreResource(Rage,100%,0);RestoreResource(BardicInspiration,100%,0);RestoreResource(ChannelDivinity,100%,0);RestoreResource(WildShape,100%,0);RestoreResource(SuperiorityDie,100%,0);RestoreResource(KiPoint,100%,0);RestoreResource(ChannelOath,100%,0);RestoreResource(NaturalRecoveryPoint,100%,0);RestoreResource(LuckPoint,100%,0);RestoreResource(SorceryPoint,100%,0);RestoreResource(ArcaneRecoveryPoint,100%,0);"
+data "OnRemoveFunctors" ""
+
 <!--SHORT REST-->
 
 new entry "ShortResting"
@@ -1654,7 +1664,7 @@ data "StackId" "DOWNED"
 data "StackPriority" "1"
 data "Boosts" "AbilityFailedSavingThrow(Strength);AbilityFailedSavingThrow(Dexterity);Advantage(AttackTarget);StatusImmunity(SG_Prone);StatusImmunity(SG_Condition);StatusImmunity(SHOCKWAVE)"
 data "StatusPropertyFlags" "DisableOverhead"
-data "OnApplyFunctors" "RemoveStatus(RAGE);RemoveStatus(SG_Mad);RemoveStatus(UNHOLY_SUBJUGATION);RemoveStatus(POTION_OF_HEALING);RemoveStatus(POTION_OF_HEALING_GREATER);RemoveStatus(POTION_OF_HEALING_SUPERIOR);RemoveStatus(POTION_OF_HEALING_SUPREME);IF(HasPassive('Ashen_One') and not HasStatus('ASHEN_ONE')):RegainHitPoints(MaxHP)"
+data "OnApplyFunctors" "RemoveStatus(RAGE);RemoveStatus(SG_Mad);RemoveStatus(UNHOLY_SUBJUGATION);RemoveStatus(POTION_OF_HEALING);RemoveStatus(POTION_OF_HEALING_GREATER);RemoveStatus(POTION_OF_HEALING_SUPERIOR);RemoveStatus(POTION_OF_HEALING_SUPREME);IF(HasPassive('Ashen_One') and not HasStatus('ASHEN_ONE')):RegainHitPoints(MaxHP);RemoveStatus(CPERFORM_POSITIVE);RemoveStatus(CPERFORM_NEGATIVE);RemoveStatus(PERFORMATIVE_INTRO);RemoveStatus(PERFORMATIVE_VERSE);RemoveStatus(PERFORMATIVE_CHORUS);RemoveStatus(CPERFORM_POSITIVE_THEPOWER);RemoveStatus(CPERFORM_POSITIVE_STARGAZING);RemoveStatus(CPERFORM_POSITIVE_BARDDANCE);RemoveStatus(CPERFORM_POSITIVE_DOS2_1);RemoveStatus(CPERFORM_POSITIVE_DOS2_2);RemoveStatus(CPERFORM_POSITIVE_DOS2_3);RemoveStatus(PERFORM_POSITIVE_THEPOWER);RemoveStatus(PERFORM_POSITIVE_STARGAZING);RemoveStatus(PERFORM_POSITIVE_BARDDANCE);RemoveStatus(PERFORM_POSITIVE_DOS2_1);RemoveStatus(PERFORM_POSITIVE_DOS2_2);RemoveStatus(PERFORM_POSITIVE_DOS2_3);RemoveStatus(PERFORM_POSITIVE_THEPOWER_MUTED);RemoveStatus(PERFORM_POSITIVE_STARGAZING_MUTED);RemoveStatus(PERFORM_POSITIVE_BARDDANCE_MUTED);RemoveStatus(PERFORM_POSITIVE_DOS2_1_MUTED);RemoveStatus(PERFORM_POSITIVE_DOS2_2_MUTED);RemoveStatus(PERFORM_POSITIVE_DOS2_3_MUTED)"
 data "OnRemoveFunctors" "ResetCombatTurn();RestoreResource(Movement, 100%, 0);RestoreResource(BonusActionPoint, 100%, 0);IF(HasPassive('Ashen_One') and not HasStatus('ASHEN_ONE')):CreateExplosion(Projectile_CrownPhoenixExplosion);IF(HasPassive('Ashen_One') and not HasStatus('ASHEN_ONE')):ApplyStatus(SUNSCORCHED,100,3);IF(HasPassive('Ashen_One') and not HasStatus('ASHEN_ONE')):RestoreResource(ActionPoint, 100%, 0);IF(HasPassive('Ashen_One') and not HasStatus('ASHEN_ONE')):RestoreResource(ReactionActionPoint, 100%, 0);IF(HasPassive('Ashen_One') and not HasStatus('ASHEN_ONE')):ApplyStatus(ASHEN_ONE,100,-1);IF(HasPassive('CT_UnstableSource')):TriggerRandomCast(1,,WildMagicNegative)"
 data "StableRoll" "1d20"
 data "StableRollDC" "10"

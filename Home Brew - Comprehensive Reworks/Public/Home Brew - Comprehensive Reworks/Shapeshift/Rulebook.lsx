@@ -1295,7 +1295,6 @@
                     <attribute id="SpellCastingAbilityInheritanceType" type="FixedString" value="ReplaceOriginal"/>
                     <attribute id="UUID" type="guid" value="936d22ac-fa88-4c99-8a6c-12c08ab577a2"/>
                     <attribute id="UnarmedAbilityFromTemplate" type="bool" value="true"/>
-                    <attribute id="UseTemplateEquipmentSet" type="bool" value="true"/>
                     <attribute id="WildShapeHotBar" type="bool" value="true"/>
                     <children>
                         <node id="AbilityChanges">

@@ -658,7 +658,7 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="h084bb401g2e3ag4e78g9f2ag2355b1963907" version="3">Affected creature can see in the dark, magical or otherwise, out to a range of [1].</content>
 
 	<content contentuid="h635fd469g1961g498bg9c10g8b824732d7f4" version="2">Daylight</content>
-	<content contentuid="h17b14a9bg9cb5g4667ga676gb128a690d2fa" version="1">Summon a sphere of pure sunlight, warding off all darkness, magical or otherwise, within a [1] radius. Upon casting, and each turn after, all darkness within the radius will be removed. Additionally, this light cannot be snuffed out.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Druid&lt;br&gt;Paladins&lt;br&gt;Rangers</content>
+	<content contentuid="h17b14a9bg9cb5g4667ga676gb128a690d2fa" version="1">Summon a sphere of pure sunlight, warding off all darkness, magical or otherwise, within a [1] radius. Upon casting, and each turn after, all darkness within the radius will be removed.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Druid&lt;br&gt;Paladins&lt;br&gt;Rangers</content>
 	<content contentuid="h005e7cb7gfe99g4409gbd31gcbaf0f0a6835" version="2">Daylight</content>
 	<content contentuid="h91c678acga0c9g44dfg9445g3cdc0aa0d588" version="2">Affected area is shining with the light of the sun, warding off all darkness, magical or otherwise, within a [1] radius. Each turn, all darkness within the radius will be removed.</content>
 
