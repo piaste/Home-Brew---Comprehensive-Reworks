@@ -91,7 +91,7 @@ data "Description" "heec87dfbg454fg4550g8622gb200a670000f;2"
 data "Icon" "PassiveFeature_InescapableDestruction"
 data "Properties" "Highlighted;ForceShowInCC;OncePerCombat"
 data "StatsFunctorContext" "OnDamage"
-data "Conditions" "(HasDamageDoneForType(DamageType.Necrotic,context.Target)"
+data "Conditions" "(HasDamageDoneForType(DamageType.Necrotic,context.Target))"
 data "StatsFunctors" "ApplyStatus(DEATHOFTHEFIRSTBORNS,100,1)"
 
 <!--LIFE DOMAIN-->
