@@ -246,14 +246,14 @@
 
 <!--WILD MAGIC-->
 
-	<content contentuid="h63415200gb6c7g41c2g9d2dg8a0341e5afe3" version="1">Unruly magic sparks and fizzes through your veins.&lt;br&gt;&lt;br&gt;When casting Spells at level one or higher, you have the potential to trigger a positive surge of uncontrollable magic, manifesting in random outbursts around and within you.</content>
+	<content contentuid="h63415200gb6c7g41c2g9d2dg8a0341e5afe3" version="1">Unruly magic sparks and fizzes through your veins.&lt;br&gt;&lt;br&gt;When casting Spells at level one or higher, you have the potential to trigger a positive surge of uncontrollable magic, manifesting in random outbursts around and within you. The Spell cast must cost a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; in order to trigger a surge.</content>
 
 	<content contentuid="h3d5cb14egfdceg4f20g8ae3g8058799bf222" version="5">Tides of Chaos</content>
-	<content contentuid="h8cefbec7g0aefg43c7ga0a7gb4cfd15f8385" version="5">While this passive is active, you will no longer experience positive surges of &lt;LSTag Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt;. Instead, casting a Spell on a creature within [1] of you has a chance of forcing them to experience a negative surge.</content>
+	<content contentuid="h8cefbec7g0aefg43c7ga0a7gb4cfd15f8385" version="5">While this passive is active, you will no longer experience positive surges of &lt;LSTag Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt;. Instead, casting a Spell on a creature within [1] of you has a chance of forcing them to experience a negative surge. The Spell cast must cost a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; in order to trigger a surge.</content>
 	<content contentuid="he34f26e9g95a3g4babg97ebg8751a6249b16" version="4">Tides of Chaos</content>
-	<content contentuid="h62b271f9g503eg4418ga3ccg18828562c2ab" version="5">Affected creature will no longer experience positive surges of &lt;LSTag Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt; when casting Spells. Instead, creatures within [1] of them may experience a negative surge when the affected creature casts a Spell which targets them.</content>
+	<content contentuid="h62b271f9g503eg4418ga3ccg18828562c2ab" version="5">Affected creature will no longer experience positive surges of &lt;LSTag Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt; when casting Spells. Instead, creatures within [1] of them may experience a negative surge when the affected creature casts a Spell which targets them. The Spell cast must cost a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; in order to trigger a surge.</content>
 	<content contentuid="he34f26e9g95a3g4babg97ebg8751a628a454" version="4">Chaotic Tide</content>
-	<content contentuid="h62b271f9g503eg4418ga3ccg18828568a645" version="5">Affected creature may potentially experience a negative surge of &lt;LSTag Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt; when the Spellcaster who applied this condition casts a Spell on them.</content>
+	<content contentuid="h62b271f9g503eg4418ga3ccg18828568a645" version="5">Affected creature may potentially experience a negative surge of &lt;LSTag Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt; when the Spellcaster who applied this condition casts a Spell on them. The Spell cast must cost a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; in order to trigger a surge.</content>
 	<content contentuid="he34f26e9g95a3g4babg97ebg8751a629a454" version="4">Surging</content>
 	<content contentuid="h62b271f9g503eg4418ga3ccg188285612344" version="5">Affected creature has a greater chance of causing a surge of &lt;LSTag Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt;. This also applies when forcing other creatures to experience a surge.</content>
 

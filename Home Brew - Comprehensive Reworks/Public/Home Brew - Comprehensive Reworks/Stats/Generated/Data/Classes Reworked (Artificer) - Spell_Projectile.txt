@@ -25,7 +25,7 @@ data "SpellAnimation" "73afb4e5-8cfe-4479-95cf-16889597fee3,,;7e67bfd0-2fc2-4d10
 data "CastEffect" "8b2df096-373b-4323-b5bc-6cf2c3db8281"
 data "VerbalIntent" "Damage"
 data "WeaponTypes" "Loading"
-data "SpellFlags" "IsAttack;IsHarmful;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsDefaultWeaponAction"
+data "SpellFlags" "IsAttack;IsHarmful;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsDefaultWeaponAction;AddFallDamageOnLand"
 data "HitAnimationType" "None"
 data "SpellAnimationIntentType" "Aggressive"
 data "Sheathing" "Ranged"

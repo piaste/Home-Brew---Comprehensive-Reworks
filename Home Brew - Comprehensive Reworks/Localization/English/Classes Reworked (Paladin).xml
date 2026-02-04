@@ -6,7 +6,7 @@
 	<content contentuid="h4c613264gb41123r6egb91283492873re98f" version="4">Channel Oath Charges: 3</content>
 	<content contentuid="h50416111g8a61g43fs5492387497898f7df3" version="2">You gain three Channel Oath Charges per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, which allow you to trigger various effects determined by your choice of subclass.</content>
 
-	<content contentuid="h4c613264gb41123r6egb992839r7987fe983" version="4">Smite Charges: 3</content>
+	<content contentuid="h4c613264gb41123r6egb992839r7987fe983" version="4">Crusader's Smite Charges: 3</content>
 	<content contentuid="h50416111g8a61g43fs54fs9283r9w78rw97f" version="2">You gain three Smite Charges per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, which allow you to deal tremendous damage to your enemies.</content>
 
 	<content contentuid="9b7b811b9c3043e189f94554a64sw6df84fed" version="3">Allow Respec</content>
@@ -22,6 +22,9 @@
 	<content contentuid="h8cc0935fg68b5g47f8ga3b5gca464609021c" version="2">Crusader's Smite</content>
 	<content contentuid="h1839885agdd92g42a6gac45gf96f9ea0eda0" version="1">How many times you may channel the strength of your resolve into a relentless Smite.</content>
 	<content contentuid="h25d1fb0cg356dg49e4gb43bg597ee721f740" version="1">Crusader's Smite</content>
+
+	<content contentuid="h8df46bbbg30b8g491ag835dg0096665s5e2f" version="3">Judgement of the Crucible</content>
+	<content contentuid="hf44d4aedgce78g4700gb024gfc7d5e5f4e56" version="3">Once per turn, upon killing another creature with one of your Smites, you immediately restore one &lt;LSTag Type="ActionResource" Tooltip="WarPriestActionPoint"&gt;Crusader's Smite&lt;/LSTag&gt; charge.</content>
 
 	<content contentuid="h8df46bbbg30b8g491ag835dg009666a21584" version="3">Smites</content>
 	<content contentuid="hf44d4aedgce78g4700gb024gfc7d56a92315" version="3">Lay waste to your enemies.&lt;br&gt;Lay bare your conviction.</content>
@@ -241,7 +244,7 @@
 <!--OATHBREAKER-->
 
 	<content contentuid="ha612b54dg48c5g45cegbe8fg273c791e5a41" version="1">Subjugate Creature</content>
-	<content contentuid="h7c01bf17g01deg4907gb001g8280ca511db6" version="3">Use the power of your shattered Oath to exert control over another creature, influencing them to attack their allies.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Status" Tooltip="Tooltip_Dangerous_Encounter"&gt;Dangerous&lt;/LSTag&gt; and &lt;LSTag Type="Passive" Tooltip="Fatal_Encounter"&gt;Fatal&lt;/LSTag&gt; foes cannot be Subjugated.</content>
+	<content contentuid="h7c01bf17g01deg4907gb001g8280ca511db6" version="3">Use the power of your shattered Oath to exert control over a hostile creature, influencing them to attack their allies.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Status" Tooltip="Tooltip_Dangerous_Encounter"&gt;Dangerous&lt;/LSTag&gt; and &lt;LSTag Type="Passive" Tooltip="Fatal_Encounter"&gt;Fatal&lt;/LSTag&gt; foes cannot be Subjugated.</content>
 	<content contentuid="hb02ee372ga5eag4cb9g98eegdf84c040f8f1" version="1">Subjugated</content>
 	<content contentuid="hd7ff90f2gdbe7g475aga57ege03e858ceb9f" version="1">Affected creature has had their will bent by an Oathbreaker, influencing it to attack its allies indescriminately.</content>
 

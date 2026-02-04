@@ -6202,7 +6202,7 @@
 					<attribute id="Boosts" type="LSString" value="Proficiency(HB_Paladin);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(HeavyArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(Attunement,13,0);ActionResource(ChannelOath,3,0);ActionResource(WarPriestActionPoint,3,0);ActionResource(SpellSlot,2,1)" />
 					<attribute id="Level" type="uint8" value="1" />
 					<attribute id="Name" type="LSString" value="Paladin" />
-					<attribute id="PassivesAdded" type="LSString" value="Smite_Divine" />
+					<attribute id="PassivesAdded" type="LSString" value="Smite_Divine;JudgementoftheCrucible" />
 					<attribute id="ProgressionType" type="uint8" value="0" />
 					<attribute id="Selectors" type="LSString" value="SelectPassives(cf44a7c1-3fcb-4fb6-8624-45dd433c11b1,1,Personality);SelectPassives(15eff335-46df-4268-9eea-aabcb6c13025,1,Traits);SelectSkills(f974ebd6-3725-4b90-bb5c-2b647d41615d,4);SelectSkillsExpertise(f974ebd6-3725-4b90-bb5c-2b647d41615d,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,3,1);SelectSpells(4b265732-e303-449a-9c39-dc941811b06e,2,0,Cantrips);SelectSpells(63c89951-2cc1-4597-9d4b-b80d90b56803,1,0,Spells);SelectPassives(0cdf39f8-8098-4c6d-8741-66f1877e47ba,1,Smites)" />
 					<attribute id="TableUUID" type="guid" value="ba2afe85-acba-4ea1-a238-2b4543f47821" />
@@ -6234,7 +6234,7 @@
 					<attribute id="Boosts" type="LSString" value="Proficiency(HB_Paladin);ActionResource(Attunement,1,0);ActionResource(ChannelOath,3,0);ActionResource(WarPriestActionPoint,3,0);ActionResource(SpellSlot,2,1)" />
 					<attribute id="Level" type="uint8" value="1" />
 					<attribute id="Name" type="LSString" value="Paladin" />
-					<attribute id="PassivesAdded" type="LSString" value="Smite_Divine" />
+					<attribute id="PassivesAdded" type="LSString" value="Smite_Divine;JudgementoftheCrucible" />
 					<attribute id="ProgressionType" type="uint8" value="0" />
 					<attribute id="Selectors" type="LSString" value="SelectSpells(4b265732-e303-449a-9c39-dc941811b06e,2,0,Cantrips);SelectSpells(63c89951-2cc1-4597-9d4b-b80d90b56803,1,0,Spells);SelectPassives(0cdf39f8-8098-4c6d-8741-66f1877e47ba,1,Smites)" />
 					<attribute id="TableUUID" type="guid" value="ba2afe85-acba-4ea1-a238-2b4543f47821" />
@@ -6265,7 +6265,7 @@
 					<attribute id="Boosts" type="LSString" value="Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(HeavyArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(Attunement,13,0);ActionResource(ChannelOath,3,0);ActionResource(WarPriestActionPoint,3,0);ActionResource(SpellSlot,2,1)" />
 					<attribute id="Level" type="uint8" value="1" />
 					<attribute id="Name" type="LSString" value="NPC_Paladin" />
-					<attribute id="PassivesAdded" type="LSString" value="Smite_Divine_NPC;ClassPassiveRandomizer1_PaladinAction;NPC_Paladin_Subclass;NPCConcentration_End;NPCBlocker_Randomizer" />
+					<attribute id="PassivesAdded" type="LSString" value="Smite_Divine_NPC;JudgementoftheCrucible;ClassPassiveRandomizer1_PaladinAction;NPC_Paladin_Subclass;NPCConcentration_End;NPCBlocker_Randomizer" />
 					<attribute id="ProgressionType" type="uint8" value="0" />
 					<attribute id="TableUUID" type="guid" value="8726b2c4-edc0-4905-b82f-60a4baba0733" />
 					<attribute id="UUID" type="guid" value="ba895540-fb26-4c85-9024-fe15c9a832ec" />

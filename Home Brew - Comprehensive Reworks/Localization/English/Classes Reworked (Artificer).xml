@@ -285,7 +285,7 @@
 	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe5zzz" version="2">Creation manifests brilliance, moulded in arcane echoes.&lt;br&gt;Productions of power, brought to life by your ingenuity.</content>
 
 	<content contentuid="115fb28f01e84e44b00000475sd5f4ef2f001" version="1">Adaptive Plating</content>
-	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe500a" version="2">At the beginning of each turn while in combat, you gain &lt;LSTag Tooltip="TemporaryHitPoints"&gt;Temporary Hit Points&lt;/LSTag&gt; equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
+	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe500a" version="2">Upon being damaged by another creature, you gain &lt;LSTag Tooltip="TemporaryHitPoints"&gt;Temporary Hit Points&lt;/LSTag&gt; equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; multiplied by two.</content>
 
 	<content contentuid="115fb28f01e84e44b3536f475sd5f4ef2f002" version="1">Arcane Calibration Matrix</content>
 	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe500b" version="2">Your firearms are incapable of &lt;LSTag Type="Status" Tooltip="FIREARM_MALFUNCTION"&gt;Misfiring&lt;/LSTag&gt;.</content>

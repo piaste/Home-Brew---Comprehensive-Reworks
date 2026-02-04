@@ -177,7 +177,7 @@ data "RemoveConditions" "SavingThrow(Ability.Wisdom, SourceSpellDC(), AdvantageO
 data "RemoveEvents" "OnDamage;OnTurn"
 data "TooltipSave" "Wisdom"
 data "StatusPropertyFlags" "BringIntoCombat;TickingWithSource;ForceOverhead;OverheadOnTurn;LoseControl"
-data "StatusGroups" "SG_Charmed;SG_ScriptedPeaceBehaviour"
+data "StatusGroups" "SG_Charmed;SG_Approaching;SG_ScriptedPeaceBehaviour"
 data "StatusEffect" "5f2c07d0-4d7e-4d6a-848d-c69ba9c2d74c"
 
 new entry "LURING_SONG_RESIST"
