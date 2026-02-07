@@ -8,31 +8,31 @@ BASE_NEARBY_SCORE								0.2
 //////////////////////////////////////////////////////////////////////////
 // Archetype modifiers
 MULTIPLIER_DAMAGE_SELF_POS						0.0
-MULTIPLIER_DAMAGE_SELF_NEG						4.0 // Damaging yourself looks pretty stupid.
-MULTIPLIER_DAMAGE_ENEMY_POS						1.0
+MULTIPLIER_DAMAGE_SELF_NEG						1.0 // Damaging yourself looks pretty stupid.
+MULTIPLIER_DAMAGE_ENEMY_POS						1.0 // Damaging an enemy looks pretty smart.
 MULTIPLIER_DAMAGE_ENEMY_NEG						0.0
 MULTIPLIER_DAMAGE_ALLY_POS						0.0
-MULTIPLIER_DAMAGE_ALLY_NEG						4.0 // Damaging allies looks pretty stupid.
+MULTIPLIER_DAMAGE_ALLY_NEG						4.0 // Damaging allies looks really stupid.
 MULTIPLIER_DAMAGE_NEUTRAL_POS					0.0
-MULTIPLIER_DAMAGE_NEUTRAL_NEG					4.0
+MULTIPLIER_DAMAGE_NEUTRAL_NEG					4.0 // Don't interact with neutral entities.
 
 MULTIPLIER_DOT_SELF_POS							0.0
-MULTIPLIER_DOT_SELF_NEG							4.0 // Damaging yourself looks pretty stupid.
+MULTIPLIER_DOT_SELF_NEG							1.5 // Damaging yourself looks pretty stupid.
 MULTIPLIER_DOT_ENEMY_POS						1.5 // Putting DOTs on enemies looks pretty smart.
 MULTIPLIER_DOT_ENEMY_NEG						0.0
 MULTIPLIER_DOT_ALLY_POS		 					0.0
-MULTIPLIER_DOT_ALLY_NEG		 					4.0 // Damaging allies looks pretty stupid.
+MULTIPLIER_DOT_ALLY_NEG		 					4.0 // Damaging allies looks really stupid.
 MULTIPLIER_DOT_NEUTRAL_POS		 				0.0
-MULTIPLIER_DOT_NEUTRAL_NEG		 				4.0
+MULTIPLIER_DOT_NEUTRAL_NEG		 				4.0 // Don't interact with neutral entities.
 
 MULTIPLIER_HEAL_SELF_POS						1.5 // Healing yourself looks pretty smart.
 MULTIPLIER_HEAL_SELF_NEG						0.0
 MULTIPLIER_HEAL_ENEMY_POS						0.0
-MULTIPLIER_HEAL_ENEMY_NEG						4.0 // Healing enemies looks pretty stupid.
+MULTIPLIER_HEAL_ENEMY_NEG						4.0 // Healing enemies looks really stupid.
 MULTIPLIER_HEAL_ALLY_POS						1.5 // Healing allies looks pretty smart.
 MULTIPLIER_HEAL_ALLY_NEG						0.0
 MULTIPLIER_HEAL_NEUTRAL_POS						0.0
-MULTIPLIER_HEAL_NEUTRAL_NEG						4.0
+MULTIPLIER_HEAL_NEUTRAL_NEG						4.0 // Don't interact with neutral entities.
 
 MULTIPLIER_HOT_SELF_POS							1.5 // Healing yourself looks pretty smart.
 MULTIPLIER_HOT_SELF_NEG							0.0
@@ -41,16 +41,16 @@ MULTIPLIER_HOT_ENEMY_NEG						4.0 // Healing enemies looks pretty stupid.
 MULTIPLIER_HOT_ALLY_POS		 					1.5 // Healing allies looks pretty smart.
 MULTIPLIER_HOT_ALLY_NEG		 					0.0
 MULTIPLIER_HOT_NEUTRAL_POS		 				0.0
-MULTIPLIER_HOT_NEUTRAL_NEG		 				4.0
+MULTIPLIER_HOT_NEUTRAL_NEG		 				4.0 // Don't interact with neutral entities.
 
 MULTIPLIER_CONTROL_SELF_POS		 				0.0
-MULTIPLIER_CONTROL_SELF_NEG		 				4.0 // Controlling yourself looks pretty stupid.
+MULTIPLIER_CONTROL_SELF_NEG		 				1.5 // Controlling yourself looks pretty stupid.
 MULTIPLIER_CONTROL_ENEMY_POS					1.5 // Controlling enemies looks pretty smart.
 MULTIPLIER_CONTROL_ENEMY_NEG					0.0
 MULTIPLIER_CONTROL_ALLY_POS		 				0.0
-MULTIPLIER_CONTROL_ALLY_NEG		 				4.0 // Controlling allies looks pretty stupid.
+MULTIPLIER_CONTROL_ALLY_NEG		 				4.0 // Controlling allies looks really stupid.
 MULTIPLIER_CONTROL_NEUTRAL_POS					0.0
-MULTIPLIER_CONTROL_NEUTRAL_NEG					4.0
+MULTIPLIER_CONTROL_NEUTRAL_NEG					4.0 // Don't interact with neutral entities.
 
 MULTIPLIER_BOOST_SELF_POS		 				1.5 // Buffing yourself looks pretty smart.
 MULTIPLIER_BOOST_SELF_NEG		 				0.0

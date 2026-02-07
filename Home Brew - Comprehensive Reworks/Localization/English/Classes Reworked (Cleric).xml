@@ -244,7 +244,9 @@
 	<content contentuid="hbaec3368g3f8bg4577g8a7fg6c16b2099df9" version="1">Affected creature is &lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to the next instance of Bludgeoning, Piercing, or Slashing damage that they would have suffered.</content>
 
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e00011" version="1">Martyrdom</content>
-	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e0000k" version="1">Upon being &lt;LSTag Tooltip="Downed"&gt;Downed&lt;/LSTag&gt; or killed, erupt as a raging inferno, uncontrollably scorching everything around you.</content>
+	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e0000k" version="1">Upon being &lt;LSTag Tooltip="Downed"&gt;Downed&lt;/LSTag&gt; or killed within [1] of an enemy, erupt as a raging inferno, uncontrollably scorching them. The damage of this passive scales with your level and refreshes at the beginning of each combat encounter.</content>
+	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e00z11" version="1">Martyrdom</content>
+	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e000zk" version="1">Affected creature will erupt as a raging inferno upon being &lt;LSTag Tooltip="Downed"&gt;Downed&lt;/LSTag&gt; or killed while within [1] of an enemy, uncontrollably scorching them for [2].</content>
 
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e00012" version="1">Paradisiacal Gift</content>
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e0000l" version="1">Once per turn, upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; against an enemy, immediately recover one of your &lt;LSTag Type="ActionResource" Tooltip="ChannelDivinity"&gt;Channel Divinity&lt;/LSTag&gt; charges.</content>

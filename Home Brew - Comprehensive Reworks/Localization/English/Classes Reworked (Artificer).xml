@@ -118,6 +118,9 @@
 	<content contentuid="h509b8e00gacb9g46a5sd65df45e4f2f00zz1" version="1">Lil' G</content>
 	<content contentuid="h509b8e00gacb9g46a5sd65df45e4f2f0zzz1" version="1">Bigby Grym</content>
 
+	<content contentuid="h91ec86e6g082bg46dagb37dgc42e6d65sd4f" version="1">Stealth Module</content>
+	<content contentuid="ha575c773g771eg40c2gae4dg2b1se54s5e8f" version="1">Activate your innate stealth module to become &lt;LSTag Type="Status" Tooltip="INVISIBILITY"&gt;Invisible&lt;/LSTag&gt;.</content>
+
 	<content contentuid="h509b8e00gacb9g46a5sd65df45e4f2f00002" version="1">Targeted Repair Cycle</content>
 	<content contentuid="h5b8e00gacb9g46a5sd6f4566e8f5d8s0000b" version="2">Upon damaging an enemy with a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt;, they become &lt;LSTag Type="Status" Tooltip="SYNTHETIC_MARK"&gt;Synthetically Marked&lt;/LSTag&gt; until the end of their next turn. Allies who damage a Synthetically Marked creature will recover [1] &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;. Only one enemy may be Synthetically Marked at a time.</content>
 	<content contentuid="h509b8e00gacb9g46a5sd65df45e4f2f000z2" version="1">Synthetic Mark</content>

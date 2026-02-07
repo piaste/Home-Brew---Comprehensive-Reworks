@@ -23,7 +23,7 @@ data "Icon" "Spell_2e_RighteousMight"
 data "Properties" "Highlighted;ForceShowInCC;OncePerTurn"
 data "StatsFunctorContext" "OnAttack"
 data "Conditions" "IsKillingBlow() and Character() and not Self() and SpellId('CTarget_Smite_Divine') or IsKillingBlow() and Character() and not Self() and SpellId('CTarget_Smite_Blinding') or IsKillingBlow() and Character() and not Self() and SpellId('CTarget_Smite_Branding') or IsKillingBlow() and Character() and not Self() and SpellId('CProjectile_Smite_Branding') or IsKillingBlow() and Character() and not Self() and SpellId('CTarget_Smite_Searing') or IsKillingBlow() and Character() and not Self() and SpellId('CTarget_StaggeringSmite') or IsKillingBlow() and Character() and not Self() and SpellId('CTarget_Smite_Thunderous') or IsKillingBlow() and Character() and not Self() and SpellId('CTarget_Smite_Wrathful') or IsKillingBlow() and Character() and not Self() and SpellId('CTarget_Smite_Oathbroken')"
-data "StatsFunctors" "RestoreResource(SELF,WarPriestActionPoint, 1, 0)"
+data "StatsFunctors" "ApplyStatus(SELF,JUDGEMENTOFTHECRUCIBLE,100,0)"
 
 new entry "Smitten"
 type "PassiveData"

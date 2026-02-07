@@ -850,12 +850,6 @@ data "DisplayName" "7ece8b0a155648e49a0b00a7bc8644b500004;1"
 data "Description" "7ece8b0a155648e49a0b00a7bc8644b50000d;2"
 data "Icon" "PassiveFeature_MagicInitiateSorcerer"
 data "Properties" "Highlighted;ForceShowInCC"
-data "StatsFunctorContext" "OnCast"
-data "StatsFunctors" "IF(SpellId('Shout_CreateSpellSlot_1')):ApplyStatus(SELF,CHARISMATICINFUSION,100,1);IF(SpellId('Shout_CreateSpellSlot_2')):ApplyStatus(SELF,CHARISMATICINFUSION,100,1);IF(SpellId('Shout_CreateSpellSlot_3')):ApplyStatus(SELF,CHARISMATICINFUSION,100,1);IF(SpellId('Shout_CreateSpellSlot_4')):ApplyStatus(SELF,CHARISMATICINFUSION,100,1);IF(SpellId('Shout_CreateSpellSlot_5')):ApplyStatus(SELF,CHARISMATICINFUSION,100,1);IF(SpellId('Shout_CreateSpellSlot_6')):ApplyStatus(SELF,CHARISMATICINFUSION,100,1);IF(SpellId('Shout_CreateSorceryPoints_1')):ApplyStatus(SELF,CHARISMATICINFUSION,100,1);IF(SpellId('Shout_CreateSorceryPoints_2')):ApplyStatus(SELF,CHARISMATICINFUSION,100,1);IF(SpellId('Shout_CreateSorceryPoints_3')):ApplyStatus(SELF,CHARISMATICINFUSION,100,1);IF(SpellId('Shout_CreateSorceryPoints_4')):ApplyStatus(SELF,CHARISMATICINFUSION,100,1);IF(SpellId('Shout_CreateSorceryPoints_5')):ApplyStatus(SELF,CHARISMATICINFUSION,100,1);IF(SpellId('Shout_CreateSorceryPoints_6')):ApplyStatus(SELF,CHARISMATICINFUSION,100,1)"
-
-new entry "CharismaticInfusion_2"
-type "PassiveData"
-data "Properties" "IsHidden"
 data "Boosts" "IF(IsSpell() and not IsCantrip()):DamageBonus(CharismaModifier)"
 
 new entry "CharismaticShield"
