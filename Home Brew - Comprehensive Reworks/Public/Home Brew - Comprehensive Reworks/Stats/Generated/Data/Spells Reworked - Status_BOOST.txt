@@ -188,14 +188,13 @@ data "Boosts" "UnlockSpell(Shout_Dismiss_Self); Tag(SUMMON); EnableBasicItemInte
 data "StatusPropertyFlags" "DisableCombatlog;DisablePortraitIndicator;DisableOverhead;IgnoreResting"
 data "Passives" "Summon_Cutthroat;Summon_Elusive_Retreat;Summon_Fatal_Manoeuvre;Summon_Light_Footwork;Summon_Quick_Reflexes;Summon_Reactive_Movement;Summon_DormantCharge;Summon_EnchantingInfluence;Summon_LatentAcuity;Summon_MysticEmpowerment;Summon_BoundCompulsion;Summon_CurseofHellfire;Summon_HellishRebuttal;Summon_OneWithShadows;Summon_PactStricken;Summon_ResiliantServitude;Summon_Arcane_Reverb;Summon_Boon_of_Plumes;Summon_Illusory_Phantasm;Summon_Mystic_Override;Summon_Potent_Cantrips;Summon_Potent_Spells;Summon_CWarMagic;Summon_Woven_Precision;Summon_AdaptivePlating;Summon_EmergencyPowerCell;Summon_FailsafeInjection;Summon_Overclocked;Summon_Safeguard;Summon_VitalAim"
 
-<!--SUMMONING AI LOGIC-->
+<!--SUMMONING AI LOGIC IS CURRENTLY DISABLED-->
 
 new entry "SUMMON_LOSECONTROL"
 type "StatusData"
 data "StatusType" "BOOST"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 data "TickType" "EndTurn"
-data "OnApplyFunctors" "ApplyStatus(OWNER,SUMMON_LOSECONTROL_OWNER,100,-1)"
 data "ManagedStatusEffectType" "Positive"
 
 new entry "SUMMON_LOSECONTROL_OWNER"
@@ -206,6 +205,7 @@ data "TickType" "EndTurn"
 data "Passives" "Summon_LoseControl"
 data "StatusGroups" "SG_RemoveOnRespec"
 data "ManagedStatusEffectType" "Positive"
+data "OnApplyFunctors" "ApplyStatus(OWNER,SUMMON_LOSECONTROL_OWNER,100,-1)"
 
 new entry "Summon_LoseControl"
 type "PassiveData"
@@ -1664,7 +1664,7 @@ data "StackId" "DOWNED"
 data "StackPriority" "1"
 data "Boosts" "AbilityFailedSavingThrow(Strength);AbilityFailedSavingThrow(Dexterity);Advantage(AttackTarget);StatusImmunity(SG_Prone);StatusImmunity(SG_Condition);StatusImmunity(SHOCKWAVE)"
 data "StatusPropertyFlags" "DisableOverhead"
-data "OnApplyFunctors" "RemoveStatus(RAGE);RemoveStatus(SG_Mad);RemoveStatus(UNHOLY_SUBJUGATION);RemoveStatus(POTION_OF_HEALING);RemoveStatus(POTION_OF_HEALING_GREATER);RemoveStatus(POTION_OF_HEALING_SUPERIOR);RemoveStatus(POTION_OF_HEALING_SUPREME);IF(HasPassive('Ashen_One') and not HasStatus('ASHEN_ONE')):RegainHitPoints(MaxHP);RemoveStatus(CPERFORM_POSITIVE);RemoveStatus(CPERFORM_NEGATIVE);RemoveStatus(PERFORMATIVE_INTRO);RemoveStatus(PERFORMATIVE_VERSE);RemoveStatus(PERFORMATIVE_CHORUS);RemoveStatus(CPERFORM_POSITIVE_THEPOWER);RemoveStatus(CPERFORM_POSITIVE_STARGAZING);RemoveStatus(CPERFORM_POSITIVE_BARDDANCE);RemoveStatus(CPERFORM_POSITIVE_DOS2_1);RemoveStatus(CPERFORM_POSITIVE_DOS2_2);RemoveStatus(CPERFORM_POSITIVE_DOS2_3);RemoveStatus(PERFORM_POSITIVE_THEPOWER);RemoveStatus(PERFORM_POSITIVE_STARGAZING);RemoveStatus(PERFORM_POSITIVE_BARDDANCE);RemoveStatus(PERFORM_POSITIVE_DOS2_1);RemoveStatus(PERFORM_POSITIVE_DOS2_2);RemoveStatus(PERFORM_POSITIVE_DOS2_3);RemoveStatus(PERFORM_POSITIVE_THEPOWER_MUTED);RemoveStatus(PERFORM_POSITIVE_STARGAZING_MUTED);RemoveStatus(PERFORM_POSITIVE_BARDDANCE_MUTED);RemoveStatus(PERFORM_POSITIVE_DOS2_1_MUTED);RemoveStatus(PERFORM_POSITIVE_DOS2_2_MUTED);RemoveStatus(PERFORM_POSITIVE_DOS2_3_MUTED)"
+data "OnApplyFunctors" "RemoveStatus(RAGE);RemoveStatus(SG_Mad);RemoveStatus(UNHOLY_SUBJUGATION);RemoveStatus(POTION_OF_HEALING);RemoveStatus(POTION_OF_HEALING_GREATER);RemoveStatus(POTION_OF_HEALING_SUPERIOR);RemoveStatus(POTION_OF_HEALING_SUPREME);IF(HasPassive('Ashen_One') and not HasStatus('ASHEN_ONE')):RegainHitPoints(MaxHP);RemoveStatus(CPERFORM_POSITIVE);RemoveStatus(CPERFORM_NEGATIVE);RemoveStatus(PERFORMATIVE_INTRO);RemoveStatus(PERFORMATIVE_VERSE);RemoveStatus(PERFORMATIVE_CHORUS);RemoveStatus(CPERFORM_POSITIVE_THEPOWER);RemoveStatus(CPERFORM_POSITIVE_STARGAZING);RemoveStatus(CPERFORM_POSITIVE_BARDDANCE);RemoveStatus(CPERFORM_POSITIVE_DOS2_1);RemoveStatus(CPERFORM_POSITIVE_DOS2_2);RemoveStatus(CPERFORM_POSITIVE_DOS2_3);RemoveStatus(PERFORM_POSITIVE_THEPOWER);RemoveStatus(PERFORM_POSITIVE_STARGAZING);RemoveStatus(PERFORM_POSITIVE_BARDDANCE);RemoveStatus(PERFORM_POSITIVE_DOS2_1);RemoveStatus(PERFORM_POSITIVE_DOS2_2);RemoveStatus(PERFORM_POSITIVE_DOS2_3);RemoveStatus(PERFORM_POSITIVE_THEPOWER_MUTED);RemoveStatus(PERFORM_POSITIVE_STARGAZING_MUTED);RemoveStatus(PERFORM_POSITIVE_BARDDANCE_MUTED);RemoveStatus(PERFORM_POSITIVE_DOS2_1_MUTED);RemoveStatus(PERFORM_POSITIVE_DOS2_2_MUTED);RemoveStatus(PERFORM_POSITIVE_DOS2_3_MUTED);RemoveStatus(MARTYRDOM_1);RemoveStatus(MARTYRDOM_2);RemoveStatus(MARTYRDOM_3);RemoveStatus(MARTYRDOM_4);RemoveStatus(MARTYRDOM_5);RemoveStatus(MARTYRDOM_6)"
 data "OnRemoveFunctors" "ResetCombatTurn();RestoreResource(Movement, 100%, 0);RestoreResource(BonusActionPoint, 100%, 0);IF(HasPassive('Ashen_One') and not HasStatus('ASHEN_ONE')):CreateExplosion(Projectile_CrownPhoenixExplosion);IF(HasPassive('Ashen_One') and not HasStatus('ASHEN_ONE')):ApplyStatus(SUNSCORCHED,100,3);IF(HasPassive('Ashen_One') and not HasStatus('ASHEN_ONE')):RestoreResource(ActionPoint, 100%, 0);IF(HasPassive('Ashen_One') and not HasStatus('ASHEN_ONE')):RestoreResource(ReactionActionPoint, 100%, 0);IF(HasPassive('Ashen_One') and not HasStatus('ASHEN_ONE')):ApplyStatus(ASHEN_ONE,100,-1);IF(HasPassive('CT_UnstableSource')):TriggerRandomCast(1,,WildMagicNegative)"
 data "StableRoll" "1d20"
 data "StableRollDC" "10"

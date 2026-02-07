@@ -582,6 +582,12 @@
 	<content contentuid="hc4fc035dg20a0g4cf1gb88cgedf06ed1c4f5" version="1">Selûne's Protection</content>
 	<content contentuid="h431b5b51gfdbdg4380gb856geed9f805f98c" version="3">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Constitution based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;. Each successful &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; you make causes the source of the Saving Throw to take [1].</content>
 
+<!--SOULBOUND CHAIN-->
+	<content contentuid="h94981fe3g720cg4a5dgaaw5e4f6s485ef465" version="1">Soulbound</content>
+	<content contentuid="hf318c6dcg5444gwse5f4se4f6s456e45ew54" version="3">Upon dealing damage, you have a 33% chance to afflict your target with &lt;LSTag Type="Status" Tooltip="SOULBOUND"&gt;Soulbound&lt;/LSTag&gt;.</content>
+	<content contentuid="h94981fe3g720cg4a5dgaaw5e4f6s485ef46z" version="1">Soulbound</content>
+	<content contentuid="hf318c6dcg5444gwse5f4se4f6s456e45ew5z" version="3">Affected creature is unable to utilize their &lt;LSTag Tooltip="MovementSpeed"&gt;Movement&lt;/LSTag&gt; until the end of their next turn.</content>
+
 <!--SHADOW-CLOAKED RING-->
 	<content contentuid="h385fb38fg6a1dg4d66g8c7cg9fd7e85648d9" version="3">Shadowthief</content>
 	<content contentuid="h942d72dag919bg4043g9fddge40e57512f8d" version="6">Dealing damage to Lightly or Heavily Obscured creatures deals an additional +[1] damage. This bonus is always active against creatures made of shadow.</content>
@@ -798,7 +804,7 @@
 	<content contentuid="he78eb6f5ga85eg4943ga3e7gb332e71ba90b" version="3">Reaper's Rigidity</content>
 	<content contentuid="h8a3684e3g1ba1g4c81gb4afgaf3a4f38c557" version="4">You can't be moved against your will. This can be toggled at any time.</content>
 	<content contentuid="h14179d92g21b2g4159g9e39g1163df653d98" version="3">Numbed</content>
-	<content contentuid="hce03c8dcg15a0g4b1cgad79g833917c78c63" version="4">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; has been halved. The Spellcaster has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against the affected entity.&lt;br&gt;&lt;br&gt;Removed if &lt;LSTag Type="Spell" Tooltip="Target_Help"&gt;Helped&lt;/LSTag&gt;.</content>
+	<content contentuid="hce03c8dcg15a0g4b1cgad79g833917c78c63" version="4">Affected creature's &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; has been halved. The Spellcaster has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against the affected entity.&lt;br&gt;&lt;br&gt;Removed if &lt;LSTag Type="Spell" Tooltip="Target_Help"&gt;Helped&lt;/LSTag&gt;.</content>
 
 <!--SELÛNE'S SPEAR OF NIGHT-->
 	<content contentuid="h6afc6040g6189g4d65g9177ga06019e95d13" version="2">Moonmote</content>

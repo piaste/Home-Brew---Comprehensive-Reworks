@@ -358,7 +358,7 @@
 	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b50000a" version="1">Upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, you create one &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Point&lt;/LSTag&gt;. This effect can trigger once per turn.</content>
 
 	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b500002" version="1">Arcane Oppression</content>
-	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b50000b" version="1">After having used &lt;LSTag Type="Passive" Tooltip="CreationaryText"&gt;Creationary&lt;/LSTag&gt;, enemies within [1] of you roll with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; when attempting to resist your Spells effects.</content>
+	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b50000b" version="1">After having used &lt;LSTag Type="Spell" Tooltip="Shout_CreateSpellSlotLVL2"&gt;Spell Channeling&lt;/LSTag&gt; or &lt;LSTag Type="Spell" Tooltip="Shout_CreateSorceryPointsLVL2"&gt;Sorcery Channeling&lt;/LSTag&gt;, enemies within [1] of you roll with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; when attempting to resist your Spells effects.</content>
 	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b5000z2" version="1">Arcane Oppression</content>
 	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b5000zb" version="1">Affected creature is forcing enemies within [1] to roll with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; when attempting to resist the effects of Spells.</content>
 	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b500zz2" version="1">Arcane Oppression</content>
@@ -368,9 +368,7 @@
 	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b50000c" version="1">Once per turn, casting a Spell creates one &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Point&lt;/LSTag&gt;.</content>
 
 	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b500004" version="1">Charismatic Infusion</content>
-	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b50000d" version="1">After having used &lt;LSTag Type="Passive" Tooltip="CreationaryText"&gt;Creationary&lt;/LSTag&gt;, Spells you cast add your &lt;LSTag Tooltip="AbilityModifier"&gt;Charisma Modifier&lt;/LSTag&gt; to their damage rolls.</content>
-	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b5000z4" version="1">Charismatic Infusion</content>
-	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b5000zd" version="1">Affected creature's Spells have their damage increased by a value equal to their &lt;LSTag Tooltip="AbilityModifier"&gt;Charisma Modifier&lt;/LSTag&gt;.</content>
+	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b50000d" version="1">Spells you cast add your &lt;LSTag Tooltip="AbilityModifier"&gt;Charisma Modifier&lt;/LSTag&gt; to their damage rolls.</content>
 
 	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b500005" version="1">Charismatic Shield</content>
 	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b50000e" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to all damage for as long as you have &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Points&lt;/LSTag&gt;. Each time you are damaged by an enemy, you immediately lose one Sorcery Point. This can be toggled at any time.</content>
@@ -414,7 +412,7 @@
 	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b50000p" version="1">When damaged by an enemy, you generate one stack of &lt;LSTag Type="Status" Tooltip="SORCEROUS_OVERFLOW"&gt;Sorcerous Overflow&lt;/LSTag&gt;.</content>
 
 	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b500017" version="1">Shared Creation</content>
-	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b50000q" version="1">&lt;LSTag Type="Passive" Tooltip="CreationaryText"&gt;Creationary&lt;/LSTag&gt; can now target allies.</content>
+	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b50000q" version="1">&lt;LSTag Type="Spell" Tooltip="Shout_CreateSpellSlotLVL2"&gt;Spell Channeling&lt;/LSTag&gt; may now target allies.</content>
 
 	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b500018" version="1">Sorcerous Acumen</content>
 	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b50000r" version="1">Gain the ability to expend one &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Point&lt;/LSTag&gt; to gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on any &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Check&lt;/LSTag&gt;.</content>

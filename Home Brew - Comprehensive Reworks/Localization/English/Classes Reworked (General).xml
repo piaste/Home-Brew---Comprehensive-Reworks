@@ -124,7 +124,7 @@
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000f" version="3">Upon casting a Spell, there is a 10% chance that it will erupt in a violent explosion, damaging everything within [1] of your target.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00007" version="3">Critical Loss</content>
-	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000g" version="3">Reduce the number needed to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; by 2. However, the damage of your Critical Hits is permanently halved.</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000g" version="3">Reduce the number needed to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; by 2 when making a weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;. However, the damage of your Critical Hits is permanently halved.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00008" version="3">Crybaby</content>
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000h" version="3">Upon being damaged while not enraged, you immediately fall &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; and begin to cry. Upon starting your next turn, you become enraged for three turns.</content>
@@ -246,6 +246,22 @@
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f89000an" version="3">You make all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt;, and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Warning: Taking this trait will drastically impact intended game balance.</content>
 
 <!--CHARACTER TRAITS END-->
+
+	<content contentuid="115fb28f01e84e44b3536we568f4s684e8500" version="3">Relinquish Control</content>
+	<content contentuid="115fb28f01e84e44b3536we568f4s684e850o" version="3">Relinquish control of one or more party members, allowing them to act on their own accord.</content>
+
+	<content contentuid="115fb28f01e84e44b3536we568f4s684e8501" version="3">Relinquish Control: Melee</content>
+	<content contentuid="115fb28f01e84e44b3536we568f4s684e850a" version="3">Relinquish control of one or more party members, allowing them to act on their own accord. They will attempt to target enemies from up close.</content>
+	<content contentuid="115fb28f01e84e44b3536we568f4s684e85z1" version="3">Relinquish Control: Melee</content>
+	<content contentuid="115fb28f01e84e44b3536we568f4s684e85za" version="3">Affected creature has had their control relinquished. They will attempt to target enemies from up close.</content>
+
+	<content contentuid="115fb28f01e84e44b3536we568f4s684e8502" version="3">Relinquish Control: Ranged</content>
+	<content contentuid="115fb28f01e84e44b3536we568f4s684e850b" version="3">Relinquish control of one or more party members, allowing them to act on their own accord. They will attempt to target enemies from a distance.</content>
+	<content contentuid="115fb28f01e84e44b3536we568f4s684e85z2" version="3">Relinquish Control: Ranged</content>
+	<content contentuid="115fb28f01e84e44b3536we568f4s684e85zb" version="3">Affected creature has had their control relinquished. They will attempt to target enemies from a distance.</content>
+
+	<content contentuid="115fb28f01e84e44b3536we568f4s684e8503" version="3">Regain Control</content>
+	<content contentuid="115fb28f01e84e44b3536we568f4s684e850c" version="3">Regain control of one or more party members.</content>
 
 	<content contentuid="hba0d4fd0ga762g43bfgb86fg1c9c8982c6b2" version="3">Action</content>
 	<content contentuid="hfcd95fc3g4707g4262g80f7gacb371aa8e92" version="3">Actions are your primary resource in combat.</content>

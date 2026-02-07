@@ -1606,7 +1606,7 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 <!--MISC-->
 	<content contentuid="hc1e12016g745fg425agb531gbbf855247fce" version="1">Cannot use.&lt;br&gt;</content>
 
-	<content contentuid="h4d0c77c3g56aag4077g80c4g3bkjdsifejfd" version="1">Relinquish Control</content>
+	<content contentuid="h4d0c77c3g56aag4077g80c4g3bkjdsifejfd" version="1">Relinquish Control: Summons</content>
 	<content contentuid="h078069acgf62bg4c64g9322938rw9feusjf3" version="1">Relinquish control of your summoned creatures, allowing them to act on their own accord. This effect can be toggled at any time.</content>
 	<content contentuid="h4d0c77c3g56aag4077g80c4g3bkjdsi22d5f" version="1">Summon Buffs</content>
 	<content contentuid="h4d0c77c3g56aag4077g80c4g3bkjdsiff6d8" version="1">Buffs applied to this summon due to the passive effects of their summoner.</content>

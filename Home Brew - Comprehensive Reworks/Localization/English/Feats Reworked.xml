@@ -328,7 +328,9 @@
 <!--GALVANIZED STORMSOUL-->
 
 	<content contentuid="8a87461fd8dd4f5b9098ded714sdf68878d06" version="2">Galvanized Stormsoul</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f60d1fd250f" version="3">Gain &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to both Lightning and Thunder damage. Upon dealing or taking damage, you receive one stack of &lt;LSTag Type="Status" Tooltip="MAG_CHARGED_LIGHTNING"&gt;Lightning Charges&lt;/LSTag&gt;.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f60d1fd250f" version="3">Gain &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to both Lightning and Thunder damage. Upon dealing or taking damage, you receive one stack of &lt;LSTag Type="Status" Tooltip="MAG_CHARGED_LIGHTNING"&gt;Lightning Charges&lt;/LSTag&gt;. In addition, you gain &lt;LSTag Type="Spell" Tooltip="Target_GalvanizedStrike"&gt;Galvanized Storm Strike&lt;/LSTag&gt;.</content>
+	<content contentuid="hcbb02b50g75d3g468fgacb6gs6e54fe65f25" version="2">Galvanized Storm Strike</content>
+	<content contentuid="h53277800gd3a4g4984gbff6g0s5e6fs84ef4" version="3">Strike an enemy, firing &lt;LSTag Type="Spell" Tooltip="Projectile_WitchBolt"&gt;Witch Bolts&lt;/LSTag&gt; at all enemies within [1] of you.</content>
 
 <!--MULTIFACETED-->
 
