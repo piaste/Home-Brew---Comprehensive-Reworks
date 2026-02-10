@@ -616,7 +616,7 @@ data "Description" "791a0319eeed4e25949847ad3a0dd1d10000i;4"
 data "ExtraDescription" "h197f62bbgd1ddg4436g90df5s6s5d4f56f45"
 data "Icon" "Action_MagicItem_ProtectionFromMissiles"
 data "Properties" "IsHidden"
-data "Boosts" "IF(HasPassive('Beastbonds_Precision',GetSummoner(context.Source)) or HasPassive('Beastbonds_Precision_Item',GetSummoner(context.Source))):RollBonus(RangedWeaponAttack, 4);IF(HasPassive('Beastbonds_Precision',GetSummoner(context.Source)) or HasPassive('Beastbonds_Precision_Item)',GetSummoner(context.Source))):RollBonus(RangedOffHandWeaponAttack, 4)"
+data "Boosts" "IF(HasPassive('Beastbonds_Precision',GetSummoner(context.Source)) or HasPassive('Beastbonds_Precision_Item',GetSummoner(context.Source))):RollBonus(RangedWeaponAttack, 4);IF(HasPassive('Beastbonds_Precision',GetSummoner(context.Source)) or HasPassive('Beastbonds_Precision_Item',GetSummoner(context.Source))):RollBonus(RangedOffHandWeaponAttack, 4)"
 
 new entry "Summon_Blood_Bond"
 type "PassiveData"
