@@ -1,3 +1,5 @@
+<!--HIT POINTS-->
+
 new entry "HEALTHBOOST_HARDCORE"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -151,6 +153,8 @@ data "StackPriority" "99"
 data "Boosts" "IF(not Party(context.Source) or not Tagged('HERO', context.Source) or HasPassive('NPCConcentration_End', context.Source)):IncreaseMaxHP((Level*120)-120);IF(not Party(context.Source) or not Tagged('HERO', context.Source) or HasPassive('NPCConcentration_End', context.Source)):IncreaseMaxHP(Level*ConstitutionModifier*12);IF(not Party(context.Source) or not Tagged('HERO', context.Source) or HasPassive('NPCConcentration_End', context.Source)):IncreaseMaxHP(24d12)"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;ApplyToDead;IgnoreResting"
 
+<!--MISC BUFFS-->
+
 new entry "STATBOOST_AC"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -182,6 +186,8 @@ data "DisplayName" "0d725d8aae6a4d4fba9768e69b7difficulty;3"
 data "StackId" "STATBOOST_SAVEDC"
 data "Boosts" "IF((not Party(context.Source) or not Tagged('HERO', context.Source) or HasPassive('NPCConcentration_End', context.Source)) and not CharacterLevelGreaterThan(4)):SpellSaveDC(2);IF((not Party(context.Source) or not Tagged('HERO', context.Source) or HasPassive('NPCConcentration_End', context.Source)) and CharacterLevelGreaterThan(4) and not CharacterLevelGreaterThan(8)):SpellSaveDC(3);IF((not Party(context.Source) or not Tagged('HERO', context.Source) or HasPassive('NPCConcentration_End', context.Source)) and CharacterLevelGreaterThan(8)):SpellSaveDC(4)"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;ApplyToDead;IgnoreResting"
+
+<!--ACTION ECONOMY-->
 
 new entry "ACTION_1"
 type "StatusData"

@@ -248,20 +248,42 @@
 <!--CHARACTER TRAITS END-->
 
 	<content contentuid="115fb28f01e84e44b3536we568f4s684e8500" version="3">Relinquish Control</content>
-	<content contentuid="115fb28f01e84e44b3536we568f4s684e850o" version="3">Relinquish control of one or more party members, allowing them to act on their own accord.</content>
+	<content contentuid="115fb28f01e84e44b3536we568f4s684e85aa" version="3">Relinquish control of one or more party members or summons, allowing them to act of their own accord.</content>
 
-	<content contentuid="115fb28f01e84e44b3536we568f4s684e8501" version="3">Relinquish Control: Melee</content>
-	<content contentuid="115fb28f01e84e44b3536we568f4s684e850a" version="3">Relinquish control of one or more party members, allowing them to act on their own accord. They will attempt to target enemies from up close.</content>
-	<content contentuid="115fb28f01e84e44b3536we568f4s684e85z1" version="3">Relinquish Control: Melee</content>
-	<content contentuid="115fb28f01e84e44b3536we568f4s684e85za" version="3">Affected creature has had their control relinquished. They will attempt to target enemies from up close.</content>
+	<content contentuid="115fb28f01e84e44b3536we568f01target01" version="3">Relinquish Control: Melee</content>
+	<content contentuid="115fb28f01e84e44b3536we568f01target0a" version="3">Relinquish control of one or more party members, allowing them to act of their own accord while in combat. They will attempt to target enemies from up close.</content>
+	<content contentuid="115fb28f01e84e44b3536we568f01targetz1" version="3">Relinquished Control: Melee</content>
+	<content contentuid="115fb28f01e84e44b3536we568f01targetza" version="3">Affected creature has had their control relinquished. They will attempt to target enemies from up close while in combat.</content>
 
-	<content contentuid="115fb28f01e84e44b3536we568f4s684e8502" version="3">Relinquish Control: Ranged</content>
-	<content contentuid="115fb28f01e84e44b3536we568f4s684e850b" version="3">Relinquish control of one or more party members, allowing them to act on their own accord. They will attempt to target enemies from a distance.</content>
-	<content contentuid="115fb28f01e84e44b3536we568f4s684e85z2" version="3">Relinquish Control: Ranged</content>
-	<content contentuid="115fb28f01e84e44b3536we568f4s684e85zb" version="3">Affected creature has had their control relinquished. They will attempt to target enemies from a distance.</content>
+	<content contentuid="115fb28f01e84e44b3536we568f02target01" version="3">Relinquish Control: Melee Support</content>
+	<content contentuid="115fb28f01e84e44b3536we568f02target0a" version="3">Relinquish control of one or more party members, allowing them to act of their own accord while in combat. They will attempt to target enemies from up close, though will focus primarily on support.</content>
+	<content contentuid="115fb28f01e84e44b3536we568f02targetz1" version="3">Relinquished Control: Melee Support</content>
+	<content contentuid="115fb28f01e84e44b3536we568f02targetza" version="3">Affected creature has had their control relinquished. They will attempt to target enemies from up close in combat, though will focus primarily on support.</content>
 
-	<content contentuid="115fb28f01e84e44b3536we568f4s684e8503" version="3">Regain Control</content>
-	<content contentuid="115fb28f01e84e44b3536we568f4s684e850c" version="3">Regain control of one or more party members.</content>
+	<content contentuid="115fb28f01e84e44b3536we568f03target02" version="3">Relinquish Control: Ranged</content>
+	<content contentuid="115fb28f01e84e44b3536we568f03target0b" version="3">Relinquish control of one or more party members, allowing them to act of their own accord while in combat. They will attempt to target enemies from a distance.</content>
+	<content contentuid="115fb28f01e84e44b3536we568f03targetz2" version="3">Relinquished Control: Ranged</content>
+	<content contentuid="115fb28f01e84e44b3536we568f03targetzb" version="3">Affected creature has had their control relinquished. They will attempt to target enemies from a distance while in combat.</content>
+
+	<content contentuid="115fb28f01e84e44b3536we568f04target02" version="3">Relinquish Control: Ranged Support</content>
+	<content contentuid="115fb28f01e84e44b3536we568f04target0b" version="3">Relinquish control of one or more party members, allowing them to act of their own accord while in combat. They will attempt to target enemies from a distance while focusing primarily on support.</content>
+	<content contentuid="115fb28f01e84e44b3536we568f04targetz2" version="3">Relinquished Control: Ranged Support</content>
+	<content contentuid="115fb28f01e84e44b3536we568f04targetzb" version="3">Affected creature has had their control relinquished. They will attempt to target enemies from a distance while in combat though focus primarily on support.</content>
+
+	<content contentuid="115fb28f01e84e44b3536we568f4s01aura01" version="3">Relinquish Control: Summons</content>
+	<content contentuid="115fb28f01e84e44b3536we568f4s01aura0a" version="3">Relinquish control of your summoned creatures passively, allowing them to act of their own accord while in combat based on their equipment and abilities.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Casting this ability again will toggle the effect.</content>
+	<content contentuid="115fb28f01e84e44b3536we568f4s01auraz1" version="3">Relinquished Control: Summoner</content>
+	<content contentuid="115fb28f01e84e44b3536we568f4s01auraza" version="3">Affected creature's summons will act of their own accord while in combat based on their equipment and abilities.</content>
+	<content contentuid="115fb28f01e84e44b3536we568f4s01auray1" version="3">Relinquished Control: Summon</content>
+	<content contentuid="115fb28f01e84e44b3536we568f4s01auraya" version="3">Affected creature has had their control relinquished. They will attempt to target enemies while in combat based on their equipment and abilities.</content>
+
+	<content contentuid="115fb28f01e84e44b3536we568f4recover00" version="3">Relinquish Control: Recovery</content>
+	<content contentuid="115fb28f01e84e44b3536we568f4recoveraa" version="3">Cause creatures who you have relinquished control over to regain their resources at the end each combat encounter.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Casting this ability again will toggle the effect.</content>
+	<content contentuid="115fb28f01e84e44b3536we568f4recoverzz" version="3">Relinquish Control: Recovery</content>
+	<content contentuid="115fb28f01e84e44b3536we568f4recoveryy" version="3">Affected creature will regain their resources at the end each combat encounter.</content>
+
+	<content contentuid="115fb28f01e84e44b3536we568f4sregain00" version="3">Regain Control</content>
+	<content contentuid="115fb28f01e84e44b3536we568f4sregainaa" version="3">Regain control of one or more party members.</content>
 
 	<content contentuid="hba0d4fd0ga762g43bfgb86fg1c9c8982c6b2" version="3">Action</content>
 	<content contentuid="hfcd95fc3g4707g4262g80f7gacb371aa8e92" version="3">Actions are your primary resource in combat.</content>

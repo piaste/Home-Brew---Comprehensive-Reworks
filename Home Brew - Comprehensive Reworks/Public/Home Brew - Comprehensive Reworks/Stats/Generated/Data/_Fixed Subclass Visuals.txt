@@ -1,3 +1,47 @@
+<!--ARTIFICER-->
+
+new entry "ARCANIST_SUBCLASS"
+type "StatusData"
+data "StatusType" "BOOST"
+data "HitAnimationType" "None"
+data "RemoveConditions" "Party(context.Source) and Tagged('HERO', context.Source) and not HasPassive('NPCConcentration_End', context.Source)"
+data "RemoveEvents" "OnTurn;OnMove"
+data "DisplayName" "34523fb3deaa14de1766304e0911fbc49ae33;1"
+data "Icon" "Passive_AlchemicalSavant"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
+
+new entry "ARTILLERIST_SUBCLASS"
+type "StatusData"
+data "StatusType" "BOOST"
+data "HitAnimationType" "None"
+data "RemoveConditions" "Party(context.Source) and Tagged('HERO', context.Source) and not HasPassive('NPCConcentration_End', context.Source)"
+data "RemoveEvents" "OnTurn;OnMove"
+data "DisplayName" "38523fb3deaa14de1766304e0911fbc49ae33;1"
+data "Icon" "Action_SummonFirearm"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
+
+new entry "BATTLESYNTHETIC_SUBCLASS"
+type "StatusData"
+data "StatusType" "BOOST"
+data "HitAnimationType" "None"
+data "RemoveConditions" "Party(context.Source) and Tagged('HERO', context.Source) and not HasPassive('NPCConcentration_End', context.Source)"
+data "RemoveEvents" "OnTurn;OnMove"
+data "DisplayName" "33523fb3deaa14de1766304e0911fbc49ae33;1"
+data "Icon" "Skill_RightToolForTheJob"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
+
+new entry "ARCSMITH_SUBCLASS"
+type "StatusData"
+data "StatusType" "BOOST"
+data "HitAnimationType" "None"
+data "RemoveConditions" "Party(context.Source) and Tagged('HERO', context.Source) and not HasPassive('NPCConcentration_End', context.Source)"
+data "RemoveEvents" "OnTurn;OnMove"
+data "DisplayName" "36523fb3deaa14de1766304e0911fbc49ae33;1"
+data "Icon" "Skill_ArcaneJolt_Damage"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
+
+<!--BARBARIAN-->
+
 new entry "WILDHEART_SUBCLASS"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -37,6 +81,8 @@ data "RemoveEvents" "OnTurn;OnMove"
 data "DisplayName" "h7ee37cc71e0c41a48da2d6df19815c6529e6;1"
 data "Icon" "Action_Barbarian_Rage_WildMagic"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
+
+<!--BARD-->
 
 new entry "CAPTIVATION_SUBCLASS"
 type "StatusData"
@@ -78,6 +124,8 @@ data "DisplayName" "h9250ba68eb664a1cb210c08a3c89e7eeg248;1"
 data "Icon" "PassiveFeature_BardicInspiration_Attack"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
 
+<!--CLERIC-->
+
 new entry "DEATH_SUBCLASS"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -117,6 +165,8 @@ data "RemoveEvents" "OnTurn;OnMove"
 data "DisplayName" "ha4f7ddc08e144bbd89108ce54da37ab1e8ee;1"
 data "Icon" "Action_DivineStrike_Radiant_Melee"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
+
+<!--DRUID-->
 
 new entry "LAND_SUBCLASS"
 type "StatusData"
@@ -158,6 +208,8 @@ data "DisplayName" "ha82b54fa9f7949ce9a572079139362c3046d;1"
 data "Icon" "PassiveFeature_StarMap"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
 
+<!--FIGHTER-->
+
 new entry "ARCANEARCHER_SUBCLASS"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -198,6 +250,8 @@ data "DisplayName" "hb2ff7aec766b4e64b8113c7656e78468c3a3;1"
 data "Icon" "PassiveFeature_MartialAdept"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
 
+<!--MONK-->
+
 new entry "ARCANEWAY_SUBCLASS"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -237,6 +291,8 @@ data "RemoveEvents" "OnTurn;OnMove"
 data "DisplayName" "h3358a14e04844f9598c3eb0f6098f96f160d;1"
 data "Icon" "Action_Monk_ShadowStep"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
+
+<!--PALADIN-->
 
 new entry "ANCIENTS_SUBCLASS"
 type "StatusData"
@@ -288,6 +344,8 @@ data "DisplayName" "hf4ed1f7d36d94c2abcda899d07b9e943ab47;1"
 data "Icon" "PassiveFeature_Hex"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
 
+<!--RANGER-->
+
 new entry "BEASTMASTER_SUBCLASS"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -327,6 +385,8 @@ data "RemoveEvents" "OnTurn;OnMove"
 data "DisplayName" "h437731e40ccf4eed92b833bf3e3a7c8e2e55;1"
 data "Icon" "Action_WrithingTide"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
+
+<!--ROGUE-->
 
 new entry "ARCANETRICKSTER_SUBCLASS"
 type "StatusData"
@@ -368,6 +428,8 @@ data "DisplayName" "hf3a37e1adfa04e18a9f37b5103b8aead7e76;1"
 data "Icon" "GenericIcon_Intent_Utility"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
 
+<!--SORCERER-->
+
 new entry "DRACONIC_SUBCLASS"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -408,6 +470,8 @@ data "DisplayName" "h0c1d71fc32044f7480d64ef77b978f2d1eea;1"
 data "Icon" "Action_BolsteringMagic_Boost"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
 
+<!--WARLOCK-->
+
 new entry "BLADE_SUBCLASS"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -447,6 +511,8 @@ data "RemoveEvents" "OnTurn;OnMove"
 data "DisplayName" "h4eda45b1312b481bbdb967db21001156768a;1"
 data "Icon" "Spell_Abjuration_MagicCircle_Elemental"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
+
+<!--WIZARD-->
 
 new entry "ARCBLADE_SUBCLASS"
 type "StatusData"

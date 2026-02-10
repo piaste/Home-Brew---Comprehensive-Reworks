@@ -870,6 +870,78 @@ data "Icon" "PassiveFeature_IronMind"
 data "Properties" "Highlighted;ForceShowInCC"
 data "Boosts" "Disadvantage(AttackRoll);Disadvantage(AllAbilities);Disadvantage(SavingThrow, Strength);Disadvantage(SavingThrow, Constitution);Disadvantage(SavingThrow, Dexterity);Disadvantage(SavingThrow, Intelligence);Disadvantage(SavingThrow, Wisdom);Disadvantage(SavingThrow, Charisma)"
 
+<!--PARTY AI CONTROL-->
+
+new entry "AssignAI_Melee"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnCombatStarted;OnTurn"
+data "Conditions" "Combat() and not Dead() and not HasStatus('ASSIGNAI_MELEE_ACTUAL', context.Source)"
+data "StatsFunctors" "ApplyStatus(SELF,ASSIGNAI_MELEE_ACTUAL,100,-1)"
+
+new entry "AssignAI_Melee_Remove"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnCombatEnded"
+data "Conditions" "not Dead()"
+data "StatsFunctors" "RemoveStatus(SELF,ASSIGNAI_MELEE_ACTUAL)"
+
+new entry "AssignAI_Melee_Support"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnCombatStarted;OnTurn"
+data "Conditions" "Combat() and not Dead() and not HasStatus('ASSIGNAI_MELEE_SUPPORT_ACTUAL', context.Source)"
+data "StatsFunctors" "ApplyStatus(SELF,ASSIGNAI_MELEE_SUPPORT_ACTUAL,100,-1)"
+
+new entry "AssignAI_Melee_Support_Remove"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnCombatEnded"
+data "Conditions" "not Dead()"
+data "StatsFunctors" "RemoveStatus(SELF,ASSIGNAI_MELEE_SUPPORT_ACTUAL)"
+
+new entry "AssignAI_Ranged"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnCombatStarted;OnTurn"
+data "Conditions" "Combat() and not Dead() and not HasStatus('ASSIGNAI_RANGED_ACTUAL', context.Source)"
+data "StatsFunctors" "ApplyStatus(SELF,ASSIGNAI_RANGED_ACTUAL,100,-1)"
+
+new entry "AssignAI_Ranged_Remove"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnCombatEnded"
+data "Conditions" "not Dead()"
+data "StatsFunctors" "RemoveStatus(SELF,ASSIGNAI_RANGED_ACTUAL)"
+
+new entry "AssignAI_Ranged_Support"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnCombatStarted;OnTurn"
+data "Conditions" "Combat() and not Dead() and not HasStatus('ASSIGNAI_RANGED_SUPPORT_ACTUAL', context.Source)"
+data "StatsFunctors" "ApplyStatus(SELF,ASSIGNAI_RANGED_SUPPORT_ACTUAL,100,-1)"
+
+new entry "AssignAI_Ranged_Support_Remove"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnCombatEnded"
+data "Conditions" "not Dead()"
+data "StatsFunctors" "RemoveStatus(SELF,ASSIGNAI_RANGED_SUPPORT_ACTUAL)"
+
+new entry "AssignAI_Recover"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnCombatStarted;OnTurn"
+data "Conditions" "Combat() and not Dead() and not HasStatus('ASSIGNAI_RECOVER_ACTUAL', context.Source)"
+data "StatsFunctors" "ApplyStatus(SELF,ASSIGNAI_RECOVER_ACTUAL,100,-1)"
+
+new entry "AssignAI_Recover_Remove"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnCombatEnded"
+data "Conditions" "not Dead()"
+data "StatsFunctors" "RemoveStatus(SELF,ASSIGNAI_RECOVER_ACTUAL)"
+
 <!--GENERIC PASSIVE EDITS-->
 
 new entry "AttackOfOpportunity"

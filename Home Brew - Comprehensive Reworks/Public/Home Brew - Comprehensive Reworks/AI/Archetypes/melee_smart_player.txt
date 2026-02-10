@@ -96,8 +96,8 @@ MULTIPLIER_TARGET_INCAPACITATED					1.25
 MULTIPLIER_TARGET_KNOCKED_DOWN					1.25
 MULTIPLIER_TARGET_PREFERRED						4.00
 MULTIPLIER_TARGET_UNPREFERRED					0.50
-MULTIPLIER_TARGET_HEALTH_BIAS					1.00	// How important the current HP of a target is (lower HP = higher score)
-MULTIPLIER_TARGET_ENEMY_DOWNED 					1.25
+MULTIPLIER_TARGET_HEALTH_BIAS					1.25	// How important the current HP of a target is (lower HP = higher score)
+MULTIPLIER_TARGET_ENEMY_DOWNED 					1.50
 MULTIPLIER_TARGET_ALLY_DOWNED 					0.00
 MULTIPLIER_TARGET_NEUTRAL_DOWNED				0.00
 
@@ -108,7 +108,7 @@ MULTIPLIER_ENDPOS_ALLIES_NEARBY					0.00
 ENDPOS_ALLIES_NEARBY_MIN_DISTANCE				1.50 // distance at which being any closer makes no difference
 ENDPOS_ALLIES_NEARBY_MAX_DISTANCE				6.00 // ignore characters beyond this distance
 
-MULTIPLIER_ENDPOS_ENEMIES_NEARBY				0.05
+MULTIPLIER_ENDPOS_ENEMIES_NEARBY				0.10
 ENDPOS_ENEMIES_NEARBY_MIN_DISTANCE				1.50 // distance at which being any closer makes no difference
 ENDPOS_ENEMIES_NEARBY_MAX_DISTANCE				6.00 // ignore characters beyond this distance
 
@@ -134,8 +134,8 @@ MULTIPLIER_FALLBACK_ALLIES_NEARBY				0.00
 FALLBACK_ALLIES_NEARBY_MIN_DISTANCE				3.00 // distance at which being any closer makes no difference
 FALLBACK_ALLIES_NEARBY_MAX_DISTANCE				18.00 // ignore characters beyond this distance
 
-MULTIPLIER_FALLBACK_ENEMIES_NEARBY				0.00
-FALLBACK_ENEMIES_NEARBY_MIN_DISTANCE			3.00 // distance at which being any closer makes no difference
+MULTIPLIER_FALLBACK_ENEMIES_NEARBY				0.35
+FALLBACK_ENEMIES_NEARBY_MIN_DISTANCE			1.50 // distance at which being any closer makes no difference
 FALLBACK_ENEMIES_NEARBY_MAX_DISTANCE			18.00 // ignore characters beyond this distance
 
 FALLBACK_HEIGHT_DIFFERENCE						0.00
@@ -378,7 +378,7 @@ WEAPON_PICKUP_MODIFIER_NO_PROFICIENCY 0.5
 WEAPON_PICKUP_MODIFIER_PARTY_ALLY 0.0
 
 // Modifier used when calculating SightRangeAdditive/Minimum/Override boosts
-MULTIPLIER_BOOST_SIGHT_RANGE 0.10
+MULTIPLIER_BOOST_SIGHT_RANGE 0.05
 
 // Modifier for the DisarmWeapon stats functor
 MULTIPLIER_STATSFUNCTOR_DISARMWEAPON 0.1
