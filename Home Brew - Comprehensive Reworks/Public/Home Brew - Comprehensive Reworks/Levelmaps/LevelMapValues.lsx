@@ -225,6 +225,16 @@
                     <attribute id="UUID" type="guid" value="27889344-110f-4349-a141-39a2b40ac6f7"/>
                 </node>
         <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="2d4"/>
+                    <attribute id="Level3" type="LSString" value="4d4"/>
+                    <attribute id="Level5" type="LSString" value="6d4"/>
+                    <attribute id="Level7" type="LSString" value="8d4"/>
+                    <attribute id="Level9" type="LSString" value="10d4"/>
+                    <attribute id="Level11" type="LSString" value="12d4"/>
+                    <attribute id="Name" type="FixedString" value="GatheredSwarmStorm"/>
+                    <attribute id="UUID" type="guid" value="27889344-110f-4349-a141-39a2b40ac6f7"/>
+                </node>
+        <node id="LevelMapSeries">
                     <attribute id="Level1" type="LSString" value="1d4"/>
                     <attribute id="Level2" type="LSString" value="1d4"/>
                     <attribute id="Level3" type="LSString" value="1d4"/>

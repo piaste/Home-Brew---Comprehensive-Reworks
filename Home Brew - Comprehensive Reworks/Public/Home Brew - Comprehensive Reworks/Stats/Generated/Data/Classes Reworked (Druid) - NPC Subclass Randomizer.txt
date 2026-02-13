@@ -350,7 +350,7 @@ data "TickType" "StartTurn"
 data "RemoveConditions" "Player(context.Source)"
 data "RemoveEvents" "OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
-data "Passives" "Wildshape_Blocker_Randomizer_Moon;Moonbreak;Wild_Smite;Wild_Smite_2;Wild_Smite_3;Wild_Smite_4;Wild_Smite_5;Wild_Smite_6;PrimalStrike;PrimalSpeed;ExtraAttack_2_Lunar;Lunar_Haste"
+data "Passives" "Wildshape_Blocker_Randomizer_Moon;Moonbreak;Wild_Smite;Wild_Smite_2;Wild_Smite_3;Wild_Smite_4;Wild_Smite_5;Wild_Smite_6;PrimalStrike;PrimalSpeed;ExtraAttack_2_Lunar;Lunar_Shift_Cast;Lunar_Shift_Wildshape"
 data "OnApplyFunctors" "ApplyStatus(CASTER_UNLOCK_CIRCLEOFTHEMOON,100,-1);RemoveStatus(MOON_DICE_ROLL)"
 data "TickFunctors" "ApplyStatus(CASTER_UNLOCK_CIRCLEOFTHEMOON,100,-1);RemoveStatus(MOON_DICE_ROLL)"
 

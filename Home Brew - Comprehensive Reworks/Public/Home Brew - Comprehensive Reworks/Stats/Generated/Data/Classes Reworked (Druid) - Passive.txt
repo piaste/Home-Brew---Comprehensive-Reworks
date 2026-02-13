@@ -412,13 +412,25 @@ data "StatsFunctorContext" "OnCast"
 data "Conditions" "SpellId('Shout_DarkUrge_Slayer') or SpellId('Shout_WildShape_Badger') or SpellId('Shout_WildShape_Bear_Polar') or SpellId('Shout_WildShape_Cat') or SpellId('Shout_WildShape_DeepRothe') or SpellId('Shout_WildShape_Dilophosaurus') or SpellId('Shout_WildShape_Dire_Raven') or SpellId('Shout_WildShape_Dire_Wolf') or SpellId('Shout_WildShape_Giant_Spider') or SpellId('Shout_Wildshape_SaberTooth_Tiger') or SpellId('Shout_Wildshape_Panther') or SpellId('Shout_WildShape_Owlbear') or SpellId('Shout_WildShape_Myrmidon_Air') or SpellId('Shout_WildShape_Myrmidon_Earth') or SpellId('Shout_WildShape_Myrmidon_Fire') or SpellId('Shout_WildShape_Myrmidon_Water')"
 data "StatsFunctors" "ApplyStatus(SELF,EXTRAATTACK_LUNAR,100,-1)"
 
-new entry "Lunar_Haste"
+new entry "Lunar_Shift_Cast"
 type "PassiveData"
 data "DisplayName" "h580791fcg0d77g485bg8f6eg4a9w6a5sdf82;2"
 data "Description" "hab01f6f3gbe5ag482ag9399g6asdf4sd5e98;3"
 data "Icon" "PassiveFeature_PrimalStrike"
-data "Properties" "Highlighted"
-data "Boosts" "UnlockSpell(Shout_LunarHaste)"
+data "Properties" "Highlighted;ForceShowInCC"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "HasStatus('SG_Polymorph_BeastShape', context.Source) and IsKillingBlow() and Character() and not Self() and not Ally() or HasStatus('SG_Polymorph_BeastShape', context.Source) and IsCritical() and Character() and not Self() and not Ally()"
+data "StatsFunctors" "ApplyStatus(SELF,LUNAR_SHIFT_CAST,100,-1)"
+
+new entry "Lunar_Shift_Wildshape"
+type "PassiveData"
+data "DisplayName" "h580791fcg0d77g485bg8f6eg4a9w6a5sdf82;2"
+data "Description" "hab01f6f3gbe5ag482ag9399g6asdf4sd5e98;3"
+data "Icon" "PassiveFeature_PrimalStrike"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnCast"
+data "Conditions" "IsSpell() and not IsCantrip() and not HasStatus('SG_Polymorph_BeastShape', context.Source)"
+data "StatsFunctors" "ApplyStatus(SELF,LUNAR_SHIFT_WILDSHAPE,100,-1)"
 
 <!--CIRCLE OF SPORES-->
 

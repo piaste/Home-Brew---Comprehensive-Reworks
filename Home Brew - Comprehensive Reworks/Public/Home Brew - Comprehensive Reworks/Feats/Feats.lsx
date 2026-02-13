@@ -492,7 +492,7 @@
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="RangerGloomstalker"/>
-                    <attribute id="PassivesAdded" type="LSString" value="GloomstalkersInitiative;DreadShot"/>
+                    <attribute id="PassivesAdded" type="LSString" value="GloomstalkersInitiative;GloomstalkersInitiative_Autocrit;GloomstalkersDeceit"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Ranger&apos;)"/>
                     <attribute id="UUID" type="guid" value="07e4218c-fe07-473a-914a-6e53c4e911a0"/>
                 </node>
@@ -504,8 +504,7 @@
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="RangerSwarmkeeper"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Free_Spirited"/>
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(88336457-e15e-4ca2-a587-4d0be18ef78c,1,SwamkeeperSwarmPassive);AddSpells(0902b584-1045-4438-92e4-bc63e67240cb)"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Swarmkeeper_Bee;Swarmkeeper_Jellyfish;Swarmkeeper_Moth;Free_Spirited"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Ranger&apos;)"/>
                     <attribute id="UUID" type="guid" value="2fbf3785-a116-41bc-b696-a50432ec46e2"/>
                 </node>

@@ -9,7 +9,7 @@ data "Boosts" "Proficiency(MusicalInstrument)"
 data "Unique" "1"
 data "UseCosts" "ReactionActionPoint:1;Attunement:2"
 data "StatusOnEquip" "ATTUNEMENT2"
-data "PassivesOnEquip" "Cacaphonous_Performance_1;Cacaphonous_Performance_2;Cacaphonous_Performance_3"
+data "PassivesOnEquip" "Cacaphonous_Performance_1;Cacaphonous_Performance_2;Cacaphonous_Performance_3;Mute_Songs"
 
 new entry "Cacaphonous_Performance_1"
 type "PassiveData"

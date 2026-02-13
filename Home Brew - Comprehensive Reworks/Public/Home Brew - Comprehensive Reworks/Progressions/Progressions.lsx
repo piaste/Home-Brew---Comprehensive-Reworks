@@ -4248,7 +4248,7 @@
         <node id="Progression">
 					<attribute id="Level" type="uint8" value="11" />
 					<attribute id="Name" type="LSString" value="CircleOfTheMoon" />
-					<attribute id="PassivesAdded" type="LSString" value="Lunar_Haste;Wild_Smite_6" />
+					<attribute id="PassivesAdded" type="LSString" value="Lunar_Shift_Cast;Lunar_Shift_Wildshape;Wild_Smite_6" />
 					<attribute id="ProgressionType" type="uint8" value="1" />
 					<attribute id="TableUUID" type="guid" value="ede8583c-434b-4fb2-87a8-af8e0e239d62" />
 					<attribute id="UUID" type="guid" value="106a6045-b868-4dde-95d0-6f92056c4d4a" />
@@ -7362,7 +7362,7 @@
 					<attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,2,2);ActionResource(Attunement,1,0)" />
 					<attribute id="Level" type="uint8" value="5" />
 					<attribute id="Name" type="LSString" value="Ranger" />
-					<attribute id="PassivesAdded" type="LSString" value="ExtraAttack" />
+					<attribute id="PassivesAdded" type="LSString" value="ExtraAttack;HordeBreaker" />
 					<attribute id="ProgressionType" type="uint8" value="0" />
 					<attribute id="Selectors" type="LSString" value="SelectSpells(10a49db5-0f8f-4e19-9e7c-3d4f92f9a8bd,1,0,Cantrips);SelectSpells(4174e244-89fb-46f8-a953-c73cad0a8c56,1,1,Spells);SelectPassives(20a80074-ba3e-412d-8f2d-ca3ea234cb94,1,FrontierBallistics)" />
 					<attribute id="TableUUID" type="guid" value="8f068974-ed32-43fc-a9d9-028be1c01a9c" />
@@ -7372,7 +7372,7 @@
 					<attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,2,2)" />
 					<attribute id="Level" type="uint8" value="5" />
 					<attribute id="Name" type="LSString" value="NPC_Ranger" />
-					<attribute id="PassivesAdded" type="LSString" value="ExtraAttack" />
+					<attribute id="PassivesAdded" type="LSString" value="ExtraAttack;HordeBreaker" />
 					<attribute id="ProgressionType" type="uint8" value="0" />
 					<attribute id="TableUUID" type="guid" value="f0ede459-8b86-48fd-ac11-4432573566a5" />
 					<attribute id="UUID" type="guid" value="4e6c706e-f22a-4306-80ad-42a3f6231dee" />
@@ -7725,7 +7725,7 @@
         <node id="Progression">
 					<attribute id="Level" type="uint8" value="1" />
 					<attribute id="Name" type="LSString" value="GloomStalker" />
-					<attribute id="PassivesAdded" type="LSString" value="ClassProgression_Gloomstalker;GloomstalkersInitiative" />
+					<attribute id="PassivesAdded" type="LSString" value="ClassProgression_Gloomstalker;GloomstalkersInitiative;GloomstalkersInitiative_Autocrit" />
 					<attribute id="ProgressionType" type="uint8" value="1" />
 					<attribute id="TableUUID" type="guid" value="caa60bb8-8ca3-4871-b034-e10a6bc8ca29" />
 					<attribute id="UUID" type="guid" value="eec15b08-4d6a-447d-aa3f-225008c6ac68" />
@@ -7740,7 +7740,7 @@
         <node id="Progression">
 					<attribute id="Level" type="uint8" value="3" />
 					<attribute id="Name" type="LSString" value="GloomStalker" />
-					<attribute id="PassivesAdded" type="LSString" value="DreadShot" />
+					<attribute id="PassivesAdded" type="LSString" value="GloomstalkersDeceit" />
 					<attribute id="ProgressionType" type="uint8" value="1" />
 					<attribute id="TableUUID" type="guid" value="caa60bb8-8ca3-4871-b034-e10a6bc8ca29" />
 					<attribute id="UUID" type="guid" value="38240899-8a43-43e4-927c-9dd0d2fa0a50" />
@@ -7755,7 +7755,7 @@
         <node id="Progression">
 					<attribute id="Level" type="uint8" value="5" />
 					<attribute id="Name" type="LSString" value="GloomStalker" />
-					<attribute id="PassivesAdded" type="LSString" value="GloomstalkersDeceit" />
+					<attribute id="PassivesAdded" type="LSString" value="KillersAlacrity" />
 					<attribute id="ProgressionType" type="uint8" value="1" />
 					<attribute id="TableUUID" type="guid" value="caa60bb8-8ca3-4871-b034-e10a6bc8ca29" />
 					<attribute id="UUID" type="guid" value="0593eba5-10a2-42a7-a5be-260cae52b0e0" />
@@ -7848,7 +7848,7 @@
         <node id="Progression">
 					<attribute id="Level" type="uint8" value="5" />
 					<attribute id="Name" type="LSString" value="Hunter" />
-					<attribute id="PassivesAdded" type="LSString" value="HordeBreaker" />
+					<attribute id="PassivesAdded" type="LSString" value="VolleyUnlock" />
 					<attribute id="ProgressionType" type="uint8" value="1" />
 					<attribute id="TableUUID" type="guid" value="b19bc1ec-d7ee-4023-9f58-5056fd99be24" />
 					<attribute id="UUID" type="guid" value="f35a0ca0-dc04-46b5-b925-3c096ee0eb1b" />
@@ -7878,7 +7878,7 @@
         <node id="Progression">
 					<attribute id="Level" type="uint8" value="9" />
 					<attribute id="Name" type="LSString" value="Hunter" />
-					<attribute id="PassivesAdded" type="LSString" value="VolleyUnlock" />
+					<attribute id="PassivesAdded" type="LSString" value="OntheHunt" />
 					<attribute id="ProgressionType" type="uint8" value="1" />
 					<attribute id="TableUUID" type="guid" value="b19bc1ec-d7ee-4023-9f58-5056fd99be24" />
 					<attribute id="UUID" type="guid" value="68c98f82-7d4b-45c0-8e85-5afea8d9a28f" />
@@ -7893,7 +7893,7 @@
         <node id="Progression">
 					<attribute id="Level" type="uint8" value="11" />
 					<attribute id="Name" type="LSString" value="Hunter" />
-					<attribute id="PassivesAdded" type="LSString" value="OntheHunt" />
+					<attribute id="PassivesAdded" type="LSString" value="TwinnedStrikes" />
 					<attribute id="ProgressionType" type="uint8" value="1" />
 					<attribute id="TableUUID" type="guid" value="b19bc1ec-d7ee-4023-9f58-5056fd99be24" />
 					<attribute id="UUID" type="guid" value="6b85e5f7-73d9-4a4b-97a6-7fd4d7df0d66" />
@@ -7911,9 +7911,9 @@
 		<node id="Progression">
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Swarmkeeper"/>
-					<attribute id="PassivesAdded" type="LSString" value="ClassProgression_Swarmkeeper" />
+					<attribute id="PassivesAdded" type="LSString" value="ClassProgression_Swarmkeeper;Swarmkeeper_Bee;Swarmkeeper_Jellyfish;Swarmkeeper_Moth" />
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(88336457-e15e-4ca2-a587-4d0be18ef78c,1,SwamkeeperSwarmPassive);AddSpells(0902b584-1045-4438-92e4-bc63e67240cb)"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(0902b584-1045-4438-92e4-bc63e67240cb)"/>
                     <attribute id="TableUUID" type="guid" value="54ad9a98-9656-4aa5-858e-b302f83c4577"/>
                     <attribute id="UUID" type="guid" value="4a456e1e-8483-46f8-96d1-fadb37915f15"/>
 					</node>
@@ -7942,8 +7942,8 @@
 		<node id="Progression">
                     <attribute id="Level" type="uint8" value="5"/>
                     <attribute id="Name" type="LSString" value="Swarmkeeper"/>
+                    <attribute id="PassivesAdded" type="LSString" value="EmpoweredSwarms"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(88336457-e15e-4ca2-a587-4d0be18ef78c,1,SwamkeeperSwarmPassive)"/>
                     <attribute id="TableUUID" type="guid" value="54ad9a98-9656-4aa5-858e-b302f83c4577"/>
                     <attribute id="UUID" type="guid" value="8363e8a2-09eb-4ed8-bf22-ac1ed10d0ea8"/>
 					</node>
@@ -7957,7 +7957,7 @@
 		<node id="Progression">
                     <attribute id="Level" type="uint8" value="7"/>
                     <attribute id="Name" type="LSString" value="Swarmkeeper"/>
-                    <attribute id="PassivesAdded" type="LSString" value="EmpoweredSwarms"/>
+                    <attribute id="PassivesAdded" type="LSString" value="WrithingTide"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="54ad9a98-9656-4aa5-858e-b302f83c4577"/>
                     <attribute id="UUID" type="guid" value="c6171bb9-761c-4bd3-89a3-cf92635d9d08"/>
@@ -7972,8 +7972,9 @@
 		<node id="Progression">
                     <attribute id="Level" type="uint8" value="9"/>
                     <attribute id="Name" type="LSString" value="Swarmkeeper"/>
+                    <attribute id="PassivesAdded" type="LSString" value="SuperiorSwarms"/>
+                    <attribute id="PassivesRemoved" type="LSString" value="EmpoweredSwarms"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(88336457-e15e-4ca2-a587-4d0be18ef78c,1,SwamkeeperSwarmPassive)"/>
                     <attribute id="TableUUID" type="guid" value="54ad9a98-9656-4aa5-858e-b302f83c4577"/>
                     <attribute id="UUID" type="guid" value="287b71d2-e1f2-4d58-9a9d-b2be27a7ecb7"/>
 					</node>
@@ -7987,7 +7988,8 @@
 		<node id="Progression">
                     <attribute id="Level" type="uint8" value="11"/>
                     <attribute id="Name" type="LSString" value="Swarmkeeper"/>
-                    <attribute id="PassivesAdded" type="LSString" value="WrithingTide"/>
+                    <attribute id="PassivesAdded" type="LSString" value="AStormofSwarms;Swarmkeeper_Bee_Storm;Swarmkeeper_Jellyfish_Storm;Swarmkeeper_Moth_Storm"/>
+					<attribute id="PassivesRemoved" type="LSString" value="Swarmkeeper_Bee;Swarmkeeper_Jellyfish;Swarmkeeper_Moth" />
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="54ad9a98-9656-4aa5-858e-b302f83c4577"/>
                     <attribute id="UUID" type="guid" value="d611b7ca-2610-463e-98d1-aa71b6d79a7d"/>
@@ -9981,7 +9983,7 @@
         <node id="Progression">
 					<attribute id="Level" type="uint8" value="7" />
 					<attribute id="Name" type="LSString" value="GreatOldOne" />
-					<attribute id="PassivesAdded" type="LSString" value="EntropicWard;ClarifiedMortality" />
+					<attribute id="PassivesAdded" type="LSString" value="HellbladeResonation" />
 					<attribute id="ProgressionType" type="uint8" value="1" />
 					<attribute id="TableUUID" type="guid" value="216e779e-3452-466c-933d-fb5723b90802" />
 					<attribute id="UUID" type="guid" value="1fce5c31-b851-4e47-8dee-4fc0b5bcd1e6" />

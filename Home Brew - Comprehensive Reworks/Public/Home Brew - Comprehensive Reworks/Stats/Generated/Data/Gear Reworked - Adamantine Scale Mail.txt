@@ -8,8 +8,8 @@ data "DefaultBoosts" "Tag(ORI_GALE_CONSUMABLEARTEFACT)"
 data "Rarity" "VeryRare"
 data "Boosts" "CriticalHit(AttackTarget,Success,Never)"
 data "PassivesOnEquip" "ARM_Medium_Constitution;ARM_Medium_Constitution_2;IntrinsicArmoury_Item"
-data "UseCosts" "ReactionActionPoint:1;Attunement:4"
-data "StatusOnEquip" "ARM_MEDIUM_TECHNICAL;ATTUNEMENT4"
+data "UseCosts" "ReactionActionPoint:1;Attunement:3"
+data "StatusOnEquip" "ARM_MEDIUM_TECHNICAL;ATTUNEMENT3"
 data "Unique" "1"
 
 <!--ITEM VARIANT - FEAT REWORK-->

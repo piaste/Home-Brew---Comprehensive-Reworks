@@ -2165,7 +2165,7 @@ data "MinimumDetectionRange" "3"
 data "DarkvisionRange" "0"
 data "FallingHitEffect" "VFX_Combat_Bludgeoning_Damage_Blood_01"
 data "FallingLandEffect" "VFX_Combat_Force_Land_01"
-data "DifficultyStatuses" "; STATUS_EASY: HEALTHBOOST_ALLIEDNPC_EASYMODE"
+data "DifficultyStatuses" "STATUS_EASY: HEALTHBOOST_ALLIEDNPC_EASYMODE"
 data "Progressions" "fa29312c-6ec6-4bf9-9613-6d99feb57467;36c3f8de-3293-4d7b-92bc-ceb3c569244b"
 
 new entry "DEN_ShadowDruid_Ranger_Strong"

@@ -469,6 +469,7 @@ data "Description" "8a87461fd8dd4f5b9098ded714f6c8aa000c0;2"
 data "Icon" "PassiveFeature_Banite_TacticalDiscipline"
 data "Properties" "Highlighted;ForceShowInCC"
 data "StatsFunctorContext" "OnCombatStarted;OnCombatEnded;OnTurn;OnDamaged"
+data "Conditions" "Combat()"
 data "StatsFunctors" "TriggerRandomCast(17,,WildMagicPositive)"
 
 new entry "MasonryofChaos_Damage"
@@ -478,6 +479,7 @@ data "Description" "8a87461fd8dd4f5b9098ded714f6c8aa000c0;2"
 data "Icon" "PassiveFeature_Banite_TacticalDiscipline"
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnDamage"
+data "Conditions" "Combat()"
 data "StatsFunctors" "TriggerRandomCast(SELF,17,,WildMagicPositive)"
 
 <!--MELEE EXPERTISE-->
@@ -747,7 +749,7 @@ data "Icon" "PassiveFeature_Banite_TacticalDiscipline"
 data "Properties" "Highlighted;IsToggled;ToggledDefaultOn;ToggledDefaultAddToHotbar"
 data "Boosts" "IF(context.HasContextFlag(StatsFunctorContext.OnConsumed) and Tagged('HEALING_POTION')):MaximizeHealing(Incoming)"
 data "StatsFunctorContext" "OnDamage"
-data "Conditions" "Tagged('GRENADE')"
+data "Conditions" "Tagged('GRENADE') or Tagged('EXPLOSIVES')"
 data "StatsFunctors" "IF(not CharacterLevelGreaterThan(2)):CreateExplosion(Projectile_Explosion);IF(CharacterLevelGreaterThan(2) and not CharacterLevelGreaterThan(4)):CreateExplosion(Projectile_Explosion_2);IF(CharacterLevelGreaterThan(4) and not CharacterLevelGreaterThan(6)):CreateExplosion(Projectile_Explosion_3);IF(CharacterLevelGreaterThan(6) and not CharacterLevelGreaterThan(8)):CreateExplosion(Projectile_Explosion_4);IF(CharacterLevelGreaterThan(8) and not CharacterLevelGreaterThan(10)):CreateExplosion(Projectile_Explosion_5);IF(CharacterLevelGreaterThan(10)):CreateExplosion(Projectile_Explosion_6)"
 
 <!--ANCHORED FOCUS-->

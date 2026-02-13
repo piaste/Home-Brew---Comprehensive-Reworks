@@ -20,7 +20,7 @@
 
 <!--ATTUNEMENT INTEGRATION-->
 	<content contentuid="hd3a156cc7fbf4a5c985eef63f0c2b99b55g3" version="1">Attunement</content>
-	<content contentuid="h98e3be41aead4b5bb8ee60104126ded4b17d" version="5">Determines your ability to equip magical items. The rarity of the item determines the amount of Attunement required to equip it, with each higher rarity costing more.&lt;br&gt;&lt;br&gt;Uncommon items require one point of Attunement.&lt;br&gt;&lt;br&gt;Rare items require two points of Attunement.&lt;br&gt;&lt;br&gt;Very Rare and Legendary items require four points of Attunement.</content>
+	<content contentuid="h98e3be41aead4b5bb8ee60104126ded4b17d" version="5">Determines your ability to equip magical items. The rarity of the item determines the amount of Attunement required to equip it, with each higher rarity costing more.&lt;br&gt;&lt;br&gt;Uncommon items require one point of Attunement.&lt;br&gt;&lt;br&gt;Rare items require two points of Attunement.&lt;br&gt;&lt;br&gt;Very Rare items require three points of Attunement.&lt;br&gt;&lt;br&gt;Legendary items require four points of Attunement.</content>
 
 	<content contentuid="h9328bdc1gcc66g4369g91f3gf3568b1c5133" version="1">Wyvern Toxin</content>
 	<content contentuid="h057011f1g48a4g48b2g85daga04e5026f87d" version="2">Affected entity takes [1] at the end of its next turn.</content>
@@ -763,7 +763,7 @@
 
 <!--CIRCLET OF HUNTING-->
 	<content contentuid="h9d43e46cg794eg4888ga8e4gc6e7adb48d02" version="2">Hunter's Eye</content>
-	<content contentuid="h598865d5gd110g4ab4gace2g103f74e9a574" version="3">You gain a +[1] bonus to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and roll all damage with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; against creatures marked by &lt;LSTag Type="Status" Tooltip="HUNTERS_MARK"&gt;Hunter's Mark&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="TRUE_STRIKE"&gt;True Strike&lt;/LSTag&gt;, or &lt;LSTag Type="Status" Tooltip="FAERIE_FIRE"&gt;Faerie Fire&lt;/LSTag&gt;.</content>
+	<content contentuid="h598865d5gd110g4ab4gace2g103f74e9a574" version="3">While under the effects of &lt;LSTag Type="Status" Tooltip="TRUE_STRIKE"&gt;True Strike&lt;/LSTag&gt;, you make all Damage Rolls with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
 
 <!--BOOTS OF ARCANE BOLSTERING-->
 	<content contentuid="hc4bee9c1gd891g45d1g8330ga4a2f91c9e56" version="2">Rapid Caster</content>
@@ -2132,7 +2132,7 @@
 	<content contentuid="h90d32ee1gb12bg41d6ga445gf7a02b10e858" version="1">Holy Symbol of Eilistraee</content>
 	<content contentuid="h487c6e70gdebfg4f3ag9afbg4e2251c1e9ab" version="1">A small token dedicated to the drow sword goddess of beauty and freedom.</content>
 	<content contentuid="hca2427eag5ae6g4bdfg801cg74eb4646d6e9" version="1">Moon Maiden's Mark</content>
-	<content contentuid="hc6dbc548g719dg4548g871cg674bd40b61a0" version="1">When dealing damage with shortswords, longswords, or greatswords, deal additional damage equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
+	<content contentuid="hc6dbc548g719dg4548g871cg674bd40b61a0" version="1">When dealing damage with shortswords, longswords, or greatswords, deal additional damage equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; multiplied by two.</content>
 
 	<content contentuid="h7da956f2ga70bg4fe8g988bg4595a7e832a9" version="1">Holy Symbol of Helm</content>
 	<content contentuid="ha116629cg3f8cg4004g830cg4c0fe89f3513" version="1">A worn and weathered copper coin. Despite its age, the symbol of the god Helm is still clearly visible.</content>

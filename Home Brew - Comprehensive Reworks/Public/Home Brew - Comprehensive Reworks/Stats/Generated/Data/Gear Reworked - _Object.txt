@@ -175,11 +175,13 @@ new entry "OBJ_ArrowOfDispelling"
 type "Object"
 using "_Arrow"
 data "RootTemplate" "ac23602b-ceee-4ef3-a6b8-601e40a5aa6f"
+data "UseCosts" "BonusActionPoint:1"
 
 new entry "OBJ_ArrowOfTeleportation"
 type "Object"
 using "_Arrow"
 data "RootTemplate" "4cf7bbbb-1d1b-4bec-b82a-cdc3cce33f7a"
+data "UseCosts" "BonusActionPoint:1"
 
 new entry "OBJ_ArrowOfUndeadSlaying"
 type "Object"

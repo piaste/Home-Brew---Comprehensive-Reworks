@@ -52,6 +52,21 @@ data "Properties" "ApplyStatus(OBSERVER_SOURCE,JELLYFISH_ATTACK_VFX,100,0);DealD
 data "Stack" "OnAttacked"
 data "InterruptDefaultValue" "Enabled"
 
+new entry "Interrupt_GatheredSwarm_Jellyfish_Attack_Storm"
+type "InterruptData"
+data "DisplayName" "hd96c8a80g18f3g49c6ga651gdf1fa48j0002;2"
+data "Description" "hd96c8a80g18f3g49c6ga651gdf1fa48j000b;3"
+data "DescriptionParams" "DealDamage(LevelMapValue(GatheredSwarmStorm),Lightning)"
+data "Icon" "PassiveFeature_Generic_Explosion"
+data "InterruptContext" "OnCastHit"
+data "InterruptContextScope" "Self"
+data "InterruptFlags" "InterruptWhileInvisible"
+data "Container" "YesNoDecision"
+data "Conditions" "IsAbleToReact(context.Observer) and Enemy(context.Source,context.Observer) and CanSee(context.Source,context.Observer) and not IsMiss() and not HasStatus('SG_Invisible',context.Source) and not AnyEntityIsItem() and HasLastAttackTriggered()"
+data "Properties" "ApplyStatus(OBSERVER_SOURCE,JELLYFISH_ATTACK_VFX,100,0);DealDamage(SWAP,LevelMapValue(GatheredSwarmStorm),Lightning)"
+data "Stack" "OnAttacked"
+data "InterruptDefaultValue" "Enabled"
+
 <!--PASSIVES-->
 
 new entry "Interrupt_Ballistic_Infusion"

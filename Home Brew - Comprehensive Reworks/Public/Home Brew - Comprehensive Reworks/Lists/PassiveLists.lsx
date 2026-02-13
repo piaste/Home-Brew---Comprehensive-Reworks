@@ -81,7 +81,7 @@
                     <attribute id="UUID" type="guid" value="27e37640-a012-40f0-8ced-a398640dac75" />
 					</node>
         <node id="PassiveList">
-                    <attribute id="Passives" type="LSString" value="Ambush_Breaker,Ballistic_Infusion,Beastbonds_Precision,Beastial_Foresight,Blood_Bond,Bounty_Hunter,Close_Quarters_Shooter,Escapist,Explosive_Arrowheads,Hidden_Inventory,Marksmans_Edge,Multiattack_Defense,Natural_Huntsman,Natural_Opportunity,Protective_Bond,Sniper,Superior_Technique,Sure_Shot,Two_Weapon_Fighting,Wanton_Synergy" />
+                    <attribute id="Passives" type="LSString" value="Ambush_Breaker,Ballistic_Infusion,Beastbonds_Precision,Beastial_Recovery,Blood_Bond,Bounty_Hunter,Close_Quarters_Shooter,Escapist,Explosive_Arrowheads,Hidden_Inventory,Marksmans_Edge,Multiattack_Defense,Natural_Huntsman,Natural_Opportunity,Protective_Bond,Sniper,Superior_Technique,Sure_Shot,Two_Weapon_Fighting,Wanton_Synergy" />
                     <attribute id="UUID" type="guid" value="fed4c4e9-fbe0-41d6-abc1-ee3dc5b80302" />
 					</node>
         <node id="PassiveList">

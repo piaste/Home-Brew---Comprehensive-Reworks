@@ -244,7 +244,7 @@
 <!--OATHBREAKER-->
 
 	<content contentuid="ha612b54dg48c5g45cegbe8fg273c791e5a41" version="1">Subjugate Creature</content>
-	<content contentuid="h7c01bf17g01deg4907gb001g8280ca511db6" version="3">Use the power of your shattered Oath to exert control over a hostile creature, influencing them to attack their allies.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Status" Tooltip="Tooltip_Dangerous_Encounter"&gt;Dangerous&lt;/LSTag&gt; and &lt;LSTag Type="Passive" Tooltip="Fatal_Encounter"&gt;Fatal&lt;/LSTag&gt; foes cannot be Subjugated.</content>
+	<content contentuid="h7c01bf17g01deg4907gb001g8280ca511db6" version="3">Use the power of your shattered Oath to exert control over a hostile creature, influencing them to attack their allies.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Passive" Tooltip="Fatal_Encounter"&gt;Fatal Encounters&lt;/LSTag&gt; cannot be Subjugated.</content>
 	<content contentuid="hb02ee372ga5eag4cb9g98eegdf84c040f8f1" version="1">Subjugated</content>
 	<content contentuid="hd7ff90f2gdbe7g475aga57ege03e858ceb9f" version="1">Affected creature has had their will bent by an Oathbreaker, influencing it to attack its allies indescriminately.</content>
 

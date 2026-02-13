@@ -1399,7 +1399,7 @@ data "RemoveEvents" "OnTurn;OnMove"
 data "StackId" "PASSIVE4"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
 data "StackType" "Ignore"
-data "Passives" "Beastial_Foresight"
+data "Passives" "Beastial_Recovery_NPC"
 data "OnApplyFunctors" "ApplyStatus(PASSIVE4_RANGER_LIMIT,100,-1)"
 
 new entry "PASSIVE5_RANGER"
