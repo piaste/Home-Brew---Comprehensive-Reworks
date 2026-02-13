@@ -281,8 +281,8 @@
 	<content contentuid="h2fa83a4dg3b80g4eeeg818fg22dd2f5d6d84" version="3">This object shines with a glowing light in a radius of [1], causing it to deal an additional [2].</content>
 
 <!--PERIAPT OF WOUND CLOSURE-->
-	<content contentuid="hddc19688gfbffg473cgbdeeg606fc4f261a2" version="3">Wound Closure</content>
-	<content contentuid="h2fa83a4dg3b80g4eeeg818fg22dd2f5d6d84" version="3">When healed below 25% of your total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;, regain the maximum amount of Hit Points possible.</content>
+	<content contentuid="h4f79a8ceg5817g4e30g9a23g87c5482ebbad" version="3">Wound Closure</content>
+	<content contentuid="hb3742df5g6278g4eedg815fga7d42cb67c90" version="3">When healed below 25% of your total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;, regain the maximum amount of Hit Points possible.</content>
 	<content contentuid="6593b492919e49e9b6dffa5d2a42d2s5d6545" version="1">Wound Closure</content>
 	<content contentuid="h2fa83a4dg3b80g4eeeg818fg22d22d5f6558" version="1">Affected creature will regain the maximum amount of &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; possible when healed.</content>
 
@@ -810,10 +810,6 @@
 	<content contentuid="h6afc6040g6189g4d65g9177ga06019e95d13" version="2">Moonmote</content>
 	<content contentuid="hef065898ge958g4085gb33dg40078b0ee1f4" version="2">Illuminate a [1] area around you with wisps of moonlight that make &lt;LSTag Tooltip="MovementSpeed"&gt;Movement&lt;/LSTag&gt; difficult for enemies and grants your allies an additional [2].</content>
 	<content contentuid="h178f0080gd517g4d54ga81fgcc05500c6285" version="2">At the start of their turn, each hostile creature within the light must succeed a Wisdom based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or they must treat the lit area as &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;.</content>
-
-<!--PERIAPT OF WOUND CLOSURE-->
-	<content contentuid="hf9701d8fgb427g4a4bga02egdd184ff93fd9" version="1">Potent Healing</content>
-	<content contentuid="h2241f33fgb052g41bagb57bg7af4724dc5e3" version="2">Whenever healed while below 25% of your total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;, you restore the maximum number of Hit Points possible.</content>
 
 <!--RESONANCE STONE-->
 	<content contentuid="h6e04194fg95f1g45a1gab21g9a91836d26e3" version="2">Steeped In Bliss</content>
@@ -1551,9 +1547,9 @@
 	<content contentuid="hcbb02b50g75d3g46a0239490wdeuf903w595" version="1">Hellrider</content>
 	<content contentuid="h53277800gd3a4g4984gbf20394ur0w98fsf4" version="2">Upon making a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt; against another creature, &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attacks&lt;/LSTag&gt; are rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; and deal an additional 1d12 damage. Upon making a Melee Weapon Attack against another creature, Ranged Weapon Attacks are rolled with Advantage and deal an additional 1d12 damage.</content>
 	<content contentuid="hcbb02b50g75d3g46a0239490wdeuf903w501" version="1">Hellrider: Melee</content>
-	<content contentuid="hb8bf311cg5a03g46a9g888bgceewe98r9s0a" version="2">Affected creature makes &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attacks&lt;/LSTag&gt; with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; and deals an additional 1d12 damage when doing so.</content>
+	<content contentuid="ha2b1f08fg4d26g44e6g87f6gc498192859a7" version="2">Affected creature makes &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attacks&lt;/LSTag&gt; with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; and deals an additional 1d12 damage when doing so.</content>
 	<content contentuid="hcbb02b50g75d3g46a0239490wdeuf903w502" version="1">Hellrider: Ranged</content>
-	<content contentuid="hb8bf311cg5a03g46a9g888bgceewe98r9s0b" version="2">Affected creature makes &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; and deals an additional 1d12 damage when doing so.</content>
+	<content contentuid="h7a6d6932ge204g4616g9248g132dfdb31e6a" version="2">Affected creature makes &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; and deals an additional 1d12 damage when doing so.</content>
 
 <!--DUELLISTS PREROGATIVE-->
 	<content contentuid="h711045a1g2e51g4ca1gbed0g1f418fa12e6b" version="1">Elegant Duellist</content>

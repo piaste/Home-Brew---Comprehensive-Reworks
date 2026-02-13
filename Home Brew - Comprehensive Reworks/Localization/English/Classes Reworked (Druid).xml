@@ -344,7 +344,7 @@
 	<content contentuid="h4f96e2fag9dd8g4072g965dg95cfefbeb623" version="2">Exposing Bite</content>
 	<content contentuid="h6a2b41c8g2af1g4021g959fgad60a1ab524d" version="2">Creature is distracted. The next attack against this creature from within [1] is guaranteed to be a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
 	<content contentuid="hcb2b874eg1a16g43e5g943dg7f3ff7a61129" version="1">Inciting Howl</content>
-	<content contentuid="hdc0ca278g7840g4ae7gb8fag9b792f46cc43" version="2">Each ally within earshot can move twice as far during their next turn.</content>
+	<content contentuid="h6cf0dc25g9069g4326gb6cag8547ea65c253" version="2">Each ally within earshot can move twice as far during their next turn.</content>
 	<content contentuid="h2bc70a04g9bb0g4ac3g9df7gf00a26cdd35d" version="2">Inciting Howl</content>
 	<content contentuid="h56cdffe6g9623g4647g839ag8cd406319fc5" version="3">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; is doubled.</content>
 
