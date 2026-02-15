@@ -216,8 +216,8 @@
 	<content contentuid="55ce1b701c9642a4a3dbf59a6810157fzz012" version="1">Yokebreaker - Berserker</content>
 	<content contentuid="55ce1b701c9642a4a3dbf59a6810157fzz01b" version="2">Gain &lt;LSTag Type="Status" Tooltip="Tooltip_Frenzy_Rage"&gt;Rage: Frenzy&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Throw_FrenziedThrow"&gt;Frenzied Throw&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_FrenziedStrike"&gt;Frenzied Strike&lt;/LSTag&gt; </content>
 
-	<content contentuid="55ce1b701c9642a4a3dbf59a6810157fzz012" version="1">Class Progression - Frostbreaker</content>
-	<content contentuid="55ce1b701c9642a4a3dbf59a6810157fzz01b" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Shout_Rage_Bifrost"&gt;Rage: Frostbreaker&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="Tooltip_Bifrost_Rage"&gt;Bifrost&lt;/LSTag&gt;, and &lt;LSTag Type="Status" Tooltip="Tooltip_FrigidOmen"&gt;Frigid Omen&lt;/LSTag&gt; </content>
+	<content contentuid="55ce1b701c9642a4a3dbf59a6810157fzz015" version="1">Yokebreaker - Frostbreaker</content>
+	<content contentuid="55ce1b701c9642a4a3dbf59a6810157fzz01e" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Shout_Rage_Bifrost"&gt;Rage: Frostbreaker&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="Tooltip_Bifrost_Rage"&gt;Bifrost&lt;/LSTag&gt;, and &lt;LSTag Type="Status" Tooltip="Tooltip_FrigidOmen"&gt;Frigid Omen&lt;/LSTag&gt; </content>
 
 	<content contentuid="55ce1b701c9642a4a3dbf59a6810157fzz013" version="1">Yokebreaker - Giant's Blood</content>
 	<content contentuid="55ce1b701c9642a4a3dbf59a6810157fzz01c" version="2">Gain &lt;LSTag Type="Status" Tooltip="Tooltip_RageGiantUnlock"&gt;Rage: Giant's Blood&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="Tooltip_Cloudreach"&gt;Cloudreach&lt;/LSTag&gt; </content>
