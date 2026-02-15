@@ -1,0 +1,51 @@
+local __util = require 'larian.util'
+
+function DexModEqualToOne()
+	local dexterityModifier = GetModifier(context.Source.Dexterity)
+	return ConditionResult(dexterityModifier == 1)
+end
+
+function DexModEqualToTwo()
+	local dexterityModifier = GetModifier(context.Source.Dexterity)
+	return ConditionResult(dexterityModifier == 2)
+end
+
+function DexModEqualToThree()
+	local dexterityModifier = GetModifier(context.Source.Dexterity)
+	return ConditionResult(dexterityModifier == 3)
+end
+
+function DexModEqualToFour()
+	local dexterityModifier = GetModifier(context.Source.Dexterity)
+	return ConditionResult(dexterityModifier == 4)
+end
+
+function DexModEqualToFive()
+	local dexterityModifier = GetModifier(context.Source.Dexterity)
+	return ConditionResult(dexterityModifier == 5)
+end
+
+function DexModEqualToSix()
+	local dexterityModifier = GetModifier(context.Source.Dexterity)
+	return ConditionResult(dexterityModifier == 6)
+end
+
+function DexModEqualToSeven()
+	local dexterityModifier = GetModifier(context.Source.Dexterity)
+	return ConditionResult(dexterityModifier == 7)
+end
+
+function DexModEqualToEight()
+	local dexterityModifier = GetModifier(context.Source.Dexterity)
+	return ConditionResult(dexterityModifier == 8)
+end
+
+function DexModEqualToNine()
+	local dexterityModifier = GetModifier(context.Source.Dexterity)
+	return ConditionResult(dexterityModifier == 9)
+end
+
+function DexModEqualToTen()
+	local dexterityModifier = GetModifier(context.Source.Dexterity)
+	return ConditionResult(dexterityModifier == 10)
+end

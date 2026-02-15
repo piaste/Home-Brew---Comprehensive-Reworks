@@ -8021,7 +8021,7 @@
 					<attribute id="Boosts" type="LSString" value="Proficiency(HB_Rogue);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(HeavyArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(Attunement,13,0);ActionResource(LuckPoint,3,0);ActionResource(SneakAttack_Charge,1,0)" />
 					<attribute id="Level" type="uint8" value="1" />
 					<attribute id="Name" type="LSString" value="Rogue" />
-					<attribute id="PassivesAdded" type="LSString" value="Personality_Rogue;Lucky_Rogue_AttackRolls;Lucky_Rogue_Attack_Fixer;Lucky_Rogue_Attacked_Fixer;Lucky_Rogue_Abilities;Nimble_Movement" />
+					<attribute id="PassivesAdded" type="LSString" value="Personality_Rogue;Lucky_Rogue_AttackRolls;Lucky_Rogue_Attack_Fixer;Lucky_Rogue_Attacked_Fixer;Lucky_Rogue_Abilities;Nimble_Movement;Dexterous_Maneuvers" />
 					<attribute id="ProgressionType" type="uint8" value="0" />
 					<attribute id="Selectors" type="LSString" value="SelectPassives(cf44a7c1-3fcb-4fb6-8624-45dd433c11b1,1,Personality);SelectPassives(15eff335-46df-4268-9eea-aabcb6c13025,1,Traits);SelectSkills(f974ebd6-3725-4b90-bb5c-2b647d41615d,4);SelectSkillsExpertise(f974ebd6-3725-4b90-bb5c-2b647d41615d,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,3,1)" />
 					<attribute id="TableUUID" type="guid" value="9a44e828-92db-4d6c-acbc-a4f8ef340415" />
@@ -8051,7 +8051,7 @@
 					<attribute id="Boosts" type="LSString" value="Proficiency(HB_Rogue);ActionResource(Attunement,1,0);ActionResource(LuckPoint,3,0);ActionResource(SneakAttack_Charge,1,0)" />
 					<attribute id="Level" type="uint8" value="1" />
 					<attribute id="Name" type="LSString" value="Rogue" />
-					<attribute id="PassivesAdded" type="LSString" value="Lucky_Rogue_AttackRolls;Lucky_Rogue_Attack_Fixer;Lucky_Rogue_Attacked_Fixer;Lucky_Rogue_Abilities;Nimble_Movement" />
+					<attribute id="PassivesAdded" type="LSString" value="Lucky_Rogue_AttackRolls;Lucky_Rogue_Attack_Fixer;Lucky_Rogue_Attacked_Fixer;Lucky_Rogue_Abilities;Nimble_Movement;Dexterous_Maneuvers" />
 					<attribute id="ProgressionType" type="uint8" value="0" />
 					<attribute id="TableUUID" type="guid" value="9a44e828-92db-4d6c-acbc-a4f8ef340415" />
 					<attribute id="UUID" type="guid" value="cd3d8b16-37ce-4107-a2e3-e729751c2b1c" />
@@ -8078,7 +8078,7 @@
 					<attribute id="Boosts" type="LSString" value="Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(HeavyArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(Attunement,13,0);ActionResource(LuckPoint,3,0);ActionResource(SneakAttack_Charge,1,0)" />
 					<attribute id="Level" type="uint8" value="1" />
 					<attribute id="Name" type="LSString" value="NPC_Rogue" />
-					<attribute id="PassivesAdded" type="LSString" value="Lucky_Rogue_AttackRolls;Lucky_Rogue_Attack_Fixer;Lucky_Rogue_Attacked_Fixer;Lucky_Rogue_Abilities;Nimble_Movement;NPC_Rogue_Subclass;NPCConcentration_End;NPCBlocker_Randomizer" />
+					<attribute id="PassivesAdded" type="LSString" value="Lucky_Rogue_AttackRolls;Lucky_Rogue_Attack_Fixer;Lucky_Rogue_Attacked_Fixer;Lucky_Rogue_Abilities;Nimble_Movement;Dexterous_Maneuvers;NPC_Rogue_Subclass;NPCConcentration_End;NPCBlocker_Randomizer" />
 					<attribute id="ProgressionType" type="uint8" value="0" />
 					<attribute id="TableUUID" type="guid" value="532203c2-7bcb-4162-9a7c-2bb20e227a30" />
 					<attribute id="UUID" type="guid" value="29a49e37-5c9c-4be1-8665-2aac93d4885c" />
