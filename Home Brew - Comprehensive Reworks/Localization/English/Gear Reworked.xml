@@ -516,7 +516,7 @@
 
 <!--THE WATERSPARKERS-->
 	<content contentuid="h4e602986gf231g4d72g9a88g2648d2125ce0" version="3">Sparking Surfaces</content>
-	<content contentuid="h27f55615g490fg4048g9c2bg2d48e238f4da" version="6">The wearer becomes immune to the effects of walking through electrified surfaces. Stepping in water immediately electrifies it. If the wearer starts their turn on an electrified surface, they gain [1] &lt;LSTag Type="Status" Tooltip="MAG_CHARGED_LIGHTNING"&gt;Lightning Charge&lt;/LSTag&gt;.</content>
+	<content contentuid="h27f55615g490fg4048g9c2bg2d48e238f4da" version="6">The wearer becomes immune to the effects of walking through electrified surfaces. While in combat, stepping in water immediately electrifies it. If the wearer starts their turn on an electrified surface, they gain [1] &lt;LSTag Type="Status" Tooltip="MAG_CHARGED_LIGHTNING"&gt;Lightning Charge&lt;/LSTag&gt;.</content>
 
 <!--TRUE LOVES EMBRACE-->
 	<content contentuid="h69fb2ca9g7914g463aga589gbf6a8719a62c" version="3">Lovers Ward</content>

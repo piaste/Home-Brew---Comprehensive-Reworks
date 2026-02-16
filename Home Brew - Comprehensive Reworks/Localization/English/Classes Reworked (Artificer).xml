@@ -9,7 +9,7 @@
 	<content contentuid="66523fb3deaa14de1766304e091849480000a" version="2">The players currently equipped firearm.</content>
 
 	<content contentuid="66523fb3deaa14de1766304e096s5d4f68e54" version="1">Ammunition: 3</content>
-	<content contentuid="77523fb3deaa14de1766304e09s56ef956e84" version="2">Gain three shots of ammunition per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, used to fire your currently equipped firearms unique actions. You may restore your supply of Ammunition by &lt;LSTag Type="Spell" Tooltip="Shout_Reload_Firearm"&gt;Reloading&lt;/LSTag&gt;.</content>
+	<content contentuid="77523fb3deaa14de1766304e09s56ef956e84" version="2">Gain three shots of ammunition to fire your currently equipped firearms unique actions. You may restore your supply of Ammunition by &lt;LSTag Type="Spell" Tooltip="Shout_Reload_Firearm"&gt;Reloading&lt;/LSTag&gt;, or by finishing a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;. Ammunition is also reloaded automatically at the end of each combat encounter.</content>
 
 	<content contentuid="66523fb3deaa14de1766304e0911fbc49ae66" version="1">Artificer</content>
 	<content contentuid="77523fb3deaa14de1766304e0911fbc49ae77" version="2">Masters of invention, artificers use ingenuity and magic to unlock extraordinary capabilities in objects. They see magic as a complex system waiting to be decoded and then harnessed.</content>
@@ -150,7 +150,7 @@
 	<content contentuid="h5b8e00gacb9g46a5sd6f4566s8d5f4s0000c" version="2">Self destruct, causing massive damage to anything nearby when the blast erupts.</content>
 
 	<content contentuid="h509b8e00gacb9g46a5sd65d2df15dff00004" version="1">Gravitron</content>
-	<content contentuid="h5b8e00gacb9g46a5sd6f4566s8d5f4s0000d" version="2">Pull all nearby creatures toward you.</content>
+	<content contentuid="h5b8e00gacb9g46a5sd6f4566s8d5f4s0000d" version="2">Pull all nearby enemies toward you.</content>
 
 	<content contentuid="h509b8e00gacb9g46a5sd654s6d54f6w8s4ef" version="1">I'M SORRY, FATHER!</content>
 	<content contentuid="h5b8e00gacb9g46a5sd6f456awe6we8f48454" version="2">Lil' G feels terrible about what he has to do, but do it he will!</content>

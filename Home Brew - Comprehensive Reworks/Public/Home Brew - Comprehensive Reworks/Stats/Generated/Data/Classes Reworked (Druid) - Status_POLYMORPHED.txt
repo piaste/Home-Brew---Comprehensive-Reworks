@@ -14,7 +14,6 @@ data "StatusGroups" "SG_Polymorph_BeastShape;SG_DropForNonMutingDialog;SG_Remove
 data "ApplyEffect" "f515b011-9b9d-462c-85e1-a79bc9055962"
 data "Passives" "Wildshape_Swap;Wildshape_Swap_Applicator;Wildshape_Badger_TunnelVision"
 data "OnApplyFunctors" "RemoveStatus(LIGHTSENSITIVITY_BUFF);IF(not Player()):UseActionResource(BonusActionPoint,1,0);IF(not Player()):UseActionResource(WildShape,1,0);IF(not HasStatus('WILDSHAPE_SWAP', context.Source)):ApplyStatus(WILDSHAPE_SWAP,100,10);IF(Tagged('REALLY_KARLACH')):ApplyStatus(FIRE_VFX,100,-1)"
-data "OnRemoveFunctors" "RemoveStatus(KNOCKED_OUT);RemoveStatus(UNCONSCIOUS)"
 data "StackId" "WILDSHAPE"
 data "StackType" "Ignore"
 

@@ -1534,6 +1534,198 @@
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115200960758167" />
 				</node>
+				<node id="GameObjects">
+					<attribute id="Archetype" type="FixedString" value="melee_large" />
+					<attribute id="Icon" type="FixedString" value="7995c0e9-0bf8-3c35-b406-8389201d3c44-_(Icon_Demon_Raphael)" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="6c82f01b-d201-6666-0001-000000000001" />
+					<attribute id="Name" type="LSString" value="CDemon_Wildshape_1" />
+					<attribute id="ParentTemplateId" type="FixedString" value="f5e9cb22-70c4-46ba-bff8-ed9fe8dfb1c8" />
+					<attribute id="SpellSet" type="FixedString" value="" />
+					<attribute id="Stats" type="FixedString" value="CDemon_Wildshape_1" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115200960758167" />
+					<attribute id="Scale" type="float" value="0.67" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="2.4997559" />
+									<attribute id="Max" type="fvec3" value="0.5 1.5 1.25" />
+									<attribute id="Min" type="fvec3" value="-0.5 0 -1.25" />
+									<attribute id="Radius" type="float" value="1.4661329" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="1.5" />
+									<attribute id="Max" type="fvec3" value="0.4962784 1.3047867 1.1385849" />
+									<attribute id="Min" type="fvec3" value="-0.49627817 0.005030632 -1.1780903" />
+									<attribute id="Radius" type="float" value="1.2" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="1.5" />
+									<attribute id="Max" type="fvec3" value="0.4962784 1.3047867 1.1385849" />
+									<attribute id="Min" type="fvec3" value="-0.49627817 0.005030632 -1.1780903" />
+									<attribute id="Radius" type="float" value="0.249" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams">
+							<attribute id="UseStandAtDestination" type="bool" value="True" />
+						</node>
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="02cdc15e-1dc3-5eb4-f73c-9458b4f90b9f" />
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="04ae77c4-f708-4ffa-8b8c-763b062a2e6e" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="6c82f01b-d201-6666-0001-000000000002" />
+					<attribute id="Name" type="LSString" value="CDemon_Wildshape_2" />
+					<attribute id="ParentTemplateId" type="FixedString" value="6c82f01b-d201-6666-0001-000000000001" />
+					<attribute id="Stats" type="FixedString" value="CDemon_Wildshape_2" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="6c82f01b-d201-6666-0001-000000000003" />
+					<attribute id="Name" type="LSString" value="CDemon_Wildshape_3" />
+					<attribute id="ParentTemplateId" type="FixedString" value="6c82f01b-d201-6666-0001-000000000002" />
+					<attribute id="Stats" type="FixedString" value="CDemon_Wildshape_3" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="6c82f01b-d201-6666-0001-000000000004" />
+					<attribute id="Name" type="LSString" value="CDemon_Wildshape_4" />
+					<attribute id="ParentTemplateId" type="FixedString" value="6c82f01b-d201-6666-0001-000000000003" />
+					<attribute id="Stats" type="FixedString" value="CDemon_Wildshape_4" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="6c82f01b-d201-6666-0001-000000000005" />
+					<attribute id="Name" type="LSString" value="CDemon_Wildshape_5" />
+					<attribute id="ParentTemplateId" type="FixedString" value="6c82f01b-d201-6666-0001-000000000004" />
+					<attribute id="Stats" type="FixedString" value="CDemon_Wildshape_5" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="6c82f01b-d201-6666-0001-000000000006" />
+					<attribute id="Name" type="LSString" value="CDemon_Wildshape_6" />
+					<attribute id="ParentTemplateId" type="FixedString" value="6c82f01b-d201-6666-0001-000000000005" />
+					<attribute id="Stats" type="FixedString" value="CDemon_Wildshape_6" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="6c82f01b-d201-6666-0001-000000000007" />
+					<attribute id="Name" type="LSString" value="CDemon_Wildshape_7" />
+					<attribute id="ParentTemplateId" type="FixedString" value="6c82f01b-d201-6666-0001-000000000006" />
+					<attribute id="Stats" type="FixedString" value="CDemon_Wildshape_7" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="6c82f01b-d201-6666-0001-000000000008" />
+					<attribute id="Name" type="LSString" value="CDemon_Wildshape_8" />
+					<attribute id="ParentTemplateId" type="FixedString" value="6c82f01b-d201-6666-0001-000000000007" />
+					<attribute id="Stats" type="FixedString" value="CDemon_Wildshape_8" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="6c82f01b-d201-6666-0001-000000000009" />
+					<attribute id="Name" type="LSString" value="CDemon_Wildshape_9" />
+					<attribute id="ParentTemplateId" type="FixedString" value="6c82f01b-d201-6666-0001-000000000008" />
+					<attribute id="Stats" type="FixedString" value="CDemon_Wildshape_9" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="6c82f01b-d201-6666-0001-000000000010" />
+					<attribute id="Name" type="LSString" value="CDemon_Wildshape_10" />
+					<attribute id="ParentTemplateId" type="FixedString" value="6c82f01b-d201-6666-0001-000000000009" />
+					<attribute id="Stats" type="FixedString" value="CDemon_Wildshape_10" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="6c82f01b-d201-6666-0001-000000000011" />
+					<attribute id="Name" type="LSString" value="CDemon_Wildshape_11" />
+					<attribute id="ParentTemplateId" type="FixedString" value="6c82f01b-d201-6666-0001-000000000010" />
+					<attribute id="Stats" type="FixedString" value="CDemon_Wildshape_11" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="6c82f01b-d201-6666-0001-000000000012" />
+					<attribute id="Name" type="LSString" value="CDemon_Wildshape_12" />
+					<attribute id="ParentTemplateId" type="FixedString" value="6c82f01b-d201-6666-0001-000000000011" />
+					<attribute id="Stats" type="FixedString" value="CDemon_Wildshape_12" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
 			</children>
 		</node>
 	</region>

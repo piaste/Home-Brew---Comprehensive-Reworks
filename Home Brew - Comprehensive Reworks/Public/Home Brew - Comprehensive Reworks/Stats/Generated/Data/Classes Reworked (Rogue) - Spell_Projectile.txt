@@ -1,3 +1,30 @@
+<!--HIDDEN TOXICANT-->
+
+new entry "Projectile_ToxicEruption"
+type "SpellData"
+data "SpellType" "Projectile"
+data "TargetFloor" "-1"
+data "TargetRadius" "18"
+data "ExplodeRadius" "3"
+data "SpellRoll" "DamageBonus(ClassLevel(Rogue), Poison);ApplyStatus(TOXICITY,100,3)"
+data "TargetConditions" "not Self() and Enemy() and not Dead()"
+data "Trajectories" "0be6e4d7-55fe-4ee0-8acc-94fc3b474817,78f998fb-2bb4-c8bd-c170-fcd899abc905,a62c27e3-86c0-db69-8f04-0ea3074cae7a"
+data "Icon" "Spell_2e_PuffOfPoison"
+data "DisplayName" "hedbd9f3fgf4d8g4f16gb02we68f4s6500006;1"
+data "Description" "hf081aa54g2345s4e6f84s6e2f1e87f40000f;1"
+data "TooltipDamageList" "DamageBonus(ClassLevel(Rogue), Poison)"
+data "CastSound" "Spell_Cast_Damage_Physical_HailOfThorns_L1to3"
+data "CastTextEvent" "Cast"
+data "CycleConditions" "Enemy() and not Dead()"
+data "UseCosts" ""
+data "SpellAnimation" "a0be34b6-48c6-4ff7-a57a-b2e9fccbdda0,,;ceace50f-ceef-4cdd-9995-b18aed12acd5,,;71cc648d-73f2-4db8-ae9f-76e649c7613f,,;7765e1e7-f20a-4323-af19-ad3752626797,,;a097bbc5-568d-4c01-a84d-56960e2f6545,,;,,;f920a0a6-f257-4ce4-8d17-2dcaa7bb7bbb,,;,,;,,"
+data "VerbalIntent" "Damage"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "HasHighGroundRangeExtension;HasVerbalComponent;RangeIgnoreVerticalThreshold;IsHarmful;IgnoreSilence;Stealth;Invisible"
+data "SpellAnimationIntentType" "Aggressive"
+data "DamageType" "Poison"
+data "Sheathing" "Ranged"
+
 <!--PASSIVES-->
 
 new entry "Projectile_CunningFangs"

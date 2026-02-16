@@ -121,6 +121,35 @@ data "Icon" "Action_InfiltrationExpertise"
 data "TickType" "EndTurn"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;TickingWithSource"
 
+<!--HIDDEN TOXICANT-->
+
+new entry "TOXICITY"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hedbd9f3fgf4d8g4f16gb02we68f4s6500021;1"
+data "Description" "hf081aa54g2345s4e6f84s6e2f1e87f40002a;2"
+data "Icon" "Spell_2e_PuffOfPoison"
+data "TickType" "EndTurn"
+data "Boosts" "IF(HasPassive('PoisonousFoothold', context.Source)):BlockRegainHP(Living;Undead)"
+data "StatusPropertyFlags" "FreezeDuration"
+data "StackId" "TOXICITY"
+data "StackType" "Additive"
+data "RemoveEvents" "OnCombatEnded"
+data "StatusGroups" "SG_Physical;SG_Restrained;SG_Poisoned"
+data "ManagedStatusEffectType" "Negative"
+data "ManagedStatusEffectGroup" "d787f666-8ee6-4185-9365-6aac9ebe76ae"
+
+new entry "TOXICERUPTION"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hedbd9f3fgf4d8g4f16gb02we68f4s6500006;1"
+data "Description" "hf081aa54g2345s4e6f84s6e2f1e87f40000f;1"
+data "Icon" "Spell_2e_PuffOfPoison"
+data "StackId" "TOXICERUPTION"
+data "OnRemoveFunctors" "IF(RemoveCause(StatusRemoveCause.Death)):SwitchDeathType(Explode);IF(RemoveCause(StatusRemoveCause.Death)):ApplyStatus(CORPSE_USED,100,-1);IF(RemoveCause(StatusRemoveCause.Death) and not Summon()):CreateExplosion(Projectile_ToxicEruption)"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "StackType" "Overwrite"
+
 <!--MERCENARY-->
 
 new entry "SWASHBUCKLER_ADV"

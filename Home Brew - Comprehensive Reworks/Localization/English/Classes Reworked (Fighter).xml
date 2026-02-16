@@ -17,7 +17,7 @@
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f500xxv" version="2">The &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt; of Spells and Conditions you apply increases by 1 and scales with your levels in Fighter. This bonus is increased to 2 at level five, and 3 at level nine.</content>
 
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f59a644" version="2">Action Surge</content>
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f593kdd" version="2">Once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, gain an additional &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt;.</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f593kdd" version="2">Once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, restore your &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt;.</content>
 
 <!--ARCANE ARCHER-->
 
@@ -156,24 +156,59 @@
 	<content contentuid="h0f5c3539g18bbg4891ga824g827151a6a688" version="2">Challenger's Presence</content>
 	<content contentuid="h93857089gb140g4c33ga0a9g26fde3fdfd58" version="7">Affected creature has &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to all forms of physical damage. However, enemies have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; when making &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against them.</content>
 
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209a6a9965" version="1">Champion's Windstorm</content>
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204a9a6454" version="8">Once per combat encounter, upon dropping to 50% of your total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;, you restore [1] Hit Points at the end of your turn. The amount of dice rolled is equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;. In addition to this, you gain &lt;LSTag Type="Spell" Tooltip="Shout_SecondWind"&gt;Champion's Windstorm&lt;/LSTag&gt;.</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209a6a9965" version="1">Champion's Repertoire</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204a9a6454" version="8">Gain &lt;LSTag Type="Spell" Tooltip="Shout_CSecondWind"&gt;Champion's Windstorm&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_SecondWind"&gt;Rallying Cry&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Shout_SecondWind"&gt;Batallion's March&lt;/LSTag&gt;.</content>
 	<content contentuid="h9a3262d9g1cf8g40d2gae47ga2703e761c79" version="1">Champion's Windstorm</content>
-	<content contentuid="h87c9d35ag7914g4efegb53cgf06381ff4b6e" version="8">Once per combat encounter, restore [1] &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;. The amount of dice rolled is equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
-
-	<content contentuid="h86a825dagb852g4f68g847cg41fcba29a654" version="1">Challenger's Presence</content>
-	<content contentuid="hf12dfcdfg3774g4f31g849cg8c09c2112a35" version="9">Killing a &lt;LSTag Type="Status" Tooltip="CHALLENGERS_CALL"&gt;Challenged&lt;/LSTag&gt; enemy refreshes the cooldown of both &lt;LSTag Type="Spell" Tooltip="Shout_SecondWind"&gt;Champion's Windstorm&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Shout_ImprovedActionSurge"&gt;Champion's Surge&lt;/LSTag&gt;.</content>
-
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209a693ood" version="1">Champion's Surge</content>
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204a9020dd" version="8">Once per combat encounter, gain an additional &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt;.</content>
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209a693ffd" version="1">Champion's Surge</content>
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204a902ffd" version="8">Once per combat encounter, gain an additional &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt;.</content>
+	<content contentuid="h87c9d35ag7914g4efegb53cgf06381ff4b6e" version="8">Restore [1] &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;. The amount of dice rolled is equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
+	<content contentuid="h9a3262d9g1cf8g40d2gae47ga27065sd48e2" version="1">Rallying Cry</content>
+	<content contentuid="h87c9d35ag7914g4efegb53s45ef5s84ef84f" version="8">&lt;LSTag Type="Status" Tooltip="RALLY"&gt;Rally&lt;/LSTag&gt; all allies within [1] of you.</content>
+	<content contentuid="h9a3262d9g1cf8gs56e4f484fa27065sd48e2" version="1">Battalion's March</content>
+	<content contentuid="h87c9d35ag7914g4efegbfsfe5845s84ef84f" version="8">Grant all allies within [1] of you &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; for three turns.</content>
+	<content contentuid="h9a3262d9g1cf8gs56e4f484fa27065sdzzz2" version="1">Battalion's March</content>
+	<content contentuid="h87c9d35ag7914g4efegbfsfe5845s84ezzzf" version="8">Affected creature has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
 
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f578454" version="1">Challenger's Call</content>
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f584544" version="3">Attempt to &lt;LSTag Type="Status" Tooltip="CHALLENGERS_CALL"&gt;Challenge&lt;/LSTag&gt; a nearby enemy, as well as any additional enemies within [1] of them.</content>
 
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209a693ood" version="1">Champion's Surge</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204a9020dd" version="8">When targeting a &lt;LSTag Type="Status" Tooltip="CHALLENGERS_CALL"&gt;Challenging&lt;/LSTag&gt; enemy, you make both your &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and Damage Rolls with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h86a825dagb852g4f68g847cg41fcba29a654" version="1">Challenger's Presence</content>
+	<content contentuid="hf12dfcdfg3774g4f31g849cg8c09c2112a35" version="9">Killing a &lt;LSTag Type="Status" Tooltip="CHALLENGERS_CALL"&gt;Challenged&lt;/LSTag&gt; enemy refreshes the cooldown of your actions which require a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
+
 	<content contentuid="hf222df47g5060g4a4bg918egf8dbdc6a885f" version="2">Champion's Indomitability</content>
 	<content contentuid="hd0776e74g8eeeg435fgad4eg5b7fa3aa4654" version="2">Whenever you fail a &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;, you can roll again, using the new result instead. In addition to this, add your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; to all &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
+
+<!--DRACONIC SENTINEL-->
+
+	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e00000" version="3">Draconic Sentinel</content>
+	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur00000" version="1">Draconic strength begets it's own crucible - the wingbeats of wizened beasts who now lend you their power drum a march of war ever closer toward your victories.</content>
+
+	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e00001" version="3">Body of the Lancer</content>
+	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur0000a" version="1">Leap upon your enemies from afar with &lt;LSTag Type="Spell" Tooltip="Target_SkyboundDive"&gt;Draconic Dive&lt;/LSTag&gt;.</content>
+	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e000z1" version="3">Draconic Dive</content>
+	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur000za" version="1">Leap upon your targets from afar, bringing your fury down on all within [1] of where you land.</content>
+
+	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e00002" version="3">Wyrmcall Resonance</content>
+	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur0000b" version="1">Upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, you gain &lt;LSTag Type="Status" Tooltip="WYRMCALL_RESONANCE"&gt;Wyrmcall Resonance&lt;/LSTag&gt; until the end of your current turn.</content>
+	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e000z2" version="3">Wyrmcall Resonance</content>
+	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur000zb" version="1">Affected creature may use their Draconic abilities as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;. In addition, their melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; have double the reach that they normally would.</content>
+
+	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e00003" version="3">Mind of the Wizened</content>
+	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur0000c" version="1">Run your enemies through with &lt;LSTag Type="Spell" Tooltip="Rush_DraconicBlitz"&gt;Draconic Blitz&lt;/LSTag&gt;.</content>
+	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e000z3" version="3">Draconic Blitz</content>
+	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur000zc" version="1">Run your enemies through, dealing damage to each target.</content>
+
+	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e00004" version="3">Wyrmcall Recovery</content>
+	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur0000d" version="1">Triggering &lt;LSTag Type="Status" Tooltip="WYRMCALL_RESONANCE"&gt;Wyrmcall Resonance&lt;/LSTag&gt; immediately puts you into a state of &lt;LSTag Type="Status" Tooltip="SECOND_WIND"&gt;Second Wind&lt;/LSTag&gt;. In addition, Second Wind now grants you an additional &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; before it expires.</content>
+
+	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e00005" version="3">Soul of the Dragon</content>
+	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur0000e" version="1">Utterly decimate your enemies with &lt;LSTag Type="Spell" Tooltip="Target_DraconicMaul"&gt;Draconic Maul&lt;/LSTag&gt;.</content>
+	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e000z5" version="3">Draconic Maul</content>
+	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur000ze" version="1">Utterly decimate your target, mauling them in draconic fury.</content>
+
+	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e00006" version="3">Wyrmcall Breakpoint</content>
+	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur0000f" version="1">Each of your draconic abilities now cause a [1] shockwave, knocking foes &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;. Upon killing a Prone target, you may immediately use any of your draconic abilities once as a free action.</content>
 
 <!--ELDRITCH KNIGHT-->
 
@@ -181,9 +216,9 @@
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204a9288rd" version="8">When making a melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, deal additional damage equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Charisma Modifier&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h86a825dagb852g4f68g847cg41fcba26a85d" version="1">From Beyond</content>
-	<content contentuid="hf12dfcdfg3774g4f31g849cg8c09c21as6df" version="9">After using a manoeuvre, gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; for three turns.</content>
+	<content contentuid="hf12dfcdfg3774g4f31g849cg8c09c21as6df" version="9">After using a manoeuvre, gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; and double the reach of your melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; for three turns.</content>
 	<content contentuid="h86a825dagb852g4f68g847cg41fcba2a6d22" version="1">From Beyond</content>
-	<content contentuid="hf12dfcdfg3774g4f31g849cg8c09c21sdf88" version="9">Affected creature has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
+	<content contentuid="hf12dfcdfg3774g4f31g849cg8c09c21sdf88" version="9">Affected creature has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;. In addition, their basic &lt;LSTag Type="Spell" Tooltip="Target_MainHandAttack"&gt;Melee Attacks&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_UnarmedAttack"&gt;Unarmed Strikes&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_OffhandAttack"&gt;Dual-Wield Melee Attacks&lt;/LSTag&gt; can reach twice as far.</content>
 
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f5asdff" version="1">Ex Oblivione</content>
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f565495" version="3">Activating &lt;LSTag Type="Spell" Tooltip="Shout_ActionSurge"&gt;Action Surge&lt;/LSTag&gt; restores your &lt;LSTag Tooltip="WarlockSpellSlot"&gt;Warlock Spell Slots&lt;/LSTag&gt;.</content>
@@ -404,11 +439,11 @@
 	<content contentuid="h2025a1d6g8c3cg43a6ga1a0g3bc39be9704d" version="3">Attack your target with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
 
 	<content contentuid="hcf2c63a0g4d0cg4542ga28dgd2f3d0721588" version="1">Lunging Attack</content>
-	<content contentuid="ha919c46dg8ce9g4f94gaba7g707215b47ae9" version="1">Spend a &lt;LSTag Type="ActionResource" Tooltip="SuperiorityDie"&gt;Superiority Die&lt;/LSTag&gt; to double the reach of your basic &lt;LSTag Type="Spell" Tooltip="Target_MainHandAttack"&gt;Melee Attacks&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_UnarmedAttack"&gt;Unarmed Strikes&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_OffhandAttack"&gt;Dual-Wield Melee Attacks&lt;/LSTag&gt; for three turns.</content>
+	<content contentuid="ha919c46dg8ce9g4f94gaba7g707215b47ae9" version="1">Spend a &lt;LSTag Type="ActionResource" Tooltip="SuperiorityDie"&gt;Superiority Die&lt;/LSTag&gt; to double the reach of your melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; for three turns.</content>
 	<content contentuid="hcf2c63a0g4d0cg4542ga28dgd2f3d0721589" version="1">Lunging Attack</content>
-	<content contentuid="h9b81e5d2g1f51g4b54g9726g4f3aa7fe284b" version="1">Double the reach of your &lt;LSTag Type="Spell" Tooltip="Target_MainHandAttack"&gt;Melee Attacks&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_UnarmedAttack"&gt;Unarmed Strikes&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_OffhandAttack"&gt;Dual-Wield Melee Attacks&lt;/LSTag&gt;.</content>
+	<content contentuid="h9b81e5d2g1f51g4b54g9726g4f3aa7fe284b" version="1">Double the reach of your melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
 	<content contentuid="hcf2c63a0g4d0cg4542ga28dgd2f3d0721590" version="1">Lunging Attack</content>
-	<content contentuid="h9b81e5d2g1f51g4b54g9726g4f3aa7fe284c" version="1">Affected creature's &lt;LSTag Type="Spell" Tooltip="Target_MainHandAttack"&gt;Melee Attacks&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_UnarmedAttack"&gt;Unarmed Strikes&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_OffhandAttack"&gt;Dual-Wield Melee Attacks&lt;/LSTag&gt; have double the reach that they normally would.</content>
+	<content contentuid="h9b81e5d2g1f51g4b54g9726g4f3aa7fe284c" version="1">Affected creature's melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; have double the reach that they normally would.</content>
 
 	<content contentuid="h7f650588g406ag4112g86c3g9d962ce7d68a" version="1">Manoeuvring Attack</content>
 	<content contentuid="h633bfc7ag36afg4282g8654g312ee0d5f75e" version="3">Spend an &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt; and &lt;LSTag Type="ActionResource" Tooltip="SuperiorityDie"&gt;Superiority Die&lt;/LSTag&gt; to make an attack. After a successful hit, you may select an ally to use &lt;LSTag Type="Spell" Tooltip="Target_ForcedManeuver"&gt;Forced Manoeuvre&lt;/LSTag&gt; on. The targeted ally will increase their &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; by 50%, and will not provoke &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt;.</content>
@@ -552,7 +587,7 @@
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f5000zr" version="1">When an enemy damages an ally within [1] of you, reduce the damage by -1d4 multiplied by your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;. You must be able to see the attacker.</content>
 
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f500019" version="1">Tactical Advantage</content>
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f50000s" version="3">Increase the reach of your basic &lt;LSTag Type="Spell" Tooltip="Target_MainHandAttack"&gt;Melee Attacks&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_UnarmedAttack"&gt;Unarmed Strikes&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_OffhandAttack"&gt;Dual-Wield Melee Attacks&lt;/LSTag&gt; by 50%.</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f50000s" version="3">Increase the reach of your melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; by 50%.</content>
 
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f500020" version="1">Tenacious Fighter</content>
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f50000t" version="1">Gain an additional &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction Point&lt;/LSTag&gt;. When making an &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt;, you roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>

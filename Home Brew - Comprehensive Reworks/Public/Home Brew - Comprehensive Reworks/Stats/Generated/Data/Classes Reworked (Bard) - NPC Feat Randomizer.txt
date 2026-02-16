@@ -418,7 +418,7 @@ data "RemoveEvents" "OnTurn;OnMove"
 data "StackId" "PASSIVE6"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
 data "StackType" "Ignore"
-data "Passives" "MasonryofChaos;MasonryofChaos_Damage"
+data "Passives" "BlessingsoftheMoon"
 data "OnApplyFunctors" "ApplyStatus(PASSIVE6_BARDFEAT_LIMIT,100,-1)"
 
 new entry "PASSIVE7_BARDFEAT"

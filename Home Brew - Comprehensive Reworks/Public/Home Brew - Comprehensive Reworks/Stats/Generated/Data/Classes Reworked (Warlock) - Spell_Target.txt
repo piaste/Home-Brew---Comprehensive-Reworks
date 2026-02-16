@@ -1547,6 +1547,37 @@ data "SpellFlags" "IsSpell;HasSomaticComponent;HasVerbalComponent;HasHighGroundR
 data "DamageType" "Psychic"
 data "Cooldown" "OncePerShortRest"
 
+<!--PACT OF THE PRIMORDIAL-->
+
+new entry "Target_AdvocatusDiaboli"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "0"
+data "SpellSchool" "Necromancy"
+data "TargetRadius" "18"
+data "SpellProperties" "IF(Dead()):SwitchDeathType(Explode);IF(Dead()):ApplyStatus(CORPSE_USED,100,-1);IF(HasStatus('HEMATICINVOCATION', context.Source)):SetStatusDuration(SELF,HEMATICINVOCATION,-1,Add);IF(not HasStatus('HEMATICINVOCATION', context.Source) and HasPassive('ProfaneMetamorphosis_Hidden', context.Source)):ApplyStatus(SELF,COLLECTED_SOUL,100,-1);AI_ONLY:ApplyStatus(SELF,AI_HELPER_BUFF,100,0);IF(not Player(context.Source)):ApplyStatus(SELF,BUFF_BLOCKER,100,3)"
+data "TargetConditions" "Dead() and not Tagged('BLOCK_RESURRECTION') and not HasDeathType(DeathType.Explode) and not HasDeathType(DeathType.Disintegrate) and not HasStatus('CORPSE_USED') and not Tagged('CONSTRUCT')"
+data "Icon" "Spell_2e_VampiricTouch"
+data "DisplayName" "h7fd64569g909283ur9seud9fs8u3r90000z2;1"
+data "Description" "h7fd64569g90928320398r9se8fu09u3000zb;1"
+data "DescriptionParams" "Distance(18)"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
+data "PrepareSound" "Action_Prepare_Item_NecromancyOfThay_WakeOfTheDead"
+data "PrepareLoopSound" "Action_Loop_Item_NecromancyOfThay_WakeOfTheDead"
+data "CastSound" "Action_Cast_Item_NecromancyOfThay_WakeOfTheDead"
+data "TargetSound" "Action_Impact_Item_NecromancyOfThay_WakeOfTheDead"
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;8252328a-66dd-4dc0-bbe0-00eea3204922,,;982d842b-5d44-4ef6-ab33-14d5ae514a50,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;236087a5-5597-4ee7-ab06-75b01147f596,,;ee0b6a78-c6b6-4852-aecb-d7c474a37d68,,"
+data "VerbalIntent" "Buff"
+data "SpellFlags" "IsSpell;HasSomaticComponent;IgnorePreviouslyPickedEntities;IgnoreSilence;Stealth;Invisible"
+data "HitAnimationType" "None"
+data "PrepareEffect" "c4b28ad0-5d3b-4f66-9f33-0d7c82217257"
+data "CastEffect" "4cab2089-4c14-44f6-9fe0-5421ec911552"
+data "PositionEffect" "8671c5eb-0e2c-45ce-a9e4-91b48646b5d6"
+data "MemoryCost" "1"
+data "Cooldown" "OncePerTurn"
+data "RequirementConditions" "not HasStatus('DEMONIC_VISAGE',context.Source)"
+
 <!--PASSIVES-->
 
 new entry "Target_EldritchStrike"

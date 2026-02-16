@@ -537,6 +537,13 @@
                     <attribute id="UUID" type="guid" value="ba272484-4d66-46a8-be12-28ef18345763"/>
                 </node>
                 <node id="FeatDescription">
+                    <attribute id="Description" type="TranslatedString" handle="47709b48-6124-44dc-8792-5d8e2f5e45f4" version="4"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="d26f0798-0c95-4208-b5b2-894kjd8943ff" version="1"/>
+                    <attribute id="ExactMatch" type="FixedString" value="FighterDraconicSentinel"/>
+                    <attribute id="FeatId" type="guid" value="0bd9516c-195e-4012-bced-cb7528cbbc63"/>
+                    <attribute id="UUID" type="guid" value="77bf8b06-9ba6-4752-bf41-5d34487d5a15"/>
+                </node>
+                <node id="FeatDescription">
                     <attribute id="Description" type="TranslatedString" handle="47709b48-6124-44dc-8792-5sd6f545df19" version="4"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="f64893a4-9722-48d5-aa76-90bd1c2ad3ab" version="1"/>
                     <attribute id="ExactMatch" type="FixedString" value="FighterEldritchKnight"/>
@@ -649,6 +656,13 @@
                     <attribute id="UUID" type="guid" value="34007fa0-33e8-4587-ade3-95024b40335a"/>
                 </node>
                 <node id="FeatDescription">
+                    <attribute id="Description" type="TranslatedString" handle="47709b48-6124-44dc-8792-a6e8f6e8f598" version="4"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="b8521733-fde0-4025-bd90-2d5ef1f5e4f5" version="1"/>
+                    <attribute id="ExactMatch" type="FixedString" value="RogueHiddenToxicant"/>
+                    <attribute id="FeatId" type="guid" value="a434fbc2-676c-4123-8d9a-24dd2e5d6898"/>
+                    <attribute id="UUID" type="guid" value="2179519c-b831-40fa-ba7c-75e947b0331e"/>
+                </node>
+                <node id="FeatDescription">
                     <attribute id="Description" type="TranslatedString" handle="47709b48-6124-44dc-8792-5sd6f545df35" version="4"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="a05f596f-a10f-4c5e-b8f6-405ad37a146c" version="1"/>
                     <attribute id="ExactMatch" type="FixedString" value="RogueSwashbuckler"/>
@@ -710,6 +724,13 @@
                     <attribute id="ExactMatch" type="FixedString" value="WarlockPactOfThePenumbra"/>
                     <attribute id="FeatId" type="guid" value="0d17dbdd-57d6-4779-9d76-ebbdb2459b95"/>
                     <attribute id="UUID" type="guid" value="2a3be064-8d5b-4b55-9958-aee4caac0bc9"/>
+                </node>
+                <node id="FeatDescription">
+                    <attribute id="Description" type="TranslatedString" handle="47709b48-6124-44dc-8792-388we984ifif" version="4"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="0df1b7d5-e045-4944-b1d7-2wse68se7ef5" version="1"/>
+                    <attribute id="ExactMatch" type="FixedString" value="WarlockPactOfThePrimordialDemon"/>
+                    <attribute id="FeatId" type="guid" value="656cdba8-d560-42f2-8776-a7c575115fbd"/>
+                    <attribute id="UUID" type="guid" value="ee64b66d-21dc-4de0-a38f-02df9157992e"/>
                 </node>
                 <node id="FeatDescription">
                     <attribute id="Description" type="TranslatedString" handle="47709b48-6124-44dc-8792-5sd6f545df44" version="4"/>

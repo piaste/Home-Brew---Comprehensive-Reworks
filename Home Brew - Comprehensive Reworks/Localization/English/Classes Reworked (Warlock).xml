@@ -32,6 +32,8 @@
 	<content contentuid="h53277800gd3a4g4984gbff6g0af5dd20000c" version="1">Sacrifice 10% of your total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; to an Eldritch abomination in order to restore a &lt;LSTag Tooltip="WarlockSpellSlot"&gt;Warlock Spell Slot&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;While abiding by the Pact of Penumbra, you extend your state of &lt;LSTag Type="Status" Tooltip="PENUMBRA_LIGHT"&gt;Penumbral Light&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="PENUMBRA_DARK"&gt;Penumbral Darkness&lt;/LSTag&gt; by one turn, as well as detonate nearby &lt;LSTag Type="Status" Tooltip="ELDRITCH_BOMB"&gt;Eldritch Bombs&lt;/LSTag&gt;.</content>
 	<content contentuid="hcbb02b50g75d3g468fgacb6gb7c7ss600004" version="5">Eldritch Hematic Invocation</content>
 	<content contentuid="h53277800gd3a4g4984gbff6g0af5dd20000d" version="1">Sacrifice 10% of your total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; to an Eldritch abomination in order to restore a &lt;LSTag Tooltip="WarlockSpellSlot"&gt;Warlock Spell Slot&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;While abiding by the Pact of the Tome, you may cast your &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt; once as a free action.</content>
+	<content contentuid="hcbb02b50g75d3g468fgacb6gb7c7ss600005" version="5">Primordial Hematic Invocation</content>
+	<content contentuid="h53277800gd3a4g4984gbff6g0af5dd20000e" version="1">Sacrifice 10% of your total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; to an Eldritch abomination in order to restore a &lt;LSTag Tooltip="WarlockSpellSlot"&gt;Warlock Spell Slot&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;While abiding by the Pact of the Primordial Demon, you will immediately shift into your &lt;LSTag Type="Status" Tooltip="DEMONIC_VISAGE"&gt;Demonic Visage&lt;/LSTag&gt;.</content>
 	<content contentuid="h53277800gd3a4g4984gbff6g0af5dd222254" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Bargaining your life in this way renders your maximum Hit Points lowered until your next &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
 	<content contentuid="hcbb02b50g75d3g468fgacb6gb7c7ss65d6f6" version="5">Hematic Invocation</content>
 	<content contentuid="h53277800gd3a4g4984gbff6g0af5dd222d64" version="1">Affected creature's maximum &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; have been reduced by 10% per stack of Hematic Invocation.</content>
@@ -187,6 +189,44 @@ the Chain</content>
 
 	<content contentuid="hcbb02b50g75d3g468fgacb6gb70000000005" version="5">Fiendish Growth III</content>
 	<content contentuid="h53277800gd3a4g4984gbff6g0a000000000e" version="1">The blood that binds you to your pact has become utterly resolute. Your &lt;LSTag Type="Spell" Tooltip="Target_PactOfTheChain_Container"&gt;Chained Companions&lt;/LSTag&gt; have reached the peak of their potential.</content>
+
+<!--PACT OF THE DEMON-->
+
+	<content contentuid="h7fd64569g909283ur9seud9fs8u3r9000000" version="1">Pact of
+the Primordial Demon</content>
+	<content contentuid="h7fd64569g90928320398r9se8fu09u300000" version="1">You've bound your soul to something eldritch and ancient for powers obscure. Within the corners of your mind, you feel it clawing, begging to be let out. And thus begins your journey to feed it...</content>
+
+	<content contentuid="h7fd64569g909283ur9seud9fs8u3r9000001" version="1">Pact of the Primordial</content>
+	<content contentuid="h7fd64569g90928320398r9se8fu09u30000a" version="3">Each turn while in combat you have a 33% chance to shift into a state of &lt;LSTag Type="Status" Tooltip="DEMONIC_VISAGE"&gt;Demonic Visage&lt;/LSTag&gt; for one turn.</content>
+	<content contentuid="h7fd64569g909283ur9seud9fs8u3r90000z1" version="1">Demonic Visage</content>
+	<content contentuid="h7fd64569g90928320398r9se8fu09u3000za" version="3">Affected creature is channeling demonic energy from a primordial place unknown. They roll their &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and Damage Rolls with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;, however all Spells cast will accrue one stack of &lt;LSTag Type="Status" Tooltip="HEMATICINVOCATION"&gt;Hematic Invocation&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h7fd64569g909283ur9seud9fs8u3r9000002" version="1">Advocatus Diaboli</content>
+	<content contentuid="h7fd64569g90928320398r9se8fu09u30000b" version="3">Gain the ability to absorb the life force from a corpse within [1] of you, immediately removing one stack of &lt;LSTag Type="Status" Tooltip="HEMATICINVOCATION"&gt;Hematic Invocation&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; This action cannot be used while under the influence of your &lt;LSTag Type="Status" Tooltip="DEMONIC_VISAGE"&gt;Demonic Visage&lt;/LSTag&gt;.</content>
+	<content contentuid="h7fd64569g909283ur9seud9fs8u3r90000z2" version="1">Advocatus Diaboli</content>
+	<content contentuid="h7fd64569g90928320398r9se8fu09u3000zb" version="3">Absorb the life force from a corpse within [1] of you, immediately removing one stack of &lt;LSTag Type="Status" Tooltip="HEMATICINVOCATION"&gt;Hematic Invocation&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; This action cannot be used while under the influence of your &lt;LSTag Type="Status" Tooltip="DEMONIC_VISAGE"&gt;Demonic Visage&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h7fd64569g909283ur9seud9fs8u3r9000003" version="1">Profane Metamorphosis</content>
+	<content contentuid="h7fd64569g90928320398r9se8fu09u30000c" version="3">Casting &lt;LSTag Type="Spell" Tooltip="Target_AdvocatusDiaboli"&gt;Advocatus Diaboli&lt;/LSTag&gt; on a corpse when you have no stacks of &lt;LSTag Type="Status" Tooltip="HEMATICINVOCATION"&gt;Hematic Invocation&lt;/LSTag&gt; will yield one &lt;LSTag Type="ActionResource" Tooltip="CollectedSoul"&gt;Collected Soul&lt;/LSTag&gt;. Collected Souls may be expended in place of your health when casting your &lt;LSTag Type="Spell" Tooltip="Shout_HematicInvocation_Primordial"&gt;Hematic Invocation&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;You may carry up to seven Collected Souls at any given time.</content>
+	<content contentuid="h7fd64569g909283ur9seud9fs8u3r90000z3" version="1">Collected Souls</content>
+	<content contentuid="h7fd64569g90928320398r9se8fu09u3000zc" version="3">Souls collected from corpses along the way. May be expended in place of your health when casting your &lt;LSTag Type="Spell" Tooltip="Shout_HematicInvocation_Primordial"&gt;Hematic Invocation&lt;/LSTag&gt;...or perhaps for something far more sinister.&lt;br&gt;&lt;br&gt;You may only carry up to seven Collected Souls at any given time.</content>
+
+	<content contentuid="h7fd64569g909283ur9seud9fs8u3r9000004" version="1">Hematic Ascent</content>
+	<content contentuid="h7fd64569g90928320398r9se8fu09u30000d" version="3">Your &lt;LSTag Type="Spell" Tooltip="Shout_HematicInvocation_Primordial"&gt;Hematic Invocation&lt;/LSTag&gt; now targets enemies within [1] of you, dealing [2]. Killing a creature in this way immediately removes one stack of &lt;LSTag Type="Status" Tooltip="HEMATICINVOCATION"&gt;Hematic Invocation&lt;/LSTag&gt; and grants a &lt;LSTag Type="ActionResource" Tooltip="CollectedSoul"&gt;Collected Soul&lt;/LSTag&gt; for later use.</content>
+
+	<content contentuid="h7fd64569g909283ur9seud9fs8u3r9000005" version="1">Sacrifical Surrogate</content>
+	<content contentuid="h7fd64569g90928320398r9se8fu09u30000e" version="3">Upon killing another creature with your &lt;LSTag Type="Spell" Tooltip="Shout_HematicInvocation_Primordial"&gt;Hematic Invocation&lt;/LSTag&gt; while in a state of &lt;LSTag Type="Status" Tooltip="DEMONIC_VISAGE"&gt;Demonic Visage&lt;/LSTag&gt;, the duration of Demonic Visage is increased to three turns and you gain &lt;LSTag Type="Status" Tooltip="SURROGATE_SLAUGHTER"&gt;Surrogate Slaughter&lt;/LSTag&gt;.</content>
+	<content contentuid="h7fd64569g909283ur9seud9fs8u3r90000z5" version="1">Surrogate Slaughter</content>
+	<content contentuid="h7fd64569g90928320398r9se8fu09u3000ze" version="3">Affected creature deals an additional [1] from all sources of damage. In addition, they have greatly increased in both size and musculature, improving all of their physical capabilities and causing them to deal an additional [2] damage with all &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attacks&lt;/LSTag&gt; and while unarmed.</content>
+
+	<content contentuid="h7fd64569g909283ur9seud9fs8u3r9000006" version="1">Demonic Apotheosis</content>
+	<content contentuid="h7fd64569g90928320398r9se8fu09u30000f" version="3">While in a state of both &lt;LSTag Type="Status" Tooltip="DEMONIC_VISAGE"&gt;Demonic Visage&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="SURROGATE_SLAUGHTER"&gt;Surrogate Slaughter&lt;/LSTag&gt;, you may utilize all seven of your &lt;LSTag Type="ActionResource" Tooltip="CollectedSoul"&gt;Collected Souls&lt;/LSTag&gt; in order to shape into a &lt;LSTag Type="Spell" Tooltip="Shout_PrimordialDemon"&gt;Primordial Demon&lt;/LSTag&gt;.</content>
+	<content contentuid="h7fd64569g909283ur9seud9fs8u3r90000z6" version="1">Demonic Apotheosis</content>
+	<content contentuid="h7fd64569g90928320398r9se8fu09u3000zf" version="3">While in a state of both &lt;LSTag Type="Status" Tooltip="DEMONIC_VISAGE"&gt;Demonic Visage&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="SURROGATE_SLAUGHTER"&gt;Surrogate Slaughter&lt;/LSTag&gt;, utilize all seven of your &lt;LSTag Type="ActionResource" Tooltip="CollectedSoul"&gt;Collected Souls&lt;/LSTag&gt; in order to shape into a &lt;LSTag Type="Spell" Tooltip="Shout_PrimordialDemon"&gt;Primordial Demon&lt;/LSTag&gt;.</content>
+	<content contentuid="h7fd64569g909283ur9seud9fs8u3r9000zz6" version="1">Demonic Apotheosis</content>
+	<content contentuid="h7fd64569g90928320398r9se8fu09u300zzf" version="3">Affected creature has sacrificed seven souls in order to assume the shape of a Primordial Demon.</content>
+	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6ezzzz1" version="1">Demonic Warp</content>
+	<content contentuid="h6bdfd618g15b3g40w843r98fe7983urzzzza" version="3">Teleport to an unoccupied space you can see, scorching everything within [1].</content>
 
 <!--PACT OF PENUMBRA-->
 

@@ -816,7 +816,7 @@ data "DisplayName" "8a87461fd8dd4f5b9098ded714sdf68878d06;2"
 data "Description" "8a87461fd8dd4f5b9098ded714f60d1fd250f;2"
 data "Icon" "PassiveFeature_Banite_TacticalDiscipline"
 data "Properties" "Highlighted;ForceShowInCC"
-data "Boosts" "Resistance(Lightning, Immune);Resistance(Thunder, Immune);UnlockSpell(Target_GalvanizedStrike)"
+data "Boosts" "Resistance(Lightning, Resistant);Resistance(Thunder, Resistant);UnlockSpell(Target_GalvanizedStrike)"
 data "StatsFunctorContext" "OnDamage"
 data "StatsFunctors" "IF(not HasStatus('MAG_CHARGED_LIGHTNING', context.Source)):ApplyStatus(SELF, MAG_CHARGED_LIGHTNING_LIGHTNING_DAMAGE_ONCE_TECHNICAL,100, 0);IF(Character()):ApplyStatus(SELF, MAG_CHARGED_LIGHTNING_GENERATE_CHARGE_FX, 100, 0);IF(Character() and not IsDischargingLightning(context.Source)):ApplyStatus(SELF, MAG_CHARGED_LIGHTNING,100, 1);ApplyStatus(SELF, MAG_CHARGED_LIGHTNING_DURATION_TECHNICAL, 100, 1)"
 

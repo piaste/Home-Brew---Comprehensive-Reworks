@@ -340,7 +340,7 @@ data "SpellType" "Projectile"
 using "Projectile_ArrowOfRicochet"
 data "SpellSuccess" "DealDamage(MainRangedWeapon, MainRangedWeaponDamageType); ExecuteWeaponFunctors(MainHand)"
 data "SpellFail" ""
-data "TargetConditions" "not Self() and not Dead() and Enemy()"
+data "TargetConditions" "not Self() and not Dead() and Enemy() and not HasStatus('SG_Dominated')"
 data "TargetRadius" "9"
 
 <!--ARROW OF ROARING THUNDER-->

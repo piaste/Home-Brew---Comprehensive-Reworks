@@ -4641,6 +4641,9 @@
 											<attribute id="Object" type="guid" value="0a01dc6b-ab1a-4c0e-8a5e-4787fe1f2caf" />
 										</node>
 										<node id="SubClass">
+											<attribute id="Object" type="guid" value="4176d336-d848-474a-a115-da5a1218f0bf" />
+										</node>
+										<node id="SubClass">
 											<attribute id="Object" type="guid" value="b722614a-303f-411a-bb19-a1882ad1f4cc" />
 										</node>
 										<node id="SubClass">
@@ -4669,6 +4672,9 @@
 										</node>
 										<node id="SubClass">
 											<attribute id="Object" type="guid" value="0a01dc6b-ab1a-4c0e-8a5e-4787fe1f2caf" />
+										</node>
+										<node id="SubClass">
+											<attribute id="Object" type="guid" value="4176d336-d848-474a-a115-da5a1218f0bf" />
 										</node>
 										<node id="SubClass">
 											<attribute id="Object" type="guid" value="b722614a-303f-411a-bb19-a1882ad1f4cc" />
@@ -5136,8 +5142,7 @@
         <node id="Progression">
 					<attribute id="Level" type="uint8" value="3" />
 					<attribute id="Name" type="LSString" value="Champion" />
-					<attribute id="PassivesAdded" type="LSString" value="ImprovedSecondWind" />
-					<attribute id="PassivesRemoved" type="LSString" value="SecondWind" />
+					<attribute id="PassivesAdded" type="LSString" value="ChampionsRepertoire" />
 					<attribute id="ProgressionType" type="uint8" value="1" />
 					<attribute id="TableUUID" type="guid" value="9b2ff703-7924-4a66-b119-ae4d716a4522" />
 					<attribute id="UUID" type="guid" value="cbd87913-03ee-484b-bc62-57d6867e8aca" />
@@ -5167,8 +5172,7 @@
         <node id="Progression">
 					<attribute id="Level" type="uint8" value="7" />
 					<attribute id="Name" type="LSString" value="Champion" />
-					<attribute id="PassivesAdded" type="LSString" value="ImprovedActionSurge" />
-					<attribute id="PassivesRemoved" type="LSString" value="ActionSurge" />
+					<attribute id="PassivesAdded" type="LSString" value="ChampionsSurge" />
 					<attribute id="ProgressionType" type="uint8" value="1" />
 					<attribute id="TableUUID" type="guid" value="9b2ff703-7924-4a66-b119-ae4d716a4522" />
 					<attribute id="UUID" type="guid" value="07180f5f-54ab-4fe6-9972-df150a5fb85a" />
@@ -5210,6 +5214,99 @@
 					<attribute id="ProgressionType" type="uint8" value="1" />
 					<attribute id="TableUUID" type="guid" value="9b2ff703-7924-4a66-b119-ae4d716a4522" />
 					<attribute id="UUID" type="guid" value="0f08e1e6-ff76-44f8-812b-48b29946ae85" />
+					</node>
+					
+<!--FIGHTER (DRACONIC LANCER)-->
+
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="1" />
+					<attribute id="Name" type="LSString" value="DraconicLancer" />
+					<attribute id="PassivesAdded" type="LSString" value="ClassProgression_DraconicSentinel;BodyoftheLancer" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="TableUUID" type="guid" value="b2fcad9c-a4b4-4459-a803-e01da1d80b08" />
+					<attribute id="UUID" type="guid" value="756634c3-0885-40ed-b17f-e8bdb5abf076" />
+					</node>
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="2" />
+					<attribute id="Name" type="LSString" value="DraconicLancer" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="TableUUID" type="guid" value="b2fcad9c-a4b4-4459-a803-e01da1d80b08" />
+					<attribute id="UUID" type="guid" value="0329980f-c478-4f80-863b-c38dfe908555" />
+					</node>
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="3" />
+					<attribute id="Name" type="LSString" value="DraconicLancer" />
+					<attribute id="PassivesAdded" type="LSString" value="WyrmcallResonance" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="TableUUID" type="guid" value="b2fcad9c-a4b4-4459-a803-e01da1d80b08" />
+					<attribute id="UUID" type="guid" value="b7a63a1b-7ae6-46e6-8174-9d8cd32b6138" />
+					</node>
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="4" />
+					<attribute id="Name" type="LSString" value="DraconicLancer" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="TableUUID" type="guid" value="b2fcad9c-a4b4-4459-a803-e01da1d80b08" />
+					<attribute id="UUID" type="guid" value="8359e31f-c95d-44f4-adfe-2c6272dfc481" />
+					</node>
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="5" />
+					<attribute id="Name" type="LSString" value="DraconicLancer" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="PassivesAdded" type="LSString" value="MindoftheWizened" />
+					<attribute id="TableUUID" type="guid" value="b2fcad9c-a4b4-4459-a803-e01da1d80b08" />
+					<attribute id="UUID" type="guid" value="1b28b26b-b733-494f-b8aa-ff4fbc5229cb" />
+					</node>
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="6" />
+					<attribute id="Name" type="LSString" value="DraconicLancer" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="TableUUID" type="guid" value="b2fcad9c-a4b4-4459-a803-e01da1d80b08" />
+					<attribute id="UUID" type="guid" value="43631082-8fa7-40cc-a340-448adede6d76" />
+					</node>
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="7" />
+					<attribute id="Name" type="LSString" value="DraconicLancer" />
+					<attribute id="PassivesAdded" type="LSString" value="WyrmcallRecovery" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="TableUUID" type="guid" value="b2fcad9c-a4b4-4459-a803-e01da1d80b08" />
+					<attribute id="UUID" type="guid" value="fe8caba5-b146-4167-b39c-3509fb4de4f9" />
+					</node>
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="8" />
+					<attribute id="Name" type="LSString" value="DraconicLancer" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="TableUUID" type="guid" value="b2fcad9c-a4b4-4459-a803-e01da1d80b08" />
+					<attribute id="UUID" type="guid" value="36335933-75f6-49c2-9345-8a68e8bf3e0b" />
+					</node>
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="9" />
+					<attribute id="Name" type="LSString" value="DraconicLancer" />
+					<attribute id="PassivesAdded" type="LSString" value="SouloftheDragon" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="TableUUID" type="guid" value="b2fcad9c-a4b4-4459-a803-e01da1d80b08" />
+					<attribute id="UUID" type="guid" value="461c7950-3a7c-4de0-ae4c-cb881857f7a8" />
+					</node>
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="10" />
+					<attribute id="Name" type="LSString" value="DraconicLancer" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="TableUUID" type="guid" value="b2fcad9c-a4b4-4459-a803-e01da1d80b08" />
+					<attribute id="UUID" type="guid" value="288533bf-5a97-476b-8d62-19600c334c63" />
+					</node>
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="11" />
+					<attribute id="Name" type="LSString" value="DraconicLancer" />
+					<attribute id="PassivesAdded" type="LSString" value="WyrmcallBreakpoint" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="TableUUID" type="guid" value="b2fcad9c-a4b4-4459-a803-e01da1d80b08" />
+					<attribute id="UUID" type="guid" value="d55b7edf-5203-40f8-8eac-6c5874a092e9" />
+					</node>
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="12" />
+					<attribute id="Name" type="LSString" value="DraconicLancer" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="TableUUID" type="guid" value="b2fcad9c-a4b4-4459-a803-e01da1d80b08" />
+					<attribute id="UUID" type="guid" value="32f5dfcf-4955-48e3-939e-9ababc5a1b6d" />
 					</node>
 					
 <!--FIGHTER (ELDRITCH KNIGHT)-->
@@ -5812,7 +5909,7 @@
 					<attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,2,1)" />
 					<attribute id="Level" type="uint8" value="1" />
 					<attribute id="Name" type="LSString" value="FourElements" />
-					<attribute id="PassivesAdded" type="LSString" value="ClassProgression_WayoftheArcane;Flow_State;FlurryOfBlowsUnlock" />
+					<attribute id="PassivesAdded" type="LSString" value="ClassProgression_WayoftheArcane;Flow_State;FlurryOfBlowsMagicUnlock" />
 					<attribute id="ProgressionType" type="uint8" value="1" />
 					<attribute id="Selectors" type="LSString" value="SelectSpells(ffad33d2-e725-4655-ba80-0bc91e8002b3,2,0,MonkCantrips);SelectSpells(4f8a545f-2a42-490b-a008-7276d5186b0a,1,0,MonkSpells)" />
 					<attribute id="TableUUID" type="guid" value="6c9fac23-d01a-4e0d-bfb1-28bed5581ee2" />
@@ -8036,6 +8133,9 @@
 											<attribute id="Object" type="guid" value="b53a8061-f31d-4985-adfe-d4d691a918d9" />
 										</node>
 										<node id="SubClass">
+											<attribute id="Object" type="guid" value="b47c975a-624c-4201-a53d-5758c723a5b1" />
+										</node>
+										<node id="SubClass">
 											<attribute id="Object" type="guid" value="f87d7b0e-bc56-4f22-b347-9ef63bfa5220"/>
 										</node>
 										<node id="SubClass">
@@ -8063,6 +8163,9 @@
 										</node>
 										<node id="SubClass">
 											<attribute id="Object" type="guid" value="b53a8061-f31d-4985-adfe-d4d691a918d9" />
+										</node>
+										<node id="SubClass">
+											<attribute id="Object" type="guid" value="b47c975a-624c-4201-a53d-5758c723a5b1" />
 										</node>
 										<node id="SubClass">
 											<attribute id="Object" type="guid" value="f87d7b0e-bc56-4f22-b347-9ef63bfa5220"/>
@@ -8590,6 +8693,99 @@
 					<attribute id="UUID" type="guid" value="77eecc6a-f27e-4c3f-9474-832bfff184bd" />
 					</node>
 
+<!--ROGUE (HIDDEN TOXICANT)-->
+
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="1" />
+					<attribute id="Name" type="LSString" value="HiddenToxicant" />
+					<attribute id="PassivesAdded" type="LSString" value="ClassProgression_HiddenToxicant;SneakAttack_Unlock_Toxic;ImbuedToxicity" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="TableUUID" type="guid" value="0af1a30e-fc34-4472-a537-48e8e68a2d63" />
+					<attribute id="UUID" type="guid" value="6f9bcb83-f812-413c-a77d-a8e3ff0242f0" />
+					</node>
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="2" />
+					<attribute id="Name" type="LSString" value="HiddenToxicant" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="TableUUID" type="guid" value="0af1a30e-fc34-4472-a537-48e8e68a2d63" />
+					<attribute id="UUID" type="guid" value="62649557-c0dc-434a-b6c3-de7e15cdb6ed" />
+					</node>
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="3" />
+					<attribute id="Name" type="LSString" value="HiddenToxicant" />
+					<attribute id="PassivesAdded" type="LSString" value="VenomousCoatings" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="TableUUID" type="guid" value="0af1a30e-fc34-4472-a537-48e8e68a2d63" />
+					<attribute id="UUID" type="guid" value="90c0be21-200a-41db-a6ed-5b37b83497b6" />
+					</node>
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="4" />
+					<attribute id="Name" type="LSString" value="HiddenToxicant" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="TableUUID" type="guid" value="0af1a30e-fc34-4472-a537-48e8e68a2d63" />
+					<attribute id="UUID" type="guid" value="103663e5-3b1c-4c3f-b025-707dd453ae8a" />
+					</node>
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="5" />
+					<attribute id="Name" type="LSString" value="HiddenToxicant" />
+					<attribute id="PassivesAdded" type="LSString" value="DeepenedToxicity" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="TableUUID" type="guid" value="0af1a30e-fc34-4472-a537-48e8e68a2d63" />
+					<attribute id="UUID" type="guid" value="5999e756-79aa-469e-83c8-46f08692eaa5" />
+					</node>
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="6" />
+					<attribute id="Name" type="LSString" value="HiddenToxicant" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="TableUUID" type="guid" value="0af1a30e-fc34-4472-a537-48e8e68a2d63" />
+					<attribute id="UUID" type="guid" value="37733a10-bcde-4d26-a6f7-1f5ea807e28c" />
+					</node>
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="7" />
+					<attribute id="Name" type="LSString" value="HiddenToxicant" />
+					<attribute id="PassivesAdded" type="LSString" value="PoisonousFoothold" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="TableUUID" type="guid" value="0af1a30e-fc34-4472-a537-48e8e68a2d63" />
+					<attribute id="UUID" type="guid" value="e462e6aa-2cd8-409b-b288-b334288b9a18" />
+					</node>
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="8" />
+					<attribute id="Name" type="LSString" value="HiddenToxicant" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="TableUUID" type="guid" value="0af1a30e-fc34-4472-a537-48e8e68a2d63" />
+					<attribute id="UUID" type="guid" value="30026084-b455-4c6a-b53b-af1b0205df18" />
+					</node>
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="9" />
+					<attribute id="Name" type="LSString" value="HiddenToxicant" />
+					<attribute id="PassivesAdded" type="LSString" value="PerfectedToxicity" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="TableUUID" type="guid" value="0af1a30e-fc34-4472-a537-48e8e68a2d63" />
+					<attribute id="UUID" type="guid" value="a4480743-a3c7-4e25-aeb3-66e4f414f27c" />
+					</node>
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="10" />
+					<attribute id="Name" type="LSString" value="HiddenToxicant" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="TableUUID" type="guid" value="0af1a30e-fc34-4472-a537-48e8e68a2d63" />
+					<attribute id="UUID" type="guid" value="3cac7ea8-0016-49c2-8a2e-3d14608b5047" />
+					</node>
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="11" />
+					<attribute id="Name" type="LSString" value="HiddenToxicant" />
+					<attribute id="PassivesAdded" type="LSString" value="ToxicEruption" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="TableUUID" type="guid" value="0af1a30e-fc34-4472-a537-48e8e68a2d63" />
+					<attribute id="UUID" type="guid" value="cf3145e4-4336-4705-bf34-f886b5665e20" />
+					</node>
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="12" />
+					<attribute id="Name" type="LSString" value="HiddenToxicant" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="TableUUID" type="guid" value="0af1a30e-fc34-4472-a537-48e8e68a2d63" />
+					<attribute id="UUID" type="guid" value="c9a46bdb-cea0-4b0f-8236-cf837d6ef7f5" />
+					</node>
+
 <!--ROGUE (SWASHBUCKLER)-->
 
 		<node id="Progression">
@@ -8776,7 +8972,7 @@
 					<attribute id="TableUUID" type="guid" value="f6acc595-46b4-4d96-b7d5-6f33366fc2de" />
 					<attribute id="UUID" type="guid" value="a645e7c5-dc21-46ec-b865-4ae7db90c479" />
 					</node>
-					
+
 <!--SORCERER-->
 
         <node id="Progression">
@@ -9577,6 +9773,9 @@
 											<attribute id="Object" type="guid" value="8fb57960-eb92-48f5-b99d-ab36519e4d4f"/>
 										</node>
 										<node id="SubClass">
+											<attribute id="Object" type="guid" value="201fb562-2386-4415-98ae-27ff4ac61708" />
+										</node>
+										<node id="SubClass">
 											<attribute id="Object" type="guid" value="733ddf8c-9ec4-4c5a-85e3-c70fd3df3c24" />
 										</node>
 								</children>
@@ -9603,6 +9802,9 @@
 										</node>
 										<node id="SubClass">
 											<attribute id="Object" type="guid" value="8fb57960-eb92-48f5-b99d-ab36519e4d4f"/>
+										</node>
+										<node id="SubClass">
+											<attribute id="Object" type="guid" value="201fb562-2386-4415-98ae-27ff4ac61708" />
 										</node>
 										<node id="SubClass">
 											<attribute id="Object" type="guid" value="733ddf8c-9ec4-4c5a-85e3-c70fd3df3c24" />
@@ -10124,6 +10326,99 @@
 					<attribute id="ProgressionType" type="uint8" value="1" />
 					<attribute id="TableUUID" type="guid" value="2700b42c-3b2f-4fc7-b881-4acc4f0a3a1f" />
 					<attribute id="UUID" type="guid" value="2f79787c-f0f5-4ada-8baf-4a78aaf07236" />
+					</node>
+
+<!--WARLOCK (PACT OF THE PRIMORDIAL)-->
+
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="1" />
+					<attribute id="Name" type="LSString" value="PactofthePrimordial" />
+					<attribute id="PassivesAdded" type="LSString" value="ClassProgression_PactofthePrimordial;EldritchBlast_Unlock;PactofthePrimordial" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="TableUUID" type="guid" value="3ce75a42-7ec6-4d06-be07-b473af9c2f8d" />
+					<attribute id="UUID" type="guid" value="25aa6f7b-0579-4381-abd5-3c69e41ae77d" />
+					</node>
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="2" />
+					<attribute id="Name" type="LSString" value="PactofthePrimordial" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="TableUUID" type="guid" value="3ce75a42-7ec6-4d06-be07-b473af9c2f8d" />
+					<attribute id="UUID" type="guid" value="75af9eaa-4a90-43e5-88c1-ce76dff227c1" />
+					</node>
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="3" />
+					<attribute id="Name" type="LSString" value="PactofthePrimordial" />
+					<attribute id="PassivesAdded" type="LSString" value="AdvocatusDiaboli" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="TableUUID" type="guid" value="3ce75a42-7ec6-4d06-be07-b473af9c2f8d" />
+					<attribute id="UUID" type="guid" value="c2a5c3ea-1091-40e0-9a0c-464b5906d0d3" />
+					</node>
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="4" />
+					<attribute id="Name" type="LSString" value="PactofthePrimordial" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="TableUUID" type="guid" value="3ce75a42-7ec6-4d06-be07-b473af9c2f8d" />
+					<attribute id="UUID" type="guid" value="7a76e66a-0216-4336-935a-1c5e6786ccab" />
+					</node>
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="5" />
+					<attribute id="Name" type="LSString" value="PactofthePrimordial" />
+					<attribute id="PassivesAdded" type="LSString" value="ProfaneMetamorphosis;ProfaneMetamorphosis_Hidden;EldritchEmpowerment" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="TableUUID" type="guid" value="3ce75a42-7ec6-4d06-be07-b473af9c2f8d" />
+					<attribute id="UUID" type="guid" value="0d7c4caa-5d72-439c-88aa-41704d0df915" />
+					</node>
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="6" />
+					<attribute id="Name" type="LSString" value="PactofthePrimordial" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="TableUUID" type="guid" value="3ce75a42-7ec6-4d06-be07-b473af9c2f8d" />
+					<attribute id="UUID" type="guid" value="991a5ff4-0e47-452a-abd6-4953a7f53b6a" />
+					</node>
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="7" />
+					<attribute id="Name" type="LSString" value="PactofthePrimordial" />
+					<attribute id="PassivesAdded" type="LSString" value="HematicAscent" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="TableUUID" type="guid" value="3ce75a42-7ec6-4d06-be07-b473af9c2f8d" />
+					<attribute id="UUID" type="guid" value="865185cc-b8a1-4570-9427-04be2321518c" />
+					</node>
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="8" />
+					<attribute id="Name" type="LSString" value="PactofthePrimordial" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="TableUUID" type="guid" value="3ce75a42-7ec6-4d06-be07-b473af9c2f8d" />
+					<attribute id="UUID" type="guid" value="c9c3f184-3a09-4b08-acb0-0e790eb6b606" />
+					</node>
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="9" />
+					<attribute id="Name" type="LSString" value="PactofthePrimordial" />
+					<attribute id="PassivesAdded" type="LSString" value="SacrificalSurrogate;ImprovedEldritchEmpowerment" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="TableUUID" type="guid" value="3ce75a42-7ec6-4d06-be07-b473af9c2f8d" />
+					<attribute id="UUID" type="guid" value="0f771934-1e22-459b-a4dd-b6f8badc4b5c" />
+					</node>
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="10" />
+					<attribute id="Name" type="LSString" value="PactofthePrimordial" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="TableUUID" type="guid" value="3ce75a42-7ec6-4d06-be07-b473af9c2f8d" />
+					<attribute id="UUID" type="guid" value="ca5b0c4a-a9cc-4799-97f2-73ebd3895ec2" />
+					</node>
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="11" />
+					<attribute id="Name" type="LSString" value="PactofthePrimordial" />
+					<attribute id="PassivesAdded" type="LSString" value="DemonicApotheosis" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="TableUUID" type="guid" value="3ce75a42-7ec6-4d06-be07-b473af9c2f8d" />
+					<attribute id="UUID" type="guid" value="200b1291-d864-4744-968d-c72c37da4a87" />
+					</node>
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="12" />
+					<attribute id="Name" type="LSString" value="PactofthePrimordial" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="TableUUID" type="guid" value="3ce75a42-7ec6-4d06-be07-b473af9c2f8d" />
+					<attribute id="UUID" type="guid" value="6f3ec0b1-7d48-4086-93b9-59bb01b0801a" />
 					</node>
 
 <!--WARLOCK (PACT OF PENUMBRA)-->

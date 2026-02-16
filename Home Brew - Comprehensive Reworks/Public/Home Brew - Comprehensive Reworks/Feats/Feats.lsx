@@ -416,10 +416,15 @@
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="FighterChampion"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Challenger;ImprovedSecondWind"/>
-					<attribute id="PassivesRemoved" type="LSString" value="SecondWind" />
+                    <attribute id="PassivesAdded" type="LSString" value="Challenger;ChampionsRepertoire"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Fighter&apos;)"/>
                     <attribute id="UUID" type="guid" value="415dc709-9944-4f49-ac97-d63081a338ac"/>
+                </node>
+				<node id="Feat">
+                    <attribute id="Name" type="FixedString" value="FighterDraconicSentinel"/>
+                    <attribute id="PassivesAdded" type="LSString" value="BodyoftheLancer;WyrmcallResonance"/>
+                    <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Fighter&apos;)"/>
+                    <attribute id="UUID" type="guid" value="0bd9516c-195e-4012-bced-cb7528cbbc63"/>
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="FighterEldritchKnight"/>
@@ -437,7 +442,7 @@
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="MonkWayOfTheArcane"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Feat_SpellSlots;Flow_State;FlurryOfBlowsUnlock;Essence_of_the_Elements"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Feat_SpellSlots;Flow_State;FlurryOfBlowsMagicUnlock;Essence_of_the_Elements"/>
                     <attribute id="Selectors" type="LSString" value="SelectSpells(ffad33d2-e725-4655-ba80-0bc91e8002b3,2,0,Cantrips,,,AlwaysPrepared);SelectSpells(4f8a545f-2a42-490b-a008-7276d5186b0a,3,0,MonkSpells,Wisdom,e9127b70-22b7-42a1-b172-d02f828f260a,AlwaysPrepared)" />
 					<attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Monk&apos;)"/>
 					<attribute id="UUID" type="guid" value="c9cffeb1-2cb0-44a2-a090-9db2026d549c"/>
@@ -523,6 +528,12 @@
 					<attribute id="UUID" type="guid" value="f1d35a6c-9c64-4431-862b-972e1004b628"/>
                 </node>
 				<node id="Feat">
+                    <attribute id="Name" type="FixedString" value="RogueHiddenToxicant"/>
+                    <attribute id="PassivesAdded" type="LSString" value="SneakAttack_Unlock_Toxic;ImbuedToxicity;VenomousCoatings"/>
+                    <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Rogue&apos;)"/>
+					<attribute id="UUID" type="guid" value="a434fbc2-676c-4123-8d9a-24dd2e5d6898"/>
+                </node>
+				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="RogueSwashbuckler"/>
                     <attribute id="PassivesAdded" type="LSString" value="RakishAudacity;SneakAttackSwitch;Swash_Unlock"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Rogue&apos;)"/>
@@ -576,6 +587,12 @@
                     <attribute id="PassivesAdded" type="LSString" value="PactofPenumbra;Penumbra_Dark_Toggle;Penumbra_Light_Toggle;DawnbreakoftheSunsetter"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Warlock&apos;)"/>
                     <attribute id="UUID" type="guid" value="0d17dbdd-57d6-4779-9d76-ebbdb2459b95"/>
+                </node>
+				<node id="Feat">
+                    <attribute id="Name" type="FixedString" value="WarlockPactOfThePrimordialDemon"/>
+                    <attribute id="PassivesAdded" type="LSString" value="EldritchBlast_Unlock;PactofthePrimordial;AdvocatusDiaboli"/>
+                    <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Warlock&apos;)"/>
+                    <attribute id="UUID" type="guid" value="656cdba8-d560-42f2-8776-a7c575115fbd"/>
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="WarlockPactOfTheTome"/>

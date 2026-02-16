@@ -328,7 +328,7 @@
 <!--GALVANIZED STORMSOUL-->
 
 	<content contentuid="8a87461fd8dd4f5b9098ded714sdf68878d06" version="2">Galvanized Stormsoul</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f60d1fd250f" version="3">Gain &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to both Lightning and Thunder damage. Upon dealing or taking damage, you receive one stack of &lt;LSTag Type="Status" Tooltip="MAG_CHARGED_LIGHTNING"&gt;Lightning Charges&lt;/LSTag&gt;. In addition, you gain &lt;LSTag Type="Spell" Tooltip="Target_GalvanizedStrike"&gt;Galvanized Storm Strike&lt;/LSTag&gt;.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f60d1fd250f" version="3">Gain &lt;LSTag Tooltip="Resistance"&gt;Resistance&lt;/LSTag&gt; to both Lightning and Thunder damage. Upon dealing or taking damage, you receive one stack of &lt;LSTag Type="Status" Tooltip="MAG_CHARGED_LIGHTNING"&gt;Lightning Charges&lt;/LSTag&gt;. In addition, you gain &lt;LSTag Type="Spell" Tooltip="Target_GalvanizedStrike"&gt;Galvanized Storm Strike&lt;/LSTag&gt;.</content>
 	<content contentuid="hcbb02b50g75d3g468fgacb6gs6e54fe65f25" version="2">Galvanized Storm Strike</content>
 	<content contentuid="h53277800gd3a4g4984gbff6g0s5e6fs84ef4" version="3">Strike an enemy, firing &lt;LSTag Type="Spell" Tooltip="Projectile_WitchBolt"&gt;Witch Bolts&lt;/LSTag&gt; at all enemies within [1] of you.</content>
 
@@ -447,6 +447,9 @@
 	<content contentuid="d26f0798-0c95-4208-b5b2-ec4c595cd156" version="1">Yokebreaker: Champion</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df18" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Champion"&gt;Champion Fighter&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
+	<content contentuid="d26f0798-0c95-4208-b5b2-894kjd8943ff" version="1">Yokebreaker: Draconic Sentinel</content>
+	<content contentuid="47709b48-6124-44dc-8792-5d8e2f5e45f4" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_DraconicSentinel"&gt;Draconic Sentinel Fighter&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+
 	<content contentuid="f64893a4-9722-48d5-aa76-90bd1c2ad3ab" version="1">Yokebreaker: Eldritch Knight</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df19" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_EldritchKnight"&gt;Eldritch Knight Fighter&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
@@ -503,6 +506,9 @@
 	<content contentuid="b8521733-fde0-4025-bd90-9d73358819f9" version="1">Yokebreaker: Assassin</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df34" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Assassin"&gt;Assassin Rogue&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
+	<content contentuid="b8521733-fde0-4025-bd90-2d5ef1f5e4f5" version="1">Yokebreaker: Hidden Toxicant</content>
+	<content contentuid="47709b48-6124-44dc-8792-a6e8f6e8f598" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_HiddenToxicant"&gt;Hidden Toxicant Rogue&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+
 	<content contentuid="a05f596f-a10f-4c5e-b8f6-405ad37a146c" version="1">Yokebreaker: Mercenary</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df35" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Swashbuckler"&gt;Mercenary Rogue&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
@@ -533,6 +539,9 @@
 
 	<content contentuid="0df1b7d5-e045-4944-b1d7-54ab25513520" version="1">Yokebreaker: Pact of Penumbra</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df43" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_PactofPenumbra"&gt;Pact of Penumbra Warlock&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+
+	<content contentuid="0df1b7d5-e045-4944-b1d7-2wse68se7ef5" version="1">Yokebreaker: Pact of the Primordial Demon</content>
+	<content contentuid="47709b48-6124-44dc-8792-388we984ifif" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_PactofthePrimordialDemon"&gt;Pact of Primordial Demon Warlock&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
 	<content contentuid="47526eef-46d6-4976-948e-753f4790b427" version="1">Yokebreaker: Pact of the Tome</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df44" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_PactoftheTome"&gt;Pact of the Tome Warlock&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>

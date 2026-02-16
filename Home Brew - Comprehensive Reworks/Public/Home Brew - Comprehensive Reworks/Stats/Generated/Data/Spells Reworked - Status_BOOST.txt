@@ -2313,7 +2313,7 @@ data "StackId" "HAMSTRING"
 data "TickType" "EndTurn"
 data "Boosts" "ActionResourceMultiplier(Movement,50,0)"
 data "RemoveEvents" "OnHeal"
-data "StatusGroups" "SG_Physical;SG_Restrained;SG_Restrained;SG_Helpable_Condition"
+data "StatusGroups" "SG_Physical;SG_Restrained;SG_Helpable_Condition"
 data "ManagedStatusEffectType" "Negative"
 data "ManagedStatusEffectGroup" "d787f666-8ee6-4185-9365-6aac9ebe76ae"
 

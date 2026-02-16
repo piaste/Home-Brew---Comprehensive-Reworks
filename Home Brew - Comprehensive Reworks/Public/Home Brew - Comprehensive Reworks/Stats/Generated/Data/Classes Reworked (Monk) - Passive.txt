@@ -47,6 +47,14 @@ data "Boosts" "ActionResource(ActionPoint,1,0)"
 
 <!--WAY OF THE ARCANE-->
 
+new entry "FlurryOfBlowsMagicUnlock"
+type "PassiveData"
+data "DisplayName" "h6fd86334ge5e3g47d0gb00fg7b0s2e2f1e52;1"
+data "Description" "hc46f3836gfdb1g45d3g8273gs4e6f4esf4e5;2"
+data "Icon" "Skill_Druid_NaturalRecovery"
+data "Properties" "Highlighted;ForceShowInCC"
+data "Boosts" "UnlockSpell(Target_FlurryOfBlowsMagic);UnlockSpell(Target_UnarmedStrike_MonkMagic)"
+
 new entry "Flow_State"
 type "PassiveData"
 data "DisplayName" "h5dbeb57bg6089g4fccgb4b1ga71c31400001;1"
@@ -81,7 +89,7 @@ data "DisplayName" "h5dbeb57bg6089g4fccgb4b1ga71c31400004;1"
 data "Description" "h5dbeb57bg6089g4fccgb4b1ga71c3140000d;1"
 data "Icon" "Skill_Druid_NaturalRecovery"
 data "Properties" "Highlighted;ForceShowInCC"
-data "Boosts" "IF(IsSpell() and not IsCantrip() and HasStatus('FLOW_STATE', context.Source)):Advantage(AttackRoll);IF(IsSpell() and not IsCantrip() and HasStatus('FLOW_STATE', context.Source)):Reroll(Damage,20,false)"
+data "Boosts" "IF(IsSpell() and not IsCantrip() and HasStatus('FLOW_STATE', context.Source)):Advantage(AttackRoll);IF(IsSpell() and not IsCantrip() and HasStatus('FLOW_STATE', context.Source)):Reroll(Damage,20,false);IF(IsCantrip()):Advantage(AttackRoll);IF(IsCantrip()):Reroll(Damage,20,false)"
 
 new entry "Elemental_Recovery"
 type "PassiveData"
