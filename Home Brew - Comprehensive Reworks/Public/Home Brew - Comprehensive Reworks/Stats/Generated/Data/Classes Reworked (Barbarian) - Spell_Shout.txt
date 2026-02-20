@@ -74,40 +74,7 @@ data "SpellSoundMagnitude" "Big"
 data "Sheathing" "Somatic"
 data "AIFlags" "CanNotUse"
 
-<!--BERSERKER-->
-
-new entry "Shout_Rage_Frenzy"
-type "SpellData"
-data "SpellType" "Shout"
-using "Shout_Rage"
-data "SpellProperties" "ApplyStatus(RAGE_FRENZY,100,3);AI_ONLY:IF(HasActionResource('BonusActionPoint', 1, 0, false)):ApplyStatus(AI_HELPER_RAGE,100,0);ApplyStatus(SELF,AI_HELPER_BUFF,100,0);IF(not Player(context.Source)):ApplyStatus(SELF,BUFF_BLOCKER,100,3)"
-data "Icon" "Action_Barbarian_Frenzy"
-data "DisplayName" "hb3a638fagbfdcg466dg93dcg3003db2a946a;2"
-data "Description" "h59751bb9g943dg4a84gb7d0g87071d1a2932;18"
-data "TooltipStatusApply" "ApplyStatus(RAGE_FRENZY,100,3)"
-data "CastSound" "Action_Cast_Rage"
-data "TargetSound" "Action_Impact_Rage"
-data "RequirementConditions" "not HasStatus('RAGE_FRENZY') and not HasStatus('CALM_EMOTIONS') and not HasStatus('BUFF_BLOCKER')"
-data "PrepareEffect" "63816502-951b-4242-a9a2-fa8b5228f18a"
-data "CastEffect" "d314aed0-4fb5-44dc-98c4-614297017694"
-
-<!--FROSTWOVEN-->
-
-new entry "Shout_Rage_Bifrost"
-type "SpellData"
-data "SpellType" "Shout"
-using "Shout_Rage"
-data "SpellProperties" "ApplyStatus(RAGE_BIFROST,100,3);AI_ONLY:IF(HasActionResource('BonusActionPoint', 1, 0, false)):ApplyStatus(AI_HELPER_RAGE,100,0);ApplyStatus(SELF,AI_HELPER_BUFF,100,0);IF(not Player(context.Source)):ApplyStatus(SELF,BUFF_BLOCKER,100,3)"
-data "Icon" "Action_Barbarian_Rage_Bifrost"
-data "DisplayName" "h40aa7e41g978dg4da6as54df84sd55f45001;1"
-data "Description" "hc526s54df84ef6s84d68f4s2e4f6s6d8f00a;3"
-data "ExtraDescription" "h9c492aaag4d3cg4dc8g8bd5g12c7dd56d998;3"
-data "TooltipStatusApply" "ApplyStatus(RAGE_BIFROST,100,3)"
-data "RequirementConditions" "not HasStatus('SG_Rage') and not HasStatus('CALM_EMOTIONS') and not HasStatus('BUFF_BLOCKER')"
-data "PrepareEffect" "f4aab3ad-a4ad-48e1-9052-3808e2b65981"
-data "CastEffect" "ccdad0c8-5c0f-4a89-8bb6-94573c5fe73b"
-
-<!--WILD HEART-->
+<!--BEASTHEART-->
 
 new entry "Shout_Rage_Totem_Container"
 type "SpellData"
@@ -299,6 +266,54 @@ data "Sheathing" "Sheathed"
 data "RequirementConditions" "HasStatus('SG_Rage') and not HasStatus('SILENCED')"
 data "Cooldown" "OncePerTurn"
 
+<!--BERSERKER-->
+
+new entry "Shout_Rage_Frenzy"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_Rage"
+data "SpellProperties" "ApplyStatus(RAGE_FRENZY,100,3);AI_ONLY:IF(HasActionResource('BonusActionPoint', 1, 0, false)):ApplyStatus(AI_HELPER_RAGE,100,0);ApplyStatus(SELF,AI_HELPER_BUFF,100,0);IF(not Player(context.Source)):ApplyStatus(SELF,BUFF_BLOCKER,100,3)"
+data "Icon" "Action_Barbarian_Frenzy"
+data "DisplayName" "hb3a638fagbfdcg466dg93dcg3003db2a946a;2"
+data "Description" "h59751bb9g943dg4a84gb7d0g87071d1a2932;18"
+data "TooltipStatusApply" "ApplyStatus(RAGE_FRENZY,100,3)"
+data "CastSound" "Action_Cast_Rage"
+data "TargetSound" "Action_Impact_Rage"
+data "RequirementConditions" "not HasStatus('RAGE_FRENZY') and not HasStatus('CALM_EMOTIONS') and not HasStatus('BUFF_BLOCKER')"
+data "PrepareEffect" "63816502-951b-4242-a9a2-fa8b5228f18a"
+data "CastEffect" "d314aed0-4fb5-44dc-98c4-614297017694"
+
+<!--FROSTBREAKER-->
+
+new entry "Shout_Rage_Bifrost"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_Rage"
+data "SpellProperties" "ApplyStatus(RAGE_BIFROST,100,3);AI_ONLY:IF(HasActionResource('BonusActionPoint', 1, 0, false)):ApplyStatus(AI_HELPER_RAGE,100,0);ApplyStatus(SELF,AI_HELPER_BUFF,100,0);IF(not Player(context.Source)):ApplyStatus(SELF,BUFF_BLOCKER,100,3)"
+data "Icon" "Action_Barbarian_Rage_Bifrost"
+data "DisplayName" "h40aa7e41g978dg4da6as54df84sd55f45001;1"
+data "Description" "hc526s54df84ef6s84d68f4s2e4f6s6d8f00a;3"
+data "ExtraDescription" "h9c492aaag4d3cg4dc8g8bd5g12c7dd56d998;3"
+data "TooltipStatusApply" "ApplyStatus(RAGE_BIFROST,100,3)"
+data "RequirementConditions" "not HasStatus('SG_Rage') and not HasStatus('CALM_EMOTIONS') and not HasStatus('BUFF_BLOCKER')"
+data "PrepareEffect" "f4aab3ad-a4ad-48e1-9052-3808e2b65981"
+data "CastEffect" "ccdad0c8-5c0f-4a89-8bb6-94573c5fe73b"
+
+<!--GIANTS BLOOD-->
+
+new entry "Shout_Rage_Giant"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_Rage"
+data "SpellProperties" "ApplyStatus(RAGE_GIANT,100,3);AI_ONLY:IF(HasActionResource('BonusActionPoint', 1, 0, false)):ApplyStatus(AI_HELPER_RAGE,100,0);ApplyStatus(SELF,AI_HELPER_BUFF,100,0);IF(not Player(context.Source)):ApplyStatus(SELF,BUFF_BLOCKER,100,3)"
+data "Icon" "Action_GiantsRage"
+data "DisplayName" "hf0908836g8eb4g4de8gaa00g91f1813a9a4e;1"
+data "Description" "hba6e0170g05cag4395ga5c4g516c15eb4413;3"
+data "DescriptionParams" "Distance(3)"
+data "TooltipStatusApply" "ApplyStatus(RAGE_GIANT,100,3)"
+data "RequirementConditions" "not HasStatus('SG_Rage') and not HasStatus('CALM_EMOTIONS') and not HasStatus('BUFF_BLOCKER')"
+data "CastEffect" "fa55e5e5-39a6-4f10-8776-9db62695ded6"
+
 <!--WILD MAGIC-->
 
 new entry "Shout_Rage_WildMagic"
@@ -315,18 +330,3 @@ data "TooltipPermanentWarnings" "11324c04-12f0-4c78-904b-fe50fa5ff314"
 data "SpellAnimation" "50e7cd15-5b95-47e9-b6f8-ed7900d23d9d,,;,,;289b4f53-3ca5-4dff-a1d4-e84a84a283f0,,;772a34bf-06c1-43ee-ae7b-1a1ffd3fef9e,,;03239618-40c7-47ab-a7b4-d2e0b111e5f7,,;,,;bc09e561-370b-4307-88d7-6462b6fbabec,,;,,;,,"
 data "SpellAnimationIntentType" "Aggressive"
 data "RequirementConditions" "not HasStatus('RAGE_MAGIC') and not HasStatus('CALM_EMOTIONS') and not HasStatus('BUFF_BLOCKER')"
-
-<!--GIANTS BLOODS-->
-
-new entry "Shout_Rage_Giant"
-type "SpellData"
-data "SpellType" "Shout"
-using "Shout_Rage"
-data "SpellProperties" "ApplyStatus(RAGE_GIANT,100,3);AI_ONLY:IF(HasActionResource('BonusActionPoint', 1, 0, false)):ApplyStatus(AI_HELPER_RAGE,100,0);ApplyStatus(SELF,AI_HELPER_BUFF,100,0);IF(not Player(context.Source)):ApplyStatus(SELF,BUFF_BLOCKER,100,3)"
-data "Icon" "Action_GiantsRage"
-data "DisplayName" "hf0908836g8eb4g4de8gaa00g91f1813a9a4e;1"
-data "Description" "hba6e0170g05cag4395ga5c4g516c15eb4413;3"
-data "DescriptionParams" "Distance(3)"
-data "TooltipStatusApply" "ApplyStatus(RAGE_GIANT,100,3)"
-data "RequirementConditions" "not HasStatus('SG_Rage') and not HasStatus('CALM_EMOTIONS') and not HasStatus('BUFF_BLOCKER')"
-data "CastEffect" "fa55e5e5-39a6-4f10-8776-9db62695ded6"

@@ -518,7 +518,6 @@ data "PsychicResistance" "Resistant"
 
 <!--PASSIVES-->
 
-
 new entry "ConjureTurret_1"
 type "Character"
 data "Strength" "10"

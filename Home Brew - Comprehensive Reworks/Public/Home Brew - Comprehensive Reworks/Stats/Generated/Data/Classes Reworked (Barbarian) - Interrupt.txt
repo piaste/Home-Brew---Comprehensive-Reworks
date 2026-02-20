@@ -1,4 +1,4 @@
-<!--FROSTWEAVER-->
+<!--FROSTBREAKER-->
 
 new entry "Interrupt_TundralStrike"
 type "InterruptData"

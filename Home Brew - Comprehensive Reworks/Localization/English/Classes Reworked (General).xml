@@ -360,6 +360,7 @@
 
 	<content contentuid="h9766190f1fd349f88a57bf00f99c3419fbf1" version="1">Fighter: Arcane Archer</content>
 	<content contentuid="h8e07c781f6be48bb8d11f539e1c8b49bg65b" version="1">Fighter: Champion</content>
+	<content contentuid="h8e07c781f6be48bb8d11f539e12d5f3d5f65" version="1">Fighter: Draconic Sentinel</content>
 	<content contentuid="hc956224f7f584e9096e7a3c79458d1cc9bg3" version="1">Fighter: Eldritch Knight</content>
 	<content contentuid="hb2ff7aec766b4e64b8113c7656e78468c3a3" version="1">Fighter: Frontier Knight</content>
 
@@ -381,7 +382,8 @@
 
 	<content contentuid="h887976b614304ec78b4449ad1d3e45012f6e" version="1">Rogue: Arcane Trickster</content>
 	<content contentuid="h5ac4211b67404f48a9e8976bf17a7b077674" version="1">Rogue: Assassin</content>
-	<content contentuid="h1a147cb174bc46c59e2a8a8997501d256223" version="1">Rogue: Swashbuckler</content>
+	<content contentuid="h5ac4211b67404f48a9e8976bf2se5f6s54ef" version="1">Rogue: Hidden Toxicant</content>
+	<content contentuid="h1a147cb174bc46c59e2a8a8997501d256223" version="1">Rogue: Mercenary</content>
 	<content contentuid="hf3a37e1adfa04e18a9f37b5103b8aead7e76" version="1">Rogue: Thief</content>
 
 	<content contentuid="h74cb6d76f7084d1d9ccca5ba1622140f3c7d" version="1">Sorcerer: Draconic Bloodline</content>
@@ -392,6 +394,7 @@
 	<content contentuid="hc3c6d414533e4e019f42a85c9ef4acc7020g" version="1">Warlock: Pact of the Blade</content>
 	<content contentuid="hb462d35d35dd41e5ad91cfea37e0429dbc0b" version="1">Warlock: Pact of the Chain</content>
 	<content contentuid="hfaac57ba1de244f3abc2cb0eeedea64c5931" version="1">Warlock: Pact of Penumbra</content>
+	<content contentuid="hfaac57ba1de244f3abc2c2s5ef56f5e8f454" version="1">Warlock: Pact of the Primordial</content>
 	<content contentuid="h4eda45b1312b481bbdb967db21001156768a" version="1">Warlock: Pact of the Tome</content>
 
 	<content contentuid="h7a8fbc177eec490588472d84bb58ffdd6266" version="1">Wizard: Arcblade</content>

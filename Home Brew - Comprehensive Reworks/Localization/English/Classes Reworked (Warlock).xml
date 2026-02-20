@@ -33,7 +33,7 @@
 	<content contentuid="hcbb02b50g75d3g468fgacb6gb7c7ss600004" version="5">Eldritch Hematic Invocation</content>
 	<content contentuid="h53277800gd3a4g4984gbff6g0af5dd20000d" version="1">Sacrifice 10% of your total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; to an Eldritch abomination in order to restore a &lt;LSTag Tooltip="WarlockSpellSlot"&gt;Warlock Spell Slot&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;While abiding by the Pact of the Tome, you may cast your &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt; once as a free action.</content>
 	<content contentuid="hcbb02b50g75d3g468fgacb6gb7c7ss600005" version="5">Primordial Hematic Invocation</content>
-	<content contentuid="h53277800gd3a4g4984gbff6g0af5dd20000e" version="1">Sacrifice 10% of your total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; to an Eldritch abomination in order to restore a &lt;LSTag Tooltip="WarlockSpellSlot"&gt;Warlock Spell Slot&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;While abiding by the Pact of the Primordial Demon, you will immediately shift into your &lt;LSTag Type="Status" Tooltip="DEMONIC_VISAGE"&gt;Demonic Visage&lt;/LSTag&gt;.</content>
+	<content contentuid="h53277800gd3a4g4984gbff6g0af5dd20000e" version="1">Sacrifice 10% of your total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; to an Eldritch abomination in order to restore a &lt;LSTag Tooltip="WarlockSpellSlot"&gt;Warlock Spell Slot&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;While abiding by the Pact of the Primordial, you will immediately shift into your &lt;LSTag Type="Status" Tooltip="DEMONIC_VISAGE"&gt;Demonic Visage&lt;/LSTag&gt;.</content>
 	<content contentuid="h53277800gd3a4g4984gbff6g0af5dd222254" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Bargaining your life in this way renders your maximum Hit Points lowered until your next &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
 	<content contentuid="hcbb02b50g75d3g468fgacb6gb7c7ss65d6f6" version="5">Hematic Invocation</content>
 	<content contentuid="h53277800gd3a4g4984gbff6g0af5dd222d64" version="1">Affected creature's maximum &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; have been reduced by 10% per stack of Hematic Invocation.</content>
@@ -190,10 +190,10 @@ the Chain</content>
 	<content contentuid="hcbb02b50g75d3g468fgacb6gb70000000005" version="5">Fiendish Growth III</content>
 	<content contentuid="h53277800gd3a4g4984gbff6g0a000000000e" version="1">The blood that binds you to your pact has become utterly resolute. Your &lt;LSTag Type="Spell" Tooltip="Target_PactOfTheChain_Container"&gt;Chained Companions&lt;/LSTag&gt; have reached the peak of their potential.</content>
 
-<!--PACT OF THE DEMON-->
+<!--PACT OF THE PRIMORDIAL-->
 
 	<content contentuid="h7fd64569g909283ur9seud9fs8u3r9000000" version="1">Pact of
-the Primordial Demon</content>
+the Primordial</content>
 	<content contentuid="h7fd64569g90928320398r9se8fu09u300000" version="1">You've bound your soul to something eldritch and ancient for powers obscure. Within the corners of your mind, you feel it clawing, begging to be let out. And thus begins your journey to feed it...</content>
 
 	<content contentuid="h7fd64569g909283ur9seud9fs8u3r9000001" version="1">Pact of the Primordial</content>
@@ -220,9 +220,9 @@ the Primordial Demon</content>
 	<content contentuid="h7fd64569g90928320398r9se8fu09u3000ze" version="3">Affected creature deals an additional [1] from all sources of damage. In addition, they have greatly increased in both size and musculature, improving all of their physical capabilities and causing them to deal an additional [2] damage with all &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attacks&lt;/LSTag&gt; and while unarmed.</content>
 
 	<content contentuid="h7fd64569g909283ur9seud9fs8u3r9000006" version="1">Demonic Apotheosis</content>
-	<content contentuid="h7fd64569g90928320398r9se8fu09u30000f" version="3">While in a state of both &lt;LSTag Type="Status" Tooltip="DEMONIC_VISAGE"&gt;Demonic Visage&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="SURROGATE_SLAUGHTER"&gt;Surrogate Slaughter&lt;/LSTag&gt;, you may utilize all seven of your &lt;LSTag Type="ActionResource" Tooltip="CollectedSoul"&gt;Collected Souls&lt;/LSTag&gt; in order to shape into a &lt;LSTag Type="Spell" Tooltip="Shout_PrimordialDemon"&gt;Primordial Demon&lt;/LSTag&gt;.</content>
+	<content contentuid="h7fd64569g90928320398r9se8fu09u30000f" version="3">While in a state of both &lt;LSTag Type="Status" Tooltip="DEMONIC_VISAGE"&gt;Demonic Visage&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="SURROGATE_SLAUGHTER"&gt;Surrogate Slaughter&lt;/LSTag&gt;, you may utilize all seven of your &lt;LSTag Type="ActionResource" Tooltip="CollectedSoul"&gt;Collected Souls&lt;/LSTag&gt; in order to shape into a Primordial Demon.</content>
 	<content contentuid="h7fd64569g909283ur9seud9fs8u3r90000z6" version="1">Demonic Apotheosis</content>
-	<content contentuid="h7fd64569g90928320398r9se8fu09u3000zf" version="3">While in a state of both &lt;LSTag Type="Status" Tooltip="DEMONIC_VISAGE"&gt;Demonic Visage&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="SURROGATE_SLAUGHTER"&gt;Surrogate Slaughter&lt;/LSTag&gt;, utilize all seven of your &lt;LSTag Type="ActionResource" Tooltip="CollectedSoul"&gt;Collected Souls&lt;/LSTag&gt; in order to shape into a &lt;LSTag Type="Spell" Tooltip="Shout_PrimordialDemon"&gt;Primordial Demon&lt;/LSTag&gt;.</content>
+	<content contentuid="h7fd64569g90928320398r9se8fu09u3000zf" version="3">While in a state of both &lt;LSTag Type="Status" Tooltip="DEMONIC_VISAGE"&gt;Demonic Visage&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="SURROGATE_SLAUGHTER"&gt;Surrogate Slaughter&lt;/LSTag&gt;, utilize all seven of your &lt;LSTag Type="ActionResource" Tooltip="CollectedSoul"&gt;Collected Souls&lt;/LSTag&gt; in order to shape into a Primordial Demon.</content>
 	<content contentuid="h7fd64569g909283ur9seud9fs8u3r9000zz6" version="1">Demonic Apotheosis</content>
 	<content contentuid="h7fd64569g90928320398r9se8fu09u300zzf" version="3">Affected creature has sacrificed seven souls in order to assume the shape of a Primordial Demon.</content>
 	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6ezzzz1" version="1">Demonic Warp</content>

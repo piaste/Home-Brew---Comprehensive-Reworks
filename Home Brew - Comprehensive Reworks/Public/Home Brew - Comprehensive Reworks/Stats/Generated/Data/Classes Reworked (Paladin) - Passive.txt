@@ -608,7 +608,7 @@ data "DisplayName" "fe6f4159abae42539029e284001d12de00010;1"
 data "Description" "fe6f4159abae42539029e284001d12de0000j;2"
 data "ExtraDescription" "h197f62bbgd1ddg4436g90df5s6s5d4f56f45"
 data "Properties" "Highlighted;ForceShowInCC"
-data "Boosts" "IF(Tagged('ABERRATION') or Tagged('FEY') or Tagged('FIEND') or Tagged('UNDEAD') and not (HasPassive('Oath_Crown_Tenents', context.Source) or HasPassive('Smite_Oathbroken', context.Source))):DamageBonus(1d12, Radiant);IF(Tagged('ABERRATION') or Tagged('FEY') or Tagged('FIEND') or Tagged('UNDEAD') and HasPassive('Oath_Crown_Tenents', context.Source)):DamageBonus(1d12, Fire);IF(Tagged('ABERRATION') or Tagged('FEY') or Tagged('FIEND') or Tagged('UNDEAD') and HasPassive('Smite_Oathbroken', context.Source)):DamageBonus(1d12, Necrotic)"
+data "Boosts" "IF(Tagged('ABERRATION',context.Target) or Tagged('FEY',context.Target) or Tagged('FIEND',context.Target) or Tagged('UNDEAD',context.Target)):DamageBonus(1d12)"
 
 new entry "Repel_the_Damned"
 type "PassiveData"
@@ -736,18 +736,6 @@ data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnCreate;OnLongRest;OnTurn"
 data "Conditions" "HasPassive('Stalwart_Resolve',GetSummoner(context.Source))"
 data "StatsFunctors" "IF(not HasStatus('STALWART_RESOLVE', context.Source)):ApplyStatus(SELF,STALWART_RESOLVE,100,-1)"
-
-new entry "STALWART_RESOLVE"
-type "StatusData"
-data "StatusType" "BOOST"
-data "Icon" "Action_Paladin_EternalDevotion"
-data "DisplayName" "9b7b811b9c3043e189f945540bf5116e2a623;1"
-data "Description" "9b7b811b9c3043e189f945540bf5116easdf9;2"
-data "ExtraDescription" "h197f62bbgd1ddg4436g90df5s6s5d4f56f45"
-data "StackId" "STALWART_RESOLVE"
-data "StackType" "Ignore"
-data "Boosts" "DamageReduction(Acid, Flat, CharismaModifier);DamageReduction(Cold, Flat, CharismaModifier);DamageReduction(Fire, Flat, CharismaModifier);DamageReduction(Force, Flat, CharismaModifier);DamageReduction(Lightning, Flat, CharismaModifier);DamageReduction(Necrotic, Flat, CharismaModifier);DamageReduction(Poison, Flat, CharismaModifier);DamageReduction(Psychic, Flat, CharismaModifier);DamageReduction(Radiant, Flat, CharismaModifier);DamageReduction(Thunder, Flat, CharismaModifier)"
-data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
 
 <!--AURAS-->
 

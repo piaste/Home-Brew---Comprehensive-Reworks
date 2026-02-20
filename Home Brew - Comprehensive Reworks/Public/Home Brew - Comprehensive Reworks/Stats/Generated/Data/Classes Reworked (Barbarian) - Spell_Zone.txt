@@ -1,4 +1,4 @@
-<!--WILD HEART-->
+<!--BEASTHEART-->
 
 new entry "Zone_TigersBloodlust"
 type "SpellData"

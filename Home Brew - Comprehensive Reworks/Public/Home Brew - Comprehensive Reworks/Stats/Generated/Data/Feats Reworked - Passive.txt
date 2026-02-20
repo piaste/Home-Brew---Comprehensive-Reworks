@@ -130,20 +130,6 @@ data "Icon" "PassiveFeature_BookOfAncientSecrets"
 data "Properties" "Highlighted;IsToggled;ToggledDefaultOn;ToggledDefaultAddToHotbar"
 data "Boosts" "IF(not HasStatus('EXTRA_ATTACK', context.Source) and not HasStatus('EXTRA_ATTACK_2', context.Source)):UnlockSpellVariant(IsCantrip(),ModifyUseCosts(Replace,BonusActionPoint,1,0,ActionPoint))"
 
-<!--ACTOR-->
-
-new entry "Actor"
-type "PassiveData"
-data "Properties" "IsHidden"
-data "Boosts" "ProficiencyBonus(Skill,Deception);ProficiencyBonus(Skill,Intimidation);ProficiencyBonus(Skill,Performance);ProficiencyBonus(Skill,Persuasion);ExpertiseBonus(Deception);ExpertiseBonus(Intimidation);ExpertiseBonus(Performance);ExpertiseBonus(Persuasion)"
-
-new entry "Actor_Display"
-type "PassiveData"
-data "DisplayName" "8a87461fd8dd4f5b9098ded714f6c8aa00002;2"
-data "Description" "8a87461fd8dd4f5b9098ded714f6c8aa0000b;3"
-data "Icon" "PassiveFeature_Banite_TacticalDiscipline"
-data "Properties" "Highlighted;ForceShowInCC"
-
 <!--ALERT-->
 
 new entry "Alert"

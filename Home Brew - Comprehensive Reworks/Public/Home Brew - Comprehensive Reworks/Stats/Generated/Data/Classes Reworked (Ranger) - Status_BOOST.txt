@@ -716,7 +716,7 @@ data "StackId" "WANTON_SYNERGY_DISABLER"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 data "Boosts" "StatusImmunity(WANTON_SYNERGY_COMPANION)"
 
-<!--SUMMON DISTINCTION-->
+<!--RANGER COMPANIONS-->
 
 new entry "RANGERS_COMPANION_BEAR"
 type "StatusData"
@@ -760,3 +760,18 @@ new entry "RANGERS_COMPANION_WORG"
 type "StatusData"
 data "StatusType" "BOOST"
 using "RANGERS_COMPANION_BEAR"
+
+new entry "BURSTINGBROOD_INFESTATION_SPIDER"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SPIDER_INFESTATION"
+data "Description" "h482a20aag6489g4770gbbdag13a232e2a4b5;1"
+data "Icon" "GenericIcon_DamageType_Physical"
+data "TickType" "StartTurn"
+data "Passives" ""
+data "RemoveConditions" "SavingThrow(Ability.Dexterity, CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source)))"
+data "RemoveEvents" "OnTurn"
+data "TooltipSave" "Dexterity"
+data "TooltipDamage" "DealDamage(1d4, Poison);DealDamage(1d4, Piercing)	"
+data "TickFunctors" "DealDamage(1d4, Poison);DealDamage(1d4, Piercing)"
+data "StatusPropertyFlags" ""

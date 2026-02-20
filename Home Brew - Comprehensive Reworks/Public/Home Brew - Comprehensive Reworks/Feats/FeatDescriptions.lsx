@@ -495,6 +495,13 @@
                     <attribute id="UUID" type="guid" value="2ef76cd0-c9f6-411c-8f45-053406ce4393"/>
                 </node>
                 <node id="FeatDescription">
+                    <attribute id="Description" type="TranslatedString" handle="47709b48-6124-44dc-8792-6we8e6se8f98" version="4"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="3edf898e-4341-4681-8ba1-2we5fe65f545" version="1"/>
+                    <attribute id="ExactMatch" type="FixedString" value="DruidCircleOfTheElements"/>
+                    <attribute id="FeatId" type="guid" value="d88b9883-f310-404a-8f33-7fbc551049e3"/>
+                    <attribute id="UUID" type="guid" value="1b5e18cf-95d9-4f2d-96b8-2450c0320558"/>
+                </node>
+                <node id="FeatDescription">
                     <attribute id="Description" type="TranslatedString" handle="47709b48-6124-44dc-8792-5sd6f545df13" version="4"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="3edf898e-4341-4681-8ba1-a29540337ebb" version="1"/>
                     <attribute id="ExactMatch" type="FixedString" value="DruidCircleOfTheLand"/>

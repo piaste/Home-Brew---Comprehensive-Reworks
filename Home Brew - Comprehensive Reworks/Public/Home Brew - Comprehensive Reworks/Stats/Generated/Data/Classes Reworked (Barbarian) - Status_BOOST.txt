@@ -193,7 +193,7 @@ data "Boosts" "IF(IsMeleeAttack()):Advantage(AttackRoll);IF(IsRangedUnarmedAttac
 data "StatusGroups" "SG_RemoveOnRespec"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog"
 
-<!--BEAST HEART-->
+<!--BEASTHEART-->
 
 new entry "RAGE_TOTEM_BEAR"
 type "StatusData"
@@ -524,7 +524,7 @@ type "StatusData"
 data "StatusType" "BOOST"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 
-<!--FROSTWOVEN-->
+<!--FROSTBREAKER-->
 
 new entry "RAGE_BIFROST"
 type "StatusData"
@@ -587,6 +587,31 @@ data "TickFunctors" "DealDamage(max(1,Cause.CharismaModifier), Cold)"
 data "TickType" "StartTurn"
 data "StackId" "GLACIALBELLOW_ENEMY"
 data "StackType" "Ignore"
+
+<!--GIANTS BLOOD-->
+
+new entry "RAGE_GIANT"
+type "StatusData"
+data "StatusType" "BOOST"
+using "RAGE"
+data "DisplayName" "h9d19297dg4dfeg48d9g84b6g8bfeac9fb332;1"
+data "Description" "hac1e48c9g9c61g426cg8d3bgf1efd11b08ba;3"
+data "DescriptionParams" "1d8"
+data "Icon" "Action_GiantsRage"
+data "StackId" "RAGE"
+data "StackPriority" "1"
+data "Boosts" "Tag(VFX_RAGE);Tag(CANBECALMED);BlockSpellCast();UnlockSpell(Shout_EndRage);Attribute(ForceMainhandAlternativeEquipBones);Resistance(Bludgeoning, Resistant);Resistance(Piercing, Resistant);Resistance(Slashing, Resistant);Advantage(Ability, Strength);Advantage(SavingThrow, Strength);ObjectSize(+2);Weight(250);ScaleMultiplier(1.50);CarryCapacityMultiplier(4.0);JumpMaxDistanceMultiplier(1.5);UnlockSpellVariant(MeleeCheck(),ModifyTargetRadius(Multiplicative,1.75));IF(IsMeleeAttack()):CharacterWeaponDamage(1d8);CharacterUnarmedDamage(1d8);IF(HasStatus('SG_Polymorph_BeastShape', context.Source)):DamageBonus(1d8)"
+data "Passives" "Rage_Extender_Giant;Rage_Extender_Gravity"
+data "StatusEffect" "afac029f-99d0-4911-bff5-467c8e203c93"
+data "DynamicAnimationTag" "978ef74e-3f22-4719-a113-fa48ebe1444a"
+data "StatusGroups" "SG_RemoveOnRespec;SG_Rage"
+
+new entry "GIANT_STAGGERED"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h416cac70g5ef0g4496g9d89g598ec0c000a4;1"
+data "Description" "h108ff3ccga8e3g43f1gbeb5g194e499000ad;3"
+data "Icon" "Action_GiantsRage"
 
 <!--WILD SOUL-->
 
@@ -657,31 +682,6 @@ data "StackType" "Ignore"
 data "RemoveConditions" "Player(context.Source) or not HasStatus('SG_Rage', context.Source)"
 data "RemoveEvents" "OnTurn;OnMove;OnCombatEnded;OnStatusRemoved"
 data "Boosts" "IF(not Player(context.Source)):UnlockSpell(Target_MagicWeapon,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf,UntilRest);IF(not Player(context.Source)):UnlockSpell(Target_MaximiliansEarthenGrasp,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf,UntilRest);IF(not Player(context.Source)):UnlockSpell(Projectile_AcidArrow,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf,UntilRest);IF(not Player(context.Source)):UnlockSpell(Shout_MirrorImage,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf,UntilRest);IF(not Player(context.Source)):UnlockSpell(Target_FreezingSphere,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf,UntilRest);IF(not Player(context.Source)):UnlockSpell(Target_RimesBindingIce,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf,UntilRest);IF(not Player(context.Source)):UnlockSpell(Target_Shatter,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf,UntilRest);IF(not Player(context.Source)):UnlockSpell(Target_Sleep,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf,UntilRest);IF(not Player(context.Source)):UnlockSpell(Shout_SnillocsSnowballStorm,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf,UntilRest);IF(not Player(context.Source)):UnlockSpell(Zone_SpewAcid,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf,UntilRest);IF(not Player(context.Source)):UnlockSpell(Zone_Thunderwave,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf,UntilRest);IF(not Player(context.Source)):UnlockSpell(Target_ThunderStep,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf,UntilRest);IF(not Player(context.Source)):UnlockSpell(Target_VitriolicTouch,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf,UntilRest)"
-
-<!--GIANTS BLOOD-->
-
-new entry "RAGE_GIANT"
-type "StatusData"
-data "StatusType" "BOOST"
-using "RAGE"
-data "DisplayName" "h9d19297dg4dfeg48d9g84b6g8bfeac9fb332;1"
-data "Description" "hac1e48c9g9c61g426cg8d3bgf1efd11b08ba;3"
-data "DescriptionParams" "1d8"
-data "Icon" "Action_GiantsRage"
-data "StackId" "RAGE"
-data "StackPriority" "1"
-data "Boosts" "Tag(VFX_RAGE);Tag(CANBECALMED);BlockSpellCast();UnlockSpell(Shout_EndRage);Attribute(ForceMainhandAlternativeEquipBones);Resistance(Bludgeoning, Resistant);Resistance(Piercing, Resistant);Resistance(Slashing, Resistant);Advantage(Ability, Strength);Advantage(SavingThrow, Strength);ObjectSize(+2);Weight(250);ScaleMultiplier(1.50);CarryCapacityMultiplier(4.0);JumpMaxDistanceMultiplier(1.5);UnlockSpellVariant(MeleeCheck(),ModifyTargetRadius(Multiplicative,1.75));IF(IsMeleeAttack()):CharacterWeaponDamage(1d8);CharacterUnarmedDamage(1d8);IF(HasStatus('SG_Polymorph_BeastShape', context.Source)):DamageBonus(1d8)"
-data "Passives" "Rage_Extender_Giant;Rage_Extender_Gravity"
-data "StatusEffect" "afac029f-99d0-4911-bff5-467c8e203c93"
-data "DynamicAnimationTag" "978ef74e-3f22-4719-a113-fa48ebe1444a"
-data "StatusGroups" "SG_RemoveOnRespec;SG_Rage"
-
-new entry "GIANT_STAGGERED"
-type "StatusData"
-data "StatusType" "BOOST"
-data "DisplayName" "h416cac70g5ef0g4496g9d89g598ec0c000a4;1"
-data "Description" "h108ff3ccga8e3g43f1gbeb5g194e499000ad;3"
-data "Icon" "Action_GiantsRage"
 
 <!--PASSIVES-->
 
@@ -774,3 +774,17 @@ data "Icon" "PassiveFeature_RelentlessRage"
 data "Boosts" "Resistance(Slashing, Immune); Resistance(Piercing, Immune); Resistance(Bludgeoning, Immune); Resistance(Acid, Immune); Resistance(Thunder, Immune); Resistance(Necrotic, Immune); Resistance(Fire, Immune); Resistance(Lightning, Immune); Resistance(Cold, Immune); Resistance(Poison, Immune); Resistance(Radiant, Immune); Resistance(Force, Immune); Resistance(Psychic, Immune)"
 data "StatusGroups" "SG_RemoveOnRespec"
 data "TickType" "StartTurn"
+
+<!--SUMMON PASSIVES-->
+
+new entry "BRUTALCRITICAL_SUMMON"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "66706bd4b60a4ca88b703f3fc04bfaf800001;1"
+data "Description" "66706bd4b60a4ca88b703f3fc04bfaf80000a;2"
+data "ExtraDescription" "h197f62bbgd1ddg4436g90df5s6s5d4f56f45"
+data "Icon" "PassiveFeature_RelentlessRage"
+data "StackId" "BRUTALCRITICAL_SUMMON"
+data "StackType" "Ignore"
+data "Boosts" "CriticalHitExtraDice(1)"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"

@@ -128,7 +128,7 @@ data "ToggleOnFunctors" "ApplyStatus(RECKLESS_RAMPAGE,100,-1)"
 data "ToggleOffFunctors" "RemoveStatus(RECKLESS_RAMPAGE)"
 data "ToggleGroup" "RecklessAttack"
 
-<!--WILD HEART-->
+<!--BEASTHEART-->
 
 new entry "TotemSpirit_Rage"
 type "PassiveData"
@@ -252,7 +252,7 @@ data "StatsFunctorContext" "OnDamage"
 data "Conditions" "Character() and not Self() and SpellId('Target_FrenziedStrike')"
 data "StatsFunctors" "ApplyStatus(SELF,LETITRIP,100,1)"
 
-<!--FROSTWOVEN-->
+<!--FROSTBREAKER-->
 
 new entry "Bifrost_Rage"
 type "PassiveData"
@@ -322,6 +322,62 @@ data "StatsFunctorContext" "OnDamage"
 data "Conditions" "IsCritical() and Character() and not Self() and not Ally() and not HasStatus('LOCKDOWN_CONDITION', context.Target)"
 data "StatsFunctors" "ApplyStatus(FROZEN,100,1)"
 
+<!--GIANTS BLOOD-->
+
+new entry "RageGiantUnlock"
+type "PassiveData"
+data "DisplayName" "h416cac70g5ef0g4496g9d89g598ec0c00001;1"
+data "Description" "h108ff3ccga8e3g43f1gbeb5g194e4990000a;2"
+data "Icon" "PassiveFeature_GiantsRage"
+data "Properties" "Highlighted;ForceShowInCC"
+data "Boosts" "UnlockSpell(Shout_Rage_Giant);UnlockSpell(Target_BootOfTheGiants)"
+
+new entry "Cloudreach"
+type "PassiveData"
+data "DisplayName" "h416cac70g5ef0g4496g9d89g598ec0c00002;1"
+data "Description" "h108ff3ccga8e3g43f1gbeb5g194e4990000b;2"
+data "Icon" "PassiveFeature_GiantsRage"
+data "Properties" "Highlighted;ForceShowInCC"
+data "Boosts" "UnlockSpell(Throw_MightyImpel)"
+
+new entry "Poisebreaker"
+type "PassiveData"
+data "DisplayName" "h416cac70g5ef0g4496g9d89g598ec0c00003;1"
+data "Description" "h108ff3ccga8e3g43f1gbeb5g194e4990000c;2"
+data "DescriptionParams" "Distance(3)"
+data "Icon" "PassiveFeature_GiantsRage"
+data "Properties" "Highlighted;IsToggled;ToggledDefaultOn;ToggledDefaultAddToHotbar"
+data "StatsFunctorContext" "OnAttack"
+data "Conditions" "IsMeleeAttack() and IsWeaponAttack() and HasStatus('SG_Rage', context.Source)"
+data "StatsFunctors" "TARGET:CreateExplosion(Projectile_Poisebreaker);ApplyStatus(WARDING_WIND_CLOUD_REMOVAL,100,0)"
+
+new entry "Frontline_Backbreaker"
+type "PassiveData"
+data "DisplayName" "h416cac70g5ef0g4496g9d89g598ec0c00004;1"
+data "Description" "h108ff3ccga8e3g43f1gbeb5g194e4990000d;2"
+data "DescriptionParams" "Distance(3)"
+data "Icon" "PassiveFeature_GiantsRage"
+data "Properties" "Highlighted;ForceShowInCC"
+data "Boosts" "UnlockSpell(Projectile_Frontline_Backbreaker)"
+
+new entry "ToweringBlows"
+type "PassiveData"
+data "DisplayName" "h416cac70g5ef0g4496g9d89g598ec0c00005;1"
+data "Description" "h108ff3ccga8e3g43f1gbeb5g194e4990000e;2"
+data "Icon" "PassiveFeature_GiantsRage"
+data "Properties" "Highlighted;ForceShowInCC"
+data "Boosts" "IF(HasStatus('SG_Rage', context.Source) and TargetSizeEqualOrSmaller(Size.Huge)):Reroll(Damage,20,false)"
+
+new entry "TitanicStrength"
+type "PassiveData"
+data "DisplayName" "h108ff3ccga8e3g43f1gbeb5g194e49900006;1"
+data "Description" "h108ff3ccga8e3g43f1gbeb5g194e4990000f;2"
+data "Icon" "PassiveFeature_GiantsRage"
+data "Properties" "Highlighted;ForceShowInCC"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "HasStatus('SG_Rage', context.Source)"
+data "StatsFunctors" "ApplyStatus(PRONE,100,1)"
+
 <!--WILD SOUL-->
 
 new entry "WildMagicRage"
@@ -385,62 +441,6 @@ data "Properties" "Highlighted;ForceShowInCC;OncePerTurn"
 data "StatsFunctorContext" "OnCast"
 data "Conditions" "SpellId('Shout_Rage_WildMagic')"
 data "StatsFunctors" "CreateExplosion(Projectile_Wild_Bloodlust)"
-
-<!--GIANTS BLOOD-->
-
-new entry "RageGiantUnlock"
-type "PassiveData"
-data "DisplayName" "h416cac70g5ef0g4496g9d89g598ec0c00001;1"
-data "Description" "h108ff3ccga8e3g43f1gbeb5g194e4990000a;2"
-data "Icon" "PassiveFeature_GiantsRage"
-data "Properties" "Highlighted;ForceShowInCC"
-data "Boosts" "UnlockSpell(Shout_Rage_Giant);UnlockSpell(Target_BootOfTheGiants)"
-
-new entry "Cloudreach"
-type "PassiveData"
-data "DisplayName" "h416cac70g5ef0g4496g9d89g598ec0c00002;1"
-data "Description" "h108ff3ccga8e3g43f1gbeb5g194e4990000b;2"
-data "Icon" "PassiveFeature_GiantsRage"
-data "Properties" "Highlighted;ForceShowInCC"
-data "Boosts" "UnlockSpell(Throw_MightyImpel)"
-
-new entry "Poisebreaker"
-type "PassiveData"
-data "DisplayName" "h416cac70g5ef0g4496g9d89g598ec0c00003;1"
-data "Description" "h108ff3ccga8e3g43f1gbeb5g194e4990000c;2"
-data "DescriptionParams" "Distance(3)"
-data "Icon" "PassiveFeature_GiantsRage"
-data "Properties" "Highlighted;IsToggled;ToggledDefaultOn;ToggledDefaultAddToHotbar"
-data "StatsFunctorContext" "OnAttack"
-data "Conditions" "IsMeleeAttack() and IsWeaponAttack() and HasStatus('SG_Rage', context.Source)"
-data "StatsFunctors" "TARGET:CreateExplosion(Projectile_Poisebreaker);ApplyStatus(WARDING_WIND_CLOUD_REMOVAL,100,0)"
-
-new entry "Frontline_Backbreaker"
-type "PassiveData"
-data "DisplayName" "h416cac70g5ef0g4496g9d89g598ec0c00004;1"
-data "Description" "h108ff3ccga8e3g43f1gbeb5g194e4990000d;2"
-data "DescriptionParams" "Distance(3)"
-data "Icon" "PassiveFeature_GiantsRage"
-data "Properties" "Highlighted;ForceShowInCC"
-data "Boosts" "UnlockSpell(Projectile_Frontline_Backbreaker)"
-
-new entry "ToweringBlows"
-type "PassiveData"
-data "DisplayName" "h416cac70g5ef0g4496g9d89g598ec0c00005;1"
-data "Description" "h108ff3ccga8e3g43f1gbeb5g194e4990000e;2"
-data "Icon" "PassiveFeature_GiantsRage"
-data "Properties" "Highlighted;ForceShowInCC"
-data "Boosts" "IF(HasStatus('SG_Rage', context.Source) and TargetSizeEqualOrSmaller(Size.Huge)):Reroll(Damage,20,false)"
-
-new entry "TitanicStrength"
-type "PassiveData"
-data "DisplayName" "h108ff3ccga8e3g43f1gbeb5g194e49900006;1"
-data "Description" "h108ff3ccga8e3g43f1gbeb5g194e4990000f;2"
-data "Icon" "PassiveFeature_GiantsRage"
-data "Properties" "Highlighted;ForceShowInCC"
-data "StatsFunctorContext" "OnDamage"
-data "Conditions" "HasStatus('SG_Rage', context.Source)"
-data "StatsFunctors" "ApplyStatus(PRONE,100,1)"
 
 <!--CLASS PASSIVES-->
 
@@ -661,18 +661,6 @@ data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnCreate;OnLongRest;OnTurn"
 data "Conditions" "HasPassive('BrutalCritical',GetSummoner(context.Source))"
 data "StatsFunctors" "IF(not HasStatus('BRUTALCRITICAL_SUMMON', context.Source)):ApplyStatus(SELF,BRUTALCRITICAL_SUMMON,100,-1)"
-
-new entry "BRUTALCRITICAL_SUMMON"
-type "StatusData"
-data "StatusType" "BOOST"
-data "DisplayName" "66706bd4b60a4ca88b703f3fc04bfaf800001;1"
-data "Description" "66706bd4b60a4ca88b703f3fc04bfaf80000a;2"
-data "ExtraDescription" "h197f62bbgd1ddg4436g90df5s6s5d4f56f45"
-data "Icon" "PassiveFeature_RelentlessRage"
-data "StackId" "BRUTALCRITICAL_SUMMON"
-data "StackType" "Ignore"
-data "Boosts" "CriticalHitExtraDice(1)"
-data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
 
 new entry "Summon_FuriousCriticals"
 type "PassiveData"

@@ -383,6 +383,12 @@
                     <attribute id="UUID" type="guid" value="ca55540b-9bf0-461d-936f-f4660b505775"/>
                 </node>
 				<node id="Feat">
+                    <attribute id="Name" type="FixedString" value="DruidCircleOfTheElements"/>
+                    <attribute id="PassivesAdded" type="LSString" value="CycleofBalance;CycleofBalance_Spring;CycleofBalance_Summer;CycleofBalance_Fall;CycleofBalance_Winter;Terrasoul;Terrasoul_Spring;Terrasoul_Summer;Terrasoul_Fall;Terrasoul_Winter"/>
+                    <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Druids&apos;)"/>
+                    <attribute id="UUID" type="guid" value="d88b9883-f310-404a-8f33-7fbc551049e3"/>
+                </node>
+				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="DruidCircleOfTheLand"/>
                     <attribute id="PassivesAdded" type="LSString" value="Ensnaring_Presence_Yokebreaker;Natures_Grasp"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Druids&apos;)"/>
@@ -529,7 +535,7 @@
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="RogueHiddenToxicant"/>
-                    <attribute id="PassivesAdded" type="LSString" value="SneakAttack_Unlock_Toxic;ImbuedToxicity;VenomousCoatings"/>
+                    <attribute id="PassivesAdded" type="LSString" value="SneakAttack_Unlock_Toxic;ImbuedToxicity;PoisonousFoothold"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Rogue&apos;)"/>
 					<attribute id="UUID" type="guid" value="a434fbc2-676c-4123-8d9a-24dd2e5d6898"/>
                 </node>

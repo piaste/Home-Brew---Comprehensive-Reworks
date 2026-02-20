@@ -281,6 +281,8 @@ data "Trajectories" "30ce4289-8655-4b55-93a2-c1034631489c,75d615be-9277-6e22-6c1
 data "Icon" "Action_AttackBlunderbuss"
 data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not HasStatus('FIREARM_MALFUNCTION') and HasPassive('LowRange_Firearm_Passive')"
 
+<!--USED IN SPECIFIC FIGHTER PASSIVES-->
+
 new entry "Projectile_MainHandAttack_Musket_Superiority"
 type "SpellData"
 data "SpellType" "Projectile"

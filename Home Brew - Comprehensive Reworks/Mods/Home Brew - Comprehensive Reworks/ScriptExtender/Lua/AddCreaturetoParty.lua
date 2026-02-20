@@ -22,6 +22,13 @@ local function HasAnyActiveStatus(target)
   return false
 end
 
+local function SafeCall(fn, ...)
+  local ok, err = pcall(fn, ...)
+  if not ok then
+    Ext.Utils.PrintError("[Recruit/Cleanup] Error: " .. tostring(err))
+  end
+end
+
 local function Recruit(owner, servant)
   if not owner or not servant then return end
   if Osi.IsDead(servant) == 1 then return end
@@ -36,11 +43,14 @@ end
 
 local function Cleanup(servant)
   local owner = Owner[servant]
+
   if owner then
-    Osi.RemovePartyFollower(servant, owner)
+    -- If this fails (sometimes does on dead/despawning entities), don't let it abort the rest.
+    SafeCall(Osi.RemovePartyFollower, servant, owner)
   end
 
-  Osi.SetFaction(servant, Osi.GetBaseFaction(servant))
+  -- Optional, but tidy. Can fail in edge cases; keep it safe.
+  SafeCall(Osi.SetFaction, servant, Osi.GetBaseFaction(servant))
 
   Owner[servant] = nil
   ActiveStatuses[servant] = nil
@@ -52,7 +62,6 @@ Ext.Osiris.RegisterListener("StatusApplied", 4, "after",
     if not RECRUIT_STATUSES[status] then return end
     if not target or not causee then return end
 
-    -- Mark this status as active for the target.
     ActiveStatuses[target] = ActiveStatuses[target] or {}
     ActiveStatuses[target][status] = true
 
@@ -62,7 +71,11 @@ Ext.Osiris.RegisterListener("StatusApplied", 4, "after",
     end
 
     Ext.Timer.WaitFor(RECRUIT_DELAY_MS, function()
-      if Osi.IsDead(target) == 0 then
+      -- Status might have been removed during the delay; also don't recruit corpses.
+      if Owner[target]
+        and HasAnyActiveStatus(target)
+        and Osi.IsDead(target) == 0
+      then
         Recruit(Owner[target], target)
       end
     end)
@@ -70,6 +83,7 @@ Ext.Osiris.RegisterListener("StatusApplied", 4, "after",
 )
 
 -- When a configured status is removed, only de-party once *all* configured statuses are gone.
+-- IMPORTANT FIX: if the target is already dead (common for spore removal), clean up immediately.
 Ext.Osiris.RegisterListener("StatusRemoved", 4, "after",
   function(target, status, causee, storyActionID)
     if not RECRUIT_STATUSES[status] then return end
@@ -79,7 +93,13 @@ Ext.Osiris.RegisterListener("StatusRemoved", 4, "after",
       ActiveStatuses[target][status] = nil
     end
 
-    -- Only clean up once ALL configured recruit-statuses are gone.
+    -- FIX: If they're dead now, always cleanup right away (don't wait for other statuses).
+    if Owner[target] and Osi.IsDead(target) == 1 then
+      Cleanup(target)
+      return
+    end
+
+    -- Normal behavior: only clean up once ALL configured recruit-statuses are gone.
     if Owner[target] and not HasAnyActiveStatus(target) then
       Cleanup(target)
     end

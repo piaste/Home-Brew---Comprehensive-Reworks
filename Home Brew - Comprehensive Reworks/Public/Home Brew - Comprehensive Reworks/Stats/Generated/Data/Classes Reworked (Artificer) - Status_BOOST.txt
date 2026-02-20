@@ -350,8 +350,6 @@ data "StackPriority" "10"
 data "TickType" "StartTurn"
 data "TickFunctors" "RegainHitPoints(LevelMapValue(D8Cantrip))"
 
-<!--IMSORRYFATHER-->
-
 new entry "IMSORRYFATHER"
 type "StatusData"
 data "StatusType" "BOOST"

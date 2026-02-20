@@ -5,6 +5,13 @@ type "PassiveData"
 data "Properties" "IsHidden"
 data "Boosts" "UnlockSpell(Shout_RangersCompanion_Bear_NPC);UnlockSpell(Shout_RangersCompanion_Raven_NPC);UnlockSpell(Shout_RangersCompanion_Wolf_NPC);UnlockSpell(Shout_RangersCompanion_Spider_NPC);UnlockSpell(Shout_RangersCompanion_Dilophosaurus_NPC);"
 
+new entry "NPC_Swarm_Randomizer"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnCombatStarted;OnTurn"
+data "Conditions" "Combat()"
+data "StatsFunctors" "IF(not HasStatus('WOODLANDSYNERGY_AURA', context.Source)):ApplyStatus(SELF,WOODLANDSYNERGY_AURA,100,-1);IF(not HasStatus('WOODLANDSYNERGY_RANGER', context.Source)):ApplyStatus(SELF,WOODLANDSYNERGY_RANGER,100,-1)"
+
 <!--COMPANION PASSIVES-->
 
 new entry "CompanionsBond"
@@ -952,4 +959,4 @@ new entry "Swarm_Randomizer"
 type "PassiveData"
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnTurn"
-data "StatsFunctors" "IF(HasStatus('APPLY_SWARM_BEE', context.Source) and not HasStatus('SWARMKEEPER_BEE', context.Source) and RollDieAgainstDC(DiceType.d20,10)):ApplyStatus(SELF,SWARMKEEPER_BEE,100,-1);IF(HasStatus('APPLY_SWARM_JELLYFISH', context.Source) and not HasStatus('SWARMKEEPER_JELLYFISH', context.Source) and RollDieAgainstDC(DiceType.d20,10)):ApplyStatus(SELF,SWARMKEEPER_JELLYFISH,100,-1);IF(HasStatus('APPLY_SWARM_MOTH', context.Source) and not HasStatus('SWARMKEEPER_MOTH', context.Source) and RollDieAgainstDC(DiceType.d20,10)):ApplyStatus(SELF,SWARMKEEPER_BEE,100,-1)"
+data "StatsFunctors" "IF(not HasStatus('SWARMKEEPER_BEE_USED', context.Source) and not HasStatus('SWARMKEEPER_BEE', context.Source) and not HasStatus('SWARMKEEPER_JELLYFISH', context.Source) and not HasStatus('SWARMKEEPER_MOTH', context.Source) and RollDieAgainstDC(DiceType.d20,10)):ApplyStatus(SELF,SWARMKEEPER_BEE,100,-1);IF(not HasStatus('SWARMKEEPER_JELLYFISH_USED', context.Source) and not HasStatus('SWARMKEEPER_BEE', context.Source) and not HasStatus('SWARMKEEPER_JELLYFISH', context.Source) and not HasStatus('SWARMKEEPER_MOTH', context.Source) and RollDieAgainstDC(DiceType.d20,10)):ApplyStatus(SELF,SWARMKEEPER_JELLYFISH,100,-1);IF(not HasStatus('SWARMKEEPER_MOTH_USED', context.Source) and not HasStatus('SWARMKEEPER_BEE', context.Source) and not HasStatus('SWARMKEEPER_JELLYFISH', context.Source) and not HasStatus('SWARMKEEPER_MOTH', context.Source) and RollDieAgainstDC(DiceType.d20,10)):ApplyStatus(SELF,SWARMKEEPER_BEE,100,-1)"

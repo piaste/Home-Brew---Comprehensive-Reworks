@@ -5,6 +5,34 @@
     <node id="root">
       <children>
         <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="hfcd95fc3g4707g4262g80f7gacb371aa8e92" version="3"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hba0d4fd0ga762g43bfgb86fg1c9c8982c6b2" version="3"/>
+                    <attribute id="Error" type="TranslatedString" handle="hea9d4496g788ag4a57gb9degb995324381b7" version="1"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="ActionPoint"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="734cbcfb-8922-4b6d-8330-b2a7e4c14b6a"/>
+					</node>
+        <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="he0e99cd2g0e0dg4e68ga411g1ddbb114a19b" version="3"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h7a2b85d6g3761g4f1fgb6b2g53cf10b449ea" version="2"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="BonusActionPoint"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="420c8df5-45c2-4253-93c2-7ec44e127930"/>
+					</node>
+        <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="hb8abe274g41c8g481dgbd39g8a1c1c692457" version="3" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="h43f4dbfeg0d62g49eegbecagad62630e032d" version="2" />
+                    <attribute id="MaxLevel" type="uint32" value="0" />
+                    <attribute id="Name" type="FixedString" value="ReactionActionPoint" />
+                    <attribute id="ReplenishType" type="FixedString" value="Turn" />
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true" />
+                    <attribute id="UUID" type="guid" value="45ff0f48-b210-4024-972f-b64a44dc6985" />
+					</node>
+        <node id="ActionResourceDefinition">
                     <attribute id="Description" type="TranslatedString" handle="h7387ca0ag0abag4c7fgaa69ga6b41f39c7de" version="1" />
                     <attribute id="DisplayName" type="TranslatedString" handle="h675a67b7g1cc1g4b9ag9536gf42e0b6a4a17" version="3" />
                     <attribute id="MaxLevel" type="uint32" value="0" />
@@ -32,16 +60,6 @@
                     <attribute id="ReplenishType" type="FixedString" value="Never" />
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="true" />
                     <attribute id="UUID" type="guid" value="857b2200-dbb4-41bf-afc6-375bf995e12e" />
-					</node>
-        <node id="ActionResourceDefinition">
-                    <attribute id="Description" type="TranslatedString" handle="h7fd64569g90928320398r9se8fu09u3000zc" version="1" />
-                    <attribute id="DisplayName" type="TranslatedString" handle="h7fd64569g909283ur9seud9fs8u3r90000z3" version="1" />
-                    <attribute id="MaxLevel" type="uint32" value="0" />
-                    <attribute id="MaxValue" type="uint32" value="7" />
-                    <attribute id="Name" type="FixedString" value="CollectedSoul" />
-                    <attribute id="ReplenishType" type="FixedString" value="Never" />
-                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true" />
-                    <attribute id="UUID" type="guid" value="579b145b-60a5-4bbe-9a65-9bae74accff0" />
 					</node>
         <node id="ActionResourceDefinition">
                     <attribute id="Description" type="TranslatedString" handle="h98e3be41aead4b5bb8ee60104126ded4b17d" version="1" />
@@ -72,6 +90,16 @@
                     <attribute id="ReplenishType" type="FixedString" value="Rest" />
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="true" />
                     <attribute id="UUID" type="guid" value="7fde0015-2d7d-4298-8d5c-521226912fcc" />
+					</node>
+        <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="h7fd64569g90928320398r9se8fu09u3000zc" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="h7fd64569g909283ur9seud9fs8u3r90000z3" version="1" />
+                    <attribute id="MaxLevel" type="uint32" value="0" />
+                    <attribute id="MaxValue" type="uint32" value="7" />
+                    <attribute id="Name" type="FixedString" value="CollectedSoul" />
+                    <attribute id="ReplenishType" type="FixedString" value="Never" />
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true" />
+                    <attribute id="UUID" type="guid" value="579b145b-60a5-4bbe-9a65-9bae74accff0" />
 					</node>
 		<node id="ActionResourceDefinition">
                     <attribute id="Description" type="TranslatedString" handle="hf5cc8c86g7baeg413eg816fg851a9bd820c5" version="1"/>
@@ -122,6 +150,15 @@
                     <attribute id="UUID" type="guid" value="2abd4fff-c7ed-438f-ba95-6c2ff1e323c2" />
 					</node>
         <node id="ActionResourceDefinition">
+					<attribute id="Description" type="TranslatedString" handle="hd2b13a17eb1745489b41121e677f9c7b60ac" version="1" /> 
+					<attribute id="DisplayName" type="TranslatedString" handle="h39d01fe9647646449a44ba72ce26fb562c4d" version="1" /> 
+                    <attribute id="IsHidden" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="FirearmAmmo" /> 
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest" /> 
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true" /> 
+                    <attribute id="UUID" type="guid" value="f1cacb3b-fe54-42b1-bb06-19e8162d1474" /> 
+					</node>
+        <node id="ActionResourceDefinition">
                     <attribute id="Description" type="TranslatedString" handle="39f1898f9sdfosdoifsodofsofd99494xxxf" version="1"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="39f1898f9sdfosdoifsodofsofd99494xxx6" version="1"/>
                     <attribute id="IsSpellResource" type="bool" value="false"/>
@@ -143,6 +180,15 @@
                     <attribute id="UUID" type="guid" value="281f289d-3c0b-433a-a7ed-0505be88ec9e" />
 					</node>
         <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="99523fb3deaa14de1766304e0911fbc49ae99" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="88523fb3deaa14de1766304e0911fbc49ae88" version="3" />
+                    <attribute id="MaxLevel" type="uint32" value="0" />
+                    <attribute id="Name" type="FixedString" value="InfusionSlots" />
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest" />
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true" />
+                    <attribute id="UUID" type="guid" value="8190c2b4-fcc2-46a6-8a9b-50e55d5e5bcc" />
+					</node>
+        <node id="ActionResourceDefinition">
                     <attribute id="Description" type="TranslatedString" handle="h0a8d68b7gf6bcg4c7bgad26gec4e3b59a610" version="3" />
                     <attribute id="DisplayName" type="TranslatedString" handle="h4bb11720g5d2ag400cg8bcbga7de3c2d0e3b" version="2" />
                     <attribute id="MaxLevel" type="uint32" value="0" />
@@ -152,6 +198,13 @@
                     <attribute id="ReplenishType" type="FixedString" value="Never" />
                     <attribute id="UUID" type="guid" value="a9c98304-08e7-44b5-aaf9-da2ef5a50672" />
 					</node>
+        <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h5410c1e8g00fbg4694ga75eg20a1407aabcb" version="1"/>
+                    <attribute id="IsHidden" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="Interrupt_TAD_PsionicDominance_Charge"/>
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+                    <attribute id="UUID" type="guid" value="d1b02f9c-9d6e-4eac-905d-ccd9e7876c7c"/>
+                    </node>
         <node id="ActionResourceDefinition">
                     <attribute id="Description" type="TranslatedString" handle="hb5419fbag1cdeg48b2g92d1gbbbc446e2707" version="4" />
                     <attribute id="DisplayName" type="TranslatedString" handle="h401e72d2gb9d7g44f3gbd64gc95934805222" version="5" />
@@ -199,43 +252,6 @@
                     <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
                     <attribute id="UUID" type="guid" value="6740f9f4-125d-4321-89e0-771fccd64622"/>
-					</node>
-        <node id="ActionResourceDefinition">
-                    <attribute id="Description" type="TranslatedString" handle="h7c96e7d6gdce7g41bagaaf0g832519a32565" version="7"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="h9ab8a586ge792g408bg9402g233b81055869" version="6"/>
-                    <attribute id="MaxLevel" type="uint32" value="0"/>
-                    <attribute id="Name" type="FixedString" value="WildShapeRage"/>
-                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
-                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
-                    <attribute id="UUID" type="guid" value="f6762292-b88f-4210-b850-814dbbc5782e"/>
-					</node>
-        <node id="ActionResourceDefinition">
-                    <attribute id="Description" type="TranslatedString" handle="hfcd95fc3g4707g4262g80f7gacb371aa8e92" version="3"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="hba0d4fd0ga762g43bfgb86fg1c9c8982c6b2" version="3"/>
-                    <attribute id="Error" type="TranslatedString" handle="hea9d4496g788ag4a57gb9degb995324381b7" version="1"/>
-                    <attribute id="MaxLevel" type="uint32" value="0"/>
-                    <attribute id="Name" type="FixedString" value="ActionPoint"/>
-                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
-                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
-                    <attribute id="UUID" type="guid" value="734cbcfb-8922-4b6d-8330-b2a7e4c14b6a"/>
-					</node>
-        <node id="ActionResourceDefinition">
-                    <attribute id="Description" type="TranslatedString" handle="he0e99cd2g0e0dg4e68ga411g1ddbb114a19b" version="3"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="h7a2b85d6g3761g4f1fgb6b2g53cf10b449ea" version="2"/>
-                    <attribute id="MaxLevel" type="uint32" value="0"/>
-                    <attribute id="Name" type="FixedString" value="BonusActionPoint"/>
-                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
-                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
-                    <attribute id="UUID" type="guid" value="420c8df5-45c2-4253-93c2-7ec44e127930"/>
-					</node>
-        <node id="ActionResourceDefinition">
-                    <attribute id="Description" type="TranslatedString" handle="hb8abe274g41c8g481dgbd39g8a1c1c692457" version="3" />
-                    <attribute id="DisplayName" type="TranslatedString" handle="h43f4dbfeg0d62g49eegbecagad62630e032d" version="2" />
-                    <attribute id="MaxLevel" type="uint32" value="0" />
-                    <attribute id="Name" type="FixedString" value="ReactionActionPoint" />
-                    <attribute id="ReplenishType" type="FixedString" value="Turn" />
-                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true" />
-                    <attribute id="UUID" type="guid" value="45ff0f48-b210-4024-972f-b64a44dc6985" />
 					</node>
         <node id="ActionResourceDefinition">
 					<attribute id="Description" type="TranslatedString" handle="8a87461fd8dd4f5b9098ded714f6c8aa0zzk0" version="1" />
@@ -317,37 +333,21 @@
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="true" />
                     <attribute id="UUID" type="guid" value="30cca4c5-a808-4c96-bd1c-f57bbb92dc1d" />
 					</node>
+        <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="h7c96e7d6gdce7g41bagaaf0g832519a32565" version="7"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h9ab8a586ge792g408bg9402g233b81055869" version="6"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="WildShapeRage"/>
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="f6762292-b88f-4210-b850-814dbbc5782e"/>
+					</node>
 		<node id="ActionResourceDefinition">
 					<attribute id="DisplayName" type="TranslatedString" handle="hcee44ad9g4dfeg4b48ga198g4fb15ef3a263" version="1" />
 					<attribute id="IsHidden" type="bool" value="True" />
 					<attribute id="Name" type="FixedString" value="Interrupt_LuckOfTheFarRealms_Charge" />
 					<attribute id="ReplenishType" type="FixedString" value="ShortRest" />
 					<attribute id="UUID" type="guid" value="621126c6-a9f7-422c-9a0c-822503719ce4" />
-					</node>
-        <node id="ActionResourceDefinition">
-                    <attribute id="DisplayName" type="TranslatedString" handle="h5410c1e8g00fbg4694ga75eg20a1407aabcb" version="1"/>
-                    <attribute id="IsHidden" type="bool" value="true"/>
-                    <attribute id="Name" type="FixedString" value="Interrupt_TAD_PsionicDominance_Charge"/>
-                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
-                    <attribute id="UUID" type="guid" value="d1b02f9c-9d6e-4eac-905d-ccd9e7876c7c"/>
-                    </node>
-        <node id="ActionResourceDefinition">
-                    <attribute id="Description" type="TranslatedString" handle="99523fb3deaa14de1766304e0911fbc49ae99" version="1" />
-                    <attribute id="DisplayName" type="TranslatedString" handle="88523fb3deaa14de1766304e0911fbc49ae88" version="3" />
-                    <attribute id="MaxLevel" type="uint32" value="0" />
-                    <attribute id="Name" type="FixedString" value="InfusionSlots" />
-                    <attribute id="ReplenishType" type="FixedString" value="ShortRest" />
-                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true" />
-                    <attribute id="UUID" type="guid" value="8190c2b4-fcc2-46a6-8a9b-50e55d5e5bcc" />
-					</node>
-        <node id="ActionResourceDefinition">
-					<attribute id="Description" type="TranslatedString" handle="hd2b13a17eb1745489b41121e677f9c7b60ac" version="1" /> 
-					<attribute id="DisplayName" type="TranslatedString" handle="h39d01fe9647646449a44ba72ce26fb562c4d" version="1" /> 
-                    <attribute id="IsHidden" type="bool" value="false"/>
-                    <attribute id="Name" type="FixedString" value="FirearmAmmo" /> 
-                    <attribute id="ReplenishType" type="FixedString" value="ShortRest" /> 
-                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true" /> 
-                    <attribute id="UUID" type="guid" value="f1cacb3b-fe54-42b1-bb06-19e8162d1474" /> 
 					</node>
       </children>
     </node>

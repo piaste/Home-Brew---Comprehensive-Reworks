@@ -1,7 +1,3 @@
-function IsStrengthModifierPositive()
-	return GetModifier(context.Source.Strength) > 0
-end
-
 function IsElementalDamage(damageType, entity)
     -- Optional: use `context.Target` as fallback, but it’s passed explicitly here
     local entity = entity or context.Target
@@ -87,58 +83,4 @@ function HexSpellVariation()
     | SpellId('Target_Hex_Wisdom_7') 
     | SpellId('Target_Hex_Wisdom_8') 
     | SpellId('Target_Hex_Wisdom_9') 
-end
-
-function CanUseHolySymbol(entity)
-    local entity = entity or context.Source
-    local result = Tagged('CLERIC', entity) | Tagged('PALADIN', entity)
-    return ConditionResult(result.Result, {ConditionError("CanNotUseHolySymbol")})
-end
-
-function CanUseSpellTome(entity)
-    local entity = entity or context.Source
-    local result = Tagged('WIZARD', entity)
-    return ConditionResult(result.Result, {ConditionError("CanNotUseSpellTome")})
-end
-
-function CanUseBloodwell(entity)
-    local entity = entity or context.Source
-    local result = Tagged('SORCERER', entity)
-    return ConditionResult(result.Result, {ConditionError("CanNotUseBloodwell")})
-end
-
-function CanUseFiendishTome(entity)
-    local entity = entity or context.Source
-    local result = Tagged('WARLOCK', entity)
-    return ConditionResult(result.Result, {ConditionError("CanNotUseFiendishTome")})
-end
-
-function CanUseTotem(entity)
-    local entity = entity or context.Source
-    local result = Tagged('BARBARIAN', entity) | Tagged('DRUID', entity)
-    return ConditionResult(result.Result, {ConditionError("CanNotUseTotem")})
-end
-
-function CanUseMimir(entity)
-    local entity = entity or context.Source
-    local result = ~Tagged('REALLY_GITHYANKI', entity)
-    return ConditionResult(result.Result, {ConditionError("CanNotUseMimir")})
-end
-
-function CanUseGoldenFiddle(entity)
-    local entity = entity or context.Source
-    local result = Tagged('BARD', entity)
-    return ConditionResult(result.Result, {ConditionError("CanNotUseGoldenFiddle")})
-end
-
-function CanUseRogueTool(entity)
-    local entity = entity or context.Source
-    local result = Tagged('ROGUE', entity)
-    return ConditionResult(result.Result, {ConditionError("CanNotUseRogueTool")})
-end
-
-function CanUseWarBanner(entity)
-    local entity = entity or context.Source
-    local result = Tagged('FIGHTER', entity) | Tagged('MONK', entity)
-    return ConditionResult(result.Result, {ConditionError("CanNotUseWarBanner")})
 end

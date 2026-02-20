@@ -10,6 +10,13 @@ function HasTemporaryHPSelf(value, entity)
     return ConditionResult(entity.TemporaryHP > value)
 end
 
+function IsCantrip()
+    return HasCantripSpellLevel() & 
+    HasSpellFlag(SpellFlags.Spell) & 
+    ~HasUseCosts('SpellSlot') & 
+    ~HasUseCosts('WarlockSpellSlot')
+end
+
 function TryCounterspellHigherLevelCheck(level)
     local spellPowerLevel = SpellPowerLevelEqualOrLessThan(level)
     if not spellPowerLevel.Result then

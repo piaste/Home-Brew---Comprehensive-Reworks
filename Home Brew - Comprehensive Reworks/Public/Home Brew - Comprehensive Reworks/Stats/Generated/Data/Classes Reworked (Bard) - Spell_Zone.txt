@@ -1,4 +1,4 @@
-<!--COLLEGE OF SWORDS-->
+<!--COLLEGE OF STEEL-->
 
 new entry "Zone_BladeFlourish_Slashing"
 type "SpellData"

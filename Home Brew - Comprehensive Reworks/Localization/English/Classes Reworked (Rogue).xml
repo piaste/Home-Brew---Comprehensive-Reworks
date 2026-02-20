@@ -192,8 +192,8 @@
 	<content contentuid="hedbd9f3fgf4d8g4f16gb02we68f4s6500051" version="1">Detonate Toxicity: Poisonous Actuation</content>
 	<content contentuid="hf081aa54g2345s4e6f84s6e2f1e87f40005a" version="1">Overstimulate the toxin within your target, &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisoning&lt;/LSTag&gt; them.&lt;br&gt;&lt;br&gt;Your target must have at least three stacks of &lt;LSTag Type="Status" Tooltip="TOXICITY"&gt;Toxicity&lt;/LSTag&gt;.</content>
 
-	<content contentuid="hedbd9f3fgf4d8g4f16gb02we68f4s6500002" version="2">Venomous Coatings</content>
-	<content contentuid="hf081aa54g2345s4e6f84s6e2f1e87f40000b" version="3">Upon applying a coating to your weapon, it will persist until your next &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
+	<content contentuid="hedbd9f3fgf4d8g4f16gb02we68f4s6500004" version="2">Poisonous Foothold</content>
+	<content contentuid="hf081aa54g2345s4e6f84s6e2f1e87f40000d" version="3">When dealing damage, you deal additional Poison damage equal to your levels in Rogue. In addition, &lt;LSTag Type="Status" Tooltip="TOXICITY"&gt;Toxicity&lt;/LSTag&gt; now prevents your targets from recovering &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.</content>
 
 	<content contentuid="hedbd9f3fgf4d8g4f16gb02we68f4s6500003" version="1">Deepened Toxicity</content>
 	<content contentuid="hf081aa54g2345s4e6f84s6e2f1e87f40000c" version="1">Gain the ability to &lt;LSTag Type="Spell" Tooltip="Shout_DetonateToxicity"&gt;Detonate&lt;/LSTag&gt; five stacks of &lt;LSTag Type="Status" Tooltip="TOXICITY"&gt;Toxicity&lt;/LSTag&gt; at once in order to trigger one of three new effects.</content>
@@ -204,8 +204,8 @@
 	<content contentuid="hedbd9f3fgf4d8g4f16gb02we68f4s6500033" version="1">Detonate Toxicity: Venomlash Reflex</content>
 	<content contentuid="hf081aa54g2345s4e6f84s6e2f1e87f40003c" version="1">Cause your targets poisoned blood to boil, afflicting them with a potent &lt;LSTag Type="Status" Tooltip="FROG_BUFOTOXIN"&gt;Bufotoxin&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Your target must have at least five stacks of &lt;LSTag Type="Status" Tooltip="TOXICITY"&gt;Toxicity&lt;/LSTag&gt;.</content>
 
-	<content contentuid="hedbd9f3fgf4d8g4f16gb02we68f4s6500004" version="2">Poisonous Foothold</content>
-	<content contentuid="hf081aa54g2345s4e6f84s6e2f1e87f40000d" version="3">When dealing damage, you deal additional Poison damage equal to your levels in Rogue. In addition, &lt;LSTag Type="Status" Tooltip="TOXICITY"&gt;Toxicity&lt;/LSTag&gt; now prevents your targets from recovering &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.</content>
+	<content contentuid="hedbd9f3fgf4d8g4f16gb02we68f4s6500002" version="2">Venomous Coatings</content>
+	<content contentuid="hf081aa54g2345s4e6f84s6e2f1e87f40000b" version="3">Upon applying a coating to your weapon, it will persist until your next &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
 
 	<content contentuid="hedbd9f3fgf4d8g4f16gb02we68f4s6500005" version="1">Perfected Toxicity</content>
 	<content contentuid="hf081aa54g2345s4e6f84s6e2f1e87f40000e" version="1">Gain the ability to &lt;LSTag Type="Spell" Tooltip="Shout_DetonateToxicity"&gt;Detonate&lt;/LSTag&gt; nine stacks of &lt;LSTag Type="Status" Tooltip="TOXICITY"&gt;Toxicity&lt;/LSTag&gt; at once in order to trigger one of three new effects.</content>
@@ -214,7 +214,7 @@
 	<content contentuid="hedbd9f3fgf4d8g4f16gb02we68f4s6500025" version="1">Detonate Toxicity: Violent Nausea</content>
 	<content contentuid="hf081aa54g2345s4e6f84s6e2f1e87f40002e" version="1">Debilitate your target with an intense sickness, &lt;LSTag Type="Status" Tooltip="HAG_WELL_BAD"&gt;Nauseating&lt;/LSTag&gt; them.&lt;br&gt;&lt;br&gt;Your target must have at least seven stacks of &lt;LSTag Type="Status" Tooltip="TOXICITY"&gt;Toxicity&lt;/LSTag&gt;.</content>
 	<content contentuid="hedbd9f3fgf4d8g4f16gb02we68f4s6500035" version="1">Detonate Toxicity: Terminal Bloom</content>
-	<content contentuid="hf081aa54g2345s4e6f84s6e2f1e87f40003e" version="1">Cause the toxins within your target to erupt, instantly dealing Poison damage equal to your &lt;LSTag Type="Spell" Tooltip="Target_SneakAttack"&gt;Sneak Attack&lt;/LSTag&gt; multiplied by 4.&lt;br&gt;&lt;br&gt;Your target must have at least seven stacks of &lt;LSTag Type="Status" Tooltip="TOXICITY"&gt;Toxicity&lt;/LSTag&gt;.</content>
+	<content contentuid="hf081aa54g2345s4e6f84s6e2f1e87f40003e" version="1">Cause the toxins within your target to erupt, instantly dealing Poison damage equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; multiplied by 4.&lt;br&gt;&lt;br&gt;Your target must have at least seven stacks of &lt;LSTag Type="Status" Tooltip="TOXICITY"&gt;Toxicity&lt;/LSTag&gt;.</content>
 
 	<content contentuid="hedbd9f3fgf4d8g4f16gb02we68f4s6500006" version="2">Toxic Eruption</content>
 	<content contentuid="hf081aa54g2345s4e6f84s6e2f1e87f40000f" version="3">Upon &lt;LSTag Type="Spell" Tooltip="Shout_DetonateToxicity"&gt;Detonating&lt;/LSTag&gt; a toxin on your target, you now strip them of their &lt;LSTag Type="Status" Tooltip="LOCKDOWN_CONDITION_DESCRIPTION"&gt;Lockdown Immunity&lt;/LSTag&gt;.</content>

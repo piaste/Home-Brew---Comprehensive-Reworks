@@ -274,6 +274,32 @@ using "Shout_Climax_CollegeofValour"
 data "SpellProperties" "IF(not CharacterLevelGreaterThan(4)):ApplyStatus(BARDIC_INSPIRATION_COMBAT,100, -1);IF(CharacterLevelGreaterThan(4) and not CharacterLevelGreaterThan(8)):ApplyStatus(BARDIC_INSPIRATION_COMBAT_D8,100, -1);IF(CharacterLevelGreaterThan(8)):ApplyStatus(BARDIC_INSPIRATION_COMBAT_D10,100, -1);IF(HasPassive('Echoes_of_Fortitude',context.Source)):ApplyStatus(ECHOES_OF_FORTITUDE,100, -1);IF(HasPassive('Encouraging_Momentum',context.Source) or HasPassive('Encouraging_Momentum_Item',context.Source)):ApplyStatus(DASH,100,1);IF(HasPassive('Encouraging_Momentum',context.Source) or HasPassive('Encouraging_Momentum_Item',context.Source)):ApplyStatus(DISENGAGE,100,1);IF(HasPassive('Engaging_Composition',context.Source) and HasWeaponInMainHand(context.Target)):ApplyStatus(ENGAGING_COMPOSITION,100,-1);IF(HasPassive('Inspirational_Resonance',context.Source)):CreateExplosion(Projectile_Inspirational_Resonance);IF(HasPassive('Soothing_Words',context.Source) or HasPassive('Soothing_Words_Item',context.Source)):ApplyStatus(SOOTHING_WORDS,100,-1);IF(HasPassive('Unprecedented_Encore',context.Source)):TriggerRandomCast(17,,WildMagicPositive);IF(HasPassive('Mobile_Maestro',context.Source)):SwapPlaces();RemoveStatus(SELF,PERFORMATIVE_CHORUS);ApplyStatus(SELF,CLIMAX_COLLEGEOFVALOUR,100,1);ApplyStatus(SELF,PERFORMATIVE_INTRO,100,1);AI_ONLY:ApplyStatus(SELF,AI_HELPER_BUFF,100,0)"
 data "CombatAIOverrideSpell" ""
 
+<!--COLLEGE OF CAPTIVATION-->
+
+new entry "Shout_CoverofCaptivation_Interrupt"
+type "SpellData"
+data "SpellType" "Shout"
+data "Level" "0"
+data "SpellSchool" "Abjuration"
+data "TargetConditions" "Self()"
+data "Icon" "Action_MantleOfInspiration"
+data "DisplayName" "habfab1deg96a3g4928gbb99g29b61ef000z3;1"
+data "Description" "hacc1d957g1ef1g4debg9f26gc25bcf4000zc;6"
+data "TooltipStatusApply" "ApplyStatus(COVEROFCAPTIVATION,100,1)"
+data "PrepareSound" "Spell_Prepare_Damage_Radiant_Gen_L1to3"
+data "PrepareLoopSound" "Spell_Prepare_Damage_Radiant_Gen_L1to3_Loop"
+data "CastSound" "Action_Cast_Bard_MantleOfInspiration"
+data "TargetSound" "Action_Impact_Bard_MantleOfInspiration"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
+data "SpellAnimation" "dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;bcc3b0d9-f04f-4448-aab0-e0ad641167cc,,;bf924cc6-8b39-4c3b-b1c0-eda264cf6150,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsSpell"
+data "HitAnimationType" "None"
+data "PrepareEffect" "6e5e37e7-8d9e-4cb2-955b-7a4fec2d3d64"
+data "CastEffect" "ea434f70-87a9-47df-80ce-b91ad7209f7d"
+data "TargetEffect" "01000301-8fd3-4a77-86fb-9b125ed5e675"
+
 <!--COLLEGE OF VALOR-->
 
 new entry "Shout_SongOfValor"

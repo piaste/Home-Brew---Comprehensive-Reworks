@@ -23,7 +23,7 @@
 	<content contentuid="h98e3be41aead4b5bb8ee60104126ded4b17d" version="5">Determines your ability to equip magical items. The rarity of the item determines the amount of Attunement required to equip it, with each higher rarity costing more.&lt;br&gt;&lt;br&gt;Uncommon items require one point of Attunement.&lt;br&gt;&lt;br&gt;Rare items require two points of Attunement.&lt;br&gt;&lt;br&gt;Very Rare items require three points of Attunement.&lt;br&gt;&lt;br&gt;Legendary items require four points of Attunement.</content>
 
 	<content contentuid="h9328bdc1gcc66g4369g91f3gf3568b1c5133" version="1">Wyvern Toxin</content>
-	<content contentuid="h057011f1g48a4g48b2g85daga04e5026f87d" version="2">Affected entity takes [1] at the end of its next turn.</content>
+	<content contentuid="h057011f1g48a4g48b2g85daga04e5026f87d" version="2">Affected entity takes [1] at the start of its next turn.</content>
 
 <!--ARROWS-->
 	<content contentuid="he2f3af0ag21d0g40efg833bg12f5032eba13" version="1">Arrow of Aberration Slaying</content>

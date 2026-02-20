@@ -193,12 +193,6 @@ data "TargetEffect" "4fb18d5c-33c6-4ee9-b8ea-22f0923a32f7"
 data "BeamEffect" "2c70ac69-71bf-4fef-b82d-caea934e102e"
 data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not HasStatus('TELEKINETIC_COOLDOWN')"
 
-new entry "TELEKINETIC_COOLDOWN"
-type "StatusData"
-data "StatusType" "BOOST"
-data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
-data "TickType" "EndTurn"
-
 new entry "Target_Portent_Interrupt"
 type "SpellData"
 data "SpellType" "Target"

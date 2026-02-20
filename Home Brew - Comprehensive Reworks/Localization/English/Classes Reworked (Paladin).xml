@@ -336,7 +336,7 @@
   <content contentuid="fe6f4159abae42539029e284001d12deafiow" version="3">Affected creature will recover one &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; charge when this status expires.</content>
 
   <content contentuid="fe6f4159abae42539029e284001d12de00010" version="3">Principle of Belief</content>
-  <content contentuid="fe6f4159abae42539029e284001d12de0000j" version="3">On any successful &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against Aberrations, Fey, Fiends, or Undead, deal an additional +1d12 damage. The type of damage dealt changes depending on your choice of subclass.</content>
+  <content contentuid="fe6f4159abae42539029e284001d12de0000j" version="3">When dealing damage to Aberrations, Fey, Fiends, or Undead, you deal an additional +1d12 damage.</content>
 
   <content contentuid="h3e63e6aag19b0g400agb559g2e125483261f" version="3">Repel the Damned</content>
   <content contentuid="h90dc6c92g4bdag440cg8119g6a95df4567cf" version="3">All enemies within [1] of you take damage at the start of their turns equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Charisma Modifier&lt;/LSTag&gt;. The type of damage dealt changes depending on your choice of subclass.</content>

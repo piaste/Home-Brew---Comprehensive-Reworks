@@ -676,6 +676,7 @@
         <node id="ClassDescription">
                     <attribute id="BaseHp" type="int32" value="10" />
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+                    <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Paladin" />
                     <attribute id="Description" type="TranslatedString" handle="h9fca63d9gfc1fg48c3g8ae9g01bbddae1ec3" version="1" />
                     <attribute id="DisplayName" type="TranslatedString" handle="h3ddc9a75ge59cg466eg8243gcde4e8d4f95d" version="1" />
                     <attribute id="HpPerLevel" type="int32" value="6" />
@@ -697,7 +698,6 @@
 				</node>
         <node id="ClassDescription">
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
-                    <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Paladin_Ancients" />
                     <attribute id="Description" type="TranslatedString" handle="h7bd98082g8d1cg49b7gbdd9g5d45924e8d01" version="1" />
                     <attribute id="DisplayName" type="TranslatedString" handle="h2a7352eag799cg44afgaf7cg1ad3e9fbbf42" version="1" />
                     <attribute id="LearningStrategy" type="uint8" value="1" />
@@ -718,7 +718,6 @@
 					</node>
 		<node id="ClassDescription">
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
-                    <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Paladin_Crown"/>
                     <attribute id="Description" type="TranslatedString" handle="hb0043457gfdd6g470agbfd6g6594b92ca488" version="2"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="hf8d923abg2aeeg446agac9dgbb27081e8db2" version="2"/>
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
@@ -738,7 +737,6 @@
 					</node>
         <node id="ClassDescription">
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
-                    <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Paladin_Devotion" />
                     <attribute id="Description" type="TranslatedString" handle="h238b6cb3gdff0g4151gbd79g2af569925479" version="1" />
                     <attribute id="DisplayName" type="TranslatedString" handle="h07d494ebg069ag42a7g8fdfge1cb3672bac5" version="1" />
                     <attribute id="LearningStrategy" type="uint8" value="1" />
@@ -759,7 +757,6 @@
 					</node>
         <node id="ClassDescription">
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
-                    <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Paladin_Vengance" />
                     <attribute id="Description" type="TranslatedString" handle="h573bd5d7g78ccg467cga56dg4392c97ad6ba" version="1" />
                     <attribute id="DisplayName" type="TranslatedString" handle="h83972695g2797g49bdg8e3bga526a352143d" version="1" />
                     <attribute id="LearningStrategy" type="uint8" value="1" />
@@ -780,7 +777,6 @@
 					</node>
         <node id="ClassDescription">
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
-                    <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Paladin_Oathbreaker" />
                     <attribute id="Description" type="TranslatedString" handle="h23db7ea6g6882g428bg9af2g50b797dba11b" version="1" />
                     <attribute id="DisplayName" type="TranslatedString" handle="h1b152143g9aacg4821g8b1dg0a5c8c384b99" version="1" />
                     <attribute id="LearningStrategy" type="uint8" value="1" />
@@ -801,7 +797,6 @@
 				</node>
         <node id="ClassDescription">
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
-                    <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Paladin_Oathbreaker" />
                     <attribute id="Description" type="TranslatedString" handle="h23db7ea6g6882g428bg9af2g50b797dba11b" version="1" />
                     <attribute id="DisplayName" type="TranslatedString" handle="h1b152143g9aacg4821g8b1dg0a5c8c384b99" version="1" />
                     <attribute id="LearningStrategy" type="uint8" value="1" />
@@ -1035,7 +1030,6 @@
 					</node>
         <node id="ClassDescription">
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
-                    <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Sorcerer_DraconicAncestry" />
                     <attribute id="Description" type="TranslatedString" handle="h8653dfceg5163g42e3gb4c4g5acc4dd573c8" version="2" />
                     <attribute id="DisplayName" type="TranslatedString" handle="h25454982g837eg4451g88ddgf9ea0d89187f" version="1" />
                     <attribute id="LearningStrategy" type="uint8" value="1" />
@@ -1055,7 +1049,6 @@
 					</node>
 		<node id="ClassDescription">
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
-                    <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Sorcerer_ShadowMagic"/>
                     <attribute id="Description" type="TranslatedString" handle="hec37ca35g480cg4de1gae65g3986c3592aa7" version="1"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="h16312bfag01a2g42f8g943bg3fcba8ecfcc3" version="1"/>
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
@@ -1084,7 +1077,6 @@
 					</node>
         <node id="ClassDescription">
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
-                    <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Sorcerer_WildMagic" />
                     <attribute id="Description" type="TranslatedString" handle="hedfe3092ga840g4e10gb962g092566a89852" version="2" />
                     <attribute id="DisplayName" type="TranslatedString" handle="h04ded653gcf76g4ad4gaa36g523db04a9487" version="1" />
                     <attribute id="LearningStrategy" type="uint8" value="1" />

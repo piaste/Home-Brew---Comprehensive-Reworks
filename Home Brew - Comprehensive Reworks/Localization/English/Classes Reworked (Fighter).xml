@@ -157,7 +157,7 @@
 	<content contentuid="h93857089gb140g4c33ga0a9g26fde3fdfd58" version="7">Affected creature has &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to all forms of physical damage. However, enemies have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; when making &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against them.</content>
 
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209a6a9965" version="1">Champion's Repertoire</content>
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204a9a6454" version="8">Gain &lt;LSTag Type="Spell" Tooltip="Shout_CSecondWind"&gt;Champion's Windstorm&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_SecondWind"&gt;Rallying Cry&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Shout_SecondWind"&gt;Batallion's March&lt;/LSTag&gt;.</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204a9a6454" version="8">Gain &lt;LSTag Type="Spell" Tooltip="Shout_CSecondWind"&gt;Champion's Windstorm&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_RallyingCry"&gt;Rallying Cry&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Shout_BattalionsMarch"&gt;Batallion's March&lt;/LSTag&gt;.</content>
 	<content contentuid="h9a3262d9g1cf8g40d2gae47ga2703e761c79" version="1">Champion's Windstorm</content>
 	<content contentuid="h87c9d35ag7914g4efegb53cgf06381ff4b6e" version="8">Restore [1] &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;. The amount of dice rolled is equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
 	<content contentuid="h9a3262d9g1cf8g40d2gae47ga27065sd48e2" version="1">Rallying Cry</content>

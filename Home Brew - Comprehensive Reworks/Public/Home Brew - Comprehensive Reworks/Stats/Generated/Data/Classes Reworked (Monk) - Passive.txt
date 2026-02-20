@@ -208,12 +208,6 @@ data "Icon" "PassiveFeature_KiFlurryOfBlows"
 data "Properties" "Highlighted;ForceShowInCC"
 data "Boosts" "IF(not HasShieldEquipped(context.Source) and not IsWeaponOfProficiencyGroup('Clubs|Daggers|Handaxes|Javelins|LightHammers|Maces|Sickles|Quarterstaffs|Spears|Greatclubs|Flails|Morningstars|Rapiers|Scimitars|Shortswords|Warpicks|Battleaxes|Longswords|Tridents|Warhammers|Glaives|Greataxes|Greatswords|Halberds|Mauls|Pikes', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand)) and not IsWeaponOfProficiencyGroup('Clubs|Daggers|Handaxes|Javelins|LightHammers|Maces|Sickles|Quarterstaffs|Spears|Greatclubs|Flails|Morningstars|Rapiers|Scimitars|Shortswords|Warpicks|Battleaxes|Longswords|Tridents|Warhammers|Glaives|Greataxes|Greatswords|Halberds|Mauls|Pikes', GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand))):UnlockSpell(Target_FlurryOfBlows_Free)"
 
-new entry "Target_FlurryOfBlows_Free"
-type "SpellData"
-data "SpellType" "Target"
-using "Target_FlurryOfBlows"
-data "UseCosts" "ActionPoint:1"
-
 new entry "Manifestation_Display"
 type "PassiveData"
 data "DisplayName" "h451f9a42gca5ag40d5ga31ag3024casdfsdf;2"

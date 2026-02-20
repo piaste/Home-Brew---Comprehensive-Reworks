@@ -384,6 +384,8 @@
 	<content contentuid="be31014b-2a27-4970-b6d6-c95bde200004" version="1">Yokebreaker: Infused Arcsmith</content>
 	<content contentuid="be31014b-2a27-4970-b6d6-c95bde20000d" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_InfusedArcsmith"&gt;Infused Arcsmith Artificer&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
+
+
 	<content contentuid="47709b48-6124-44dc-8792-1ba94cb81915" version="1">Yokebreaker: Beastheart</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df01" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Beastheart"&gt;Beastheart Barbarian&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
@@ -398,6 +400,9 @@
 
 	<content contentuid="dec3cc55-896b-4bde-9f1a-7981f452ce9b" version="1">Yokebreaker: Wild Soul</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df04" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_WildSoul"&gt;Wild Soul Barbarian&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+
+
+
 
 	<content contentuid="5f53f9c9-b42a-4e56-9fba-d45cba561f06" version="1">Yokebreaker: College of Captivation</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df05" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Captivation"&gt;College of Captivation Bard&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
@@ -426,6 +431,9 @@
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df12" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_War"&gt;War Domain Cleric&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
 
+
+	<content contentuid="3edf898e-4341-4681-8ba1-2we5fe65f545" version="1">Yokebreaker: Circle of the Elements</content>
+	<content contentuid="47709b48-6124-44dc-8792-6we8e6se8f98" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Elements"&gt;Circle of the Elements Druid&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
 	<content contentuid="3edf898e-4341-4681-8ba1-a29540337ebb" version="1">Yokebreaker: Circle of the Land</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df13" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Land"&gt;Circle of the Land Druid&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
@@ -540,7 +548,7 @@
 	<content contentuid="0df1b7d5-e045-4944-b1d7-54ab25513520" version="1">Yokebreaker: Pact of Penumbra</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df43" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_PactofPenumbra"&gt;Pact of Penumbra Warlock&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
-	<content contentuid="0df1b7d5-e045-4944-b1d7-2wse68se7ef5" version="1">Yokebreaker: Pact of the Primordial Demon</content>
+	<content contentuid="0df1b7d5-e045-4944-b1d7-2wse68se7ef5" version="1">Yokebreaker: Pact of the Primordial</content>
 	<content contentuid="47709b48-6124-44dc-8792-388we984ifif" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_PactofthePrimordialDemon"&gt;Pact of Primordial Demon Warlock&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
 	<content contentuid="47526eef-46d6-4976-948e-753f4790b427" version="1">Yokebreaker: Pact of the Tome</content>

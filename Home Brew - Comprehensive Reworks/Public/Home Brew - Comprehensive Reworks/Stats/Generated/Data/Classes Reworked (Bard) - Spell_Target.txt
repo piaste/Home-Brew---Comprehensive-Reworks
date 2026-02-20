@@ -36,12 +36,12 @@ data "CombatAIOverrideSpell" "Target_BardicInspiration_NPC"
 
 new entry "Target_BardicInspiration_NPC"
 type "SpellData"
-data "SpellType" "Shout"
+data "SpellType" "Target"
 using "Target_BardicInspiration"
 data "SpellProperties" "IF(not CharacterLevelGreaterThan(4)):ApplyStatus(BARDIC_INSPIRATION,100, -1);IF(CharacterLevelGreaterThan(4) and not CharacterLevelGreaterThan(8)):ApplyStatus(BARDIC_INSPIRATION_D8,100, -1);IF(CharacterLevelGreaterThan(8)):ApplyStatus(BARDIC_INSPIRATION_D10,100, -1);IF(HasPassive('Echoes_of_Fortitude',context.Source)):ApplyStatus(ECHOES_OF_FORTITUDE,100, -1);IF(HasPassive('Encouraging_Momentum',context.Source) or HasPassive('Encouraging_Momentum_Item',context.Source)):ApplyStatus(DASH,100,1);IF(HasPassive('Encouraging_Momentum',context.Source) or HasPassive('Encouraging_Momentum_Item',context.Source)):ApplyStatus(DISENGAGE,100,1);IF(HasPassive('Encouraging_Momentum',context.Source) or HasPassive('Encouraging_Momentum_Item',context.Source)):ApplyStatus(SELF,DASH,100,1);IF(HasPassive('Encouraging_Momentum',context.Source) or HasPassive('Encouraging_Momentum_Item',context.Source)):ApplyStatus(SELF,DISENGAGE,100,1);IF(HasPassive('Engaging_Composition',context.Source) and HasWeaponInMainHand(context.Target)):ApplyStatus(COMMANDERS_STRIKE_D8_BARD,100,-1);IF(HasPassive('Inspirational_Resonance',context.Source)):CreateExplosion(Projectile_Inspirational_Resonance);IF(HasPassive('Soothing_Words',context.Source) or HasPassive('Soothing_Words_Item',context.Source)):ApplyStatus(SOOTHING_WORDS,100,-1);IF(HasPassive('Unprecedented_Encore',context.Source)):TriggerRandomCast(17,,WildMagicPositive);IF(HasPassive('Mobile_Maestro',context.Source)):SwapPlaces();AI_ONLY:ApplyStatus(SELF,AI_HELPER_BUFF,100,0)"
 data "CombatAIOverrideSpell" ""
 
-<!--COLLEGE OF SWORDS-->
+<!--COLLEGE OF STEEL-->
 
 new entry "Target_BladeFlourish_Defensive"
 type "SpellData"
@@ -118,6 +118,14 @@ data "ExtraDescription" ""
 data "Icon" "Action_Bard_GrantBardicInspiration"
 data "TooltipStatusApply" "ApplyStatus(BARDIC_INSPIRATION_COMBAT,100, -1)"
 data "UseCosts" "BonusActionPoint:1;BardicInspiration:1"
+data "CombatAIOverrideSpell" "Target_BardicInspiration_Combat_NPC"
+
+new entry "Target_BardicInspiration_Combat_NPC"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_BardicInspiration"
+data "SpellProperties" "IF(not CharacterLevelGreaterThan(4)):ApplyStatus(BARDIC_INSPIRATION_COMBAT,100, -1);IF(CharacterLevelGreaterThan(4) and not CharacterLevelGreaterThan(8)):ApplyStatus(BARDIC_INSPIRATION_COMBAT_D8,100, -1);IF(CharacterLevelGreaterThan(8)):ApplyStatus(BARDIC_INSPIRATION_COMBAT_D10,100, -1);IF(HasPassive('Echoes_of_Fortitude',context.Source)):ApplyStatus(ECHOES_OF_FORTITUDE,100, -1);IF(HasPassive('Encouraging_Momentum',context.Source) or HasPassive('Encouraging_Momentum_Item',context.Source)):ApplyStatus(DASH,100,1);IF(HasPassive('Encouraging_Momentum',context.Source) or HasPassive('Encouraging_Momentum_Item',context.Source)):ApplyStatus(DISENGAGE,100,1);IF(HasPassive('Encouraging_Momentum',context.Source) or HasPassive('Encouraging_Momentum_Item',context.Source)):ApplyStatus(SELF,DASH,100,1);IF(HasPassive('Encouraging_Momentum',context.Source) or HasPassive('Encouraging_Momentum_Item',context.Source)):ApplyStatus(SELF,DISENGAGE,100,1);IF(HasPassive('Engaging_Composition',context.Source) and HasWeaponInMainHand(context.Target)):ApplyStatus(COMMANDERS_STRIKE_D8_BARD,100,-1);IF(HasPassive('Inspirational_Resonance',context.Source)):CreateExplosion(Projectile_Inspirational_Resonance);IF(HasPassive('Soothing_Words',context.Source) or HasPassive('Soothing_Words_Item',context.Source)):ApplyStatus(SOOTHING_WORDS,100,-1);IF(HasPassive('Unprecedented_Encore',context.Source)):TriggerRandomCast(17,,WildMagicPositive);IF(HasPassive('Mobile_Maestro',context.Source)):SwapPlaces();AI_ONLY:ApplyStatus(SELF,AI_HELPER_BUFF,100,0)"
+data "CombatAIOverrideSpell" ""
 
 <!--PASSIVES-->
 
