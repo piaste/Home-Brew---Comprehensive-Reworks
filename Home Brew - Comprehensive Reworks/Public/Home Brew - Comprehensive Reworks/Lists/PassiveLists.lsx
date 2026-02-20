@@ -13,6 +13,10 @@
                     <attribute id="UUID" type="guid" value="15eff335-46df-4268-9eea-aabcb6c13025" />
 					</node>
         <node id="PassiveList">
+                    <attribute id="Passives" type="LSString" value="AT_None,AT_ArcanePrecision,AT_CombatMastery,AT_DeepenedResolve,AT_ImposingWill,AT_IronBreaker,AT_MartialPrecision,AT_RestorativeTouch,AT_TemperedBody,AT_TemperedMind,AT_WeaveBreaker" />
+                    <attribute id="UUID" type="guid" value="4607f9c7-335c-443f-b075-a3f068c20a0d" />
+					</node>
+        <node id="PassiveList">
                     <attribute id="Passives" type="LSString" value="AdaptivePlating,ArcaneCalibrationMatrix,AutomatedArcaneSuppression,CastleDefense,DeadZoneCalibration,ElementalPayload,EmergencyPowerCell,FailsafeInjection,IncendiaryRounds,KineticFeedbackLoop,LikeClockwork,ModularAugmentation,NaniteDispersionField,Overclocked,PrecisionRifling,RecoilCompensation,Safeguard,SpeedLoader,SyntheticActionEconomy,VitalAim" />
                     <attribute id="UUID" type="guid" value="a8257cf3-7c6b-4627-a77c-760a064fc201" />
 					</node>

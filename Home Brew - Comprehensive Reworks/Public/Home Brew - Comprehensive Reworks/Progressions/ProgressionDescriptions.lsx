@@ -23,6 +23,12 @@
 				<attribute id="UUID" type="guid" value="05b7dcda-30a5-4f05-8e58-d88c5e10f552" />
 				</node>
         <node id="ProgressionDescription">
+				<attribute id="DisplayName" type="TranslatedString" handle="h6eb72b35g6633g4642gaf97gc5sarchetype" version="2" />
+				<attribute id="Description" type="TranslatedString" handle="h8612a65dg446cg427bga712g6sdarchetype" version="1" />
+				<attribute id="SelectorId" type="FixedString" value="Archetypes" />
+				<attribute id="UUID" type="guid" value="9ac5bd21-c15c-4af0-8880-794498c71f57" />
+				</node>
+        <node id="ProgressionDescription">
 				<attribute id="DisplayName" type="TranslatedString" handle="115fb28f01e84e44b3536f475sd5f4ef2f001" version="2" />
 				<attribute id="Description" type="TranslatedString" handle="115fb28f01e84e44b3536f4741b47sdfe5d0a" version="1" />
 				<attribute id="SelectorId" type="FixedString" value="ArtificerSpells" />

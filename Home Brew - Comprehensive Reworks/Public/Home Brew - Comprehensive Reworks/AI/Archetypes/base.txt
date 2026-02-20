@@ -80,7 +80,7 @@ MULTIPLIER_ACTION_RESOURCE_COST					0.0
 MULTIPLIER_USABLE_ITEM							1.25
 
 // 0.0 here means AI will not avoid AoO
-ENABLE_MOVEMENT_AVOID_AOO						1.25
+ENABLE_MOVEMENT_AVOID_AOO						2.00
 
 //////////////////////////////////////////////////////////////////////////
 // Target Selection MULTIPLIERS
@@ -162,11 +162,11 @@ MAX_HEAL_SELF_MULTIPLIER						0.25  // Must be between 0 and 1, the closer to 1,
 
 // Simple multipliers when damage results in a kill
 MULTIPLIER_KILL_ENEMY							1.25
-MULTIPLIER_KILL_ENEMY_SUMMON					1.25
+MULTIPLIER_KILL_ENEMY_SUMMON					1.00
 MULTIPLIER_KILL_ALLY							0.00
 MULTIPLIER_KILL_ALLY_SUMMON						0.00
 MULTIPLIER_KILL_TARGET_HEALTH_BIAS 				1.00
-INSTAKILL_BASE_SCORE							2.00
+INSTAKILL_BASE_SCORE							1.00
 MULTIPLIER_INSTAKILL_TARGET_HEALTH_BIAS			1.00
 
 //////////////////////////////////////////////////////////////////////////
@@ -198,8 +198,8 @@ MULTIPLIER_SURFACE_REMOVE						0.35
 MULTIPLIER_DESTROY_INTERESTING_ITEM				3.25
 
 // How important resistances/immunities are for this character
-MULTIPLIER_RESISTANCE_STUPIDITY					0.00
-MULTIPLIER_IMMUNITY_STUPIDITY					0.00
+MULTIPLIER_RESISTANCE_STUPIDITY					1.00
+MULTIPLIER_IMMUNITY_STUPIDITY					1.00
 
 // How important boosting ABILITYutes are
 MULTIPLIER_MAIN_ABILITY							1.00
@@ -250,12 +250,12 @@ MULTIPLIER_RESOURCE_REPLENISH_TYPE_SHORT_REST   1.00
 MULTIPLIER_RESOURCE_REPLENISH_TYPE_TURN			1.00
 
 // Modifiers used when calculating the advantage boost
-MULTIPLIER_ADVANTAGE_ABILITY	0.50
-MULTIPLIER_ADVANTAGE_SKILL		0.50
-MULTIPLIER_ADVANTAGE_ATTACK		0.50
+MULTIPLIER_ADVANTAGE_ABILITY	0.25
+MULTIPLIER_ADVANTAGE_SKILL		0.25
+MULTIPLIER_ADVANTAGE_ATTACK		0.25
 
 // Modifier used when calculating the ArmorClass boost
-MULTIPLIER_BOOST_AC 1.0
+MULTIPLIER_BOOST_AC 0.5
 
 // Modifier used when calculating the AbilityFailedSavingThrow boost
 MULTIPLIER_BOOST_ABILITY_FAILED_SAVING_THROW 0.085
@@ -273,7 +273,7 @@ MULTIPLIER_BOOST_ACTION_RESOURCE_MULTIPLIER 0.25
 MULTIPLIER_BOOST_ACTION_RESOURCE_BLOCK 0.5
 
 // Modifier used when calculating IgnoreAOO boost
-MULTIPLIER_BOOST_IGNORE_AOO 0.05
+MULTIPLIER_BOOST_IGNORE_AOO 0.01
 
 // Minimum movement left to consider the IgnoreAOO boost
 BOOST_IGNORE_AOO_MIN_MOVEMENT 2.0
@@ -285,7 +285,7 @@ MULTIPLIER_BOOST_ABILITY 0.5
 MULTIPLIER_BOOST_IGNORE_FALL_DAMAGE -0.05
 
 // Modifier used when calculating CannotHarmCauseEntity boost
-MULTIPLIER_BOOST_CANNOT_HARM_CAUSE_ENTITY 0.05
+MULTIPLIER_BOOST_CANNOT_HARM_CAUSE_ENTITY 0.1
 
 // Modifiers used when calculating CriticalHit boost
 MULTIPLIER_BOOST_CRITICAL_HIT_NEVER 0.025
@@ -329,7 +329,7 @@ MULTIPLIER_BOOST_BLOCK_SOMATIC_COMPONENT 0.125
 MULTIPLIER_MOVEMENT_SURFACE 1.0
 
 // Modifier used to make AI over estimate its chances of hitting their target
-MODIFIER_HIT_CHANCE_STUPIDITY 0.25
+MODIFIER_HIT_CHANCE_STUPIDITY 1.0
 
 //////////////////////////////////////////////////////////////////////////
 // RollBonus MULTIPLIERS
@@ -402,9 +402,9 @@ USE_ITEM_MODIFIER_NO_VISIBILITY			1.0
 // Concentration modifiers
 
 // Modifier used to change the score of removing the AI's own concentration
-MODIFIER_CONCENTRATION_REMOVE_SELF 						0.0
+MODIFIER_CONCENTRATION_REMOVE_SELF 						10.0
 // Modifier used to change the score of removing a target's concentration (other than itself) 
-MODIFIER_CONCENTRATION_REMOVE_TARGET 					1.5
+MODIFIER_CONCENTRATION_REMOVE_TARGET 					1.0
 
 //////////////////////////////////////////////////////////////////////////
 // Throwing modifiers
@@ -417,5 +417,5 @@ THROW_INVENTORY_ITEM_LIMIT				100
 
 // Used to adjust fall damage scores
 MULTIPLIER_FALL_DAMAGE_SELF								0.5
-MULTIPLIER_FALL_DAMAGE_ENEMY							0.5
+MULTIPLIER_FALL_DAMAGE_ENEMY							0.25
 MULTIPLIER_FALL_DAMAGE_ALLY								0.5

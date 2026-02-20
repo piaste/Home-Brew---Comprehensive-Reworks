@@ -125,3 +125,9 @@ function StatusDurationIsBetween(value1, value2, stringStatusName, entity)
     local range = (currentDuration >= value1) and (currentDuration <= value2)
     return ConditionResult(range)
 end
+
+function StatusDurationIsExactly(number, stringStatusName, entity)
+    local entity = entity or context.Target
+    local number = number or 1
+    return ConditionResult(GetStatusDuration(stringStatusName, entity) == number)
+end

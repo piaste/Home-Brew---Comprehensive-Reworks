@@ -135,7 +135,7 @@ data "StatusPropertyFlags" "FreezeDuration"
 data "StackId" "TOXICITY"
 data "StackType" "Additive"
 data "RemoveEvents" "OnCombatEnded"
-data "StatusGroups" "SG_Physical;SG_Restrained;SG_Poisoned"
+data "StatusGroups" "SG_Physical;SG_Cursed"
 data "ManagedStatusEffectType" "Negative"
 data "ManagedStatusEffectGroup" "d787f666-8ee6-4185-9365-6aac9ebe76ae"
 

@@ -245,7 +245,43 @@
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00040" version="3">Wretch</content>
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f89000an" version="3">You make all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt;, and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Warning: Taking this trait will drastically impact intended game balance.</content>
 
-<!--CHARACTER TRAITS END-->
+<!--CLASS ARCHETYPE-->
+
+	<content contentuid="h6eb72b35g6633g4642gaf97gc5sarchetype" version="3">Class Archetype</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sdarchetype" version="3">Select a class archetype. Class archetypes are powerful effects which immediately enable numerous playstyles, allowing you to craft builds in unique and various ways.</content>
+
+	<content contentuid="h6eb72b35g6633g4642gaf97gc5sarchety00" version="3">None</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sdarchety00" version="3">You have no class archetype.</content>
+
+	<content contentuid="h6eb72b35g6633g4642gaf97gc5sarchety01" version="3">Arcane Precision</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sdarchety0a" version="3">Reduce the number needed to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; by 2 when making a Spell based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h6eb72b35g6633g4642gaf97gc5sarchety02" version="3">Combat Mastery</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sdarchety0b" version="3">Gain a +4 bonus to your &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h6eb72b35g6633g4642gaf97gc5sarchety03" version="3">Deepened Resolve</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sdarchety0c" version="3">Gain a bonus to your &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h6eb72b35g6633g4642gaf97gc5sarchety04" version="3">Imposing Will</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sdarchety0d" version="3">Gain a +2 bonus to your &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt; when casting Spells or applying conditions.</content>
+
+	<content contentuid="h6eb72b35g6633g4642gaf97gc5sarchety05" version="3">Iron Breaker</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sdarchety0e" version="3">When dealing damage, you ignore all physical &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h6eb72b35g6633g4642gaf97gc5sarchety06" version="3">Martial Precision</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sdarchety0f" version="3">Reduce the number needed to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; by 2 when making a weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h6eb72b35g6633g4642gaf97gc5sarchety07" version="3">Restorative Touch</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sdarchety0g" version="3">When healing yourself or another creature, restore an additional 4 &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h6eb72b35g6633g4642gaf97gc5sarchety08" version="3">Tempered Body</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sdarchety0h" version="3">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to all physical damage.</content>
+
+	<content contentuid="h6eb72b35g6633g4642gaf97gc5sarchety09" version="3">Tempered Mind</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sdarchety0i" version="3">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to all elemental damage.</content>
+
+	<content contentuid="h6eb72b35g6633g4642gaf97gc5sarchety10" version="3">Weave Breaker</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sdarchety0j" version="3">When dealing damage, you ignore all elemental &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt;.</content>
 
 	<content contentuid="115fb28f01e84e44b3536we568f4s684e8500" version="3">Relinquish Control</content>
 	<content contentuid="115fb28f01e84e44b3536we568f4s684e85aa" version="3">Relinquish control of one or more party members or summons, allowing them to act of their own accord.</content>
