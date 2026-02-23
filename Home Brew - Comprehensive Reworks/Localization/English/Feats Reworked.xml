@@ -183,7 +183,7 @@
 <!--INTRINSIC BULWARK-->
 
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa00025" version="1">Intrinsic Bulwark</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa0000y" version="5">While wearing Medium or Heavy Armour, your &lt;LSTag Tooltip="AbilityModifier"&gt;Constitution Modifier&lt;/LSTag&gt; also reduces elemental damage. In addition, you gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to all forms of elemental damage.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa0000y" version="5">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to all forms of elemental damage.</content>
 
 <!--LUCKY-->
 

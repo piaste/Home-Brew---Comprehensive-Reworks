@@ -15,6 +15,26 @@ data "Cost" "ReactionActionPoint:1"
 data "InterruptDefaultValue" "Ask;Enabled"
 data "Stack" "OnSave"
 
+<!--DRACONIC SENTINEL-->
+
+new entry "Interrupt_WyrmcallEruption"
+type "InterruptData"
+data "DisplayName" "h8df49fb1g13acg4b8asdfwe968f4s6e000z4;1"
+data "Description" "h6bdfd618g15b3g40w843r98fe7983ur000zd;2"
+data "DescriptionParams" "DealDamage(LevelMapValue(SuperiorityDie),Force);Distance(3);Distance(9"
+data "Icon" "DraconicSentinel"
+data "InterruptContext" "OnCastHit"
+data "InterruptContextScope" "Self"
+data "InterruptFlags" "InterruptWhileInvisible"
+data "Container" "YesNoDecision"
+data "Conditions" "Self(context.Source,context.Observer) and Enemy(context.Target,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and not IsKillingBlow() and (SpellId('Target_SkyboundDive') or SpellId('Rush_DraconicBlitz') or SpellId('Target_DraconicMaul')) and not AnyEntityIsItem()"
+data "Properties" "CreateExplosion(OBSERVER_TARGET,Projectile_WyrmcallEruption)"
+data "Cost" "SuperiorityDie:1"
+data "InterruptDefaultValue" "Ask;Enabled"
+data "EnableCondition" "HasActionResource('SuperiorityDie',1,0,false,false,context.Source) and not HasStatus('SG_Polymorph_BeastShape')"
+data "EnableContext" "OnActionResourcesChanged;OnStatusRemoved;OnStatusApplied"
+data "Stack" "OnDamage"
+
 <!--FRONTIER KNIGHT-->
 
 new entry "Interrupt_SteadfastOnslaught"

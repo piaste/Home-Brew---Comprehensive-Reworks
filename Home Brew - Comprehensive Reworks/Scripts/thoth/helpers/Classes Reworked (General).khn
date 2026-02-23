@@ -1,11 +1,56 @@
 local __util = require 'larian.util'
 
+function AbilityIsExactly(ability, value, entity)
+    local entity = entity or context.Target
+    if ability == "Strength" then
+        return ConditionResult(entity.Strength == value)
+    elseif ability == "Dexterity" then
+        return ConditionResult(entity.Dexterity == value)
+    elseif ability == "Constitution" then
+        return ConditionResult(entity.Constitution == value)
+    elseif ability == "Intelligence" then
+        return ConditionResult(entity.Intelligence == value)
+    elseif ability == "Wisdom" then
+        return ConditionResult(entity.Wisdom == value)
+    elseif ability == "Charisma" then
+        return ConditionResult(entity.Charisma == value)
+    else
+        return ConditionResult(false)
+    end
+end
+
 function CT_WeaponAttackCheck()
 	return HasStringInSpellRoll('MeleeWeaponAttack') & ~NumberOfTargetsGreaterThan(1) | HasStringInSpellRoll('RangedWeaponAttack') & ~NumberOfTargetsGreaterThan(1)
 end
 
 function ExtraAttackSpellCheck()
     return HasStringInSpellRoll('WeaponAttack') | HasStringInSpellRoll('UnarmedAttack') | HasStringInSpellRoll('ThrowAttack') | SpellId('Target_CommandersStrike') | SpellId('Target_Bufotoxin_Frog_Summon') | SpellId('Projectile_ArrowOfSmokepowder') | SpellId('Projectile_ArcaneShot_SeekingArrow') | SpellId('Zone_ArcaneShot_PiercingArrow') | SpellId('Projectile_FocusedWeave') | SpellId('Projectile_ElementalFletching_Acid') | SpellId('Projectile_ElementalFletching_Cold') | SpellId('Projectile_ElementalFletching_Fire') | SpellId('Projectile_ElementalFletching_Lightning') | SpellId('Projectile_ElementalFletching_Necrotic') | SpellId('Projectile_ElementalFletching_Poison') | SpellId('Projectile_ElementalFletching_Psychic') | SpellId('Projectile_ElementalFletching_Radiant') | SpellId('Projectile_ElementalFletching_Thunder') | SpellId('Projectile_ElementalFletching_Acid_Focused') | SpellId('Projectile_ElementalFletching_Cold_Focused') | SpellId('Projectile_ElementalFletching_Fire_Focused') | SpellId('Projectile_ElementalFletching_Lightning_Focused') | SpellId('Projectile_ElementalFletching_Necrotic_Focused') | SpellId('Projectile_ElementalFletching_Poison_Focused') | SpellId('Projectile_ElementalFletching_Psychic_Focused') | SpellId('Projectile_ElementalFletching_Radiant_Focused') | SpellId('Projectile_ElementalFletching_Thunder_Focused')
+end
+
+function HasDRNegationStatusElementalSource(entity)
+    local entity = entity or context.Target
+	return HasAnyStatus({'TRUE_STRIKE'}, {}, {}, entity)
+end
+
+function HasDRNegationStatusElementalTarget(entity)
+    local entity = entity or context.Target
+	return HasAnyStatus({'FAERIE_FIRE','HIDEOUS_LAUGHTER','HOLD_MONSTER','HOLD_PERSON','HUNTERS_MARK','HYPNOTIC_PATTERN','PARALYZED','STUNNED','SURPRISED','IRRESISTIBLE_DANCE','HUNTED','DAZED','DISTRACTED','FRIGHTENED','FEARED','ENTHRALL','MAG_PSYCHIC_MENTAL_FATIGUE','MIND_SLIVER','MIND_SPIKE','INTIMIDATING_PRESENCE','MOTH_DISTRACTED','MOTH_DISTRACTED_STORM'}, {}, {}, entity)
+end
+
+function HasDRNegationStatusPhysicalSource(entity)
+    local entity = entity or context.Target
+	return HasAnyStatus({'TRUE_STRIKE'}, {}, {}, entity)
+end
+
+function HasDRNegationStatusPhysicalTarget(entity)
+    local entity = entity or context.Target
+	return HasAnyStatus({'FAERIE_FIRE','HIDEOUS_LAUGHTER','HOLD_MONSTER','HOLD_PERSON','HUNTERS_MARK','HYPNOTIC_PATTERN','PARALYZED','STUNNED','SURPRISED','IRRESISTIBLE_DANCE','HUNTED','ACID','OFF_BALANCED','OFF_BALANCED_CRITICAL_MISS','WEAKENED_ARMOR','PLAGUEOFROT','PLAGUEOFROT_AURA','CORROSIVES_SPIT_DILOPHOSAURS_1','CORROSIVES_SPIT_DILOPHOSAURS_2','CORROSIVES_SPIT_DILOPHOSAURS_3','CORROSIVES_SPIT_DILOPHOSAURS_4','TOXICITY','CONTAGION_FLESH_ROT_COUNTDOWN','CONTAGION_FLESH_ROT','REDUCE'}, {}, {}, entity)
+end
+
+function HasHeavyArmor(entity)
+    entity = entity or context.Target
+    local armor = GetActiveArmor(entity)
+    return IsOfProficiencyGroup("HeavyArmor", armor)
 end
 
 function HasLightArmor(entity)
@@ -66,12 +111,6 @@ function HasMultipleAlliesWithinRange(exclusionStatus, distance, tag, NumberOfAl
     return ConditionResult(false, errorFalse, errorTrue)
 end
 
-function HasHeavyArmor(entity)
-    entity = entity or context.Target
-    local armor = GetActiveArmor(entity)
-    return IsOfProficiencyGroup("HeavyArmor", armor)
-end
-
 function HasRangedWeaponEquipped()
     result = WieldingWeapon('Ammunition')
     return ConditionResult(result.Result, {ConditionError("HasNotWeaponInMainHand")}, {ConditionError("HasWeaponInMainHand")})
@@ -85,6 +124,13 @@ function IsRangedWeaponAttackCheckNoMultihit()
     return HasStringInSpellRoll('RangedWeaponAttack') & ~NumberOfTargetsGreaterThan(1)
 end
 
+function IsCharismaModifierPositive()
+	return GetModifier(context.Source.Charisma) > 0
+end
+
+function IsIntelligenceModifierPositive()
+	return GetModifier(context.Source.Intelligence) > 0
+end
 function IsStrengthModifierPositive()
 	return GetModifier(context.Source.Strength) > 0
 end

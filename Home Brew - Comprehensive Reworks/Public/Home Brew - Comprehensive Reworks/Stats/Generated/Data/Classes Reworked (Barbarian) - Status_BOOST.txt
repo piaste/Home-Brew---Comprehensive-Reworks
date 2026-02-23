@@ -555,6 +555,7 @@ data "Boosts" "StatusImmunity(ARCANEVORTEX_DAMAGE);StatusImmunity(ARCANEVORTEX_D
 data "Passives" "ImmuneToWadableWater"
 data "StackId" "RAGE_BIFROST_DIFFICULTTERRAIN"
 data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 data "TickType" "EndTurn"
 data "RemoveConditions" "not HasStatus('SG_Rage', context.Source)"
 data "RemoveEvents" "OnStatusRemoved"

@@ -34,7 +34,7 @@
 	<content contentuid="h93857089gb140g4c33ga0a9g26fde3f34594" version="2">Affected creature has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Melee and Throw based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, however enemies also have Advantage when making Attack Rolls against it. The number this creature needs in order to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; is reduced by one. When rolling a Critical Hit, this creature also rolls an additional damage die.</content>
 
 	<content contentuid="h2be0aa74g7a36g45bcg911ag21457d6c3d3a" version="3">Intimidated</content>
-	<content contentuid="hd5d6c51ag8297g4360gb3e1g0bd009891ad3" version="1">Affected creature has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;. It must run from the source of its intimidation, and can't take any additional actions.</content>
+	<content contentuid="hd5d6c51ag8297g4360gb3e1g0bd009891ad3" version="1">Affected creature has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;. It must run from the source of its intimidation, and can't take any additional actions. In addition, they are unable to utilize their armours elemental &lt;LSTag Type="Status" Tooltip="DAMAGE_REDUCTION"&gt;Damage Reduction&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h2be0aa74g7a36g45bcg91as9df8s9d6c3d3a" version="1">Intimidation Immunity</content>
 	<content contentuid="hd5d6c51ag8297g4360gb3e1a92w3sdf91ad3" version="3">Affected creature cannot be &lt;LSTag Type="Status" Tooltip="INTIMIDATING_PRESENCE"&gt;Intimidated&lt;/LSTag&gt;.</content>
@@ -145,7 +145,7 @@
 	<content contentuid="h527ae458g84e2g433dga0c4g378928f83126" version="2">Using Frenzied actions adds a stacking -1 penalty to your &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;. Landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; will reset your strain.</content>
 
 	<content contentuid="hdb57a06dg2feag4f96g9a53g029621bdc59c" version="2">Frenzied Strike</content>
-	<content contentuid="h7cff444dga20bg4ecbg8807g7fe34851fbe3" version="4">As a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;, make a melee attack with your equipped weapon. Upon doing so, you will receive &lt;LSTag Type="Status" Tooltip="RAGE_FRENZY_BURNOUT"&gt;Frenzied Strain&lt;/LSTag&gt;.</content>
+	<content contentuid="h7cff444dga20bg4ecbg8807g7fe34851fbe3" version="4">As a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;, make a melee attack with your equipped weapon, rolling with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;. Upon doing so, you will receive &lt;LSTag Type="Status" Tooltip="RAGE_FRENZY_BURNOUT"&gt;Frenzied Strain&lt;/LSTag&gt;.</content>
 
 	<content contentuid="he6b4dabdg3471g4f6fg982cgd435a6f3a655" version="2">Steelbreaker</content>
 	<content contentuid="h4412581eg59ccg45cega74cg82e5995sad88" version="5">When dealing damage, you ignore all &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; to Bludgeoning, Piercing, and Slashing damage.</content>

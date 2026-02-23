@@ -7,7 +7,7 @@
 
 <!--PSIONIC OVERLOAD-->
 	<content contentuid="h2d18417cgc993g4e52g914cgf1e205a824cb" version="2">Psionic Overload</content>
-	<content contentuid="h74504e19g746bg4867gb7d5g63a74cd99dd0" version="4">When dealing damage with a weapon or while unarmed, deal an additional [1].</content>
+	<content contentuid="h74504e19g746bg4867gb7d5g63a74cd99dd0" version="4">When dealing damage with a weapon or while unarmed or assuming the form of a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wild Shape&lt;/LSTag&gt;, deal an additional [1].</content>
 
 <!--FAVOURABLE BEGINNINGS-->
 	<content contentuid="hb3c2d634g1eb9g4b82gbd88g599b2eec1f66" version="3">Favourable Outcomes</content>

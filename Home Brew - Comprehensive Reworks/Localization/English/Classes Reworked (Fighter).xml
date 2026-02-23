@@ -187,10 +187,12 @@
 	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e00001" version="3">Body of the Lancer</content>
 	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur0000a" version="1">Leap upon your enemies from afar with &lt;LSTag Type="Spell" Tooltip="Target_SkyboundDive"&gt;Draconic Dive&lt;/LSTag&gt;.</content>
 	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e000z1" version="3">Draconic Dive</content>
-	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur000za" version="1">Leap upon your targets from afar, bringing your fury down on all within [1] of where you land.</content>
+	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur000za" version="1">Leap upon a target, bringing your fury down from afar.</content>
 
 	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e00002" version="3">Wyrmcall Resonance</content>
 	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur0000b" version="1">Upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, you gain &lt;LSTag Type="Status" Tooltip="WYRMCALL_RESONANCE"&gt;Wyrmcall Resonance&lt;/LSTag&gt; until the end of your current turn.</content>
+	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e00012" version="3">Wyrmcall Resonance</content>
+	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur0001b" version="1">Use your Draconic abilities as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; and double the reach of all melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
 	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e000z2" version="3">Wyrmcall Resonance</content>
 	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur000zb" version="1">Affected creature may use their Draconic abilities as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;. In addition, their melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; have double the reach that they normally would.</content>
 
@@ -199,8 +201,10 @@
 	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e000z3" version="3">Draconic Blitz</content>
 	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur000zc" version="1">Run your enemies through, dealing damage to each target.</content>
 
-	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e00004" version="3">Wyrmcall Recovery</content>
-	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur0000d" version="1">Triggering &lt;LSTag Type="Status" Tooltip="WYRMCALL_RESONANCE"&gt;Wyrmcall Resonance&lt;/LSTag&gt; immediately puts you into a state of &lt;LSTag Type="Status" Tooltip="SECOND_WIND"&gt;Second Wind&lt;/LSTag&gt;. In addition, Second Wind now grants you an additional &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; before it expires.</content>
+	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e00004" version="3">Wyrmcall Eruption</content>
+	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur0000d" version="1">Gain the ability to expend a &lt;LSTag Type="ActionResource" Tooltip="SuperiorityDie"&gt;Superiority Die&lt;/LSTag&gt; upon dealing damage with one of your Draconic abilities to erupt in a forceful explosion, damaging all enemies within [1] of you of you and sending them backward by [2], knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
+	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e000z4" version="3">Wyrmcall Eruption</content>
+	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur000zd" version="1">Upon dealing damage with one of your Draconic abilities, erupt in a forceful explosion, damaging [1] to all enemies within [2] of you and sending them backward by [3], knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e00005" version="3">Soul of the Dragon</content>
 	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur0000e" version="1">Utterly decimate your enemies with &lt;LSTag Type="Spell" Tooltip="Target_DraconicMaul"&gt;Draconic Maul&lt;/LSTag&gt;.</content>
@@ -208,7 +212,9 @@
 	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur000ze" version="1">Utterly decimate your target, mauling them in draconic fury.</content>
 
 	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e00006" version="3">Wyrmcall Breakpoint</content>
-	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur0000f" version="1">Each of your draconic abilities now cause a [1] shockwave, knocking foes &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;. Upon killing a Prone target, you may immediately use any of your draconic abilities once as a free action.</content>
+	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur0000f" version="1">Triggering &lt;LSTag Type="Status" Tooltip="WYRMCALL_RESONANCE"&gt;Wyrmcall Resonance&lt;/LSTag&gt; causes your next Draconic ability to deal the maximum damage possible.</content>
+	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e000z6" version="3">Wyrmcall Breakpoint</content>
+	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur000zf" version="1">Affected creature's next Draconic ability will deal the maximum damage possible.</content>
 
 <!--ELDRITCH KNIGHT-->
 
