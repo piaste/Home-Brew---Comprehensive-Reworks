@@ -211,7 +211,7 @@ data "DisplayName" "hdb57a06dg2feag4f96g9a53g029621bdc59c;1"
 data "Description" "h7cff444dga20bg4ecbg8807g7fe34851fbe3;2"
 data "Icon" "Action_Barbarian_Frenzy"
 data "Properties" "Highlighted;ForceShowInCC"
-data "Boosts" "UnlockSpell(Target_FrenziedStrike)"
+data "Boosts" "UnlockSpell(Target_FrenziedStrike)IF(SpellId('Target_FrenziedStrike')):Disadvantage(AttackRoll)"
 
 new entry "FeralInstinct"
 type "PassiveData"

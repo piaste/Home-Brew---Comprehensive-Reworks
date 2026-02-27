@@ -89,7 +89,7 @@ data "SpellFail" "DealDamage(LevelMapValue(BardicInspiration)/2, Thunder,Magical
 data "TargetFloor" "-1"
 data "TargetRadius" "9"
 data "TargetConditions" "not Self() and Enemy() and not Dead()"
-data "ProjectileCount" "99"
+data "ProjectileCount" "1"
 data "Trajectories" "c7cd4b0a-2b2e-47ae-a4e8-849ad5d448f8"
 data "Icon" "PassiveFeature_BardicInspiration_Damage"
 data "DisplayName" "h22af06bagd2d2g4b30ga1adg8e6a48155122;2"

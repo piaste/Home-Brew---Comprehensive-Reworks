@@ -182,7 +182,7 @@
 	<content contentuid="hedbd9f3fgf4d8g4f16gb02we68f4s6500011" version="1">Toxic Sneak Attack</content>
 	<content contentuid="hf081aa54g2345s4e6f84s6e2f1e87f40001a" version="2">Deal an extra [1] damage to a creature you have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; against. You must be wielding a &lt;LSTag Tooltip="Finesse"&gt;Finesse Weapon&lt;/LSTag&gt; in order to trigger Sneak Attack.</content>
 	<content contentuid="hedbd9f3fgf4d8g4f16gb02we68f4s6500021" version="1">Cursed Toxicity</content>
-	<content contentuid="hf081aa54g2345s4e6f84s6e2f1e87f40002a" version="1">Affected creature is afflicted with a cursed toxin, waiting to be activated.</content>
+	<content contentuid="hf081aa54g2345s4e6f84s6e2f1e87f40002a" version="1">Affected creature is afflicted with a cursed toxin, waiting to be activated. The curse renders them unable to utilize their armours physical &lt;LSTag Type="Status" Tooltip="DAMAGE_REDUCTION"&gt;Damage Reduction&lt;/LSTag&gt;.</content>
 	<content contentuid="hedbd9f3fgf4d8g4f16gb02we68f4s6500030" version="1">Detonate Toxicity</content>
 	<content contentuid="hf081aa54g2345s4e6f84s6e2f1e87f400030" version="1">Detonate an enemies &lt;LSTag Type="Status" Tooltip="TOXICITY"&gt;Cursed Toxicity&lt;/LSTag&gt; stacks for various effects.</content>
 	<content contentuid="hedbd9f3fgf4d8g4f16gb02we68f4s6500031" version="1">Detonate Toxicity: Delirium Surge</content>
@@ -208,13 +208,13 @@
 	<content contentuid="hf081aa54g2345s4e6f84s6e2f1e87f40000b" version="3">Upon applying a coating to your weapon, it will persist until your next &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
 
 	<content contentuid="hedbd9f3fgf4d8g4f16gb02we68f4s6500005" version="1">Perfected Toxicity</content>
-	<content contentuid="hf081aa54g2345s4e6f84s6e2f1e87f40000e" version="1">Gain the ability to &lt;LSTag Type="Spell" Tooltip="Shout_DetonateToxicity"&gt;Detonate&lt;/LSTag&gt; nine stacks of &lt;LSTag Type="Status" Tooltip="TOXICITY"&gt;Cursed Toxicity&lt;/LSTag&gt; at once in order to trigger one of three new effects.</content>
+	<content contentuid="hf081aa54g2345s4e6f84s6e2f1e87f40000e" version="1">Gain the ability to &lt;LSTag Type="Spell" Tooltip="Shout_DetonateToxicity"&gt;Detonate&lt;/LSTag&gt; seven stacks of &lt;LSTag Type="Status" Tooltip="TOXICITY"&gt;Cursed Toxicity&lt;/LSTag&gt; at once in order to trigger one of three new effects.</content>
 	<content contentuid="hedbd9f3fgf4d8g4f16gb02we68f4s6500015" version="1">Detonate Toxicity: Neurotic Lockdown</content>
 	<content contentuid="hf081aa54g2345s4e6f84s6e2f1e87f40001e" version="1">Ravage your targets senses of pain, &lt;LSTag Type="Status" Tooltip="PARALYZED"&gt;Paralyzing&lt;/LSTag&gt; them.&lt;br&gt;&lt;br&gt;Your target must have at least seven stacks of &lt;LSTag Type="Status" Tooltip="TOXICITY"&gt;Cursed Toxicity&lt;/LSTag&gt;.</content>
 	<content contentuid="hedbd9f3fgf4d8g4f16gb02we68f4s6500025" version="1">Detonate Toxicity: Violent Nausea</content>
 	<content contentuid="hf081aa54g2345s4e6f84s6e2f1e87f40002e" version="1">Debilitate your target with an intense sickness, &lt;LSTag Type="Status" Tooltip="HAG_WELL_BAD"&gt;Nauseating&lt;/LSTag&gt; them.&lt;br&gt;&lt;br&gt;Your target must have at least seven stacks of &lt;LSTag Type="Status" Tooltip="TOXICITY"&gt;Cursed Toxicity&lt;/LSTag&gt;.</content>
 	<content contentuid="hedbd9f3fgf4d8g4f16gb02we68f4s6500035" version="1">Detonate Toxicity: Terminal Bloom</content>
-	<content contentuid="hf081aa54g2345s4e6f84s6e2f1e87f40003e" version="1">Cause the toxins within your target to erupt, instantly dealing Poison damage equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; multiplied by 4.&lt;br&gt;&lt;br&gt;Your target must have at least seven stacks of &lt;LSTag Type="Status" Tooltip="TOXICITY"&gt;Cursed Toxicity&lt;/LSTag&gt;.</content>
+	<content contentuid="hf081aa54g2345s4e6f84s6e2f1e87f40003e" version="1">Cause the toxins within your target to erupt as a poisonous cloud, instantly dealing Poison damage to them and all enemies within [1] of them equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; multiplied by 12.&lt;br&gt;&lt;br&gt;Your target must have at least seven stacks of &lt;LSTag Type="Status" Tooltip="TOXICITY"&gt;Cursed Toxicity&lt;/LSTag&gt;.</content>
 
 	<content contentuid="hedbd9f3fgf4d8g4f16gb02we68f4s6500006" version="2">Toxic Eruption</content>
 	<content contentuid="hf081aa54g2345s4e6f84s6e2f1e87f40000f" version="3">Upon &lt;LSTag Type="Spell" Tooltip="Shout_DetonateToxicity"&gt;Detonating&lt;/LSTag&gt; a toxin on your target, you now strip them of their &lt;LSTag Type="Status" Tooltip="LOCKDOWN_CONDITION_DESCRIPTION"&gt;Lockdown Immunity&lt;/LSTag&gt;.</content>

@@ -145,7 +145,7 @@
 	<content contentuid="h4d476cb8gfa45g4f4cga9d16a98709e9f9a2" version="2">Natural Hunter</content>
 	<content contentuid="h20b19b1bg5da3g41d4g901b12a5113fe8115" version="2">When you deal damage with a weapon, you apply one stack of &lt;LSTag Type="Status" Tooltip="HUNTED"&gt;Hunted&lt;/LSTag&gt;. Each stack of Hunted will reduce your targets &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; by [1], up to a maximum of [2].</content>
 	<content contentuid="h38ea4f90g1325g4370g88d1g28b48f722d58" version="2">Hunted</content>
-	<content contentuid="h587f4801g411bg4d92g9d70gbeef322ffss6" version="2">Affected creature is being hunted by a nearby Ranger. Each stack of Hunted has reduced their &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; by [1].</content>
+	<content contentuid="h587f4801g411bg4d92g9d70gbeef322ffss6" version="2">Affected creature is being hunted by a nearby Ranger. Each stack of Hunted has reduced their &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; by [1]. In addition, they are unable to utilize their armours &lt;LSTag Type="Status" Tooltip="DAMAGE_REDUCTION"&gt;Damage Reduction&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h4d476cb8gfa45g4f4cga9d13a65409e9f9a2" version="2">Opportune Strike</content>
 	<content contentuid="h20b19b1bg5da3g41d4g901basdf813fe8115" version="2">When an enemy makes an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against an ally, you may spend a charge of your &lt;LSTag Type="ActionResource" Tooltip="NaturalRecoveryPoint"&gt;Natural Focus&lt;/LSTag&gt; in order to make a weapon-based Attack Roll against their aggressor.</content>
@@ -204,7 +204,7 @@
 	<content contentuid="hd96c8a80g18f3g49c6ga651gdf1fa48m0003" version="1">Eclipse of Moths: Distraction</content>
 	<content contentuid="hd96c8a80g18f3g49c6ga651gdf1fa48m000c" version="2">Use your swarm of moths to distract an enemy, causing them to roll with a -[1] penalty on all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Upon using this action, you will be unable to utilize your moth spirits again until recalled. Spirits are automatically recalled at the end of combat.</content>
 	<content contentuid="hd96c8a80g18f3g49c6ga651gdf1fa48m00z3" version="1">Distracted by Moths</content>
-	<content contentuid="hd96c8a80g18f3g49c6ga651gdf1fa48m00zc" version="2">Affected creature is distracted, and as such, will roll with a -[1] penalty on all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
+	<content contentuid="hd96c8a80g18f3g49c6ga651gdf1fa48m00zc" version="2">Affected creature is distracted, and as such, will roll with a -[1] penalty on all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;. In addition, they are unable to utilize their armours elemental &lt;LSTag Type="Status" Tooltip="DAMAGE_REDUCTION"&gt;Damage Reduction&lt;/LSTag&gt;.</content>
 
 	<content contentuid="hedbd9f3fgf4d8g4f16gb0f2gb0e11e900001" version="1">Free Spirited</content>
 	<content contentuid="hf081aa54g2347g4295g85aeg8048e2e0000a" version="1">Upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on an enemy affected by your swarms, restore one charge of your &lt;LSTag Type="ActionResource" Tooltip="NaturalRecoveryPoint"&gt;Natural Focus&lt;/LSTag&gt;.</content>

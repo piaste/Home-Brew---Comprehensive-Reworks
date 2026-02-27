@@ -683,7 +683,7 @@ data "DisplayName" "8a87461fd8dd4f5b9098ded714f6c8aa00040;2"
 data "Description" "8a87461fd8dd4f5b9098ded714f6c8aa000n0;2"
 data "Icon" "PassiveFeature_Banite_TacticalDiscipline"
 data "Properties" "IsHidden"
-data "Boosts" "IncreaseMaxHP((Level*4)-4);IgnoreDamageThreshold(All,2)"
+data "Boosts" "IncreaseMaxHP((Level*6)-6);IgnoreDamageThreshold(All,2)"
 
 <!--WAR CASTER-->
 

@@ -55,7 +55,7 @@
 	<content contentuid="h6cc498f5g13a0g4dc1g8c91gff3580c000z1" version="2">Bursting Sinew</content>
 	<content contentuid="heec87dfbg454fg4550g8622gb200a67000za" version="2">Detonate a nearby corpse, dealing Necrotic damage to all creatures in a [1] radius. This action may also target Undead creatures.&lt;br&gt;&lt;br&gt;When damaging a creature, this action will always apply one stack of &lt;LSTag Type="Status" Tooltip="PLAGUEOFROT"&gt;Curse of Rot&lt;/LSTag&gt;.</content>
 	<content contentuid="h6cc498f5g13a0g4dc1g8c91gff3580c00zz2" version="1">Curse of Rot</content>
-	<content contentuid="heec87dfbg454fg4550g8622gb200a6700zzb" version="2">Affected creature takes [1] at the beginning of each of their turns for each stack of Curse of Rot they have. At the end of each of their turns, they receive one additional stack.</content>
+	<content contentuid="heec87dfbg454fg4550g8622gb200a6700zzb" version="2">Affected creature takes [1] at the beginning of each of their turns for each stack of Curse of Rot they have. At the end of each of their turns, they receive one additional stack. In addition, they are unable to utilize their armours physical &lt;LSTag Type="Status" Tooltip="DAMAGE_REDUCTION"&gt;Damage Reduction&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h6cc498f5g13a0g4dc1g8c91gff3580c00002" version="2">Channel Divinity: Curse of Undeath</content>
 	<content contentuid="heec87dfbg454fg4550g8622gb200a670000b" version="2">Gain the ability to use a &lt;LSTag Type="ActionResource" Tooltip="ChannelDivinity"&gt;Channel Divinity&lt;/LSTag&gt; charge to place a &lt;LSTag Type="Status" Tooltip="CURSEOFUNDEATH"&gt;Curse of Undeath&lt;/LSTag&gt; upon a creature.</content>
