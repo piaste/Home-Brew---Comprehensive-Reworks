@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MultiEffectInfos UUID="4237ac12-a7ff-4082-8252-a615639c1344" OwnerUUID="00000000-0000-0000-0000-000000000000" Name="AuraOfCinder_StatusEffect">
+  <EffectInfo UUID="a681b41c-10b2-48bc-a9bd-354710a4d764" EffectResourceGuid="074e19ab-09e4-3cb3-2b94-15517eee79ea" DetachSource="false" DetachTarget="false" KeepRotation="true" UseOrientDirection="false" UseDistance="false" UseScaleOverride="false" KeepScale="false" MainHand="false" OffHand="false" MinDistance="0" MaxDistance="0" BindSourceTo="SourceEntity" BindTargetTo="TargetEntity" Pivot="Target" Enabled="true" DamageType="None" VerbalIntent="None" SourceCheckEquipmentTagConditions="true" TargetCheckEquipmentTagConditions="true" />
+</MultiEffectInfos>
