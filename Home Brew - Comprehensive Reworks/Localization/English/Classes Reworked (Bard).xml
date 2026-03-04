@@ -56,6 +56,11 @@
 	<content contentuid="hc9735187g68cag427ag8ff9d8f8dff8000z6" version="1">Climax</content>
 	<content contentuid="h843e9f50g1485g4d5dgb338f8df33d9000zf" version="2">Affected creature has gained an additional &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt;.</content>
 
+	<content contentuid="h279a572b5d5e5f6e8f5e3g62e52f2e5fz000" version="1">Climax</content>
+	<content contentuid="h279a572b5d5e5f6e8f5e3g62e52f2e5fz00z" version="2">End your performance in climactic triumph! Summon three dancing skeletons, causing enemies within [1] of them to become &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;.</content>
+	<content contentuid="h17df6462g1bf8g454dg87aeg3d80fs5d5e6f" version="1">Curse of Moriendi</content>
+	<content contentuid="h79198be7g46c4g4c7bgb6aegb16s8e5f8e54" version="1">Affected creature is forced to dance for all eternity. Creatures within [1] of them will become &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt; for one turn.</content>
+
 	<content contentuid="hc9735187g68cag427ag8ff9d8f8dff800007" version="1">Climax</content>
 	<content contentuid="h843e9f50g1485g4d5dgb338f8df33d90000g" version="2">End your performance in climactic triumph! Provide your &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt; to all allies within [1].</content>
 
@@ -138,6 +143,30 @@ Lore</content>
 
 	<content contentuid="he0912b6fge4b5g4b8fgbc26ge66a9a23343d" version="1">Vow of Safety</content>
 	<content contentuid="hbf18c5f4g3952g4e08gaeb6ga9228e4a66d8" version="1">Roll all &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+
+<!--COLLEGE OF MORIENDI-->
+
+	<content contentuid="h279a572b5d5e5f6e8f5e3g62e52f2e5f0000" version="1">College of
+Moriendi</content>
+	<content contentuid="h279a572b5d5e5f6e8f5e3g62e52f2e5f000z" version="1">Death knells drum rhythmic your approach, commanding the grave to falter. Your song is one of savage necromancy, a metallic warning to those who dare to listen closely.</content>
+
+	<content contentuid="h279a572b5d5e5f6e8f5e3g62e52f2e5f0001" version="1">Requiescat in Pace</content>
+	<content contentuid="h279a572b5d5e5f6e8f5e3g62e52f2e5f000a" version="1">When you deal damage, you deal additional Necrotic damage equal to your levels in Bard.</content>
+
+	<content contentuid="h279a572b5d5e5f6e8f5e3g62e52f2e5f0002" version="1">Grave Chill</content>
+	<content contentuid="h279a572b5d5e5f6e8f5e3g62e52f2e5f000b" version="1">Enemies in range of your &lt;LSTag Type="Spell" Tooltip="Shout_Bard_Perform_Whistle"&gt;Performance&lt;/LSTag&gt; are afflicted with &lt;LSTag Type="Status" Tooltip="CHILL_TOUCH"&gt;Bone Chill&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h279a572b5d5e5f6e8f5e3g62e52f2e5f0003" version="1">Memento Mori</content>
+	<content contentuid="h279a572b5d5e5f6e8f5e3g62e52f2e5f000c" version="1">Killing a creature afflicted with &lt;LSTag Type="Status" Tooltip="CHILL_TOUCH"&gt;Bone Chill&lt;/LSTag&gt; restores one charge of your &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt;. This effect can trigger once per turn.</content>
+
+	<content contentuid="h279a572b5d5e5f6e8f5e3g62e52f2e5f0004" version="1">Funeral March</content>
+	<content contentuid="h279a572b5d5e5f6e8f5e3g62e52f2e5f000d" version="1">While &lt;LSTag Type="Spell" Tooltip="Shout_Bard_Perform_Whistle"&gt;Performing&lt;/LSTag&gt; in combat, killing an enemy will create a skeletal involucre from their corpse.</content>
+
+	<content contentuid="h279a572b5d5e5f6e8f5e3g62e52f2e5f0005" version="1">Bardic Necrosis</content>
+	<content contentuid="h279a572b5d5e5f6e8f5e3g62e52f2e5f000e" version="1">All Necromancy based Spells and &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt; make both their &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and Damage Rolls with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;</content>
+
+	<content contentuid="h279a572b5d5e5f6e8f5e3g62e52f2e5f0006" version="1">Ars Moriendi</content>
+	<content contentuid="h279a572b5d5e5f6e8f5e3g62e52f2e5f000f" version="1">All Necromancy based Spells and &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt; may target an additional creature.</content>
 
 <!--COLLEGE OF SWORDS-->
 

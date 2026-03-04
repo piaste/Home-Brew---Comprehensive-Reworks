@@ -20,6 +20,12 @@
 	<content contentuid="h58ed0f65g01d6g4f03gbca7g9be2bf7fe1bb" version="1">Divine Miracles: Deific Power</content>
 	<content contentuid="he513824dg20e8g477cg8189g49da00b6f7cb" version="11">The power of your god erupts from within you, bathing all nearby enemies in a damaging radiance.</content>
 
+	<content contentuid="h58ed0f65g01d6g4f03gbca7g9be2bf755d64" version="1">Divine Miracles: Deific Necrosis</content>
+	<content contentuid="he513824dg20e8g477cg8189g49da00bss5d8" version="11">The anger of your god seeps out from within you, rotting all nearby enemies in putrid necrosis and afflicting them with a &lt;LSTag Type="Status" Tooltip="PLAGUEOFROT"&gt;Curse of Rot&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h58ed0f65g01d6g4f03gbca7g92d5f4d63835" version="1">Divine Miracles: Deific Flame</content>
+	<content contentuid="he513824dg20e8g477cg8189g49s6e9f5e885" version="11">The flame of your god seeps out from within you, forming a divine barrier over all nearby allies and granting them the effects of &lt;LSTag Type="Spell" Tooltip="Shout_FireShield"&gt;Fire Shield&lt;/LSTag&gt;.</content>
+
 	<content contentuid="h58ed0f65g01d6g4f03gbca7g9be2bf7f22d5" version="1">Divine Miracles: Deific Recovery</content>
 	<content contentuid="he513824dg20e8g477cg8189g49da00b6ff6d" version="11">The mercy of your god overflows from within you, soothing all nearby allies and granting them the effects of both &lt;LSTag Type="Spell" Tooltip="Target_LesserRestoration"&gt;Latent Restoration&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_GreaterRestoration"&gt;Great Cleanse&lt;/LSTag&gt;.</content>
 
@@ -28,9 +34,6 @@
 
 	<content contentuid="h58ed0f65g01d6g4f03gbca7g9be2bf722d58" version="1">Divine Miracles: Deific Warpath</content>
 	<content contentuid="he513824dg20e8g477cg8189g49da00b66d97" version="11">The warpath of your god marches ever forward around you, bathing all nearby enemies in wanton, war-driven radiance.</content>
-
-	<content contentuid="h58ed0f65g01d6g4f03gbca7g9be2bf755d64" version="1">Divine Miracles: Deific Necrosis</content>
-	<content contentuid="he513824dg20e8g477cg8189g49da00bss5d8" version="11">The anger of your god seeps out from within you, rotting all nearby enemies in putrid necrosis. Any within the area of effect already suffering from a &lt;LSTag Type="Status" Tooltip="PLAGUEOFROT"&gt;Curse of Rot&lt;/LSTag&gt; will receive an additional stack.</content>
 
 	<content contentuid="h76f56723ga6f8g4367gb633gedb92535ed8a" version="1">Divine Miracles: Holy Restoration</content>
 	<content contentuid="h42bef7a1g483bg4c43g9616g7cb1951d42a1" version="11">Feelings of soothing mercy flow from within, restoring the &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; of all nearby allies.</content>
@@ -81,6 +84,45 @@
 	<content contentuid="heec87dfbg454fg4550g8622gb200a670000f" version="2">The first instance of Necrotic damage you deal in a combat encounter causes your targets to become &lt;LSTag Tooltip="Vulnerable"&gt;Vulnerable&lt;/LSTag&gt; to all damage for one turn.</content>
 	<content contentuid="h6cc498f5g13a0g4dc1g8c91gff3580c000z6" version="2">Death of the Firstborns</content>
 	<content contentuid="heec87dfbg454fg4550g8622gb200a67000zf" version="2">Affected creature is &lt;LSTag Tooltip="Vulnerable"&gt;Vulnerable&lt;/LSTag&gt; to all damage for one turn.</content>
+
+<!--FORGE DOMAIN-->
+
+	<content contentuid="h695df0c5g7b1eg47a16se8f5e6f5e8f898f7" version="1">Forge Domain</content>
+	<content contentuid="h3063c312g64f5g471a6sd5f2ef5d4fe5f254" version="1">Your faith sparks divine fire lit within the firmament of your belief, smelted in an act of holy ambition. A raging inferno held in hand to strike true and just.</content>
+
+	<content contentuid="h695df0c5g7b1eg47a16se8f5e6f5e8f89801" version="1">Divine Embers</content>
+	<content contentuid="h3063c312g64f5g471a6sd5f2ef5d4fe5f20a" version="1">Gain the ability to call a divine hammer to your hand. As you level within Cleric, it will deal additional damage and gain new effects.&lt;br&gt;&lt;br&gt;In addition, when dealing damage you deal additional Fire damage equal to your levels in Cleric, and upon dealing Fire damage to an enemy, you generate one stack of &lt;LSTag Type="Status" Tooltip="MAG_FIRE_HEAT"&gt;Heat&lt;/LSTag&gt;.</content>
+	<content contentuid="h695df0c5g7b1eg47a16se8f5e6f5e8f898z1" version="1">Summon Forge Hammer</content>
+	<content contentuid="h3063c312g64f5g471a6sd5f2ef5d4fe5f2za" version="2">Summon a forge hammer, capable of smelting even the hottest of embers. As you level in Cleric, it will deal additional damage and gain new effects.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Summoning your forge hammer may be done at any time as a free action.</content>
+	<content contentuid="h695df0c5g7b1eg47a16se8f5e6f5e8f898y1" version="1">Forge Hammer</content>
+	<content contentuid="h3063c312g64f5g471a6sd5f2ef5d4fe5f2ya" version="2">Smelted within the realm of gods and forged by the hands of celestials, this hammer reacts to and grows with the strength of whomever wields it. Divine power can be felt emanating from within.</content>
+	<content contentuid="h695df0c5g7b1eg47a16se8f5e6f5e8f89yy1" version="1">Improved Forge Hammer</content>
+	<content contentuid="h695df0c5g7b1eg47a16se8f5e6f5e8f89zy1" version="1">Refined Forge Hammer</content>
+	<content contentuid="h695df0c5g7b1eg47a16se8f5e6f5e8f01yy1" version="1">Heated Firmament</content>
+	<content contentuid="h695df0c5g7b1eg47a16se8f5e6f5e8f0azy1" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Fire damage.</content>
+	<content contentuid="h695df0c5g7b1eg47a16se8f5e6f5e8f02yy1" version="1">Broiled in Turmoil</content>
+	<content contentuid="h695df0c5g7b1eg47a16se8f5e6f5e8f0bzy1" version="1">While &lt;LSTag Type="Status" Tooltip="Tooltip_MAG_Fire_Heat_Convergence_Passive"&gt;Heat Convergence&lt;/LSTag&gt; is active, you make both &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and damage rolls with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+	<content contentuid="h695df0c5g7b1eg47a16se8f5e6f5e8f03yy1" version="1">Divine Instrument</content>
+	<content contentuid="h695df0c5g7b1eg47a16se8f5e6f5e8f0czy1" version="1">Dealing damage with this weapon causes a &lt;LSTag Type="Spell" Tooltip="Projectile_Firebolt"&gt;Firebolt&lt;/LSTag&gt; to target one other creature within [1] of you.</content>
+
+	<content contentuid="h695df0c5g7b1eg47a16se8f5e6f5e8f89802" version="1">Striking Iron</content>
+	<content contentuid="h3063c312g64f5g471a6sd5f2ef5d4fe5f20b" version="1">Gain the ability to expend a &lt;LSTag Type="ActionResource" Tooltip="ChannelDivinity"&gt;Channel Divinity&lt;/LSTag&gt; charge in order to strike a target with divine conviction. Upon doing so, all creatures within [1] of you will erupt in a violent inferno, causing them to take the hit as well.</content>
+	<content contentuid="h695df0c5g7b1eg47a16se8f5e6f5e8f898z2" version="1">Striking Iron</content>
+	<content contentuid="h3063c312g64f5g471a6sd5f2ef5d4fe5f2zb" version="1">Strike a target with divine conviction. Upon doing so, all creatures within [1] of you will erupt in a violent inferno, causing them to take the hit as well.</content>
+	<content contentuid="h695df0c5g7b1eg47a16se8f5e6f5e8f898y2" version="1">Striking Iron</content>
+	<content contentuid="h3063c312g64f5g471a6sd5f2ef5d4fe5f2yb" version="1">Affected creature has been stricken with divine flame. All incoming &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made against them are rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h695df0c5g7b1eg47a16se8f5e6f5e8f89803" version="1">Furnace Core</content>
+	<content contentuid="h3063c312g64f5g471a6sd5f2ef5d4fe5f20c" version="1">While wearing armour, you gain one of three unique effects, dependent on the type of armour worn.&lt;br&gt;&lt;br&gt;Light armour grants the ability to ignore &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt; to Fire damage.&lt;br&gt;&lt;br&gt;Medium armour grants the ability to potentially experience an instance of &lt;LSTag Type="ActionResource" Tooltip="DivineIntervention"&gt;Divine Intervention&lt;/LSTag&gt; the first time that you deal Fire damage to an enemy each turn.&lt;br&gt;&lt;br&gt;Heavy armour grants you the ability to generate one stack of &lt;LSTag Type="Status" Tooltip="MAG_FIRE_HEAT"&gt;Heat&lt;/LSTag&gt; upon being damaged, simultaneously dealing Fire damage to your aggressors equal to your levels in Cleric.</content>
+
+	<content contentuid="h695df0c5g7b1eg47a16se8f5e6f5e8f89804" version="1">Brazen Embers</content>
+	<content contentuid="h3063c312g64f5g471a6sd5f2ef5d4fe5f20d" version="1">&lt;LSTag Type="Passive" Tooltip="StrikingIron"&gt;Striking Iron&lt;/LSTag&gt; now causes enemies affected to be attacked with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; for three turns.</content>
+
+	<content contentuid="h695df0c5g7b1eg47a16se8f5e6f5e8f89805" version="1">Forged in Flame</content>
+	<content contentuid="h3063c312g64f5g471a6sd5f2ef5d4fe5f20e" version="1">Upon reaching ten stacks of &lt;LSTag Type="Status" Tooltip="MAG_FIRE_HEAT"&gt;Heat&lt;/LSTag&gt;, you immediately gain a charge of &lt;LSTag Type="ActionResource" Tooltip="DivineIntervention"&gt;Divine Intervention&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h695df0c5g7b1eg47a16se8f5e6f5e8f89806" version="1">Smeltsong</content>
+	<content contentuid="h3063c312g64f5g471a6sd5f2ef5d4fe5f20f" version="1">&lt;LSTag Type="Passive" Tooltip="StrikingIron"&gt;Striking Iron&lt;/LSTag&gt; now causes enemies to &lt;LSTag Type="Status" Tooltip="BURNING_LAVA"&gt;Melt&lt;/LSTag&gt; for three turns.</content>
 
 <!--LIFE DOMAIN-->
 
@@ -258,7 +300,7 @@
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e0000p" version="1">At the beginning of each of your turns in combat, regain &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; multiplied by two.</content>
 
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e00017" version="1">Sanctifying Aura</content>
-	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e0000q" version="1">Emit an aura across [1] which provides &lt;LSTag Type="Status" Tooltip="SANCTUARY"&gt;Sanctuary&lt;/LSTag&gt; to allies who are &lt;LSTag Tooltip="Downed"&gt;Downed&lt;/LSTag&gt;.</content>
+	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e0000q" version="1">During combat, emit an aura across [1] which provides &lt;LSTag Type="Status" Tooltip="SANCTUARY"&gt;Sanctuary&lt;/LSTag&gt; to allies who are &lt;LSTag Tooltip="Downed"&gt;Downed&lt;/LSTag&gt;.</content>
 
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e00018" version="1">Stalwart</content>
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e0000r" version="1">Permanently gain the affects of &lt;LSTag Type="Status" Tooltip="DISPEL_EVIL_AND_GOOD"&gt;Dispel Evil and Good&lt;/LSTag&gt;.</content>

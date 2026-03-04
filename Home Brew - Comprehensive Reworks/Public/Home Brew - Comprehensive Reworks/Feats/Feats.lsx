@@ -290,6 +290,12 @@
                     <attribute id="UUID" type="guid" value="2cbd8b96-78f0-4b29-ac6f-c59cb6d126c0"/>
                 </node>
 				<node id="Feat">
+                    <attribute id="Name" type="FixedString" value="ArtificerGrenadier"/>
+                    <attribute id="PassivesAdded" type="LSString" value="TheAnarchistsCookbook;ShockwaveTheory"/>
+                    <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Artificer&apos;)"/>
+                    <attribute id="UUID" type="guid" value="8dfca7e9-16a1-419c-bb92-faae1eed1bff"/>
+                </node>
+				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="ArtificerInfusedArcsmith"/>
                     <attribute id="PassivesAdded" type="LSString" value="InfusionMatrix;AdaptiveIntervention"/>
 					<attribute id="Selectors" type="LSString" value="SelectPassives(3069a836-a0fd-467d-afaf-555ab1192d24,2,OptimizationMatrix);SelectPassives(842b6948-adb0-4ce1-a55e-436eacd8693c,2,SabotageMatrix)" />
@@ -341,6 +347,12 @@
                     <attribute id="UUID" type="guid" value="010dd210-461e-4aa8-b567-42f3ae52e2bd"/>
                 </node>
 				<node id="Feat">
+                    <attribute id="Name" type="FixedString" value="BardCollegeofMoriendi"/>
+                    <attribute id="PassivesAdded" type="LSString" value="RequiescatinPace;Moriendi_PerformanceRemover;GraveChill"/>
+                    <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Bard&apos;)"/>
+                    <attribute id="UUID" type="guid" value="b296fca6-a2ad-4687-ac54-a359a65aed86"/>
+                </node>
+				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="BardCollegeOfSteel"/>
                     <attribute id="PassivesAdded" type="LSString" value="Melodic_Steel"/>
 					<attribute id="Selectors" type="LSString" value="SelectPassives(9355b0df-9229-4a33-8d4b-30d1918388cf,1,Steelforged)" />
@@ -360,6 +372,13 @@
 					<attribute id="Selectors" type="LSString" value="AddSpells(239cc7cc-f642-4ddc-b091-498d81612c55)" />
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Cleric&apos;)"/>
                     <attribute id="UUID" type="guid" value="2544f577-59ed-47ae-868c-22ab0eab59a1"/>
+                </node>
+				<node id="Feat">
+                    <attribute id="Name" type="FixedString" value="ClericForgeDomain"/>
+                    <attribute id="PassivesAdded" type="LSString" value="DivineEmbers;StrikingIron"/>
+					<attribute id="Selectors" type="LSString" value="AddSpells(0da96163-c4aa-40f9-baa8-4a23d55f8e90)" />
+                    <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Cleric&apos;)"/>
+                    <attribute id="UUID" type="guid" value="038aa39c-d4ca-41f0-8b25-8ca7b4356bc4"/>
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="ClericLifeDomain"/>
@@ -472,6 +491,12 @@
 					<attribute id="UUID" type="guid" value="924ca4a7-755d-42c3-9c5f-02fd64ea46c0"/>
                 </node>
 				<node id="Feat">
+                    <attribute id="Name" type="FixedString" value="MonkWayOfTheTemperedSteel"/>
+                    <attribute id="PassivesAdded" type="LSString" value="TemperedDiscipline;JudgementCut" />
+                    <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Monk&apos;)"/>
+					<attribute id="UUID" type="guid" value="8f0ee646-0114-4f46-8ff3-d2b5bcaf1ca7"/>
+                </node>
+				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="PaladinOathOfTheAncients"/>
                     <attribute id="PassivesAdded" type="LSString" value="Ancient_Judgement;Ancient_Recall;Ancient_Advantage;Ancient_Upgrade1" />
 					<attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Paladin&apos;)"/>
@@ -521,6 +546,12 @@
                     <attribute id="UUID" type="guid" value="2fbf3785-a116-41bc-b696-a50432ec46e2"/>
                 </node>
 				<node id="Feat">
+                    <attribute id="Name" type="FixedString" value="RangerTwinfang"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ClosingBite;SecondFang"/>
+                    <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Ranger&apos;)"/>
+                    <attribute id="UUID" type="guid" value="bfe6f78a-6dde-40e5-9982-2ed2a471f518"/>
+                </node>
+				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="RogueArcaneTrickster"/>
 					<attribute id="PassivesAdded" type="LSString" value="Feat_SpellSlots;ArcaneTrickery;SneakAttack_Unlock_Magic;BlessingoftheTrickster"/>
                     <attribute id="Selectors" type="LSString" value="SelectSpells(c0aaf09a-fbb5-4480-aae0-f196b7fa33d5,2,0,Cantrips,,,AlwaysPrepared);SelectSpells(8e57e7e8-af23-4621-a64a-3cf34b57676c,2,0,Spells,Intelligence,e9127b70-22b7-42a1-b172-d02f828f260a,AlwaysPrepared);SelectSpells(4f8a545f-2a42-490b-a008-7276d5186b0a,1,0,Spells,Intelligence,e9127b70-22b7-42a1-b172-d02f828f260a,AlwaysPrepared)" />
@@ -557,6 +588,12 @@
 					<attribute id="Selectors" type="LSString" value="AddSpells(12150e11-267a-4ecc-a3cc-292c9e2a198d);SelectPassives(c69c33a2-671c-46e1-a92c-656fe64ed447,1,DraconicAncestry)" />
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Sorcerer&apos;)"/>
                     <attribute id="UUID" type="guid" value="ba1c505b-a3a8-483a-a061-a8b120c45c00"/>
+                </node>
+				<node id="Feat">
+                    <attribute id="Name" type="FixedString" value="SorcererRadiantBloom"/>
+                    <attribute id="PassivesAdded" type="LSString" value="SoulfireSpark;RadianceinBloom"/>
+                    <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Sorcerer&apos;)"/>
+                    <attribute id="UUID" type="guid" value="35e6f8f0-01d4-4273-ad6b-994b287fabd1"/>
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="SorcererShadeWalker"/>
@@ -623,6 +660,12 @@
                     <attribute id="PassivesAdded" type="LSString" value="SculptSpells;EruptiveCasting"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Wizard&apos;)"/>
                     <attribute id="UUID" type="guid" value="2f5710ec-6ad4-4060-97a4-99b701455dac"/>
+                </node>
+				<node id="Feat">
+                    <attribute id="Name" type="FixedString" value="WizardLuminalConfluence"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ElementalConcierge;ElementalConcierge_CreateStain_Acid;ElementalConcierge_CreateStain_Cold;ElementalConcierge_CreateStain_Fire;ElementalConcierge_CreateStain_Force;ElementalConcierge_CreateStain_Lightning;ElementalConcierge_CreateStain_Necrotic;ElementalConcierge_CreateStain_Poison;ElementalConcierge_CreateStain_Psychic;ElementalConcierge_CreateStain_Radiant;ElementalConcierge_CreateStain_Thunder;ElementalConcierge_UseStain_Acid;ElementalConcierge_UseStain_Cold;ElementalConcierge_UseStain_Fire;ElementalConcierge_UseStain_Force;ElementalConcierge_UseStain_Lightning;ElementalConcierge_UseStain_Necrotic;ElementalConcierge_UseStain_Poison;ElementalConcierge_UseStain_Psychic;ElementalConcierge_UseStain_Radiant;ElementalConcierge_UseStain_Thunder;LuminalConversion"/>
+                    <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Wizard&apos;)"/>
+                    <attribute id="UUID" type="guid" value="95dce8e9-bdd9-4951-8a05-8c5480f60352"/>
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="WizardNecromancy"/>

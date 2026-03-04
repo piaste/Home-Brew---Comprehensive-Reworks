@@ -7,6 +7,146 @@
 				<node id="entries">
 					<children>
 						<node id="Object">
+							<attribute id="MapKey" type="FixedString" value="Assets/ClassIcons/hotbar/Grenadier.png" />
+							<children>
+								<node id="entries">
+									<attribute id="h" type="int16" value="140" />
+									<attribute id="mipcount" type="int8" value="1" />
+									<attribute id="w" type="int16" value="140" />
+								</node>
+							</children>
+						</node>
+						<node id="Object">
+							<attribute id="MapKey" type="FixedString" value="Assets/ClassIcons/Grenadier.png" />
+							<children>
+								<node id="entries">
+									<attribute id="h" type="int16" value="300" />
+									<attribute id="mipcount" type="int8" value="1" />
+									<attribute id="w" type="int16" value="300" />
+								</node>
+							</children>
+						</node>
+						<node id="Object">
+							<attribute id="MapKey" type="FixedString" value="Assets/ClassIcons/hotbar/RadiantBloom.png" />
+							<children>
+								<node id="entries">
+									<attribute id="h" type="int16" value="140" />
+									<attribute id="mipcount" type="int8" value="1" />
+									<attribute id="w" type="int16" value="140" />
+								</node>
+							</children>
+						</node>
+						<node id="Object">
+							<attribute id="MapKey" type="FixedString" value="Assets/ClassIcons/RadiantBloom.png" />
+							<children>
+								<node id="entries">
+									<attribute id="h" type="int16" value="300" />
+									<attribute id="mipcount" type="int8" value="1" />
+									<attribute id="w" type="int16" value="300" />
+								</node>
+							</children>
+						</node>
+						<node id="Object">
+							<attribute id="MapKey" type="FixedString" value="Assets/ClassIcons/hotbar/Twinfang.png" />
+							<children>
+								<node id="entries">
+									<attribute id="h" type="int16" value="140" />
+									<attribute id="mipcount" type="int8" value="1" />
+									<attribute id="w" type="int16" value="140" />
+								</node>
+							</children>
+						</node>
+						<node id="Object">
+							<attribute id="MapKey" type="FixedString" value="Assets/ClassIcons/Twinfang.png" />
+							<children>
+								<node id="entries">
+									<attribute id="h" type="int16" value="300" />
+									<attribute id="mipcount" type="int8" value="1" />
+									<attribute id="w" type="int16" value="300" />
+								</node>
+							</children>
+						</node>
+						<node id="Object">
+							<attribute id="MapKey" type="FixedString" value="Assets/ClassIcons/hotbar/TemperedSteel.png" />
+							<children>
+								<node id="entries">
+									<attribute id="h" type="int16" value="140" />
+									<attribute id="mipcount" type="int8" value="1" />
+									<attribute id="w" type="int16" value="140" />
+								</node>
+							</children>
+						</node>
+						<node id="Object">
+							<attribute id="MapKey" type="FixedString" value="Assets/ClassIcons/TemperedSteel.png" />
+							<children>
+								<node id="entries">
+									<attribute id="h" type="int16" value="300" />
+									<attribute id="mipcount" type="int8" value="1" />
+									<attribute id="w" type="int16" value="300" />
+								</node>
+							</children>
+						</node>
+						<node id="Object">
+							<attribute id="MapKey" type="FixedString" value="Assets/ClassIcons/hotbar/CollegeofMoriendi.png" />
+							<children>
+								<node id="entries">
+									<attribute id="h" type="int16" value="140" />
+									<attribute id="mipcount" type="int8" value="1" />
+									<attribute id="w" type="int16" value="140" />
+								</node>
+							</children>
+						</node>
+						<node id="Object">
+							<attribute id="MapKey" type="FixedString" value="Assets/ClassIcons/CollegeofMoriendi.png" />
+							<children>
+								<node id="entries">
+									<attribute id="h" type="int16" value="300" />
+									<attribute id="mipcount" type="int8" value="1" />
+									<attribute id="w" type="int16" value="300" />
+								</node>
+							</children>
+						</node>
+						<node id="Object">
+							<attribute id="MapKey" type="FixedString" value="Assets/ClassIcons/hotbar/LuminalConfluence.png" />
+							<children>
+								<node id="entries">
+									<attribute id="h" type="int16" value="140" />
+									<attribute id="mipcount" type="int8" value="1" />
+									<attribute id="w" type="int16" value="140" />
+								</node>
+							</children>
+						</node>
+						<node id="Object">
+							<attribute id="MapKey" type="FixedString" value="Assets/ClassIcons/LuminalConfluence.png" />
+							<children>
+								<node id="entries">
+									<attribute id="h" type="int16" value="300" />
+									<attribute id="mipcount" type="int8" value="1" />
+									<attribute id="w" type="int16" value="300" />
+								</node>
+							</children>
+						</node>
+						<node id="Object">
+							<attribute id="MapKey" type="FixedString" value="Assets/ClassIcons/hotbar/ForgeDomain.png" />
+							<children>
+								<node id="entries">
+									<attribute id="h" type="int16" value="140" />
+									<attribute id="mipcount" type="int8" value="1" />
+									<attribute id="w" type="int16" value="140" />
+								</node>
+							</children>
+						</node>
+						<node id="Object">
+							<attribute id="MapKey" type="FixedString" value="Assets/ClassIcons/ForgeDomain.png" />
+							<children>
+								<node id="entries">
+									<attribute id="h" type="int16" value="300" />
+									<attribute id="mipcount" type="int8" value="1" />
+									<attribute id="w" type="int16" value="300" />
+								</node>
+							</children>
+						</node>
+						<node id="Object">
 							<attribute id="MapKey" type="FixedString" value="Assets/ClassIcons/hotbar/PactofthePrimordial.png" />
 							<children>
 								<node id="entries">

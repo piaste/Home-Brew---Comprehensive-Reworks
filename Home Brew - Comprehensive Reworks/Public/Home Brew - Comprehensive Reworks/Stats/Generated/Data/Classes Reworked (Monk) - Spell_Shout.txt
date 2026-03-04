@@ -34,6 +34,31 @@ data "DisplayName" "ha8d64c17g8e3cg4e2cg8acfg0427a6c32cf4;1"
 data "UseCosts" "KiPoint:1"
 data "HitAnimationType" "None"
 
+<!--WAY OF THE TEMPERED STEEL-->
+
+new entry "Shout_Summon_TemperedBlade"
+type "SpellData"
+data "SpellType" "Shout"
+data "TargetConditions" "Self()"
+data "Icon" "Summon_TemperedBlade"
+data "DisplayName" "a19b576b3c4541089f1d4b0e4ae7650500zz1;1"
+data "Description" "a19b576b3c4541089f1d4b0e4ae7650500zza;1"
+data "SpellProperties" "IF(not ClassLevelHigherOrEqualThan(5,'Monk')):SummonInInventory(bf7ce4bc-c78f-4cf6-8dca-624034a2a8f6,Permanent,1,true,true,true,,,TemperedBlade);IF(ClassLevelHigherOrEqualThan(5,'Monk') and not ClassLevelHigherOrEqualThan(9,'Monk')):SummonInInventory(0b806d26-0229-45c5-a0ac-2a79a789a923,Permanent,1,true,true,true,,,TemperedBlade);IF(ClassLevelHigherOrEqualThan(9,'Monk')):SummonInInventory(82f53ff3-a694-4bae-b589-d2354e5f58b7,Permanent,1,true,true,true,,,TemperedBlade);AI_ONLY:ApplyStatus(SELF,AI_HELPER_BUFF,100,0);IF(not Player(context.Source)):ApplyStatus(SELF,BUFF_BLOCKER,100,3)"
+data "PrepareSound" "Spell_Prepare_Damage_Force_Gen_L1to3"
+data "PrepareLoopSound" "Spell_Prepare_Damage_Force_Gen_L1to3_Loop"
+data "CastSound" "Action_Cast_Slash"
+data "TargetSound" "Action_Impact_Surge"
+data "SpellAnimation" "f489d217-b699-4e8e-bf22-6ef539c5d65b,,;,,;7a343ea7-1330-428a-b0b1-9f6dc7f2a91c,,;0f872585-3c6e-4493-a0b5-5acc882b7aaf,,;f9414915-2da7-4f40-bcbd-90e956461246,,;,,;f2a62277-c87a-4ec7-b4f2-c3c37e6e30ae,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Intent"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
+data "SpellFlags" "IgnoreSilence;Stealth;Invisible"
+data "PrepareEffect" "4a21118d-5544-4529-a8b5-c5296bf921c2"
+data "CastEffect" "4d97dc4c-0b6f-4c87-a65a-6e6f08c186b9;VFX_Actions_Cast_WeaponAttack_Target_Slash_CastFX_Textkey_01;VFX_Actions_Prepare_Meelee_Dipped_Fire_Root_01,KeepRot:Dummy_Root;VFX_Actions_Cast_Common_ShoutSelf_ActionSurge_BodyFX_01:Dummy_BodyFX;VFX_Actions_Cast_Common_ShoutSelf_ActionSurge_Root_01:Dummy_Root;VFX_Actions_Cast_Common_ShoutSelf_ActionSurge_CastFX_01:Dummy_CastFX;VFX_Actions_Cast_Common_ShoutSelf_ActionSurge_EyeFX_01:Dummy_EyeFX_01,Dummy_EyeFX_02;VFX_Spells_Cast_Intent_Control_TargetAoE_Impact_PostProcess_Textkey_01"
+data "Sheathing" "Melee"
+data "RequirementConditions" "not HasStatus('BUFF_BLOCKER')"
+
 <!--PASSIVES-->
 
 new entry "Shout_PatientDefense"

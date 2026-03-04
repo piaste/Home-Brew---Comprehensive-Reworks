@@ -221,6 +221,35 @@
 	<content contentuid="hedbd9f3fgf4d8g4f16gb0f2gb0e11e900005" version="1">A Storm of Swarms</content>
 	<content contentuid="hf081aa54g2347g4295g85aeg8048e2e0000e" version="1">All effects caused by your Swarms are now twice as potent.</content>
 
+<!--TWINFANG-->
+
+	<content contentuid="55a0054c23a247a29697b3a59e5eba7f00000" version="1">Twinfang</content>
+	<content contentuid="55a0054c23a247a29697b3a59e5eba7f0000z" version="1">At your side moves a second shadow — silent, patient, and lethal. When you strike, your companion answers, and together you descend upon your quarry with the certainty of twin fangs closing around the throat.</content>
+
+	<content contentuid="55a0054c23a247a29697b3a59e5eba7f00001" version="1">Closing Bite</content>
+	<content contentuid="55a0054c23a247a29697b3a59e5eba7f0000a" version="1">When you make a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt;, you may make a melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;. This can be toggled at any time.</content>
+	<content contentuid="55a0054c23a247a29697b3a59e5eba7f000z1" version="1">Closing Bite</content>
+	<content contentuid="55a0054c23a247a29697b3a59e5eba7f000za" version="1">Make a melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;. This can be toggled at any time.</content>
+
+	<content contentuid="55a0054c23a247a29697b3a59e5eba7f00002" version="1">Second Fang</content>
+	<content contentuid="55a0054c23a247a29697b3a59e5eba7f0000b" version="1">Upon making a melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, your Ranger Companion may make one of their own against your target as a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;.</content>
+	<content contentuid="55a0054c23a247a29697b3a59e5eba7f000z2" version="1">Second Fang</content>
+	<content contentuid="55a0054c23a247a29697b3a59e5eba7f000zb" version="1">Make a melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against a target your summoning Ranger has struck with one of their own.</content>
+
+	<content contentuid="55a0054c23a247a29697b3a59e5eba7f00003" version="1">Marked Quarry</content>
+	<content contentuid="55a0054c23a247a29697b3a59e5eba7f0000c" version="1">When you make a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt;, you afflict your target with &lt;LSTag Type="Status" Tooltip="HUNTERS_MARK"&gt;Hunter's Mark&lt;/LSTag&gt; for three turns.</content>
+
+	<content contentuid="55a0054c23a247a29697b3a59e5eba7f00004" version="1">Fang Over Fang</content>
+	<content contentuid="55a0054c23a247a29697b3a59e5eba7f0000d" version="1">When your Ranger Companion makes a melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against a target, you may make one of your own against them as a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;.</content>
+	<content contentuid="55a0054c23a247a29697b3a59e5eba7f000z4" version="1">Fang Over Fang</content>
+	<content contentuid="55a0054c23a247a29697b3a59e5eba7f000zd" version="1">Make a melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against a target your Ranger Companion has struck with one of their own.</content>
+
+	<content contentuid="55a0054c23a247a29697b3a59e5eba7f00005" version="1">Locked Jaws</content>
+	<content contentuid="55a0054c23a247a29697b3a59e5eba7f0000e" version="1">When both you and your Ranger Companion damage the same creature, they become &lt;LSTag Type="Status" Tooltip="CRIPPLED"&gt;Crippled&lt;/LSTag&gt; for one turn.</content>
+
+	<content contentuid="55a0054c23a247a29697b3a59e5eba7f00006" version="1">Apex Coordination</content>
+	<content contentuid="55a0054c23a247a29697b3a59e5eba7f0000f" version="1">When either you or your Ranger Companion deal damage to a creature the other has already damaged, you deal an additional 1d8 damage.</content>
+
 <!--ARROWS-->
 
 	<content contentuid="h8df46bbbg30b8g491ag835dg00ff2d5f4d64" version="4">Frontier Ballistics</content>

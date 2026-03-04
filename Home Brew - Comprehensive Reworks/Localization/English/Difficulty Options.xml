@@ -3,6 +3,8 @@
 
 	<content contentuid="0d725d8aae6a4d4fba9768e69b7difficulty" version="1">Difficulty</content>
 
+	<content contentuid="h478b1265gbd06g4447g95d3ge9e29717ffd2" version="2">The classic Home Brew experience.</content>
+
 	<content contentuid="h0391e720g05e0g4aefga7adgc720138eef0d" version="1">A narrative adventure placing story over combat.
 Player Hit Points are doubled.
 Fine tune NPCs via the Mod Configuration Menu.</content>
@@ -47,7 +49,7 @@ Intended for veterans of Home Brew.
 Fine tune NPCs via the Mod Configuration Menu.</content>
 	<content contentuid="h46c00fa7gbb38g480fg9a0fgb4232bec8658" version="1">Hall of Heroes</content>
 	<content contentuid="hc84c257fg484bg490cgab0dg6026185bdebe" version="1">Hall of Heroes: Challenge Details</content>
-	<content contentuid="h98f4af19g94b7g4821g9043g5e89b45bd8f6" version="1">Honour mode is an incredibly intense difficulty recommended only for the most seasoned of Home Brew veterans.&lt;br&gt;&lt;br&gt;The most dangerous foes you'll encounter are more powerful than ever, boasting new abilities and Legendary Actions. Additionally, you cannot reload older save files in Honour mode if events go awry - your choices and their consequences are permanent. If your entire party is defeated in combat, your Honour mode run will end in failure.&lt;br&gt;&lt;br&gt;If you are victorious and beat Home Brew on Honour mode, your accomplishment will be listed in game for all other players players to see! Upon having done so, reach out to the mod author (HaVeNII7) with proof to be included.&lt;br&gt;&lt;br&gt;Good luck, adventurer. You're really going to need it.</content>
+	<content contentuid="h98f4af19g94b7g4821g9043g5e89b45bd8f6" version="1">This is an incredibly intense difficulty recommended only for the most seasoned of Home Brew veterans.&lt;br&gt;&lt;br&gt;The most dangerous foes you'll encounter are more powerful than ever, boasting new abilities and Legendary Actions. Additionally, you cannot reload older save files if events go awry - your choices and their consequences are permanent. If your entire party is defeated in combat, your Honour mode run will end in failure.&lt;br&gt;&lt;br&gt;If you are victorious and beat Home Brew on this difficulty, your accomplishment will be listed in game for all other players players to see! Upon having done so, reach out to the mod author (HaVeNII7) with proof to be included.&lt;br&gt;&lt;br&gt;Good luck, adventurer. You're really going to need it.</content>
 
 	<content contentuid="h873f0d5bgb949g43bbgbc36g3bfed6s54df5" version="2">Hall of Heroes</content>
 	<content contentuid="h873f0d5bgb949g43bbgbc36g3bsdf6645df8" version="2">A recording of Faerûn's most honourable individuals.</content>
@@ -61,11 +63,342 @@ Honoured Adventurers:
 - Second-Mate Assburn
 - Urha
 - Vee, Chaotic Pontiff of Gremlin Energy
+- Moorzaube
+- Mirenna
+- Gumbych
 - Steelplayer36
 - Greed
 - Bananella XXIII
 - Mako
 - Annoynamous72z
+- Kaiser Karry, Champion of Lightning
 	</content>
+
+<!--MYTHIC DIFFICULTY-->
+
+	<content contentuid="hb80200a7g8e69g4f66gbc18gs6d84f96s8e4" version="1">Mythic</content>
+	<content contentuid="h2061fea8gde95g4e88gb4bcg9325f4d5f3d5" version="1">A ruthless adventure emphasizing loss.
+Intended for masters of Home Brew.
+Fine tune NPCs via the Mod Configuration Menu.</content>
+	<content contentuid="hb80200a7g8e69g4f66gbc18gs6d83as2d2f5" version="1">Honoured Myth</content>
+	<content contentuid="h2061fea8gde95g4e88gb4bcg9325s6e5e2f5" version="1">A merciless adventure emphasizing suffering.
+Both Honour and Mythic rulesets are applied.
+Fine tune NPCs via the Mod Configuration Menu.</content>
+	<content contentuid="h39ed1ebbg6dadg4bafga046g6e5e8f6f8858" version="4">Mythic Ruleset</content>
+	<content contentuid="h5e2183f0g1d9ag4726g86ffg832d5f5d5f6f" version="4">Introduces a variety of new mechanics which hinder the player at every turn.</content>
+	<content contentuid="hb80200a7g8e69g4f66gbc18gs6666d3f8858" version="1">Hostile characters will be exceedingly strong and much harder to kill in combat. </content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfexhausted00" version="1">Exhaustion</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfenvigorated" version="1">Envigoration</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfenvperilous" version="1">Perilous Wound</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfetoxicity00" version="1">Toxicity</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfetrevives00" version="1">Destabilized Soul</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gf0stressed00" version="1">Demoralized</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfmoraleboost" version="1">Morale Boost</content>
+
+<!--EXHAUSTION-->
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfexhausted01" version="1">Exhaustion I: Winded</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfexhausted0a" version="1">Affected creature is winded. Their breathing grows heavier, and strain begins to take hold, though their effectiveness remains intact.&lt;br&gt;&lt;br&gt;Upon taking a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt; or finishing a combat encounter, one stack of Exhaustion will be removed.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfexhausted02" version="1">Exhaustion II: Faltering</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfexhausted0b" version="1">Affected creature is faltering. Their endurance begins to fail, and maintaining peak performance becomes increasingly difficult.&lt;br&gt;&lt;br&gt;Upon taking a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt; or finishing a combat encounter, one stack of Exhaustion will be removed.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfexhausted03" version="1">Exhaustion III: Drained</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfexhausted0c" version="1">Affected creature is drained. Fatigue spreads through their body, warning of an impending physical consequence.&lt;br&gt;&lt;br&gt;Upon taking a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt; or finishing a combat encounter, one stack of Exhaustion will be removed.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfexhausted04" version="1">Exhaustion IV: Fatigued</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfexhausted0d" version="1">Affected creature is fatigued. Dangerous levels of exhaustion have begun to take hold.&lt;br&gt;&lt;br&gt;They have a -[1] penalty to all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and their physical &lt;LSTag Tooltip="Abilities"&gt;Ability Scores&lt;/LSTag&gt; are reduced by [2].&lt;br&gt;&lt;br&gt;Upon taking a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt; or finishing a combat encounter, one stack of Exhaustion will be removed.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfexhausted05" version="1">Exhaustion V: Debilitated</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfexhausted0e" version="1">Affected creature is debilitated. Their body feels sluggish and addled.&lt;br&gt;&lt;br&gt;They have a -[1] penalty to all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and their physical &lt;LSTag Tooltip="Abilities"&gt;Ability Scores&lt;/LSTag&gt; are reduced by [2]. In addition, they cannot make &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reactions&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Upon taking a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt; or finishing a combat encounter, one stack of Exhaustion will be removed.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfexhausted06" version="1">Exhaustion VI: Crippled</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfexhausted0f" version="1">Affected creature is crippled. Their body struggles to respond.&lt;br&gt;&lt;br&gt;They have a -[1] penalty to all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and their physical &lt;LSTag Tooltip="Abilities"&gt;Ability Scores&lt;/LSTag&gt; are reduced by [2]. In addition, they cannot make &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reactions&lt;/LSTag&gt;. Furthermore, all Attack Rolls made toward them are rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Upon taking a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt; or finishing a combat encounter, one stack of Exhaustion will be removed.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfexhausted07" version="1">Exhaustion VII: Collapsing</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfexhausted0g" version="1">Affected creature is in a state of collapse. Systems within their body have begun to give out.&lt;br&gt;&lt;br&gt;They have a -[1] penalty to all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and their physical &lt;LSTag Tooltip="Abilities"&gt;Ability Scores&lt;/LSTag&gt; are reduced by [2]. In addition, they cannot make &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reactions&lt;/LSTag&gt;. Furthermore, all Attack Rolls made toward them are rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Finally, their &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; is reduced by [3]% and their Initiative is reduced by 10.&lt;br&gt;&lt;br&gt;Upon taking a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt; or finishing a combat encounter, one stack of Exhaustion will be removed.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfexhausted08" version="1">Exhaustion VIII: Broken</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfexhausted0h" version="1">Affected creature is broken. Their physical and mental state has deteriorated to the brink of total failure.&lt;br&gt;&lt;br&gt;They have a -[1] penalty to all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and their physical &lt;LSTag Tooltip="Abilities"&gt;Ability Scores&lt;/LSTag&gt; are reduced by [2]. In addition, they cannot make &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reactions&lt;/LSTag&gt;. Furthermore, all Attack Rolls made toward them are rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Finally, their &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; is reduced by [3]%, their Initiative is reduced by 10, and their maximum &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; are reduced by [4]%.&lt;br&gt;&lt;br&gt;Upon taking a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt; or finishing a combat encounter, one stack of Exhaustion will be removed.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfexhausted09" version="1">Exhaustion IX: Losing Consciousness</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfexhausted0i" version="1">Affected creature is losing consciousness. Their body begins to shut down as exhaustion overwhelms their ability to remain conscious.&lt;br&gt;&lt;br&gt;They have a -[1] penalty to all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and their physical &lt;LSTag Tooltip="Abilities"&gt;Ability Scores&lt;/LSTag&gt; are reduced by [2]. In addition, they cannot make &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reactions&lt;/LSTag&gt;. Furthermore, all Attack Rolls made toward them are rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Finally, their &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; is reduced by [3]%, their Initiative is reduced by 10, and their maximum &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; are reduced by [4]%.&lt;br&gt;&lt;br&gt;Upon taking a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt; or finishing a combat encounter, one stack of Exhaustion will be removed.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfexhausted10" version="1">Exhaustion X: At Death's Door</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfexhausted0j" version="1">Affected creature is now on the brink of death. Their body can no longer sustain life, and catastrophic failure is imminent.&lt;br&gt;&lt;br&gt;They have a -[1] penalty to all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and their physical &lt;LSTag Tooltip="Abilities"&gt;Ability Scores&lt;/LSTag&gt; are reduced by [2]. In addition, they cannot make &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reactions&lt;/LSTag&gt;. Furthermore, all Attack Rolls made toward them are rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Finally, their &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; is reduced by [3]%, their Initiative is reduced by 10, and their maximum &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; are reduced by [4]%.&lt;br&gt;&lt;br&gt;This creature has reached its limit, and has fallen into a &lt;LSTag Type="Status" Tooltip="SCL_ANCIENTFIST_CATATONIC"&gt;Catatonic&lt;/LSTag&gt; state. Additional stacks of Exhaustion will immediately kill them.&lt;br&gt;&lt;br&gt;Upon taking a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt; or finishing a combat encounter, one stack of Exhaustion will be removed.</content>
+
+<!--STRESS-->
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gf0stressed01" version="1">Stress I: Reluctant</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gf0stressed0a" version="1">Affected creature is feeling reluctant. Their resolve wavers, and doubt begins to creep into their thoughts, though their effectiveness remains intact.&lt;br&gt;&lt;br&gt;Upon taking a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt; or finishing a combat encounter, one stack will be removed. Stress may also be reduced by pressing the advantage in combat.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gf0stressed02" version="1">Stress II: Nervous</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gf0stressed0b" version="1">Affected creature is feeling nervous. Their composure weakens, and maintaining focus becomes increasingly difficult.&lt;br&gt;&lt;br&gt;Upon taking a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt; or finishing a combat encounter, one stack will be removed. Stress may also be reduced by pressing the advantage in combat.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gf0stressed03" version="1">Stress III: Tense</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gf0stressed0c" version="1">Affected creature is feeling tense. Psychological strain builds within their mind, warning of an impending mental breakdown.&lt;br&gt;&lt;br&gt;Upon taking a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt; or finishing a combat encounter, one stack will be removed. Stress may also be reduced by pressing the advantage in combat.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gf0stressed04" version="1">Stress IV: Worried</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gf0stressed0d" version="1">Affected creature is feeling worried. Mounting stress has now begun to undermine their confidence.&lt;br&gt;&lt;br&gt;They have a -[1] penalty to all &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; and their mental &lt;LSTag Tooltip="Abilities"&gt;Ability Scores&lt;/LSTag&gt; are reduced by [2].&lt;br&gt;&lt;br&gt;Upon taking a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt; or finishing a combat encounter, one stack will be removed. Stress may also be reduced by pressing the advantage in combat.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gf0stressed05" version="1">Stress V: Anxious</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gf0stressed0e" version="1">Affected creature is feeling anxious. Their thoughts race uncontrollably, disrupting their ability to press on.&lt;br&gt;&lt;br&gt;They have a -[1] penalty to all &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; and their mental &lt;LSTag Tooltip="Abilities"&gt;Ability Scores&lt;/LSTag&gt; are reduced by [2]. In addition, they cannot utilize their &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Upon taking a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt; or finishing a combat encounter, one stack will be removed. Stress may also be reduced by pressing the advantage in combat.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gf0stressed06" version="1">Stress VI: Fractured</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gf0stressed0f" version="1">Affected creature is feeling fractured. Their mental stability deteriorates, leaving them vulnerable to further breakdown.&lt;br&gt;&lt;br&gt;They have a -[1] penalty to all &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; and their mental &lt;LSTag Tooltip="Abilities"&gt;Ability Scores&lt;/LSTag&gt; are reduced by [2]. In addition, they cannot utilize their &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;. Furthermore, at the beginning of each turn, their &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; will be broken.&lt;br&gt;&lt;br&gt;Upon taking a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt; or finishing a combat encounter, one stack will be removed. Stress may also be reduced by pressing the advantage in combat.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gf0stressed07" version="1">Stress VII: Unraveling</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gf0stressed0g" version="1">Affected creature's psyche is unraveling. Their thoughts fragment, and their ability to respond coherently begins to fail.&lt;br&gt;&lt;br&gt;They have a -[1] penalty to all &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; and their mental &lt;LSTag Tooltip="Abilities"&gt;Ability Scores&lt;/LSTag&gt; are reduced by [2]. In addition, they cannot utilize their &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;. Furthermore, at the beginning of each turn, their &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; will be broken and they will take [3].&lt;br&gt;&lt;br&gt;Upon taking a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt; or finishing a combat encounter, one stack will be removed. Stress may also be reduced by pressing the advantage in combat.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gf0stressed08" version="1">Stress VIII: Breaking</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gf0stressed0h" version="1">Affected creature is nearing psychological collapse. Their will falters as overwhelming stress consumes their ability to function.&lt;br&gt;&lt;br&gt;They have a -[1] penalty to all &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; and their mental &lt;LSTag Tooltip="Abilities"&gt;Ability Scores&lt;/LSTag&gt; are reduced by [2]. In addition, they cannot utilize their &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;. Furthermore, at the beginning of each turn, their &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; will be broken and they will take [3]. Finally, they are unable to speak.&lt;br&gt;&lt;br&gt;Upon taking a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt; or finishing a combat encounter, one stack will be removed. Stress may also be reduced by pressing the advantage in combat.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gf0stressed09" version="1">Stress IX: Shattered Psyche</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gf0stressed0i" version="1">Affected creature's psyche has shattered. Their mind can no longer withstand the overwhelming stress, and their ability to function begins to deteriorate rapidly.&lt;br&gt;&lt;br&gt;They have a -[1] penalty to all &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; and their mental &lt;LSTag Tooltip="Abilities"&gt;Ability Scores&lt;/LSTag&gt; are reduced by [2]. In addition, they cannot utilize their &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;. Furthermore, at the beginning of each turn, their &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; will be broken and they will take [3]. Finally, they are unable to speak and may flee in &lt;LSTag Type="Status" Tooltip="FEARED"&gt;Terror&lt;/LSTag&gt; at the beginning of each turn.&lt;br&gt;&lt;br&gt;Upon taking a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt; or finishing a combat encounter, one stack will be removed. Stress may also be reduced by pressing the advantage in combat.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gf0stressed10" version="1">Stress X: At Death's Door</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gf0stressed0j" version="1">Affected creature's mind has reached its breaking point. Their will to continue has collapsed entirely, and catastrophic psychological failure has taken hold.&lt;br&gt;&lt;br&gt;They have a -[1] penalty to all &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; and their mental &lt;LSTag Tooltip="Abilities"&gt;Ability Scores&lt;/LSTag&gt; are reduced by [2]. In addition, they cannot utilize their &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;. Furthermore, at the beginning of each turn, their &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; will be broken and they will take [3]. Finally, they are unable to speak and may flee in &lt;LSTag Type="Status" Tooltip="FEARED"&gt;Terror&lt;/LSTag&gt; at the beginning of each turn.&lt;br&gt;&lt;br&gt;This creature has reached its psychological limit, and has fallen into a &lt;LSTag Type="Status" Tooltip="SCL_ANCIENTFIST_CATATONIC"&gt;Catatonic&lt;/LSTag&gt; state. Additional stacks of Stress will immediately kill them.&lt;br&gt;&lt;br&gt;Upon taking a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt; or finishing a combat encounter, one stack will be removed. Stress may also be reduced by pressing the advantage in combat.</content>
+
+<!--TOXICITY-->
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfetoxicity01" version="1">Toxicity I: Tainted</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfetoxicity0a" version="1">Affected creature's bloodstream carries trace amounts of foreign toxin. Their body detects the contamination, but its natural defenses remain sufficient to maintain normal function.&lt;br&gt;&lt;br&gt;Upon taking a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, or upon finishing a combat encounter, one stack will be removed.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfetoxicity02" version="1">Toxicity II: Contaminated</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfetoxicity0b" version="1">Affected creature's blood is contaminated with accumulating toxins. Their internal systems begin diverting resources to containment, and the chemical burden continues to grow.&lt;br&gt;&lt;br&gt;Upon taking a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, or upon finishing a combat encounter, one stack will be removed.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfetoxicity03" version="1">Toxicity III: Saturated</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfetoxicity0c" version="1">Affected creature's body is saturated with toxic compounds. Their organs strain to process the buildup, and further exposure risks destabilizing their biological equilibrium.&lt;br&gt;&lt;br&gt;Drinking further potions will cause this creature to take [1].&lt;br&gt;&lt;br&gt;Upon taking a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, or upon finishing a combat encounter, one stack will be removed.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfetoxicity04" version="1">Toxicity IV: Nauseated</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfetoxicity0d" version="1">Affected creature's body begins violently rejecting the toxic accumulation within their system. Their metabolism destabilizes as chemical defenses falter.&lt;br&gt;&lt;br&gt;Drinking further potions will cause this creature to take [1] and accumulate a stack of Stress.&lt;br&gt;&lt;br&gt;Upon taking a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, or upon finishing a combat encounter, one stack will be removed.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfetoxicity05" version="1">Toxicity V: Rejection</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfetoxicity0e" version="1">Affected creature's biological defenses begin actively rejecting further chemical intrusion. Their bloodstream reacts aggressively to additional toxins, causing immediate harm.&lt;br&gt;&lt;br&gt;Drinking further potions will cause this creature to take [1], as well as accumulate a stack of Stress and Exhaustion.&lt;br&gt;&lt;br&gt;Upon taking a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, or upon finishing a combat encounter, one stack will be removed.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfetoxicity06" version="1">Toxicity VI: Chemical Instability</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfetoxicity0f" version="1">Affected creature's internal chemistry destabilizes as toxin levels overwhelm regulatory functions. Their organs struggle to maintain equilibrium under the mounting biochemical strain.&lt;br&gt;&lt;br&gt;Drinking further potions will cause this creature to take [1], accumulate a stack of Stress and Exhaustion, as well as fall &lt;LSTag Type="Status" Tooltip="UNCONSCIOUS"&gt;Unconscious&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Upon taking a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, or upon finishing a combat encounter, one stack will be removed.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfetoxicity07" version="1">Toxicity VII: Toxic Shock</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfetoxicity0g" version="1">Affected creature enters toxic shock as their bloodstream becomes critically compromised. Vital systems begin to falter under the overwhelming chemical assault.&lt;br&gt;&lt;br&gt;Drinking further potions will cause this creature to take [1], accumulate a stack of Stress and Exhaustion, fall &lt;LSTag Type="Status" Tooltip="UNCONSCIOUS"&gt;Unconscious&lt;/LSTag&gt;, and prevent further healing for three turns.&lt;br&gt;&lt;br&gt;Upon taking a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, or upon finishing a combat encounter, one stack will be removed.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfetoxicity08" version="1">Toxicity VIII: Systemic Overload</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfetoxicity0h" version="1">Affected creature suffers systemic overload as toxin saturation exceeds survivable limits. Biological processes begin to fail as the body loses its ability to regulate internal chemistry.&lt;br&gt;&lt;br&gt;Drinking further potions will cause this creature to take [1], accumulate a stack of Stress and Exhaustion, fall &lt;LSTag Type="Status" Tooltip="UNCONSCIOUS"&gt;Unconscious&lt;/LSTag&gt;, and permenantly prevent further healing upon digestion.&lt;br&gt;&lt;br&gt;Upon taking a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, or upon finishing a combat encounter, one stack will be removed.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfetoxicity09" version="1">Toxicity IX: Organ Failure</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfetoxicity0i" version="1">Affected creature's organs begin shutting down as toxic compounds flood every system. Circulation spreads irreversible damage, and survival becomes increasingly unlikely.&lt;br&gt;&lt;br&gt;Drinking further potions will place this creature into a &lt;LSTag Type="Status" Tooltip="SCL_ANCIENTFIST_CATATONIC"&gt;Catatonic&lt;/LSTag&gt; state.&lt;br&gt;&lt;br&gt;Upon taking a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, or upon finishing a combat encounter, one stack will be removed.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfetoxicity10" version="1">Toxicity X: At Death's Door</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfetoxicity0j" version="1">Affected creature's body collapses under catastrophic toxic overload. Their bloodstream has become lethally compromised, and further chemical exposure will trigger total biological failure.&lt;br&gt;&lt;br&gt;Drinking further potions will immediately cause this creature to die.&lt;br&gt;&lt;br&gt;Upon taking a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, or upon finishing a combat encounter, one stack will be removed.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfresurrect01" version="1">Resurrection Limit: Two Remaining</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfresurrect0a" version="1">Affected creature's soul has become destabilized. They may be brought back to life using &lt;LSTag Type="Spell" Tooltip="Teleportation_Revivify"&gt;Revivify&lt;/LSTag&gt; just two more times.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfresurrect02" version="1">Resurrection Limit: One Remaining</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfresurrect0b" version="1">Affected creature's soul has become heavily destabilized. They may be brought back to life using &lt;LSTag Type="Spell" Tooltip="Teleportation_Revivify"&gt;Revivify&lt;/LSTag&gt; just one more time.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfresurrect03" version="1">Destabilized Soul</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gfresurrect0c" version="1">Affected creature's soul has become exceedingly destabilized through multiple resurrections. As a result, resurrecting them through normal means is no longer safe. They may no longer be brought back to life using &lt;LSTag Type="Spell" Tooltip="Teleportation_Revivify"&gt;Revivify&lt;/LSTag&gt;.</content>
+
+<!--PERILOUS WOUNDS-->
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01bludgeoning01" version="1">Shattered Forearm</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01bludgeoning0a" version="1">Affected creature has suffered a perilous wound! Their Strength has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01bludgeoning02" version="1">Crushed Fingers</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01bludgeoning0b" version="1">Affected creature has suffered a perilous wound! Their Dexterity has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01bludgeoning03" version="1">Rattled Organs</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01bludgeoning0c" version="1">Affected creature has suffered a perilous wound! Their Constitution has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01bludgeoning04" version="1">Concussive Trauma</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01bludgeoning0d" version="1">Affected creature has suffered a perilous wound! Their Intelligence has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01bludgeoning05" version="1">Sensory Disorientation</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01bludgeoning0e" version="1">Affected creature has suffered a perilous wound! Their Wisdom has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01bludgeoning06" version="1">Disfigured Features</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01bludgeoning0f" version="1">Affected creature has suffered a perilous wound! Their Charisma has been reduced by 1.</content>
+	
+	<content contentuid="h6376a4a4g7cd7g4768g9d01piercing01" version="1">Punctured Muscle</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01piercing0a" version="1">Affected creature has suffered a perilous wound! Their Strength has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01piercing02" version="1">Severed Tendon</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01piercing0b" version="1">Affected creature has suffered a perilous wound! Their Dexterity has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01piercing03" version="1">Collapsed Lung</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01piercing0c" version="1">Affected creature has suffered a perilous wound! Their Constitution has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01piercing04" version="1">Skull Penetration</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01piercing0d" version="1">Affected creature has suffered a perilous wound! Their Intelligence has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01piercing05" version="1">Nerve Impalement</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01piercing0e" version="1">Affected creature has suffered a perilous wound! Their Wisdom has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01piercing06" version="1">Scarred Countenance</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01piercing0f" version="1">Affected creature has suffered a perilous wound! Their Charisma has been reduced by 1.</content>
+	
+	<content contentuid="h6376a4a4g7cd7g4768g9d01slashing01" version="1">Sundered Bicep</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01slashing0a" version="1">Affected creature has suffered a perilous wound! Their Strength has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01slashing02" version="1">Severed Hamstring</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01slashing0b" version="1">Affected creature has suffered a perilous wound! Their Dexterity has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01slashing03" version="1">Severed Artery</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01slashing0c" version="1">Affected creature has suffered a perilous wound! Their Constitution has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01slashing04" version="1">Split Temple</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01slashing0d" version="1">Affected creature has suffered a perilous wound! Their Intelligence has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01slashing05" version="1">Eyesight Serration</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01slashing0e" version="1">Affected creature has suffered a perilous wound! Their Wisdom has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01slashing06" version="1">Grievous Facial Scar</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01slashing0f" version="1">Affected creature has suffered a perilous wound! Their Charisma has been reduced by 1.</content>
+	
+	<content contentuid="h6376a4a4g7cd7g4768g9d01acid01" version="1">Corroded Musculature</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01acid0a" version="1">Affected creature has suffered a perilous wound! Their Strength has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01acid02" version="1">Eroded Ligaments</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01acid0b" version="1">Affected creature has suffered a perilous wound! Their Dexterity has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01acid03" version="1">Dissolved Tissue</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01acid0c" version="1">Affected creature has suffered a perilous wound! Their Constitution has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01acid04" version="1">Caustic Neural Burn</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01acid0d" version="1">Affected creature has suffered a perilous wound! Their Intelligence has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01acid05" version="1">Sight-Seared Eyes</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01acid0e" version="1">Affected creature has suffered a perilous wound! Their Wisdom has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01acid06" version="1">Scarred Visage</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01acid0f" version="1">Affected creature has suffered a perilous wound! Their Charisma has been reduced by 1.</content>
+	
+	<content contentuid="h6376a4a4g7cd7g4768g9d01cold01" version="1">Frozen Sinew</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01cold0a" version="1">Affected creature has suffered a perilous wound! Their Strength has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01cold02" version="1">Frostbitten Joints</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01cold0b" version="1">Affected creature has suffered a perilous wound! Their Dexterity has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01cold03" version="1">Hypothermic Weakness</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01cold0c" version="1">Affected creature has suffered a perilous wound! Their Constitution has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01cold04" version="1">Numbed Cognition</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01cold0d" version="1">Affected creature has suffered a perilous wound! Their Intelligence has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01cold05" version="1">Ice-Clouded Perception</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01cold0e" version="1">Affected creature has suffered a perilous wound! Their Wisdom has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01cold06" version="1">Frostmarred Features</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01cold0f" version="1">Affected creature has suffered a perilous wound! Their Charisma has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01fire01" version="1">Charred Muscle</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01fire0a" version="1">Affected creature has suffered a perilous wound! Their Strength has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01fire02" version="1">Burned Nerve Endings</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01fire0b" version="1">Affected creature has suffered a perilous wound! Their Dexterity has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01fire03" version="1">Smoldering Lungs</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01fire0c" version="1">Affected creature has suffered a perilous wound! Their Constitution has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01fire04" version="1">Heat-Scorched Mind</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01fire0d" version="1">Affected creature has suffered a perilous wound! Their Intelligence has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01fire05" version="1">Smoke-Blinded Vision</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01fire0e" version="1">Affected creature has suffered a perilous wound! Their Wisdom has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01fire06" version="1">Ashen Countenance</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01fire0f" version="1">Affected creature has suffered a perilous wound! Their Charisma has been reduced by 1.</content>
+	
+	<content contentuid="h6376a4a4g7cd7g4768g9d01force01" version="1">Fractured Frame</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01force0a" version="1">Affected creature has suffered a perilous wound! Their Strength has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01force02" version="1">Aether-Torn Ligaments</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01force0b" version="1">Affected creature has suffered a perilous wound! Their Dexterity has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01force03" version="1">Planar Shock Trauma</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01force0c" version="1">Affected creature has suffered a perilous wound! Their Constitution has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01force04" version="1">Arcane Concussion</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01force0d" version="1">Affected creature has suffered a perilous wound! Their Intelligence has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01force05" version="1">Reality Distortion</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01force0e" version="1">Affected creature has suffered a perilous wound! Their Wisdom has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01force06" version="1">Aether-Warped Visage</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01force0f" version="1">Affected creature has suffered a perilous wound! Their Charisma has been reduced by 1.</content>
+	
+	<content contentuid="h6376a4a4g7cd7g4768g9d01lightning01" version="1">Seized Musculature</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01lightning0a" version="1">Affected creature has suffered a perilous wound! Their Strength has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01lightning02" version="1">Nerve Misfire</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01lightning0b" version="1">Affected creature has suffered a perilous wound! Their Dexterity has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01lightning03" version="1">Cardiac Arrhythmia</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01lightning0c" version="1">Affected creature has suffered a perilous wound! Their Constitution has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01lightning04" version="1">Synaptic Burn</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01lightning0d" version="1">Affected creature has suffered a perilous wound! Their Intelligence has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01lightning05" version="1">Storm-Shattered Senses</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01lightning0e" version="1">Affected creature has suffered a perilous wound! Their Wisdom has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01lightning06" version="1">Crackled Countenance</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01lightning0f" version="1">Affected creature has suffered a perilous wound! Their Charisma has been reduced by 1.</content>
+	
+	<content contentuid="h6376a4a4g7cd7g4768g9d01necrotic01" version="1">Withered Limbs</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01necrotic0a" version="1">Affected creature has suffered a perilous wound! Their Strength has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01necrotic02" version="1">Rotting Tendons</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01necrotic0b" version="1">Affected creature has suffered a perilous wound! Their Dexterity has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01necrotic03" version="1">Life-Drained Core</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01necrotic0c" version="1">Affected creature has suffered a perilous wound! Their Constitution has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01necrotic04" version="1">Soul-Sapped Intellect</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01necrotic0d" version="1">Affected creature has suffered a perilous wound! Their Intelligence has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01necrotic05" version="1">Grave-Touched Perception</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01necrotic0e" version="1">Affected creature has suffered a perilous wound! Their Wisdom has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01necrotic06" version="1">Deathly Pallor</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01necrotic0f" version="1">Affected creature has suffered a perilous wound! Their Charisma has been reduced by 1.</content>
+	
+	<content contentuid="h6376a4a4g7cd7g4768g9d01radiant01" version="1">Searing Brilliance</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01radiant0a" version="1">Affected creature has suffered a perilous wound! Their Strength has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01radiant02" version="1">Blinding Afterimage</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01radiant0b" version="1">Affected creature has suffered a perilous wound! Their Dexterity has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01radiant03" version="1">Purged Vitality</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01radiant0c" version="1">Affected creature has suffered a perilous wound! Their Constitution has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01radiant04" version="1">Revelatory Burn</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01radiant0d" version="1">Affected creature has suffered a perilous wound! Their Intelligence has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01radiant05" version="1">Overwhelming Revelation</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01radiant0e" version="1">Affected creature has suffered a perilous wound! Their Wisdom has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01radiant06" version="1">Scoured Presence</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01radiant0f" version="1">Affected creature has suffered a perilous wound! Their Charisma has been reduced by 1.</content>
+	
+	<content contentuid="h6376a4a4g7cd7g4768g9d01thunder01" version="1">Ruptured Sinew</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01thunder0a" version="1">Affected creature has suffered a perilous wound! Their Strength has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01thunder02" version="1">Shaken Coordination</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01thunder0b" version="1">Affected creature has suffered a perilous wound! Their Dexterity has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01thunder03" version="1">Internal Hemorrhage</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01thunder0c" version="1">Affected creature has suffered a perilous wound! Their Constitution has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01thunder04" version="1">Concussed Mind</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01thunder0d" version="1">Affected creature has suffered a perilous wound! Their Intelligence has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01thunder05" version="1">Ringing in the Skull</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01thunder0e" version="1">Affected creature has suffered a perilous wound! Their Wisdom has been reduced by 1.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01thunder06" version="1">Voice Left Shattered</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01thunder0f" version="1">Affected creature has suffered a perilous wound! Their Charisma has been reduced by 1.</content>
 
 </contentList>

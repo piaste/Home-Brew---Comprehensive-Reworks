@@ -478,7 +478,7 @@ data "DisplayName" "4512454c8e254628bd4dc62ea243a2a000z20;1"
 data "Description" "4512454c8e254628bd4dc62ea243a2a0000zt;2"
 data "Icon" "Action_KarsusCompulsion"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
-data "OnApplyFunctors" "RestoreResource(SELF,BonusActionPoint, 1, 0)"
+data "OnRemoveFunctors" "RestoreResource(SELF,BonusActionPoint, 1, 0)"
 
 <!--WAY OF THE SHADOW-->
 
@@ -545,6 +545,26 @@ data "StackId" "AUSPICIOUS_SHADOWS"
 data "TickType" "EndTurn"
 data "BoostConditions" "SpellId('Target_ShadowStrike_Instant') or SpellId(Target_ShadowStrike_Instant_Unarmed)"
 data "Boosts" "CriticalDamageOnHit()"
+
+<!--WAY OF THE TEMPERED STEEL-->
+
+new entry "BLEEDING_SERRATED"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h36efa902g81b7g4e3eg8137gb6149662d91c;1"
+data "Description" "hc32e5c52g3e8fg420cgbbedgfaf5a2f80b22;9"
+data "DescriptionParams" "DealDamage(1d4,Slashing);"
+data "Icon" "Status_Bleeding"
+data "StillAnimationType" "Weakened"
+data "StillAnimationPriority" "Weakened"
+data "StackId" "BLEEDING_SERRATED"
+data "TickType" "EndTurn"
+data "Boosts" "Disadvantage(SavingThrow, Constitution)"
+data "RemoveEvents" "OnHeal"
+data "TooltipDamage" "DealDamage(1d4, Slashing);"
+data "TickFunctors" "DealDamage(1d4, Slashing)"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;InitiateCombat"
+data "StatusGroups" "SG_Physical;SG_Helpable_Condition"
 
 <!--PASSIVES-->
 

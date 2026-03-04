@@ -155,6 +155,29 @@
 	<content contentuid="h509b8e00gacb9g46a5sd654s6d54f6w8s4ef" version="1">I'M SORRY, FATHER!</content>
 	<content contentuid="h5b8e00gacb9g46a5sd6f456awe6we8f48454" version="2">Lil' G feels terrible about what he has to do, but do it he will!</content>
 
+<!--GRENADIER-->
+
+	<content contentuid="52fe1476d95548e2a19d5671c3e1507100000" version="1">Grenadier</content>
+	<content contentuid="52fe1476d95548e2a19d5671c3e150710000z" version="2">Guns, explosions, and ample destructive tendencies make you a force to be reckoned with - not because of any magic or nuance. But because you know exactly how to blow shit up.</content>
+
+	<content contentuid="52fe1476d95548e2a19d5671c3e1507100001" version="1">The Anarchist's Cookbook</content>
+	<content contentuid="52fe1476d95548e2a19d5671c3e150710000a" version="2">Each turn during combat, you generate an artifical grenade or explosive which lasts until the end of your turn.</content>
+
+	<content contentuid="52fe1476d95548e2a19d5671c3e1507100002" version="1">Shockwave Theory</content>
+	<content contentuid="52fe1476d95548e2a19d5671c3e150710000b" version="2">Dealing damage with your grenades and explosives forces your targets &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
+
+	<content contentuid="52fe1476d95548e2a19d5671c3e1507100003" version="1">Explosive Ammunition</content>
+	<content contentuid="52fe1476d95548e2a19d5671c3e150710000c" version="2">Landing a killing blow with a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt; triggers a violent explosion, damaging everything within [1] of your target.</content>
+
+	<content contentuid="52fe1476d95548e2a19d5671c3e1507100004" version="1">Mortar Multiplicity</content>
+	<content contentuid="52fe1476d95548e2a19d5671c3e150710000d" version="2">You are able to &lt;LSTag Type="Spell" Tooltip="Throw_Throw"&gt;Throw&lt;/LSTag&gt; objects and creatures as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;. This may be toggled at any time.</content>
+
+	<content contentuid="52fe1476d95548e2a19d5671c3e1507100005" version="1">Collateral Damage</content>
+	<content contentuid="52fe1476d95548e2a19d5671c3e150710000e" version="2">Damage from your grenades and explosives can no longer be reduced by a successful &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.</content>
+
+	<content contentuid="52fe1476d95548e2a19d5671c3e1507100006" version="1">Grand Detonation</content>
+	<content contentuid="52fe1476d95548e2a19d5671c3e150710000f" version="2">Upon taking a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, you gain one Runepowder Vial.</content>
+
 <!--INFUSED ARCSMITH-->
 
 	<content contentuid="36523fb3deaa14de1766304e0911fbc49ae33" version="1">Infused Arcsmith</content>
@@ -212,15 +235,15 @@
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc400007" version="1">Optimization: Defensive Calibration</content>
 	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40000g" version="2">Grant allies a +2 bonus to all &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; upon &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infusing&lt;/LSTag&gt; them.</content>
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc400008" version="1">Optimization: Emergency Plating</content>
-	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40000h" version="2">Grant allies &lt;LSTag Tooltip="TemporaryHitPoints"&gt;Temporary Hit Points&lt;/LSTag&gt; equal to their level multiplied by four upon &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infusing&lt;/LSTag&gt; them.</content>
+	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40000h" version="2">Grant allies &lt;LSTag Tooltip="TemporaryHitPoints"&gt;Temporary Hit Points&lt;/LSTag&gt; equal to their level multiplied by four upon &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infusing&lt;/LSTag&gt; them.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; No extended effect when Infusing the same ally multiple times.</content>
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc400009" version="1">Optimization: Evasive Protocol</content>
-	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40000i" version="2">Allies you &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; immediately &lt;LSTag Type="Status" Tooltip="DASH"&gt;Dash&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="DISENGAGE"&gt;Disengage&lt;/LSTag&gt;.</content>
+	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40000i" version="2">Allies you &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; immediately &lt;LSTag Type="Status" Tooltip="DASH"&gt;Dash&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="DISENGAGE"&gt;Disengage&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; No extended effect when Infusing the same ally multiple times.</content>
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc400010" version="1">Optimization: Healing Override</content>
 	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40000j" version="2">Allies you &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; restore the maximum amount of &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; possible when healed.</content>
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc400011" version="1">Optimization: Kinetic Repulsor Field</content>
 	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40000k" version="2">Allies you &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; push enemies backward by [1] when dealing damage.</content>
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc400012" version="1">Optimization: Maximum Yield</content>
-	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40000l" version="2">Allies you &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; have their weapon's damage dice increased to a D20.</content>
+	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40000l" version="2">Allies you &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; have their weapon's damage dice increased to a D20 for one turn.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; No extended effect when Infusing the same ally multiple times.</content>
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc400013" version="1">Optimization: Output Contingency</content>
 	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40000m" version="2">Allies you &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; will always roll at least a 4 when dealing damage.</content>
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc400014" version="1">Optimization: Precision Boost</content>
@@ -234,7 +257,7 @@
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc400018" version="1">Optimization: Spell Calibration Sequence</content>
 	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40000r" version="2">Grant allies a +2 bonus to their &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt; upon &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infusing&lt;/LSTag&gt; them.</content>
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc400019" version="1">Optimization: Spell Slot Bypass</content>
-	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40000s" version="2">Allies you &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; may cast one Spell without expending a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;.</content>
+	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40000s" version="2">Allies you &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; may cast one Spell without expending a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; No extended effect when Infusing the same ally multiple times.</content>
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc400020" version="1">Optimization: Stability Matrix</content>
 	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40000t" version="2">Grant allies &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; upon &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infusing&lt;/LSTag&gt; them.</content>
 
@@ -244,27 +267,27 @@
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc40z001" version="1">Sabotage: Armour Compromise</content>
 	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40z00a" version="2">Impose upon enemies a -2 penalty to their &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; upon &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infusing&lt;/LSTag&gt; them.</content>
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc40z002" version="1">Sabotage: Concentration Breach</content>
-	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40z00b" version="2">Upon &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infusing&lt;/LSTag&gt; an enemy, they immediately lose their &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt;.</content>
+	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40z00b" version="2">Upon &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infusing&lt;/LSTag&gt; an enemy, they immediately lose their &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; No extended effect when Infusing the same enemy multiple times.</content>
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc40z003" version="1">Sabotage: Critical Lockout</content>
 	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40z00c" version="2">Enemies you &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; cannot roll &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hits&lt;/LSTag&gt;.</content>
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc40z004" version="1">Sabotage: Cybernetic Psychosis</content>
-	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40z00d" version="2">Upon &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infusing&lt;/LSTag&gt; an enemy, they become rife with &lt;LSTag Type="Status" Tooltip="MADNESS"&gt;Madness&lt;/LSTag&gt;.</content>
+	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40z00d" version="2">Upon &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infusing&lt;/LSTag&gt; an enemy, they become rife with &lt;LSTag Type="Status" Tooltip="MADNESS"&gt;Madness&lt;/LSTag&gt; for one turn.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; No extended effect when Infusing the same enemy multiple times.</content>
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc40z005" version="1">Sabotage: Defensive Degradation</content>
 	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40z00e" version="2">Impose upon enemies -2 penalty to &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; upon &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infusing&lt;/LSTag&gt; them.</content>
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc40z006" version="1">Sabotage: Direct System Damage</content>
-	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40z00f" version="2">Enemies you &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; take 1d8 Force damage multiplied by your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
+	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40z00f" version="2">Enemies you &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; take 1d8 Force damage multiplied by your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; No extended effect when Infusing the same enemy multiple times.</content>
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc40z007" version="1">Sabotage: Exposed System Info</content>
 	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40z00g" version="2">Enemies you &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; will have all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made toward them be made with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc40z008" version="1">Sabotage: Greater Soporific</content>
-	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40z00h" version="2">Enemies you &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; will fall &lt;LSTag Type="Status" Tooltip="SLEEPING"&gt;Asleep&lt;/LSTag&gt; at the start of their next turn.</content>
+	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40z00h" version="2">Enemies you &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; will fall &lt;LSTag Type="Status" Tooltip="SLEEPING"&gt;Asleep&lt;/LSTag&gt; when their Infusion wears off.</content>
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc40z009" version="1">Sabotage: Healing Lockout</content>
 	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40z00i" version="2">Enemies you &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; cannot recover &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.</content>
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc40z010" version="1">Sabotage: Minimum Yield</content>
-	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40z00j" version="2">Enemies you &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; have their weapon's damage dice decreased to a D4.</content>
+	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40z00j" version="2">Enemies you &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; have their weapon's damage dice decreased to a D4 for one turn.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; No extended effect when Infusing the same enemy multiple times.</content>
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc40z011" version="1">Sabotage: Mobility Lock</content>
-	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40z00k" version="2">Enemies you &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; cannot move.</content>
+	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40z00k" version="2">Enemies you &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; become &lt;LSTag Type="Status" Tooltip="CRIPPLED"&gt;Crippled&lt;/LSTag&gt; for one turn.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; No extended effect when Infusing the same enemy multiple times.</content>
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc40z012" version="1">Sabotage: Output Limiter</content>
-	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40z00l" version="2">Enemies you &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; become &lt;LSTag Type="Status" Tooltip="REDUCE"&gt;Reduced&lt;/LSTag&gt;.</content>
+	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40z00l" version="2">Enemies you &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; become &lt;LSTag Type="Status" Tooltip="REDUCE"&gt;Reduced&lt;/LSTag&gt; for one turn.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; No extended effect when Infusing the same enemy multiple times.</content>
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc40z013" version="1">Sabotage: Precision Degradation</content>
 	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40z00m" version="2">Impose upon enemies -2 penalty to all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; upon &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infusing&lt;/LSTag&gt; them.</content>
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc40z014" version="1">Sabotage: Reaction Suppression</content>
@@ -272,9 +295,9 @@
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc40z015" version="1">Sabotage: Save Destabilization</content>
 	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40z00o" version="2">Enemies you &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; make all &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc40z016" version="1">Sabotage: Shield Collapse</content>
-	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40z00p" version="2">Enemies you &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; have all &lt;LSTag Tooltip="TemporaryHitPoints"&gt;Temporary Hit Points&lt;/LSTag&gt; stripped from them.</content>
+	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40z00p" version="2">Enemies you &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; have all &lt;LSTag Tooltip="TemporaryHitPoints"&gt;Temporary Hit Points&lt;/LSTag&gt; stripped from them.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; No extended effect when Infusing the same enemy multiple times.</content>
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc40z017" version="1">Sabotage: Signal Silence</content>
-	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40z00q" version="2">Enemies you &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; become &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Muted&lt;/LSTag&gt;.</content>
+	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40z00q" version="2">Enemies you &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; become &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Muted&lt;/LSTag&gt; for one turn.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; No extended effect when Infusing the same enemy multiple times.</content>
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc40z018" version="1">Sabotage: Spell Interference</content>
 	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40z00r" version="2">Impose upon enemies a -2 penalty to their &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt; upon &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infusing&lt;/LSTag&gt; them.</content>
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc40z019" version="1">Sabotage: Targeting Disruption</content>

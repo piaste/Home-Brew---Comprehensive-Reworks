@@ -33,6 +33,13 @@
                     <attribute id="UUID" type="guid" value="6895d347-c51e-4c7b-a29a-464eea3f550a"/>
 					</node>
                 <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Target_Friends;Target_ViciousMockery;Target_AnimateDead;Target_Harm"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="Bard - College of Moriendi"/>
+                    <attribute id="TableUUID" type="guid" value="89818b42-0c0c-4c76-ade9-2148f37cd51d"/>
+                    <attribute id="UUID" type="guid" value="4b48b6f5-3fb8-4e40-8510-65bf2df0926f"/>
+					</node>
+                <node id="DefaultValue">
                     <attribute id="Add" type="LSString" value="Target_Friends;Target_ViciousMockery;Target_MagicWeapon"/>
                     <attribute id="Level" type="int32" value="1"/>
                     <attribute id="SelectorId" type="LSString" value="Bard - College of Swords"/>

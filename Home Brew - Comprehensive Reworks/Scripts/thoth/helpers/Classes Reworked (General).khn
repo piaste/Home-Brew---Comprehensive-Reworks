@@ -148,6 +148,10 @@ function NoMeleeWeaponEquipped(entity)
     return ConditionResult(true)
 end
 
+function NecromancyCheck()
+    return IsSpellOfSchool(SpellSchool.Necromancy)
+end
+
 function NoRangedWeaponEquipped(entity)
     local entity = entity or context.Source
     if (GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand, entity).IsValid) then

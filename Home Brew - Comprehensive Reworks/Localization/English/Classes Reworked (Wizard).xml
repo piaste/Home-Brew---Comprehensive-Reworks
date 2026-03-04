@@ -126,6 +126,112 @@
 	<content contentuid="h9aee3403g58c0g4c53g8ca6g3891622d564d" version="2">Scholar's Focus</content>
 	<content contentuid="hcbb5a5cfg7df0g412cga4a4g3c5b22ss9df7" version="4">The first Spell you cast each turn will not cost an &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt; or &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
 
+<!--LUMINAL CONFLUENCE-->
+
+	<content contentuid="hc31dc575g4407g476as65d4f58es52fe15f1" version="1">Luminal Confluence</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s5ef45" version="2">A lifetime of study has granted you mastery over the elements. As they manifest, disperse, and converge at your fingertips, each leaves behind a residual stain — malleable, mutable, and awaiting your command.</content>
+
+	<content contentuid="hc31dc575g4407g476as65d4f58es52000000" version="2">Elemental Concierge</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef54600000z" version="2">Upon dealing elemental damage with a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt;, you generate one Elemental Stain, dependent on the type of damage dealt.&lt;br&gt;&lt;br&gt;Elemental Stains empower your Spells and Cantrips in various ways, depending on what types of Elemental Stains you currently possess. This can be toggled at any time.</content>
+
+	<content contentuid="hc31dc575g4407g476as65d4f58es52fe1502" version="2">Luminal Conversion</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s5ef0b" version="2">Gain the ability to expend one charge of &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery&lt;/LSTag&gt; in order to generate an Elemental Stain of your choice for three turns.</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52fe15z2" version="2">Luminal Conversion</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s5efzb" version="2">Generate an Elemental Stain of your choice for one turn.</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52fe01z2" version="2">Luminal Conversion: Acid</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s50azb" version="2">Generate a &lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_ACID"&gt;Acid Stain&lt;/LSTag&gt;.</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52fe02z2" version="2">Luminal Conversion: Cold</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s50bzb" version="2">Generate a &lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_COLD"&gt;Cold Stain&lt;/LSTag&gt;.</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52fe03z2" version="2">Luminal Conversion: Fire</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s50czb" version="2">Generate a &lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_FIRE"&gt;Fire Stain&lt;/LSTag&gt;.</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52fe04z2" version="2">Luminal Conversion: Force</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s50dzb" version="2">Generate a &lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_FORCE"&gt;Force Stain&lt;/LSTag&gt;.</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52fe05z2" version="2">Luminal Conversion: Lightning</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s50ezb" version="2">Generate a &lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_LIGHTNING"&gt;Lightning Stain&lt;/LSTag&gt;.</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52fe06z2" version="2">Luminal Conversion: Necrotic</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s50fzb" version="2">Generate a &lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_NECROTIC"&gt;Necrotic Stain&lt;/LSTag&gt;.</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52fe07z2" version="2">Luminal Conversion: Poison</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s50gzb" version="2">Generate a &lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_POISON"&gt;Poison Stain&lt;/LSTag&gt;.</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52fe08z2" version="2">Luminal Conversion: Psychic</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s50hzb" version="2">Generate a &lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_PSYCHIC"&gt;Psychic Stain&lt;/LSTag&gt;.</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52fe09z2" version="2">Luminal Conversion: Radiant</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s50izb" version="2">Generate a &lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_RADIANT"&gt;Radiant Stain&lt;/LSTag&gt;.</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52fe10z2" version="2">Luminal Conversion: Thunder</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s50jzb" version="2">Generate a &lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_THUNDER"&gt;Thunder Stain&lt;/LSTag&gt;.</content>
+
+	<content contentuid="hc31dc575g4407g476as65d4f58es52fe1503" version="2">Stained Imprint</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s5ef0c" version="2">When expending an active Elemental Stain, you have a 25% chance to not consume it.</content>
+
+	<content contentuid="hc31dc575g4407g476as65d4f58es52fe1504" version="2">Luminal Mayhem</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s5ef0d" version="2">Gain the ability to expend your Elemental Stains to deal 1d12 damage to an enemy. The amount of and types of damage you deal scales with how many Elemental Stains you currently possess.</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52fe15z4" version="2">Luminal Mayhem</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s5efzd" version="2">Expend all of your Elemental Stains to deal damage to an enemy. The amount of damage you deal scales with how many Elemental Stains you currently possess.</content>
+
+	<content contentuid="hc31dc575g4407g476as65d4f58es52fe1505" version="2">Weavewalker's Expedition</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s5ef0e" version="2">Once per turn, upon generating an Elemental Stain, you potentially generate one Elemental Stain of a random element.</content>
+
+	<content contentuid="hc31dc575g4407g476as65d4f58es52fe1506" version="2">Luminal Genesis</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s5ef0f" version="2">Gain the ability to expend all of your Elemental Stains to deal 1d8 damage to enemies within a [1] area. The amount of and types of damage you deal scales with how many Elemental Stains you currently possess.</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52fe15z6" version="2">Luminal Genesis</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s5efzf" version="2">Expend all of your Elemental Stains to deal damage to enemies within a [1] area. The amount of damage you deal scales with how many Elemental Stains you currently possess.</content>
+
+	<content contentuid="hc31dc575g4407g476as65d4f58es52010001" version="2">Acid Stain</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef54601000a" version="2">The next Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; you cast will reduce your targets &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by 2 until the end of their next turn.</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52010002" version="2">Cold Stain</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef54601000b" version="2">The next Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; you cast will halve your targets &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; until the end of their next turn.</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52010003" version="2">Fire Stain</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef54601000c" version="2">The next Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; you cast will reduce the number required to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; by 1.</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52010004" version="2">Force Stain</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef54601000d" version="2">The next Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; you cast will ignore all forms of damage &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt;.</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52010005" version="2">Lightning Stain</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef54601000e" version="2">The next Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; you cast will prevent your target from using &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reactions&lt;/LSTag&gt; until the end of their next turn.</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52010006" version="2">Necrotic Stain</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef54601000f" version="2">The next Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; you cast will prevent your target from regaining &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; until the end of their next turn.</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52010007" version="2">Poison Stain</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef54601000g" version="2">The next Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; you cast will impose &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on your targets &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; until the end of their next turn.</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52010008" version="2">Psychic Stain</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef54601000h" version="2">The next Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; you cast will impose &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on your targets &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; until the end of their next turn.</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52010009" version="2">Radiant Stain</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef54601000i" version="2">The next Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; you cast will heal an allied target. The amount of &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; restored scales with your level.</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52010010" version="2">Thunder Stain</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef54601000j" version="2">The next Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; you cast will render your target unable to speak, preventing them from casting Spells with a verbal components until the end of their next turn.</content>
+
+	<content contentuid="hc31dc575g4407g476as65d4f58es520100z1" version="2">Acid Stain</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef5460100za" version="2">Affected creature's &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; is reduced by 2 until the end of their next turn.</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es520100z2" version="2">Cold Stain</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef5460100zb" version="2">Affected creature's &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; is halved until the end of their next turn.</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es520100z5" version="2">Lightning Stain</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef5460100ze" version="2">Affected creature is unable to utilize &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reactions&lt;/LSTag&gt; until the end of their next turn.</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es520100z6" version="2">Necrotic Stain</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef5460100zf" version="2">Affected creature is unable to regain &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; until the end of their next turn.</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es520100z7" version="2">Poison Stain</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef5460100zg" version="2">Affected creature has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; until the end of their next turn.</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es520100z8" version="2">Psychic Stain</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef5460100zh" version="2">Affected creature has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; until the end of their next turn.</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52010z10" version="2">Thunder Stain</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef5460100zj" version="2">Affected creature is unable to speak, preventing them from casting Spells with a verbal component until the end of their next turn.</content>
+
+	<content contentuid="hc31dc575g4407g476as65d4f58es52000001" version="2">Caustic Thread</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef54600000a" version="2">Touch a creature, infusing them with a concentrated filament of acid.</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52000002" version="2">Glacial Shard</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef54600000b" version="2">Launch a razor shard of ice at a creature. If the target has moved this turn, the damage dealt is increased.</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52000003" version="2">Ember Lance</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef54600000c" version="2">Project a searing lance of flame in a line, dealing Fire damage to all creatures in its path.</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52000004" version="2">Aether Pulse</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef54600000d" version="2">Release a surge of compressed force in a short cone, dealing Force damage and pushing creatures [1] away from you.</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52000005" version="2">Arc Spark</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef54600000e" version="2">Unleash a crackling bolt of lightning at a creature, dealing Lightning damage. The bolt arcs to a nearby enemy for reduced damage.</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52000006" version="2">Grave Touch</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef54600000f" version="2">Channel necrotic energy through your hand, dealing damage to a creature that you touch. You regain &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; equal to the damage dealt.</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52000007" version="2">Envenom</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef54600000g" version="2">Expel virulent toxin around you, dealing damage to creatures within [1] of you and imposing &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on their &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; for one turn.</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52000008" version="2">Mind Flense</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef54600000h" version="2">Assault a creature’s mind, shattering their perception of what's nearby. On a failed &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;, the target becomes stricken with &lt;LSTag Type="Status" Tooltip="MADNESS"&gt;Madness&lt;/LSTag&gt; for one turn.</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52000009" version="2">Prismatic Ray</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef54600000i" version="2">Fire a beam of radiant light at a creature. On a failed &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;, the target is &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt; for one turn.</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52000010" version="2">Resonant Burst</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef54600000j" version="2">Emit a thunderous pulse around a creature, dealing damage to creatures within [1] of them and pushing them backward by [2].</content>
+
 <!--NECROMANCER-->
 
 	<content contentuid="hc31dc575g4407g4761gb859g32a5960e693a" version="1">Necromancer</content>

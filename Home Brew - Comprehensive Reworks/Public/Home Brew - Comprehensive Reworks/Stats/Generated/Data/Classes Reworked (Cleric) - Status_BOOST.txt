@@ -186,7 +186,39 @@ data "StatusEffect" "a345df07-737e-4217-af24-8bba7faef78b"
 data "StackId" "DEATHOFTHEFIRSTBORNS"
 data "TickType" "EndTurn"
 
-<!--LIFE CLERIC-->
+<!--FORGE DOMAIN-->
+
+new entry "STRIKINGIRON_VFX"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h695df0c5g7b1eg47a16se8f5e6f5e8f898z2;2"
+data "Description" "h3063c312g64f5g471a6sd5f2ef5d4fe5f2zb;2"
+data "Icon" "ForgeDomain_StrikingIron"
+data "StackId" "STRIKINGIRON"
+data "ApplyEffect" "96f3a781-7e09-423a-a937-c1afc659b01a"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+new entry "STRIKINGIRON_ADVANTAGE"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h695df0c5g7b1eg47a16se8f5e6f5e8f898y2;2"
+data "Description" "h3063c312g64f5g471a6sd5f2ef5d4fe5f2yb;2"
+data "Icon" "ForgeDomain_StrikingIron"
+data "SoundStart" "Misc_Status_Heat_Convergence_Enter_MO"
+data "SoundLoop" "Misc_Status_Heat_Convergence_MO"
+data "SoundStop" "Misc_Status_Heat_Convergence_MO_Stop"
+data "StackId" "STRIKINGIRON_ADVANTAGE"
+data "Boosts" "Advantage(AttackTarget)"
+data "StatusEffect" "60794bbe-4627-488c-813d-33afa2df5b53"
+
+new entry "DIVINEINSTRUMENT_BLOCKER"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "TickType" "EndTurn"
+data "Passives" "DivineInstrument_Blocker_Remover"
+
+<!--LIFE DOMAIN-->
 
 new entry "DIVINEPRESENCE"
 type "StatusData"
@@ -199,7 +231,7 @@ data "StackId" "DIVINEPRESENCE"
 data "OnApplyFunctors" "Resurrect(100,100);RestoreResource(Movement, 100%, 0);UseActionResource(ActionPoint,100%,0);UseActionResource(BonusActionPoint,100%,0);ApplyStatus(RESURRECTING, 100, 1)"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;ApplyToDead;IgnoreResting"
 
-<!--TEMPEST CLERIC-->
+<!--TEMPEST DOMAIN-->
 
 new entry "DISCHARGE_BLOCKER"
 type "StatusData"
@@ -237,7 +269,7 @@ data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnCastResolved"
 data "StatsFunctors" "RemoveStatus(DESTRUCTIVE_WRATH)"
 
-<!--WAR CLERIC-->
+<!--WAR DOMAIN-->
 
 new entry "DIVINE_FAITH"
 type "StatusData"
@@ -520,6 +552,7 @@ data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndi
 data "AuraRadius" "9"
 data "AuraStatuses" "IF(not HasStatus('SITOUT_ONCOMBATSTART_APPLIER_TECHNICAL',context.Source) and not HasStatus('SITOUT_ONCOMBATSTART_DOONCE_TECHNICAL',context.Source) and not HasStatus('BANISHED',context.Source) and not HasStatus('BANISHED_FINALSTAND',context.Source) and Ally() and HasStatus('DOWNED',context.Target)):ApplyStatus(SANCTUARY,100,-1)"
 data "StatusGroups" "SG_RemoveOnRespec"
+data "RemoveEvents" "OnCombatEnded"
 
 new entry "STALWART"
 type "StatusData"

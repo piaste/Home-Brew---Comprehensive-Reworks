@@ -210,7 +210,7 @@
 <!--MELEE EXPERTISE-->
 
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa00030" version="2">Melee Expertise</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa000d0" version="3">Melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; you make with your main-hand add your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; multiplied by two when rolling for damage.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa000d0" version="3">Melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; you make with your main-hand add your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; multiplied by two when rolling for damage. In addition, you ignore all physical &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt;.</content>
 
 <!--PERFORMER-->
 
@@ -356,11 +356,11 @@
 <!--TOGETHER IN TORMENT-->
 
 	<content contentuid="8a87461fd8dd4f5b9098ded714sdf68878d10" version="2">Together In Torment</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f60d1fd250j" version="3">Dealing damage to an enemy with an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; will &lt;LSTag Type="Status" Tooltip="TORMENTED"&gt;Torment&lt;/LSTag&gt; them for three turns and grant you one stack of &lt;LSTag Type="Status" Tooltip="TORMENTOR"&gt;Tormentor&lt;/LSTag&gt;. Upon damaging a Tormented enemy with an Attack Roll, all nearby Tormented enemies will take Necrotic damage equal to the amount of stacks of Tormentor that you have.&lt;br&gt;&lt;br&gt;Landing a killing blow will reset your stacks of Tormentor.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f60d1fd250j" version="3">Dealing damage to an enemy will &lt;LSTag Type="Status" Tooltip="TORMENTED"&gt;Torment&lt;/LSTag&gt; them for three turns and grant you one stack of &lt;LSTag Type="Status" Tooltip="TORMENTOR"&gt;Tormentor&lt;/LSTag&gt;. Upon damaging a Tormented enemy, all nearby Tormented enemies will take Necrotic damage equal to the amount of stacks of Tormentor that you have.&lt;br&gt;&lt;br&gt;Landing a killing blow will reset your stacks of Tormentor.</content>
 	<content contentuid="8a87461fd8dd4f5b9098ded714sdf6887zz10" version="2">Tormented</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f60d1fdzz0j" version="3">Affected creature will take additional damage when their &lt;LSTag Type="Status" Tooltip="TORMENTOR"&gt;Tormentor&lt;/LSTag&gt; deals Necrotic damage to a Tormented creature through an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;. This damage is equal to the amount of Tormentor stacks that they have.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f60d1fdzz0j" version="3">Affected creature will take additional damage when their &lt;LSTag Type="Status" Tooltip="TORMENTOR"&gt;Tormentor&lt;/LSTag&gt; deals damage to a Tormented creature. This damage is equal to the amount of Tormentor stacks that they have.</content>
 	<content contentuid="8a87461fd8dd4f5b9098ded714sdf6887yy10" version="2">Tormentor</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f60d1fdyy0j" version="3">Affected creature will deal additional Necrotic damage to all &lt;LSTag Type="Status" Tooltip="TORMENTED"&gt;Tormented&lt;/LSTag&gt; enemies within [1] of them equal to the amount of Tormentor stacks that they have when dealing damage to a Tormented enemy through an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f60d1fdyy0j" version="3">Affected creature will deal additional Necrotic damage to all &lt;LSTag Type="Status" Tooltip="TORMENTED"&gt;Tormented&lt;/LSTag&gt; enemies within [1] of them equal to the amount of Tormentor stacks that they have when dealing damage to a Tormented enemy.</content>
 
 <!--VISAGE OF REFLECTION-->
 
@@ -380,6 +380,9 @@
 
 	<content contentuid="be31014b-2a27-4970-b6d6-c95bde200003" version="1">Yokebreaker: Battle Synthetic</content>
 	<content contentuid="be31014b-2a27-4970-b6d6-c95bde20000c" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_BattleSynthetic"&gt;Battle Synthetic Artificer&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+
+	<content contentuid="7bd6ea09-9e0b-44bc-8d11-8b5dddf94853" version="1">Yokebreaker: Grenadier</content>
+	<content contentuid="b7a4daca-66d3-41e3-b29b-8d5b6090a751" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Grenadier"&gt;Grenadier Artificer&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
 	<content contentuid="be31014b-2a27-4970-b6d6-c95bde200004" version="1">Yokebreaker: Infused Arcsmith</content>
 	<content contentuid="be31014b-2a27-4970-b6d6-c95bde20000d" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_InfusedArcsmith"&gt;Infused Arcsmith Artificer&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
@@ -410,6 +413,9 @@
 	<content contentuid="fde3ac3a-eedd-4b43-8f27-e60d0860e923" version="1">Yokebreaker: College of Lore</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df06" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Lore"&gt;College of Lore Bard&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
+	<content contentuid="94c029af-fb65-4fbe-b723-613f9b0d233e" version="1">Yokebreaker: College of Moriendi</content>
+	<content contentuid="d5c9fabe-0777-4b6e-8ddf-d3670d678ccb" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Lore"&gt;College of Moriendi Bard&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+
 	<content contentuid="3703a8f9-0db1-44ab-8766-4c5027e0a3ef" version="1">Yokebreaker: College of Steel</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df07" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Steel"&gt;College of Steel Bard&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
@@ -420,6 +426,9 @@
 
 	<content contentuid="09829dfe-f2df-4dec-aa42-4f5eef04a9d4" version="1">Yokebreaker: Death Domain</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df09" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Death"&gt;Death Domain Cleric&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+
+	<content contentuid="d0c1e4ac-08cf-468b-ae1b-56e06840a278" version="1">Yokebreaker: Forge Domain</content>
+	<content contentuid="70c5110d-fb4d-4639-95ab-df472ba50a1e" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Forge"&gt;Forge Domain Cleric&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
 	<content contentuid="462a81da-b40b-47a3-88da-303b2b548119" version="1">Yokebreaker: Life Domain</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df10" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Life"&gt;Life Domain Cleric&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
@@ -478,6 +487,9 @@
 	<content contentuid="4498ba54-55e6-452d-a2db-b3d34420699f" version="1">Yokebreaker: Way of the Shadow Arts</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df24" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_WayoftheShadowArts"&gt;Way of the Shadow Arts Monk&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
+	<content contentuid="0e03571b-171b-438f-8925-1865e9159fe2" version="1">Yokebreaker: Way of the Tempered Steel</content>
+	<content contentuid="b242a680-3c86-4741-962b-66678b5c5c11" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_WayoftheTemperedSteel"&gt;Way of the Tempered Steel Monk&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+
 
 
 	<content contentuid="b63eed90-3cc9-4f2c-ac67-de5383244749" version="1">Yokebreaker: Oath of the Ancients</content>
@@ -506,6 +518,8 @@
 	<content contentuid="1b0b93e3-5a59-435e-a438-f33c487c85a8" version="1">Yokebreaker: Swarmkeeper</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df32" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Swarmkeeper"&gt;Swarmkeeper Ranger&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
+	<content contentuid="06fa774e-2936-4727-b36f-c170d4ca897f" version="1">Yokebreaker: Twinfang</content>
+	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df31" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Twinfang"&gt;Twinfang Ranger&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
 
 	<content contentuid="0bfdc937-3a62-449d-8b3f-29812adf32a1" version="1">Yokebreaker: Arcane Trickster</content>
@@ -527,6 +541,9 @@
 
 	<content contentuid="e4c32443-a174-4fd1-93d8-9f91148ffe30" version="1">Yokebreaker: Draconic Bloodline</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df37" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_DraconicBloodline"&gt;Draconic Bloodline Sorcerer&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+
+	<content contentuid="e032fd36-033e-4e44-b45b-e8cd5676ab0d" version="1">Yokebreaker: Radiant Bloom</content>
+	<content contentuid="f8eb5743-ea2a-4249-8f16-846545c86cb4" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_RadiantBloom"&gt;Radiant Bloom Sorcerer&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
 	<content contentuid="bdb436c7-daf0-43d9-944f-4ddbf08befe0" version="1">Yokebreaker: Shade Walker</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df38" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_ShadeWalker"&gt;Shade Walker Sorcerer&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
@@ -564,6 +581,9 @@
 
 	<content contentuid="ae030679-dbd0-414d-ab31-36c9e39ca5c7" version="1">Yokebreaker: Evoker</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df47" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Evoker"&gt;Evoker Wizard&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+
+	<content contentuid="f022fa94-4036-4c94-ac2c-1bee32f4d1a4" version="1">Yokebreaker: Luminal Confluence</content>
+	<content contentuid="25028371-4299-410e-b781-162323fca473" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_LuminalConfluence"&gt;Luminal Confluence Wizard&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
 	<content contentuid="b982ecd5-a889-4fe9-b81f-b8c8a3580397" version="1">Yokebreaker: Necromancy</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df48" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Necromancy"&gt;Necromancy Wizard&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>

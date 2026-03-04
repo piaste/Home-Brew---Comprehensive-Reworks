@@ -397,6 +397,13 @@
                     <attribute id="UUID" type="guid" value="0fd05af4-0082-4262-985d-11041e4b15bd"/>
                 </node>
                 <node id="FeatDescription">
+                    <attribute id="Description" type="TranslatedString" handle="b7a4daca-66d3-41e3-b29b-8d5b6090a751" version="4"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="7bd6ea09-9e0b-44bc-8d11-8b5dddf94853" version="1"/>
+                    <attribute id="ExactMatch" type="FixedString" value="ArtificerGrenadier"/>
+                    <attribute id="FeatId" type="guid" value="8dfca7e9-16a1-419c-bb92-faae1eed1bff"/>
+                    <attribute id="UUID" type="guid" value="1ca71298-3f92-44d4-bc0f-e21e21ab8075"/>
+                </node>
+                <node id="FeatDescription">
                     <attribute id="Description" type="TranslatedString" handle="be31014b-2a27-4970-b6d6-c95bde20000d" version="4"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="be31014b-2a27-4970-b6d6-c95bde200004" version="1"/>
                     <attribute id="ExactMatch" type="FixedString" value="ArtificerInfusedArcsmith"/>
@@ -453,6 +460,13 @@
                     <attribute id="UUID" type="guid" value="3c82710f-a11d-4f1a-b2d4-53f4a019a51a"/>
                 </node>
                 <node id="FeatDescription">
+                    <attribute id="Description" type="TranslatedString" handle="d5c9fabe-0777-4b6e-8ddf-d3670d678ccb" version="4"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="94c029af-fb65-4fbe-b723-613f9b0d233e" version="1"/>
+                    <attribute id="ExactMatch" type="FixedString" value="BardCollegeofMoriendi"/>
+                    <attribute id="FeatId" type="guid" value="b296fca6-a2ad-4687-ac54-a359a65aed86"/>
+                    <attribute id="UUID" type="guid" value="0a3edeca-e426-4cbe-8a77-2017dfb87f7c"/>
+                </node>
+                <node id="FeatDescription">
                     <attribute id="Description" type="TranslatedString" handle="47709b48-6124-44dc-8792-5sd6f545df07" version="4"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="3703a8f9-0db1-44ab-8766-4c5027e0a3ef" version="1"/>
                     <attribute id="ExactMatch" type="FixedString" value="BardCollegeOfSteel"/>
@@ -472,6 +486,13 @@
                     <attribute id="ExactMatch" type="FixedString" value="ClericDeathDomain"/>
                     <attribute id="FeatId" type="guid" value="2544f577-59ed-47ae-868c-22ab0eab59a1"/>
                     <attribute id="UUID" type="guid" value="f4cf17f9-d8b8-45ea-a927-e0a318402bfb"/>
+                </node>
+                <node id="FeatDescription">
+                    <attribute id="Description" type="TranslatedString" handle="70c5110d-fb4d-4639-95ab-df472ba50a1e" version="4"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="d0c1e4ac-08cf-468b-ae1b-56e06840a278" version="1"/>
+                    <attribute id="ExactMatch" type="FixedString" value="ClericForgeDomain"/>
+                    <attribute id="FeatId" type="guid" value="038aa39c-d4ca-41f0-8b25-8ca7b4356bc4"/>
+                    <attribute id="UUID" type="guid" value="771c321c-c89a-4151-a29c-a7ccf84d9898"/>
                 </node>
                 <node id="FeatDescription">
                     <attribute id="Description" type="TranslatedString" handle="47709b48-6124-44dc-8792-5sd6f545df10" version="4"/>
@@ -593,6 +614,13 @@
                     <attribute id="UUID" type="guid" value="f0656b8a-294e-44e9-9859-6a800a1d943c"/>
                 </node>
                 <node id="FeatDescription">
+                    <attribute id="Description" type="TranslatedString" handle="b242a680-3c86-4741-962b-66678b5c5c11" version="4"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="0e03571b-171b-438f-8925-1865e9159fe2" version="1"/>
+                    <attribute id="ExactMatch" type="FixedString" value="MonkWayOfTheTemperedSteel"/>
+                    <attribute id="FeatId" type="guid" value="8f0ee646-0114-4f46-8ff3-d2b5bcaf1ca7"/>
+                    <attribute id="UUID" type="guid" value="b6d1652f-1ca4-4278-ae75-de464b22c543"/>
+                </node>
+                <node id="FeatDescription">
                     <attribute id="Description" type="TranslatedString" handle="47709b48-6124-44dc-8792-5sd6f545df25" version="4"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="b63eed90-3cc9-4f2c-ac67-de5383244749" version="1"/>
                     <attribute id="ExactMatch" type="FixedString" value="PaladinOathOfTheAncients"/>
@@ -649,6 +677,13 @@
                     <attribute id="UUID" type="guid" value="fe8af75b-5582-45fc-8cd8-16d918c6c0d4"/>
                 </node>
                 <node id="FeatDescription">
+                    <attribute id="Description" type="TranslatedString" handle="55ce1ba6w4ef6zs4ad5f64we6f1s54fw8ef4e" version="4"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="06fa774e-2936-4727-b36f-c170d4ca897f" version="1"/>
+                    <attribute id="ExactMatch" type="FixedString" value="RangerTwinfang"/>
+                    <attribute id="FeatId" type="guid" value="bfe6f78a-6dde-40e5-9982-2ed2a471f518"/>
+                    <attribute id="UUID" type="guid" value="ba618425-ef0d-4bc8-b001-25dd1cba07a0"/>
+                </node>
+                <node id="FeatDescription">
                     <attribute id="Description" type="TranslatedString" handle="47709b48-6124-44dc-8792-5sd6f545df33" version="4"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="0bfdc937-3a62-449d-8b3f-29812adf32a1" version="1"/>
                     <attribute id="ExactMatch" type="FixedString" value="RogueArcaneTrickster"/>
@@ -689,6 +724,13 @@
                     <attribute id="ExactMatch" type="FixedString" value="SorcererDraconicBloodline"/>
                     <attribute id="FeatId" type="guid" value="ba1c505b-a3a8-483a-a061-a8b120c45c00"/>
                     <attribute id="UUID" type="guid" value="df3e08b8-0e50-4cc3-b5fa-7331af3f5ec4"/>
+                </node>
+                <node id="FeatDescription">
+                    <attribute id="Description" type="TranslatedString" handle="55ce1b701c9646wse54f684es2f4s658e4f65" version="4"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="55ce1b701c9642a4a54s6df546wsef2sef545" version="1"/>
+                    <attribute id="ExactMatch" type="FixedString" value="SorcererRadiantBloom"/>
+                    <attribute id="FeatId" type="guid" value="35e6f8f0-01d4-4273-ad6b-994b287fabd1"/>
+                    <attribute id="UUID" type="guid" value="fd603da7-f156-42f2-a958-50a903470054"/>
                 </node>
                 <node id="FeatDescription">
                     <attribute id="Description" type="TranslatedString" handle="47709b48-6124-44dc-8792-5sd6f545df38" version="4"/>
@@ -766,6 +808,13 @@
                     <attribute id="ExactMatch" type="FixedString" value="WizardEvoker"/>
                     <attribute id="FeatId" type="guid" value="2f5710ec-6ad4-4060-97a4-99b701455dac"/>
                     <attribute id="UUID" type="guid" value="1313ac4c-08da-4f03-8bdb-d1661eb0a95e"/>
+                </node>
+                <node id="FeatDescription">
+                    <attribute id="Description" type="TranslatedString" handle="25028371-4299-410e-b781-162323fca473" version="4"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="f022fa94-4036-4c94-ac2c-1bee32f4d1a4" version="1"/>
+                    <attribute id="ExactMatch" type="FixedString" value="WizardLuminalConfluence"/>
+                    <attribute id="FeatId" type="guid" value="95dce8e9-bdd9-4951-8a05-8c5480f60352"/>
+                    <attribute id="UUID" type="guid" value="8b2a89d9-948f-4b67-bd7e-a97fb4cbe423"/>
                 </node>
                 <node id="FeatDescription">
                     <attribute id="Description" type="TranslatedString" handle="47709b48-6124-44dc-8792-5sd6f545df48" version="4"/>

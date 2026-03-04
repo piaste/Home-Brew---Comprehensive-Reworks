@@ -84,7 +84,11 @@
                     <attribute id="Spells" type="LSString" value="Shout_TurnUndead;Shout_DivineIntervention_Death"/>
                     <attribute id="UUID" type="guid" value="239cc7cc-f642-4ddc-b091-498d81612c55"/>
 					</node>
-
+        <node id="SpellList">
+                    <attribute id="Comment" type="FixedString" value="Cleric - Level 1 (Forge)"/>
+                    <attribute id="Spells" type="LSString" value="Shout_TurnUndead;Shout_DivineIntervention_Forge"/>
+                    <attribute id="UUID" type="guid" value="0da96163-c4aa-40f9-baa8-4a23d55f8e90"/>
+					</node>
         <node id="SpellList">
                     <attribute id="Comment" type="FixedString" value="Cleric - Level 1 (Life)"/>
                     <attribute id="Spells" type="LSString" value="Shout_TurnUndead;Shout_DivineIntervention_Life"/>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="a19b576b3c4541089f1d4b0e4ae765050azza" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="a19b576b3c4541089f1d4b0e4ae7650501zz1" version="2" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Katana_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="bf7ce4bc-c78f-4cf6-8dca-624034a2a8f6" />
+					<attribute id="Name" type="LSString" value="MAG_Monk_Tempered_Blade_1" />
+					<attribute id="ParentTemplateId" type="FixedString" value="7050c02e-f0e1-46b8-9400-2514805ecd2e" />
+					<attribute id="Stats" type="FixedString" value="MAG_Monk_Tempered_Blade_1" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="" version="0" />
+					<attribute id="TechnicalDescriptionParams" type="LSString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="3909a5ba-694a-0417-22a0-d471acb11c5a" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144818875517632712" />
+					<children>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="a19b576b3c4541089f1d4b0e4ae765050azza" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="a19b576b3c4541089f1d4b0e4ae7650502zz1" version="2" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Katana_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="0b806d26-0229-45c5-a0ac-2a79a789a923" />
+					<attribute id="Name" type="LSString" value="MAG_Monk_Tempered_Blade_2" />
+					<attribute id="ParentTemplateId" type="FixedString" value="7050c02e-f0e1-46b8-9400-2514805ecd2e" />
+					<attribute id="Stats" type="FixedString" value="MAG_Monk_Tempered_Blade_2" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="" version="0" />
+					<attribute id="TechnicalDescriptionParams" type="LSString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="3909a5ba-694a-0417-22a0-d471acb11c5a" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144818875517632712" />
+					<children>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="a19b576b3c4541089f1d4b0e4ae765050azza" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="a19b576b3c4541089f1d4b0e4ae7650503zz1" version="2" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Katana_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="82f53ff3-a694-4bae-b589-d2354e5f58b7" />
+					<attribute id="Name" type="LSString" value="MAG_Monk_Tempered_Blade_3" />
+					<attribute id="ParentTemplateId" type="FixedString" value="7050c02e-f0e1-46b8-9400-2514805ecd2e" />
+					<attribute id="Stats" type="FixedString" value="MAG_Monk_Tempered_Blade_3" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="" version="0" />
+					<attribute id="TechnicalDescriptionParams" type="LSString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="3909a5ba-694a-0417-22a0-d471acb11c5a" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144818875517632712" />
+					<children>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

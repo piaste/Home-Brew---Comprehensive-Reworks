@@ -359,6 +359,25 @@ data "Icon" "PassiveFeature_Generic_Threat"
 data "StatusPropertyFlags" "ForceOverhead;DisableCombatlog;DisablePortraitIndicator"
 data "FormatColor" "Red"
 
+<!--GREANDIER-->
+
+new entry "ARTIFICER_GRENADE_DICE_ROLL"
+type "StatusData"
+data "StatusType" "BOOST"
+data "HitAnimationType" "None"
+data "StackId" "ARTIFICER_GRENADE_DICE_ROLL"
+data "StackType" "Overwrite"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
+data "OnApplyFunctors" "ApplyStatus(ARTIFICER_GRENADE_APPLICATOR,100,0)"
+
+new entry "ARTIFICER_GRENADE_APPLICATOR"
+type "StatusData"
+data "StatusType" "BOOST"
+data "HitAnimationType" "None"
+data "StackId" "ARTIFICER_GRENADE_APPLICATOR"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
+data "OnRemoveFunctors" "IF(StatusDurationIsExactly(1,'ARTIFICER_GRENADE_DICE_ROLL')):SummonInInventory(3850ec1a-d951-45b7-9363-dc82e20bd28a,1,1,true,true,true);IF(StatusDurationIsExactly(2,'ARTIFICER_GRENADE_DICE_ROLL')):SummonInInventory(0b1aa718-fe45-4e4c-8811-ced51c581075,1,1,true,true,true);IF(StatusDurationIsExactly(3,'ARTIFICER_GRENADE_DICE_ROLL')):SummonInInventory(1fd5d25c-806e-44ea-9f52-20df63a44e98,1,1,true,true,true);IF(StatusDurationIsExactly(4,'ARTIFICER_GRENADE_DICE_ROLL')):SummonInInventory(cbc47f2b-b88a-4bd8-99cd-aacc2dc2ea44,1,1,true,true,true);IF(StatusDurationIsExactly(5,'ARTIFICER_GRENADE_DICE_ROLL')):SummonInInventory(e2968a2e-bc83-4d50-99ef-39ce78d2d630,1,1,true,true,true);IF(StatusDurationIsExactly(6,'ARTIFICER_GRENADE_DICE_ROLL')):SummonInInventory(6008231b-9f5a-44f6-8050-14586b7626fd,1,1,true,true,true);IF(StatusDurationIsExactly(7,'ARTIFICER_GRENADE_DICE_ROLL')):SummonInInventory(9320005f-18c6-4c2b-be7f-e168d3b15573,1,1,true,true,true);IF(StatusDurationIsExactly(8,'ARTIFICER_GRENADE_DICE_ROLL')):SummonInInventory(278271f9-3fbc-4cf7-a5dc-b36527f521b2,1,1,true,true,true);IF(StatusDurationIsExactly(9,'ARTIFICER_GRENADE_DICE_ROLL')):SummonInInventory(249ff64e-818b-4dc8-919b-7f297f64a2a3,1,1,true,true,true);IF(StatusDurationIsExactly(10,'ARTIFICER_GRENADE_DICE_ROLL')):SummonInInventory(10b6acda-aa4e-46b1-aa9a-e45ab914a28d,1,1,true,true,true);IF(StatusDurationIsExactly(11,'ARTIFICER_GRENADE_DICE_ROLL')):SummonInInventory(a4d98266-948b-4467-96cd-6a316f37ceda,1,1,true,true,true);IF(StatusDurationIsExactly(12,'ARTIFICER_GRENADE_DICE_ROLL')):SummonInInventory(b878380f-7248-4b06-83f8-2d26055497c8,1,1,true,true,true);IF(StatusDurationIsExactly(13,'ARTIFICER_GRENADE_DICE_ROLL')):SummonInInventory(98f2cb6a-e268-4f99-aac3-62edabd8774c,1,1,true,true,true);IF(StatusDurationIsExactly(14,'ARTIFICER_GRENADE_DICE_ROLL')):SummonInInventory(db1675d9-5147-4201-b243-a9ee9540cbb8,1,1,true,true,true);IF(StatusDurationIsExactly(15,'ARTIFICER_GRENADE_DICE_ROLL')):SummonInInventory(29d32b36-390f-4fe8-b27b-931393d76c2a,1,1,true,true,true);IF(StatusDurationIsExactly(16,'ARTIFICER_GRENADE_DICE_ROLL')):SummonInInventory(e5544395-3752-463c-80a8-e9b9b7ed1263,1,1,true,true,true);IF(StatusDurationIsExactly(17,'ARTIFICER_GRENADE_DICE_ROLL')):SummonInInventory(21756f85-a506-4e80-bdec-50bdbcbacab4,1,1,true,true,true);IF(StatusDurationIsExactly(18,'ARTIFICER_GRENADE_DICE_ROLL')):SummonInInventory(e077ef28-5de9-439d-bbaf-59536585c938,1,1,true,true,true);IF(StatusDurationIsExactly(19,'ARTIFICER_GRENADE_DICE_ROLL')):SummonInInventory(c3236e6e-21e4-4e39-a5b4-fda105d8ce3f,1,1,true,true,true);IF(StatusDurationIsExactly(20,'ARTIFICER_GRENADE_DICE_ROLL')):SummonInInventory(08c75e58-6e70-469a-a22e-44c184995e6c,1,1,true,true,true)"
+
 <!--INFUSED ARCSMITH-->
 
 new entry "ADAPTIVEINTERVENTION"
@@ -578,7 +597,7 @@ data "DisplayName" "88523fb3deaa2d5f5ef6304e0911fbc400017;4"
 data "Description" "99523fb3deaasdf5e8f6304e0911fbc40000q;4"
 data "Icon" "GenericIcon_Intent_Buff"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
-data "Boosts" "IgnoreResistance(Bludgeoning,Resistant);IgnoreResistance(Piercing,Resistant);IgnoreResistance(Slashing,Resistant);IgnoreResistance(Cold,Resistant);IgnoreResistance(Fire,Resistant);IgnoreResistance(Lightning,Resistant);IgnoreResistance(Thunder,Resistant);IgnoreResistance(Acid,Resistant);IgnoreResistance(Poison,Resistant);IgnoreResistance(Radiant,Resistant);IgnoreResistance(Necrotic,Resistant);IgnoreResistance(Force,Resistant);IgnoreResistance(Psychic,Resistant)"
+data "Boosts" "IF(Enemy()):IgnoreResistance(Bludgeoning,Resistant);IF(Enemy()):IgnoreResistance(Piercing,Resistant);IF(Enemy()):IgnoreResistance(Slashing,Resistant);IF(Enemy()):IgnoreResistance(Cold,Resistant);IF(Enemy()):IgnoreResistance(Fire,Resistant);IF(Enemy()):IgnoreResistance(Lightning,Resistant);IF(Enemy()):IgnoreResistance(Thunder,Resistant);IF(Enemy()):IgnoreResistance(Acid,Resistant);IF(Enemy()):IgnoreResistance(Poison,Resistant);IF(Enemy()):IgnoreResistance(Radiant,Resistant);IF(Enemy()):IgnoreResistance(Necrotic,Resistant);IF(Enemy()):IgnoreResistance(Force,Resistant);IF(Enemy()):IgnoreResistance(Psychic,Resistant)"
 
 new entry "SPELLCALIBRATIONSEQUENCE"
 type "StatusData"
@@ -731,8 +750,7 @@ data "DisplayName" "88523fb3deaa2d5f5ef6304e0911fbc40z011;4"
 data "Description" "99523fb3deaasdf5e8f6304e0911fbc40z00k;4"
 data "Icon" "GenericIcon_Intent_Debuff"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
-data "Boosts" "ActionResourceBlock(Movement);Attribute(Grounded)"
-data "StatusGroups" "SG_Restrained"
+data "OnApplyFunctors" "ApplyStatus(CRIPPLED,100,1)"
 
 new entry "OUTPUTLIMITER"
 type "StatusData"

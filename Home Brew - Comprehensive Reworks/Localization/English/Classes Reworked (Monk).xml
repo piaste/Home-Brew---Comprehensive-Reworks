@@ -239,6 +239,43 @@
 	<content contentuid="h9edc5297g58c0g4b7dg8e45g5asdf2s3d5f5" version="2">See No Evil</content>
 	<content contentuid="h9edc5297g58c0g4b7dg8e45gadfs36s5d4f8" version="3">Dealing damage to another creature &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinds&lt;/LSTag&gt; them for one turn.</content>
 
+<!--WAY OF THE TEMPERED STEEL-->
+
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500000" version="1">Way of the Tempered Steel</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000z" version="1">A stillness within the air around you gives pause to the most reckless of foes. You overwhelm within a cascading aura of unnerving calm - your hand resting soundly on the hilt of your weapon in subtle anticipation.</content>
+
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500001" version="1">Tempered Discipline</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000a" version="1">Gain the ability to summon a &lt;LSTag Type="Spell" Tooltip="Shout_Summon_TemperedBlade"&gt;Tempered Blade&lt;/LSTag&gt;, which grows in strength alongside your levels in Monk. In addition, you gain the ability to make a &lt;LSTag Type="Spell" Tooltip="Target_FlurryOfBlowsTempered"&gt;Tempered Strike&lt;/LSTag&gt;.</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500zz1" version="2">Summon Tempered Blade</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500zza" version="5">Summon a tempered blade, capable of cutting through any defense. As you level in Monk, it will deal additional damage and gain new effects.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Summoning your tempered blade may be done at any time as a free action.</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650501zz1" version="2">Tempered Katana</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050azza" version="5">Folded innumerable times over, this blade is impossible to touch without drawing blood. Unnerving power can be felt emanating from within.</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650502zz1" version="2">Improved Tempered Katana</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650503zz1" version="2">Refined Tempered Katana</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500az1" version="2">Tempered Edge</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500aza" version="5">Dealing damage with this weapon afflicts your target with both &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleeding&lt;/LSTag&gt; and with &lt;LSTag Type="Status" Tooltip="GAPING_WOUND"&gt;Gaping Wounds&lt;/LSTag&gt; for three turns.</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500bz1" version="2">Motivated Focus</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500bza" version="5">When dealing damage to an enemy with a weapon, the number needed to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; is reduced by 1.</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500cz1" version="2">Serrated Split</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500cza" version="5">Applying &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleed&lt;/LSTag&gt; to a creature with this weapon causes them to take the Bleed damage when both starting and ending their turn.</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae76505000z1" version="2">Flurry of Blows: Tempered Strike</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae76505000za" version="5">Deliver a focused blow with your main-hand weapon, dealing twice as much damage as a normal strike.</content>
+
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500002" version="1">Judgement Cut</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000b" version="1">Target a creature from afar with your equipped main-hand weapon that is below 34% of their total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;, teleporting to their position. In addition, you may instead target the ground in order to teleport to an area you can see.</content>
+
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500003" version="1">Tempered Strikes</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000c" version="1">When dealing damage to an enemy with a weapon, you add your unarmed damage to all Damage Rolls.</content>
+
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500004" version="1">Judgement Cut: Macabre</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000d" version="1">Target a group of creatures from afar with your equipped main-hand weapon. Any creature within the area below 34% of their total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; will be targeted.</content>
+
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500005" version="1">Unanswered Angle</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000e" version="1">When dealing damage to an enemy with a weapon, you ignore all physical &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt;.</content>
+
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500006" version="1">Judgement Cut: Execution</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000f" version="1">&lt;LSTag Type="Spell" Tooltip="Target_JudgementCut"&gt;Judgement Cut&lt;/LSTag&gt; will always trigger a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
+
 <!--PASSIVES-->
 
 	<content contentuid="9b7b811b9c3043e189f945540bf5116e00006" version="6">Ki Masteries</content>
@@ -265,7 +302,7 @@
 	<content contentuid="4512454c8e254628bd4dc62ea243a2a000zzd" version="6">When &lt;LSTag Type="Passive" Tooltip="Interrupt_DeflectMissiles"&gt;Deflective Reflex&lt;/LSTag&gt; has reduced the damage of a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt; to zero, throw the projectile back at your aggressor.</content>
 
 	<content contentuid="4512454c8e254628bd4dc62ea243a2a000005" version="6">Dexterous Ward</content>
-	<content contentuid="4512454c8e254628bd4dc62ea243a2a00000e" version="6">When a spell or effect would deal half damage on a successful &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;, it deals no damage if you succeed, and only half damage if you fail.</content>
+	<content contentuid="4512454c8e254628bd4dc62ea243a2a00000e" version="6">When a Spell or effect would deal half damage on a successful &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;, it deals no damage if you succeed, and only half damage if you fail.</content>
 
 	<content contentuid="4512454c8e254628bd4dc62ea243a2a000006" version="6">Fist of Crushing Rock</content>
 	<content contentuid="4512454c8e254628bd4dc62ea243a2a00000f" version="6">When a creature fails an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against you, gain a +1 bonus to Attack Rolls during your next turn. This effect can stack and will reset at the end of each of your turns.</content>
