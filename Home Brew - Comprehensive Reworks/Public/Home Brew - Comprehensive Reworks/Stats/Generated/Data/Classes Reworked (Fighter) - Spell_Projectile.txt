@@ -828,7 +828,7 @@ data "SpellSuccess" "DealDamage(LevelMapValue(SuperiorityDie), Force);ApplyStatu
 data "SpellFail" "DealDamage(LevelMapValue(SuperiorityDie)/2, Force)"
 data "TargetConditions" "not Dead() and Enemy()"
 data "ProjectileCount" "1"
-data "Trajectories" "0be6e4d7-55fe-4ee0-8acc-94fc3b474817,78f998fb-2bb4-c8bd-c170-fcd899abc905,a62c27e3-86c0-db69-8f04-0ea3074cae7a"
+data "Trajectories" "6c9f3555-9916-49d1-ba58-bdcfc6ec9e9f"
 data "Icon" "DraconicSentinel"
 data "DisplayName" "h8df49fb1g13acg4b8asdfwe968f4s6e000z4;1"
 data "Description" "h6bdfd618g15b3g40w843r98fe7983ur000zd;1"
