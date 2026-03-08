@@ -245,36 +245,42 @@
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000z" version="1">A stillness within the air around you gives pause to the most reckless of foes. You overwhelm within a cascading aura of unnerving calm - your hand resting soundly on the hilt of your weapon in subtle anticipation.</content>
 
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500001" version="1">Tempered Discipline</content>
-	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000a" version="1">Gain the ability to summon a &lt;LSTag Type="Spell" Tooltip="Shout_Summon_TemperedBlade"&gt;Tempered Blade&lt;/LSTag&gt;, which grows in strength alongside your levels in Monk. In addition, you gain the ability to make a &lt;LSTag Type="Spell" Tooltip="Target_FlurryOfBlowsTempered"&gt;Tempered Strike&lt;/LSTag&gt;.</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000a" version="1">Gain the ability to summon a &lt;LSTag Type="Spell" Tooltip="Shout_Summon_TemperedBlade"&gt;Tempered Blade&lt;/LSTag&gt;, which grows in strength alongside your levels in Monk. In addition, you gain the ability to perform &lt;LSTag Type="Spell" Tooltip="Target_JudgementCut"&gt;Judgement Cut&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_MirageBlade"&gt;Mirage Blade&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_TemperedStrike"&gt;Tempered Strike&lt;/LSTag&gt;.</content>
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500zz1" version="2">Summon Tempered Blade</content>
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500zza" version="5">Summon a tempered blade, capable of cutting through any defense. As you level in Monk, it will deal additional damage and gain new effects.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Summoning your tempered blade may be done at any time as a free action.</content>
-	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650501zz1" version="2">Tempered Katana</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650501zz1" version="2">Yamato</content>
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050azza" version="5">Folded innumerable times over, this blade is impossible to touch without drawing blood. Unnerving power can be felt emanating from within.</content>
-	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650502zz1" version="2">Improved Tempered Katana</content>
-	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650503zz1" version="2">Refined Tempered Katana</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650502zz1" version="2">Improved Yamato</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650503zz1" version="2">Refined Yamato</content>
+
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500az1" version="2">Tempered Edge</content>
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500aza" version="5">Dealing damage with this weapon afflicts your target with both &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleeding&lt;/LSTag&gt; and with &lt;LSTag Type="Status" Tooltip="GAPING_WOUND"&gt;Gaping Wounds&lt;/LSTag&gt; for three turns.</content>
-	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500bz1" version="2">Motivated Focus</content>
-	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500bza" version="5">When dealing damage to an enemy with a weapon, the number needed to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; is reduced by 1.</content>
-	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500cz1" version="2">Serrated Split</content>
-	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500cza" version="5">Applying &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleed&lt;/LSTag&gt; to a creature with this weapon causes them to take the Bleed damage when both starting and ending their turn.</content>
-	<content contentuid="a19b576b3c4541089f1d4b0e4ae76505000z1" version="2">Flurry of Blows: Tempered Strike</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500bz1" version="2">Serrated Split</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500bza" version="5">Applying &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleed&lt;/LSTag&gt; to a creature with this weapon causes them to take the Bleed damage when both starting and ending their turn.</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500cz1" version="2">Motivated Edge</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500cza" version="5">When making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against a &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleeding&lt;/LSTag&gt; target, you roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae76505000x1" version="2">Judgement Cut</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae76505000xa" version="5">Target a creature from afar with your equipped main-hand weapon.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Your target must be below 34% of their maximum &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleeding&lt;/LSTag&gt;.</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae76505000y1" version="2">Mirage Blade</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae76505000ya" version="5">Target a creature from afar with your equipped main-hand weapon, teleporting to their position. In addition, you may instead target the ground in order to teleport to an area you can see.</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae76505000z1" version="2">Tempered Strike</content>
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae76505000za" version="5">Deliver a focused blow with your main-hand weapon, dealing twice as much damage as a normal strike.</content>
 
-	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500002" version="1">Judgement Cut</content>
-	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000b" version="1">Target a creature from afar with your equipped main-hand weapon that is below 34% of their total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;, teleporting to their position. In addition, you may instead target the ground in order to teleport to an area you can see.</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500002" version="1">Focused Serenity</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000b" version="1">When dealing damage to an enemy with a weapon, you add your base unarmed damage to all Damage Rolls.</content>
 
-	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500003" version="1">Tempered Strikes</content>
-	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000c" version="1">When dealing damage to an enemy with a weapon, you add your unarmed damage to all Damage Rolls.</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500003" version="1">Macabre Patience</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000c" version="1">&lt;LSTag Type="Spell" Tooltip="Target_JudgementCut"&gt;Judgement Cut&lt;/LSTag&gt; now targets creatures within [1] of your original target. In addition, &lt;LSTag Type="Spell" Tooltip="Target_MirageBlade"&gt;Mirage Blade&lt;/LSTag&gt; is now capable of targeting an additional creature. Finally, when dealing damage to an enemy with &lt;LSTag Type="Spell" Tooltip="Target_TemperedStrike"&gt;Tempered Strike&lt;/LSTag&gt;, you make your Damage Roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
 
-	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500004" version="1">Judgement Cut: Macabre</content>
-	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000d" version="1">Target a group of creatures from afar with your equipped main-hand weapon. Any creature within the area below 34% of their total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; will be targeted.</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500004" version="1">Unanswered Angle</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000d" version="1">When dealing damage to an enemy with a weapon, you ignore all physical &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt;.</content>
 
-	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500005" version="1">Unanswered Angle</content>
-	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000e" version="1">When dealing damage to an enemy with a weapon, you ignore all physical &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt;.</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500005" version="1">Concentration</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000e" version="1">Ending your turn without moving will restore one &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Point&lt;/LSTag&gt;.</content>
 
-	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500006" version="1">Judgement Cut: Execution</content>
-	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000f" version="1">&lt;LSTag Type="Spell" Tooltip="Target_JudgementCut"&gt;Judgement Cut&lt;/LSTag&gt; will always trigger a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500006" version="1">Strike of the Yamato</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000f" version="1">Your Judgement Cuts will always trigger a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
 
 <!--PASSIVES-->
 

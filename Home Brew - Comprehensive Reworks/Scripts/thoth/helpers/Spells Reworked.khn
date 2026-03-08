@@ -27,3 +27,13 @@ function TryCounterspellHigherLevelCheck(level)
     end
     return ConditionResult(true,{},{},1.0)
 end
+
+function ForceCheck(damageType, entity)
+    local entity = entity or context.Target
+
+    if damageType == DamageType.Force then
+        return ConditionResult(true)
+    end
+
+    return ConditionResult(false)
+end

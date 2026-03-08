@@ -5,5 +5,5 @@ end
 
 function IsCrowdControlled(entity)
     local entity = entity or context.Target
-	return HasAnyStatus({'SG_Approaching','SG_Blinded','SG_Dominated','SG_Fleeing','SG_Incapacitated','SG_Paralyzed','SG_ScriptedPeaceBehaviour','SG_Sleeping_Magical','SG_Stunned','SG_Unconscious'}, {}, {}, entity)
+	return HasAnyStatus({'SG_Approaching','SG_Blinded','SG_Dominated','SG_Fleeing','SG_Incapacitated','SG_Paralyzed','SG_Prone','SG_ScriptedPeaceBehaviour','SG_Sleeping_Magical','SG_Stunned','SG_Unconscious'}, {}, {}, entity)
 end

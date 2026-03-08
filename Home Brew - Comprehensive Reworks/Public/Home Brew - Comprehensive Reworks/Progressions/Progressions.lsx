@@ -2695,7 +2695,7 @@
         <node id="Progression">
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="CollegeofMoriendi"/>
-                    <attribute id="PassivesAdded" type="LSString" value="ClassProgression_CollegeofMoriendi;RequiescatinPace;Moriendi_PerformanceRemover"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ClassProgression_CollegeofMoriendi;BardicInspiration;RequiescatinPace;Moriendi_PerformanceRemover"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
 					<attribute id="Selectors" type="LSString" value="SelectSpells(ffad33d2-e725-4655-ba80-0bc91e8002b3,2,0,BardCantrips);SelectSpells(4f8a545f-2a42-490b-a008-7276d5186b0a,1,0,BardSpells)" />
                     <attribute id="TableUUID" type="guid" value="89818b42-0c0c-4c76-ade9-2148f37cd51d"/>
@@ -6614,7 +6614,7 @@
         <node id="Progression">
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="TemperedSteel"/>
-                    <attribute id="PassivesAdded" type="LSString" value="ClassProgression_TemperedSteel;TemperedDiscipline"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ClassProgression_TemperedSteel;FlurryOfBlowsUnlock;TemperedDiscipline"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="a19b576b-3c45-4108-9f1d-4b0e4ae76505"/>
                     <attribute id="UUID" type="guid" value="a19b576b-3c45-4108-9f1d-000000000001"/>
@@ -6629,7 +6629,7 @@
         <node id="Progression">
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="TemperedSteel"/>
-                    <attribute id="PassivesAdded" type="LSString" value="JudgementCut"/>
+                    <attribute id="PassivesAdded" type="LSString" value="FocusedSerenity"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="a19b576b-3c45-4108-9f1d-4b0e4ae76505"/>
                     <attribute id="UUID" type="guid" value="a19b576b-3c45-4108-9f1d-000000000003"/>
@@ -6644,7 +6644,7 @@
         <node id="Progression">
                     <attribute id="Level" type="uint8" value="5"/>
                     <attribute id="Name" type="LSString" value="TemperedSteel"/>
-                    <attribute id="PassivesAdded" type="LSString" value="TemperedStrikes"/>
+                    <attribute id="PassivesAdded" type="LSString" value="MacabrePatience"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="a19b576b-3c45-4108-9f1d-4b0e4ae76505"/>
                     <attribute id="UUID" type="guid" value="a19b576b-3c45-4108-9f1d-000000000005"/>
@@ -6659,7 +6659,7 @@
         <node id="Progression">
                     <attribute id="Level" type="uint8" value="7"/>
                     <attribute id="Name" type="LSString" value="TemperedSteel"/>
-                    <attribute id="PassivesAdded" type="LSString" value="JudgementCutMacabre"/>
+                    <attribute id="PassivesAdded" type="LSString" value="UnansweredAngle"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="a19b576b-3c45-4108-9f1d-4b0e4ae76505"/>
                     <attribute id="UUID" type="guid" value="a19b576b-3c45-4108-9f1d-000000000007"/>
@@ -6674,7 +6674,7 @@
         <node id="Progression">
                     <attribute id="Level" type="uint8" value="9"/>
                     <attribute id="Name" type="LSString" value="TemperedSteel"/>
-                    <attribute id="PassivesAdded" type="LSString" value="UnansweredAngle"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Concentration"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="a19b576b-3c45-4108-9f1d-4b0e4ae76505"/>
                     <attribute id="UUID" type="guid" value="a19b576b-3c45-4108-9f1d-000000000009"/>
@@ -6689,7 +6689,7 @@
         <node id="Progression">
                     <attribute id="Level" type="uint8" value="11"/>
                     <attribute id="Name" type="LSString" value="TemperedSteel"/>
-                    <attribute id="PassivesAdded" type="LSString" value="JudgementCutExecution"/>
+                    <attribute id="PassivesAdded" type="LSString" value="StrikeoftheYamato"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="a19b576b-3c45-4108-9f1d-4b0e4ae76505"/>
                     <attribute id="UUID" type="guid" value="a19b576b-3c45-4108-9f1d-000000000011"/>
@@ -12960,6 +12960,7 @@
 					<attribute id="Boosts" type="LSString" value="Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(HeavyArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons)" />
 					<attribute id="Level" type="uint8" value="1" />
 					<attribute id="Name" type="LSString" value="Unclassified_NPCs" />
+					<attribute id="PassivesAdded" type="LSString" value="NPCConcentration_End" />
 					<attribute id="ProgressionType" type="uint8" value="0" />
 					<attribute id="TableUUID" type="guid" value="1b27b3b2-a639-4a5c-997c-290829f00001" />
 					<attribute id="UUID" type="guid" value="75baa294-22a2-4185-89d9-c99328200000" />

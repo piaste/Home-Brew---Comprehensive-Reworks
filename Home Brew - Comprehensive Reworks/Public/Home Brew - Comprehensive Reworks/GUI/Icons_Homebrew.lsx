@@ -436,14 +436,14 @@
                     <attribute id="V2" type="float" value="0.0625"/>			
                 </node>			
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Summon_TemperedBlade"/>
+                    <attribute id="MapKey" type="FixedString" value="MirageBlade"/>
                     <attribute id="U1" type="float" value="0.84375"/>
                     <attribute id="U2" type="float" value="0.875"/>
                     <attribute id="V1" type="float" value="0.03125"/>
                     <attribute id="V2" type="float" value="0.0625"/>			
                 </node>		
                <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="FlurryOfBlowsTempered"/>
+                    <attribute id="MapKey" type="FixedString" value="TemperedStrike"/>
                     <attribute id="U1" type="float" value="0.875"/>
                     <attribute id="U2" type="float" value="0.90625"/>
                     <attribute id="V1" type="float" value="0.03125"/>

@@ -304,6 +304,12 @@
                     <attribute id="UUID" type="guid" value="6cad52bc-dca3-4be4-bf60-5e33ac54e83a"/>
                     <attribute id="Value" type="LSString" value="1"/>
                 </node>
+                <node id="RulesetValue">
+                    <attribute id="Modifier" type="guid" value="b843263f-869c-4a21-960d-867091e8bd04"/>
+                    <attribute id="Ruleset" type="guid" value="28b5b9de-cef7-4cc2-972c-22f962efe757"/>
+                    <attribute id="UUID" type="guid" value="adedbbee-86c3-4724-891b-086ef3701296"/>
+                    <attribute id="Value" type="LSString" value="true"/>
+                </node>
             </children>
         </node>
     </region>

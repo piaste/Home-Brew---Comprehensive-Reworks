@@ -544,7 +544,7 @@ data "DisplayName" "h6eb72b35g6633g4642gaf97gc5sarchety05;2"
 data "Description" "h8612a65dg446cg427bga712g6sdarchety0e;4"
 data "Icon" "PassiveFeature_IronMind"
 data "Properties" "Highlighted;ForceShowInCC"
-data "Boosts" "IF(Enemy()):IgnoreResistance(Bludgeoning,Resistant);IF(Enemy()):IgnoreResistance(Piercing,Resistant);IF(Enemy()):IgnoreResistance(Slashing,Resistant)"
+data "Boosts" "IF(Enemy() or Item()):IgnoreResistance(Bludgeoning,Resistant);IF(Enemy() or Item()):IgnoreResistance(Piercing,Resistant);IF(Enemy() or Item()):IgnoreResistance(Slashing,Resistant)"
 
 new entry "AT_MartialPrecision"
 type "PassiveData"
@@ -586,7 +586,7 @@ data "DisplayName" "h6eb72b35g6633g4642gaf97gc5sarchety10;2"
 data "Description" "h8612a65dg446cg427bga712g6sdarchety0j;4"
 data "Icon" "PassiveFeature_IronMind"
 data "Properties" "Highlighted;ForceShowInCC"
-data "Boosts" "IF(Enemy()):IgnoreResistance(Cold,Resistant);IF(Enemy()):IgnoreResistance(Fire,Resistant);IF(Enemy()):IgnoreResistance(Lightning,Resistant);IF(Enemy()):IgnoreResistance(Thunder,Resistant);IF(Enemy()):IgnoreResistance(Acid,Resistant);IF(Enemy()):IgnoreResistance(Poison,Resistant);IF(Enemy()):IgnoreResistance(Radiant,Resistant);IF(Enemy()):IgnoreResistance(Necrotic,Resistant);IF(Enemy()):IgnoreResistance(Force,Resistant);IF(Enemy()):IgnoreResistance(Psychic,Resistant)"
+data "Boosts" "IF(Enemy() or Item()):IgnoreResistance(Cold,Resistant);IF(Enemy() or Item()):IgnoreResistance(Fire,Resistant);IF(Enemy() or Item()):IgnoreResistance(Lightning,Resistant);IF(Enemy() or Item()):IgnoreResistance(Thunder,Resistant);IF(Enemy() or Item()):IgnoreResistance(Acid,Resistant);IF(Enemy() or Item()):IgnoreResistance(Poison,Resistant);IF(Enemy() or Item()):IgnoreResistance(Radiant,Resistant);IF(Enemy() or Item()):IgnoreResistance(Necrotic,Resistant);IF(Enemy() or Item()):IgnoreResistance(Force,Resistant);IF(Enemy() or Item()):IgnoreResistance(Psychic,Resistant)"
 
 <!--PARTY AI CONTROL-->
 

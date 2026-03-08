@@ -893,7 +893,7 @@ data "Description" "5118b4641cdb4145a0fb4699faf1d3220000e;4"
 data "Icon" "Action_Mag_WrecklessWarCry"
 data "Properties" "Highlighted"
 data "StatsFunctorContext" "OnTurn"
-data "Conditions" "not HasStatus('GOBLINWARCRY') and not HasStatus('HEAVILY_SILENCED') and not HasStatus('SILENCED')"
+data "Conditions" "not HasStatus('GOBLINWARCRY') and not HasStatus('HEAVILY_SILENCED') and not HasStatus('SILENCED') or CheckRulesetModifier('b843263f-869c-4a21-960d-867091e8bd04', true) and not HasStatus('HEAVILY_SILENCED') and not HasStatus('SILENCED')"
 data "StatsFunctors" "UseSpell(Shout_GoblinWarcry,true,true,true);UseActionResource(BonusActionPoint,1,0)"
 
 <!--------------------------------------------------GNOLLS--------------------------------------------------->

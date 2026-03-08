@@ -64,7 +64,7 @@
 	<content contentuid="fe6f4159abae42539029e284001d12de0000m" version="3">Gain &lt;LSTag Type="Spell" Tooltip="CTarget_Smite_Searing"&gt;Searing Smite&lt;/LSTag&gt;.</content>
 	<content contentuid="h34f9400ag765dg4854ga064g934f247033b5" version="1">Searing Smite</content>
 	<content contentuid="h322c23a7g6c1ag4ad9g8b8dgd7ae4c194acf" version="4">Engulf your target in divine flame, &lt;LSTag Type="Status" Tooltip="SEARING_SMITE"&gt;Searing&lt;/LSTag&gt; them.</content>
-	<content contentuid="ha8eb8677g44ceg4252gbcc7gb4dc6fa872d9" version="1">Searing Smite</content>
+	<content contentuid="ha8eb8677g44ceg4252gbcc7gb4dc6fa872d9" version="1">Searing</content>
 	<content contentuid="hee69a6b8gcc7dg4bebg9b40gf7a2336c41fd" version="3">Affected creature takes [1] every turn.</content>
 	<content contentuid="h4ffd404agcb0cg4b4egb6b6g359d86f797ee" version="1">Searing Smite: Critical</content>
 
@@ -136,7 +136,7 @@
 	<content contentuid="hb0043457gfdd6g470agbfd6g6594b92ca488" version="2">You have sworn yourself to the ideals of civilisation and law, serving society to ensure it is reborn from the ashes of our mistakes.&lt;br&gt;&lt;br&gt;Breaking your oath will result in grave consequences.</content>
 
 	<content contentuid="hf8d923abg2aeeg446agac9dgbb2708100001" version="2">Crowned Judgement</content>
-	<content contentuid="hf8d923abg2aeeg446agac9dgbb270810000a" version="2">When making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; or dealing damage to an Aberration type creature, roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Once per turn, upon landing a killing blow on an enemy Aberration, restore one &lt;LSTag Type="ActionResource" Tooltip="WarPriestActionPoint"&gt;Crusader's Smite&lt;/LSTag&gt; charge.</content>
+	<content contentuid="hf8d923abg2aeeg446agac9dgbb270810000a" version="2">When making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; or dealing damage to an Aberration type creature, roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Once per turn, upon landing a killing blow on an enemy Aberration, restore one &lt;LSTag Type="ActionResource" Tooltip="WarPriestActionPoint"&gt;Crusader's Smite&lt;/LSTag&gt; charge.</content>
 	<content contentuid="hf8d923abg2aeeg446agac9dgbb27081000a1" version="2">Phoenix Landing</content>
 	<content contentuid="hf8d923abg2aeeg446agac9dgbb27081000aa" version="2">Teleport to an area you can see, scorching all within a [1] area with blisteringly hot flame.</content>
 	<content contentuid="hf8d923abg2aeeg446agac9dgbb27081000b1" version="2">Searing Protection</content>
@@ -151,12 +151,12 @@
 	<content contentuid="hf8d923abg2aeeg446agac9dgbb270810000c" version="2">&lt;LSTag Type="Status" Tooltip="TURNED"&gt;Turn&lt;/LSTag&gt; nearby enemies, dealing damage to them in the process. They are forced to flee and cannot come close to you. Aberrations take twice as much damage from this action.</content>
 
 	<content contentuid="hf8d923abg2aeeg446agac9dgbb2708100004" version="2">Scorched Earth</content>
-	<content contentuid="hf8d923abg2aeeg446agac9dgbb270810000d" version="2">While &lt;LSTag Type="Status" Tooltip="SUNSCORCHED"&gt;Sun Scorched&lt;/LSTag&gt; is active, you are able to &lt;LSTag Type="Spell" Tooltip="Target_Fly"&gt;Fly&lt;/LSTag&gt;, and you make &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; against &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burning&lt;/LSTag&gt; creatures. In addition, you gain &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to Fire damage.</content>
+	<content contentuid="hf8d923abg2aeeg446agac9dgbb270810000d" version="2">While &lt;LSTag Type="Status" Tooltip="SUNSCORCHED"&gt;Sun Scorched&lt;/LSTag&gt; is active, you are able to &lt;LSTag Type="Spell" Tooltip="Target_Fly"&gt;Fly&lt;/LSTag&gt;, and you make &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; against creatures engulfed in flame. In addition, you gain &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to Fire damage.</content>
 
 	<content contentuid="hf8d923abg2aeeg446agac9dgbb2708100005" version="2">Aura of Cinder</content>
-	<content contentuid="hf8d923abg2aeeg446agac9dgbb270810000e" version="2">During combat, you emit an aura which causes enemies to &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burn&lt;/LSTag&gt;.</content>
+	<content contentuid="hf8d923abg2aeeg446agac9dgbb270810000e" version="2">During combat, you emit an aura which &lt;LSTag Type="Status" Tooltip="SEARING_SMITE"&gt;Sears&lt;/LSTag&gt; enemies and causes your allies to receive the effects of &lt;LSTag Type="Status" Tooltip="WARDING_BOND"&gt;Warding Bond&lt;/LSTag&gt;.</content>
 	<content contentuid="hf8d923abg2aeeg446agac9dgbb27081000s5" version="2">Aura of Cinder</content>
-	<content contentuid="hf8d923abg2aeeg446agac9dgbb27081000se" version="2">Affected creature is causing all enemies within [1] of them &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burn&lt;/LSTag&gt;.</content>
+	<content contentuid="hf8d923abg2aeeg446agac9dgbb27081000se" version="2">Affected creature is &lt;LSTag Type="Status" Tooltip="SEARING_SMITE"&gt;Searing&lt;/LSTag&gt; all enemies within [1] of them and causing their allies to receive the effects of &lt;LSTag Type="Status" Tooltip="WARDING_BOND"&gt;Warding Bond&lt;/LSTag&gt;.</content>
 
 	<content contentuid="hf8d923abg2aeeg446agac9dgbb2708100006" version="2">Ashen One</content>
 	<content contentuid="hf8d923abg2aeeg446agac9dgbb270810000f" version="2">The first time you are &lt;LSTag Type="Status" Tooltip="DOWNED"&gt;Downed&lt;/LSTag&gt; each &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;, you immediately recover all of your &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;, erupting in an uncontrollable explosion and gaining &lt;LSTag Type="Status" Tooltip="SUNSCORCHED"&gt;Sun Scorched&lt;/LSTag&gt; for three turns. When you recover from being Downed in this way, you retain your &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt; and &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;.</content>

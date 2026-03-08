@@ -390,7 +390,7 @@ data "Icon" "PassiveFeature_PrimalStrike"
 data "Properties" "Highlighted;ForceShowInCC"
 data "BoostContext" "OnAttack"
 data "BoostConditions" "HasStatus('SG_Polymorph_BeastShape',context.Source)"
-data "Boosts" "IF(Enemy()):IgnoreResistance(Bludgeoning,Resistant);IF(Enemy()):IgnoreResistance(Piercing,Resistant);IF(Enemy()):IgnoreResistance(Slashing,Resistant)"
+data "Boosts" "IF(Enemy() or Item()):IgnoreResistance(Bludgeoning,Resistant);IF(Enemy() or Item()):IgnoreResistance(Piercing,Resistant);IF(Enemy() or Item()):IgnoreResistance(Slashing,Resistant)"
 
 new entry "PrimalSpeed"
 type "PassiveData"

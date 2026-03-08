@@ -10,13 +10,16 @@
 	<content contentuid="h040f504dgc3fdg4ba6gb3ddg95b4a7e9a784" version="2">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Class Passives and Feats cannot stack with themselves through use of items.</content>
 
 <!--HAG HAIR EDIT-->
-	<content contentuid="he3613a4egb36fg4e21g9b64gf28eb5ea79fd" version="1">You want to be stronger? Tougher? Smarter? Done! Anything is possible. (Ability Score +2)</content>
-	<content contentuid="hb9985314gbdaeg43abgb09eg0ba62f84f450" version="1">Consuming this piece of fey flesh grants a permanent +2 bonus to &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt;. </content>
-	<content contentuid="h893ca8b9g6fb3g4becg8313gfad6a93c0ad7" version="1">Consuming this piece of fey flesh grants a permanent +2 bonus to &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt;.</content>
-	<content contentuid="h2613a90bg932fg4a04g9533ga8aa80ba3222" version="1">Consuming this piece of fey flesh grants a permanent +2 bonus to &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt;.</content>
-	<content contentuid="hcd29882agc525g43a4gb69ag577fc554d421" version="1">Consuming this piece of fey flesh grants a permanent +2 bonus to &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;.</content>
-	<content contentuid="h066676b1gce7dg4bf5gbcd5g7ae30c97493e" version="1">Consuming this piece of fey flesh grants a permanent +2 bonus to &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt;.</content>
-	<content contentuid="he0cd3c1cg3e22g4477g8804g00084266704a" version="1">Consuming this piece of fey flesh grants a permanent +2 bonus to &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt;.</content>
+	<content contentuid="he3613a4egb36fg4e21g9b64gf28eb5ea79fd" version="1">You want to be stronger? Tougher? Smarter? Done! Anything is possible.</content>
+	<content contentuid="hb9985314gbdaeg43abgb09eg0ba62f84f450" version="1">Consuming this piece of fey flesh will alter your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt;. </content>
+	<content contentuid="h893ca8b9g6fb3g4becg8313gfad6a93c0ad7" version="1">Consuming this piece of fey flesh will alter your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt;.</content>
+	<content contentuid="h2613a90bg932fg4a04g9533ga8aa80ba3222" version="1">Consuming this piece of fey flesh will alter your &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt;.</content>
+	<content contentuid="hcd29882agc525g43a4gb69ag577fc554d421" version="1">Consuming this piece of fey flesh will alter your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;.</content>
+	<content contentuid="h066676b1gce7dg4bf5gbcd5g7ae30c97493e" version="1">Consuming this piece of fey flesh will alter your &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt;.</content>
+	<content contentuid="he0cd3c1cg3e22g4477g8804g00084266704a" version="1">Consuming this piece of fey flesh will alter your &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h1dcaeebcg9c5dg49dcg9e23g74d9056a4bd0" version="2">Trusting a Hag</content>
+	<content contentuid="h8c35f8f8gf36bg49f0gb846g32f6dd6f3cee" version="2">Trusting a Hag sure does have benefits, doesn't it?</content>
 
 <!--ATTUNEMENT INTEGRATION-->
 	<content contentuid="hd3a156cc7fbf4a5c985eef63f0c2b99b55g3" version="1">Attunement</content>
@@ -151,6 +154,8 @@
 	<content contentuid="hbb61911fg1ef9g499fg81c9g7f0039dffd43" version="3">Hurl an flask of flammable oil, coating the the ground on impact.</content>
 
 	<content contentuid="hea0cab11g3d91g4777gafe0ga36e2e2a59c6" version="6">The shrapnel inside this will explode on impact, potentially causing all nearby creatures to &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleed&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h8ce0e24cgb5c8g4140gbd31g274d62cd0548" version="1">Applies a condition that reflects all incoming projectiles back at their source.</content>
 
 <!--EDIT TENACITY DESC-->
 	<content contentuid="h141b89fdgbd46g44a4g8b6fg39a9c72a3bed" version="2">Overwhelm</content>

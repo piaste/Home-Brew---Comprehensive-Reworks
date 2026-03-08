@@ -456,7 +456,7 @@
 	<content contentuid="5118b4641cdb4145a0fb4699faf1d322000zd" version="1">Call forth a violent Worg to tear through your enemies.</content>
 
 	<content contentuid="5118b4641cdb4145a0fb4699faf1d32200005" version="1">Reckless Warcry</content>
-	<content contentuid="5118b4641cdb4145a0fb4699faf1d3220000e" version="4">As the leader of the pack, this creature will potentially let out a desperate, rallying &lt;LSTag Type="Status" Tooltip="GOBLINWARCRY"&gt;Warcry&lt;/LSTag&gt; when beginning their turn with no &lt;LSTag Tooltip="TemporaryHitPoints"&gt;Temporary Hit Points&lt;/LSTag&gt;.</content>
+	<content contentuid="5118b4641cdb4145a0fb4699faf1d3220000e" version="4">As the leader of the pack, this creature can let out a desperate &lt;LSTag Type="Status" Tooltip="GOBLINWARCRY"&gt;Warcry&lt;/LSTag&gt; when beginning their turn.</content>
 	<content contentuid="5118b4641cdb4145a0fb4699faf1d322000z5" version="1">Reckless Warcry</content>
 	<content contentuid="5118b4641cdb4145a0fb4699faf1d322000ze" version="4">Let out a desperate, rallying &lt;LSTag Type="Status" Tooltip="GOBLINWARCRY"&gt;Warcry&lt;/LSTag&gt; to embolden you and your allies.</content>
 	<content contentuid="5118b4641cdb4145a0fb4699faf1d32200zz5" version="1">Reckless Warcry</content>

@@ -757,7 +757,7 @@ data "Icon" "Action_Monster_GortashMachine_ActivateFlameTiles"
 data "Properties" "Highlighted;ForceShowInCC"
 data "StatsFunctorContext" "OnCombatStarted;OnTurn"
 data "Conditions" "Combat()"
-data "StatsFunctors" "IF(not HasStatus('CAURA_OF_CINDER', context.Source)):ApplyStatus(SELF,CAURA_OF_CINDER,100,-1)"
+data "StatsFunctors" "IF(not HasStatus('CAURA_OF_CINDER', context.Source)):ApplyStatus(SELF,CAURA_OF_CINDER,100,-1);ApplyStatus(SELF,WARDING_BOND_CASTER,100,-1)"
 
 new entry "Aura_Of_Courage"
 type "PassiveData"

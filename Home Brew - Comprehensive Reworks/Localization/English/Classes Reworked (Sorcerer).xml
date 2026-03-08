@@ -183,7 +183,7 @@
 	<content contentuid="75afaf5bbeec48939102d9037449bef500002" version="1">Radiance in Bloom</content>
 	<content contentuid="75afaf5bbeec48939102d9037449bef50000b" version="1">Gain &lt;LSTag Type="Spell" Tooltip="Target_RadianceinBloom"&gt;Radiance in Bloom&lt;/LSTag&gt;.</content>
 	<content contentuid="75afaf5bbeec48939102d9037449bef5000z2" version="1">Radiance in Bloom</content>
-	<content contentuid="75afaf5bbeec48939102d9037449bef5000zb" version="1">Unleash your radiance in a [1] area, damaging enemies and healing allies for [2] &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef5000zb" version="1">Unleash your radiance in a [1] area, damaging enemies and healing allies for [2] &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Casting this Spell will provide you with two turns of &lt;LSTag Type="Passive" Tooltip="SoulfireSpark"&gt;Soulfire Spark&lt;/LSTag&gt; per Spell level, rather than one.</content>
 
 	<content contentuid="75afaf5bbeec48939102d9037449bef500003" version="1">Soulfire Ignition</content>
 	<content contentuid="75afaf5bbeec48939102d9037449bef50000c" version="1">Your &lt;LSTag Type="Passive" Tooltip="SoulfireSpark"&gt;Soulfire Spark&lt;/LSTag&gt; has been upgrade to a Soulfire Ignition. Allies within the aura now regain [1] &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; at the start of their turns. Enemies within the aura now take [2] at the start of their turns.</content>
