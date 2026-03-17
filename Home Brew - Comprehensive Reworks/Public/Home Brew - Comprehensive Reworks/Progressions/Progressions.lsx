@@ -3951,7 +3951,7 @@
 					<attribute id="Boosts" type="LSString" value="Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(HeavyArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(Attunement,13,0);ActionResource(WildShape,3,0);ActionResource(SpellSlot,2,1);Tag(DRUID)" />
 					<attribute id="Level" type="uint8" value="1" />
 					<attribute id="Name" type="LSString" value="NPC_Druid" />
-					<attribute id="PassivesAdded" type="LSString" value="NPC_Druid_Subclass;NPCConcentration_End;Wildshape_Blocker_Randomizer;Wildshape_Blocker_Randomizer_Removal;Beastcraft;Wildshape_Removal" />
+					<attribute id="PassivesAdded" type="LSString" value="NPC_Druid_Subclass;NPCConcentration_End;Beastcraft;Wildshape_Removal" />
 					<attribute id="ProgressionType" type="uint8" value="0" />
 					<attribute id="Selectors" type="LSString" value="AddSpells(ae3ce10b-d32c-44df-91b9-ebf74476a9d8)" />
 					<attribute id="TableUUID" type="guid" value="7e76da16-650c-4a6e-85b0-f9e23a7f5a60" />
@@ -9294,7 +9294,7 @@
 					<attribute id="UUID" type="guid" value="c9a46bdb-cea0-4b0f-8236-cf837d6ef7f5" />
 					</node>
 
-<!--ROGUE (SWASHBUCKLER)-->
+<!--ROGUE (MERCENARY)-->
 
 		<node id="Progression">
                     <attribute id="Level" type="uint8" value="1"/>

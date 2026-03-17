@@ -489,7 +489,7 @@
 
 	<content contentuid="h44926df3g77b8g49c7g9b84g93453a46612b" version="2">Vengeful Guardian</content>
 	<content contentuid="h09ceef7bg5fbeg4e2bgb0ddge0409423f3ff" version="2">When damaged, or upon witnessing the death of a family member, this Owlbear may become &lt;LSTag Type="Status" Tooltip="FOR_OWLBEAR_ENRAGE_HARDCORE"&gt;Enraged&lt;/LSTag&gt;.</content>
-	<content contentuid="h147d9a39ga77bg4a86g8e63ge86f55b50604" version="1">Affected creature is enraged! It has gained &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to all forms of damage and makes all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+	<content contentuid="h147d9a39ga77bg4a86g8e63ge86f55b50604" version="1">Affected creature is enraged! It has gained &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to physical damage and makes all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
 
 	<content contentuid="hc761eaf7g4df1g4de8g8f79gcaae9047a8f6" version="1">Shadow Veil</content>
 	<content contentuid="h6bcb2ab7g7c97g4746gb6begba800a7c6099" version="5">While Lightly or Heavily Obscured, shadow mastiffs are &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Bludgeoning, Piercing, and Slashing damage.</content>

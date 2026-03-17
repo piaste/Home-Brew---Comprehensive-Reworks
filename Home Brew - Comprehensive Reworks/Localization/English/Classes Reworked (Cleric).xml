@@ -119,7 +119,7 @@
 	<content contentuid="h3063c312g64f5g471a6sd5f2ef5d4fe5f20d" version="1">&lt;LSTag Type="Passive" Tooltip="StrikingIron"&gt;Striking Iron&lt;/LSTag&gt; now causes enemies affected to be attacked with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; for three turns.</content>
 
 	<content contentuid="h695df0c5g7b1eg47a16se8f5e6f5e8f89805" version="1">Forged in Flame</content>
-	<content contentuid="h3063c312g64f5g471a6sd5f2ef5d4fe5f20e" version="1">Upon reaching ten stacks of &lt;LSTag Type="Status" Tooltip="MAG_FIRE_HEAT"&gt;Heat&lt;/LSTag&gt;, you immediately gain a charge of &lt;LSTag Type="ActionResource" Tooltip="DivineIntervention"&gt;Divine Intervention&lt;/LSTag&gt;.</content>
+	<content contentuid="h3063c312g64f5g471a6sd5f2ef5d4fe5f20e" version="1">Once per combat encounter, upon reaching ten stacks of &lt;LSTag Type="Status" Tooltip="MAG_FIRE_HEAT"&gt;Heat&lt;/LSTag&gt;, you immediately gain a charge of &lt;LSTag Type="ActionResource" Tooltip="DivineIntervention"&gt;Divine Intervention&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h695df0c5g7b1eg47a16se8f5e6f5e8f89806" version="1">Smeltsong</content>
 	<content contentuid="h3063c312g64f5g471a6sd5f2ef5d4fe5f20f" version="1">&lt;LSTag Type="Passive" Tooltip="StrikingIron"&gt;Striking Iron&lt;/LSTag&gt; now causes enemies to &lt;LSTag Type="Status" Tooltip="BURNING_LAVA"&gt;Melt&lt;/LSTag&gt; for three turns.</content>

@@ -381,7 +381,7 @@
 					</node>
 		<node id="SpellList">
                     <attribute id="Comment" type="FixedString" value="Rogue - Swashbuckler (Level 7)"/>
-                    <attribute id="Spells" type="LSString" value="Target_DirtyTrick_StolenExplosives"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_DirtyTrick_StolenExplosives"/>
                     <attribute id="UUID" type="guid" value="62b78cbc-f9df-4834-a544-d6002d44d588"/>
 					</node>
 		<node id="SpellList">

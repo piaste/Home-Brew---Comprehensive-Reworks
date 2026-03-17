@@ -42,7 +42,7 @@
 	<content contentuid="aa20553d362b4ff6b5d95c70e4e37e590000j" version="1">While not &lt;LSTag Type="Status" Tooltip="FLANKED"&gt;Threatened&lt;/LSTag&gt;, throw a magical stone, immediately warping to wherever it lands.&lt;Br&gt;&lt;br&gt;This &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; may be cast while &lt;LSTag Type="Status" Tooltip="HEAVILY_SILENCED"&gt;Silenced&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Muted&lt;/LSTag&gt; and will not break &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Stealth&lt;/LSTag&gt;.</content>
 
 	<content contentuid="06ccff5b74f84871a26d66436d5da6d500011" version="1">Mind Sliver</content>
-	<content contentuid="aa20553d362b4ff6b5d95c70e4e37e590000k" version="1">Deal Psychic damage to a creature, potentially &lt;LSTag Type="Status" Tooltip="MIND_SLIVER"&gt;Fracturing&lt;/LSTag&gt; their ability to think clearly, incurring a -1d4 penalty to their next &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.</content>
+	<content contentuid="aa20553d362b4ff6b5d95c70e4e37e590000k" version="1">Deal Psychic damage to a creature, potentially &lt;LSTag Type="Status" Tooltip="MIND_SLIVER"&gt;Fracturing&lt;/LSTag&gt; their ability to think clearly.</content>
 	<content contentuid="06ccff5b74f84871a26d66436d5da6d500a11" version="1">Mind Fracture</content>
 	<content contentuid="aa20553d362b4ff6b5d95c70e4e37e59000ak" version="1">Affected creature suffers a -1d4 penalty to their next &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;. In addition, they are unable to utilize their armours elemental &lt;LSTag Type="Status" Tooltip="DAMAGE_REDUCTION"&gt;Damage Reduction&lt;/LSTag&gt;.</content>
 

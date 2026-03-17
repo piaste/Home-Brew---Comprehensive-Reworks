@@ -287,6 +287,816 @@
                     <attribute id="UseShapeshiftIdentity" type="bool" value="true"/>
                     <attribute id="WildShapeHotBar" type="bool" value="true"/>
                 </node>
+				<node id="Rule">
+					<attribute id="ApplySpellsFromTemplate" type="bool" value="True" />
+					<attribute id="ApplyVisual" type="bool" value="True" />
+					<attribute id="ChangeBodyType" type="bool" value="True" />
+					<attribute id="ChangeIcon" type="bool" value="True" />
+					<attribute id="ChangeRace" type="bool" value="True" />
+					<attribute id="IgnoreCustomLooks" type="bool" value="True" />
+					<attribute id="KillEntityAtZeroHP" type="bool" value="True" />
+					<attribute id="RemovePrevSpells" type="bool" value="True" />
+					<attribute id="RetainDisplayName" type="bool" value="False" />
+					<attribute id="RuleName" type="LSString" value="HAV_FlamingSpy" />
+					<attribute id="UUID" type="guid" value="89a11bee-0cee-47a1-8770-4f2ac9b3e7f3" />
+					<attribute id="UseShapeshiftIdentity" type="bool" value="True" />
+					<children>
+						<node id="Hp">
+							<attribute id="type" type="uint8" value="1" />
+						</node>
+					</children>
+				</node>
+				<node id="Rule">
+					<attribute id="ApplyTagsFromTemplate" type="bool" value="False" />
+					<attribute id="ApplyVisual" type="bool" value="True" />
+					<attribute id="BaseACOverride" type="bool" value="True" />
+					<attribute id="BlockLevelUp" type="bool" value="True" />
+					<attribute id="ChangeBodyType" type="bool" value="True" />
+					<attribute id="ChangeIcon" type="bool" value="True" />
+					<attribute id="ChangeRace" type="bool" value="False" />
+					<attribute id="IgnoreCustomLooks" type="bool" value="True" />
+					<attribute id="KillEntityAtZeroHP" type="bool" value="True" />
+					<attribute id="PassivesInheritanceType" type="FixedString" value="ReplaceOriginal" />
+					<attribute id="RemoveOldTags" type="bool" value="False" />
+					<attribute id="ResistancesInheritanceType" type="FixedString" value="ReplaceOriginal" />
+					<attribute id="RetainDisplayName" type="bool" value="False" />
+					<attribute id="RuleName" type="LSString" value="DisguiseHag" />
+					<attribute id="UUID" type="guid" value="d7ff7994-4c80-40cf-9498-fc790e5cc9d1" />
+					<attribute id="UseShapeshiftIdentity" type="bool" value="True" />
+					<children>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="4" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="4" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="4" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="4" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="4" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="4" />
+								</node>
+							</children>
+						</node>
+						<node id="Hp">
+							<attribute id="type" type="uint8" value="1" />
+						</node>
+					</children>
+				</node>
+				<node id="Rule">
+					<attribute id="ApplySpellsFromTemplate" type="bool" value="True" />
+					<attribute id="ApplyVisual" type="bool" value="True" />
+					<attribute id="BaseACOverride" type="bool" value="True" />
+					<attribute id="ChangeAi" type="bool" value="True" />
+					<attribute id="ChangeBodyType" type="bool" value="True" />
+					<attribute id="ChangeIcon" type="bool" value="True" />
+					<attribute id="ChangeRace" type="bool" value="True" />
+					<attribute id="FootstepsType" type="bool" value="True" />
+					<attribute id="IgnoreCustomLooks" type="bool" value="True" />
+					<attribute id="KillEntityAtZeroHP" type="bool" value="True" />
+					<attribute id="RemovePrevSpells" type="bool" value="True" />
+					<attribute id="RetainDisplayName" type="bool" value="False" />
+					<attribute id="RuleName" type="LSString" value="HAV_PhasmPolymorph_OX" />
+					<attribute id="UUID" type="guid" value="e7380808-4fc2-4c27-acf3-95a53e6586a0" />
+					<attribute id="UnarmedAbilityFromTemplate" type="bool" value="True" />
+					<attribute id="UseShapeshiftIdentity" type="bool" value="True" />
+					<children>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="4" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="4" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="4" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="4" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="4" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="4" />
+								</node>
+							</children>
+						</node>
+						<node id="Hp">
+							<attribute id="type" type="uint8" value="1" />
+						</node>
+						<node id="Scale">
+							<attribute id="type" type="uint8" value="4" />
+						</node>
+						<node id="Weight">
+							<attribute id="type" type="uint8" value="4" />
+						</node>
+					</children>
+				</node>
+				<node id="Rule">
+					<attribute id="ApplySpellsFromTemplate" type="bool" value="True" />
+					<attribute id="ApplyTagsFromTemplate" type="bool" value="True" />
+					<attribute id="ApplyVisual" type="bool" value="True" />
+					<attribute id="BaseACOverride" type="bool" value="True" />
+					<attribute id="ChangeAi" type="bool" value="True" />
+					<attribute id="ChangeBodyType" type="bool" value="False" />
+					<attribute id="ChangeIcon" type="bool" value="True" />
+					<attribute id="ChangeRace" type="bool" value="True" />
+					<attribute id="DisableEquipmentSlots" type="bool" value="True" />
+					<attribute id="FootstepsType" type="bool" value="True" />
+					<attribute id="IgnoreCustomLooks" type="bool" value="True" />
+					<attribute id="KillEntityAtZeroHP" type="bool" value="True" />
+					<attribute id="MuteEquipmentSound" type="bool" value="True" />
+					<attribute id="RemoveOldTags" type="bool" value="True" />
+					<attribute id="RemovePrevSpells" type="bool" value="True" />
+					<attribute id="RetainDisplayName" type="bool" value="False" />
+					<attribute id="RuleName" type="LSString" value="END_ArmouredOwlbear" />
+					<attribute id="UUID" type="guid" value="00e40c29-8c9e-4b23-a605-6e1cc2385bc5" />
+					<attribute id="UnarmedAbilityFromTemplate" type="bool" value="True" />
+					<attribute id="UseShapeshiftIdentity" type="bool" value="True" />
+					<attribute id="WildShapeHotBar" type="bool" value="True" />
+					<children>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="4" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="4" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="4" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="Hp">
+							<attribute id="type" type="uint8" value="1" />
+						</node>
+						<node id="Scale">
+							<attribute id="type" type="uint8" value="4" />
+						</node>
+						<node id="Weight">
+							<attribute id="type" type="uint8" value="4" />
+						</node>
+					</children>
+				</node>
+				<node id="Rule">
+					<attribute id="ApplySpellsFromTemplate" type="bool" value="True" />
+					<attribute id="ApplyTagsFromTemplate" type="bool" value="True" />
+					<attribute id="ApplyVisual" type="bool" value="True" />
+					<attribute id="BloodSurfaceTypeInheritanceType" type="FixedString" value="ReplaceOriginal" />
+					<attribute id="ChangeAi" type="bool" value="True" />
+					<attribute id="ChangeBodyType" type="bool" value="False" />
+					<attribute id="ChangeIcon" type="bool" value="True" />
+					<attribute id="ChangeRace" type="bool" value="True" />
+					<attribute id="DeathActionsInheritanceType" type="FixedString" value="ReplaceOriginal" />
+					<attribute id="DisableEquipmentSlots" type="bool" value="True" />
+					<attribute id="FootstepsType" type="bool" value="True" />
+					<attribute id="HitBloodTypeInheritanceType" type="FixedString" value="ReplaceOriginal" />
+					<attribute id="IgnoreCustomLooks" type="bool" value="True" />
+					<attribute id="KillEntityAtZeroHP" type="bool" value="True" />
+					<attribute id="MuteEquipmentSound" type="bool" value="True" />
+					<attribute id="RemoveOldTags" type="bool" value="True" />
+					<attribute id="RemovePrevSpells" type="bool" value="True" />
+					<attribute id="RetainDisplayName" type="bool" value="False" />
+					<attribute id="RuleName" type="LSString" value="GLO_Ceremorphosis_NPC" />
+					<attribute id="UUID" type="guid" value="98d149c0-d0ba-4bbb-bdc8-cee71436f506" />
+					<attribute id="UnarmedAbilityFromTemplate" type="bool" value="True" />
+					<attribute id="UseShapeshiftIdentity" type="bool" value="True" />
+					<attribute id="WildShapeHotBar" type="bool" value="True" />
+					<children>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="4" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="4" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="4" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="4" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="4" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="4" />
+								</node>
+							</children>
+						</node>
+						<node id="Hp">
+							<attribute id="type" type="uint8" value="1" />
+						</node>
+						<node id="Scale">
+							<attribute id="type" type="uint8" value="4" />
+						</node>
+						<node id="Weight">
+							<attribute id="type" type="uint8" value="4" />
+						</node>
+					</children>
+				</node>
+				<node id="Rule">
+					<attribute id="ApplySpellsFromTemplate" type="bool" value="True" />
+					<attribute id="ApplyTagsFromTemplate" type="bool" value="True" />
+					<attribute id="ApplyVisual" type="bool" value="False" />
+					<attribute id="BaseACOverride" type="bool" value="True" />
+					<attribute id="ChangeAi" type="bool" value="True" />
+					<attribute id="ChangeBodyType" type="bool" value="True" />
+					<attribute id="ChangeIcon" type="bool" value="False" />
+					<attribute id="ChangeRace" type="bool" value="True" />
+					<attribute id="ChangeScript" type="LSString" value="COL_NecromancerLab_Zombie" />
+					<attribute id="DisableEquipmentSlots" type="bool" value="False" />
+					<attribute id="FootstepsType" type="bool" value="True" />
+					<attribute id="KillEntityAtZeroHP" type="bool" value="True" />
+					<attribute id="RemoveOldTags" type="bool" value="True" />
+					<attribute id="RemovePrevSpells" type="bool" value="True" />
+					<attribute id="RetainDisplayName" type="bool" value="True" />
+					<attribute id="RuleName" type="LSString" value="COL_Zombies" />
+					<attribute id="UUID" type="guid" value="dd0e6f9e-6358-44c2-9ace-88aec6af2a8e" />
+					<attribute id="UnarmedAbilityFromTemplate" type="bool" value="True" />
+					<attribute id="UseShapeshiftIdentity" type="bool" value="True" />
+					<attribute id="WildShapeHotBar" type="bool" value="False" />
+					<children>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="4" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="4" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="4" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="4" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="4" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="4" />
+								</node>
+							</children>
+						</node>
+						<node id="Hp">
+							<attribute id="type" type="uint8" value="1" />
+						</node>
+						<node id="Scale">
+							<attribute id="type" type="uint8" value="4" />
+						</node>
+						<node id="TagsAdd">
+							<attribute id="Object" type="guid" value="33c625aa-6982-4c27-904f-e47029a9b140" />
+						</node>
+						<node id="Weight">
+							<attribute id="type" type="uint8" value="4" />
+						</node>
+					</children>
+				</node>
+				<node id="Rule">
+					<attribute id="ApplySpellsFromTemplate" type="bool" value="True" />
+					<attribute id="ApplyTagsFromTemplate" type="bool" value="True" />
+					<attribute id="ApplyVisual" type="bool" value="True" />
+					<attribute id="ChangeAi" type="bool" value="True" />
+					<attribute id="ChangeBodyType" type="bool" value="True" />
+					<attribute id="ChangeIcon" type="bool" value="True" />
+					<attribute id="ChangeRace" type="bool" value="True" />
+					<attribute id="FootstepsType" type="bool" value="True" />
+					<attribute id="IgnoreCustomLooks" type="bool" value="True" />
+					<attribute id="KillEntityAtZeroHP" type="bool" value="True" />
+					<attribute id="RemoveOldTags" type="bool" value="False" />
+					<attribute id="RemovePrevSpells" type="bool" value="True" />
+					<attribute id="RuleName" type="LSString" value="Magic Allergy Polymorph" />
+					<attribute id="UUID" type="guid" value="ab006be0-8e10-4e17-a141-13365349afe7" />
+					<attribute id="UnarmedAbilityFromTemplate" type="bool" value="True" />
+					<attribute id="UseShapeshiftIdentity" type="bool" value="True" />
+					<attribute id="WildShapeHotBar" type="bool" value="False" />
+					<children>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="4" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="4" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="4" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="AwarenessCapabilities">
+							<children>
+								<node id="AwarenessCapabilities">
+									<attribute id="Name" type="LSString" value="ActivateTriggers" />
+								</node>
+							</children>
+						</node>
+						<node id="Hp">
+							<attribute id="type" type="uint8" value="1" />
+						</node>
+						<node id="InteractionsCapabilities">
+							<children>
+								<node id="InteractionsCapabilities">
+									<attribute id="Name" type="LSString" value="BasicItemInteractions" />
+								</node>
+								<node id="InteractionsCapabilities">
+									<attribute id="Name" type="LSString" value="Containers" />
+								</node>
+								<node id="InteractionsCapabilities">
+									<attribute id="Name" type="LSString" value="MoveObjects" />
+								</node>
+							</children>
+						</node>
+						<node id="Scale">
+							<attribute id="type" type="uint8" value="4" />
+						</node>
+						<node id="Weight">
+							<attribute id="type" type="uint8" value="4" />
+						</node>
+					</children>
+				</node>
+				<node id="Rule">
+					<attribute id="ApplySpellsFromTemplate" type="bool" value="True" />
+					<attribute id="ApplyTagsFromTemplate" type="bool" value="True" />
+					<attribute id="ApplyVisual" type="bool" value="True" />
+					<attribute id="BaseACOverride" type="bool" value="True" />
+					<attribute id="BlockLevelUp" type="bool" value="True" />
+					<attribute id="ChangeAi" type="bool" value="True" />
+					<attribute id="ChangeBodyType" type="bool" value="False" />
+					<attribute id="ChangeIcon" type="bool" value="True" />
+					<attribute id="ChangeRace" type="bool" value="True" />
+					<attribute id="DisableEquipmentSlots" type="bool" value="True" />
+					<attribute id="FootstepsType" type="bool" value="True" />
+					<attribute id="IgnoreCustomLooks" type="bool" value="True" />
+					<attribute id="KillEntityAtZeroHP" type="bool" value="True" />
+					<attribute id="MuteEquipmentSound" type="bool" value="True" />
+					<attribute id="RemoveOldTags" type="bool" value="True" />
+					<attribute id="RemovePrevSpells" type="bool" value="True" />
+					<attribute id="RetainDisplayName" type="bool" value="True" />
+					<attribute id="RuleName" type="LSString" value="Ceremorphosis Orpheus" />
+					<attribute id="UUID" type="guid" value="ae23f605-b524-4217-87f7-7b90d904ddc3" />
+					<attribute id="UnarmedAbilityFromTemplate" type="bool" value="True" />
+					<attribute id="WildShapeHotBar" type="bool" value="True" />
+					<children>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="4" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="4" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="4" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="ActionsCapabilities">
+							<children>
+								<node id="ActionCapabilities">
+									<attribute id="Name" type="LSString" value="Pickpocketing" />
+								</node>
+								<node id="ActionCapabilities">
+									<attribute id="Name" type="LSString" value="Lockpicking" />
+								</node>
+							</children>
+						</node>
+						<node id="Hp">
+							<attribute id="type" type="uint8" value="1" />
+						</node>
+						<node id="Scale">
+							<attribute id="type" type="uint8" value="4" />
+						</node>
+						<node id="TagsAdd">
+							<attribute id="Object" type="guid" value="ff993422-c5db-457e-834d-8fe3f3848ebe" />
+						</node>
+						<node id="TagsAdd">
+							<attribute id="Object" type="guid" value="25bf5042-5bf6-4360-8df8-ab107ccb0d37" />
+						</node>
+						<node id="Weight">
+							<attribute id="type" type="uint8" value="4" />
+						</node>
+					</children>
+				</node>
+				<node id="Rule">
+					<attribute id="ApplySpellsFromTemplate" type="bool" value="False" />
+					<attribute id="ApplyVisual" type="bool" value="True" />
+					<attribute id="ChangeBodyType" type="bool" value="False" />
+					<attribute id="ChangeRace" type="bool" value="False" />
+					<attribute id="DisableEquipmentSlots" type="bool" value="True" />
+					<attribute id="KillEntityAtZeroHP" type="bool" value="True" />
+					<attribute id="RemovePrevSpells" type="bool" value="True" />
+					<attribute id="RetainDisplayName" type="bool" value="False" />
+					<attribute id="RuleName" type="LSString" value="EPI_OWLBEAR" />
+					<attribute id="UUID" type="guid" value="ee31e8b1-f6e7-4b74-b41e-21b62216676b" />
+					<attribute id="UseShapeshiftIdentity" type="bool" value="False" />
+					<attribute id="WildShapeHotBar" type="bool" value="True" />
+					<children>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="4" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="4" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="4" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="4" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="4" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="4" />
+								</node>
+							</children>
+						</node>
+						<node id="ActionsCapabilities">
+							<children>
+								<node id="ActionCapabilities">
+									<attribute id="Name" type="LSString" value="CastSpell" />
+								</node>
+								<node id="ActionCapabilities">
+									<attribute id="Name" type="LSString" value="Attack" />
+								</node>
+								<node id="ActionCapabilities">
+									<attribute id="Name" type="LSString" value="RitualSpells" />
+								</node>
+								<node id="ActionCapabilities">
+									<attribute id="Name" type="LSString" value="Pickpocketing" />
+								</node>
+								<node id="ActionCapabilities">
+									<attribute id="Name" type="LSString" value="Lockpicking" />
+								</node>
+								<node id="ActionCapabilities">
+									<attribute id="Name" type="LSString" value="Disarming" />
+								</node>
+							</children>
+						</node>
+						<node id="Hp">
+							<attribute id="type" type="uint8" value="1" />
+						</node>
+						<node id="InteractionsCapabilities">
+							<children>
+								<node id="InteractionsCapabilities">
+									<attribute id="Name" type="LSString" value="UseDoors" />
+								</node>
+								<node id="InteractionsCapabilities">
+									<attribute id="Name" type="LSString" value="UseLadders" />
+								</node>
+								<node id="InteractionsCapabilities">
+									<attribute id="Name" type="LSString" value="Containers" />
+								</node>
+								<node id="InteractionsCapabilities">
+									<attribute id="Name" type="LSString" value="Pickup" />
+								</node>
+								<node id="InteractionsCapabilities">
+									<attribute id="Name" type="LSString" value="ConsumeItems" />
+								</node>
+								<node id="InteractionsCapabilities">
+									<attribute id="Name" type="LSString" value="MoveObjects" />
+								</node>
+							</children>
+						</node>
+						<node id="SpeakingCapabilities">
+							<children>
+								<node id="SpeakingCapabilities">
+									<attribute id="Name" type="LSString" value="Spells" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Rule">
+					<attribute id="ApplyVisual" type="bool" value="True" />
+					<attribute id="ChangeIcon" type="bool" value="True" />
+					<attribute id="FootstepsType" type="bool" value="True" />
+					<attribute id="IgnoreCustomLooks" type="bool" value="True" />
+					<attribute id="RetainDisplayName" type="bool" value="False" />
+					<attribute id="RuleName" type="LSString" value="Physical" />
+					<attribute id="UUID" type="guid" value="4acc6277-6dcd-4110-9450-b9379beaedac" />
+					<children>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="4" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="4" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="4" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="Hp">
+							<attribute id="type" type="uint8" value="1" />
+						</node>
+						<node id="Scale">
+							<attribute id="type" type="uint8" value="4" />
+						</node>
+						<node id="Weight">
+							<attribute id="type" type="uint8" value="4" />
+						</node>
+					</children>
+				</node>
+				<node id="Rule">
+					<attribute id="ApplyVisual" type="bool" value="True" />
+					<attribute id="ChangeAi" type="bool" value="True" />
+					<attribute id="ChangeIcon" type="bool" value="True" />
+					<attribute id="FootstepsType" type="bool" value="True" />
+					<attribute id="IgnoreCustomLooks" type="bool" value="True" />
+					<attribute id="KillEntityAtZeroHP" type="bool" value="True" />
+					<attribute id="PassivesInheritanceType" type="FixedString" value="ReplaceOriginal" />
+					<attribute id="RetainDisplayName" type="bool" value="False" />
+					<attribute id="RuleName" type="LSString" value="LOW_HoH_Raphael" />
+					<attribute id="UUID" type="guid" value="7850235d-f91b-4ca3-a378-3794bac025b9" />
+					<children>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="4" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="4" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="4" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="4" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="4" />
+								</node>
+							</children>
+						</node>
+						<node id="AbilityChanges">
+							<children>
+								<node id="Object">
+									<attribute id="type" type="uint8" value="4" />
+								</node>
+							</children>
+						</node>
+						<node id="Hp">
+							<attribute id="type" type="uint8" value="1" />
+						</node>
+						<node id="Scale">
+							<attribute id="type" type="uint8" value="4" />
+						</node>
+						<node id="Weight">
+							<attribute id="type" type="uint8" value="4" />
+						</node>
+					</children>
+				</node>
             </children>
         </node>
     </region>

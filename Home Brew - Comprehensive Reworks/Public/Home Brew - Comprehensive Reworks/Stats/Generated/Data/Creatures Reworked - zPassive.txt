@@ -919,6 +919,15 @@ data "Icon" "PassiveFeature_AttackOfOpportunity"
 data "Properties" "IsHidden"
 data "Boosts" "UnlockInterrupt(Interrupt_AttackOfOpportunity_GuardianOfFaith)"
 
+<!--------------------------------------------------HALSIN GOBLIN PEN--------------------------------------------------->
+
+new entry "Halsin_BearForm_GoblinPen"
+type "PassiveData"
+data "Properties" "IsHidden;OncePerLongRest"
+data "StatsFunctorContext" "OnCreate"
+data "Conditions" "not Player() and not HasStatus('GOB_WolfPens_WILDSHAPE_BEAR_4') and not HasStatus('HALSIN_BLOCKER')"
+data "StatsFunctors" "ApplyStatus(SELF,GOB_WolfPens_WILDSHAPE_BEAR_4,100,-1);ApplyStatus(SELF,HALSIN_BLOCKER,100,-1)"
+
 <!--------------------------------------------------HOBGOBLINS--------------------------------------------------->
 
 new entry "Hobgoblin_Brutality"

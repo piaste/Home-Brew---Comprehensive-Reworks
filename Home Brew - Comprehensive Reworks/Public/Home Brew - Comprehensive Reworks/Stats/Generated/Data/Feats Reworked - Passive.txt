@@ -732,11 +732,8 @@ data "DisplayName" "8a87461fd8dd4f5b9098ded714sdf68878d01;2"
 data "Description" "8a87461fd8dd4f5b9098ded714f60d1fd250a;2"
 data "DescriptionParams" "Distance(3)"
 data "Icon" "PassiveFeature_Banite_TacticalDiscipline"
-data "Properties" "Highlighted;IsToggled;ToggledDefaultOn;ToggledDefaultAddToHotbar"
+data "Properties" "Highlighted;ForceShowInCC"
 data "Boosts" "IF(context.HasContextFlag(StatsFunctorContext.OnConsumed) and Tagged('HEALING_POTION')):MaximizeHealing(Incoming)"
-data "StatsFunctorContext" "OnDamage"
-data "Conditions" "Tagged('GRENADE') or Tagged('EXPLOSIVES')"
-data "StatsFunctors" "IF(not CharacterLevelGreaterThan(2)):CreateExplosion(Projectile_Explosion);IF(CharacterLevelGreaterThan(2) and not CharacterLevelGreaterThan(4)):CreateExplosion(Projectile_Explosion_2);IF(CharacterLevelGreaterThan(4) and not CharacterLevelGreaterThan(6)):CreateExplosion(Projectile_Explosion_3);IF(CharacterLevelGreaterThan(6) and not CharacterLevelGreaterThan(8)):CreateExplosion(Projectile_Explosion_4);IF(CharacterLevelGreaterThan(8) and not CharacterLevelGreaterThan(10)):CreateExplosion(Projectile_Explosion_5);IF(CharacterLevelGreaterThan(10)):CreateExplosion(Projectile_Explosion_6)"
 
 <!--ANCHORED FOCUS-->
 

@@ -334,6 +334,31 @@ data "Requirements" ""
 data "CastEffect" "1d671f4e-0a90-4e01-a2c9-e76743e207d9"
 data "Sheathing" "Sheathed"
 
+<!--SHADOW MASTIFF-->
+
+new entry "Shout_Terrifying_Howl"
+type "SpellData"
+data "SpellType" "Shout"
+data "AreaRadius" "18"
+data "SpellRoll" "not SavingThrow(Ability.Wisdom, SourceSpellDC())"
+data "SpellSuccess" "ApplyStatus(FRIGHTENED, 100, 3)"
+data "TargetConditions" "Enemy() and not Dead()"
+data "Icon" "PassiveFeature_Generic_WildAnimal"
+data "DisplayName" "h05a12f5egcfa7g4e4bg97b7ga753cc115554;2"
+data "Description" "hc5081d70g5d32g4c5bg9104g80e09c88e7f6;7"
+data "TooltipAttackSave" "Wisdom"
+data "TooltipStatusApply" "ApplyStatus(FRIGHTENED,100,3)"
+data "CastSound" "CrSpell_Cast_ShadowMastiff_TerrifyingHowl"
+data "CastTextEvent" "Cast"
+data "SpellAnimation" "5e57443f-284e-47b2-915e-5b6417db269c,,;d8b7f668-db2b-43b0-9707-5da2ed2cf27e,,;7521e279-1bb3-4105-b32d-8206234836a3,,;d172e037-7041-4352-9a20-5f4b185f9ef1,,;5bcdefbb-2194-46c2-ac77-0b2d8472a5f7,,;,,;,,;,,;,,"
+data "VerbalIntent" "Debuff"
+data "SpellFlags" "HasVerbalComponent;IsEnemySpell;IsHarmful"
+data "SpellAnimationIntentType" "Aggressive"
+data "RechargeValues" "6"
+data "PrepareEffect" "7f0c93e3-6f05-4b10-b424-411fd60e3a7b"
+data "CastEffect" "bc9615d0-11a4-49dd-8ad1-48652e83fc7a"
+data "Sheathing" "DontChange"
+
 <!--SPIDER QUEEN-->
 
 new entry "Shout_FOR_SpiderQueen_Enrage"

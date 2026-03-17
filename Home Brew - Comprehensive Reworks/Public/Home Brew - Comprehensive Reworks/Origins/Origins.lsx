@@ -46,6 +46,7 @@
                     <attribute id="Description" type="TranslatedString" handle="h56e998e4g7c45g4e2cgb8adg41833aa6af7d" version="4"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="h8e9c39cdga83dg4526g816dg4db38902b1fe" version="1"/>
                     <attribute id="GlobalTemplate" type="guid" value="58a69333-40bf-8358-1d17-fff240d7fb12"/>
+                    <attribute id="GodUUID" type="guid" value="13766e6a-f60d-48d1-93a9-3ea739982e32"/>
                     <attribute id="IntroDialogUUID" type="guid" value="c1794155-017b-d953-171f-93e3499dc545"/>
                     <attribute id="LockBody" type="bool" value="true"/>
                     <attribute id="LockClass" type="bool" value="false"/>
@@ -74,6 +75,7 @@
                     <attribute id="Description" type="TranslatedString" handle="hfc878580g669fg47b4ga236g8fc561332dd3" version="4"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="h216a9660g729dg4422gaa28gce125e518b92" version="1"/>
                     <attribute id="GlobalTemplate" type="guid" value="ad9af97d-75da-406a-ae13-7071c563f604"/>
+                    <attribute id="GodUUID" type="guid" value="3e1c9bfc-f15c-46c1-8c2d-725da5e4d896"/>
                     <attribute id="IntroDialogUUID" type="guid" value="6202aa53-97d7-86a6-4eac-d39d43e367d4"/>
                     <attribute id="LockBody" type="bool" value="true"/>
                     <attribute id="LockClass" type="bool" value="false"/>
@@ -102,7 +104,7 @@
                     <attribute id="Description" type="TranslatedString" handle="hc0d76119g0103g4d75gb746ge22a36ab95ff" version="2"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="h11b1603bgd34fg4c1dgbd20gcce32c2ac8d9" version="1"/>
                     <attribute id="GlobalTemplate" type="guid" value="3ed74f06-3c60-42dc-83f6-f034cb47c679"/>
-                    <attribute id="GodUUID" type="guid" value="2eb3557f-7ada-41d6-a892-e02def72ef77"/>
+                    <attribute id="GodUUID" type="guid" value="d7166b37-72ad-40d9-8bc2-2c73802c5e70"/>
                     <attribute id="IntroDialogUUID" type="guid" value="9e2f1b19-cfac-b601-a1a8-8b901679826a"/>
                     <attribute id="LockBody" type="bool" value="true"/>
                     <attribute id="LockClass" type="bool" value="false"/>

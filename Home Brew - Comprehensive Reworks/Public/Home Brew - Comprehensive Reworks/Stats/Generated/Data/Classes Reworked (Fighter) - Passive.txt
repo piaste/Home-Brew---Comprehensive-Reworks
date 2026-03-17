@@ -318,7 +318,7 @@ data "Description" "439cb1c55ce44da8b8f3ccd2e23204f565495;2"
 data "Icon" "PassiveFeature_WarMagic"
 data "Properties" "Highlighted;ForceShowInCC"
 data "StatsFunctorContext" "OnCast"
-data "Conditions" "SpellId('CShout_ActionSurge')"
+data "Conditions" "SpellId('Shout_ActionSurge')"
 data "StatsFunctors" "RestoreResource(WarlockSpellSlot,4,1);RestoreResource(WarlockSpellSlot,4,2);RestoreResource(WarlockSpellSlot,4,3);RestoreResource(WarlockSpellSlot,4,4);RestoreResource(WarlockSpellSlot,4,5);RestoreResource(WarlockSpellSlot,4,6)"
 
 new entry "Mountainous_Madness"

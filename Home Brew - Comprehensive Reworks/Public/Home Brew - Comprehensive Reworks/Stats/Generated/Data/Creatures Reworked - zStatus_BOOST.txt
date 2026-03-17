@@ -142,6 +142,14 @@ data "AuraRadius" "9"
 data "AuraStatuses" "TARGET:IF(Character() and not Tagged('KOBOLD') and not (Tagged('GREMISHKA')) and not Dead()):ApplyStatus(GREMISHKA_MAGICALLERGY_INAURARANGE,100,-1)"
 data "Passives" "MagicAllergy_Unstable"
 
+<!--HALSIN GOBLIN PEN-->
+
+new entry "HALSIN_BLOCKER"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;ApplyToDead;IgnoreResting"
+data "TickType" "EndTurn"
+
 <!--HARPY-->
 
 new entry "LURING_SONG_AURA_VICTIM"

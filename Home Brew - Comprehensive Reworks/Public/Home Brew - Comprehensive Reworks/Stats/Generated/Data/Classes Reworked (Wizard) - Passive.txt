@@ -953,7 +953,7 @@ data "Description" "772cd70f49274c7596988bf90e992ca80000i;2"
 data "ExtraDescription" "h197f62bbgd1ddg4436g90df5s6s5d4f56f45"
 data "Icon" "PassiveFeature_RitualCaster_MemorizeSpells"
 data "Properties" "IsHidden;OncePerCombat"
-data "StatsFunctorContext" "OnTurn"
+data "StatsFunctorContext" "OnCombatStarted;OnTurn"
 data "Conditions" "HasPassive('Illusory_Phantasm',GetSummoner(context.Source)) and Combat()"
 data "StatsFunctors" "ApplyStatus(MIRROR_IMAGE_3,100,3);ApplyStatus(MIRROR_IMAGE_2,100,3);ApplyStatus(MIRROR_IMAGE_1,100,3)"
 

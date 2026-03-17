@@ -25,4 +25,5 @@ data "StatsFunctors" "RegainHitPoints(1d12);ApplyStatus(SELF,SCARLET_DISABLED,10
 new entry "SCARLET_DISABLED"
 type "StatusData"
 data "StatusType" "BOOST"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 data "TickType" "EndTurn"

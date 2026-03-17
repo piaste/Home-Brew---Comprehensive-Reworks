@@ -166,7 +166,7 @@ data "TickType" "StartTurn"
 data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentration_End', context.Source)"
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
-data "Passives" "CastleDefense_NPC"
+data "Passives" "CastleDefense"
 
 <!----------------------------------------------------------------------------------------------------SECOND PASSIVE CHOICES---------------------------------------------------------------------------------------------------->
 

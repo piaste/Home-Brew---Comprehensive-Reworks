@@ -464,6 +464,16 @@ data "StatusGroups" "SG_Polymorph_BeastShape;SG_DropForNonMutingDialog;SG_Remove
 data "StatusEffect" "a2f59d12-02d6-418d-8b23-e5fc111846b0"
 data "Passives" "Slayer_ExtraAttack_2"
 
+new entry "SLAYER_PLAYER"
+type "StatusData"
+data "StatusType" "POLYMORPHED"
+using "CWILDSHAPE_SLAYER_PLAYER_12"
+
+new entry "SLAYER_PLAYER_10"
+type "StatusData"
+data "StatusType" "POLYMORPHED"
+using "CWILDSHAPE_SLAYER_PLAYER_12"
+
 new entry "SLAYER_CRITICAL"
 type "StatusData"
 data "StatusType" "BOOST"

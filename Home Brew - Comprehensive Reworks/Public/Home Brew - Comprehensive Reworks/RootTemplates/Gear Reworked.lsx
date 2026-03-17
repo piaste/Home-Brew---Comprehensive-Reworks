@@ -7685,13 +7685,6 @@
 							</children>
 						</node>
 						<node id="GameMaster" />
-						<node id="StatusList">
-							<children>
-								<node id="Status">
-									<attribute id="Object" type="FixedString" value="IDOLOFSELUNE_AURA" />
-								</node>
-							</children>
-						</node>
 					</children>
 				</node>
 				<node id="GameObjects">
@@ -7736,13 +7729,6 @@
 									<attribute id="Radius" type="float" value="0.05719222" />
 									<attribute id="Shape" type="uint8" value="1" />
 									<attribute id="Type" type="uint8" value="2" />
-								</node>
-							</children>
-						</node>
-						<node id="StatusList">
-							<children>
-								<node id="Status">
-									<attribute id="Object" type="FixedString" value="IDOLOFSHAR_AURA" />
 								</node>
 							</children>
 						</node>
@@ -7812,13 +7798,6 @@
 							</children>
 						</node>
 						<node id="GameMaster" />
-						<node id="StatusList">
-							<children>
-								<node id="Status">
-									<attribute id="Object" type="FixedString" value="IDOLOFSILVANUS_AURA" />
-								</node>
-							</children>
-						</node>
 					</children>
 				</node>
 				<node id="GameObjects">

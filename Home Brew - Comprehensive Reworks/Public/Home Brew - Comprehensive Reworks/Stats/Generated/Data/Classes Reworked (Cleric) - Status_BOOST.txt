@@ -48,7 +48,7 @@ data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndi
 data "Boosts" "ActionResource(DivineIntervention,1,0);IF(not HasPassive('Belief_and_Bestowment', context.Source)):UnlockSpell(Shout_DivineIntervention)"
 data "ApplyEffect" "b534e7d1-8f4d-43c8-94d9-04c68a93e6fd"
 data "StatusEffect" "3b934d18-9404-4f17-af5e-7561aa844123"
-data "RemoveConditions" "SpellId('Shout_DivineIntervention_Bounty') or SpellId('Shout_DivineIntervention_Damage') or SpellId('Shout_DivineIntervention_DamageLife') or SpellId('Shout_DivineIntervention_DamageTempest') or SpellId('Shout_DivineIntervention_DamageWar') or SpellId('Shout_DivineIntervention_DamageDeath') or SpellId('Shout_DivineIntervention_Healing') or SpellId('Shout_DivineIntervention_Buff')"
+data "RemoveConditions" "SpellId('Shout_DivineIntervention_Bounty') or SpellId('Shout_DivineIntervention_Damage') or SpellId('Shout_DivineIntervention_DamageDeath') or SpellId('Shout_DivineIntervention_DamageForge') or SpellId('Shout_DivineIntervention_DamageLife') or SpellId('Shout_DivineIntervention_DamageTempest') or SpellId('Shout_DivineIntervention_DamageWar') or SpellId('Shout_DivineIntervention_Healing') or SpellId('Shout_DivineIntervention_Buff')"
 data "RemoveEvents" "OnSpellCast;OnCombatEnded"
 data "Passives" "DivineIntervention_CombatEnd"
 
