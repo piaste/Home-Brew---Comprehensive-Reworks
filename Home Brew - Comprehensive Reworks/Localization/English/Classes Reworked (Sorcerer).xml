@@ -168,42 +168,42 @@
 
 <!-- SPELLFIRE WIELDER -->
 
-	<content contentuid="75afaf5bbeec48939102d9037449bef500000" loretext="true" version="1">Spellfire Wielder</content>
-	<content contentuid="75afaf5bbeec48939102d9037449bef50000z" loretext="true" version="1">Whether from innate heritage or exposure to strange entities, you are gifted with the rare and wild talent of &lt;i&gt;spellfire&lt;/i&gt;, wielding the raw energy of the Weave itself. It burns with all-consuming flame just as eagerly as it rejuvenates your allies.</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef500000" loreTexts="true" version="1">Spellfire Wielder</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef50000z" loreTexts="true" version="1">Whether from innate heritage or exposure to strange entities, you are gifted with the rare and wild talent of &lt;i&gt;spellfire&lt;/i&gt;, wielding the raw energy of the Weave itself. It burns with all-consuming flame just as eagerly as it rejuvenates your allies.</content>
 
-	<content contentuid="75afaf5bbeec48939102d9037449bef500001" loretext="true" version="1">Spellfire Spark</content>
-	<content contentuid="75afaf5bbeec48939102d9037449bef50000a" loretext="true" version="1">While in combat, casting a Spell causes you to emit an aura of &lt;i&gt;spellfire&lt;/i&gt; across [1]. The duration of this aura is equal to the level of Spell that you cast. Allies within the aura regain [2] &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; at the start of their turns. Enemies within the aura take [3] at the start of their turns.</content>
-	<content contentuid="75afaf5bbeec48939102d9037449bef5000z1" loretext="true" version="1">Spellfire Spark</content>
-	<content contentuid="75afaf5bbeec48939102d9037449bef5000za" loretext="true" version="1">Affected creature is emitting an aura of &lt;i&gt;spellfire&lt;/i&gt; across [1]. Allies within the aura regain [2] &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; at the start of their turns. Enemies within the aura take [3] at the start of their turns.</content>
-	<content contentuid="75afaf5bbeec48939102d9037449bef500zz1" loretext="true" version="1">Spellfire Spark: Rejuvenate</content>
-	<content contentuid="75afaf5bbeec48939102d9037449bef500zza" loretext="true" version="1">Affected creature will regain [1] &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; at the start of each turn due to a nearby ally's &lt;i&gt;spellfire&lt;/i&gt; emanation.</content>
-	<content contentuid="75afaf5bbeec48939102d9037449bef50zzz1" loretext="true" version="1">Spellfire Spark: Consume</content>
-	<content contentuid="75afaf5bbeec48939102d9037449bef50zzza" loretext="true" version="1">Affected creature will take [1] Radiant damage at the start of each turn due to a nearby enemy's &lt;i&gt;spellfire&lt;/i&gt; emanation.</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef500001" loreTexts="true" version="1">Spellfire Spark</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef50000a" loreTexts="true" version="1">While in combat, casting a Spell causes you to emit an aura of &lt;i&gt;spellfire&lt;/i&gt; across [1]. The duration of this aura is equal to the level of Spell that you cast. Allies within the aura regain [2] &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; at the start of their turns. Enemies within the aura take [3] at the start of their turns.</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef5000z1" loreTexts="true" version="1">Spellfire Spark</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef5000za" loreTexts="true" version="1">Affected creature is emitting an aura of &lt;i&gt;spellfire&lt;/i&gt; across [1]. Allies within the aura regain [2] &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; at the start of their turns. Enemies within the aura take [3] at the start of their turns.</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef500zz1" loreTexts="true" version="1">Spellfire Spark: Rejuvenate</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef500zza" loreTexts="true" version="1">Affected creature will regain [1] &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; at the start of each turn due to a nearby ally's &lt;i&gt;spellfire&lt;/i&gt; emanation.</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef50zzz1" loreTexts="true" version="1">Spellfire Spark: Consume</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef50zzza" loreTexts="true" version="1">Affected creature will take [1] Radiant damage at the start of each turn due to a nearby enemy's &lt;i&gt;spellfire&lt;/i&gt; emanation.</content>
 
-	<content contentuid="75afaf5bbeec48939102d9037449bef500002" loretext="true" version="1">Whirlflame</content>
-	<content contentuid="75afaf5bbeec48939102d9037449bef50000b" loretext="true" version="1">Gain &lt;LSTag Type="Spell" Tooltip="Target_RadianceinBloom"&gt;Whirlflame&lt;/LSTag&gt;.</content>
-	<content contentuid="75afaf5bbeec48939102d9037449bef5000z2" loretext="true" version="1">Whirlflame</content>
-	<content contentuid="75afaf5bbeec48939102d9037449bef5000zb" loretext="true" version="1">Unleash your &lt;i&gt;spellfire&lt;/i&gt; in a [1] area, damaging enemies and healing allies for [2] &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Casting this Spell will provide you with two turns of &lt;LSTag Type="Passive" Tooltip="SoulfireSpark"&gt;Spellfire Spark&lt;/LSTag&gt; per Spell level, rather than one.</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef500002" loreTexts="true" version="1">Whirlflame</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef50000b" loreTexts="true" version="1">Gain &lt;LSTag Type="Spell" Tooltip="Target_RadianceinBloom"&gt;Whirlflame&lt;/LSTag&gt;.</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef5000z2" loreTexts="true" version="1">Whirlflame</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef5000zb" loreTexts="true" version="1">Unleash your &lt;i&gt;spellfire&lt;/i&gt; in a [1] area, damaging enemies and healing allies for [2] &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Casting this Spell will provide you with two turns of &lt;LSTag Type="Passive" Tooltip="SoulfireSpark"&gt;Spellfire Spark&lt;/LSTag&gt; per Spell level, rather than one.</content>
 
-	<content contentuid="75afaf5bbeec48939102d9037449bef500003" loretext="true" version="1">Spellfire Ignition</content>
-	<content contentuid="75afaf5bbeec48939102d9037449bef50000c" loretext="true" version="1">Your &lt;LSTag Type="Passive" Tooltip="SoulfireSpark"&gt;Spellfire Spark&lt;/LSTag&gt; has been upgraded to a Spellfire Ignition. Allies within the aura now regain [1] &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; at the start of their turns. Enemies within the aura now take [2] at the start of their turns.</content>
-	<content contentuid="75afaf5bbeec48939102d9037449bef5000z3" loretext="true" version="1">Spellfire Ignition</content>
-	<content contentuid="75afaf5bbeec48939102d9037449bef5000zc" loretext="true" version="1">Affected creature is emitting an aura of &lt;i&gt;spellfire&lt;/i&gt; across [1]. Allies within the aura regain [2] &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; at the start of their turns. Enemies within the aura take [3] at the start of their turns.</content>
-	<content contentuid="75afaf5bbeec48939102d9037449bef500zz3" loretext="true" version="1">Spellfire Ignition: Rejuvenate</content>
-	<content contentuid="75afaf5bbeec48939102d9037449bef500zzc" loretext="true" version="1">Affected creature will regain [1] &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; at the start of each turn due to a nearby ally's &lt;i&gt;spellfire&lt;/i&gt; emanation.</content>
-	<content contentuid="75afaf5bbeec48939102d9037449bef50zzz3" loretext="true" version="1">Spellfire Ignition: Consume</content>
-	<content contentuid="75afaf5bbeec48939102d9037449bef50zzzc" loretext="true" version="1">Affected creature will take [1] Radiant damage at the start of each turn due to a nearby enemy's &lt;i&gt;spellfire&lt;/i&gt; emanation.</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef500003" loreTexts="true" version="1">Spellfire Ignition</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef50000c" loreTexts="true" version="1">Your &lt;LSTag Type="Passive" Tooltip="SoulfireSpark"&gt;Spellfire Spark&lt;/LSTag&gt; has been upgraded to a Spellfire Ignition. Allies within the aura now regain [1] &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; at the start of their turns. Enemies within the aura now take [2] at the start of their turns.</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef5000z3" loreTexts="true" version="1">Spellfire Ignition</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef5000zc" loreTexts="true" version="1">Affected creature is emitting an aura of &lt;i&gt;spellfire&lt;/i&gt; across [1]. Allies within the aura regain [2] &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; at the start of their turns. Enemies within the aura take [3] at the start of their turns.</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef500zz3" loreTexts="true" version="1">Spellfire Ignition: Rejuvenate</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef500zzc" loreTexts="true" version="1">Affected creature will regain [1] &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; at the start of each turn due to a nearby ally's &lt;i&gt;spellfire&lt;/i&gt; emanation.</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef50zzz3" loreTexts="true" version="1">Spellfire Ignition: Consume</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef50zzzc" loreTexts="true" version="1">Affected creature will take [1] Radiant damage at the start of each turn due to a nearby enemy's &lt;i&gt;spellfire&lt;/i&gt; emanation.</content>
 
-	<content contentuid="75afaf5bbeec48939102d9037449bef500004" loretext="true" version="1">Crown of Fire</content>
-	<content contentuid="75afaf5bbeec48939102d9037449bef50000d" loretext="true" version="1">Allies within the radius of your &lt;LSTag Type="Passive" Tooltip="SoulfireIgnition"&gt;Spellfire Ignition&lt;/LSTag&gt; gain &lt;LSTag Type="Status" Tooltip="DIVINE_FAVOR"&gt;Divine Favour&lt;/LSTag&gt;. In addition, each time that you deal Radiant damage, your target is afflicted with one &lt;LSTag Type="Status" Tooltip="MAG_RADIANT_RADIATING_ORB"&gt;Radiating Orb&lt;/LSTag&gt;.</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef500004" loreTexts="true" version="1">Crown of Fire</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef50000d" loreTexts="true" version="1">Allies within the radius of your &lt;LSTag Type="Passive" Tooltip="SoulfireIgnition"&gt;Spellfire Ignition&lt;/LSTag&gt; gain &lt;LSTag Type="Status" Tooltip="DIVINE_FAVOR"&gt;Divine Favour&lt;/LSTag&gt;. In addition, each time that you deal Radiant damage, your target is afflicted with one &lt;LSTag Type="Status" Tooltip="MAG_RADIANT_RADIATING_ORB"&gt;Radiating Orb&lt;/LSTag&gt;.</content>
 
-	<content contentuid="75afaf5bbeec48939102d9037449bef500005" loretext="true" version="1">Spellfire Hierophant</content>
-	<content contentuid="75afaf5bbeec48939102d9037449bef50000e" loretext="true" version="1">The healing done and damage dealt to creatures within your &lt;LSTag Type="Passive" Tooltip="SoulfireIgnition"&gt;Spellfire Ignition&lt;/LSTag&gt; now triggers at both the start and end of their turns.</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef500005" loreTexts="true" version="1">Spellfire Hierophant</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef50000e" loreTexts="true" version="1">The healing done and damage dealt to creatures within your &lt;LSTag Type="Passive" Tooltip="SoulfireIgnition"&gt;Spellfire Ignition&lt;/LSTag&gt; now triggers at both the start and end of their turns.</content>
 
-	<content contentuid="75afaf5bbeec48939102d9037449bef500006" loretext="true" version="1">Maelstrom of Fire</content>
-	<content contentuid="75afaf5bbeec48939102d9037449bef50000f" loretext="true" version="1">Gain &lt;LSTag Type="Spell" Tooltip="Shout_RadianceUnhinged"&gt;Maelstrom of Fire&lt;/LSTag&gt;.</content>
-	<content contentuid="75afaf5bbeec48939102d9037449bef5000z6" loretext="true" version="1">Maelstrom of Fire</content>
-	<content contentuid="75afaf5bbeec48939102d9037449bef5000zf" loretext="true" version="1">Release the full fury of your &lt;i&gt;spellfire&lt;/i&gt; in a [1] area, damaging enemies and healing allies within your &lt;LSTag Type="Passive" Tooltip="SoulfireIgnition"&gt;Spellfire Ignition&lt;/LSTag&gt; for [2] &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef500006" loreTexts="true" version="1">Maelstrom of Fire</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef50000f" loreTexts="true" version="1">Gain &lt;LSTag Type="Spell" Tooltip="Shout_RadianceUnhinged"&gt;Maelstrom of Fire&lt;/LSTag&gt;.</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef5000z6" loreTexts="true" version="1">Maelstrom of Fire</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef5000zf" loreTexts="true" version="1">Release the full fury of your &lt;i&gt;spellfire&lt;/i&gt; in a [1] area, damaging enemies and healing allies within your &lt;LSTag Type="Passive" Tooltip="SoulfireIgnition"&gt;Spellfire Ignition&lt;/LSTag&gt; for [2] &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.</content>
 
 <!--SHADE WALKER-->
 
