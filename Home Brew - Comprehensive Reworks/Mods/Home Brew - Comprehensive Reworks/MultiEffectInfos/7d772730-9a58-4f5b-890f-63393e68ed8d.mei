@@ -1,4 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<MultiEffectInfos UUID="7d772730-9a58-4f5b-890f-63393e68ed8d" OwnerUUID="00000000-0000-0000-0000-000000000000" Name="PhoenixLanding_ImpactEffect">
-  <EffectInfo UUID="5fb98465-4ece-4ef9-a19e-f07bccc6053b" EffectResourceGuid="95f950d8-1c26-9f13-bbc4-7da7a4c326a7" DetachSource="false" DetachTarget="false" KeepRotation="false" UseOrientDirection="false" UseDistance="false" UseScaleOverride="false" KeepScale="false" MainHand="false" OffHand="false" MinDistance="0" MaxDistance="0" BindSourceTo="SourceEntity" BindTargetTo="TargetEntity" Pivot="Target" Enabled="true" DamageType="None" VerbalIntent="None" SourceCheckEquipmentTagConditions="true" TargetCheckEquipmentTagConditions="true" />
-</MultiEffectInfos>

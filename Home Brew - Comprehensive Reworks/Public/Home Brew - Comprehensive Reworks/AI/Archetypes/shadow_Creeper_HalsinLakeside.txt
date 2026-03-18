@@ -1,3 +1,0 @@
-USING beast
-
-MULTIPLIER_ENDPOS_NOT_IN_AIHINT                 10.00

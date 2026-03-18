@@ -1,4 +1,0 @@
-USING ranged_stupid
-
-// Kobold Inventor doesn't care to damage its allies
-MULTIPLIER_SCORE_ON_ALLY 0.0

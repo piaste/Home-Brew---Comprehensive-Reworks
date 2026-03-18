@@ -1,7 +1,0 @@
-Ext.Require("AddCreaturetoParty.lua")
-Ext.Require("HarderDifficulty.lua")
-Ext.Require("ItemReturn.lua")
-Ext.Require("JWL_ItemDistribution.lua")
-Ext.Require("JWL_TraderConfig.lua")
-Ext.Require("LoneWolf.lua")
-Ext.Require("TitanicStrength.lua")

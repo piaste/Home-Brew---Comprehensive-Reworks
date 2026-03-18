@@ -1,4 +1,0 @@
-USING mage
-
-//Absolutely doesn't want to pickup weapons
-WEAPON_PICKUP_MODIFIER 							0

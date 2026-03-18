@@ -1,4 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<MultiEffectInfos UUID="fc1a43f6-28fe-4a08-a09d-7ca524c7c0e2" OwnerUUID="00000000-0000-0000-0000-000000000000" Name="Paladin_SunScorched_ApplyEffect">
-  <EffectInfo UUID="82a81a2d-a68b-4ce9-b55b-1e5b8f86f307" EffectResourceGuid="010d1d67-7acc-3980-b075-946e9bdc3689" DetachSource="false" DetachTarget="true" KeepRotation="true" UseOrientDirection="false" UseDistance="false" UseScaleOverride="false" KeepScale="true" MainHand="false" OffHand="false" MinDistance="0" MaxDistance="0" BindSourceTo="SourceEntity" BindTargetTo="TargetEntity" Pivot="Target" Enabled="true" DamageType="None" VerbalIntent="None" TargetBone="Dummy_Root" SourceCheckEquipmentTagConditions="true" TargetCheckEquipmentTagConditions="true" />
-</MultiEffectInfos>

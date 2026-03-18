@@ -1,3 +1,0 @@
-USING mage
-
-MULTIPLIER_RESURRECT							10.00
