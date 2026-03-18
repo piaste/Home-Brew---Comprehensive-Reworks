@@ -33,9 +33,9 @@
                 <node id="ModuleInfo">
                     <attribute id="Author" type="LSString" value="brogue" />
                     <attribute id="CharacterCreationLevelName" type="FixedString" value="" />
-                    <attribute id="Description" type="LSString"
+                    <attribute id="Description" type="LSWString"
                         value="Some lore-based text edits to Home Brew - Comprehensive Reworks" />
-                    <attribute id="Folder" type="LSString"
+                    <attribute id="Folder" type="LSWString"
                         value="Home Brew - Comprehensive Reworks - Lore Texts" />
                     <attribute id="LobbyLevelName" type="FixedString" value="" />
                     <attribute id="MD5" type="LSString" value="" />
