@@ -23,9 +23,14 @@ module Localization =
         do Directory.GetFiles($"./{upstreamModName}/Localization/English/", "*.loca")
         |> Array.iter File.Delete
 
-    // rename mod files to get them loaded after HB originals
-    let renameXmlFiles oldSubstring newSubstring =
+    let hideUnaffectedFiles () = 
         do Directory.GetFiles($"./{upstreamModName}/Localization/English/", "*.xml")
+        |> Array.where (File.ReadAllText >> _.Contains("loreTexts=\"true\"")>> not)
+        |> Array.iter (fun f -> File.Move(f, f.Replace(".xml", ".definitelynotanxmlfile")))
+
+    // rename mod files to get them loaded after HB originals
+    let renameFiles oldSubstring newSubstring =
+        do Directory.GetFiles $"./{upstreamModName}/Localization/English/"
         |> Array.map System.IO.Path.GetFullPath
         |> Array.iter (fun f ->    
 
@@ -37,7 +42,8 @@ module Localization =
     let beforeBuild() = 
         // rename mod files and generate new .loca files
         do cleanupLocaFiles()
-        do renameXmlFiles ".xml" ".loretext.xml"
+        do hideUnaffectedFiles()
+        do renameFiles ".xml" ".loretext.xml"
         do Directory.GetFiles($"./{upstreamModName}/Localization/English/", "*.xml")
         |> Array.map System.IO.Path.GetFullPath
         |> Array.iter (fun f ->    
@@ -51,7 +57,8 @@ module Localization =
 
     let afterBuild() = 
         // cleanup, restore xml file names
-        do renameXmlFiles ".loretext.xml" ".xml" 
+        do renameFiles ".loretext.xml" ".xml" 
+        do renameFiles ".definitelynotanxmlfile" ".xml" 
         do cleanupLocaFiles()
 
 // get mod version from `meta.lsx`
