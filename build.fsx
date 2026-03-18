@@ -1,22 +1,31 @@
 #r "./lib/Tools/LSLib.dll"
 
 open LSLib.LS
+open System.IO
 
-let testFile = "./Localization/English/Classes Reworked (Sorcerer).xml"
-let resource = LocaUtils.Load testFile
 
-LocaUtils.Save(resource, testFile.Replace(".xml", ".loca"), LocaFormat.Loca)
+//cleanup old .loca files
+Directory.GetFiles("./Home Brew - Comprehensive Reworks/Localization/English/", "*.loca")
+|> Array.iter File.Delete
 
-let build = new PackageBuildData(
+// generate new .loca files
+Directory.GetFiles("./Home Brew - Comprehensive Reworks/Localization/English/", "*.xml")
+|> Array.map System.IO.Path.GetFullPath
+|> Array.iter (fun f ->    
+    LocaUtils.Save(
+        resource = LocaUtils.Load f, 
+        outputPath = f.Replace(".xml", ".loca"), 
+        format = LocaFormat.Loca
+    )
+)
+
+// build package
+Packager().CreatePackage(
+    packagePath = System.IO.Path.GetFullPath "./Home Brew - Comprehensive Reworks - Lore Text.pak",
+    inputPath = System.IO.Path.GetFullPath "./Home Brew - Comprehensive Reworks/" ,
+    build = new PackageBuildData(
     Version = Enums.PackageVersion.V18,
     Compression = CompressionMethod.LZ4,
     Priority = 0uy
 )
-
-let packager = new Packager()
-
-packager.CreatePackage(
-    packagePath = "./Home Brew - Comprehensive Reworks - Lore Text.pak",
-    inputPath = "./Home Brew - Comprehensive Reworks/",
-    build = build
-)
+).Wait()
