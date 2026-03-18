@@ -1,9 +1,13 @@
+open System.IO
+open System.Threading.Tasks
+#load "./getLsLib.fsx"
+
+if not (Directory.Exists "./lib/Tools") then
+    (LSLibHelpers.downloadToolsLsLib "./lib").Wait()    
+
 #r "./lib/Tools/LSLib.dll"
 
 open LSLib.LS
-open System.IO
-open System.Xml.Linq
-
 
 //cleanup old .loca files
 do Directory.GetFiles("./Home Brew - Comprehensive Reworks/Localization/English/", "*.loca")
@@ -21,8 +25,7 @@ do Directory.GetFiles("./Home Brew - Comprehensive Reworks/Localization/English/
 )
 
 // get mod version from `meta.lsx`
-
-
+open System.Xml.Linq
 let version64 =
     // intentionally unsafe, will crash if it can't read the version
     "./Home Brew - Comprehensive Reworks/Mods/Home Brew - Comprehensive Reworks - Lore Texts/meta.lsx"
