@@ -46,10 +46,10 @@ let version64 =
 
 // build package
 let fileName = "Home Brew - Comprehensive Reworks - Lore Text-" + version64 + ".pak"
-let outputPak = System.IO.Path.GetFullPath $"./{fileName}"
-do File.Delete outputPak
+let outputPath = System.IO.Path.GetFullPath $"./output/{fileName}"
+do File.Delete outputPath
 do Packager().CreatePackage(
-        packagePath = outputPak,
+        packagePath = outputPath,
         inputPath = System.IO.Path.GetFullPath "./Home Brew - Comprehensive Reworks/" ,
         build = new PackageBuildData(
             Version = Enums.PackageVersion.V18,
@@ -58,4 +58,4 @@ do Packager().CreatePackage(
         )
     ).Wait()
 
-System.Console.WriteLine $"Generated {outputPak}"
+System.Console.WriteLine $"Generated {outputPath}"
