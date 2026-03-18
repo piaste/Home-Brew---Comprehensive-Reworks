@@ -46,6 +46,7 @@ let version64 =
 
 // build package
 let fileName = "Home Brew - Comprehensive Reworks - Lore Text-" + version64 + ".pak"
+Directory.CreateDirectory "./output"
 let outputPath = System.IO.Path.GetFullPath $"./output/{fileName}"
 do File.Delete outputPath
 do Packager().CreatePackage(
