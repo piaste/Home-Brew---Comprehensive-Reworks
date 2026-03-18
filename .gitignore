@@ -3,3 +3,5 @@
 .fake
 *.loca
 *.pak
+output/
+Tools/

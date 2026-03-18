@@ -27,11 +27,11 @@ module private P =
 
 
     // Helper function to get the URL of the latest release from GitHub using System.Text.Json
-    let getLatestReleaseUrl() =
+    let getLatestReleaseUrl lsLibRepo =
         task {
             use client = new HttpClient()
             client.DefaultRequestHeaders.UserAgent.Add (Headers.ProductInfoHeaderValue("Mozilla","5.0"))
-            let url = "https://api.github.com/repos/Norbyte/lslib/releases/latest"
+            let url = $"https://api.github.com/repos/{lsLibRepo}/releases/latest"
             let! response = client.GetStringAsync url
             
             // Parse JSON response using System.Text.Json        
@@ -48,10 +48,10 @@ module private P =
 open P
 
 /// Download and extract LSLib ExportTool to a temp folder
-let downloadToolsLsLib targetParentPath =
+let downloadToolsLsLib lsLibRepo targetParentPath =
     task {
         // Get the URL of the latest release
-        let! downloadUrl = getLatestReleaseUrl()
+        let! downloadUrl = getLatestReleaseUrl lsLibRepo
         
         let zipFilePath = Path.Combine(targetParentPath, "ExportTool.zip")
 

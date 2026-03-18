@@ -2,10 +2,10 @@ open System.IO
 open System.Threading.Tasks
 #load "./getLsLib.fsx"
 
-if not (Directory.Exists "./lib/Tools") then
-    (LSLibHelpers.downloadToolsLsLib "./lib").Wait()    
+if not (Directory.Exists "./Tools") then
+    (LSLibHelpers.downloadToolsLsLib "Norbyte/lslib" ".").Wait()    
 
-#r "./lib/Tools/LSLib.dll"
+#r "./Tools/LSLib.dll"
 
 open LSLib.LS
 
