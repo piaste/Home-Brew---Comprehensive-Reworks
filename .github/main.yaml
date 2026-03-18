@@ -31,7 +31,7 @@ jobs:
         id: find_output
         run: |
           # Define prefix and suffix
-          PREFIX="Home Brew - Comprehensive Reworks-"
+          PREFIX="Home Brew - Comprehensive Reworks - Lore Text"
           SUFFIX=".pak"
 
           # Use find to match files in the output folder based on the prefix/suffix
