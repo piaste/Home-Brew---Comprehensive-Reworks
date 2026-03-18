@@ -1,24 +1,22 @@
-#r "paket:
-nuget Fake.DotNet.Cli
-nuget Fake.IO.FileSystem
-nuget Fake.Core.Target //"
-#load ".fake/build.fsx/intellisense.fsx"
+#r "./lib/Tools/LSLib.dll"
 
-open Fake.Core
-open Fake.DotNet
-open Fake.IO
-open Fake.IO.FileSystemOperators
-open Fake.IO.Globbing.Operators
-open Fake.Core.TargetOperators
+open LSLib.LS
 
-Target.initEnvironment ()
+let testFile = "./Localization/English/Classes Reworked (Sorcerer).xml"
+let resource = LocaUtils.Load testFile
 
-Target.create "Clean" (fun _ -> !! "src/**/bin" ++ "src/**/obj" |> Shell.cleanDirs)
+LocaUtils.Save(resource, testFile.Replace(".xml", ".loca"), LocaFormat.Loca)
 
-Target.create "Build" (fun _ -> !! "src/**/*.*proj" |> Seq.iter (DotNet.build id))
+let build = new PackageBuildData(
+    Version = Enums.PackageVersion.V18,
+    Compression = CompressionMethod.LZ4,
+    Priority = 0uy
+)
 
-Target.create "All" ignore
+let packager = new Packager()
 
-"Clean" ==> "Build" ==> "All"
-
-Target.runOrDefault "All"
+packager.CreatePackage(
+    packagePath = "./Home Brew - Comprehensive Reworks - Lore Text.pak",
+    inputPath = "./Home Brew - Comprehensive Reworks/",
+    build = build
+)

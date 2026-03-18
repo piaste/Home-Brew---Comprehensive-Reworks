@@ -1,0 +1,77 @@
+name: Build and Release
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'  # Matches any vX.Y.Z tag
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout code (shallow clone)
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1  # Shallow clone
+
+      # Step 2: Setup .NET SDK
+      - name: Set up .NET SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0'
+
+      # Step 3: Run F# script build.fsx
+      - name: Run build.fsx
+        run: dotnet fsi build.fsx
+
+      # Step 4: Locate the output file dynamically
+      - name: Find output file
+        id: find_output
+        run: |
+          # Define prefix and suffix
+          PREFIX="Home Brew - Comprehensive Reworks-"
+          SUFFIX=".pak"
+
+          # Use find to match files in the output folder based on the prefix/suffix
+          FILE=$(find ./output -type f -name "${PREFIX}*${SUFFIX}" | head -n 1)
+          
+          if [ -z "$FILE" ]; then
+            echo "No matching output file found"
+            exit 1
+          fi
+
+          # Get the base filename
+          BASENAME=$(basename "$FILE")
+
+          # Output the file path and name for use in later steps
+          echo "file=$FILE" >> $GITHUB_ENV
+          echo "name=$BASENAME" >> $GITHUB_ENV
+
+      # Step 5: Extract the tag (vX.Y.Z)
+      - name: Get tag name
+        id: tag
+        run: echo "tag=${GITHUB_REF_NAME}" >> $GITHUB_ENV
+
+      # Step 6: Create GitHub Release
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        with:
+          tag_name: ${{ env.tag }}
+          release_name: Release ${{ env.tag }}
+          body: 'Automated release for ${{ env.tag }}'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # Step 7: Upload the release asset
+      - name: Upload Release Asset
+        uses: actions/upload-release-asset@v1
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ${{ env.file }}
+          asset_name: ${{ env.name }}
+          asset_content_type: application/zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
