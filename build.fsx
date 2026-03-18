@@ -1,5 +1,5 @@
 open System.IO
-open System.Threading.Tasks
+
 #load "./getLsLib.fsx"
 
 if not (Directory.Exists "./Tools") then
@@ -9,26 +9,56 @@ if not (Directory.Exists "./Tools") then
 
 open LSLib.LS
 
-//cleanup old .loca files
-do Directory.GetFiles("./Home Brew - Comprehensive Reworks/Localization/English/", "*.loca")
-|> Array.iter File.Delete
+let upstreamModName = "Home Brew - Comprehensive Reworks"
+let modName = 
+    $"./{upstreamModName}/Mods/"
+    |> Directory.GetDirectories
+    |> Array.exactlyOne
+    |> Path.GetFileName
 
-// generate new .loca files
-do Directory.GetFiles("./Home Brew - Comprehensive Reworks/Localization/English/", "*.xml")
-|> Array.map System.IO.Path.GetFullPath
-|> Array.iter (fun f ->    
-    LocaUtils.Save(
-        resource = LocaUtils.Load f, 
-        outputPath = f.Replace(".xml", ".loca"), 
-        format = LocaFormat.Loca
-    )
-)
+module Localization = 
+
+    // cleanup old .loca files
+    let cleanupLocaFiles() = 
+        do Directory.GetFiles($"./{upstreamModName}/Localization/English/", "*.loca")
+        |> Array.iter File.Delete
+
+    // rename mod files to get them loaded after HB originals
+    let renameXmlFiles oldSubstring newSubstring =
+        do Directory.GetFiles($"./{upstreamModName}/Localization/English/", "*.xml")
+        |> Array.map System.IO.Path.GetFullPath
+        |> Array.iter (fun f ->    
+
+            let newName = f.Replace(oldValue = oldSubstring, newValue = newSubstring)
+            // add a suffix 
+            File.Move(f, newName)
+        )
+
+    let beforeBuild() = 
+        // rename mod files and generate new .loca files
+        do cleanupLocaFiles()
+        do renameXmlFiles ".xml" ".loretext.xml"
+        do Directory.GetFiles($"./{upstreamModName}/Localization/English/", "*.xml")
+        |> Array.map System.IO.Path.GetFullPath
+        |> Array.iter (fun f ->    
+
+            LocaUtils.Save(
+                resource = LocaUtils.Load f, 
+                outputPath = f.Replace(".xml", ".loca"), 
+                format = LocaFormat.Loca
+            )
+        )
+
+    let afterBuild() = 
+        // cleanup, restore xml file names
+        do renameXmlFiles ".loretext.xml" ".xml" 
+        do cleanupLocaFiles()
 
 // get mod version from `meta.lsx`
 open System.Xml.Linq
-let version64 =
+let version =
     // intentionally unsafe, will crash if it can't read the version
-    "./Home Brew - Comprehensive Reworks/Mods/Home Brew - Comprehensive Reworks - Lore Texts/meta.lsx"
+    $"./{upstreamModName}/Mods/{modName}/meta.lsx"
     |> XDocument.Load    
     |> _.Descendants()
         |> Seq.find (fun n -> 
@@ -45,18 +75,23 @@ let version64 =
     |> fun pv -> sprintf "%i.%i.%i.%i" pv.Major pv.Minor pv.Revision pv.Build
 
 // build package
-let fileName = "Home Brew - Comprehensive Reworks - Lore Text-" + version64 + ".pak"
-Directory.CreateDirectory "./output"
-let outputPath = System.IO.Path.GetFullPath $"./output/{fileName}"
+let outputPath = 
+    Directory.CreateDirectory "./output"
+    |> _.FullName
+    |> fun path -> $"{path}/{modName}-{version}.pak"
+
+// actual build
 do File.Delete outputPath
+do Localization.beforeBuild()
 do Packager().CreatePackage(
         packagePath = outputPath,
-        inputPath = System.IO.Path.GetFullPath "./Home Brew - Comprehensive Reworks/" ,
+        inputPath = System.IO.Path.GetFullPath $"./{upstreamModName}/" ,
         build = new PackageBuildData(
             Version = Enums.PackageVersion.V18,
             Compression = CompressionMethod.LZ4,
             Priority = 0uy
         )
     ).Wait()
+do Localization.afterBuild()
 
 System.Console.WriteLine $"Generated {outputPath}"
