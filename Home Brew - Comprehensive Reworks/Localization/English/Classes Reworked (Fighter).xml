@@ -179,42 +179,42 @@
 	<content contentuid="hf222df47g5060g4a4bg918egf8dbdc6a885f" version="2">Champion's Indomitability</content>
 	<content contentuid="hd0776e74g8eeeg435fgad4eg5b7fa3aa4654" version="2">Whenever you fail a &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;, you can roll again, using the new result instead. In addition to this, add your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; to all &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
 
-<!--DRACONIC SENTINEL-->
+<!-- BLAZING CAVALIER (ex DRACONIC SENTINEL)-->
 
-	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e00000" version="3">Draconic Sentinel</content>
-	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur00000" version="1">Draconic strength begets it's own crucible - the wingbeats of wizened beasts who now lend you their power drum a march of war ever closer toward your victories.</content>
+	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e00000" loreTexts="true" version="3">Blazing Cavalier</content>
+	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur00000" loreTexts="true" version="1">You charge valiantly into the heart of danger, imbuing your weapon strikes with devastating power.</content>
 
-	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e00001" version="3">Body of the Lancer</content>
-	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur0000a" version="1">Leap upon your enemies from afar with &lt;LSTag Type="Spell" Tooltip="Target_SkyboundDive"&gt;Draconic Dive&lt;/LSTag&gt;.</content>
-	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e000z1" version="3">Draconic Dive</content>
-	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur000za" version="1">Leap upon a target, bringing your fury down from afar.</content>
+	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e00001" loreTexts="true" version="3">Chivalric Hunt</content>
+	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur0000a" loreTexts="true" version="1">Hone in on your foes with &lt;LSTag Type="Spell" Tooltip="Target_SkyboundDive"&gt;Chivalric Hunt&lt;/LSTag&gt;.</content>
+	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e000z1" loreTexts="true" version="3">Chivalric Hunt</content>
+	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur000za" loreTexts="true" version="1">Leap to meet your foe with a flamboyant opening strike.</content>
 
-	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e00002" version="3">Wyrmcall Resonance</content>
-	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur0000b" version="1">Upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, you gain &lt;LSTag Type="Status" Tooltip="WYRMCALL_RESONANCE"&gt;Wyrmcall Resonance&lt;/LSTag&gt; until the end of your current turn.</content>
-	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e00012" version="3">Wyrmcall Resonance</content>
-	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur0001b" version="1">Use your Draconic abilities as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; and double the reach of all melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
-	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e000z2" version="3">Wyrmcall Resonance</content>
-	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur000zb" version="1">Affected creature may use their Draconic abilities as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;. In addition, their melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; have double the reach that they normally would.</content>
+	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e00002" loreTexts="true" version="3">Zealous Pursuit</content>
+	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur0000b" loreTexts="true" version="1">Upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, you gain &lt;LSTag Type="Status" Tooltip="WYRMCALL_RESONANCE"&gt;Zealous Pursuit&lt;/LSTag&gt; until the end of your current turn.</content>
+	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e00012" loreTexts="true" version="3">Zealous Pursuit</content>
+	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur0001b" loreTexts="true" version="1">Use your Chivalric abilities as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; and double the reach of all melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
+	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e000z2" loreTexts="true" version="3">Zealous Pursuit</content>
+	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur000zb" loreTexts="true" version="1">Affected creature may use their Chivalric abilities as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;. In addition, their melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; have double the reach that they normally would.</content>
 
-	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e00003" version="3">Mind of the Wizened</content>
-	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur0000c" version="1">Run your enemies through with &lt;LSTag Type="Spell" Tooltip="Rush_DraconicBlitz"&gt;Draconic Blitz&lt;/LSTag&gt;.</content>
-	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e000z3" version="3">Draconic Blitz</content>
-	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur000zc" version="1">Run your enemies through, dealing damage to each target.</content>
+	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e00003" loreTexts="true" version="3">Chivalric Charge</content>
+	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur0000c" loreTexts="true" version="1">Run your enemies through with &lt;LSTag Type="Spell" Tooltip="Rush_DraconicBlitz"&gt;Chivalric Charge&lt;/LSTag&gt;.</content>
+	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e000z3" loreTexts="true" version="3">Chivalric Charge</content>
+	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur000zc" loreTexts="true" version="1">Run your enemies through, dealing damage to each target.</content>
 
-	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e00004" version="3">Wyrmcall Eruption</content>
-	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur0000d" version="1">Gain the ability to expend a &lt;LSTag Type="ActionResource" Tooltip="SuperiorityDie"&gt;Superiority Die&lt;/LSTag&gt; upon dealing damage with one of your Draconic abilities to erupt in a forceful explosion, damaging all enemies within [1] of you of you and sending them backward by [2], knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
-	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e000z4" version="3">Wyrmcall Eruption</content>
-	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur000zd" version="1">Upon dealing damage with one of your Draconic abilities, erupt in a forceful explosion, damaging [1] to all enemies within [2] of you and sending them backward by [3], knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
+	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e00004" loreTexts="true" version="3">Cataphract Shock</content>
+	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur0000d" loreTexts="true" version="1">Gain the ability to expend a &lt;LSTag Type="ActionResource" Tooltip="SuperiorityDie"&gt;Superiority Die&lt;/LSTag&gt; upon dealing damage with one of your Chivalric abilities to produce a blast of sheer force on impact, damaging all enemies within [1] of you of you and sending them backward by [2], knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
+	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e000z4" loreTexts="true" version="3">Cataphract Shock</content>
+	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur000zd" loreTexts="true" version="1">Upon dealing damage with one of your Chivalric abilities, produce a blast of sheer force, damaging [1] to all enemies within [2] of you and sending them backward by [3], knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
 
-	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e00005" version="3">Soul of the Dragon</content>
-	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur0000e" version="1">Utterly decimate your enemies with &lt;LSTag Type="Spell" Tooltip="Target_DraconicMaul"&gt;Draconic Maul&lt;/LSTag&gt;.</content>
-	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e000z5" version="3">Draconic Maul</content>
-	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur000ze" version="1">Utterly decimate your target, mauling them in draconic fury.</content>
+	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e00005" loreTexts="true" version="3">Chivalric Maul</content>
+	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur0000e" loreTexts="true" version="1">Cut down your enemies with &lt;LSTag Type="Spell" Tooltip="Target_DraconicMaul"&gt;Chivalric Maul&lt;/LSTag&gt;.</content>
+	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e000z5" loreTexts="true" version="3">Chivalric Maul</content>
+	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur000ze" loreTexts="true" version="1">Put all of your impetus into a single weapon strike, exploding with lethal power inside your foe.</content>
 
-	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e00006" version="3">Wyrmcall Breakpoint</content>
-	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur0000f" version="1">Triggering &lt;LSTag Type="Status" Tooltip="WYRMCALL_RESONANCE"&gt;Wyrmcall Resonance&lt;/LSTag&gt; causes your next Draconic ability to deal the maximum damage possible.</content>
-	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e000z6" version="3">Wyrmcall Breakpoint</content>
-	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur000zf" version="1">Affected creature's next Draconic ability will deal the maximum damage possible.</content>
+	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e00006" loreTexts="true" version="3">Slaying the Dragon</content>
+	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur0000f" loreTexts="true" version="1">Triggering &lt;LSTag Type="Status" Tooltip="WYRMCALL_RESONANCE"&gt;Zealous Pursuit&lt;/LSTag&gt; causes your next Chivalric ability to deal the maximum damage possible.</content>
+	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e000z6" loreTexts="true" version="3">Slaying the Dragon</content>
+	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur000zf" loreTexts="true" version="1">Affected creature's next Chivalric ability will deal the maximum damage possible.</content>
 
 <!--ELDRITCH KNIGHT-->
 
