@@ -251,24 +251,24 @@
 	<content contentuid="h16312bfag01a2g42f8g943bg3fcba8e00006" version="1">Pitch Black</content>
 	<content contentuid="hec37ca35g480cg4de1gae65g3986c350000f" version="1">While &lt;LSTag Type="Status" Tooltip="SNEAKING_HEAVILY_OBSCURED"&gt;Heavily Obscured&lt;/LSTag&gt;, all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and damage rolls you make are rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. When your &lt;LSTag Type="Spell" Tooltip="Target_HoundOfIllOmen"&gt;Hounds of Ill Omen&lt;/LSTag&gt; clone themselves, their clones will never expire, and they can now produce further clones as well.</content>
 
-<!--VOLCANIST-->
+<!--VOLCANIC SOUL (ex Volcanist)-->
 
-	<content contentuid="ha09bcdedg1cb1g4a53ga72dgb9bf9bbb3cb0" version="1">Volcanist</content>
-	<content contentuid="hd862715eg884cg4039ga1a6g59c36e569ddf" version="2">Volcanist</content>
-	<content contentuid="h6cc6b6fega327g411ag9b33g098e0c8636b1" version="3">Searing heat broils within you, an ancient and irrevocable flame as unpredictable as it is uncontrollable.</content>
+	<content contentuid="ha09bcdedg1cb1g4a53ga72dgb9bf9bbb3cb0" loreTexts="true" version="1">Volcanic Soul</content>
+	<content contentuid="hd862715eg884cg4039ga1a6g59c36e569ddf" loreTexts="true" version="2">Volcanic Soul</content>
+	<content contentuid="h6cc6b6fega327g411ag9b33g098e0c8636b1" loreTexts="true" version="3">Searing heat roils within you, an ancient and unquenchable flame as unpredictable as it is uncontrollable.</content>
 
 	<content contentuid="h14011b40g647cg4560g8a71g0ddec16c4753" version="2">Magmatic</content>
 	<content contentuid="h476f70abgabb6g4b83g9c5dg0c73cbe34904" version="14">When dealing damage, you ignore Fire based &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt;. At the start of each of your turns, and upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, you generate one stack of &lt;LSTag Type="Status" Tooltip="MAG_FIRE_HEAT"&gt;Heat&lt;/LSTag&gt;.</content>
 
-	<content contentuid="h74aaf9a2g8faag4fb3gb244g4bb2470fb648" version="2">Pyrrhic Retort</content>
-	<content contentuid="hc277c521g31b6g4c21gb01ag7d599d569e7e" version="2">When an ally is about to be damaged, you may expend one stack of &lt;LSTag Type="Status" Tooltip="MAG_FIRE_HEAT"&gt;Heat&lt;/LSTag&gt; in order to fire a &lt;LSTag Type="Spell" Tooltip="Projectile_PyrrhicFlare"&gt;Pyrrhic Flare&lt;/LSTag&gt; at their aggressor. In addition, killing a &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burning&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="BURNING_LAVA"&gt;Melting&lt;/LSTag&gt; enemy will generate one &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Point&lt;/LSTag&gt;.</content>
-	<content contentuid="h74aaf9a2g8faag4fb3gb244g4bb247023512" version="2">Pyrrhic Retort</content>
-	<content contentuid="hc277c521g31b6g4c21gb01ag7d599d5sd6f8" version="2">When an ally is about to be damaged, expend one stack of &lt;LSTag Type="Status" Tooltip="MAG_FIRE_HEAT"&gt;Heat&lt;/LSTag&gt; in order to fire a &lt;LSTag Type="Spell" Tooltip="Projectile_PyrrhicFlare"&gt;Pyrrhic Flare&lt;/LSTag&gt; at their aggressor.</content>
-	<content contentuid="h74aaf9a2g8faag4fb3gb244g4bb24225d364" version="2">Pyrrhic Flare</content>
-	<content contentuid="hc277c521g31b6g4c21gb01ag7d599d56d8f9" version="2">A flare so hot that upon landing, one might confuse the result with a small area of magma.</content>
+	<content contentuid="h74aaf9a2g8faag4fb3gb244g4bb2470fb648" loreTexts="true" version="2">Pyric Retort</content>
+	<content contentuid="hc277c521g31b6g4c21gb01ag7d599d569e7e" loreTexts="true"  version="2">When an ally is about to be damaged, you may expend one stack of &lt;LSTag Type="Status" Tooltip="MAG_FIRE_HEAT"&gt;Heat&lt;/LSTag&gt; in order to fire a &lt;LSTag Type="Spell" Tooltip="Projectile_PyrrhicFlare"&gt;Pyric Flare&lt;/LSTag&gt; at their aggressor. In addition, killing a &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burning&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="BURNING_LAVA"&gt;Melting&lt;/LSTag&gt; enemy will generate one &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Point&lt;/LSTag&gt;.</content>
+	<content contentuid="h74aaf9a2g8faag4fb3gb244g4bb247023512" loreTexts="true"  version="2">Pyric Retort</content>
+	<content contentuid="hc277c521g31b6g4c21gb01ag7d599d5sd6f8" loreTexts="true"  version="2">When an ally is about to be damaged, expend one stack of &lt;LSTag Type="Status" Tooltip="MAG_FIRE_HEAT"&gt;Heat&lt;/LSTag&gt; in order to fire a &lt;LSTag Type="Spell" Tooltip="Projectile_PyrrhicFlare"&gt;Pyric Flare&lt;/LSTag&gt; at their aggressor.</content>
+	<content contentuid="h74aaf9a2g8faag4fb3gb244g4bb24225d364" loreTexts="true"  version="2">Pyric Flare</content>
+	<content contentuid="hc277c521g31b6g4c21gb01ag7d599d56d8f9" loreTexts="true"  version="2">A flare so hot that upon landing, one might confuse the result with a small area of magma.</content>
 
 	<content contentuid="h4ce8f1b2ga05eg462cg9504gadc745415456" version="3">Singe Song</content>
-	<content contentuid="h68bbe23dg8336g4c12g917dgbf9c5ac97845" version="2">You gain &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to Fire damage. Upon dealing Fire damage while you possess stacks of &lt;LSTag Type="Status" Tooltip="MAG_FIRE_HEAT"&gt;Heat&lt;/LSTag&gt;, you fire a &lt;LSTag Type="Spell" Tooltip="Projectile_PyrrhicFlare"&gt;Pyrrhic Flare&lt;/LSTag&gt; at another enemy within [1] of your target.&lt;br&gt;&lt;br&gt;Each Pyrrhic Flare fired will reduce your Heat stacks by 1, and each enemy may only be targeted by a Pyrrhic Flare if they are not &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burning&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="BURNING_LAVA"&gt;Melting&lt;/LSTag&gt;. This can be toggled at any time.</content>
+	<content contentuid="h68bbe23dg8336g4c12g917dgbf9c5ac97845" loreTexts="true"  version="2">You gain &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to Fire damage. Upon dealing Fire damage while you possess stacks of &lt;LSTag Type="Status" Tooltip="MAG_FIRE_HEAT"&gt;Heat&lt;/LSTag&gt;, you fire a &lt;LSTag Type="Spell" Tooltip="Projectile_PyrrhicFlare"&gt;Pyric Flare&lt;/LSTag&gt; at another enemy within [1] of your target.&lt;br&gt;&lt;br&gt;Each Pyric Flare fired will reduce your Heat stacks by 1, and each enemy may only be targeted by a Pyric Flare if they are not &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burning&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="BURNING_LAVA"&gt;Melting&lt;/LSTag&gt;. This can be toggled at any time.</content>
 
 	<content contentuid="hdd253f93g3119g4c14g9dadgcd0ae3d3d655" version="1">Volcanic Eruption</content>
 	<content contentuid="h4099049ag1c50g49fegb46fg8a5919w5d888" version="1">Once per combat encounter, you may immediately erupt, creating a [1] pool of lava beneath the feet of all enemies within [2] of you.</content>
@@ -276,7 +276,7 @@
 	<content contentuid="h4099049ag1c50g49fegb46fg8a5919w7f8d5" version="1">Erupt, creating a [1] pool of lava beneath the feet of all enemies within [2] of you.</content>
 
 	<content contentuid="h4ce8f1b2ga05eg462cg9504gadc74546a954" version="3">Melting Pot</content>
-	<content contentuid="h68bbe23dg8336g4c12g917dgbf9c5ac6a988" version="2">Your &lt;LSTag Type="Spell" Tooltip="Projectile_PyrrhicFlare"&gt;Pyrrhic Flares&lt;/LSTag&gt; now cause enemies to &lt;LSTag Type="Status" Tooltip="BURNING_LAVA"&gt;Melt&lt;/LSTag&gt;.</content>
+	<content contentuid="h68bbe23dg8336g4c12g917dgbf9c5ac6a988" loreTexts="true" version="2">Your &lt;LSTag Type="Spell" Tooltip="Projectile_PyrrhicFlare"&gt;Pyric Flares&lt;/LSTag&gt; now cause enemies to &lt;LSTag Type="Status" Tooltip="BURNING_LAVA"&gt;Melt&lt;/LSTag&gt;.</content>
 
 	<content contentuid="hc580238eg0032g4f7fg9d2ag7f95874066cf" version="2">Pyrebound</content>
 	<content contentuid="h6fa01c82g439eg42c5g8c62g0169cf08fd50" version="3">Upon activating &lt;LSTag Type="Status" Tooltip="Tooltip_MAG_Fire_Heat_Convergence_Passive"&gt;Heat Convergence&lt;/LSTag&gt;, you may expend ten stacks of &lt;LSTag Type="Status" Tooltip="MAG_FIRE_HEAT"&gt;Heat&lt;/LSTag&gt; in order to cast &lt;LSTag Type="Spell" Tooltip="Target_MeteoricBurst"&gt;Meteoric Burst&lt;/LSTag&gt;.</content>
