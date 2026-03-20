@@ -1,3 +1,4 @@
+open System
 open System.IO
 
 #load "./getLsLib.fsx"
@@ -18,48 +19,48 @@ let modName =
 
 module Localization = 
 
-    // cleanup old .loca files
-    let cleanupLocaFiles() = 
-        do Directory.GetFiles($"./{upstreamModName}/Localization/English/", "*.loca")
-        |> Array.iter File.Delete
+    let private tempDir = 
+        $"./{upstreamModName}/Localization/English/tmp"
+        |> Path.GetFullPath
+    let private generatedXmlPath = 
+        $"./{upstreamModName}/Localization/English/{modName}_generated_{DateTime.UtcNow.Ticks}.xml"
+        |> Path.GetFullPath
+    let private generatedLocaPath = generatedXmlPath.Replace(".xml", ".loca")
 
-    let hideUnaffectedFiles () = 
+    let private moveXmlsToTemp () =
+        do Directory.CreateDirectory(tempDir) |> ignore
         do Directory.GetFiles($"./{upstreamModName}/Localization/English/", "*.xml")
-        |> Array.where (File.ReadAllText >> _.Contains("loreTexts=\"true\"")>> not)
-        |> Array.iter (fun f -> File.Move(f, f.Replace(".xml", ".definitelynotanxmlfile")))
+        |> Array.iter (fun f -> File.Move(f, Path.Combine(tempDir, Path.GetFileName(f))))
 
-    // rename mod files to get them loaded after HB originals
-    let renameFiles oldSubstring newSubstring =
-        do Directory.GetFiles $"./{upstreamModName}/Localization/English/"
-        |> Array.map System.IO.Path.GetFullPath
-        |> Array.iter (fun f ->    
+    let private collectLoreLines () =
+        let lines =
+            Directory.GetFiles(tempDir, "*.xml")
+            |> Array.collect (fun f ->
+                File.ReadAllLines(f)
+                |> Array.where _.Contains("loreTexts=\"true\""))
+        let content =
+            [| yield """<?xml version="1.0" encoding="utf-8"?>"""
+               yield "<contentList>"
+               yield! lines
+               yield "</contentList>" |]
+        File.WriteAllLines(generatedXmlPath, content)
 
-            let newName = f.Replace(oldValue = oldSubstring, newValue = newSubstring)
-            // add a suffix 
-            File.Move(f, newName)
+    let beforeBuild() =
+        do moveXmlsToTemp()
+        do collectLoreLines()
+        LocaUtils.Save(
+            resource = LocaUtils.Load generatedXmlPath,
+            outputPath = generatedLocaPath,
+            format = LocaFormat.Loca
         )
 
-    let beforeBuild() = 
-        // rename mod files and generate new .loca files
-        do cleanupLocaFiles()
-        do hideUnaffectedFiles()
-        do renameFiles ".xml" ".loretext.xml"
-        do Directory.GetFiles($"./{upstreamModName}/Localization/English/", "*.xml")
-        |> Array.map System.IO.Path.GetFullPath
-        |> Array.iter (fun f ->    
+    let afterBuild() =
+        do File.Delete(generatedXmlPath)
+        do File.Delete(generatedLocaPath)
+        do Directory.GetFiles(tempDir, "*.xml")
+        |> Array.iter (fun f -> File.Move(f, Path.Combine($"./{upstreamModName}/Localization/English/", Path.GetFileName(f))))
+        do Directory.Delete(tempDir)
 
-            LocaUtils.Save(
-                resource = LocaUtils.Load f, 
-                outputPath = f.Replace(".xml", ".loca"), 
-                format = LocaFormat.Loca
-            )
-        )
-
-    let afterBuild() = 
-        // cleanup, restore xml file names
-        do renameFiles ".loretext.xml" ".xml" 
-        do renameFiles ".definitelynotanxmlfile" ".xml" 
-        do cleanupLocaFiles()
 
 // get mod version from `meta.lsx`
 open System.Xml.Linq
