@@ -43,6 +43,10 @@ module Localization =
                yield "<contentList>"
                yield! lines
                yield "</contentList>" |]
+        // test for validity
+        Xml.Linq.XDocument.Parse (String.concat "\n" content) |> ignore
+
+        // write out
         File.WriteAllLines(generatedXmlPath, content)
 
     let beforeBuild() =
