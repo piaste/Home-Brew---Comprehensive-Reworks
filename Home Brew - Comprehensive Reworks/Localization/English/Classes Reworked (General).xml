@@ -637,7 +637,7 @@
 
 	<content contentuid="h9766190f1fd349f88a57bf00f99c3419fbf1" version="1">Fighter: Arcane Archer</content>
 	<content contentuid="h8e07c781f6be48bb8d11f539e1c8b49bg65b" version="1">Fighter: Champion</content>
-	<content contentuid="h8e07c781f6be48bb8d11f539e12d5f3d5f65" version="1">Fighter: Draconic Sentinel</content>
+	<content contentuid="h8e07c781f6be48bb8d11f539e12d5f3d5f65" loreTexts="true" version="1">Fighter: Blazing Cavalier</content>
 	<content contentuid="hc956224f7f584e9096e7a3c79458d1cc9bg3" version="1">Fighter: Eldritch Knight</content>
 	<content contentuid="hb2ff7aec766b4e64b8113c7656e78468c3a3" version="1">Fighter: Frontier Knight</content>
 
@@ -665,7 +665,7 @@
 
 	<content contentuid="h74cb6d76f7084d1d9ccca5ba1622140f3c7d" version="1">Sorcerer: Draconic Bloodline</content>
 	<content contentuid="h73a8aafef8874258bc6950b4c4d569b0842e" version="1">Sorcerer: Shade Walker</content>
-	<content contentuid="h304a5e34541a42f098df489329c48ee49a00" version="1">Sorcerer: Volcanist</content>
+	<content contentuid="h304a5e34541a42f098df489329c48ee49a00" loreTexts="true" version="1">Sorcerer: Volcanic Soul</content>
 	<content contentuid="h0c1d71fc32044f7480d64ef77b978f2d1eea" version="1">Sorcerer: Wild Magic</content>
 
 	<content contentuid="hc3c6d414533e4e019f42a85c9ef4acc7020g" version="1">Warlock: Pact of the Blade</content>
@@ -674,10 +674,10 @@
 	<content contentuid="hfaac57ba1de244f3abc2c2s5ef56f5e8f454" version="1">Warlock: Pact of the Primordial</content>
 	<content contentuid="h4eda45b1312b481bbdb967db21001156768a" version="1">Warlock: Pact of the Tome</content>
 
-	<content contentuid="h7a8fbc177eec490588472d84bb58ffdd6266" version="1">Wizard: Arcblade</content>
-	<content contentuid="h4eb2a8ec440643a49fcb8159c8ba72df4689" version="1">Wizard: Arcane Warden</content>
-	<content contentuid="he3784714c0d84b9e9326b760ead1364c71g7" version="1">Wizard: Evoker</content>
-	<content contentuid="h297875b8c2474e7ca666ffeba2832cd21893" version="1">Wizard: Necromancer</content>
+	<content contentuid="h7a8fbc177eec490588472d84bb58ffdd6266" loreTexts="true" version="1">Wizard: Anarchs of Shyr Tradition</content>
+	<content contentuid="h4eb2a8ec440643a49fcb8159c8ba72df4689" loreTexts="true" version="1">Wizard: Coronal Guards Tradition</content>
+	<content contentuid="he3784714c0d84b9e9326b760ead1364c71g7" loreTexts="true" version="1">Wizard: Cormyrian War Wizards Tradition</content>
+	<content contentuid="h297875b8c2474e7ca666ffeba2832cd21893" loreTexts="true" version="1">Wizard: Thayan Necromancers Tradition</content>
 
     <content contentuid="h4d0c77c3g56aag4077g80c4g3bk231251215" version="1">The Sound of Silence</content>
 	<content contentuid="h078069acgf62bg4c64g9322938r645686545" version="1">Through magic, you convey your &lt;LSTag Type="Spell" Tooltip="Shout_Bard_Perform_Whistle"&gt;Performances&lt;/LSTag&gt; without making a sound, halving their area of effect but allowing you to act freely. While performing, you may also toggle this on in order to end your Performance.</content>

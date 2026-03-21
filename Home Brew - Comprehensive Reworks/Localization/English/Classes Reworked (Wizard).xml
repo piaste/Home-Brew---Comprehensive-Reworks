@@ -43,8 +43,8 @@
 
 <!--ARCBLADE-->
 
-	<content contentuid="h94981fe3g720cg4a5dga655g1191bf437278" version="1">Arcblade</content>
-	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad9a6207" version="1">The arcane and swordplay have always gone hand in hand for you. Over time, you have become a vertiable storm of steel and magic alike.</content>
+	<content contentuid="h94981fe3g720cg4a5dga655g1191bf437278" loreTexts="true" version="1">Anarchs of Shyr Tradition</content>
+	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad9a6207" loreTexts="true" version="1">You studied magic with adventuring swordmages, familiar with the magical bladework spread by the stormsoul genasi of Shyr and Akanûl.</content>
 
 	<content contentuid="h94981fe3g720cg4a5dga655g1191bf400001" version="1">The Approaching Storm</content>
 	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad90000a" version="1">Gain &lt;LSTag Type="Spell" Tooltip="Shout_SteelWindStorm"&gt;Steel-Wind Storm&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Projectile_SteelWindBeam"&gt;Steel-Wind Burst&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_SteelWindStrike"&gt;Steel-Wind Strike&lt;/LSTag&gt;.</content>
@@ -69,9 +69,9 @@
 	<content contentuid="h94981fe3g720cg4a5dga655g1191bf400zz2" version="1">Siphoned Arcana</content>
 	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad900zzb" version="1">Affected weapon deals an additional [1].</content>
 
-	<content contentuid="h94981fe3g720cg4a5dga655g1191bf400004" version="1">Winds of the Arcblade</content>
+	<content contentuid="h94981fe3g720cg4a5dga655g1191bf400004" loreTexts="true" version="1">Aegis of Assault</content>
 	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad90000d" version="1">Once per turn, upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, you may cast &lt;LSTag Type="Spell" Tooltip="Target_SteelWindStrike"&gt;Steel-Wind Strike&lt;/LSTag&gt; as a free action.</content>
-	<content contentuid="h94981fe3g720cg4a5dga655g1191bf4000z4" version="1">Winds of the Arcblade</content>
+	<content contentuid="h94981fe3g720cg4a5dga655g1191bf4000z4" loreTexts="true" version="1">Aegis of Assault</content>
 	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad9000zd" version="1">Affected creature may cast &lt;LSTag Type="Spell" Tooltip="Target_SteelWindStrike"&gt;Steel-Wind Strike&lt;/LSTag&gt; as a free action.</content>
 
 	<content contentuid="h94981fe3g720cg4a5dga655g1191bf400003" version="1">A Storm of Swords</content>
@@ -83,8 +83,8 @@
 
 <!--ARCANE WARDEN-->
 
-	<content contentuid="h90758993g0e2dg426fgb19dg2376b539acf9" version="1">Arcane Warden</content>
-	<content contentuid="h5b05b200g4933g4807gbd1dgd39cade9e34b" version="1">Amidst a blend of steel and magic, you twist and harden the Weave into Arcane Wards to protect yourself and others.</content>
+	<content contentuid="h90758993g0e2dg426fgb19dg2376b539acf9" loreTexts="true" version="1">Coronal Guards Tradition</content>
+	<content contentuid="h5b05b200g4933g4807gbd1dgd39cade9e34b" loreTexts="true" version="1">You studied magic with professional spellguards, familiar with the defensive techniques developed by the elite elvish &lt;i&gt;armathors&lt;/i&gt; of Myth Drannor.</content>
 	<content contentuid="h7bfd2340gd0f4g425fgb3e9gd2331d75c6ef" version="2">Arcane Ward</content>
 	<content contentuid="h3ec48f72g32f6g4ce7gb7e1ge8d681582f75" version="2">The first Spell you cast each turn charges a magical ward around you. The ward absorbs damage done to you equal to the number of charges remaining. When it is reduced to 0 charges remaining, you take the remaining damage.&lt;br&gt;&lt;br&gt;Casting Spells adds charges to the ward equal to the level of the Spell cast. The maximum amount of ward charges you may have at any time is equal to your level in Wizard.</content>
 	<content contentuid="hdf50f2a0g3756g4a90g97c9g9fb25fc3bc0f" version="1">Arcane Ward</content>
@@ -105,8 +105,8 @@
 
 <!--EVOKER-->
 
-	<content contentuid="h727905b8g38bdg4c23gb9dcgdf7dce904ee9" version="1">Evoker</content>
-	<content contentuid="he03bcffeg9447g47cfgbe07g4ef50cb2606d" version="1">As an evoker, you stride unharmed through the unfettered chaos you call, a storm of mysicism contained only by the flick of your wrist.</content>
+	<content contentuid="h727905b8g38bdg4c23gb9dcgdf7dce904ee9" loreTexts="true" version="1">Cormyrian War Wizards Tradition</content>
+	<content contentuid="he03bcffeg9447g47cfgbe07g4ef50cb2606d" loreTexts="true" version="1">You studied magic with hardened battlemages, familiar with the finest tactics and doctrines of the College of War Wizards in Suzail.</content>
 
 	<content contentuid="h445d84b5g0c9bg4349g8c4bg54f039bb4054" version="2">Sculpt Spells</content>
 	<content contentuid="h41e528e7gd77ag42b1g883bgc9b31037c8bd" version="3">Create pockets of safety within damaging Spells that you directly cast. Allies will take no damage from them.</content>
@@ -126,54 +126,54 @@
 	<content contentuid="h9aee3403g58c0g4c53g8ca6g3891622d564d" version="2">Scholar's Focus</content>
 	<content contentuid="hcbb5a5cfg7df0g412cga4a4g3c5b22ss9df7" version="4">The first Spell you cast each turn will not cost an &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt; or &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
 
-<!--LUMINAL CONFLUENCE-->
+<!-- LUMINAL CONFLUENCE-->
 
-	<content contentuid="hc31dc575g4407g476as65d4f58es52fe15f1" version="1">Luminal Confluence</content>
-	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s5ef45" version="2">A lifetime of study has granted you mastery over the elements. As they manifest, disperse, and converge at your fingertips, each leaves behind a residual stain — malleable, mutable, and awaiting your command.</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52fe15f1" loreTexts="true" version="1">Netherese Variators Tradition</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s5ef45" loreTexts="true" version="2">You studied magic with erudite teachers, familiar with the surviving writings of the Netherese elementalist Yrix Alquinnar and the Variators of Eileanar.</content>
 
-	<content contentuid="hc31dc575g4407g476as65d4f58es52000000" version="2">Elemental Concierge</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52000000" loreTexts="true" version="2">Yrix's Sieve</content>
 	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef54600000z" version="2">Upon dealing elemental damage with a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt;, you generate one Elemental Stain, dependent on the type of damage dealt.&lt;br&gt;&lt;br&gt;Elemental Stains empower your Spells and Cantrips in various ways, depending on what types of Elemental Stains you currently possess. This can be toggled at any time.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; While active, Elemental Stains will not be generated.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; &lt;LSTag Type="Status" Tooltip="ElementalConcierge_Description"&gt;List of Effects&lt;/LSTag&gt;</content>
-	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546zzzzzz" version="1">&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Elemental Concierge Effects:&lt;br&gt;&lt;br&gt;Acid Stain:&lt;br&gt;&lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_ACID"&gt;Effect&lt;/LSTag&gt;&lt;br&gt;&lt;br&gt;Cold Stain:&lt;br&gt;&lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_COLD"&gt;Effect&lt;/LSTag&gt;&lt;br&gt;&lt;br&gt;Fire Stain:&lt;br&gt;&lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_FIRE"&gt;Effect&lt;/LSTag&gt;&lt;br&gt;&lt;br&gt;Force Stain:&lt;br&gt;&lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_FORCE"&gt;Effect&lt;/LSTag&gt;&lt;br&gt;&lt;br&gt;Lightning Stain:&lt;br&gt;&lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_LIGHTNING"&gt;Effect&lt;/LSTag&gt;&lt;br&gt;&lt;br&gt;Necrotic Stain:&lt;br&gt;&lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_NECROTIC"&gt;Effect&lt;/LSTag&gt;&lt;br&gt;&lt;br&gt;Poison Stain:&lt;br&gt;&lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_POISON"&gt;Effect&lt;/LSTag&gt;&lt;br&gt;&lt;br&gt;Psychic Stain:&lt;br&gt;&lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_PSYCHIC"&gt;Effect&lt;/LSTag&gt;&lt;br&gt;&lt;br&gt;Radiant Stain:&lt;br&gt;&lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_RADIANT"&gt;Effect&lt;/LSTag&gt;&lt;br&gt;&lt;br&gt;Thunder Stain:&lt;br&gt;&lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_THUNDER"&gt;Effect&lt;/LSTag&gt;</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546zzzzzz" loreTexts="true" version="1">&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Yrix's Sieve Effects:&lt;br&gt;&lt;br&gt;Acid Stain:&lt;br&gt;&lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_ACID"&gt;Effect&lt;/LSTag&gt;&lt;br&gt;&lt;br&gt;Cold Stain:&lt;br&gt;&lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_COLD"&gt;Effect&lt;/LSTag&gt;&lt;br&gt;&lt;br&gt;Fire Stain:&lt;br&gt;&lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_FIRE"&gt;Effect&lt;/LSTag&gt;&lt;br&gt;&lt;br&gt;Force Stain:&lt;br&gt;&lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_FORCE"&gt;Effect&lt;/LSTag&gt;&lt;br&gt;&lt;br&gt;Lightning Stain:&lt;br&gt;&lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_LIGHTNING"&gt;Effect&lt;/LSTag&gt;&lt;br&gt;&lt;br&gt;Necrotic Stain:&lt;br&gt;&lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_NECROTIC"&gt;Effect&lt;/LSTag&gt;&lt;br&gt;&lt;br&gt;Poison Stain:&lt;br&gt;&lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_POISON"&gt;Effect&lt;/LSTag&gt;&lt;br&gt;&lt;br&gt;Psychic Stain:&lt;br&gt;&lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_PSYCHIC"&gt;Effect&lt;/LSTag&gt;&lt;br&gt;&lt;br&gt;Radiant Stain:&lt;br&gt;&lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_RADIANT"&gt;Effect&lt;/LSTag&gt;&lt;br&gt;&lt;br&gt;Thunder Stain:&lt;br&gt;&lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_THUNDER"&gt;Effect&lt;/LSTag&gt;</content>
 
-	<content contentuid="hc31dc575g4407g476as65d4f58es52fe1502" version="2">Luminal Conversion</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52fe1502" loreTexts="true" version="2">Scribani's Distillation</content>
 	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s5ef0b" version="2">Gain the ability to expend one charge of &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery&lt;/LSTag&gt; in order to generate an Elemental Stain of your choice for three turns.</content>
-	<content contentuid="hc31dc575g4407g476as65d4f58es52fe15z2" version="2">Luminal Conversion</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52fe15z2" loreTexts="true" version="2">Scribani's Distillation</content>
 	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s5efzb" version="2">Generate an Elemental Stain of your choice for one turn.</content>
-	<content contentuid="hc31dc575g4407g476as65d4f58es52fe01z2" version="2">Luminal Conversion: Acid</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52fe01z2" loreTexts="true" version="2">Scribani's Distillation: Acid</content>
 	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s50azb" version="2">Generate a &lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_ACID"&gt;Acid Stain&lt;/LSTag&gt;.</content>
-	<content contentuid="hc31dc575g4407g476as65d4f58es52fe02z2" version="2">Luminal Conversion: Cold</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52fe02z2" loreTexts="true" version="2">Scribani's Distillation: Cold</content>
 	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s50bzb" version="2">Generate a &lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_COLD"&gt;Cold Stain&lt;/LSTag&gt;.</content>
-	<content contentuid="hc31dc575g4407g476as65d4f58es52fe03z2" version="2">Luminal Conversion: Fire</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52fe03z2" loreTexts="true" version="2">Scribani's Distillation: Fire</content>
 	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s50czb" version="2">Generate a &lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_FIRE"&gt;Fire Stain&lt;/LSTag&gt;.</content>
-	<content contentuid="hc31dc575g4407g476as65d4f58es52fe04z2" version="2">Luminal Conversion: Force</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52fe04z2" loreTexts="true" version="2">Scribani's Distillation: Force</content>
 	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s50dzb" version="2">Generate a &lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_FORCE"&gt;Force Stain&lt;/LSTag&gt;.</content>
-	<content contentuid="hc31dc575g4407g476as65d4f58es52fe05z2" version="2">Luminal Conversion: Lightning</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52fe05z2" loreTexts="true" version="2">Scribani's Distillation: Lightning</content>
 	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s50ezb" version="2">Generate a &lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_LIGHTNING"&gt;Lightning Stain&lt;/LSTag&gt;.</content>
-	<content contentuid="hc31dc575g4407g476as65d4f58es52fe06z2" version="2">Luminal Conversion: Necrotic</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52fe06z2" loreTexts="true" version="2">Scribani's Distillation: Necrotic</content>
 	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s50fzb" version="2">Generate a &lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_NECROTIC"&gt;Necrotic Stain&lt;/LSTag&gt;.</content>
-	<content contentuid="hc31dc575g4407g476as65d4f58es52fe07z2" version="2">Luminal Conversion: Poison</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52fe07z2" loreTexts="true" version="2">Scribani's Distillation: Poison</content>
 	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s50gzb" version="2">Generate a &lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_POISON"&gt;Poison Stain&lt;/LSTag&gt;.</content>
-	<content contentuid="hc31dc575g4407g476as65d4f58es52fe08z2" version="2">Luminal Conversion: Psychic</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52fe08z2" loreTexts="true" version="2">Scribani's Distillation: Psychic</content>
 	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s50hzb" version="2">Generate a &lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_PSYCHIC"&gt;Psychic Stain&lt;/LSTag&gt;.</content>
-	<content contentuid="hc31dc575g4407g476as65d4f58es52fe09z2" version="2">Luminal Conversion: Radiant</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52fe09z2" loreTexts="true" version="2">Scribani's Distillation: Radiant</content>
 	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s50izb" version="2">Generate a &lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_RADIANT"&gt;Radiant Stain&lt;/LSTag&gt;.</content>
-	<content contentuid="hc31dc575g4407g476as65d4f58es52fe10z2" version="2">Luminal Conversion: Thunder</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52fe10z2" loreTexts="true" version="2">Scribani's Distillation: Thunder</content>
 	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s50jzb" version="2">Generate a &lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_THUNDER"&gt;Thunder Stain&lt;/LSTag&gt;.</content>
 
-	<content contentuid="hc31dc575g4407g476as65d4f58es52fe1503" version="2">Stained Imprint</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52fe1503" loreTexts="true" version="2">Heroicus's Containment</content>
 	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s5ef0c" version="2">When expending an active Elemental Stain, you have a 25% chance to not consume it.</content>
 
-	<content contentuid="hc31dc575g4407g476as65d4f58es52fe1504" version="2">Luminal Mayhem</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52fe1504" loreTexts="true" version="2">Darius's Channeling</content>
 	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s5ef0d" version="2">Gain the ability to expend your Elemental Stains to deal 1d12 damage to an enemy. The amount of and types of damage you deal scales with how many Elemental Stains you currently possess.</content>
-	<content contentuid="hc31dc575g4407g476as65d4f58es52fe15z4" version="2">Luminal Mayhem</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52fe15z4" loreTexts="true" version="2">Darius's Channeling</content>
 	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s5efzd" version="2">Expend all of your Elemental Stains to deal damage to an enemy. The amount of damage you deal scales with how many Elemental Stains you currently possess.</content>
 
-	<content contentuid="hc31dc575g4407g476as65d4f58es52fe1505" version="2">Weavewalker's Expedition</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52fe1505" loreTexts="true" version="2">Carvajal's Variation</content>
 	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s5ef0e" version="2">Once per turn, upon generating an Elemental Stain, you potentially generate one Elemental Stain of a random element.</content>
 
-	<content contentuid="hc31dc575g4407g476as65d4f58es52fe1506" version="2">Luminal Genesis</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52fe1506" loreTexts="true" version="2">Arrias's Genesis</content>
 	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s5ef0f" version="2">Gain the ability to expend all of your Elemental Stains to deal 1d8 damage to enemies within a [1] area. The amount of and types of damage you deal scales with how many Elemental Stains you currently possess.</content>
-	<content contentuid="hc31dc575g4407g476as65d4f58es52fe15z6" version="2">Luminal Genesis</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52fe15z6" loreTexts="true" version="2">Arrias's Genesis</content>
 	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s5efzf" version="2">Expend all of your Elemental Stains to deal damage to enemies within a [1] area. The amount of damage you deal scales with how many Elemental Stains you currently possess.</content>
 
 	<content contentuid="hc31dc575g4407g476as65d4f58es52010001" version="2">Acid Stain</content>
@@ -224,7 +224,7 @@
 	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef54600000e" version="2">Unleash a crackling bolt of lightning at a creature, dealing Lightning damage. The bolt arcs to a nearby enemy for reduced damage.</content>
 	<content contentuid="hc31dc575g4407g476as65d4f58es52000006" version="2">Grave Touch</content>
 	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef54600000f" version="2">Channel necrotic energy through your hand, dealing damage to a creature that you touch. You regain &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; equal to the damage dealt.</content>
-	<content contentuid="hc31dc575g4407g476as65d4f58es52000007" version="2">Envenom</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52000007" loreTexts="true" version="2">Toxic Outbreak</content>
 	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef54600000g" version="2">Expel virulent toxin around you, dealing damage to creatures within [1] of you and imposing &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on their &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; for one turn.</content>
 	<content contentuid="hc31dc575g4407g476as65d4f58es52000008" version="2">Mind Flense</content>
 	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef54600000h" version="2">Assault a creature’s mind, shattering their perception of what's nearby. On a failed &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;, the target becomes stricken with &lt;LSTag Type="Status" Tooltip="MADNESS"&gt;Madness&lt;/LSTag&gt; for one turn.</content>
@@ -235,8 +235,8 @@
 
 <!--NECROMANCER-->
 
-	<content contentuid="hc31dc575g4407g4761gb859g32a5960e693a" version="1">Necromancer</content>
-	<content contentuid="h882cb4d7g2c6ag47d3g998dgaca2f619e3e7" version="2">Amidst depraved conjurations, you walk comfortably within the shadow of death, making your home there in spite of the living.</content>
+	<content contentuid="hc31dc575g4407g4761gb859g32a5960e693a" loreTexts="true" version="1">Thayan Necromancers Tradition</content>
+	<content contentuid="h882cb4d7g2c6ag47d3g998dgaca2f619e3e7" loreTexts="true" version="2">You studied magic with unscrupulous occultists, familiar with the dark arts of undeath taught in the secretive enclaves of the Red Wizards.</content>
 
 	<content contentuid="h89c2a75ag2f4fg4d83g9e66g81575b95f1c4" version="2">Necromantic Apprentice</content>
 	<content contentuid="h699f408ag3943g45bcga13cg10548238165a" version="2">Dealing damage to an enemy will permanently apply &lt;LSTag Type="Status" Tooltip="CRAWLING_GNAW_SWITCH"&gt;Crawling Gnaw&lt;/LSTag&gt; to your target. In addition, you gain the ability to &lt;LSTag Type="Spell" Tooltip="Target_BindUndead"&gt;Bind Undead&lt;/LSTag&gt;.</content>

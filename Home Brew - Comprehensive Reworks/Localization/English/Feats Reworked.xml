@@ -573,19 +573,19 @@
 
 
 
-	<content contentuid="f313b0ab-01ec-40a2-93ec-e053f9a23652" version="1">Yokebreaker: Arcblade</content>
-	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df45" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Arcblade"&gt;Arcblade Wizard&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="f313b0ab-01ec-40a2-93ec-e053f9a23652" loreTexts="true" version="1">Yokebreaker: Anarchs of Shyr Tradition</content>
+	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df45" loreTexts="true" version="1">Gain the unlocks associated with levels 1 through 3 of the &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Arcblade"&gt;Anarchs of Shyr Tradition&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
-	<content contentuid="e32bb8fb-b52f-4e75-a2d5-f753713b32e6" version="1">Yokebreaker: Arcane Warden</content>
-	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df46" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_ArcaneWarden"&gt;Arcane Warden Wizard&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="e32bb8fb-b52f-4e75-a2d5-f753713b32e6" loreTexts="true" version="1">Yokebreaker: Coronal Guards Tradition</content>
+	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df46" loreTexts="true" version="1">Gain the unlocks associated with levels 1 through 3 of the &lt;LSTag Type="Status" Tooltip="StatusClassProgression_ArcaneWarden"&gt;Coronal Guards Tradition&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
-	<content contentuid="ae030679-dbd0-414d-ab31-36c9e39ca5c7" version="1">Yokebreaker: Evoker</content>
-	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df47" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Evoker"&gt;Evoker Wizard&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="ae030679-dbd0-414d-ab31-36c9e39ca5c7" loreTexts="true" version="1">Yokebreaker: Cormyrian War Wizards Tradition</content>
+	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df47" loreTexts="true" version="1">Gain the unlocks associated with levels 1 through 3 of the &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Evoker"&gt;Cormyrian War Wizards Tradition&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
-	<content contentuid="f022fa94-4036-4c94-ac2c-1bee32f4d1a4" version="1">Yokebreaker: Luminal Confluence</content>
-	<content contentuid="25028371-4299-410e-b781-162323fca473" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_LuminalConfluence"&gt;Luminal Confluence Wizard&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="f022fa94-4036-4c94-ac2c-1bee32f4d1a4" loreTexts="true" version="1">Yokebreaker: Netherese Variators Tradition</content>
+	<content contentuid="25028371-4299-410e-b781-162323fca473" loreTexts="true" version="1">Gain the unlocks associated with levels 1 through 3 of the &lt;LSTag Type="Status" Tooltip="StatusClassProgression_LuminalConfluence"&gt;Netherese Variators Tradition&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
-	<content contentuid="b982ecd5-a889-4fe9-b81f-b8c8a3580397" version="1">Yokebreaker: Necromancy</content>
-	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df48" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Necromancy"&gt;Necromancy Wizard&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="b982ecd5-a889-4fe9-b81f-b8c8a3580397" loreTexts="true" version="1">Yokebreaker: Thayan Necromancers Tradition</content>
+	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df48" loreTexts="true" version="1">Gain the unlocks associated with levels 1 through 3 of the &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Necromancy"&gt;Thayan Necromancers Tradition&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
 </contentList>
