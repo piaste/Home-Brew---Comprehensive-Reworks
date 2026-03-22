@@ -240,151 +240,151 @@
 	<content contentuid="hf222df47g5060g4a4bg918egf8dbdc6asd3f" version="2">Shadowed Over</content>
 	<content contentuid="h4290e9c1ga5abg4f18g8243g74225d6f9787" version="2">Killing a &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt; creature restores one &lt;LSTag Tooltip="WarlockSpellSlot"&gt;Warlock Spell Slot&lt;/LSTag&gt;.</content>
 
-<!--FRONTIER KNIGHT-->
+<!--Weapon Master-->
 
-	<content contentuid="h7c7985f4g0ff2g4097ga2b5g220983d7561c" version="1">As a paragon of tactical superiority, you employ a wide array of combat techniques to dominate every fight.</content>
+	<content contentuid="h7c7985f4g0ff2g4097ga2b5g220983d7561c" loreTexts="true" version="1">You have mastered a wide array of combat techniques, every fight an opportunity to display your skills or to unleash the powers of legendary weapons.</content>
 
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800001" version="2">Cooldown - Frontier: Backbreaker</content>
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000a" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_PostureBreaker_Frontier"&gt;Frontier: Backbreaker&lt;/LSTag&gt; again upon the expiration of this status.</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800001" loreTexts="true" version="2">Cooldown - Technique: Backbreaker</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000a" loreTexts="true" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_PostureBreaker_Frontier"&gt;Technique: Backbreaker&lt;/LSTag&gt; again upon the expiration of this status.</content>
 
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800002" version="2">Cooldown - Frontier: Brace (Melee)</content>
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000b" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Shout_Steady_Frontier"&gt;Frontier: Brace (Melee)&lt;/LSTag&gt; again upon the expiration of this status.</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800002" loreTexts="true" version="2">Cooldown - Technique: Brace (Melee)</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000b" loreTexts="true" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Shout_Steady_Frontier"&gt;Technique: Brace (Melee)&lt;/LSTag&gt; again upon the expiration of this status.</content>
 
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800003" version="2">Cooldown - Frontier: Cleave</content>
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000c" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Zone_Cleave_Frontier"&gt;Frontier: Cleave&lt;/LSTag&gt; again upon the expiration of this status.</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800003" loreTexts="true" version="2">Cooldown - Technique: Cleave</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000c" loreTexts="true" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Zone_Cleave_Frontier"&gt;Technique: Cleave&lt;/LSTag&gt; again upon the expiration of this status.</content>
 
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800004" version="2">Cooldown - Frontier: Concussive Smash</content>
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000d" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_ConcussiveSmash_Frontier"&gt;Frontier: Concussive Smash&lt;/LSTag&gt; again upon the expiration of this status.</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800004" loreTexts="true" version="2">Cooldown - Technique: Concussive Smash</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000d" loreTexts="true" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_ConcussiveSmash_Frontier"&gt;Technique: Concussive Smash&lt;/LSTag&gt; again upon the expiration of this status.</content>
 
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800005" version="2">Cooldown - Frontier: Disarming Strike</content>
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000e" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_CripplingStrike_Frontier"&gt;Frontier: Disarming Strike&lt;/LSTag&gt; again upon the expiration of this status.</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800005" loreTexts="true" version="2">Cooldown - Technique: Disarming Strike</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000e" loreTexts="true" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_CripplingStrike_Frontier"&gt;Technique: Disarming Strike&lt;/LSTag&gt; again upon the expiration of this status.</content>
 
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800006" version="2">Cooldown - Frontier: Flourish</content>
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000f" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_DisarmingStrike_Frontier"&gt;Frontier: Flourish&lt;/LSTag&gt; again upon the expiration of this status.</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800006" loreTexts="true" version="2">Cooldown - Technique: Flourish</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000f" loreTexts="true" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_DisarmingStrike_Frontier"&gt;Technique: Flourish&lt;/LSTag&gt; again upon the expiration of this status.</content>
 
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800007" version="2">Cooldown - Frontier: Heartstopper</content>
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000g" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_OpeningAttack_Frontier"&gt;Frontier: Heartstopper&lt;/LSTag&gt; again upon the expiration of this status.</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800007" loreTexts="true" version="2">Cooldown - Technique: Heartstopper</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000g" loreTexts="true" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_OpeningAttack_Frontier"&gt;Technique: Heartstopper&lt;/LSTag&gt; again upon the expiration of this status.</content>
 
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800008" version="2">Cooldown - Frontier: Lacerate</content>
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000h" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_HeartStopper_Frontier"&gt;Frontier: Lacerate&lt;/LSTag&gt; again upon the expiration of this status.</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800008" loreTexts="true" version="2">Cooldown - Technique: Lacerate</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000h" loreTexts="true" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_HeartStopper_Frontier"&gt;Technique: Lacerate&lt;/LSTag&gt; again upon the expiration of this status.</content>
 
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800009" version="2">Cooldown - Frontier: Maiming Strike</content>
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000i" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_Slash_New_Frontier"&gt;Frontier: Maiming Strike&lt;/LSTag&gt; again upon the expiration of this status.</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800009" loreTexts="true" version="2">Cooldown - Technique: Maiming Strike</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000i" loreTexts="true" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_Slash_New_Frontier"&gt;Technique: Maiming Strike&lt;/LSTag&gt; again upon the expiration of this status.</content>
 
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800010" version="2">Cooldown - Frontier: Piercing Strike</content>
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000j" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_PiercingThrust_Frontier"&gt;Frontier: Piercing Strike&lt;/LSTag&gt; again upon the expiration of this status.</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800010" loreTexts="true" version="2">Cooldown - Technique: Piercing Strike</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000j" loreTexts="true" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_PiercingThrust_Frontier"&gt;Technique: Piercing Strike&lt;/LSTag&gt; again upon the expiration of this status.</content>
 
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800011" version="2">Cooldown - Frontier: Pommel Strike</content>
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000k" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_PommelStrike_Frontier"&gt;Frontier: Pommel Strike&lt;/LSTag&gt; again upon the expiration of this status.</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800011" loreTexts="true" version="2">Cooldown - Technique: Pommel Strike</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000k" loreTexts="true" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_PommelStrike_Frontier"&gt;Technique: Pommel Strike&lt;/LSTag&gt; again upon the expiration of this status.</content>
 
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800012" version="2">Cooldown - Frontier: Prepare</content>
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000l" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Shout_FullSwing_Frontier"&gt;Frontier: Prepare&lt;/LSTag&gt; again upon the expiration of this status.</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800012" loreTexts="true" version="2">Cooldown - Technique: Prepare</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000l" loreTexts="true" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Shout_FullSwing_Frontier"&gt;Technique: Prepare&lt;/LSTag&gt; again upon the expiration of this status.</content>
 
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800013" version="2">Cooldown - Frontier: Rush Attack</content>
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000m" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Rush_SpringAttack_Frontier"&gt;Frontier: Rush Attack&lt;/LSTag&gt; again upon the expiration of this status.</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800013" loreTexts="true" version="2">Cooldown - Technique: Rush Attack</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000m" loreTexts="true" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Rush_SpringAttack_Frontier"&gt;Technique: Rush Attack&lt;/LSTag&gt; again upon the expiration of this status.</content>
 
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800014" version="2">Cooldown - Frontier: Overwhelm</content>
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000n" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_UnarmedStrike_Frontier"&gt;Frontier: Unarmed Strike&lt;/LSTag&gt; again upon the expiration of this status.</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800014" loreTexts="true" version="2">Cooldown - Technique: Overwhelm</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000n" loreTexts="true" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_UnarmedStrike_Frontier"&gt;Technique: Unarmed Strike&lt;/LSTag&gt; again upon the expiration of this status.</content>
 
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800015" version="2">Cooldown - Frontier: Topple</content>
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000o" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_Topple_Frontier"&gt;Frontier: Topple&lt;/LSTag&gt; again upon the expiration of this status.</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800015" loreTexts="true" version="2">Cooldown - Technique: Topple</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000o" loreTexts="true" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_Topple_Frontier"&gt;Technique: Topple&lt;/LSTag&gt; again upon the expiration of this status.</content>
 
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800016" version="2">Cooldown - Frontier: Weakening Strike</content>
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000p" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_HinderingSmash_Frontier"&gt;Frontier: Weakening Strike&lt;/LSTag&gt; again upon the expiration of this status.</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800016" loreTexts="true" version="2">Cooldown - Technique: Weakening Strike</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000p" loreTexts="true" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_HinderingSmash_Frontier"&gt;Technique: Weakening Strike&lt;/LSTag&gt; again upon the expiration of this status.</content>
 
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800017" version="2">Cooldown - Frontier: Brace (Ranged)</content>
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000q" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Shout_SteadyRanged_Frontier"&gt;Frontier: Brace (Ranged)&lt;/LSTag&gt; again upon the expiration of this status.</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800017" loreTexts="true" version="2">Cooldown - Technique: Brace (Ranged)</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000q" loreTexts="true" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Shout_SteadyRanged_Frontier"&gt;Technique: Brace (Ranged)&lt;/LSTag&gt; again upon the expiration of this status.</content>
 
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800018" version="2">Cooldown - Frontier: Hamstring Shot</content>
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000r" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Projectile_HamstringShot_Frontier"&gt;Frontier: Hamstring Shot&lt;/LSTag&gt; again upon the expiration of this status.</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800018" loreTexts="true" version="2">Cooldown - Technique: Hamstring Shot</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000r" loreTexts="true" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Projectile_HamstringShot_Frontier"&gt;Technique: Hamstring Shot&lt;/LSTag&gt; again upon the expiration of this status.</content>
 
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800019" version="2">Cooldown - Frontier: Mobile Shot</content>
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000s" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Projectile_MobileShooting_Frontier"&gt;Frontier: Mobile Shot&lt;/LSTag&gt; again upon the expiration of this status.</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800019" loreTexts="true" version="2">Cooldown - Technique: Mobile Shot</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000s" loreTexts="true" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Projectile_MobileShooting_Frontier"&gt;Technique: Mobile Shot&lt;/LSTag&gt; again upon the expiration of this status.</content>
 
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800020" version="2">Cooldown - Frontier: Piercing Shot</content>
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000t" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Projectile_PiercingShot_Frontier"&gt;Frontier: Piercing Shot&lt;/LSTag&gt; again upon the expiration of this status.</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800020" loreTexts="true" version="2">Cooldown - Technique: Piercing Shot</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000t" loreTexts="true" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Projectile_PiercingShot_Frontier"&gt;Technique: Piercing Shot&lt;/LSTag&gt; again upon the expiration of this status.</content>
 
 	<content contentuid="9b7b811b9c3043e189f945540bf5116ea9872" version="2">Combat Techniques</content>
 	<content contentuid="9b7b811b9c3043e189f945540bf5116ea5487" version="2">Gain mastery of various combat techniques.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00001" version="2">Frontier: Backbreaker</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000a" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_PostureBreaker_Frontier"&gt;Frontier: Backbreaker&lt;/LSTag&gt;.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00001" loreTexts="true" version="2">Technique: Backbreaker</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000a" loreTexts="true" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_PostureBreaker_Frontier"&gt;Technique: Backbreaker&lt;/LSTag&gt;.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00002" version="2">Frontier: Brace (Melee)</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000b" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Shout_Steady_Frontier"&gt;Frontier: Brace (Melee)&lt;/LSTag&gt;.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00002" loreTexts="true" version="2">Technique: Brace (Melee)</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000b" loreTexts="true" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Shout_Steady_Frontier"&gt;Technique: Brace (Melee)&lt;/LSTag&gt;.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00003" version="2">Frontier: Cleave</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000c" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Zone_Cleave_Frontier"&gt;Frontier: Cleave&lt;/LSTag&gt;.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00003" loreTexts="true" version="2">Technique: Cleave</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000c" loreTexts="true" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Zone_Cleave_Frontier"&gt;Technique: Cleave&lt;/LSTag&gt;.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00004" version="2">Frontier: Concussive Smash</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000d" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_ConcussiveSmash_Frontier"&gt;Frontier: Concussive Smash&lt;/LSTag&gt;.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00004" loreTexts="true" version="2">Technique: Concussive Smash</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000d" loreTexts="true" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_ConcussiveSmash_Frontier"&gt;Technique: Concussive Smash&lt;/LSTag&gt;.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00005" version="2">Frontier: Disarming Strike</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000e" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_DisarmingStrike_Frontier"&gt;Frontier: Disarming Strike&lt;/LSTag&gt;.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00005" loreTexts="true" version="2">Technique: Disarming Strike</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000e" loreTexts="true" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_DisarmingStrike_Frontier"&gt;Technique: Disarming Strike&lt;/LSTag&gt;.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00006" version="2">Frontier: Flourish</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000f" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_OpeningAttack_Frontier"&gt;Frontier: Flourish&lt;/LSTag&gt;.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00006" loreTexts="true" version="2">Technique: Flourish</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000f" loreTexts="true" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_OpeningAttack_Frontier"&gt;Technique: Flourish&lt;/LSTag&gt;.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00007" version="2">Frontier: Heartstopper</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000g" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_HeartStopper_Frontier"&gt;Frontier: Heartstopper&lt;/LSTag&gt;.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00007" loreTexts="true" version="2">Technique: Heartstopper</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000g" loreTexts="true" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_HeartStopper_Frontier"&gt;Technique: Heartstopper&lt;/LSTag&gt;.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00008" version="2">Frontier: Lacerate</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000h" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_Slash_New_Frontier"&gt;Frontier: Lacerate&lt;/LSTag&gt;.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00008" loreTexts="true" version="2">Technique: Lacerate</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000h" loreTexts="true" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_Slash_New_Frontier"&gt;Technique: Lacerate&lt;/LSTag&gt;.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00009" version="2">Frontier: Maiming Strike</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000i" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_CripplingStrike_Frontier"&gt;Frontier: Maiming Strike&lt;/LSTag&gt;.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00009" loreTexts="true" version="2">Technique: Maiming Strike</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000i" loreTexts="true" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_CripplingStrike_Frontier"&gt;Technique: Maiming Strike&lt;/LSTag&gt;.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00010" version="2">Frontier: Piercing Strike</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000j" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_PiercingThrust_Frontier"&gt;Frontier: Piercing Strike&lt;/LSTag&gt;.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00010" loreTexts="true" version="2">Technique: Piercing Strike</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000j" loreTexts="true" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_PiercingThrust_Frontier"&gt;Technique: Piercing Strike&lt;/LSTag&gt;.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00011" version="2">Frontier: Pommel Strike</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000k" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_PommelStrike_Frontier"&gt;Frontier: Pommel Strike&lt;/LSTag&gt;.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00011" loreTexts="true" version="2">Technique: Pommel Strike</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000k" loreTexts="true" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_PommelStrike_Frontier"&gt;Technique: Pommel Strike&lt;/LSTag&gt;.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00012" version="2">Frontier: Prepare</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000l" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Shout_FullSwing_Frontier"&gt;Frontier: Prepare&lt;/LSTag&gt;.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00012" loreTexts="true" version="2">Technique: Prepare</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000l" loreTexts="true" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Shout_FullSwing_Frontier"&gt;Technique: Prepare&lt;/LSTag&gt;.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00013" version="2">Frontier: Rush Attack</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000m" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Rush_SpringAttack_Frontier"&gt;Frontier: Rush Attack&lt;/LSTag&gt;.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00013" loreTexts="true" version="2">Technique: Rush Attack</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000m" loreTexts="true" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Rush_SpringAttack_Frontier"&gt;Technique: Rush Attack&lt;/LSTag&gt;.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00015" version="2">Frontier: Topple</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000o" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_Topple_Frontier"&gt;Frontier: Topple&lt;/LSTag&gt;.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00015" loreTexts="true" version="2">Technique: Topple</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000o" loreTexts="true" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_Topple_Frontier"&gt;Technique: Topple&lt;/LSTag&gt;.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00014" version="2">Frontier: Unarmed Strike</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000n" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_UnarmedStrike_Frontier"&gt;Frontier: Unarmed Strike&lt;/LSTag&gt;.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00014" loreTexts="true" version="2">Technique: Unarmed Strike</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000n" loreTexts="true" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_UnarmedStrike_Frontier"&gt;Technique: Unarmed Strike&lt;/LSTag&gt;.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00016" version="2">Frontier: Weakening Strike</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000p" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_HinderingSmash_Frontier"&gt;Frontier: Weakening Strike&lt;/LSTag&gt;.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00016" loreTexts="true" version="2">Technique: Weakening Strike</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000p" loreTexts="true" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_HinderingSmash_Frontier"&gt;Technique: Weakening Strike&lt;/LSTag&gt;.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00017" version="2">Frontier: Brace (Ranged)</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000q" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Shout_SteadyRanged_Frontier"&gt;Frontier: Brace (Ranged)&lt;/LSTag&gt;.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00017" loreTexts="true" version="2">Technique: Brace (Ranged)</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000q" loreTexts="true" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Shout_SteadyRanged_Frontier"&gt;Technique: Brace (Ranged)&lt;/LSTag&gt;.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00018" version="2">Frontier: Hamstring Shot</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000r" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Projectile_HamstringShot_Frontier"&gt;Frontier: Hamstring Shot&lt;/LSTag&gt;.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00018" loreTexts="true" version="2">Technique: Hamstring Shot</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000r" loreTexts="true" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Projectile_HamstringShot_Frontier"&gt;Technique: Hamstring Shot&lt;/LSTag&gt;.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00019" version="2">Frontier: Mobile Shot</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000s" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Projectile_MobileShooting_Frontier"&gt;Frontier: Mobile Shot&lt;/LSTag&gt;.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00019" loreTexts="true" version="2">Technique: Mobile Shot</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000s" loreTexts="true" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Projectile_MobileShooting_Frontier"&gt;Technique: Mobile Shot&lt;/LSTag&gt;.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00020" version="2">Frontier: Piercing Shot</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000t" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Projectile_PiercingShot_Frontier"&gt;Frontier: Piercing Shot&lt;/LSTag&gt;.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00020" loreTexts="true" version="2">Technique: Piercing Shot</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000t" loreTexts="true" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Projectile_PiercingShot_Frontier"&gt;Technique: Piercing Shot&lt;/LSTag&gt;.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d566548400001" version="2">Frontier Recovery</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d56654840000a" version="2">Rather than being restored on a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, your Combat Techniques are on individual cooldowns. Currently, your Combat Techniques refresh once every three turns.&lt;br&gt;&lt;br&gt;As a Frontier Knight, you are capable of permanently learning the unique weapon based actions of gear you come across on your travels. Upon learning an action from a piece of gear, it is immediately destroyed.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d566548400001" loreTexts="true" version="2">Renewal: Reprise</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d56654840000a" loreTexts="true" version="2">Rather than being restored on a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, your Combat Techniques are on individual cooldowns. Currently, your Combat Techniques refresh once every three turns.&lt;br&gt;&lt;br&gt;As a Weapon Master, you are capable of permanently learning the unique weapon based actions of gear you come across on your travels. Upon learning an action from a piece of gear, it is immediately destroyed.</content>
 
 	<content contentuid="58ff3f1bd299431ab58216d6d566548400004" version="2">Steadfast Onslaught</content>
 	<content contentuid="58ff3f1bd299431ab58216d6d56654840000d" version="2">When damaging a creature with one of your Combat Techniques, you may spend a &lt;LSTag Type="ActionResource" Tooltip="SuperiorityDie"&gt;Superiority Dice&lt;/LSTag&gt; in order to increase the damage dealt.</content>
 	<content contentuid="hd8a8ad84g4f65g46fdgb04dg5bff8k39dlf0" version="1">Steadfast Onslaught</content>
 	<content contentuid="h23701712ge994g40bfga729g36ff5d8f4dff" version="3">Deal an extra [1] damage to a creature when damaging them with one of your Combat Techniques.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d566548400003" version="2">Improved Frontier Recovery</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d56654840000c" version="2">Rather than being restored on a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, your Combat Techniques are on individual cooldowns. Currently, your Combat Techniques refresh once every two turns.&lt;br&gt;&lt;br&gt;As a Frontier Knight, you are capable of permanently learning the unique weapon based actions of gear you come across on your travels. Upon learning an action from a piece of gear, it is immediately destroyed.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d566548400003" loreTexts="true" version="2">Renewal: Redoublement</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d56654840000c" loreTexts="true" version="2">Rather than being restored on a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, your Combat Techniques are on individual cooldowns. Currently, your Combat Techniques refresh once every two turns.&lt;br&gt;&lt;br&gt;As a Weapon Master, you are capable of permanently learning the unique weapon based actions of gear you come across on your travels. Upon learning an action from a piece of gear, it is immediately destroyed.</content>
 
 	<content contentuid="58ff3f1bd299431ab58216d6d566548400002" version="2">Critical Breakthrough</content>
 	<content contentuid="58ff3f1bd299431ab58216d6d56654840000b" version="2">Upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, all of your Combat Techniques are immediately refreshed.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d566548400005" version="2">Mastered Frontier Recovery</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d56654840000e" version="2">Rather than being restored on a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, your Combat Techniques are on individual cooldowns. Your Combat Techniques refresh every turn.&lt;br&gt;&lt;br&gt;As a Frontier Knight, you are capable of permanently learning the unique weapon based actions of gear you come across on your travels. Upon learning an action from a piece of gear, it is immediately destroyed.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d566548400005" loreTexts="true" version="2">Renewal: Remise</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d56654840000e" loreTexts="true" version="2">Rather than being restored on a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, your Combat Techniques are on individual cooldowns. Your Combat Techniques refresh every turn.&lt;br&gt;&lt;br&gt;As a Weapon Master, you are capable of permanently learning the unique weapon based actions of gear you come across on your travels. Upon learning an action from a piece of gear, it is immediately destroyed.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d566548400006" version="2">Frontier Mastery</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d566548400006" loreTexts="true" version="2">Renewal: Compound Attack</content>
 	<content contentuid="58ff3f1bd299431ab58216d6d56654840000f" version="2">All of your Combat Techniques can now be made as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;. This can be toggled at any time.</content>
 
 <!--MANEUVERS-->
@@ -598,13 +598,13 @@
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f500020" version="1">Tenacious Fighter</content>
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f50000t" version="1">Gain an additional &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction Point&lt;/LSTag&gt;. When making an &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt;, you roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
 
-<!--BATTLE MASTER TO FRONTIER KNIGHT-->
+<!--BATTLE MASTER TO Weapon Master-->
 
 	<content contentuid="h1b9bb939ga573g4e5dg8c16g20dfce934df7" version="4">Learn two manoeuvres and gain a &lt;LSTag Type="ActionResource" Tooltip="SuperiorityDie"&gt;Superiority Die&lt;/LSTag&gt; to fuel them. You regain expended Superiority Dice after a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
 	<content contentuid="h1d06df95g7f0ag4a3eg996ag2f7c94531a0f" version="2">Superiority dice are spent to empower manoeuvres, improving efficiency in combat.</content>
-	<content contentuid="h2780bb92gd755g42bdg90e4g35ba06f48ac9" version="1">Frontier Knight</content>
-	<content contentuid="h338f766bg5761g4fd4g9715g0bb6958837dd" version="1">Frontier Knight</content>
-	<content contentuid="h7764b2fbgbbe2g4352g9868gb25f450704fe" version="1">Frontier Knights are paragons of tactical superiority, combining combat manoeuvres and experience in the field to dominate every fight.</content>
+	<content contentuid="h2780bb92gd755g42bdg90e4g35ba06f48ac9" loreTexts="true" version="1">Weapon Master</content>
+	<content contentuid="h338f766bg5761g4fd4g9715g0bb6958837dd" loreTexts="true" version="1">Weapon Master</content>
+	<content contentuid="h7764b2fbgbbe2g4352g9868gb25f450704fe" loreTexts="true" version="1">Weapon Masters are paragons of tactical superiority, combining combat manoeuvres and experience in the field to dominate every fight.</content>
 
 <!--REMOVE ELDRITCH KNIGHT MENTIONS FROM WEAPON BUFFS-->
 

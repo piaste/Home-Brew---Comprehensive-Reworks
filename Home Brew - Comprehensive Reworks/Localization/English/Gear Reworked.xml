@@ -4,7 +4,7 @@
 <!--MISC TOOLTIPS-->
 	<content contentuid="hc3051800g8d41g428fgb80ag9479e41d112d" version="2">Cannot use.</content>
 	<content contentuid="hc8e135e8ged19g44edgb738g567b239931ac" version="1">Cannot use.</content>
-	<content contentuid="hc8e135e8ged19g44edgb7a2sdf6s4d45fe85" version="1">This weapon may be consumed by a Frontier Knight in order to permanently learn its unique action.</content>
+	<content contentuid="hc8e135e8ged19g44edgb7a2sdf6s4d45fe85" loreTexts="true" version="1">This weapon may be consumed by a Weapon Master in order to permanently learn its unique action.</content>
 
 <!--CLASS PASSIVES NON STACKING TOOLTIP-->
 	<content contentuid="h040f504dgc3fdg4ba6gb3ddg95b4a7e9a784" version="2">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Class Passives and Feats cannot stack with themselves through use of items.</content>
