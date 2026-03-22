@@ -169,7 +169,7 @@
 <!-- SPELLFIRE WIELDER -->
 
 	<content contentuid="75afaf5bbeec48939102d9037449bef500000" loreTexts="true" version="1">Spellfire Wielder</content>
-	<content contentuid="75afaf5bbeec48939102d9037449bef50000z" loreTexts="true" version="1">Whether from innate heritage or exposure to strange entities, you are gifted with the rare and wild talent of &lt;i&gt;spellfire&lt;/i&gt;, wielding the raw energy of the Weave itself. It burns with all-consuming flame just as eagerly as it rejuvenates your allies.</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef50000z" loreTexts="true" version="1">You are gifted with the rare and wild talent of &lt;i&gt;spellfire&lt;/i&gt;, the raw energy of the Weave itself, at once all-consuming flame and rejuvenating touch.</content>
 
 	<content contentuid="75afaf5bbeec48939102d9037449bef500001" loreTexts="true" version="1">Spellfire Spark</content>
 	<content contentuid="75afaf5bbeec48939102d9037449bef50000a" loreTexts="true" version="1">While in combat, casting a Spell causes you to emit an aura of &lt;i&gt;spellfire&lt;/i&gt; across [1]. The duration of this aura is equal to the level of Spell that you cast. Allies within the aura regain [2] &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; at the start of their turns. Enemies within the aura take [3] at the start of their turns.</content>
@@ -251,11 +251,11 @@
 	<content contentuid="h16312bfag01a2g42f8g943bg3fcba8e00006" version="1">Pitch Black</content>
 	<content contentuid="hec37ca35g480cg4de1gae65g3986c350000f" version="1">While &lt;LSTag Type="Status" Tooltip="SNEAKING_HEAVILY_OBSCURED"&gt;Heavily Obscured&lt;/LSTag&gt;, all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and damage rolls you make are rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. When your &lt;LSTag Type="Spell" Tooltip="Target_HoundOfIllOmen"&gt;Hounds of Ill Omen&lt;/LSTag&gt; clone themselves, their clones will never expire, and they can now produce further clones as well.</content>
 
-<!--VOLCANIC SOUL (ex Volcanist)-->
+<!--Volcanic Heart (ex Volcanist)-->
 
-	<content contentuid="ha09bcdedg1cb1g4a53ga72dgb9bf9bbb3cb0" loreTexts="true" version="1">Volcanic Soul</content>
-	<content contentuid="hd862715eg884cg4039ga1a6g59c36e569ddf" loreTexts="true" version="2">Volcanic Soul</content>
-	<content contentuid="h6cc6b6fega327g411ag9b33g098e0c8636b1" loreTexts="true" version="3">Searing heat roils within you, an ancient and unquenchable flame as unpredictable as it is uncontrollable.</content>
+	<content contentuid="ha09bcdedg1cb1g4a53ga72dgb9bf9bbb3cb0" loreTexts="true" version="1">Volcanic Heart</content>
+	<content contentuid="hd862715eg884cg4039ga1a6g59c36e569ddf" loreTexts="true" version="2">Volcanic Heart</content>
+	<content contentuid="h6cc6b6fega327g411ag9b33g098e0c8636b1" loreTexts="true" version="3">You burn with an inner link to the Undying Pyre, its heat arduous to control and impossible to quench.</content>
 
 	<content contentuid="h14011b40g647cg4560g8a71g0ddec16c4753" version="2">Magmatic</content>
 	<content contentuid="h476f70abgabb6g4b83g9c5dg0c73cbe34904" version="14">When dealing damage, you ignore Fire based &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt;. At the start of each of your turns, and upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, you generate one stack of &lt;LSTag Type="Status" Tooltip="MAG_FIRE_HEAT"&gt;Heat&lt;/LSTag&gt;.</content>
