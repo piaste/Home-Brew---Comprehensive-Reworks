@@ -68,7 +68,7 @@
 
 
 	<content contentuid="hd3d0e53ag76a8g4275g98b2g751f2c421b8a" loreTexts="true" version="1">High Forest Trail</content>
-	<content contentuid="h2accac8fg28eeg4d85gb412g2f6f8ec2d756" loreTexts="true" version="1">You explored the endless paths of the Great Everwood and learned to coexist with the many beasts that call it home.</content>
+	<content contentuid="h2accac8fg28eeg4d85gb412g2f6f8ec2d756" loreTexts="true" version="1">You explored the endless paths of the Great Everwood and learned to befriend the many beasts that call it home.</content>
 
 	<content contentuid="hdea6e468g7f71g48f6gaf6fg36fce0dfy4f2" version="3">Nevermore</content>
 	<content contentuid="hdea6e468g7f71g48f6gaf6fg36fce0df6568" version="3">You will not provoke attacks of opportunity. </content>
@@ -113,8 +113,8 @@
 
 <!--Underdark Trail-->   
 
-	<content contentuid="h0b6c2f00g7b32g42eeg9998g46c16f929ce5" loreTexts="true" version="1">Underdark Trail</content>
-	<content contentuid="h4a33c369g1682g9f70gd581g905806386b60" loreTexts="true" version="1">You explored the treacherous caverns of the Realms Below and learned the way to survive there - ambush and kill, before you are ambushed and killed.</content>
+	<content contentuid="hf8ac8ef1g7fceg417bg8342g2203918207b3" loreTexts="true" version="2">Underdark Trail</content>
+	<content contentuid="h85a6de72gd0a0g4374g8823ge103a79fe7bf" loreTexts="true" version="2">You explored the treacherous caverns of the Realms Below and learned their merciless ways - ambush and kill, before you are ambushed and killed.</content>
 	<content contentuid="hfad5bf4eg0236g4af2g970agfdc9c73a5452" loreTexts="true" version="2">Upperdark Adventurer</content>
 	<content contentuid="hafc743f7g5d89g4175g80bfg869c346a9889" version="9">Gain a +[1] bonus to Initiative. In addition, you are able to see in the dark, both magical and non-magical, up to [2]. In addition, at the beginning of any combat encounter, you gain &lt;LSTag Type="Status" Tooltip="DREAD_SHOT"&gt;Dread Shot&lt;/LSTag&gt;, allowing you to make a weapon attack which will always roll as a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
 	<content contentuid="h8fe2d065g37c5g4c09ga086gb6a1db243351" version="2">Dread Shot</content>
@@ -179,7 +179,7 @@
 <!--SWARMKEEPER-->
 
 	<content contentuid="hedbd9f3fgf4d8g4f16gb0f2gb0e11e9ba758" loreTexts="true" version="1">Neverwinter Wood Trail</content>
-	<content contentuid="hf081aa54g2347g4295g85aeg8048e2e23d8d" loreTexts="true" version="1">You explored the fey-touched meadows of the old Llewyrrwood and patiently learned to bond with swarms of tiny nature spirits.</content>
+	<content contentuid="hf081aa54g2347g4295g85aeg8048e2e23d8d" loreTexts="true" version="1">You explored the fey-touched meadows of the old Llewyrrwood and learned to bond with swarms of tiny nature spirits.</content>
 	<content contentuid="hc8f4441fg5384g43e6gb731ged328dd1927e" version="1">Spirits of nature flock to your company.&lt;br&gt;Bonds which bind you to the Feywild.&lt;br&gt;Adventures which bind you to your companions.</content>
 
 	<content contentuid="hd96c8a80g18f3g49c6ga651gdf1fa48000z1" version="2">Recall Swarm</content>
@@ -230,7 +230,7 @@
 <!--TWINFANG-->
 
 	<content contentuid="55a0054c23a247a29697b3a59e5eba7f00000" loreTexts="true" version="1">Evermoors Trail</content>
-	<content contentuid="55a0054c23a247a29697b3a59e5eba7f0000z" loreTexts="true" version="1">You explored the giants-infested swamps of the Trollmoors and learned how a ranger and his companion can fell prey far greater than themselves when united.</content>
+	<content contentuid="55a0054c23a247a29697b3a59e5eba7f0000z" loreTexts="true" version="1">You explored the giants-infested swamps of the Trollmoors and learned that a ranger and his companion can fell far bigger prey when fighting together.</content>
 
 	<content contentuid="55a0054c23a247a29697b3a59e5eba7f00001" version="1">Closing Bite</content>
 	<content contentuid="55a0054c23a247a29697b3a59e5eba7f0000a" version="1">When you make a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt;, you may make a melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;. This can be toggled at any time.</content>
