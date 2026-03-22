@@ -506,20 +506,20 @@
 
 
 
-	<content contentuid="e63cefa5-efd4-40d4-8dad-2430d3ba04ed" version="1">Yokebreaker: Beastmaster</content>
-	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df29" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Hunter"&gt;Beastmaster Ranger&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="e63cefa5-efd4-40d4-8dad-2430d3ba04ed" version="1">Yokebreaker: High Forest Trail</content>
+	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df29" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Hunter"&gt;High Forest Trail&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
-	<content contentuid="b39c06f9-6b73-4115-99ea-67307a8def8b" version="1">Yokebreaker: Gloomstalker</content>
-	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df30" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Beastmaster"&gt;Gloomstalker Ranger&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="b39c06f9-6b73-4115-99ea-67307a8def8b" version="1">Yokebreaker: Underdark Trail</content>
+	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df30" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_High Forest Trail"&gt;Underdark Trail&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
-	<content contentuid="06fa774e-2936-4727-b36f-c170d4ca897f" version="1">Yokebreaker: Hunter</content>
-	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df31" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Gloomstalker"&gt;Hunter Ranger&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="06fa774e-2936-4727-b36f-c170d4ca897f" version="1">Yokebreaker: Greypeaks Trail</content>
+	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df31" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Gloomstalker"&gt;Greypeaks Trail&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
-	<content contentuid="1b0b93e3-5a59-435e-a438-f33c487c85a8" version="1">Yokebreaker: Swarmkeeper</content>
-	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df32" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Swarmkeeper"&gt;Swarmkeeper Ranger&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="1b0b93e3-5a59-435e-a438-f33c487c85a8" version="1">Yokebreaker: Neverwinter Wood Trail</content>
+	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df32" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Swarmkeeper"&gt;Neverwinter Wood Trail&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
-	<content contentuid="d2b32777-c2ee-46bf-8530-097243ac2ea6" version="1">Yokebreaker: Twinfang</content>
-	<content contentuid="fcb64d7b-2826-4277-91a2-dd74a9ffda4d" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Twinfang"&gt;Twinfang Ranger&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="d2b32777-c2ee-46bf-8530-097243ac2ea6" version="1">Yokebreaker: Evermoors Trail</content>
+	<content contentuid="fcb64d7b-2826-4277-91a2-dd74a9ffda4d" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Twinfang"&gt;Evermoors Trail&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
 
 	<content contentuid="0bfdc937-3a62-449d-8b3f-29812adf32a1" version="1">Yokebreaker: Arcane Trickster</content>

@@ -652,10 +652,10 @@
 	<content contentuid="h20453170b9ff4b9c8c32d33a020357b50ac9" version="1">Paladin: Oath of Vengeance</content>
 	<content contentuid="hf4ed1f7d36d94c2abcda899d07b9e943ab47" version="1">Paladin: Oathbreaker</content>
 
-	<content contentuid="he2f1a1df896949edb5d6b3530f25289178g6" version="1">Ranger: Beast Master</content>
-	<content contentuid="hd6c7fa424e574445908ea18fb4f6d8de3b9c" version="1">Ranger: Gloom Stalker</content>
-	<content contentuid="h621dfdee398b463792b18ff7d88eb5d75127" version="1">Ranger: Hunter</content>
-	<content contentuid="h437731e40ccf4eed92b833bf3e3a7c8e2e55" version="1">Ranger: Swarmkeeper</content>
+	<content contentuid="he2f1a1df896949edb5d6b3530f25289178g6" version="1">Ranger: High Forest Trail</content>
+	<content contentuid="hd6c7fa424e574445908ea18fb4f6d8de3b9c" version="1">Ranger: Underdark Trail</content>
+	<content contentuid="h621dfdee398b463792b18ff7d88eb5d75127" version="1">Ranger: Greypeaks Trail</content>
+	<content contentuid="h437731e40ccf4eed92b833bf3e3a7c8e2e55" version="1">Ranger: Neverwinter Wood Trail</content>
 
 	<content contentuid="h887976b614304ec78b4449ad1d3e45012f6e" version="1">Rogue: Arcane Trickster</content>
 	<content contentuid="h5ac4211b67404f48a9e8976bf17a7b077674" version="1">Rogue: Assassin</content>
