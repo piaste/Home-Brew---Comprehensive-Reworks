@@ -3,7 +3,7 @@
 new entry "Projectile_Composed"
 type "SpellData"
 data "SpellType" "Projectile"
-data "SpellProperties" "RegainHitPoints(1d12*ProficiencyBonus);ApplyStatus(INTERRUPT_COMPOSED,100,0)"
+data "SpellProperties" "RegainHitPoints(1d6*ProficiencyBonus);ApplyStatus(INTERRUPT_COMPOSED,100,0)"
 data "AreaRadius" "3"
 data "ExplodeRadius" "3"
 data "TargetConditions" "Ally() and not Dead()"
@@ -180,17 +180,19 @@ data "DamageType" "Radiant"
 data "Sheathing" "Melee"
 data "WeaponTypes" "Melee"
 
-<!--GREATER IMPACT-->
+<!--REACTIVE ASSAULT-->
 
-new entry "Projectile_GreaterImpact_BonusAttack"
+new entry "Projectile_ReactiveAssault_BonusAttack"
 type "SpellData"
 data "SpellType" "Projectile"
 using "Projectile_MainHandAttack"
+data "SpellProperties" "RemoveStatus(SELF,REACTIVEASSAULT);GROUND:DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);GROUND:ExecuteWeaponFunctors(MainHand)"
 data "Icon" "Spell_Transmutation_SwiftQuiver"
 data "DisplayName" "8a87461fd8dd4f5b9098ded714sdf6887yy09;1"
 data "Description" "8a87461fd8dd4f5b9098ded714f60d1fdyy0i;2"
 data "UseCosts" "ReactionActionPoint:1"
 data "SpellFlags" "IsHarmful;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;Temporary"
+data "Cooldown" "OncePerTurn"
 
 <!--TOGETHER IN TORMENT-->
 

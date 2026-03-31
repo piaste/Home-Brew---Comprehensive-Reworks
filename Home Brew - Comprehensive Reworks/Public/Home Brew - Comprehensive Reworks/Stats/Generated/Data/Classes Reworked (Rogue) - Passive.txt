@@ -187,7 +187,7 @@ data "Description" "h853b555ege835g49e1g9e27g74680e24aef5;4"
 data "Icon" "Action_InfiltrationExpertise"
 data "Properties" "Highlighted;ForceShowInCC;DisplayBoostInTooltip;OncePerTurn"
 data "StatsFunctorContext" "OnDamage"
-data "Conditions" "not Combat(context.Source) and not Self() and not Ally() and HasStatus('SNEAKING', context.Source) and not HasStatus('ASSASSINATE_BLOCK', context.Target) or not Combat(context.Source) and not Self() and not Ally() and HasStatus('SG_Invisible', context.Source) and not HasStatus('ASSASSINATE_BLOCK', context.Target)"
+data "Conditions" "not Combat(context.Source) and not Self() and not Ally() and not Dead() and HasStatus('SNEAKING', context.Source) and not HasStatus('ASSASSINATE_BLOCK', context.Target) or not Combat(context.Source) and not Self() and not Ally() and not Dead() and HasStatus('SG_Invisible', context.Source) and not HasStatus('ASSASSINATE_BLOCK', context.Target)"
 data "StatsFunctors" "DealDamage((Level*6), MainMeleeWeaponDamageType,,,0,,true);ApplyStatus(ASSASSINATE_BLOCK,100,1)"
 data "Boosts" "IF(Combat(context.Source) and Combat() and not HadTurnInCombat()):Advantage(AttackRoll)"
 
@@ -219,7 +219,7 @@ data "EnabledConditions" "HasActionResource('AssassinsMark', 1, 0, false, false,
 data "EnabledContext" "OnLongRest;OnActionResourcesChanged;OnStatusApplied;OnStatusRemoved"
 data "ToggleOnEffect" "VFX_Spells_Cast_Sorcerer_TidesOfChaos_BodyFX_01:Dummy_BodyFX:;VFX_Spells_Cast_Sorcerer_Shout_EyeFX_01:Dummy_EyeFX_01:;VFX_Spells_Cast_Sorcerer_Shout_EyeFX_02:Dummy_EyeFX_02:;"
 data "StatsFunctorContext" "OnDamage"
-data "Conditions" "not HasStatus('ASSASSINATE_BLOCK', context.Target) and not Self() and not Ally() and IsWeaponAttack() and (HasDamageDoneForType(DamageType.Bludgeoning,context.Target) or HasDamageDoneForType(DamageType.Piercing,context.Target) or HasDamageDoneForType(DamageType.Slashing,context.Target))"
+data "Conditions" "not HasStatus('ASSASSINATE_BLOCK', context.Target) and not Self() and not Ally() and not Dead() and IsWeaponAttack() and (HasDamageDoneForType(DamageType.Bludgeoning,context.Target) or HasDamageDoneForType(DamageType.Piercing,context.Target) or HasDamageDoneForType(DamageType.Slashing,context.Target))"
 data "StatsFunctors" "DealDamage((Level*6), MainMeleeWeaponDamageType,,,0,,true);ApplyStatus(ASSASSINATE_BLOCK,100,1);RemoveStatus(SELF,ASSASSINS_FOCUS)"
 
 new entry "AssassinsQuarry_Attack_Fixer"
@@ -307,7 +307,7 @@ data "DisplayName" "hedbd9f3fgf4d8g4f16gb02we68f4s6500004;1"
 data "Description" "hf081aa54g2345s4e6f84s6e2f1e87f40000d;2"
 data "Icon" "Spell_2e_PuffOfPoison"
 data "Properties" "Highlighted;ForceShowInCC"
-data "Boosts" "DamageBonus(ClassLevel(Rogue), Poison)"
+data "Boosts" "IF(Enemy() and not IsOffHandAttack() and not HasStatus('MULTIHIT_BLOCKER', context.Source)):DamageBonus(ClassLevel(Rogue), Poison)"
 
 new entry "DeepenedToxicity"
 type "PassiveData"
@@ -651,7 +651,7 @@ data "Icon" "PassiveFeature_NaturallyStealthy"
 data "Properties" "Highlighted;ForceShowInCC"
 data "StatsFunctorContext" "OnDamage"
 data "Conditions" "IsWeaponAttack() and not HasStatus('ALCH_TOXIN_WYVERN_CONDITION', context.Target)"
-data "StatsFunctors" "IF(not SavingThrow(Ability.Constitution, SourceSpellDC())):ApplyStatus(ALCH_TOXIN_WYVERN_CONDITION,100,3, AdvantageOnPoisoned())"
+data "StatsFunctors" "IF(not SavingThrow(Ability.Constitution, SourceSpellDC())):ApplyStatus(ALCH_TOXIN_WYVERN_CONDITION,100,1, AdvantageOnPoisoned())"
 
 <!--PASSIVE SUMMONS-->
 

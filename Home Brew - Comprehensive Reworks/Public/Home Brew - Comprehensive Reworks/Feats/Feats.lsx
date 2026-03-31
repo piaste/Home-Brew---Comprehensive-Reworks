@@ -162,7 +162,7 @@
                 </node>
                 <node id="Feat">
                     <attribute id="Name" type="FixedString" value="IntrinsicArmoury"/>
-                    <attribute id="PassivesAdded" type="LSString" value="IntrinsicArmoury"/>
+                    <attribute id="PassivesAdded" type="LSString" value="IntrinsicArmoury;IntrinsicArmoury_2;IntrinsicArmoury_3;IntrinsicArmoury_4"/>
                     <attribute id="UUID" type="guid" value="e061a323-3430-4cff-88d3-5eae7a1779a4"/>
                 </node>
                 <node id="Feat">
@@ -348,7 +348,7 @@
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="BardCollegeofMoriendi"/>
-                    <attribute id="PassivesAdded" type="LSString" value="RequiescatinPace;Moriendi_PerformanceRemover;GraveChill"/>
+                    <attribute id="PassivesAdded" type="LSString" value="RequiescatinPace;Moriendi_PerformanceRemover;FuneralMarch"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Bard&apos;)"/>
                     <attribute id="UUID" type="guid" value="b296fca6-a2ad-4687-ac54-a359a65aed86"/>
                 </node>
@@ -492,7 +492,7 @@
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="MonkWayOfTheTemperedSteel"/>
-                    <attribute id="PassivesAdded" type="LSString" value="TemperedDiscipline;JudgementCut" />
+                    <attribute id="PassivesAdded" type="LSString" value="FlurryOfBlowsUnlock;TemperedDiscipline;FocusedSerenity" />
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Monk&apos;)"/>
 					<attribute id="UUID" type="guid" value="8f0ee646-0114-4f46-8ff3-d2b5bcaf1ca7"/>
                 </node>

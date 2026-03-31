@@ -80,7 +80,7 @@ the Blade</content>
 	<content contentuid="hf690b23dg039ag4befg90a1g18e279b05184" version="2">Once per turn, upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, your patron will grant you &lt;LSTag Tooltip="TemporaryHitPoints"&gt;Temporary Hit Points&lt;/LSTag&gt; equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Charisma Modifier&lt;/LSTag&gt; added to your level.</content>
 
 	<content contentuid="h2d527f55g3322g4492g9b6eg692418bac609" version="2">Hellblade Resonation</content>
-	<content contentuid="ha736d140g3d03g4279g8386g07f2a1cd07ad" version="2">When dealing damage, you ignore all forms of Fire &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt;. In addition, while your weapons are coated in &lt;LSTag Type="Status" Tooltip="HELLFIRE"&gt;Hellfire&lt;/LSTag&gt;, dealing damage with them causes all targets within [1] of you to take Fire damage equal to your levels in Warlock.</content>
+	<content contentuid="ha736d140g3d03g4279g8386g07f2a1cd07ad" version="2">When dealing damage, you ignore all forms of Fire &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt;. In addition, while your weapons are coated in &lt;LSTag Type="Status" Tooltip="HELLFIRE"&gt;Hellfire&lt;/LSTag&gt;, dealing damage with your main-hand weapon causes all targets within [1] of you to take Fire damage equal to your levels in Warlock.</content>
 
 	<content contentuid="h0527734cgb2d7g4989ga2dfg7797774aa33e" version="2">Eldritch Inferno</content>
 	<content contentuid="h41857a35g9f0fg44f6gadaagc1a4b73a7ab1" version="3">Every three turns, you erupt in an Eldritch Inferno, dealing [1] to all enemies within [2]. Landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; reduces the time it takes to erupt by one turn.</content>
@@ -283,7 +283,7 @@ Penumbra</content>
 the Tome</content>
 
 	<content contentuid="ha9cadfc2g5dbcg4e6bgb410gb25e02e77263" version="1">Pact of the Tome</content>
-	<content contentuid="hc5506949g2e54g47b0gb8b6g69dffdd1ac1e" version="3">You add your &lt;LSTag Tooltip="AbilityModifier"&gt;Charisma Modifier&lt;/LSTag&gt; to the damage your &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt; deals, if positive. In addition, you are able to cast your Eldritch Blast with your &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;. This can be toggled at any time.</content>
+	<content contentuid="hc5506949g2e54g47b0gb8b6g69dffdd1ac1e" version="3">You add your &lt;LSTag Tooltip="AbilityModifier"&gt;Charisma Modifier&lt;/LSTag&gt; to the damage your &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt; deals, if positive and damaging an enemy. In addition, you are able to cast your Eldritch Blast with your &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;. This can be toggled at any time.</content>
 
 	<content contentuid="ha9cadfc2g5dbcg4e6bgb410gb25e02e00005" version="1">Projected Inertia</content>
 	<content contentuid="hc5506949g2e54g47b0gb8b6g69dffdd0000e" version="3">Upon dealing damage with your &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt;, you apply one stack of &lt;LSTag Type="Status" Tooltip="ELDRITCH_STRIKE"&gt;Eldritch Inertia&lt;/LSTag&gt;.</content>
@@ -292,13 +292,13 @@ the Tome</content>
 	<content contentuid="hc5506949g2e54g47b0gb8b6g69dffdd0000b" version="3">You are capable of dividing your &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt; into two separate beams. Each beam will deal 1d12 Force damage. This can be toggled at any time.</content>
 
 	<content contentuid="ha9cadfc2g5dbcg4e6bgb410gb25e02e00001" version="1">Mystic Precision</content>
-	<content contentuid="hc5506949g2e54g47b0gb8b6g69dffdd0000a" version="3">When you cast &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt;, the number you need in order to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; is reduced by 1.</content>
+	<content contentuid="hc5506949g2e54g47b0gb8b6g69dffdd0000a" version="3">When you cast &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt;, the number you need in order to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; is reduced by 2.</content>
 
 	<content contentuid="ha9cadfc2g5dbcg4e6bgb410gb25e02e00004" version="1">Eldritch Surge</content>
 	<content contentuid="hc5506949g2e54g47b0gb8b6g69dffdd0000d" version="3">You are capable of dividing your &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt; into three separate beams. Each beam will deal 1d12 Force damage. This can be toggled at any time.</content>
 
 	<content contentuid="ha9cadfc2g5dbcg4e6bgb410gb25e02e00003" version="1">Abyssal Desolation</content>
-	<content contentuid="hc5506949g2e54g47b0gb8b6g69dffdd0000c" version="3">When you roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, you roll an additional damage die.</content>
+	<content contentuid="hc5506949g2e54g47b0gb8b6g69dffdd0000c" version="3">When you roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, you roll two additional damage dice.</content>
 
 <!--PASSIVES-->
 
@@ -327,7 +327,7 @@ the Tome</content>
 	<content contentuid="h53277800gd3a4g4984gbff6g0af59661a654" version="1">Affected creature is taking [1] per turn. Whomever applied this status makes their &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; when targeting the affected creature.</content>
 
 	<content contentuid="hcbb02b50g75d3g468fgacb6gb7c74696a957" version="5">Dark Retaliation</content>
-	<content contentuid="h53277800gd3a4g4984gbff6g0af596693jjg" version="1">When an enemy fails an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against you, you may spend your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; in order to create a [1] cloud of &lt;LSTag Type="Spell" Tooltip="Target_Darkness"&gt;Darkness&lt;/LSTag&gt;.</content>
+	<content contentuid="h53277800gd3a4g4984gbff6g0af596693jjg" version="1">When an enemy fails an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against you, you may create a [1] cloud of &lt;LSTag Type="Spell" Tooltip="Target_Darkness"&gt;Darkness&lt;/LSTag&gt; as a free &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;.</content>
 	<content contentuid="hcbb02b50g75d3g468fgacb6gb7c74696aoao" version="5">Dark Retaliation</content>
 	<content contentuid="h53277800gd3a4g4984gbff6g0af59669392i" version="1">When an enemy fails an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against you, create a [1] cloud of &lt;LSTag Type="Spell" Tooltip="Target_Darkness"&gt;Darkness&lt;/LSTag&gt;.</content>
 

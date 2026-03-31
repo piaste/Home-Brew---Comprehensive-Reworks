@@ -283,7 +283,7 @@
 
 <!--MOONLIGHT GLAIVE-->
 	<content contentuid="hddc19688gfbffg473cgbdeeg606fc4f261a2" version="3">Moonlit Hue</content>
-	<content contentuid="h2fa83a4dg3b80g4eeeg818fg22dd2f5d6d84" version="3">This object shines with a glowing light in a radius of [1], causing it to deal an additional [2].</content>
+	<content contentuid="h2fa83a4dg3b80g4eeeg818fg22dd2f5d6d84" version="3">This weapon causes it's wielder to glow with a pale aura, emitting light in a radius of [1].</content>
 
 <!--PERIAPT OF WOUND CLOSURE-->
 	<content contentuid="h4f79a8ceg5817g4e30g9a23g87c5482ebbad" version="3">Wound Closure</content>

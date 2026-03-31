@@ -211,7 +211,7 @@
 	<content contentuid="hb2400634gf3e4g46f1gb93dg1330e4derere" version="3">When making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; or dealing damage to a Undead type creature, roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Once per turn, upon landing a killing blow on an enemy Undead, restore one &lt;LSTag Type="ActionResource" Tooltip="WarPriestActionPoint"&gt;Crusader's Smite&lt;/LSTag&gt; charge.</content>
 
 	<content contentuid="hcf1bdf5bg6399g4460g881fg174d780e68c0" version="1">Inquisitor's Might</content>
-	<content contentuid="h0f21e528gda66g4bb7g988cg9039f7eaa2a6" version="2">Infuse your or an ally's weapons, causing their attacks to deal an additional [1] and can &lt;LSTag Type="Status" Tooltip="DAZED"&gt;Daze&lt;/LSTag&gt; enemies for 1 turn.</content>
+	<content contentuid="h0f21e528gda66g4bb7g988cg9039f7eaa2a6" version="2">Infuse your or an ally's weapons, causing their attacks to deal an additional [1], potentially &lt;LSTag Type="Status" Tooltip="DAZED"&gt;Dazing&lt;/LSTag&gt; enemies for 1 turn.</content>
 	<content contentuid="h0af19e18g2a2dg4907ga5e0g8bb939887b84" version="1">Inquisitor's Might</content>
 	<content contentuid="h64863ad5gd1acg47eegbca9g9fe7aeac4b7f" version="1">Affected creature's weapon attacks deal an additional [1] and can &lt;LSTag Type="Status" Tooltip="DAZED"&gt;Daze&lt;/LSTag&gt; targets for 1 turn.</content>
 
@@ -235,7 +235,7 @@
 	<content contentuid="h32aa4439g4e6eg4398gb2f1g160c7ceab346" version="6">Has &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to damage from spells while within [1] of the Paladin responsible for this status.</content>
 
 	<content contentuid="h298b9a29g5657g4aa9gaad6gad3a822d3f45" version="1">I Am Vengeance</content>
-	<content contentuid="hb2400634gf3e4g46f1gb93dg1330e4ss6d85" version="3">Once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, erupt in radiant fury. Your weapon attacks deal an additional [1] for three turns and all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; you make are rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+	<content contentuid="hb2400634gf3e4g46f1gb93dg1330e4ss6d85" version="3">Once per combat encounter, erupt in radiant fury. Your weapon attacks deal an additional [1] for three turns and all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; you make are rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
 	<content contentuid="h298b9a29g5657g4aa9gaad6gad3a8af00001" version="1">Visage of Vengeance</content>
 	<content contentuid="hb2400634gf3e4g46f1gb93dg1330e4a0000a" version="3">Erupt in radiant fury. Your weapon attacks deal an additional [1] and all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; are made with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
 	<content contentuid="h298b9a29g5657g4aa9gaad6gad3a8af000z1" version="1">Visage of Vengeance</content>
@@ -284,7 +284,7 @@
   <content contentuid="9b7b811b9c3043e189f945540bf5116e0000g" version="3">With renewed purpose, you stand as the bulwark of conviction.&lt;br&gt;A raging darkness ever lingering beyond the precipice.</content>
 
   <content contentuid="fe6f4159abae42539029e284001d12de2a621" version="3">Atonement</content>
-  <content contentuid="fe6f4159abae42539029e284001d12de6a954" version="3">Upon expending one of your &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; charges, you have a 33% chance to recover one of your &lt;LSTag Type="ActionResource" Tooltip="WarPriestActionPoint"&gt;Crusader's Smite&lt;/LSTag&gt; charges. Additionally, upon expending one of your Crusader's Smite charges, you have a 33% chance to recover one of your Channel Oath charges.</content>
+  <content contentuid="fe6f4159abae42539029e284001d12de6a954" version="3">Upon expending one of your &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; or &lt;LSTag Type="ActionResource" Tooltip="WarPriestActionPoint"&gt;Crusader's Smite&lt;/LSTag&gt; charges, you have a 33% chance to recover one of the opposite resource.</content>
 
   <content contentuid="fe6f4159abae42539029e284001d12de659aa" version="3">Critical Oath</content>
   <content contentuid="fe6f4159abae42539029e284001d12desdf64" version="3">Once per turn, upon rolling a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, immediately restore one of your &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; charges.</content>
@@ -304,7 +304,7 @@
   <content contentuid="fe6f4159abae42539029e284001d12de0000c" version="3">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against Aberrations, Fey, Fiends and Undead.</content>
 
   <content contentuid="fe6f4159abae42539029e284001d12de00004" version="3">Divine Shielding</content>
-  <content contentuid="fe6f4159abae42539029e284001d12de0000d" version="3">Upon taking physical damage, become &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to that type of physical damage for three turns.</content>
+  <content contentuid="fe6f4159abae42539029e284001d12de0000d" version="3">Upon taking damage, become &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to that type of damage for three turns.</content>
 
   <content contentuid="fe6f4159abae42539029e284001d12de00005" version="3">Holy Smites</content>
   <content contentuid="fe6f4159abae42539029e284001d12de0000e" version="3">Once per turn, upon damaging another creature with one of your Smites, holy energy erupts around you, healing allies within [1] of you. The amount of &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; restored scales with the strength of your Smites.</content>
@@ -313,11 +313,14 @@
   <content contentuid="fe6f4159abae42539029e284001d12de0000f" version="3">Once per turn, upon damaging another creature with one of your Smites, gain &lt;LSTag Type="Status" Tooltip="DIVINE_FAVOR"&gt;Divine Favor&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="SHIELD_OF_FAITH"&gt;Shield of Faith&lt;/LSTag&gt; for three turns.</content>
 
   <content contentuid="fe6f4159abae42539029e284001d12de00007" version="3">Infallible Beacon</content>
-  <content contentuid="fe6f4159abae42539029e284001d12de0000g" version="3">During combat, emit an aura across [1], forcing a -1d4 penalty on enemy &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; when made against anyone but you.</content>
+  <content contentuid="fe6f4159abae42539029e284001d12de0000g" version="3">During combat, emit an aura across [1], forcing a -5 penalty on enemy &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; when made against anyone but you.</content>
 
   <content contentuid="fe6f4159abae42539029e284001d12de00008" version="3">Lay On Hands</content>
-  <content contentuid="fe6f4159abae42539029e284001d12de0000h" version="3">Use your &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; charges to imbue your hands with divine power, healing a target, or curing them of any poisons and disease.</content>
+  <content contentuid="fe6f4159abae42539029e284001d12de0000h" version="3">Use your &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; charges to imbue your hands with divine power, healing a target, or curing them of most debilitations.</content>
   <content contentuid="h13826709gf888g4a58gbd2eg44c87eb0a527" version="1">Lay on Hands: Healing</content>
+  <content contentuid="hae864256g28abg4753gb730g8650d592e226" version="1">Imbue your hands with divine power to heal a target.</content>
+  <content contentuid="h84f7b18eg4548g4b9bg82b0gbe90954f66b5" version="1">Lay on Hands: Cure</content>
+  <content contentuid="hc5c1a0dfgabe9g4c1bgbd8dg8cf1d148bf27" version="1">Imbue your hands with divine power, curing a creature of most debilitations</content>
 
   <content contentuid="fe6f4159abae42539029e284001d12de00018" version="3">Oath Channeling</content>
   <content contentuid="fe6f4159abae42539029e284001d12de0000r" version="3">Expend &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; charges in order to recover &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slots&lt;/LSTag&gt;.</content>

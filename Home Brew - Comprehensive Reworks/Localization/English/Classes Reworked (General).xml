@@ -344,13 +344,13 @@
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f89tnone" version="3">You have no additional character traits.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00001" version="3">Adrenaline Surge</content>
-	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000a" version="3">While below 50% of your maximum &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;, you gain a +2 bonus to all damage dealt. However, while above 50% of your maximum Hit Points, you receive a -2 penalty instead.</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000a" version="3">While below 75% of your maximum &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;, you gain a +2 bonus to all damage dealt. However, while above 75% of your maximum Hit Points, you receive a -2 penalty instead.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00002" version="3">Blind Emotions</content>
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000b" version="3">You permanently benefit from the effects of being &lt;LSTag Type="Status" Tooltip="CALM_EMOTIONS"&gt;Calmed&lt;/LSTag&gt;. However, your targeting range is limited to [1].</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00003" version="3">Bloody Results</content>
-	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000c" version="3">Gain a bonus to damage dealt equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;. However, when dealing damage, you take damage equal to your Proficiency Bonus multiplied by two.</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000c" version="3">Gain a bonus to damage dealt equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;. However, when taking damage, you take additional damage equal to your Proficiency Bonus as well.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00004" version="3">Borrowed Time</content>
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000d" version="3">At the beginning of any combat encounter, you receive &lt;LSTag Tooltip="TemporaryHitPoints"&gt;Temporary Hit Points&lt;/LSTag&gt; equal to your level multiplied by two. Upon ending combat, you take Force damage equal to your level multiplied by four.</content>
@@ -385,7 +385,7 @@
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000k" version="3">You are permanently &lt;LSTag Type="Status" Tooltip="ENLARGE_BARBARIAN"&gt;Enlarged&lt;/LSTag&gt;. However, rather than having your damage increased by [1], it is instead reduced.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00012" version="3">Gilded Pilfer</content>
-	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000l" version="3">When dealing damage, you deal an additional point of damage for every 100 gold pieces your target has in their inventory, consuming them in the process.</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000l" version="3">When dealing damage, you deal an additional point of damage for every 10 gold pieces your target has in their inventory, consuming them in the process.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00013" version="3">Glass Cannon</content>
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000m" version="3">Gain an additional &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt; and &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;. However, you also receive a -10 penalty to your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;, your maximum &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; are halved, and you make all &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
@@ -397,7 +397,7 @@
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000o" version="3">Gain an additional &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;. When making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; which uses a Reaction, you roll with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00016" version="3">Haymaker</content>
-	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000p" version="3">Gain a +5 bonus to all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;. However, you are unable to roll &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hits&lt;/LSTag&gt;.</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000p" version="3">Gain a +10 bonus to all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;. However, you are unable to roll &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hits&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00017" version="3">Healthy Chills</content>
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000q" version="3">When being healed, you always recover the maximum amount of &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; possible. However, upon being healed, you also become &lt;LSTag Type="Status" Tooltip="CHILL_TOUCH"&gt;Bone Chilled&lt;/LSTag&gt; for three turns.</content>
@@ -406,13 +406,13 @@
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000r" version="3">Melee-based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; will never deal less than 8 damage. However, you make all melee-based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00019" version="3">Hyperfixation</content>
-	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000s" version="3">You have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;. However, upon starting your turn while not Concentrating, you have a 10% chance to become &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stunned&lt;/LSTag&gt; and lose your turn.</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000s" version="3">You have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;. However, upon starting your turn while not Concentrating, you have a 25% chance to become &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stunned&lt;/LSTag&gt; and lose your turn.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00020" version="3">Ironbourne</content>
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000t" version="3">You are considered to be a Construct, and as such, gain status based immunity to a number of conditions. However, during combat, you cannot be healed.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00021" version="3">Immovable Boulder</content>
-	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000u" version="3">You are unable to be forcibly moved or fall &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;. However, you have a -10 penalty to your Initiative.</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000u" version="3">You are unable to be forcibly moved or fall &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;. However, you have a -4 penalty to your Initiative.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00022" version="3">Lefty</content>
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000v" version="3">Gain the ability to make an off-hand weapon attack as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;, and all off-hand based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; are rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. However, all Attack Rolls made with your main-hand are rolled with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
@@ -423,10 +423,10 @@
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f89000zk" version="3">Affected creature has died!</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00024" version="3">Lone Wolf</content>
-	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000x" version="3">While traveling with just one other companion, you gain an additional &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt;, &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;, &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;, your maximum &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; are doubled, and you gain 12 additional points of &lt;LSTag Type="ActionResource" Tooltip="Attunement"&gt;Attunement&lt;/LSTag&gt;.&lt;Br&gt;&lt;Br&gt;While traveling completely alone, you gain three additional Actions, Bonus Actions, Reactions, your Hit Points are quadrupled, and you gain 24 additional points of Attunement.</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000x" version="3">While traveling with just one other companion, you gain an additional &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt; and your maximum &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; are doubled.&lt;Br&gt;&lt;Br&gt;While traveling completely alone, you gain two additional Actions and your maximum Hit Points are tripled.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00025" version="3">Narcoleptic</content>
-	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000y" version="3">Upon starting your turn, you have a 33% chance to fall &lt;LSTag Type="Status" Tooltip="SLEEP"&gt;Asleep&lt;/LSTag&gt;. Upon waking from a sleep-based Condition, you receive &lt;LSTag Tooltip="TemporaryHitPoints"&gt;Temporary Hit Points&lt;/LSTag&gt; equal to your level multiplied by 4.</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000y" version="3">Upon starting your turn, you have a 25% chance to fall &lt;LSTag Type="Status" Tooltip="SLEEP"&gt;Asleep&lt;/LSTag&gt;. Upon waking from a sleep-based Condition, you will only roll &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hits&lt;/LSTag&gt; for the rest of your turn.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00026" version="3">Natural Medium</content>
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000z" version="3">Permanently gain the effects of &lt;LSTag Type="Spell" Tooltip="Shout_DetectThoughts"&gt;Detect Thoughts&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_SpeakWithAnimals"&gt;Speak with Animals&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_SpeakWithDead"&gt;Speak with Dead&lt;/LSTag&gt;. However, you make all Charisma-based &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt; with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
@@ -441,7 +441,7 @@
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f89000ac" version="3">Double your &lt;LSTag Tooltip="CarryWeight"&gt;Carrying Capacity&lt;/LSTag&gt;. However, each turn you have a 5% chance to become &lt;LSTag Type="Status" Tooltip="OFF_BALANCED"&gt;Off Balanced&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00030" version="3">Planar Skipping</content>
-	<content contentuid="h8612a65dg446cg427bga712g6sd8f89000ad" version="3">Each turn, you may teleport up to [1] as a free action. However, you also have a 33% chance upon doing so to be suddenly &lt;LSTag Type="Status" Tooltip="BANISHED_SPELL"&gt;Banished&lt;/LSTag&gt; when doing so, and your &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; is reduced by [2].</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sd8f89000ad" version="3">Each turn, you may teleport up to [1] as a free action. However, you also have a 33% chance upon doing so to be suddenly &lt;LSTag Type="Status" Tooltip="BANISHED_SPELL"&gt;Banished&lt;/LSTag&gt;, and your &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; is reduced by [2].</content>
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00z30" version="3">Planar Skip</content>
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f8900zad" version="3">Teleport up to [1] as a free action. However, you also have a 33% chance to be suddenly &lt;LSTag Type="Status" Tooltip="BANISHED_SPELL"&gt;Banished&lt;/LSTag&gt;.</content>
 
@@ -449,7 +449,7 @@
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f89000ae" version="3">You no longer provoke &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt;. However, you are unable to utilize your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reactions&lt;/LSTag&gt; during combat.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00032" version="3">Reckless</content>
-	<content contentuid="h8612a65dg446cg427bga712g6sd8f89000af" version="3">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and damage rolls. However, you also become &lt;LSTag Tooltip="Vulnerable"&gt;Vulnerable&lt;/LSTag&gt; to all damage.</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sd8f89000af" version="3">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and damage rolls. However, you also become &lt;LSTag Tooltip="Vulnerable"&gt;Vulnerable&lt;/LSTag&gt; to physical damage.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00033" version="3">Slow Roller</content>
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f89000ag" version="3">Your &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; is halved. However, upon damaging an enemy with a melee-based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, you halve their Movement Speed as well.</content>
@@ -478,9 +478,9 @@
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f89000al" version="3">Each turn in combat, you have a 10% chance to experience a positive surge of &lt;LSTag Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt;. However, upon recovering from being &lt;LSTag Type="Status" Tooltip="DOWNED"&gt;Downed&lt;/LSTag&gt;, you have a 100% chance to experience a negative surge.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00039" version="3">Waning Immortality</content>
-	<content contentuid="h8612a65dg446cg427bga712g6sd8f89000am" version="3">Your maximum &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; are doubled. However, each time that you go down, your maximum Hit Points are permanently reduced by 4. This reduction in Hit Points cannot be undone.</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sd8f89000am" version="3">Increase the amount of &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; you gain per level from 6 to 12. However, each time that you are &lt;LSTag Type="Status" Tooltip="DOWNED"&gt;Downed&lt;/LSTag&gt;, your maximum Hit Points are permanently reduced by 6. This reduction in Hit Points cannot be undone.</content>
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00x39" version="3">Waning Immortality</content>
-	<content contentuid="h8612a65dg446cg427bga712g6sd8f8900xam" version="3">Your maximum &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; have been reduced by 4 per stack of this condition. This reduction in Hit Points cannot be undone.</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sd8f8900xam" version="3">Your maximum &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; have been reduced by 6 per stack of this condition. This reduction in Hit Points cannot be undone.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00040" version="3">Wretch</content>
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f89000an" version="3">You make all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt;, and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Warning: Taking this trait will drastically impact intended game balance.</content>

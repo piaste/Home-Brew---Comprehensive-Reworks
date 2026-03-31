@@ -1539,8 +1539,8 @@
 											<attribute id="Conditions" type="LSString" value="" />
 											<attribute id="Consume" type="bool" value="True" />
 											<attribute id="IsHiddenStatus" type="bool" value="True" />
-											<attribute id="StatsId" type="FixedString" value="ALCH_POTION_REST_SLEEP_LESSER" />
-											<attribute id="StatusDuration" type="int32" value="3" />
+											<attribute id="StatsId" type="FixedString" value="ALCH_POTION_REST_SLEEP_LESSER_RESTORATION" />
+											<attribute id="StatusDuration" type="int32" value="0" />
 										</node>
 									</children>
 								</node>
@@ -1768,7 +1768,7 @@
 											<attribute id="Consume" type="bool" value="True" />
 											<attribute id="IsHiddenStatus" type="bool" value="True" />
 											<attribute id="StatsId" type="FixedString" value="ALCH_POTION_REST_SLEEP_GREATER_RESTORATION" />
-											<attribute id="StatusDuration" type="int32" value="3" />
+											<attribute id="StatusDuration" type="int32" value="0" />
 										</node>
 									</children>
 								</node>

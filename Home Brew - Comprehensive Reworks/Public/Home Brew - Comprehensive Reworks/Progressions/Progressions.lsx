@@ -2800,9 +2800,9 @@
         <node id="Progression">
 					<attribute id="Level" type="uint8" value="1" />
 					<attribute id="Name" type="LSString" value="SwordsCollege" />
-					<attribute id="PassivesAdded" type="LSString" value="ClassProgression_Steel;BardicInspiration" />
+					<attribute id="PassivesAdded" type="LSString" value="ClassProgression_Steel;BardicInspiration;Steelforged_Actions" />
 					<attribute id="ProgressionType" type="uint8" value="1" />
-					<attribute id="Selectors" type="LSString" value="SelectSpells(ffad33d2-e725-4655-ba80-0bc91e8002b3,2,0,BardCantrips);SelectSpells(4f8a545f-2a42-490b-a008-7276d5186b0a,1,0,BardSpells);SelectPassives(9355b0df-9229-4a33-8d4b-30d1918388cf,1,Steelforged)" />
+					<attribute id="Selectors" type="LSString" value="SelectSpells(ffad33d2-e725-4655-ba80-0bc91e8002b3,2,0,BardCantrips);SelectSpells(4f8a545f-2a42-490b-a008-7276d5186b0a,1,0,BardSpells)" />
 					<attribute id="TableUUID" type="guid" value="68f61c89-be48-41aa-acb6-2f3bd15303c7" />
 					<attribute id="UUID" type="guid" value="2766b853-3079-4342-b811-48cd7c7c7e73" />
 					</node>
@@ -3953,7 +3953,6 @@
 					<attribute id="Name" type="LSString" value="NPC_Druid" />
 					<attribute id="PassivesAdded" type="LSString" value="NPC_Druid_Subclass;NPCConcentration_End;Beastcraft;Wildshape_Removal" />
 					<attribute id="ProgressionType" type="uint8" value="0" />
-					<attribute id="Selectors" type="LSString" value="AddSpells(ae3ce10b-d32c-44df-91b9-ebf74476a9d8)" />
 					<attribute id="TableUUID" type="guid" value="7e76da16-650c-4a6e-85b0-f9e23a7f5a60" />
 					<attribute id="UUID" type="guid" value="13b286a5-fb07-4944-97e9-58be14a32678" />
 					</node>
@@ -5526,7 +5525,7 @@
 					<attribute id="UUID" type="guid" value="0f08e1e6-ff76-44f8-812b-48b29946ae85" />
 					</node>
 					
-<!--FIGHTER (DRACONIC LANCER)-->
+<!--FIGHTER (DRACONIC SENTINEL)-->
 
         <node id="Progression">
 					<attribute id="Level" type="uint8" value="1" />
@@ -5546,7 +5545,7 @@
         <node id="Progression">
 					<attribute id="Level" type="uint8" value="3" />
 					<attribute id="Name" type="LSString" value="DraconicLancer" />
-					<attribute id="PassivesAdded" type="LSString" value="WyrmcallResonance" />
+					<attribute id="PassivesAdded" type="LSString" value="WyrmcallRecovery" />
 					<attribute id="ProgressionType" type="uint8" value="1" />
 					<attribute id="TableUUID" type="guid" value="b2fcad9c-a4b4-4459-a803-e01da1d80b08" />
 					<attribute id="UUID" type="guid" value="b7a63a1b-7ae6-46e6-8174-9d8cd32b6138" />
@@ -5576,7 +5575,7 @@
         <node id="Progression">
 					<attribute id="Level" type="uint8" value="7" />
 					<attribute id="Name" type="LSString" value="DraconicLancer" />
-					<attribute id="PassivesAdded" type="LSString" value="WyrmcallRecovery" />
+					<attribute id="PassivesAdded" type="LSString" value="WyrmcallResonance" />
 					<attribute id="ProgressionType" type="uint8" value="1" />
 					<attribute id="TableUUID" type="guid" value="b2fcad9c-a4b4-4459-a803-e01da1d80b08" />
 					<attribute id="UUID" type="guid" value="fe8caba5-b146-4167-b39c-3509fb4de4f9" />
@@ -5642,7 +5641,7 @@
         <node id="Progression">
 					<attribute id="Level" type="uint8" value="3" />
 					<attribute id="Name" type="LSString" value="EldritchKnight" />
-					<attribute id="PassivesAdded" type="LSString" value="From_Beyond" />
+					<attribute id="PassivesAdded" type="LSString" value="Ex_Oblivione" />
 					<attribute id="ProgressionType" type="uint8" value="1" />
 					<attribute id="Selectors" type="LSString" value="SelectSpells(4f8a545f-2a42-490b-a008-7276d5186b0a,1,0,Spells,,e9127b70-22b7-42a1-b172-d02f828f260a)" />
 					<attribute id="TableUUID" type="guid" value="2db3f02e-dfa9-4235-b9bd-28a89bf41435" />
@@ -5660,7 +5659,7 @@
 					<attribute id="Boosts" type="LSString" value="ActionResource(WarlockSpellSlot,2,2);ActionResourceOverride(WarlockSpellSlot,0,1)" />
 					<attribute id="Level" type="uint8" value="5" />
 					<attribute id="Name" type="LSString" value="EldritchKnight" />
-					<attribute id="PassivesAdded" type="LSString" value="Ex_Oblivione" />
+					<attribute id="PassivesAdded" type="LSString" value="From_Beyond" />
 					<attribute id="PassivesRemoved" type="LSString" value="Warlock_SpellSlots" />
 					<attribute id="ProgressionType" type="uint8" value="1" />
 					<attribute id="Selectors" type="LSString" value="SelectSpells(2db3752d-c3da-435a-aaea-a3b2ceafeb44,1,0,Cantrips);SelectSpells(f33b1b19-43c6-4f61-a001-cd55e516791c,1,1,Spells,,e9127b70-22b7-42a1-b172-d02f828f260a)" />
@@ -10175,7 +10174,7 @@
         <node id="Progression">
 					<attribute id="Level" type="uint8" value="1" />
 					<attribute id="Name" type="LSString" value="Volcanist" />
-					<attribute id="PassivesAdded" type="LSString" value="ClassProgression_Volcanist;Magmatic;Magmatic_Turn;Magmatic_Counter" />
+					<attribute id="PassivesAdded" type="LSString" value="ClassProgression_Volcanist;Magmatic;Magmatic_Turn" />
 					<attribute id="ProgressionType" type="uint8" value="1" />
 					<attribute id="TableUUID" type="guid" value="fac6ea25-a7f8-4793-b331-d884041e5adb" />
 					<attribute id="UUID" type="guid" value="6a973653-70d4-46dc-a634-315b47ef336e" />
@@ -12356,7 +12355,7 @@
                     <attribute id="Boosts" type="LSString" value="ActionResource(Movement,9,0)"/>
 					<attribute id="Level" type="uint8" value="1" />
 					<attribute id="Name" type="LSString" value="Githyanki" />
-					<attribute id="PassivesAdded" type="LSString" value="Githyanki" />
+					<attribute id="PassivesAdded" type="LSString" value="Githyanki;Hidden_DarkVision" />
 					<attribute id="ProgressionType" type="uint8" value="2" />
 					<attribute id="TableUUID" type="guid" value="81e2cb57-6a12-4429-b3a5-f72549355b3b" />
 					<attribute id="UUID" type="guid" value="f653d537-bc14-4fea-b7d2-25734ec928a2" />
@@ -12454,7 +12453,7 @@
         <node id="Progression">
 					<attribute id="Level" type="uint8" value="1" />
 					<attribute id="Name" type="LSString" value="HalfDrow" />
-					<attribute id="PassivesAdded" type="LSString" value="DrowHalfElf;Hidden_DarkVision" />
+					<attribute id="PassivesAdded" type="LSString" value="DrowHalfElf;Hidden_SuperiorDarkVision" />
 					<attribute id="ProgressionType" type="uint8" value="2" />
 					<attribute id="TableUUID" type="guid" value="4ef615e7-e401-4304-bedc-5c229caa1dc2" />
 					<attribute id="UUID" type="guid" value="58dae581-c25a-4dfb-8a57-589bf4b34f62" />
@@ -12948,7 +12947,7 @@
                     <attribute id="Boosts" type="LSString" value="ActionResource(Movement,9,0)"/>
 					<attribute id="Level" type="uint8" value="1" />
 					<attribute id="Name" type="LSString" value="HalfOrc" />
-					<attribute id="PassivesAdded" type="LSString" value="HalfOrc" />
+					<attribute id="PassivesAdded" type="LSString" value="HalfOrc;Hidden_DarkVision" />
 					<attribute id="ProgressionType" type="uint8" value="2" />
 					<attribute id="TableUUID" type="guid" value="74e2e44d-e8c0-4b99-a6dc-c02f43cea8a6" />
 					<attribute id="UUID" type="guid" value="816fa8c7-7648-48f7-8309-cb4e7383e45f" />

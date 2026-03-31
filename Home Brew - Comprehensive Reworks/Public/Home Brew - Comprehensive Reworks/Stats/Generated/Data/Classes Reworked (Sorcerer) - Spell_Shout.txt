@@ -14,7 +14,7 @@ data "TargetConditions" "not Dead() and not Item() and (HasStatus('SOULFIREIGNIT
 data "Icon" "Spell_2e_AnticipatePeril"
 data "DisplayName" "75afaf5bbeec48939102d9037449bef5000z6;1"
 data "Description" "75afaf5bbeec48939102d9037449bef5000zf;1"
-data "DescriptionParams" "Distance(18);1d12"
+data "DescriptionParams" "Distance(9);1d12"
 data "ExtraDescription" "39f18b02804848b18fsfedbbf2c386upcast;1"
 data "ExtraDescriptionParams" "DealDamage(1d12,Radiant);1d12"
 data "TooltipDamageList" "DealDamage(1d12,Radiant)"

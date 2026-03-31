@@ -397,7 +397,7 @@ data "SpellStyleGroup" "Class"
 data "SpellFlags" "IgnoreSilence;Stealth;Invisible;NoCameraMove"
 data "Sheathing" "Sheathed"
 data "HitAnimationType" "None"
-data "RequirementConditions" "not HasStatus('MANEUVER_BLOCKER')"
+data "RequirementConditions" "not HasStatus('DASH_STACKED_2') and not HasStatus('MANEUVER_BLOCKER')"
 
 new entry "Shout_EvasiveFootwork"
 type "SpellData"

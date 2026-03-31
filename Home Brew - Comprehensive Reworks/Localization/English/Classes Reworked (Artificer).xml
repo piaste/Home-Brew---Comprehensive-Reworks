@@ -167,7 +167,7 @@
 	<content contentuid="52fe1476d95548e2a19d5671c3e150710000b" version="2">Dealing damage with your grenades and explosives forces your targets &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
 
 	<content contentuid="52fe1476d95548e2a19d5671c3e1507100003" version="1">Explosive Ammunition</content>
-	<content contentuid="52fe1476d95548e2a19d5671c3e150710000c" version="2">Landing a killing blow with a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt; triggers a violent explosion, damaging everything within [1] of your target.</content>
+	<content contentuid="52fe1476d95548e2a19d5671c3e150710000c" version="2">Landing a killing blow with a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt; triggers a violent explosion, damaging everything within [1] of your target. This may be toggled at any time.</content>
 
 	<content contentuid="52fe1476d95548e2a19d5671c3e1507100004" version="1">Mortar Multiplicity</content>
 	<content contentuid="52fe1476d95548e2a19d5671c3e150710000d" version="2">You are able to &lt;LSTag Type="Spell" Tooltip="Throw_Throw"&gt;Throw&lt;/LSTag&gt; objects and creatures as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;. This may be toggled at any time.</content>
@@ -192,7 +192,7 @@
 	<content contentuid="h5b8e00gacb9g46a5sd6f45623r4ff8s000za" version="2">Infuse allies or enemies in order to provide a variety of different effects based on your choice of Optimization and Sabotage matrices.</content>
 
 	<content contentuid="h509b8e00gacb9g46a583898dfj5df2f00002" version="1">Adaptive Intervention</content>
-	<content contentuid="h5b8e00gacb9g46a5sd6f45623r4ff8s0000b" version="2">You may expend one &lt;LSTag Type="ActionResource" Tooltip="InfusionSlots"&gt;Matrix Charge&lt;/LSTag&gt; in order to grant an ally &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt;. Additionally, when an ally or enemy is about to be damaged, you may expend your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; and a &lt;LSTag Type="ActionResource" Tooltip="InfusionSlots"&gt;Matrix Charge&lt;/LSTag&gt; to immediately &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; them.</content>
+	<content contentuid="h5b8e00gacb9g46a5sd6f45623r4ff8s0000b" version="2">You may expend one &lt;LSTag Type="ActionResource" Tooltip="InfusionSlots"&gt;Matrix Charge&lt;/LSTag&gt; in order to grant an ally &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt;. Additionally, when an ally or enemy is about to be damaged, you may expend a &lt;LSTag Type="ActionResource" Tooltip="InfusionSlots"&gt;Matrix Charge&lt;/LSTag&gt; to immediately &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; them.</content>
 	<content contentuid="h509b8e00gacb9g46a583898dfj5df2f000z2" version="1">Adaptive Intervention</content>
 	<content contentuid="h5b8e00gacb9g46a5sd6f45623r4ff8s000zb" version="2">Grant an ally &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="h509b8e00gacb9g46a583898dfj5df2f000y2" version="1">Adaptive Intervention</content>
@@ -311,7 +311,7 @@
 	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe5zzz" version="2">Creation manifests brilliance, moulded in arcane echoes.&lt;br&gt;Productions of power, brought to life by your ingenuity.</content>
 
 	<content contentuid="115fb28f01e84e44b00000475sd5f4ef2f001" version="1">Adaptive Plating</content>
-	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe500a" version="2">Upon being damaged by another creature, you gain &lt;LSTag Tooltip="TemporaryHitPoints"&gt;Temporary Hit Points&lt;/LSTag&gt; equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; multiplied by two. Upon being added, you may not receive these Temporary HP again until they have been lost.</content>
+	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe500a" version="2">Upon being damaged by another creature, you gain &lt;LSTag Tooltip="TemporaryHitPoints"&gt;Temporary Hit Points&lt;/LSTag&gt; equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; multiplied by two. No effect if you already have Temporary Hit Points.</content>
 
 	<content contentuid="115fb28f01e84e44b3536f475sd5f4ef2f002" version="1">Arcane Calibration Matrix</content>
 	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe500b" version="2">Your firearms are incapable of &lt;LSTag Type="Status" Tooltip="FIREARM_MALFUNCTION"&gt;Misfiring&lt;/LSTag&gt;.</content>
@@ -322,9 +322,9 @@
 	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe50zc" version="2">When an enemy casts a Spell, make a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt; against them with your firearm.</content>
 
 	<content contentuid="115fb28f01e84e44b3536f475sd5f4ef2f004" version="1">Castle Defense</content>
-	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe500d" version="2">Gain the ability to deploy a turret within [1] of you.</content>
+	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe500d" version="2">Gain the ability to deploy two turrets within [1] of you.</content>
 	<content contentuid="115fb28f01e84e44b3536f475sd5f4ef2f0z4" version="1">Deploy Turret</content>
-	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe50zd" version="2">Deploy an arcane turret within [1] of you.&lt;Br&gt;&lt;br&gt;This &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; may be cast while &lt;LSTag Type="Status" Tooltip="HEAVILY_SILENCED"&gt;Silenced&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Muted&lt;/LSTag&gt;.</content>
+	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe50zd" version="2">Deploy two arcane turrets within [1] of you.&lt;Br&gt;&lt;br&gt;This &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; may be cast while &lt;LSTag Type="Status" Tooltip="HEAVILY_SILENCED"&gt;Silenced&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Muted&lt;/LSTag&gt;.</content>
 	<content contentuid="115fb28f01e84e44b3536f475sd5f4ef2fzz4" version="1">Arcane Missile</content>
 	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe5zzd" version="2">Fire an arcane missile which will seek out a creature of your choosing.&lt;Br&gt;&lt;br&gt;This &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; may be cast while &lt;LSTag Type="Status" Tooltip="HEAVILY_SILENCED"&gt;Silenced&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Muted&lt;/LSTag&gt; and will not break &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Stealth&lt;/LSTag&gt;.</content>
 
@@ -403,11 +403,11 @@
 	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe50zr" version="2">Affected creature may &lt;LSTag Type="Spell" Tooltip="Shout_Reload_Firearm"&gt;Reload&lt;/LSTag&gt; their firearms as a free action.</content>
 
 	<content contentuid="115fb28f01e84e44b3536f475sd5f4ef2f019" version="1">Synthetic Action Economy</content>
-	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe500s" version="2">You may expend your &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; in order to regain your &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt;. Afterwards, you will be unable to use your Bonus Action again until you &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
+	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe500s" version="2">You may expend your &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; in order to regain your &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt;. Afterwards, you will be unable to use your Bonus Action again until you land a killing blow.</content>
 	<content contentuid="115fb28f01e84e44b3536f475sd5f4ef2fz19" version="1">Synthetic Action Economy</content>
-	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe50zs" version="2">Expend your &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; in order to regain your &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt;. Afterwards, you will be unable to use your Bonus Action again until you &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
+	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe50zs" version="2">Expend your &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; in order to regain your &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt;. Afterwards, you will be unable to use your Bonus Action again until you land a killing blow.</content>
 	<content contentuid="115fb28f01e84e44b3536f475sd5f4ef2fy19" version="1">Synthetic Action Economy</content>
-	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe50ys" version="2">Affected creature is unable to utilize their &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
+	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe50ys" version="2">Affected creature is unable to utilize their &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; until they land a killing blow.</content>
 
 	<content contentuid="115fb28f01e84e44b3536f475sd5f4ef2f020" version="1">Vital Aim</content>
 	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe500t" version="2">Landing a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; with a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt; permanently inflicts &lt;LSTag Type="Status" Tooltip="GAPING_WOUND"&gt;Gaping Wounds&lt;/LSTag&gt; on your targets.</content>

@@ -49,7 +49,7 @@ data "SpellProperties" "GROUND:DealDamage(MainRangedWeapon, MainRangedWeaponDama
 data "TargetFloor" "-1"
 data "TargetRadius" "RangedMainWeaponRange"
 data "SpellRoll" "Attack(AttackType.RangedWeaponAttack)"
-data "SpellSuccess" "DealDamage(MainRangedWeapon, MainRangedWeaponDamageType); ExecuteWeaponFunctors(MainHand);BreakConcentration();ApplyStatus(SILENCED,100,1)"
+data "SpellSuccess" "DealDamage(MainRangedWeapon, MainRangedWeaponDamageType); ExecuteWeaponFunctors(MainHand);IF(not HasPassive('AnchoredFocus', context.Target)):BreakConcentration();ApplyStatus(SILENCED,100,1)"
 data "SpellFail" "IF(HasStatus('YSRSLIDFWWADNIWHWIHLY')):SpawnExtraProjectiles(Projectile_MainHandAttack);ApplyStatus(YSRSLIDFWWADNIWHWIHLY_YWNK,100,1)"
 data "TargetConditions" "not Self() and not Dead()"
 data "ProjectileCount" "1"

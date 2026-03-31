@@ -15,12 +15,12 @@
 	<content contentuid="ha975ad8agc567g4a25gbb21gaa32557fc95d" version="3">Turn a &lt;LSTag Type="Status" Tooltip="PETRIFIED"&gt;Petrified&lt;/LSTag&gt; creature back to their original form.</content>
 
 <!--POTION OF ANGELIC REPRIEVE-->
-	<content contentuid="h1832d529g6a51g4289g9ba1gd200debcdabb" version="5">Drink to fall into a &lt;LSTag Type="Status" Tooltip="SLEEP"&gt;Slumber&lt;/LSTag&gt; for three turns. You gain the benefits of a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
-	<content contentuid="haa838449gc16bg471eg9d0fg7236bd07897a" version="3">Affected creature has fallen asleep. When it wakes up, it will receive the effects of a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
+	<content contentuid="h1832d529g6a51g4289g9ba1gd200debcdabb" version="5">Drink to gain the benefits of a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
+	<content contentuid="haa838449gc16bg471eg9d0fg7236bd07897a" version="3">Affected creature has received the benefits of a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
 
 <!--POTION OF ANGELIC SLUMBER-->
-	<content contentuid="h59f09350g03d7g4a05ga6aag79592cd7ed13" version="4">Drink to fall into a &lt;LSTag Type="Status" Tooltip="SLEEP"&gt;Slumber&lt;/LSTag&gt; for three turns. You gain the benefits of a &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
-	<content contentuid="hdbf2d639g4c83g49afgaf1dg6e23f311cc07" version="3">Affected creature has fallen asleep. When it wakes up, it will receive the effects of a &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
+	<content contentuid="h59f09350g03d7g4a05ga6aag79592cd7ed13" version="4">Drink to gain the benefits of a &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
+	<content contentuid="hdbf2d639g4c83g49afgaf1dg6e23f311cc07" version="3">Affected creature has received the benefits of a &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
 
 <!--POTION OF ANIMAL SPEAKING-->
 	<content contentuid="hc37cbafdgfa6cg4ce7g8a12g1fd2990b8d66" version="1">Drink to gain the ability to temporarily comprehend and verbally communicate with beasts.</content>

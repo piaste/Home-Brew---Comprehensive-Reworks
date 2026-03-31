@@ -20,7 +20,7 @@ data "TooltipSave" "Wisdom"
 data "StatusPropertyFlags" "OverheadOnTurn"
 data "RemoveEvents" "OnTurn;OnDamage"
 data "StatusGroups" "SG_Incapacitated"
-data "OnApplyFunctors" "BreakConcentration()"
+data "OnApplyFunctors" "IF(not HasPassive('AnchoredFocus')):BreakConcentration()"
 data "StatusEffect" "d709b541-e0f6-4494-adbe-0dfb65177e5f"
 data "TooltipPermanentWarnings" "2f9e6c8d-ee12-4135-aaff-fef944d54f1e"
 

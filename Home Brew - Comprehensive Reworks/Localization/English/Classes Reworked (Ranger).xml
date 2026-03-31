@@ -232,17 +232,17 @@
 	<content contentuid="55a0054c23a247a29697b3a59e5eba7f000za" version="1">Make a melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;. This can be toggled at any time.</content>
 
 	<content contentuid="55a0054c23a247a29697b3a59e5eba7f00002" version="1">Second Fang</content>
-	<content contentuid="55a0054c23a247a29697b3a59e5eba7f0000b" version="1">Upon making a melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, your Ranger Companion may make one of their own against your target as a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;.</content>
+	<content contentuid="55a0054c23a247a29697b3a59e5eba7f0000b" version="1">Upon damaging an enemy, your Ranger Companion may make a melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against your target as a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;.</content>
 	<content contentuid="55a0054c23a247a29697b3a59e5eba7f000z2" version="1">Second Fang</content>
-	<content contentuid="55a0054c23a247a29697b3a59e5eba7f000zb" version="1">Make a melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against a target your summoning Ranger has struck with one of their own. You must be within [1] of the original target.</content>
+	<content contentuid="55a0054c23a247a29697b3a59e5eba7f000zb" version="1">Make a melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against a target your summoning Ranger has damaged. You must be within [1] of the original target.</content>
 
 	<content contentuid="55a0054c23a247a29697b3a59e5eba7f00003" version="1">Marked Quarry</content>
 	<content contentuid="55a0054c23a247a29697b3a59e5eba7f0000c" version="1">When you make a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt;, you afflict your target with &lt;LSTag Type="Status" Tooltip="HUNTERS_MARK"&gt;Hunter's Mark&lt;/LSTag&gt; for three turns.</content>
 
 	<content contentuid="55a0054c23a247a29697b3a59e5eba7f00004" version="1">Fang Over Fang</content>
-	<content contentuid="55a0054c23a247a29697b3a59e5eba7f0000d" version="1">When your Ranger Companion makes a melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against a target, you may make one of your own against them as a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;.</content>
+	<content contentuid="55a0054c23a247a29697b3a59e5eba7f0000d" version="1">When your Ranger Companion damages against a target, you may make an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against their target as a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;.</content>
 	<content contentuid="55a0054c23a247a29697b3a59e5eba7f000z4" version="1">Fang Over Fang</content>
-	<content contentuid="55a0054c23a247a29697b3a59e5eba7f000zd" version="1">Make a melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against a target your Ranger Companion has struck with one of their own. You must be within [1] of the original target.</content>
+	<content contentuid="55a0054c23a247a29697b3a59e5eba7f000zd" version="1">Make an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against a target your Ranger Companion has damaged. You must be within [1] of the original target.</content>
 
 	<content contentuid="55a0054c23a247a29697b3a59e5eba7f00005" version="1">Locked Jaws</content>
 	<content contentuid="55a0054c23a247a29697b3a59e5eba7f0000e" version="1">When both you and your Ranger Companion damage the same creature, they become &lt;LSTag Type="Status" Tooltip="CRIPPLED"&gt;Crippled&lt;/LSTag&gt; for one turn.</content>
@@ -347,9 +347,7 @@
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d10000n" version="4">Once per turn, upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on an enemy, you recover a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; of the highest level you are capable of casting based on your levels in Ranger.</content>
 
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d100009" version="4">Beastbond's Precision</content>
-	<content contentuid="791a0319eeed4e25949847ad3a0dd1d10000i" version="4">Gain a +4 bonus to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made with &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt;.</content>
-	<content contentuid="791a0319eeed4e25949847ad3a0dd1d1000z9" version="4">Beastbond's Precision</content>
-	<content contentuid="791a0319eeed4e25949847ad3a0dd1d1000zi" version="4">Affected creature has a +4 bonus to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
+	<content contentuid="791a0319eeed4e25949847ad3a0dd1d10000i" version="4">Gain a +4 bonus to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
 
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d100010" version="4">Blood Bond</content>
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d10000j" version="4">Creatures that you summon become &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to all forms of physical damage.</content>
@@ -375,9 +373,9 @@
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d1000zk" version="4">Affected creature has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made against the attacked Ranger who possesses this passive.</content>
 
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d100012" version="4">Natural Huntsman</content>
-	<content contentuid="791a0319eeed4e25949847ad3a0dd1d10000l" version="4">Making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; gives you a +2 bonus to additional Attack Rolls for the rest of your turn. This effect can stack.</content>
+	<content contentuid="791a0319eeed4e25949847ad3a0dd1d10000l" version="4">Making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; gives you a +2 bonus to all damage dealt for the rest of your turn. This effect can stack.</content>
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d100z12" version="4">Natural Huntsman</content>
-	<content contentuid="791a0319eeed4e25949847ad3a0dd1d1000zl" version="4">Affected creature has a +2 bonus to all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; for each stack of Natural Huntsman.</content>
+	<content contentuid="791a0319eeed4e25949847ad3a0dd1d1000zl" version="4">Affected creature has a +2 bonus to all damage dealt for each stack of Natural Huntsman.</content>
 
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d100013" version="4">Natural Opportunity</content>
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d10000m" version="4">Gain an additional &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;. In addition, &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt; that you make will attack with both weapons.</content>
@@ -392,7 +390,7 @@
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d10000q" version="4">When dealing damage, you ignore Piercing &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt;.</content>
 
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d100018" version="4">Sure Shot</content>
-	<content contentuid="791a0319eeed4e25949847ad3a0dd1d10000r" version="4">The number needed to land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; while making a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt; is reduced by 1.</content>
+	<content contentuid="791a0319eeed4e25949847ad3a0dd1d10000r" version="4">The number needed to land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; while making a weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; is reduced by 1.</content>
 
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d100019" version="4">Two-Weapon Fighting</content>
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d10000s" version="4">&lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and damage rolls made with your off-hand weapon are rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>

@@ -39,7 +39,7 @@
 <!--ATHLETICISM-->
 
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa00004" version="1">Athleticism</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa0000d" version="7">Your &lt;LSTag Type="Spell" Tooltip="Projectile_Jump"&gt;Jump&lt;/LSTag&gt; distance is doubled and no longer requires &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt;. In addition, you gain an additional &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa0000d" version="7">Your &lt;LSTag Type="Spell" Tooltip="Projectile_Jump"&gt;Jump&lt;/LSTag&gt; distance is doubled. In addition, you gain an additional &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
 
 <!--CHARGER-->
 
@@ -94,11 +94,11 @@
 <!--COMPOSED-->
 
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa00018" version="2">Composed</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa0000r" version="4">Upon being damaged by an enemy, you may expend your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; in order to restore +1d12 &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; multiplied by your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; to yourself and all nearby allies. Additionally, when making a successful &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against an enemy, you may expend your Reaction to heal allies near your target, including yourself.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa0000r" version="4">Upon being damaged by an enemy, you may expend your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; in order to restore +1d6 &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; multiplied by your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; to yourself and all nearby allies. Additionally, when making a successful &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against an enemy, you may expend your Reaction to heal allies near your target, including yourself.</content>
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa00z18" version="2">Regain Composure</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa000zr" version="4">Upon being damaged by an enemy, restore +1d12 &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; multiplied by your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; to yourself and all allies within [1] of you.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa000zr" version="4">Upon being damaged by an enemy, restore +1d6 &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; multiplied by your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; to yourself and all allies within [1] of you.</content>
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa0zz18" version="2">Targeted Composure</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa00zzr" version="4">Upon making a successful &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against an enemy, restore +1d12 &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; multiplied by your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; to all allies within [1] of them, including yourself.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa00zzr" version="4">Upon making a successful &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against an enemy, restore +1d6 &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; multiplied by your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; to all allies within [1] of them, including yourself.</content>
 
 <!--DEFENSIVE DUELLIST-->
 
@@ -142,32 +142,32 @@
 <!--DURABLE-->
 
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa00022" version="1">Durable</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa0000v" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to all forms of physical damage. Additionally, upon taking a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, your &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; are fully recovered.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa0000v" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to physical damage and permanent &lt;LSTag Type="Status" Tooltip="LOCKDOWN_CONDITION_DESCRIPTION"&gt;Lockdown Immunity&lt;/LSTag&gt;.</content>
 
 <!--ELEMENTAL ADEPT-->
 
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa00023" version="1">Elemental Adept</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa0000w" version="1">When dealing damage, you ignore &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt; to two elemental damage types of your choice. When you deal damage of your chosen types to an enemy, you deal an additional +1d4 damage of that same type.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa0000w" version="1">When dealing damage to an enemy, you ignore &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt; to two elemental damage types of your choice. When you deal damage of your chosen types to an enemy, you deal an additional +1d4 damage of that same type.</content>
 	<content contentuid="hf422d54egcb40g446eg92b8ga8ad74f00001" version="2">Elemental Adept: Acid</content>
-	<content contentuid="hf422d54egcb40g446eg92b8ga8ad74f0000a" version="4">When dealing damage, you ignore &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt; to Acid damage. In addition, when you deal Acid damage to an enemy, you deal an additional +1d4 damage. </content>
+	<content contentuid="hf422d54egcb40g446eg92b8ga8ad74f0000a" version="4">When dealing damage to an enemy, you ignore &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt; to Acid damage. In addition, when you deal Acid damage to an enemy, you deal an additional +1d4 damage. </content>
 	<content contentuid="hf422d54egcb40g446eg92b8ga8ad74f00002" version="2">Elemental Adept: Cold</content>
-	<content contentuid="hf422d54egcb40g446eg92b8ga8ad74f0000b" version="4">When dealing damage, you ignore &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt; to Cold damage. In addition, when you deal Cold damage to an enemy, you deal an additional +1d4 damage. </content>
+	<content contentuid="hf422d54egcb40g446eg92b8ga8ad74f0000b" version="4">When dealing damage to an enemy, you ignore &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt; to Cold damage. In addition, when you deal Cold damage to an enemy, you deal an additional +1d4 damage. </content>
 	<content contentuid="hf422d54egcb40g446eg92b8ga8ad74f00003" version="2">Elemental Adept: Fire</content>
-	<content contentuid="hf422d54egcb40g446eg92b8ga8ad74f0000c" version="4">When dealing damage, you ignore &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt; to Fire damage. In addition, when you deal Fire damage to an enemy, you deal an additional +1d4 damage. </content>
+	<content contentuid="hf422d54egcb40g446eg92b8ga8ad74f0000c" version="4">When dealing damage to an enemy, you ignore &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt; to Fire damage. In addition, when you deal Fire damage to an enemy, you deal an additional +1d4 damage. </content>
 	<content contentuid="hf422d54egcb40g446eg92b8ga8ad74f00004" version="2">Elemental Adept: Force</content>
-	<content contentuid="hf422d54egcb40g446eg92b8ga8ad74f0000d" version="4">When dealing damage, you ignore &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt; to Force damage. In addition, when you deal Force damage to an enemy, you deal an additional +1d4 damage. </content>
+	<content contentuid="hf422d54egcb40g446eg92b8ga8ad74f0000d" version="4">When dealing damage to an enemy, you ignore &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt; to Force damage. In addition, when you deal Force damage to an enemy, you deal an additional +1d4 damage. </content>
 	<content contentuid="hf422d54egcb40g446eg92b8ga8ad74f00005" version="2">Elemental Adept: Lightning</content>
-	<content contentuid="hf422d54egcb40g446eg92b8ga8ad74f0000e" version="4">When dealing damage, you ignore &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt; to Lightning damage. In addition, when you deal Lightning damage to an enemy, you deal an additional +1d4 damage. </content>
+	<content contentuid="hf422d54egcb40g446eg92b8ga8ad74f0000e" version="4">When dealing damage to an enemy, you ignore &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt; to Lightning damage. In addition, when you deal Lightning damage to an enemy, you deal an additional +1d4 damage. </content>
 	<content contentuid="hf422d54egcb40g446eg92b8ga8ad74f00006" version="2">Elemental Adept: Necrotic</content>
-	<content contentuid="hf422d54egcb40g446eg92b8ga8ad74f0000f" version="4">When dealing damage, you ignore &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt; to Necrotic damage. In addition, when you deal Necrotic damage to an enemy, you deal an additional +1d4 damage. </content>
+	<content contentuid="hf422d54egcb40g446eg92b8ga8ad74f0000f" version="4">When dealing damage to an enemy, you ignore &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt; to Necrotic damage. In addition, when you deal Necrotic damage to an enemy, you deal an additional +1d4 damage. </content>
 	<content contentuid="hf422d54egcb40g446eg92b8ga8ad74f00007" version="2">Elemental Adept: Poison</content>
-	<content contentuid="hf422d54egcb40g446eg92b8ga8ad74f0000g" version="4">When dealing damage, you ignore &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt; to Poison damage. In addition, when you deal Poison damage to an enemy, you deal an additional +1d4 damage. </content>
+	<content contentuid="hf422d54egcb40g446eg92b8ga8ad74f0000g" version="4">When dealing damage to an enemy, you ignore &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt; to Poison damage. In addition, when you deal Poison damage to an enemy, you deal an additional +1d4 damage. </content>
 	<content contentuid="hf422d54egcb40g446eg92b8ga8ad74f00008" version="2">Elemental Adept: Psychic</content>
-	<content contentuid="hf422d54egcb40g446eg92b8ga8ad74f0000h" version="4">When dealing damage, you ignore &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt; to Psychic damage. In addition, when you deal Psychic damage to an enemy, you deal an additional +1d4 damage. </content>
+	<content contentuid="hf422d54egcb40g446eg92b8ga8ad74f0000h" version="4">When dealing damage to an enemy, you ignore &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt; to Psychic damage. In addition, when you deal Psychic damage to an enemy, you deal an additional +1d4 damage. </content>
 	<content contentuid="hf422d54egcb40g446eg92b8ga8ad74f00009" version="2">Elemental Adept: Radiant</content>
-	<content contentuid="hf422d54egcb40g446eg92b8ga8ad74f0000i" version="4">When dealing damage, you ignore &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt; to Radiant damage. In addition, when you deal Radiant damage to an enemy, you deal an additional +1d4 damage. </content>
+	<content contentuid="hf422d54egcb40g446eg92b8ga8ad74f0000i" version="4">When dealing damage to an enemy, you ignore &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt; to Radiant damage. In addition, when you deal Radiant damage to an enemy, you deal an additional +1d4 damage. </content>
 	<content contentuid="hf422d54egcb40g446eg92b8ga8ad74f00010" version="2">Elemental Adept: Thunder</content>
-	<content contentuid="hf422d54egcb40g446eg92b8ga8ad74f0000j" version="4">When dealing damage, you ignore &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt; to Thunder damage. In addition, when you deal Thunder damage to an enemy, you deal an additional +1d4 damage. </content>	
+	<content contentuid="hf422d54egcb40g446eg92b8ga8ad74f0000j" version="4">When dealing damage to an enemy, you ignore &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt; to Thunder damage. In addition, when you deal Thunder damage to an enemy, you deal an additional +1d4 damage. </content>	
 
 <!--GREATER IMPACT-->
 
@@ -183,7 +183,7 @@
 <!--INTRINSIC BULWARK-->
 
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa00025" version="1">Intrinsic Bulwark</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa0000y" version="5">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to all forms of elemental damage.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa0000y" version="5">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to elemental damage status based immunity to all conditions which damage you over time.</content>
 
 <!--LUCKY-->
 
@@ -193,9 +193,7 @@
 <!--MAGE SLAYER-->
 
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa00027" version="2">Mage Slayer</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa000a0" version="3">When a caster casts a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt;, you can use your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; to make an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against them.&lt;br&gt;&lt;br&gt;Enemies you hit immediately lose &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; on any Spells they were maintaining and become &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Muted&lt;/LSTag&gt; for one turn.</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa00z27" version="2">Mage Slayer</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa00za0" version="3">When a caster casts a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt;, make an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against them.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa000a0" version="3">Enemies you hit immediately lose &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; on any Spells they were maintaining and become &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Muted&lt;/LSTag&gt; for one turn.</content>
 
 <!--MARTIAL ADEPT-->
 
@@ -254,11 +252,13 @@
 <!--SHIELDBEARER-->
 
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa00037" version="3">Shieldbearer</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa000k0" version="3">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Dexterity based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; while wielding a shield. In addition, you gain three &lt;LSTag Type="ActionResource" Tooltip="Shieldbearer"&gt;Shieldbearer Charges&lt;/LSTag&gt; which can be used to negate an instance of incoming damage. Once per turn, landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on an enemy will restore one Shieldbearer Charge.&lt;br&gt;&lt;br&gt;Furthermore, performing a &lt;LSTag Type="Spell" Tooltip="Target_ShieldBlow_Riposte"&gt;Shield Bash&lt;/LSTag&gt; allows you to reflect all projectiles until the start of your next turn.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa000k0" version="3">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Dexterity based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; while wielding a shield. In addition, you gain three &lt;LSTag Type="ActionResource" Tooltip="Shieldbearer"&gt;Shieldbearer Charges&lt;/LSTag&gt; which can be used to negate an instance of incoming damage or reflect projectiles after performing a &lt;LSTag Type="Spell" Tooltip="Target_ShieldBlow_Riposte"&gt;Shield Bash&lt;/LSTag&gt;. Once per turn, landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on an enemy will restore one Shieldbearer Charge.</content>
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa0zz37" version="3">Shieldbearer Charge</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa0zzk0" version="3">The amount of times you may utilize your Shield negate all incoming damage.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa0zzk0" version="3">The amount of times you may utilize your Shield negate all incoming damage or reflect projectiles.&lt;br&gt;&lt;br&gt;Once per turn, landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on an enemy will restore one Shieldbearer Charge.</content>
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aazzz37" version="3">Armoured Fortress</content>
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aazzzk0" version="3">Negate all incoming damage.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f6c3reflect" version="3">Deflective Fortress</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8reflect" version="3">After performing a &lt;LSTag Type="Spell" Tooltip="Target_ShieldBlow_Riposte"&gt;Shield Bash&lt;/LSTag&gt;, reflect all incoming projectiles until the start of your next turn.</content>
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8zzzzz37" version="3">Shieldbearer</content>
 	<content contentuid="h893450deg4af3g43f4gad83g7b3589zzzz41" version="6">Affected creature will reflect all projectiles fired at them.</content>
 
@@ -306,14 +306,12 @@
 <!--ANCHORED FOCUS-->
 
 	<content contentuid="8a87461fd8dd4f5b9098ded714sdf68878d02" version="2">Anchored Focus</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f60d1fd250b" version="3">For the first three turns of any combat encounter, you are unable to lose your &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; on Spells you have cast. Kills and &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hits&lt;/LSTag&gt; will reset the duration of your focus if active.</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714sdf6887zz02" version="2">Anchored Focus</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f60d1fdzz0b" version="3">Affected creature is unable to lose their &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt;.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f60d1fd250b" version="3">You are unable to lose your &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; on Spells you have cast.</content>
 
 <!--ARCANE ECHOES-->
 
 	<content contentuid="8a87461fd8dd4f5b9098ded714sdf68878d03" version="2">Arcane Echoes</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f60d1fd250c" version="3">Once per turn, you recover a level one &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f60d1fd250c" version="3">Once per turn, you recover a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; of a random level.</content>
 
 <!--BLESSINGS OF THE MOON-->
 
@@ -340,7 +338,7 @@
 <!--PSIONIC DOMINANCE-->
 
 	<content contentuid="8a87461fd8dd4f5b9098ded714sdf68878d08" version="2">Psionic Overcharge</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f60d1fd250h" version="3">When dealing damage, you deal an additional 1d4 Psychic damage and inflict one stack of &lt;LSTag Type="Status" Tooltip="MAG_PSYCHIC_MENTAL_FATIGUE"&gt;Mental Fatigue&lt;/LSTag&gt;. In addition, Illithid Powers no longer reduce your maximum &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f60d1fd250h" version="3">When dealing damage to an enemy, you deal an additional 1d4 Psychic damage and inflict one stack of &lt;LSTag Type="Status" Tooltip="MAG_PSYCHIC_MENTAL_FATIGUE"&gt;Mental Fatigue&lt;/LSTag&gt;. In addition, Illithid Powers no longer reduce your maximum &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.</content>
 
 <!--REACTIVE ASSAULT-->
 
@@ -353,14 +351,10 @@
 	<content contentuid="8a87461fd8dd4f5b9098ded714sdf6887yy09" version="2">Reactive Assault: Bonus Attack (Ranged)</content>
 	<content contentuid="8a87461fd8dd4f5b9098ded714f60d1fdyy0i" version="2">Fire another attack using your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;.</content>
 
-<!--TOGETHER IN TORMENT-->
+<!--TORMENTED RECOVERY-->
 
-	<content contentuid="8a87461fd8dd4f5b9098ded714sdf68878d10" version="2">Together In Torment</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f60d1fd250j" version="3">Dealing damage to an enemy will &lt;LSTag Type="Status" Tooltip="TORMENTED"&gt;Torment&lt;/LSTag&gt; them for three turns and grant you one stack of &lt;LSTag Type="Status" Tooltip="TORMENTOR"&gt;Tormentor&lt;/LSTag&gt;. Upon damaging a Tormented enemy, all nearby Tormented enemies will take Necrotic damage equal to the amount of stacks of Tormentor that you have.&lt;br&gt;&lt;br&gt;Landing a killing blow will reset your stacks of Tormentor.</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714sdf6887zz10" version="2">Tormented</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f60d1fdzz0j" version="3">Affected creature will take additional damage when their &lt;LSTag Type="Status" Tooltip="TORMENTOR"&gt;Tormentor&lt;/LSTag&gt; deals damage to a Tormented creature. This damage is equal to the amount of Tormentor stacks that they have.</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714sdf6887yy10" version="2">Tormentor</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f60d1fdyy0j" version="3">Affected creature will deal additional Necrotic damage to all &lt;LSTag Type="Status" Tooltip="TORMENTED"&gt;Tormented&lt;/LSTag&gt; enemies within [1] of them equal to the amount of Tormentor stacks that they have when dealing damage to a Tormented enemy.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714sdf68878d10" version="2">Tormented Recovery</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f60d1fd250j" version="3">When dealing damage to an enemy, you recover &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; equal to the damage you dealt divided by four.</content>
 
 <!--VISAGE OF REFLECTION-->
 
@@ -507,13 +501,13 @@
 
 
 	<content contentuid="e63cefa5-efd4-40d4-8dad-2430d3ba04ed" version="1">Yokebreaker: Beastmaster</content>
-	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df29" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Hunter"&gt;Beastmaster Ranger&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df29" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Beastmaster"&gt;Beastmaster Ranger&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
 	<content contentuid="b39c06f9-6b73-4115-99ea-67307a8def8b" version="1">Yokebreaker: Gloomstalker</content>
-	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df30" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Beastmaster"&gt;Gloomstalker Ranger&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df30" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Gloomstalker"&gt;Gloomstalker Ranger&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
 	<content contentuid="06fa774e-2936-4727-b36f-c170d4ca897f" version="1">Yokebreaker: Hunter</content>
-	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df31" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Gloomstalker"&gt;Hunter Ranger&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df31" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Hunter"&gt;Hunter Ranger&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
 	<content contentuid="1b0b93e3-5a59-435e-a438-f33c487c85a8" version="1">Yokebreaker: Swarmkeeper</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df32" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Swarmkeeper"&gt;Swarmkeeper Ranger&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>

@@ -47,9 +47,9 @@
 	<content contentuid="aa20553d362b4ff6b5d95c70e4e37e59000ak" version="1">Affected creature suffers a -1d4 penalty to their next &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;. In addition, they are unable to utilize their armours elemental &lt;LSTag Type="Status" Tooltip="DAMAGE_REDUCTION"&gt;Damage Reduction&lt;/LSTag&gt;.</content>
 
 	<content contentuid="06ccff5b74f84871a26d66436d5da6d500012" version="1">Mud Mantle</content>
-	<content contentuid="aa20553d362b4ff6b5d95c70e4e37e590000l" version="1">Root yourself to the ground in magically hardened &lt;LSTag Type="Status" Tooltip="MUD_MANTLE"&gt;Mud&lt;/LSTag&gt;, perfectly contoured to the shape of your body. A [1] area of mud is created around you upon casting.&lt;Br&gt;&lt;br&gt;This &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; may be cast while &lt;LSTag Type="Status" Tooltip="HEAVILY_SILENCED"&gt;Silenced&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Muted&lt;/LSTag&gt;.</content>
+	<content contentuid="aa20553d362b4ff6b5d95c70e4e37e590000l" version="1">Coat yourself in magically hardened &lt;LSTag Type="Status" Tooltip="MUD_MANTLE"&gt;Mud&lt;/LSTag&gt;, perfectly contoured to the shape of your body.&lt;Br&gt;&lt;br&gt;This &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; may be cast while &lt;LSTag Type="Status" Tooltip="HEAVILY_SILENCED"&gt;Silenced&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Muted&lt;/LSTag&gt;.</content>
 	<content contentuid="06ccff5b74f84871a26d66436d5da6d500a12" version="1">Mud Mantle</content>
-	<content contentuid="aa20553d362b4ff6b5d95c70e4e37e59000al" version="1">Affected creature cannot move, and is covered in magically hardened mud, perfectly countoured to the shape of their body. The creatures &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; increases by 1. Additionally, the creature cannot &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burn&lt;/LSTag&gt;, and they become &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Fire damage.</content>
+	<content contentuid="aa20553d362b4ff6b5d95c70e4e37e59000al" version="1">Affected creature is coated in magically hardened mud, perfectly countoured to the shape of their body. They have &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to their next instance of elemental damage and cannot &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burn&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Removed upon taking damage.</content>
 
 	<content contentuid="06ccff5b74f84871a26d66436d5da6d500013" version="1">Prestidigitation</content>
 	<content contentuid="aa20553d362b4ff6b5d95c70e4e37e590000m" version="1">Create a single, illusory duplicate of yourself, forcing the next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; made against you to be rolled with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
@@ -168,10 +168,10 @@
 	<content contentuid="a5sfd4df9s89fd9s8fd45sdfsa5sd0ss0000h" version="1">Place your hand upon another creature, rolling an additional damage die if they are &lt;LSTag Type="Status" Tooltip="WET"&gt;Wet&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Fighters&lt;br&gt;Rogues&lt;br&gt;Warlocks&lt;br&gt;Wizards</content>
 
 	<content contentuid="a5sfd4s65asd5fsdf1d45sdfsa5sd0ss00009" version="1">Ensnaring Trap</content>
-	<content contentuid="a5sfd4df9s89fd9s8fd45sdfsa5sd0ss0000i" version="1">Place a trap upon the ground. If another creature steps on the trap, they are immediately &lt;LSTag Type="Status" Tooltip="RESTRAINED"&gt;Restrained&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Druids&lt;br&gt;Fighters&lt;br&gt;Rangers&lt;br&gt;Warlocks</content>
+	<content contentuid="a5sfd4df9s89fd9s8fd45sdfsa5sd0ss0000i" version="1">Place three traps on the ground. If another creature steps on one of the traps, they are immediately &lt;LSTag Type="Status" Tooltip="RESTRAINED"&gt;Restrained&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Druids&lt;br&gt;Fighters&lt;br&gt;Rangers&lt;br&gt;Warlocks</content>
 	<content contentuid="a5sfd4s65asd5fsdf1d45sdfsa5sd0ssaaaa9" version="1">Snare Trap</content>
-	<content contentuid="54e8a2a10c964c98bdfeffda9a0ba26108896" version="1">Place an additional trap per level.</content>
-	<content contentuid="54e8a2a10c964c98bdfeffda9a0ba26upcast" version="1">&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; &lt;LSTag Tooltip="SpellSlot"&gt;Upcast Info&lt;/LSTag&gt;:&lt;br&gt;Place an additional trap per level.</content>
+	<content contentuid="54e8a2a10c964c98bdfeffda9a0ba26108896" version="1">Place an additional three traps per level.</content>
+	<content contentuid="54e8a2a10c964c98bdfeffda9a0ba26upcast" version="1">&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; &lt;LSTag Tooltip="SpellSlot"&gt;Upcast Info&lt;/LSTag&gt;:&lt;br&gt;Place three additional traps per level.</content>
 
 	<content contentuid="a5sfd4s65asd5fsdf1d45sdfsa5sd0ss00010" version="1">Tasha's Caustic Brew</content>
 	<content contentuid="a5sfd4df9s89fd9s8fd45sdfsa5sd0ss0000j" version="1">Spew a [1] line of caustic acid, burning everything in your path.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Fighters&lt;br&gt;Rogues&lt;br&gt;Warlocks&lt;br&gt;Wizards</content>
@@ -181,9 +181,11 @@
 	<content contentuid="h5f04604fg105cg4281g9fedg0a3ef74343d4" version="1">Unseen Servant</content>
 
 	<content contentuid="a5sfd4s65asd5fsdf1d45sdfsa5sd0ss00012" version="1">Zephyr Movement</content>
-	<content contentuid="a5sfd4df9s89fd9s8fd45sdfsa5sd0ss0000l" version="1">Move like the wind, allowing you to avoid provoking &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt;. Until this effect ends, dealing damage to another creature will cause you to swap places with your target.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Druids&lt;br&gt;Rangers&lt;br&gt;Rogues&lt;br&gt;Wizards</content>
+	<content contentuid="a5sfd4df9s89fd9s8fd45sdfsa5sd0ss0000l" version="1">Move like the wind. Once per turn, for as long as &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; is maintained, you may teleport to an unoccupied space within [1] of you. In addition, you will not provoke &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Druids&lt;br&gt;Rangers&lt;br&gt;Rogues&lt;br&gt;Wizards</content>
 	<content contentuid="a5sfd4s65asd5fsdf1d45sdfsa5sd0ss00a12" version="1">Zephyr Movement</content>
-	<content contentuid="a5sfd4df9s89fd9s8fd45sdfsa5sd0ss00a0l" version="1">Affected creature will not provoke &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt;. Until this effect ends, when this creature deals damage to another creature, they swap places with their target.</content>
+	<content contentuid="a5sfd4df9s89fd9s8fd45sdfsa5sd0ss00a0l" version="1">Affected creature will not provoke &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt;. They may teleport to an unoccupied space within [1] of them for as long as they maintain &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt;. Your ability to warp is not limited by line of sight.</content>
+	<content contentuid="a5sfd4s65asd5fsdf1d45sdfsa5sd0ss0zeph" version="1">Zephyr Warp</content>
+	<content contentuid="a5sfd4df9s89fd9s8fd45sdfsa5sd0ss0zeph" version="1">Teleport to an unoccupied space within [1] of you. Your ability to warp is not limited by line of sight.</content>
 
 	<content contentuid="39f18b02804848b18a0b8dbbf2c386130001" version="1">Aganazzar's Scorcher</content>
 	<content contentuid="39f18b02804848b18a0b8dbbf2c38613000a" version="1">Unleash roaring flames, emanating from you in a line.</content>
@@ -248,16 +250,16 @@
 	<content contentuid="39f18b02804848b18a0b8dbbf2c38613zzzg" version="1">Reach for a different creature with the earthen hand, possibly &lt;LSTag Type="Status" Tooltip="RESTRAINED"&gt;Restraining&lt;/LSTag&gt; it and freeing the previous target.</content>
 
 	<content contentuid="39f18b02804848b18a0b8dbbf2c386130008" version="1">Mind Spike</content>
-	<content contentuid="39f18b02804848b18a0b8dbbf2c38613000h" version="1">Speak a spike of psychic pain into the mind of another creature, lowering their &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt; by 1. This effect can stack. Upon reaching 0 Intelligence, your target will die. While &lt;LSTag Tooltip="Concentration"&gt;Concentrating&lt;/LSTag&gt;, you may drive further Mind Spikes into your target without expending a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Fighters&lt;br&gt;Rogues&lt;br&gt;Warlocks&lt;br&gt;Wizards</content>
+	<content contentuid="39f18b02804848b18a0b8dbbf2c38613000h" version="1">Speak a spike of psychic pain into the mind of another creature. While &lt;LSTag Tooltip="Concentration"&gt;Concentrating&lt;/LSTag&gt;, you may drive weaker Mind Spikes into your target without expending a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Fighters&lt;br&gt;Rogues&lt;br&gt;Warlocks&lt;br&gt;Wizards</content>
 	<content contentuid="39f18b02804848b18a0b8dbbf2c3861300z8" version="1">Mind Spike</content>
-	<content contentuid="39f18b02804848b18a0b8dbbf2c3861300zh" version="1">Affected creature has had their &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt; reduced by 1 per remaining stack of Mind Spike. Upon reaching 0 Intelligence, they will die. In addition, they are unable to utilize their armours elemental &lt;LSTag Type="Status" Tooltip="DAMAGE_REDUCTION"&gt;Damage Reduction&lt;/LSTag&gt;.</content>
+	<content contentuid="39f18b02804848b18a0b8dbbf2c3861300zh" version="1">Affected creature is unable to utilize their armours elemental &lt;LSTag Type="Status" Tooltip="DAMAGE_REDUCTION"&gt;Damage Reduction&lt;/LSTag&gt;.</content>
 	<content contentuid="39f18b02804848b18a0b8dbbf2c38613zzz8" version="1">Drive Mind Spike</content>
-	<content contentuid="39f18b02804848b18a0b8dbbf2c38613zzzh" version="1">Drive the Mind Spike deeper into your targets psyche, further reducing their &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt; by 1. Upon reaching 0 Intelligence, your target will die.</content>
+	<content contentuid="39f18b02804848b18a0b8dbbf2c38613zzzh" version="1">Drive the Mind Spike deeper into your targets psyche.</content>
 
 	<content contentuid="39f18b02804848b18a0b8dbbf2c386130009" version="1">Nathair's Mischief</content>
-	<content contentuid="39f18b02804848b18a0b8dbbf2c38613000i" version="1">Afflict a creature with chaotic magic, causing them to experience a sudden surge of &lt;LSTag Type="Passive" Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt; at the start of their turns. Wild Magic caused by this Spell is truly random, and can be both positive or negative.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Fighters&lt;br&gt;Rogues&lt;br&gt;Warlocks&lt;br&gt;Wizards</content>
+	<content contentuid="39f18b02804848b18a0b8dbbf2c38613000i" version="1">Afflict a creature with chaotic magic, causing them to experience a sudden surge of &lt;LSTag Type="Passive" Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt;. Wild Magic caused by this Spell is truly random, and can be both positive or negative.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Fighters&lt;br&gt;Rogues&lt;br&gt;Warlocks&lt;br&gt;Wizards</content>
 	<content contentuid="39f18b02804848b18a0b8dbbf2c3861300z9" version="1">Nathair's Mischief</content>
-	<content contentuid="39f18b02804848b18a0b8dbbf2c3861300zi" version="1">Affected creature will experience a sudden surge of &lt;LSTag Type="Passive" Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt; at the start of their turn.</content>
+	<content contentuid="39f18b02804848b18a0b8dbbf2c3861300zi" version="1">Affected creature has experienced a sudden surge of &lt;LSTag Type="Passive" Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt;.</content>
 
 	<content contentuid="39f18b02804848b18a0b8dbbf2c386130010" version="1">Rime's Binding Ice</content>
 	<content contentuid="39f18b02804848b18a0b8dbbf2c38613000j" version="1">Unleash a burst of cold energy across [1], hindering creatures with ice formations that reduce their &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; by half.&lt;Br&gt;&lt;br&gt;This Spell may be cast while &lt;LSTag Type="Status" Tooltip="HEAVILY_SILENCED"&gt;Silenced&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Muted&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Barbarians&lt;br&gt;Fighters&lt;br&gt;Sorcerers&lt;br&gt;Warlocks</content>
@@ -274,7 +276,7 @@
 	<content contentuid="39f18b02804848b18a0b8dbbf2c3861300zl" version="1">Affected creature cannot use &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reactions&lt;/LSTag&gt;.</content>
 
 	<content contentuid="39f18b02804848b18a0b8dbbf2c386130013" version="1">Transposition</content>
-	<content contentuid="39f18b02804848b18a0b8dbbf2c38613000m" version="1">Forcibly teleport another creature to an area you can see. &lt;LSTag Type="Passive" Tooltip="Fatal_Encounter"&gt;Fatal Encounters&lt;/LSTag&gt; cannot be transposed.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Barbarians&lt;br&gt;Clerics&lt;br&gt;Paladins&lt;br&gt;Sorcerers</content>
+	<content contentuid="39f18b02804848b18a0b8dbbf2c38613000m" version="1">Forcibly teleport another creature to an area you can see.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Barbarians&lt;br&gt;Clerics&lt;br&gt;Paladins&lt;br&gt;Sorcerers</content>
 	<content contentuid="39f18b02804848b18a0b8dbbf2c386130z13" version="1">Transposition</content>
 	<content contentuid="39f18b02804848b18a0b8dbbf2c3861300zm" version="1">Affected creature can be teleported at any time by the caster who applied this status.</content>
 
@@ -323,9 +325,9 @@
 	<content contentuid="39f1898f9sdfosdoifsodofsofd99494xyzf" version="1">While active, your &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; will fire flaming arrows that deal an additional [1] and cause your targets to &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burn&lt;/LSTag&gt; for three turns. This can be toggled at any time.</content>
 
 	<content contentuid="39f1898f9sdfosdoifsodofsofd994940007" version="1">Internal Fortress</content>
-	<content contentuid="39f1898f9sdfosdoifsodofsofd99494000g" version="1">Reduce all damage a creature takes by an amount equal to their &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Barbarians&lt;br&gt;Rogues&lt;br&gt;Sorcerers&lt;br&gt;Wizards</content>
+	<content contentuid="39f1898f9sdfosdoifsodofsofd99494000g" version="1">Protect a creature, reducing all physical damage they take by [1].&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Barbarians&lt;br&gt;Rogues&lt;br&gt;Sorcerers&lt;br&gt;Wizards</content>
 	<content contentuid="39f1898f9sdfosdoifsodofsofd9949400z7" version="1">Internal Fortress</content>
-	<content contentuid="39f1898f9sdfosdoifsodofsofd9949400zg" version="1">Affected creature takes less damage from all sources by an amount equal to their &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
+	<content contentuid="39f1898f9sdfosdoifsodofsofd9949400zg" version="1">Affected creature is protected, reducing physical damage taken by [1].</content>
 
 	<content contentuid="39f1898f9sdfosdoifsodofsofd994940008" version="1">Blood Broker</content>
 	<content contentuid="39f1898f9sdfosdoifsodofsofd99494000h" version="1">Sacrifice your own life in order to resurrect a companion with all of their &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Fighters&lt;br&gt;Paladins&lt;br&gt;Warlocks</content>
@@ -347,8 +349,8 @@
 	<content contentuid="39f1898f9sdfosdoifsodofsofd994940zzj" version="1">Hurl an explosive meteor, dealing damage in a [1] area.</content>
 	<content contentuid="39f1898f9sdfosdoifsodofsofd99494zz11" version="1">Minute Meteors</content>
 	<content contentuid="39f1898f9sdfosdoifsodofsofd994940zzk" version="1">The amount of Minute Meteors you have remaining.</content>
-	<content contentuid="h0f41f1a9g1969g3988df8df7cf082ea6d57" version="1">Create four additional meteors per level.</content>
-	<content contentuid="h0f41f1a9g1969g3988df8df7cf082upcast" version="1">&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; &lt;LSTag Tooltip="SpellSlot"&gt;Upcast Info&lt;/LSTag&gt;:&lt;br&gt;Create four additional meteors per level.</content>
+	<content contentuid="h0f41f1a9g1969g3988df8df7cf082ea6d57" version="1">Create six additional meteors per level.</content>
+	<content contentuid="h0f41f1a9g1969g3988df8df7cf082upcast" version="1">&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; &lt;LSTag Tooltip="SpellSlot"&gt;Upcast Info&lt;/LSTag&gt;:&lt;br&gt;Create six additional meteors per level.</content>
 
 	<content contentuid="39f1898f9sdfosdoifsodofsofd994940011" version="1">Motivational Speech</content>
 	<content contentuid="39f1898f9sdfosdoifsodofsofd99494000k" version="1">Grant another creature in the area &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Wisdom based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;. If hit by an attack, the affected creature rolls with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on its next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
@@ -361,9 +363,9 @@
 	<content contentuid="39f1898f9sdfosdoifsodofsofd9949400zl" version="1">Affected creature cannot be perceived by others.</content>
 
 	<content contentuid="39f1898f9sdfosdoifsodofsofd994940013" version="1">Spiritual Shroud</content>
-	<content contentuid="39f1898f9sdfosdoifsodofsofd99494000m" version="1">Veil yourself in fallen spirits, welcoming their protection. Upon being damaged by an enemy, the spirits retaliate, dealing [1] to them.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Fighters&lt;br&gt;Paladins&lt;br&gt;Warlocks</content>
+	<content contentuid="39f1898f9sdfosdoifsodofsofd99494000m" version="1">Veil yourself in fallen spirits, welcoming their protection. When an enemy makes a failed &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against you, the spirits retaliate, dealing [1] to them.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Fighters&lt;br&gt;Paladins&lt;br&gt;Warlocks</content>
 	<content contentuid="39f1898f9sdfosdoifsodofsofd994940z13" version="1">Spiritual Shroud</content>
-	<content contentuid="39f1898f9sdfosdoifsodofsofd9949400zm" version="1">Affected creature is veiled in fallen spirits, welcoming their protection. Upon being damaged by an enemy, the spirits retaliate, dealing [1] to their aggressor.</content>
+	<content contentuid="39f1898f9sdfosdoifsodofsofd9949400zm" version="1">Affected creature is veiled in fallen spirits, welcoming their protection. When an enemy makes a failed &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against them, the spirits retaliate, dealing [1] to their aggressor.</content>
 
 	<content contentuid="39f1898f9sdfosdoifsodofsofd994940014" version="1">Thunder Step</content>
 	<content contentuid="39f1898f9sdfosdoifsodofsofd99494000n" version="1">With a sudden boom, teleport yourself to another location, arriving with an intense reverberation that damages any creatures within [1] of where you land.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Barbarians&lt;br&gt;Fighters&lt;br&gt;Sorcerers&lt;br&gt;Warlocks</content>
@@ -374,9 +376,11 @@
 	<content contentuid="39f1898f9sdfosdoifsodofsofd9949400zo" version="1">Affected creature has immunity to all ground surfaces, and may move through them as if they were not there.</content>
 
 	<content contentuid="39f189sd0f9fosd89df9we879rw994940001" version="1">Aura of Life</content>
-	<content contentuid="39f189sd0f9fosd89df9we879rw99494000a" version="1">Envelope yourself in a soothing aura. &lt;LSTag Tooltip="Downed"&gt;Downed&lt;/LSTag&gt; allies within [1] of you regain 1 &lt;LSTag Tooltip="HitPoints"&gt;Hit Point&lt;/LSTag&gt; at the start of their turns.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Druids&lt;br&gt;Paladins&lt;br&gt;Rangers</content>
+	<content contentuid="39f189sd0f9fosd89df9we879rw99494000a" version="1">Envelope yourself in a soothing [1] aura. Allies within the aura regain [2] &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; at the start of their turns. &lt;LSTag Tooltip="Downed"&gt;Downed&lt;/LSTag&gt; allies within the aura will instead regain 1 Hit Point at the start of their turns.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Druids&lt;br&gt;Paladins&lt;br&gt;Rangers</content>
 	<content contentuid="39f189sd0f9fosd89df9we879rw9949400z1" version="1">Aura of Life</content>
-	<content contentuid="39f189sd0f9fosd89df9we879rw9949400za" version="1">Affected creature is enveloped in a soothing aura. &lt;LSTag Tooltip="Downed"&gt;Downed&lt;/LSTag&gt; allies within [1] of them regain 1 &lt;LSTag Tooltip="HitPoints"&gt;Hit Point&lt;/LSTag&gt; at the start of their turns.</content>
+	<content contentuid="39f189sd0f9fosd89df9we879rw9949400za" version="1">Affected creature is emitting in a soothing aura. Allies within [1] of them will regain [2] &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; at the start of each turn. If &lt;LSTag Tooltip="Downed"&gt;Downed&lt;/LSTag&gt;, they will instead regain 1 Hit Point at the start of their turn.</content>
+	<content contentuid="39f189sd0f9fosd89df9we879rw994940zz1" version="1">Aura of Life</content>
+	<content contentuid="39f189sd0f9fosd89df9we879rw994940zza" version="1">Affected creature is enveloped in a soothing aura. They regain [1] &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; at the start of each turn. If &lt;LSTag Tooltip="Downed"&gt;Downed&lt;/LSTag&gt;, they will instead regain 1 Hit Point at the start of their turn.</content>
 
 	<content contentuid="39f189sd0f9fosd89df9we879rw994940002" version="1">Charming Visage</content>
 	<content contentuid="39f189sd0f9fosd89df9we879rw99494000b" version="1">Upon being damaged, charm your aggressor into not attacking you. You also gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Charisma based &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt; while engaging in dialogue with them.</content>
