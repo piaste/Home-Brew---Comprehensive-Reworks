@@ -344,7 +344,7 @@
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf80000t" version="2">Your maximum &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; increases by 2 for each level you have gained.</content>
 
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf800019" version="1">Unrelenting Rampage</content>
-	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf80000s" version="2">Upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, immediately restore +1d12 &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;. This effect can trigger once per turn.</content>
+	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf80000s" version="2">The first time you deal damage to an enemy each turn, you restore &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; equal to half of the damage dealt.</content>
 
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf800004" version="1">Unstoppable Force</content>
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf80000d" version="2">While enraged, all successful Melee and Throw based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; have a chance to leave your target &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>

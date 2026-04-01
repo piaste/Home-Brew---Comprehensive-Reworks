@@ -563,7 +563,7 @@
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f50000j" version="3">Increase your Initiative by 2. Upon &lt;LSTag Type="Status" Tooltip="RALLY"&gt;Rallying&lt;/LSTag&gt; another creature, their Initiative is also increased by 2 until their next &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
 
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f500011" version="1">Martial Fortress</content>
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f50000k" version="3">Once per turn, upon killing an enemy or rolling a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, receive &lt;LSTag Tooltip="TemporaryHitPoints"&gt;Temporary Hit Points&lt;/LSTag&gt; equal to your level multiplied by two.</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f50000k" version="3">Once per turn, using a manoeuvre will grant you &lt;LSTag Tooltip="TemporaryHitPoints"&gt;Temporary Hit Points&lt;/LSTag&gt; equal to your level multiplied by two.</content>
 
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f500012" version="1">Martial Prowess</content>
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f50000l" version="3">When dealing damage, you ignore Slashing &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt;.</content>

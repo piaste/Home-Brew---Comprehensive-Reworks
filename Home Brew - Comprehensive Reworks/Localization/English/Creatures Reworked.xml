@@ -12,7 +12,7 @@
 <!--TIEFLING-->
 
 	<content contentuid="h184ab785gdae3g4b7ega249ge4329174r2uy" version="5">Breath of Nessus</content>
-	<content contentuid="h63415200gb6c7g41c2g9d2dg8a0341efeuhy" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Fire damage, basic &lt;LSTag Type="Status" Tooltip="Tooltip_Darkvision"&gt;Darkvision&lt;/LSTag&gt;, and the ability to cast &lt;LSTag Type="Spell" Tooltip="Projectile_ScorchingRay_AsmodeusTiefling"&gt;Scorching Ray&lt;/LSTag&gt; once per combat encounter.</content>
+	<content contentuid="h63415200gb6c7g41c2g9d2dg8a0341efeuhy" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Fire damage, basic &lt;LSTag Type="Status" Tooltip="Tooltip_Darkvision"&gt;Darkvision&lt;/LSTag&gt;, and the ability to cast &lt;LSTag Type="Spell" Tooltip="Projectile_Fireball_AsmodeusTiefling"&gt;Fireball&lt;/LSTag&gt; once per combat encounter.</content>
 	<content contentuid="h184ab785gdae3g4b7ega249ge43291746a79" version="5">Asmodeus: Fireball</content>
 	<content contentuid="hf6dae528gfd1eg426dg9776g4fff66racial" version="6">Shoot a bright flame from your fingers that explodes upon contact, &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burning&lt;/LSTag&gt; everything within [1].</content>
 
@@ -22,7 +22,7 @@
 	<content contentuid="h620bc6e9g274cg4077g9cd4g117e39racial" version="10">Flames erupt from your fingertips, incinerating all creatures within [1] in front of you. Affected creature's are thrown backward by [1] and forced &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h184ab785gdae3g4b7ega249ge432917fsu8s" version="5">Rage of Zariel</content>
-	<content contentuid="h63415200gb6c7g41c2g9d2dg8a0341ekljnf" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Fire damage, basic &lt;LSTag Type="Status" Tooltip="Tooltip_Darkvision"&gt;Darkvision&lt;/LSTag&gt;, and the ability to cast &lt;LSTag Type="Spell" Tooltip="Target_HeatMetal_ZarielTiefling"&gt;Heat Metal&lt;/LSTag&gt; once per combat encounter.</content>
+	<content contentuid="h63415200gb6c7g41c2g9d2dg8a0341ekljnf" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Fire damage, basic &lt;LSTag Type="Status" Tooltip="Tooltip_Darkvision"&gt;Darkvision&lt;/LSTag&gt;, and the ability to cast &lt;LSTag Type="Spell" Tooltip="Shout_FireShield_ZarielTiefling"&gt;Fire Shield&lt;/LSTag&gt; once per combat encounter.</content>
 	<content contentuid="h184ab785gdae3g4b7ega249ge432917f2e84" version="5">Zariel: Fire Shield</content>
 	<content contentuid="hb11af5c2g32cdg4d2ag9c36ge3004bracial" version="6">Wreathe your body in flames that shed light in a [1] radius, providing &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Cold damage and retaliating against any enemies that attack you with a melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
 

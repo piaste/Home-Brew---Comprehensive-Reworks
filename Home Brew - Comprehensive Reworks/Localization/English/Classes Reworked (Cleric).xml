@@ -291,7 +291,7 @@
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e000zk" version="1">Affected creature will erupt as a raging inferno upon being &lt;LSTag Tooltip="Downed"&gt;Downed&lt;/LSTag&gt; or killed while within [1] of an enemy, uncontrollably scorching them for [2].</content>
 
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e00012" version="1">Paradisiacal Gift</content>
-	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e0000l" version="1">Once per turn, upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; against an enemy, immediately recover one of your &lt;LSTag Type="ActionResource" Tooltip="ChannelDivinity"&gt;Channel Divinity&lt;/LSTag&gt; charges.</content>
+	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e0000l" version="1">After using one of your Miracles, you recover one of your &lt;LSTag Type="ActionResource" Tooltip="ChannelDivinity"&gt;Channel Divinity&lt;/LSTag&gt; charges.</content>
 
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e00015" version="1">Sacral Touch</content>
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e0000o" version="1">Upon healing a creature, potentially experience an instance of &lt;LSTag Type="ActionResource" Tooltip="DivineIntervention"&gt;Divine Intervention&lt;/LSTag&gt;. This may only occur once per turn.</content>
@@ -309,7 +309,7 @@
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e0000s" version="1">Gain status immunity to all forms of fear. Additionally, upon healing a creature with a Spell, they receive &lt;LSTag Type="Status" Tooltip="DEATH_WARD"&gt;Death Ward&lt;/LSTag&gt; for three turns.</content>
 
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e00020" version="1">Venerational Strikes</content>
-	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e0000t" version="1">Upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, receive &lt;LSTag Type="Status" Tooltip="VENERATION"&gt;Veneration&lt;/LSTag&gt; for three turns.</content>
+	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e0000t" version="1">After using one of your Miracles, you receive &lt;LSTag Type="Status" Tooltip="VENERATION"&gt;Veneration&lt;/LSTag&gt; for three turns.</content>
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e00z20" version="1">Veneration</content>
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e000zt" version="1">Affected creature's weapon deals damage equal to their &lt;LSTag Tooltip="AbilityModifier"&gt;Wisdom Modifier&lt;/LSTag&gt;. The type of damage dealt changes depending on their choice of subclass.</content>
 	

@@ -239,11 +239,7 @@
 	<content contentuid="h882cb4d7g2c6ag47d3g998dgaca2f619e3e7" version="2">Amidst depraved conjurations, you walk comfortably within the shadow of death, making your home there in spite of the living.</content>
 
 	<content contentuid="h89c2a75ag2f4fg4d83g9e66g81575b95f1c4" version="2">Necromantic Apprentice</content>
-	<content contentuid="h699f408ag3943g45bcga13cg10548238165a" version="2">Dealing damage to an enemy will permanently apply &lt;LSTag Type="Status" Tooltip="CRAWLING_GNAW_SWITCH"&gt;Crawling Gnaw&lt;/LSTag&gt; to your target. In addition, you gain the ability to &lt;LSTag Type="Spell" Tooltip="Target_BindUndead"&gt;Bind Undead&lt;/LSTag&gt;.</content>
-	<content contentuid="h89c2a75ag2f4fg4d83g9e66g81575b900001" version="2">Bind Undead</content>
-	<content contentuid="h699f408ag3943g45bcga13cg10548230000a" version="2">Bind an Undead creature to magically dominate them. Bound Undead retain all capabilities they had in undeath. &lt;LSTag Type="Status" Tooltip="Tooltip_Dangerous_Encounter"&gt;Dangerous&lt;/LSTag&gt; and &lt;LSTag Type="Passive" Tooltip="Fatal_Encounter"&gt;Fatal&lt;/LSTag&gt; creatures cannot be Bound.</content>
-	<content contentuid="h89c2a75ag2f4fg4d83g9e66g81575b9000z1" version="1">Bound Undead</content>
-	<content contentuid="h699f408ag3943g45bcga13cg1054823000za" version="1">Affected creature has been reanimated by a nearby Necromancer. Their soul is now bound to their new owner.</content>
+	<content contentuid="h699f408ag3943g45bcga13cg10548238165a" version="2">Dealing damage to an enemy will permanently apply &lt;LSTag Type="Status" Tooltip="CRAWLING_GNAW_SWITCH"&gt;Crawling Gnaw&lt;/LSTag&gt; to your target..</content>
 
 	<content contentuid="h2f479431gb8d1g41e5g890dg59ddd0becf9c" version="2">Lifedrinker</content>
 	<content contentuid="he6ee1384geb80g45fbg8d56gbf7262d63153" version="1">When you deal damage with a Spell, you recover &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; equal to half of the total damage dealt.</content>
@@ -252,7 +248,11 @@
 	<content contentuid="h2ad29575gfd7cg4566g8445g7594ca37780e" version="1">All allied Undead within [1] gain a bonus to their &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and damage equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Intelligence Modifier&lt;/LSTag&gt; during combat.</content>
 
 	<content contentuid="h9aee3403g58c0g4c53g8ca6g380393800072" version="6">Preemptive Atrocity</content>
-	<content contentuid="hcbb5a5cfg7df0g412cga4a4g3c6s6d50007b" version="6">At the beginning of any combat encounter, you immediately summon a Death Shepherd.</content>
+	<content contentuid="hcbb5a5cfg7df0g412cga4a4g3c6s6d50007b" version="6">At the beginning of any combat encounter, you immediately summon a Death Shepherd. In addition, you gain the ability to &lt;LSTag Type="Spell" Tooltip="Target_BindUndead"&gt;Bind Undead&lt;/LSTag&gt; creatures.</content>
+	<content contentuid="h89c2a75ag2f4fg4d83g9e66g81575b900001" version="2">Bind Undead</content>
+	<content contentuid="h699f408ag3943g45bcga13cg10548230000a" version="2">Bind an Undead creature to magically dominate them. Bound Undead retain all capabilities they had in undeath. &lt;LSTag Type="Status" Tooltip="Tooltip_Dangerous_Encounter"&gt;Dangerous&lt;/LSTag&gt; and &lt;LSTag Type="Passive" Tooltip="Fatal_Encounter"&gt;Fatal&lt;/LSTag&gt; creatures cannot be Bound.</content>
+	<content contentuid="h89c2a75ag2f4fg4d83g9e66g81575b9000z1" version="1">Bound Undead</content>
+	<content contentuid="h699f408ag3943g45bcga13cg1054823000za" version="1">Affected creature has been reanimated by a nearby Necromancer. Their soul is now bound to their new owner.</content>
 
 	<content contentuid="h9aee3403g58c0g4c53g8ca6g3803922d6f45" version="6">Dominion Over Death</content>
 	<content contentuid="hcbb5a5cfg7df0g412cga4a4g3c6s6ddd69f8" version="6">Your summoned Undead are immune to the effects of &lt;LSTag Type="Status" Tooltip="ZOMBIE_DECAY"&gt;Decay&lt;/LSTag&gt;.</content>

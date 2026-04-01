@@ -32,10 +32,12 @@
 	<content contentuid="fe6f4159abae42539029e284001d12de6a921" version="3">Divine Crusader</content>
 	<content contentuid="fe6f4159abae42539029e284001d12de3a697" version="3">Gain &lt;LSTag Type="Spell" Tooltip="CTarget_Smite_Divine"&gt;Divine Smite&lt;/LSTag&gt;.</content>
 	<content contentuid="h940c3156gad0fg4a92g8573gff26b0472ef2" version="1">Divine Smite</content>
-	<content contentuid="he9150fbcg1b55g49aegaa3egc4717c987024" version="2">Smite your target with divine fury. This action always rolls with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Upon damaging a target, further &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made against the target are rolled with Advantage as well.</content>
+	<content contentuid="he9150fbcg1b55g49aegaa3egc4717c987024" version="2">Smite your target with divine fury. Upon damaging a target, further &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made against the target are rolled with Advantage as well. This action always rolls with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. </content>
 	<content contentuid="h940c3156gad0fg4a92g8573gff26b06a9522" version="1">Divine Judgement</content>
 	<content contentuid="he9150fbcg1b55g49aegaa3egc4717c99ddff" version="2">Affected creature has been marked by a Paladin. &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made against this creature roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
 	<content contentuid="h28716118g877cg44ddgb1d7ga74d0018f2ff" version="1">Divine Smite: Critical</content>
+	<content contentuid="h940c3156gad0fg4a92g8573gff26b0472int" version="1">Divine Smite</content>
+	<content contentuid="he9150fbcg1b55g49aegaa3egc4717c987int" version="2">Smite your target with divine fury. Upon damaging a target, further &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made against the target are rolled with Advantage as well.</content>
 
 	<content contentuid="fe6f4159abae42539029e284001d12de11111" version="3">Oath Broken</content>
 	<content contentuid="fe6f4159abae42539029e284001d12de22222" version="3">Gain &lt;LSTag Type="Spell" Tooltip="CTarget_Smite_Oathbroken"&gt;Oathbroken Smite&lt;/LSTag&gt;.</content>
@@ -54,11 +56,10 @@
 	<content contentuid="fe6f4159abae42539029e284001d12de00012" version="3">Branding Smite</content>
 	<content contentuid="fe6f4159abae42539029e284001d12de0000l" version="3">Gain &lt;LSTag Type="Spell" Tooltip="CTarget_Smite_Branding"&gt;Branding Smite&lt;/LSTag&gt;.</content>
 	<content contentuid="h8df46bbbg30b8g491ag835dg009666ed95df" version="1">Branding Smite</content>
-	<content contentuid="hf44d4aedgce78g4700gb024gfc7d53df20c2" version="3">Force your target to erupt in a divine glow, preventing it from turning &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt;.</content>
+	<content contentuid="hf44d4aedgce78g4700gb024gfc7d53df20c2" version="3">Brand your target with a sacrificial mark, preventing it from utilizing &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Actions&lt;/LSTag&gt;.</content>
 	<content contentuid="h4014f0eagc865g4cebgb21dg68127e7e1b65" version="1">Branding Smite</content>
-	<content contentuid="hf9e96185ge2c2g4f53g9fe4g6f76595c1747" version="2">Affected creature sheds light in a [1] radius, preventing it from becoming &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt;.</content>
-	<content contentuid="he3f6059cgb449g4675gae5agf8637b8f7432" version="1">Branding Smite (Melee): Critical</content>
-	<content contentuid="hdb614af5g599fg4956gac7bg0e2d64b5465a" version="1">Branding Smite (Ranged): Critical</content>
+	<content contentuid="hf9e96185ge2c2g4f53g9fe4g6f76595c1747" version="2">Affected creature is unable to utilize &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Actions&lt;/LSTag&gt;.</content>
+	<content contentuid="he3f6059cgb449g4675gae5agf8637b8f7432" version="1">Branding Smite: Critical</content>
 
 	<content contentuid="fe6f4159abae42539029e284001d12de00013" version="3">Searing Smite</content>
 	<content contentuid="fe6f4159abae42539029e284001d12de0000m" version="3">Gain &lt;LSTag Type="Spell" Tooltip="CTarget_Smite_Searing"&gt;Searing Smite&lt;/LSTag&gt;.</content>
@@ -73,7 +74,7 @@
 	<content contentuid="hfded7aacg619dg46f2gb05ag9cb1277cf737" version="2">Staggering Smite</content>
 	<content contentuid="heebc23deg28bbg4929g8253g4c1091c49dfe" version="5">Shatter your targets resolve, &lt;LSTag Type="Status" Tooltip="STAGGERING_SMITE"&gt;Staggering&lt;/LSTag&gt; them.</content>
 	<content contentuid="h29429dfdge33fg4fbfgafb2g4df2bccf23b3" version="2">Staggering Smite</content>
-	<content contentuid="h342e4f42g1648g4482g9067gd41718d6f711" version="3">Affected creature has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt;, and can't take &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reactions&lt;/LSTag&gt;.</content>
+	<content contentuid="h342e4f42g1648g4482g9067gd41718d6f711" version="3">Affected creature has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
 	<content contentuid="hd6bd51d3gcabag4a8dga2ccg7a6c696e9805" version="1">Staggering Smite: Critical</content>
 
 	<content contentuid="fe6f4159abae42539029e284001d12de00015" version="3">Thunderous Smite</content>

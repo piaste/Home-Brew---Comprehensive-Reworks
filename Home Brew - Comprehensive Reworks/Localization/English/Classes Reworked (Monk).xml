@@ -367,8 +367,8 @@
 	<content contentuid="h1edbc190gdde8g4b3bgbfa6g294167324391" version="8">Double your &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Shout_Disengage"&gt;Disengage&lt;/LSTag&gt;.</content>
 
 	<content contentuid="4512454c8e254628bd4dc62ea243a2a000020" version="6">Zen Recovery</content>
-	<content contentuid="4512454c8e254628bd4dc62ea243a2a00000t" version="6">Upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, you may expend your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; in order to restore your &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
+	<content contentuid="4512454c8e254628bd4dc62ea243a2a00000t" version="6">Upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, you may expend your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; in order to restore your &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; if you do not currently have one available.</content>
 	<content contentuid="4512454c8e254628bd4dc62ea243a2a000z20" version="6">Zen Recovery</content>
-	<content contentuid="4512454c8e254628bd4dc62ea243a2a0000zt" version="6">Upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, restore your &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
+	<content contentuid="4512454c8e254628bd4dc62ea243a2a0000zt" version="6">Upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, restore your &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; if you do not currently have one available.</content>
 
 </contentList>

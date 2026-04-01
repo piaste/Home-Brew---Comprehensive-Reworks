@@ -236,9 +236,9 @@
 	<content contentuid="d3e15e63749c4b62b8e7760cc70741200000d" version="3">Upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, you immediately &lt;LSTag Type="Spell" Tooltip="Shout_Dash"&gt;Dash&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Shout_Disengage"&gt;Disengage&lt;/LSTag&gt;.</content>
 
 	<content contentuid="d3e15e63749c4b62b8e7760cc707412000005" version="1">Elusive Shadow</content>
-	<content contentuid="d3e15e63749c4b62b8e7760cc70741200000e" version="3">Upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, you may &lt;LSTag Type="Spell" Tooltip="Shout_Hide"&gt;Hide&lt;/LSTag&gt; one time without expending any resources.</content>
+	<content contentuid="d3e15e63749c4b62b8e7760cc70741200000e" version="3">Once per turn, you may &lt;LSTag Type="Spell" Tooltip="Shout_Hide"&gt;Hide&lt;/LSTag&gt; without expending any resources.</content>
 	<content contentuid="d3e15e63749c4b62b8e7760cc7074120000z5" version="1">Elusive Shadow</content>
-	<content contentuid="d3e15e63749c4b62b8e7760cc7074120000ze" version="3">Affected creature may &lt;LSTag Type="Spell" Tooltip="Shout_Hide"&gt;Hide&lt;/LSTag&gt; one time without expending any resources.</content>
+	<content contentuid="d3e15e63749c4b62b8e7760cc7074120000ze" version="3">Affected creature may &lt;LSTag Type="Spell" Tooltip="Shout_Hide"&gt;Hide&lt;/LSTag&gt; once without expending any resources.</content>
 
 	<content contentuid="d3e15e63749c4b62b8e7760cc707412000006" version="1">Fast Hands</content>
 	<content contentuid="d3e15e63749c4b62b8e7760cc70741200000f" version="3">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; based &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt;.</content>

@@ -718,7 +718,7 @@ data "DisplayName" "791a0319eeed4e25949847ad3a0dd1d100z12;2"
 data "Description" "791a0319eeed4e25949847ad3a0dd1d1000zl;4"
 data "Icon" "Action_MagicItem_ProtectionFromMissiles"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;MultiplyEffectsByDuration"
-data "Boosts" "DamageBonus(2)"
+data "Boosts" "DamageBonus(1)"
 data "StackId" "NATURAL_HUNTSMAN"
 data "StackType" "Additive"
 

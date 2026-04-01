@@ -373,7 +373,7 @@
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d1000zk" version="4">Affected creature has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made against the attacked Ranger who possesses this passive.</content>
 
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d100012" version="4">Natural Huntsman</content>
-	<content contentuid="791a0319eeed4e25949847ad3a0dd1d10000l" version="4">Making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; gives you a +2 bonus to all damage dealt for the rest of your turn. This effect can stack.</content>
+	<content contentuid="791a0319eeed4e25949847ad3a0dd1d10000l" version="4">Dealing damage to another creature grants a +1 bonus to all damage dealt for the rest of your turn. This effect can stack.</content>
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d100z12" version="4">Natural Huntsman</content>
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d1000zl" version="4">Affected creature has a +2 bonus to all damage dealt for each stack of Natural Huntsman.</content>
 

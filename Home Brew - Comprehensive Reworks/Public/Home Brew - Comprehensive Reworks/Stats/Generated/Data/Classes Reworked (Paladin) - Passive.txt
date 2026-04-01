@@ -48,7 +48,7 @@ data "Icon" "Spell_Evocation_BrandingSmite_Melee"
 data "DisplayName" "fe6f4159abae42539029e284001d12de00012;1"
 data "Description" "fe6f4159abae42539029e284001d12de0000l;2"
 data "Properties" "IsHidden"
-data "Boosts" "UnlockSpell(CTarget_Smite_Branding,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf,,);UnlockSpell(CProjectile_Smite_Branding,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf,,);UnlockInterrupt(CInterrupt_Smite_Branding);UnlockInterrupt(CInterrupt_Smite_Branding_Crit);UnlockInterrupt(CInterrupt_Smite_Branding_Projectile);UnlockInterrupt(CInterrupt_Smite_Branding_Projectile_Crit)"
+data "Boosts" "UnlockSpell(CTarget_Smite_Branding,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf,,);UnlockInterrupt(CInterrupt_Smite_Branding);UnlockInterrupt(CInterrupt_Smite_Branding_Crit)"
 
 new entry "Smite_Searing"
 type "PassiveData"

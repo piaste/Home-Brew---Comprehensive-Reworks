@@ -1,73 +1,96 @@
--- Home Brew: Recruit certain spawned creatures into the party while a status is present,
--- and aggressively clean them up (remove portrait / party follower) when they die or lose that status.
+-- AddCreaturetoParty.lua
+-- Recruits Spore Servants / bound undead into the party while their status exists,
+-- and removes them the moment that status is removed.
 --
--- Failsafes added:
---   * Removal attempts against ALL players (not only the recorded owner)
---   * Multiple delayed retry passes (handles "dies/despawns quickly" / event-order edge cases)
---   * Periodic sweep to catch anything that slipped past events
---   * ONE-TIME SessionLoaded pass to remove already-stuck DEAD followers from party list
+-- Important fix:
+-- Cleanup no longer depends on Lua-only tracking tables surviving a reload.
+-- If CCREATURE_SPORE_SERVANT is removed for any reason, cleanup always runs.
 
 local RECRUIT_STATUSES = {
   ["CCREATURE_SPORE_SERVANT"] = true,
   ["BIND_UNDEAD"] = true,
 }
 
+local PRIMARY_STATUS = "CCREATURE_SPORE_SERVANT"
+
 local RECRUIT_DELAY_MS = 500
 local CLEANUP_RETRY_DELAYS_MS = { 0, 400, 1200, 2500 }
 local SWEEP_INTERVAL_MS = 10000
 
 local Owner = {}
-local ActiveStatuses = {}
-
-local function HasAnyActiveStatus(target)
-  local t = ActiveStatuses[target]
-  if not t then return false end
-  for _ in pairs(t) do return true end
-  return false
-end
 
 local function SafeCall(fn, ...)
-  local ok, err = pcall(fn, ...)
+  local ok, result = pcall(fn, ...)
   if not ok then
-    Ext.Utils.PrintError("[Recruit/Cleanup] Error: " .. tostring(err))
+    Ext.Utils.PrintError("[Recruit/Cleanup] Error: " .. tostring(result))
+    return nil
   end
-  return ok
+  return result
 end
 
 local function GetAllPlayers()
   local players = {}
-  local ok, rows = pcall(function()
-    return Osi.DB_Players:Get(nil)
-  end)
-  if ok and rows then
+  local rows = SafeCall(Osi.DB_Players.Get, Osi.DB_Players, nil)
+
+  if rows then
     for _, row in pairs(rows) do
-      local p = row[1]
-      if p and p ~= "" then players[#players + 1] = p end
+      local player = row[1]
+      if player and player ~= "" then
+        players[#players + 1] = player
+      end
     end
   end
+
   return players
 end
 
-local function HasAnyRecruitStatus(target)
+local function HasRecruitStatus(target)
+  if not target or target == "" then return false end
+
   for status, _ in pairs(RECRUIT_STATUSES) do
-    local ok = SafeCall(Osi.HasActiveStatus, target, status)
-    if ok and Osi.HasActiveStatus(target, status) == 1 then
+    local hasStatus = SafeCall(Osi.HasActiveStatus, target, status)
+    if hasStatus == 1 then
       return true
     end
   end
+
+  return false
+end
+
+local function IsDead(target)
+  return SafeCall(Osi.IsDead, target) == 1
+end
+
+local function IsTrackedFollower(target)
+  if not target or target == "" then return false end
+
+  local rows = SafeCall(Osi.DB_PartyFollowers.Get, Osi.DB_PartyFollowers, nil, nil)
+  if not rows then return false end
+
+  for _, row in pairs(rows) do
+    local follower = row[1]
+    if follower == target then
+      return true
+    end
+  end
+
   return false
 end
 
 local function Recruit(owner, servant)
-  if not owner or not servant then return end
-  if Osi.IsDead(servant) == 1 then return end
+  if not owner or owner == "" then return end
+  if not servant or servant == "" then return end
+  if IsDead(servant) then return end
+  if not HasRecruitStatus(servant) then return end
 
-  Osi.SetFaction(servant, Osi.GetFaction(owner))
-  Osi.AddPartyFollower(servant, owner)
-  Osi.SetFollowCharacter(servant, owner)
-  Osi.MakePlayerActive(servant)
+  SafeCall(Osi.SetFaction, servant, Osi.GetFaction(owner))
+  SafeCall(Osi.AddPartyFollower, servant, owner)
+  SafeCall(Osi.SetFollowCharacter, servant, owner)
+  SafeCall(Osi.MakePlayerActive, servant)
 
   Owner[servant] = owner
+
+  Ext.Utils.Print("[Recruit/Cleanup] Recruited " .. tostring(servant) .. " to " .. tostring(owner))
 end
 
 local function AttemptRemovePartyFollower(servant)
@@ -79,105 +102,101 @@ local function AttemptRemovePartyFollower(servant)
   end
 
   local players = GetAllPlayers()
-  for _, p in ipairs(players) do
-    SafeCall(Osi.RemovePartyFollower, servant, p)
+  for _, player in ipairs(players) do
+    SafeCall(Osi.RemovePartyFollower, servant, player)
   end
 end
 
 local function AttemptTidy(servant)
+  if not servant or servant == "" then return end
   SafeCall(Osi.SetFaction, servant, Osi.GetBaseFaction(servant))
 end
 
 local function Cleanup(servant, reason)
   if not servant or servant == "" then return end
 
-  Owner[servant] = nil
-  ActiveStatuses[servant] = nil
+  Ext.Utils.Print("[Recruit/Cleanup] Cleanup started for " .. tostring(servant) .. (reason and (" (" .. reason .. ")") or ""))
 
   for _, delay in ipairs(CLEANUP_RETRY_DELAYS_MS) do
     Ext.Timer.WaitFor(delay, function()
       AttemptRemovePartyFollower(servant)
+
       if delay >= 400 then
         AttemptTidy(servant)
       end
-      if delay == 0 then
-        Ext.Utils.Print("[Recruit/Cleanup] Cleanup started for " .. tostring(servant) .. (reason and (" (" .. reason .. ")") or ""))
-      end
     end)
   end
+
+  Owner[servant] = nil
 end
 
--- Conservative one-time cleanup:
--- remove party followers that are DEAD and are NOT real party members/players.
--- This targets stuck portraits without touching legitimate living followers.
-local function OneTimeCleanupStuckFollowers()
-  local ok, rows = pcall(function()
-    -- Usually stored as (Follower, Owner) in BG3
-    return Osi.DB_PartyFollowers:Get(nil, nil)
-  end)
+local function RebuildOwnersFromPartyFollowers()
+  Owner = {}
 
-  if not ok or not rows then
-    Ext.Utils.PrintError("[Recruit/Cleanup] DB_PartyFollowers not available or failed; skipping one-time cleanup.")
+  local rows = SafeCall(Osi.DB_PartyFollowers.Get, Osi.DB_PartyFollowers, nil, nil)
+  if not rows then
+    Ext.Utils.PrintError("[Recruit/Cleanup] Failed to read DB_PartyFollowers during rebuild.")
     return
   end
 
-  local removedCount = 0
+  for _, row in pairs(rows) do
+    local follower = row[1]
+    local owner = row[2]
+
+    if follower and follower ~= "" and owner and owner ~= "" then
+      Owner[follower] = owner
+    end
+  end
+
+  Ext.Utils.Print("[Recruit/Cleanup] Rebuilt owner table from DB_PartyFollowers.")
+end
+
+local function CleanupInvalidFollowers()
+  local rows = SafeCall(Osi.DB_PartyFollowers.Get, Osi.DB_PartyFollowers, nil, nil)
+  if not rows then return end
 
   for _, row in pairs(rows) do
     local follower = row[1]
     local owner = row[2]
 
     if follower and follower ~= "" then
-      -- Avoid touching real party members / players.
-      local isPlayer = (SafeCall(Osi.IsPlayer, follower) and Osi.IsPlayer(follower) == 1) or false
-      local isPartyMember = (SafeCall(Osi.IsPartyMember, follower) and Osi.IsPartyMember(follower) == 1) or false
+      local isPlayer = (SafeCall(Osi.IsPlayer, follower) == 1)
+      local isPartyMember = (SafeCall(Osi.IsPartyMember, follower) == 1)
 
+      -- Ignore real player characters / normal party members.
       if not isPlayer and not isPartyMember then
-        local dead = (SafeCall(Osi.IsDead, follower) and Osi.IsDead(follower) == 1) or false
+        if owner and owner ~= "" then
+          Owner[follower] = owner
+        end
 
-        if dead then
-          -- Set a best-guess owner (helps first-pass remove), then remove from all players anyway.
-          if owner and owner ~= "" then
-            Owner[follower] = owner
-          end
+        local dead = IsDead(follower)
+        local hasRecruit = HasRecruitStatus(follower)
 
-          AttemptRemovePartyFollower(follower)
-          -- Also schedule retries (covers “stuck until next tick” cases)
-          for _, delay in ipairs(CLEANUP_RETRY_DELAYS_MS) do
-            if delay > 0 then
-              Ext.Timer.WaitFor(delay, function()
-                AttemptRemovePartyFollower(follower)
-              end)
-            end
-          end
-
-          removedCount = removedCount + 1
+        -- If it is dead OR it no longer has the recruit status, it must be removed.
+        if dead or not hasRecruit then
+          Cleanup(follower, dead and "Session/Sweep Dead" or "Session/Sweep MissingStatus")
         end
       end
     end
   end
+end
 
-  Ext.Utils.Print("[Recruit/Cleanup] One-time stuck follower cleanup complete. Attempted removals: " .. tostring(removedCount))
+local function Sweep()
+  CleanupInvalidFollowers()
+  Ext.Timer.WaitFor(SWEEP_INTERVAL_MS, Sweep)
 end
 
 Ext.Osiris.RegisterListener("StatusApplied", 4, "after",
   function(target, status, causee, storyActionID)
     if not RECRUIT_STATUSES[status] then return end
-    if not target or not causee then return end
+    if not target or target == "" then return end
+    if not causee or causee == "" then return end
 
-    ActiveStatuses[target] = ActiveStatuses[target] or {}
-    ActiveStatuses[target][status] = true
-
-    if not Owner[target] then
-      Owner[target] = causee
-    end
+    Owner[target] = causee
 
     Ext.Timer.WaitFor(RECRUIT_DELAY_MS, function()
-      if Owner[target]
-        and HasAnyActiveStatus(target)
-        and Osi.IsDead(target) == 0
-      then
-        Recruit(Owner[target], target)
+      if not IsDead(target) and HasRecruitStatus(target) then
+        Recruit(causee, target)
       end
     end)
   end
@@ -186,56 +205,31 @@ Ext.Osiris.RegisterListener("StatusApplied", 4, "after",
 Ext.Osiris.RegisterListener("StatusRemoved", 4, "after",
   function(target, status, causee, storyActionID)
     if not RECRUIT_STATUSES[status] then return end
-    if not target then return end
+    if not target or target == "" then return end
 
-    if ActiveStatuses[target] then
-      ActiveStatuses[target][status] = nil
-    end
-
-    if (Owner[target] or ActiveStatuses[target]) and Osi.IsDead(target) == 1 then
-      Cleanup(target, "StatusRemoved+Dead")
-      return
-    end
-
-    if (Owner[target] or ActiveStatuses[target]) and not HasAnyActiveStatus(target) then
-      Cleanup(target, "StatusRemoved")
-    end
+    -- Critical fix:
+    -- Do NOT require Owner[target] or any Lua-tracked table entry here.
+    -- After a reload, those tables are empty, but the status removal still matters.
+    Cleanup(target, "StatusRemoved:" .. tostring(status))
   end
 )
 
 Ext.Osiris.RegisterListener("Died", 1, "after",
   function(target)
-    if not target then return end
-    if Owner[target] or ActiveStatuses[target] then
+    if not target or target == "" then return end
+
+    -- If they still have a recruit status, or they are in DB_PartyFollowers,
+    -- force cleanup even after reload.
+    if HasRecruitStatus(target) or IsTrackedFollower(target) then
       Cleanup(target, "Died")
     end
   end
 )
 
-local function Sweep()
-  for servant, _ in pairs(Owner) do
-    local dead = (SafeCall(Osi.IsDead, servant) and Osi.IsDead(servant) == 1) or false
-    if dead or not HasAnyActiveStatus(servant) then
-      Cleanup(servant, "Sweep")
-    end
-  end
-
-  for servant, _ in pairs(ActiveStatuses) do
-    if not Owner[servant] then
-      local dead = (SafeCall(Osi.IsDead, servant) and Osi.IsDead(servant) == 1) or false
-      if dead or not HasAnyActiveStatus(servant) then
-        Cleanup(servant, "Sweep")
-      end
-    end
-  end
-
-  Ext.Timer.WaitFor(SWEEP_INTERVAL_MS, Sweep)
-end
-
 Ext.Events.SessionLoaded:Subscribe(function()
-  -- Give the save a moment to finish constructing DB tables.
   Ext.Timer.WaitFor(1500, function()
-    OneTimeCleanupStuckFollowers()
+    RebuildOwnersFromPartyFollowers()
+    CleanupInvalidFollowers()
     Sweep()
   end)
 end)

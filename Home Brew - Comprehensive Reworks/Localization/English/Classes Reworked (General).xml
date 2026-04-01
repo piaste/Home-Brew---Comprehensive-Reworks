@@ -680,7 +680,7 @@
 	<content contentuid="h297875b8c2474e7ca666ffeba2832cd21893" version="1">Wizard: Necromancer</content>
 
     <content contentuid="h4d0c77c3g56aag4077g80c4g3bk231251215" version="1">The Sound of Silence</content>
-	<content contentuid="h078069acgf62bg4c64g9322938r645686545" version="1">Through magic, you convey your &lt;LSTag Type="Spell" Tooltip="Shout_Bard_Perform_Whistle"&gt;Performances&lt;/LSTag&gt; without making a sound, halving their area of effect but allowing you to act freely. While performing, you may also toggle this on in order to end your Performance.</content>
+	<content contentuid="h078069acgf62bg4c64g9322938r645686545" version="1">Through magic, you convey your &lt;LSTag Type="Spell" Tooltip="Shout_Bard_Perform_Whistle"&gt;Performances&lt;/LSTag&gt; without making a sound, halving their effectiveness, but allowing you to act freely. While performing, you may also toggle this in order to end your Performance.</content>
 
 	<content contentuid="h6836c376g7c23g42fbgb5ceg5b1cbf054975" version="1">Spellcasting Ability</content>
 	<content contentuid="h06a71ef5g7c5eg4b21g95dfg0cb4c47431b8" version="1">All conditions and debilitations which utilize &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; are considered to either be physical or mental. Applying a physical condition always utilizes the highest of either your Strength or Dexterity when calculating your &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt;. When applying a mental condition, this class utilizes this ability to calculate your Difficulty Class.</content>
@@ -694,7 +694,7 @@
 	<content contentuid="h91cb0e9fg1751g4157g8754g4e53aa09crit" version="3">Attack an enemy who has rolled a Critical Miss against you or one of your allies.</content>
 
 	<content contentuid="ha0a9d4d4gdd96g431dgb386g6a12d4545d21" version="1">Free Handling</content>
-	<content contentuid="hcc220960g681dg4db6g8cbag2c02d2f15467" version="3">With nothing equipped in your&lt;Br&gt;off-hand equipment slots, gain an additional &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt; once every three turns. In addition, you gain a +2&lt;Br&gt;bonus to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and your Initiative, as well as the ability to make an &lt;LSTag Type="Spell" Tooltip="Target_UnarmedStrike_Monk"&gt;Unarmed Strike&lt;/LSTag&gt; using your &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
+	<content contentuid="hcc220960g681dg4db6g8cbag2c02d2f15467" version="3">With nothing equipped in your&lt;Br&gt;off-hand equipment slots, gain an additional &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt; once every three turns. In addition, you gain a +4&lt;Br&gt;bonus to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and your Initiative, as well as the ability to make an &lt;LSTag Type="Spell" Tooltip="Target_UnarmedStrike_Monk"&gt;Unarmed Strike&lt;/LSTag&gt; using your &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
 	<content contentuid="ha0a9d4d4gdd96g431dgb386g6a12d2d5f45e" version="1">Free Handling: Strike</content>
 
 	<content contentuid="ha0a9d4d4gdd96g431dgb386g6a12d4522d45" version="1">Free Handling: Action</content>

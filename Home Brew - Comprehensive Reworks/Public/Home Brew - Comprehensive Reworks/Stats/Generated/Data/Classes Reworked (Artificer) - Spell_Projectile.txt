@@ -97,10 +97,10 @@ data "Icon" "Action_FantheHammer"
 data "DisplayName" "hdb5d21b859214bef87372ff3b901eaa7cf98;1"
 data "Description" "h621af9ae545f4b8da48885e1216678342f7b;1"
 data "TooltipDamageList" "DealDamage(MainRangedWeapon+MainRangedWeapon+MainRangedWeapon, MainRangedWeaponDamageType)"
-data "UseCosts" "ActionPoint:1;FirearmAmmo:3"
+data "UseCosts" "ActionPoint:1;FirearmAmmo:2"
 data "SpellAnimation" "73afb4e5-8cfe-4479-95cf-16889597fee3,,;7e67bfd0-2fc2-4d10-bed5-cfda9e660de5,,;eb054308-7fce-4b85-bf4c-7a0031fda7ac,,;0b0dc35b-4953-45c0-a9eb-8d3fef5e798a,,;6ec808e1-e128-44ef-9361-a713bf86de8f,,;b2e9c771-3497-444c-b360-23b4441985a1,,;f920a0a6-f257-4ce4-8d17-2dcaa7bb7bbb,,;,,;,,"
 data "SpellFlags" "IsHarmful;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsDefaultWeaponAction;AddFallDamageOnLand"
-data "AmountOfTargets" "3"
+data "AmountOfTargets" "2"
 
 <!--BATTLE SYNTHETIC-->
 

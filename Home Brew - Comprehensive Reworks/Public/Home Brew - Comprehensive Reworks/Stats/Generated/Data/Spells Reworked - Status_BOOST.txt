@@ -7,6 +7,15 @@ data "StatusType" "BOOST"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 data "OnRemoveFunctors" "RestoreResource(SELF,CounterAction, 1, 0)"
 
+<!--SUMMON CLEANUP ON LOAD-->
+
+new entry "HB_RECRUIT_RETURN_TO_OWNER"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h00000000000000000000000000000000;1"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
+data "StackType" "Ignore"
+
 <!--BLOCKERS-->
 
 new entry "AI_HELPER_RAGE"
@@ -189,7 +198,7 @@ data "DisplayName" "hb915a2f1g490eg4f5ag9430g3be1938020b7;1"
 data "StackId" "SHADOWCURSE_SUMMON_CHECK"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 data "OnApplyFunctors" "ApplyStatus(SUMMON_PIXIESHIELD,100,-1)"
-data "Passives" "Summon_BarbarousAssault;Summon_BrutalCritical;Summon_FuriousCriticals;Summon_OverwhelmingPower;Summon_PeakPhysicality;Summon_RagingVitality;Summon_RipandTear;Summon_UnrelentingRampage;Summon_UnarmouredBeast;Summon_UnstoppableForce;Summon_Guiding_Performance;Summon_Insufferable_Discord;Summon_Mocksmith;Summon_Vigorously_Tuned;Summon_Blessed_Resolve;Summon_Consecrative_Sacrifice;Summon_Ethereal_Intuition;Summon_Holy_Fortitude;Summon_Martyrdom;Summon_Sanctified_Presence;Summon_Armour_of_Thorns;Summon_Feral_Precision;Summon_Ferocious_Stand;Summon_Kindred_Instinct;Summon_Natural_Resurgence;Summon_Natures_Mercy;Summon_Pack_Leader;Summon_Primal_Bloodletter;Summon_Primal_Takedown;Summon_Territorial_Dominance;Summon_Aspect_of_Defiance;Summon_Charge_of_the_Collective;Summon_Duellist;Summon_Iron_Will;Summon_Martial_Fortress;Summon_Martial_Reclaim;Summon_Natural_Born_Leader;Summon_Opportunist;Summon_Tactical_Retreat;Summon_Tunnel_Fighter;Summon_Dance_of_Flowing_Water;Summon_Fist_of_Crushing_Rock;Summon_Focused_Stream;Summon_Fortified_Psyche;Summon_Harmonious_Defense;Summon_Mystic_Strikes;Summon_Sagacious_Resilience;Summon_Divine_Health;Summon_Divine_Sense;Summon_Divine_Shielding;Summon_Principle_of_Belief;Summon_Repel_the_Damned;Summon_Stalwart_Resolve;Summon_Ambush_Breaker;Summon_Beastbonds_Precision;Summon_Blood_Bond;Summon_Marksmans_Edge;Summon_Multiattack_Defense;Summon_Natural_Huntsman;Summon_Protective_Bond;Summon_Superior_Technique"
+data "Passives" "Summon_BarbarousAssault;Summon_BrutalCritical;Summon_FuriousCriticals;Summon_OverwhelmingPower;Summon_PeakPhysicality;Summon_RagingVitality;Summon_RipandTear;Summon_UnrelentingRampage;Summon_UnarmouredBeast;Summon_UnstoppableForce;Summon_Guiding_Performance;Summon_Insufferable_Discord;Summon_Mocksmith;Summon_Vigorously_Tuned;Summon_Blessed_Resolve;Summon_Consecrative_Sacrifice;Summon_Ethereal_Intuition;Summon_Holy_Fortitude;Summon_Martyrdom;Summon_Sanctified_Presence;Summon_Armour_of_Thorns;Summon_Feral_Precision;Summon_Ferocious_Stand;Summon_Kindred_Instinct;Summon_Natural_Resurgence;Summon_Natures_Mercy;Summon_Pack_Leader;Summon_Primal_Bloodletter;Summon_Primal_Takedown;Summon_Territorial_Dominance;Summon_Aspect_of_Defiance;Summon_Charge_of_the_Collective;Summon_Duellist;Summon_Iron_Will;Summon_Martial_Reclaim;Summon_Natural_Born_Leader;Summon_Opportunist;Summon_Tactical_Retreat;Summon_Tunnel_Fighter;Summon_Dance_of_Flowing_Water;Summon_Fist_of_Crushing_Rock;Summon_Focused_Stream;Summon_Fortified_Psyche;Summon_Harmonious_Defense;Summon_Mystic_Strikes;Summon_Sagacious_Resilience;Summon_Divine_Health;Summon_Divine_Sense;Summon_Divine_Shielding;Summon_Principle_of_Belief;Summon_Repel_the_Damned;Summon_Stalwart_Resolve;Summon_Ambush_Breaker;Summon_Beastbonds_Precision;Summon_Blood_Bond;Summon_Marksmans_Edge;Summon_Multiattack_Defense;Summon_Natural_Huntsman;Summon_Protective_Bond;Summon_Superior_Technique"
 
 new entry "UNSUMMON_ABLE"
 type "StatusData"
@@ -2824,7 +2833,7 @@ data "Boosts" "IgnoreLeaveAttackRange; Invisibility(); Advantage(AttackRoll); De
 data "StatusPropertyFlags" "UnavailableInActiveRoll;ExcludeFromPortraitRendering"
 data "RemoveEvents" "OnSpellCast;OnDamage;OnEntityPickUp;OnEntityDrop;OnEntityDrag;OnLockpickingFinished;OnDisarmingFinished"
 data "RemoveConditions" "(IsStatusEvent(StatusEvent.OnSpellCast) and not HasSpellFlag(SpellFlags.Invisible)) or (IsStatusEvent(StatusEvent.OnDamage) and TotalDamageDoneGreaterThan(0)) or (not IsStatusEvent(StatusEvent.OnSpellCast) and not IsStatusEvent(StatusEvent.OnDamage))"
-data "OnRemoveFunctors" "ApplyStatus(INVISIBILITY_BLOCKER,100,3)"
+data "OnRemoveFunctors" "ApplyStatus(INVISIBILITY_BLOCKER,100,1)"
 data "StatusGroups" "SG_Invisible;SG_RemoveOnRespec"
 data "StatusEffect" "d26436d4-d019-4dfc-b2f1-da0ac195575f"
 
@@ -2847,7 +2856,7 @@ data "Boosts" "IgnoreLeaveAttackRange; Invisibility(); Advantage(AttackRoll); De
 data "StatusPropertyFlags" "UnavailableInActiveRoll;ExcludeFromPortraitRendering"
 data "RemoveEvents" "OnSpellCast;OnDamage;OnEntityPickUp;OnEntityDrop;OnEntityDrag;OnLockpickingFinished;OnDisarmingFinished"
 data "RemoveConditions" "(IsStatusEvent(StatusEvent.OnSpellCast) and not HasSpellFlag(SpellFlags.Invisible)) or (IsStatusEvent(StatusEvent.OnDamage) and TotalDamageDoneGreaterThan(0)) or (not IsStatusEvent(StatusEvent.OnSpellCast) and not IsStatusEvent(StatusEvent.OnDamage))"
-data "OnRemoveFunctors" "ApplyStatus(INVISIBILITY_BLOCKER,100,3)"
+data "OnRemoveFunctors" "ApplyStatus(INVISIBILITY_BLOCKER,100,1)"
 data "StatusGroups" "SG_Invisible;SG_RemoveOnRespec"
 data "StatusEffect" "84be28b3-6fdf-4b62-86e2-1f3b333aab81"
 
@@ -2879,7 +2888,7 @@ data "DisplayName" "hfbb59857g081eg4da0gbcf0gaa243blocker;1"
 data "Description" "haabf0a81ge2d4g43a8gac70g95c1ablocker;4"
 data "Icon" "Spell_Divination_SeeInvisibility"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog"
-data "TickType" "EndTurn"
+data "TickType" "StartTurn"
 
 <!--GREATER INVISIBILITY-->
 
@@ -2895,7 +2904,7 @@ data "OnApplyFunctors" "ApplyStatus(GREATER_INVISIBILITY_TRACKER,100,-1)"
 data "StatusPropertyFlags" "UnavailableInActiveRoll;ExcludeFromPortraitRendering"
 data "RemoveEvents" "OnSpellCast;OnEntityPickUp;OnEntityDrop;OnEntityDrag;OnLockpickingFinished;OnDisarmingFinished"
 data "RemoveConditions" "GreaterInvisibilityCheck_InvisSpellOrRoll()"
-data "OnRemoveFunctors" "RemoveStatus(GREATER_INVISIBILITY_TRACKER);RemoveStatus(GREATER_INVISIBILITY_SUCCESS);ApplyStatus(INVISIBILITY_BLOCKER,100,3)"
+data "OnRemoveFunctors" "RemoveStatus(GREATER_INVISIBILITY_TRACKER);RemoveStatus(GREATER_INVISIBILITY_SUCCESS);ApplyStatus(INVISIBILITY_BLOCKER,100,1)"
 
 <!--GUIDING MOONLIGHT-->
 
@@ -3014,7 +3023,6 @@ data "StatusGroups" "SG_RemoveOnRespec"
 data "ApplyEffect" "6994e8dc-14ac-48a5-9c8e-c1925031e852"
 data "TickType" "EndTurn"
 data "StatusEffect" "359918c9-0c9a-4714-a032-0deac359d00b"
-data "IsUnique" "1"
 
 <!--MAGMATIC REGENERATION-->
 
@@ -3873,6 +3881,14 @@ data "StatusPropertyFlags" "MultiplyEffectsByDuration"
 data "StatusEffect" "a15aaf6c-5fcd-4602-a7b5-343c98d49591"
 
 <!--RESILIENT SPHERE-->
+
+new entry "RESILIENTSPHERE_TECHNICAL"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "TickType" "EndTurn"
+data "OnRemoveFunctors" "IF(not HasPassive('AnchoredFocus')):BreakConcentration()"
+data "RemoveEvents" "OnCombatEnded"
 
 new entry "RESILIENT_SPHERE"
 type "StatusData"
@@ -4753,47 +4769,48 @@ type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "ha0180935g478ag43f4ga251ga140eeb78609;1"
 data "Description" "h182fee83g1c2eg40e5gb672g94387289f847;3"
-data "DescriptionParams" "2"
+data "DescriptionParams" "6"
 data "Icon" "Spell_Necromancy_FalseLife"
 data "StackId" "FALSE_LIFE"
-data "Boosts" "IncreaseMaxHP(2)"
+data "Boosts" "IncreaseMaxHP(6)"
 data "StatusGroups" "SG_RemoveOnRespec"
 data "TickType" "EndTurn"
+data "RemoveEvents" "OnCombatEnded"
 
 new entry "FALSE_LIFE_2"
 type "StatusData"
 data "StatusType" "BOOST"
 using "FALSE_LIFE"
-data "DescriptionParams" "4"
-data "Boosts" "IncreaseMaxHP(4)"
+data "DescriptionParams" "12"
+data "Boosts" "IncreaseMaxHP(12)"
 
 new entry "FALSE_LIFE_3"
 type "StatusData"
 data "StatusType" "BOOST"
 using "FALSE_LIFE"
-data "DescriptionParams" "6"
-data "Boosts" "IncreaseMaxHP(6)"
+data "DescriptionParams" "18"
+data "Boosts" "IncreaseMaxHP(18)"
 
 new entry "FALSE_LIFE_4"
 type "StatusData"
 data "StatusType" "BOOST"
 using "FALSE_LIFE"
-data "DescriptionParams" "8"
-data "Boosts" "IncreaseMaxHP(8)"
+data "DescriptionParams" "24"
+data "Boosts" "IncreaseMaxHP(24)"
 
 new entry "FALSE_LIFE_5"
 type "StatusData"
 data "StatusType" "BOOST"
 using "FALSE_LIFE"
-data "DescriptionParams" "10"
-data "Boosts" "IncreaseMaxHP(10)"
+data "DescriptionParams" "30"
+data "Boosts" "IncreaseMaxHP(30)"
 
 new entry "FALSE_LIFE_6"
 type "StatusData"
 data "StatusType" "BOOST"
 using "FALSE_LIFE"
-data "DescriptionParams" "12"
-data "Boosts" "IncreaseMaxHP(12)"
+data "DescriptionParams" "36"
+data "Boosts" "IncreaseMaxHP(36)"
 
 <!--FEATHERFALL-->
 

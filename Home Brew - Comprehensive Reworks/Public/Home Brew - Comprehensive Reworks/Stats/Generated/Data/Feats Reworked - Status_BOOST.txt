@@ -7,7 +7,7 @@ data "HitAnimationType" "None"
 data "StackId" "ARCANEECHOES"
 data "StackType" "Overwrite"
 data "RemoveEvents" "OnCombatEnded"
-data "StatusPropertyFlags" "FreezeDuration"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;FreezeDuration"
 data "OnApplyFunctors" "IF(not CharacterLevelGreaterThan(2)):ApplyStatus(ARCANEECHOES_APPLICATOR_1,100,0);IF(CharacterLevelGreaterThan(2) and not CharacterLevelGreaterThan(4)):ApplyStatus(ARCANEECHOES_APPLICATOR_2,100,0);IF(CharacterLevelGreaterThan(4) and not CharacterLevelGreaterThan(6)):ApplyStatus(ARCANEECHOES_APPLICATOR_3,100,0);IF(CharacterLevelGreaterThan(6) and not CharacterLevelGreaterThan(8)):ApplyStatus(ARCANEECHOES_APPLICATOR_4,100,0);IF(CharacterLevelGreaterThan(8) and not CharacterLevelGreaterThan(10)):ApplyStatus(ARCANEECHOES_APPLICATOR_5,100,0);IF(CharacterLevelGreaterThan(10)):ApplyStatus(ARCANEECHOES_APPLICATOR_6,100,0)"
 
 new entry "ARCANEECHOES_APPLICATOR_1"

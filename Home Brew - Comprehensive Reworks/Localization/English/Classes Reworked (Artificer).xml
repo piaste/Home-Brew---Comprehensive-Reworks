@@ -452,8 +452,8 @@
 
 	<content contentuid="h81ed88e5gbedcg4e19g820ag3c711ff35216" version="1">Ranged Attack</content>
 	<content contentuid="h509b8e00gacb9g46e8d5f4e5fee8d5f65sd6" version="1">Fire a single shot with your flintlock.</content>
-	<content contentuid="hdb5d21b859214bef87372ff3b901eaa7cf98" version="1">Fan the Hammer</content>
-	<content contentuid="h621af9ae545f4b8da48885e1216678342f7b" version="1">Fire three shots from your flintlock simultaneously.</content>
+	<content contentuid="hdb5d21b859214bef87372ff3b901eaa7cf98" version="1">Two Piece</content>
+	<content contentuid="h621af9ae545f4b8da48885e1216678342f7b" version="1">Fire two shots from your flintlock simultaneously.</content>
 
 	<content contentuid="h81ed88e5gbedcg4e19g820ag3c711ff35217" version="1">Ranged Attack</content>
 	<content contentuid="h509b8e00gacb9g46e8d5f4e5fee8d5f65sd7" version="1">Fire a long range shot from your musket.</content>
