@@ -23,8 +23,9 @@
 
 <!--WAY OF THE ARCANE-->
 
-	<content contentuid="hbe016590gb2f5g4fe9gaf36gddde7240410d" version="1">Way of the Arcane</content>
-	<content contentuid="hd7b3cc90g33b2g453aga78bgeb5db0093e19" version="1">Way of the Arcane</content>
+	<content contentuid="hbe016590gb2f5g4fe9gaf36gddde7240410d" loreTexts="true" version="1">Shining Hand Training</content>
+	<content contentuid="h4491cf78g4771g4339g8829g33001facdf14" loreTexts="true" version="1">You trained in Amn with the time-honoured Azuthian monks of the Shining Hand, who mix wizardry with monastic discipline in devotion to the Lord of Spells.</content>
+	<content contentuid="hd7b3cc90g33b2g453aga78bgeb5db0093e19" version="1">Shining Hand Training</content>
 	<content contentuid="hb20d489bg56dfg4abfg9128gba50ebe6a4a8" version="6">This &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; is considered an &lt;LSTag Tooltip="AttackRoll"&gt;Unarmed Attack Roll&lt;/LSTag&gt;. As such, it rolls using your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt;, depending on which is higher.</content>
 
 	<content contentuid="h6fd86334ge5e3g47d0gb00fg7b0s2e2f1e52" version="2">Arcane Flurry</content>
@@ -121,8 +122,8 @@
 
 <!--WAY OF THE DRUNKEN FIST-->
 
-	<content contentuid="h392ca1c2g2438g40c6ga3e6ge2b15b83f947" version="1">Way of the Drunken Fist</content>
-	<content contentuid="hf8c35f5fg841eg4cbegaec6gf45dc0ad011e" version="1">With the unpredictable lurches of a tippler, you sway through every battle, frustrating foes with carefully executed movements concealed beneath a façade of incompetence.</content>
+	<content contentuid="h392ca1c2g2438g40c6ga3e6ge2b15b83f947" loreTexts="true" version="1">Saint Dionysus Training</content>
+	<content contentuid="hf8c35f5fg841eg4cbegaec6gf45dc0ad011e" loreTexts="true" version="1">You trained in Damara with the eccentric Ilmatari monks of the Order of St. Dionysus, who revere their founder as the patron saint of alcohol and wine.</content>
 
 	<content contentuid="h3beda6c5g0a7bg4b59g8451g60811c200001" version="1">Binge Drinker</content>
 	<content contentuid="h380fd620g031cg4b8bg9e8cgf7cee590000a" version="1">You are immune to the negative effects of being &lt;LSTag Type="Status" Tooltip="DRUNK"&gt;Inebriated&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="TIPSY"&gt;Tipsy&lt;/LSTag&gt;, and all positive effects are doubled. Upon consuming alcohol, you recover one &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Point&lt;/LSTag&gt;.</content>
@@ -155,8 +156,9 @@
 
 <!--WAY OF THE OPEN HAND-->
 
-	<content contentuid="h29ded009g66f1g4448g8fceg68452f0b4c5d" version="1">You specialise in unarmed combat, using your hands and your control of ki to inflict grievous wounds.</content>
-	<content contentuid="h3cf42f71g6a06g4e7ag9c4fge283255a4bc4" version="2">You specialise in unarmed combat, using your hands and your control of ki to inflict grievous wounds.</content>
+	<content contentuid="h1a451c62g9b6ag463egaad0ga448260f44bf" loreTexts="true" version="1">White Rod Training</content>
+	<content contentuid="h29ded009g66f1g4448g8fceg68452f0b4c5d" loreTexts="true" version="1">You trained in Calimshan with the renowned Loviatan monks of the White Rod, who know a thousand and one ways to inflict pain with their bare hands.</content>
+	<content contentuid="h3cf42f71g6a06g4e7ag9c4fge283255a4bc4" loreTexts="true" version="2">You trained in Calimshan with the renowned Loviatan monks of the White Rod, who know a thousand and one ways to inflict pain with their bare hands.</content>
 
 	<content contentuid="h82f6ed54g78a2g4a1fga040g44dba16sd5f8" version="2">Open Combat</content>
 	<content contentuid="hdd2d1cbbgaafdg4946gafdfgcd1cb42d5f45" version="4">Gain &lt;LSTag Type="Spell" Tooltip="Target_OpenHandTechnique_Knock"&gt;Flurry of Blows: Topple&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_OpenHandTechnique_NoReactions"&gt;Flurry of Blows: Stagger&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_OpenHandTechnique_Push"&gt;Flurry of Blows: Push&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_UnarmedStrike_Monk"&gt;Unarmed Strike&lt;/LSTag&gt;.</content>
@@ -199,8 +201,9 @@
 
 <!--WAY OF THE SHADOW-->
 
-	<content contentuid="h05e1db8ag8572g4908ga042gffda9f365c57" version="1">Way of the Shadow Arts</content>
-	<content contentuid="h28328e2eg7c83g4436gae8bgdddb6d09a2bf" version="1">Way of the Shadow Arts</content>
+	<content contentuid="h05e1db8ag8572g4908ga042gffda9f365c57" loreTexts="true" version="1">Dark Moon Training</content>
+	<content contentuid="h28328e2eg7c83g4436gae8bgdddb6d09a2bf" loreTexts="true" version="1">Dark Moon Training</content>
+	<content contentuid="h12ab8d95g29c6g4fc9g8467gf5e3967ff2b6" loreTexts="true" version="1">You trained in the Cloud Peaks with the secretive Sharran monks of the Dark Moon, who wrap themselves in the very shadows to hunt down the enemies of their faith.</content>
 
 	<content contentuid="h82f6ed54g78a2g4a1fga040g44666d8f99f8" version="2">Fists of Shade</content>
 	<content contentuid="hdd2d1cbbgaafdg4946gafdfgc5dffffed41e" version="4">Gain &lt;LSTag Type="Spell" Tooltip="Target_ShadowStep"&gt;Shadow Step&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_CloakOfShadows_Monk"&gt;Cloak of Shadows&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_ShadowStrike_Instant"&gt;Shadow Strike&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_ShadowStrike_Instant_Unarmed"&gt;Shadow Strike: Unarmed&lt;/LSTag&gt;.</content>
@@ -241,17 +244,17 @@
 
 <!--WAY OF THE TEMPERED STEEL-->
 
-	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500000" version="1">Way of the Tempered Steel</content>
-	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000z" version="1">A stillness within the air around you gives pause to the most reckless of foes. You overwhelm within a cascading aura of unnerving calm - your hand resting soundly on the hilt of your weapon in subtle anticipation.</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500000" loreTexts="true" version="1">Soaring Way Training</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000z" loreTexts="true" version="1">You trained in Telflamm with the exotic Shou monks of Xiang Temple, who hone their blades no less than their own bodies.</content>
 
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500001" version="1">Tempered Discipline</content>
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000a" version="1">Gain the ability to summon a &lt;LSTag Type="Spell" Tooltip="Shout_Summon_TemperedBlade"&gt;Tempered Blade&lt;/LSTag&gt;, which grows in strength alongside your levels in Monk. In addition, you gain the ability to perform &lt;LSTag Type="Spell" Tooltip="Target_JudgementCut"&gt;Judgement Cut&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_MirageBlade"&gt;Mirage Blade&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_TemperedStrike"&gt;Tempered Strike&lt;/LSTag&gt;.</content>
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500zz1" version="2">Summon Tempered Blade</content>
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500zza" version="5">Summon a tempered blade, capable of cutting through any defense. As you level in Monk, it will deal additional damage and gain new effects.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Summoning your tempered blade may be done at any time as a free action.</content>
-	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650501zz1" version="2">Yamato</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650501zz1" loreTexts="true" version="2">Daito</content>
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050azza" version="5">Folded innumerable times over, this blade is impossible to touch without drawing blood. Unnerving power can be felt emanating from within.</content>
-	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650502zz1" version="2">Improved Yamato</content>
-	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650503zz1" version="2">Refined Yamato</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650502zz1" loreTexts="true" version="2">Improved Daito</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650503zz1" loreTexts="true" version="2">Refined Daito</content>
 
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500az1" version="2">Tempered Edge</content>
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500aza" version="5">Dealing damage with this weapon afflicts your target with both &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleeding&lt;/LSTag&gt; and with &lt;LSTag Type="Status" Tooltip="GAPING_WOUND"&gt;Gaping Wounds&lt;/LSTag&gt; for three turns.</content>
@@ -279,7 +282,7 @@
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500005" version="1">Concentration</content>
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000e" version="1">Ending your turn without moving will restore one &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Point&lt;/LSTag&gt;.</content>
 
-	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500006" version="1">Strike of the Yamato</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500006" loreTexts="true" version="1">Strike of the Daito</content>
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000f" version="1">Your Judgement Cuts will always trigger a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
 
 <!--PASSIVES-->
