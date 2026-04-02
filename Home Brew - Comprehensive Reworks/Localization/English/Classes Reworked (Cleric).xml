@@ -54,7 +54,7 @@
 	<content contentuid="h3063c312g64f5g4715g9339g241ee234d585" version="1">You nourish your faith on forces that make dealings in death, giving rise to desolate plague and putrid necrosis alike.</content>
 	
 	<content contentuid="h6cc498f5g13a0g4dc1g8c91gff3580c00001" version="2">Corpse Party</content>
-	<content contentuid="heec87dfbg454fg4550g8622gb200a670000a" version="2">Gain the ability to detonate nearby corpses, dealing Necrotic damage to all creatures in a [1] radius. This action may also target Undead creatures.&lt;br&gt;&lt;br&gt;When damaging a creature, this action will always apply one stack of &lt;LSTag Type="Status" Tooltip="PLAGUEOFROT"&gt;Curse of Rot&lt;/LSTag&gt;.</content>
+	<content contentuid="heec87dfbg454fg4550g8622gb200a670000a" version="2">Gain the ability to detonate nearby corpses, dealing Necrotic damage to all creatures in a [1] radius. This action may also target Undead creatures.&lt;br&gt;&lt;br&gt;When damaging an enemy, this action will always apply one stack of &lt;LSTag Type="Status" Tooltip="PLAGUEOFROT"&gt;Curse of Rot&lt;/LSTag&gt;.</content>
 	<content contentuid="h6cc498f5g13a0g4dc1g8c91gff3580c000z1" version="2">Bursting Sinew</content>
 	<content contentuid="heec87dfbg454fg4550g8622gb200a67000za" version="2">Detonate a nearby corpse, dealing Necrotic damage to all creatures in a [1] radius. This action may also target Undead creatures.&lt;br&gt;&lt;br&gt;When damaging a creature, this action will always apply one stack of &lt;LSTag Type="Status" Tooltip="PLAGUEOFROT"&gt;Curse of Rot&lt;/LSTag&gt;.</content>
 	<content contentuid="h6cc498f5g13a0g4dc1g8c91gff3580c00zz2" version="1">Curse of Rot</content>
@@ -81,7 +81,7 @@
 	<content contentuid="heec87dfbg454fg4550g8622gb200a670000e" version="2">At the beginning of each of their turns, creatures with a &lt;LSTag Type="Status" Tooltip="PLAGUEOFROT"&gt;Curse of Rot&lt;/LSTag&gt; spread it to their allies within [1] of them.</content>
 
 	<content contentuid="h6cc498f5g13a0g4dc1g8c91gff3580c00006" version="2">Death of the Firstborns</content>
-	<content contentuid="heec87dfbg454fg4550g8622gb200a670000f" version="2">The first instance of Necrotic damage you deal in a combat encounter causes your targets to become &lt;LSTag Tooltip="Vulnerable"&gt;Vulnerable&lt;/LSTag&gt; to all damage for one turn.</content>
+	<content contentuid="heec87dfbg454fg4550g8622gb200a670000f" version="2">The first instance of Necrotic damage you deal to an enemy in a combat encounter causes your target to become &lt;LSTag Tooltip="Vulnerable"&gt;Vulnerable&lt;/LSTag&gt; to all damage for one turn.</content>
 	<content contentuid="h6cc498f5g13a0g4dc1g8c91gff3580c000z6" version="2">Death of the Firstborns</content>
 	<content contentuid="heec87dfbg454fg4550g8622gb200a67000zf" version="2">Affected creature is &lt;LSTag Tooltip="Vulnerable"&gt;Vulnerable&lt;/LSTag&gt; to all damage for one turn.</content>
 
@@ -91,7 +91,7 @@
 	<content contentuid="h3063c312g64f5g471a6sd5f2ef5d4fe5f254" version="1">Your faith sparks divine fire lit within the firmament of your belief, smelted in an act of holy ambition. A raging inferno held in hand to strike true and just.</content>
 
 	<content contentuid="h695df0c5g7b1eg47a16se8f5e6f5e8f89801" version="1">Divine Embers</content>
-	<content contentuid="h3063c312g64f5g471a6sd5f2ef5d4fe5f20a" version="1">Gain the ability to call a divine hammer to your hand. As you level within Cleric, it will deal additional damage and gain new effects.&lt;br&gt;&lt;br&gt;In addition, when dealing damage you deal additional Fire damage equal to your levels in Cleric, and upon dealing Fire damage to an enemy, you generate one stack of &lt;LSTag Type="Status" Tooltip="MAG_FIRE_HEAT"&gt;Heat&lt;/LSTag&gt;.</content>
+	<content contentuid="h3063c312g64f5g471a6sd5f2ef5d4fe5f20a" version="1">Gain the ability to call a divine hammer to your hand. As you level within Cleric, it will deal additional damage and gain new effects.&lt;br&gt;&lt;br&gt;In addition, when dealing damage to an enemy, you deal additional Fire damage equal to your levels in Cleric. This bonus does not apply to damage dealt with an off-hand weapon.&lt;br&gt;&lt;br&gt;Furthermore, upon dealing Fire damage to an enemy, you generate one stack of &lt;LSTag Type="Status" Tooltip="MAG_FIRE_HEAT"&gt;Heat&lt;/LSTag&gt;.</content>
 	<content contentuid="h695df0c5g7b1eg47a16se8f5e6f5e8f898z1" version="1">Summon Forge Hammer</content>
 	<content contentuid="h3063c312g64f5g471a6sd5f2ef5d4fe5f2za" version="2">Summon a forge hammer, capable of smelting even the hottest of embers. As you level in Cleric, it will deal additional damage and gain new effects.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Summoning your forge hammer may be done at any time as a free action.</content>
 	<content contentuid="h695df0c5g7b1eg47a16se8f5e6f5e8f898y1" version="1">Forge Hammer</content>
@@ -188,7 +188,7 @@
 	<content contentuid="h7f986d84g57d9g4522gae69gcbde1c64747b" version="2">When you deal Cold, Lightning or Thunder damage to an enemy that is Large or smaller, you also push it away from where you stand by [1]. This effect can be toggled at any time.</content>
 
 	<content contentuid="hb5fba35fga2b2g42e8gb6cfg843475b6a988" version="2">Static Shock</content>
-	<content contentuid="h7f986d84g57d9g4522gae69gcbde1c6123a4" version="2">When you deal Cold, Lightning or Thunder damage, your target must succeed a Constitution based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or become &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stunned&lt;/LSTag&gt;.</content>
+	<content contentuid="h7f986d84g57d9g4522gae69gcbde1c6123a4" version="2">When you deal Cold, Lightning or Thunder damage to an enemy, your target must succeed a Constitution based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or become &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stunned&lt;/LSTag&gt;.</content>
 
 <!--WAR DOMAIN-->
 
@@ -286,12 +286,12 @@
 	<content contentuid="hbaec3368g3f8bg4577g8a7fg6c16b2099df9" version="1">Affected creature is &lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to the next instance of Bludgeoning, Piercing, or Slashing damage that they would have suffered.</content>
 
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e00011" version="1">Martyrdom</content>
-	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e0000k" version="1">Upon being &lt;LSTag Tooltip="Downed"&gt;Downed&lt;/LSTag&gt; or killed within [1] of an enemy, erupt as a raging inferno, uncontrollably scorching them. The damage of this passive scales with your level and refreshes at the beginning of each combat encounter.</content>
+	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e0000k" version="1">Upon being &lt;LSTag Tooltip="Downed"&gt;Downed&lt;/LSTag&gt; or killed within [1] of an enemy, erupt as a raging inferno, uncontrollably scorching them. The damage of this passive scales with your level.</content>
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e00z11" version="1">Martyrdom</content>
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e000zk" version="1">Affected creature will erupt as a raging inferno upon being &lt;LSTag Tooltip="Downed"&gt;Downed&lt;/LSTag&gt; or killed while within [1] of an enemy, uncontrollably scorching them for [2].</content>
 
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e00012" version="1">Paradisiacal Gift</content>
-	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e0000l" version="1">Once per turn, upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; against an enemy, immediately recover one of your &lt;LSTag Type="ActionResource" Tooltip="ChannelDivinity"&gt;Channel Divinity&lt;/LSTag&gt; charges.</content>
+	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e0000l" version="1">After using one of your Miracles, you recover one of your &lt;LSTag Type="ActionResource" Tooltip="ChannelDivinity"&gt;Channel Divinity&lt;/LSTag&gt; charges.</content>
 
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e00015" version="1">Sacral Touch</content>
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e0000o" version="1">Upon healing a creature, potentially experience an instance of &lt;LSTag Type="ActionResource" Tooltip="DivineIntervention"&gt;Divine Intervention&lt;/LSTag&gt;. This may only occur once per turn.</content>
@@ -309,7 +309,7 @@
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e0000s" version="1">Gain status immunity to all forms of fear. Additionally, upon healing a creature with a Spell, they receive &lt;LSTag Type="Status" Tooltip="DEATH_WARD"&gt;Death Ward&lt;/LSTag&gt; for three turns.</content>
 
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e00020" version="1">Venerational Strikes</content>
-	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e0000t" version="1">Upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, receive &lt;LSTag Type="Status" Tooltip="VENERATION"&gt;Veneration&lt;/LSTag&gt; for three turns.</content>
+	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e0000t" version="1">After using one of your Miracles, you receive &lt;LSTag Type="Status" Tooltip="VENERATION"&gt;Veneration&lt;/LSTag&gt; for three turns.</content>
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e00z20" version="1">Veneration</content>
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e000zt" version="1">Affected creature's weapon deals damage equal to their &lt;LSTag Tooltip="AbilityModifier"&gt;Wisdom Modifier&lt;/LSTag&gt;. The type of damage dealt changes depending on their choice of subclass.</content>
 	

@@ -12,39 +12,44 @@
 <!--TIEFLING-->
 
 	<content contentuid="h184ab785gdae3g4b7ega249ge4329174r2uy" version="5">Breath of Nessus</content>
-	<content contentuid="h63415200gb6c7g41c2g9d2dg8a0341efeuhy" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Fire damage, basic &lt;LSTag Type="Status" Tooltip="DARKVISION"&gt;Darkvision&lt;/LSTag&gt;, and the ability to cast &lt;LSTag Type="Spell" Tooltip="Projectile_ScorchingRay_AsmodeusTiefling"&gt;Scorching Ray&lt;/LSTag&gt; once per combat.</content>
-	<content contentuid="h184ab785gdae3g4b7ega249ge43291746a79" version="5">Asmodeus: Scorching Ray</content>
+	<content contentuid="h63415200gb6c7g41c2g9d2dg8a0341efeuhy" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Fire damage, basic &lt;LSTag Type="Status" Tooltip="Tooltip_Darkvision"&gt;Darkvision&lt;/LSTag&gt;, and the ability to cast &lt;LSTag Type="Spell" Tooltip="Projectile_Fireball_AsmodeusTiefling"&gt;Fireball&lt;/LSTag&gt; once per combat encounter.</content>
+	<content contentuid="h184ab785gdae3g4b7ega249ge43291746a79" version="5">Asmodeus: Fireball</content>
+	<content contentuid="hf6dae528gfd1eg426dg9776g4fff66racial" version="6">Shoot a bright flame from your fingers that explodes upon contact, &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burning&lt;/LSTag&gt; everything within [1].</content>
 
 	<content contentuid="h184ab785gdae3g4b7ega249ge432917feui3" version="5">Boon of the Archdevil</content>
-	<content contentuid="h63415200gb6c7g41c2g9d2dg8a0341efuiyd" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Fire damage, basic &lt;LSTag Type="Status" Tooltip="DARKVISION"&gt;Darkvision&lt;/LSTag&gt;, and the ability to cast &lt;LSTag Type="Spell" Tooltip="Zone_BurningHands_MephistophelesTiefling"&gt;Burning Hands&lt;/LSTag&gt; once per combat.</content>
+	<content contentuid="h63415200gb6c7g41c2g9d2dg8a0341efuiyd" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Fire damage, basic &lt;LSTag Type="Status" Tooltip="Tooltip_Darkvision"&gt;Darkvision&lt;/LSTag&gt;, and the ability to cast &lt;LSTag Type="Spell" Tooltip="Zone_BurningHands_MephistophelesTiefling"&gt;Burning Hands&lt;/LSTag&gt; once per combat encounter.</content>
 	<content contentuid="h184ab785gdae3g4b7ega249ge432917f789a" version="5">Mephistopheles: Burning Hands</content>
+	<content contentuid="h620bc6e9g274cg4077g9cd4g117e39racial" version="10">Flames erupt from your fingertips, incinerating all creatures within [1] in front of you. Affected creature's are thrown backward by [1] and forced &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h184ab785gdae3g4b7ega249ge432917fsu8s" version="5">Rage of Zariel</content>
-	<content contentuid="h63415200gb6c7g41c2g9d2dg8a0341ekljnf" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Fire damage, basic &lt;LSTag Type="Status" Tooltip="DARKVISION"&gt;Darkvision&lt;/LSTag&gt;, and the ability to cast &lt;LSTag Type="Spell" Tooltip="Target_HeatMetal_ZarielTiefling"&gt;Heat Metal&lt;/LSTag&gt; once per combat.</content>
-	<content contentuid="h184ab785gdae3g4b7ega249ge432917f2e84" version="5">Zariel: Heat Metal</content>
+	<content contentuid="h63415200gb6c7g41c2g9d2dg8a0341ekljnf" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Fire damage, basic &lt;LSTag Type="Status" Tooltip="Tooltip_Darkvision"&gt;Darkvision&lt;/LSTag&gt;, and the ability to cast &lt;LSTag Type="Spell" Tooltip="Shout_FireShield_ZarielTiefling"&gt;Fire Shield&lt;/LSTag&gt; once per combat encounter.</content>
+	<content contentuid="h184ab785gdae3g4b7ega249ge432917f2e84" version="5">Zariel: Fire Shield</content>
+	<content contentuid="hb11af5c2g32cdg4d2ag9c36ge3004bracial" version="6">Wreathe your body in flames that shed light in a [1] radius, providing &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Cold damage and retaliating against any enemies that attack you with a melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
 
 <!--DROW-->
 
 	<content contentuid="h184ab785gdae3g4b7ega249ge43291701o9d" version="5">Lolth-Sworn Faith</content>
-	<content contentuid="h63415200gb6c7g41c2g9d2dg8a0341e0dkd8" version="1">Gain &lt;LSTag Type="Passive" Tooltip="SuperiorDarkvision"&gt;Superior Darkvision&lt;/LSTag&gt;, the ability to see within magical darkness, and the ability to cast &lt;LSTag Type="Spell" Tooltip="Target_Silence_Lolth"&gt;Silence&lt;/LSTag&gt; once per combat. Your time in the underdark has made your eyes highly capable within the absence of light, and as such, while shrouded in total darkness you will make all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+	<content contentuid="h63415200gb6c7g41c2g9d2dg8a0341e0dkd8" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made while shrouded in total darkness, &lt;LSTag Type="Status" Tooltip="Tooltip_SuperiorDarkvision"&gt;Superior Darkvision&lt;/LSTag&gt;, and the ability to cast &lt;LSTag Type="Spell" Tooltip="Target_Silence_Lolth"&gt;Silence&lt;/LSTag&gt; once per combat encounter.</content>
 	<content contentuid="h0ea62574g0e90g491bg8054g78bf8c616a89" version="5">Lolth Sworn: Silence</content>
+	<content contentuid="h25df5600g6f8eg4370ga3b2gfdb336racial" version="4">Create a sound-proof sphere. All within are &lt;LSTag Type="Status" Tooltip="HEAVILY_SILENCED"&gt;Silenced&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to Thunder damage.</content>
 
 	<content contentuid="h5ecedc36gdf68g4529g820fgfcff98dfsld9" version="5">Absolute Vision</content>
 	<content contentuid="h4290e9c1ga5abg4f18g8243sdfsd89ddf85e" version="1">Your vision has been blessed by the Absolute, nullifying your natural aversion to light.</content>
 
 	<content contentuid="h184ab785gdae3g4b7ega249ge43291793kda" version="5">Seldarine Faith</content>
-	<content contentuid="h63415200gb6c7g41c2g9d2dg8a0341e01kd9" version="1">Gain &lt;LSTag Type="Passive" Tooltip="SuperiorDarkvision"&gt;Superior Darkvision&lt;/LSTag&gt;, the ability to see within magical darkness, and the ability to cast &lt;LSTag Type="Spell" Tooltip="Target_MistyStep_Seldarine"&gt;Misty Step&lt;/LSTag&gt; once per combat. Your time in the underdark has made your eyes highly capable within the absence of light, and as such, while shrouded in total darkness you will make all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+	<content contentuid="h63415200gb6c7g41c2g9d2dg8a0341e01kd9" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made while shrouded in total darkness, &lt;LSTag Type="Status" Tooltip="Tooltip_SuperiorDarkvision"&gt;Superior Darkvision&lt;/LSTag&gt;, and the ability to cast &lt;LSTag Type="Spell" Tooltip="Target_MistyStep_Seldarine"&gt;Misty Step&lt;/LSTag&gt; once per combat encounter.</content>
 	<content contentuid="h3b2b5d8agc531g4cb9g98b4g63c0e5636a97" version="5">Seldarine: Misty Step</content>
+	<content contentuid="hc724a06agbd46g40e5gbdb0gbf6721racial" version="2">Surrounded by silver mist, you teleport to an unoccupied space you can see.</content>
 
 <!--HUMAN-->
 
 	<content contentuid="h184ab785gdae3g4b7ega249ge43291791kd7" version="5">Human Ambition</content>
-	<content contentuid="h63415200gb6c7g41c2g9d2dg8a0341el10dk" version="1">Gain a +2 bonus to Initiative.</content>
+	<content contentuid="h63415200gb6c7g41c2g9d2dg8a0341el10dk" version="1">Gain a +4 bonus to Initiative.</content>
 
 <!--GITHYANKI-->
 
 	<content contentuid="h184ab785gdae3g4b7ega249ge432917ertu9" version="5">Astral Warrior</content>
-	<content contentuid="h63415200gb6c7g41c2g9d2dg8a0341eiuysf" version="1">Gain a +2 bonus to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
+	<content contentuid="h63415200gb6c7g41c2g9d2dg8a0341eiuysf" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Psychic damage, basic &lt;LSTag Type="Status" Tooltip="Tooltip_Darkvision"&gt;Darkvision&lt;/LSTag&gt;, and a +2 bonus to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
 
 <!--DWARF-->
 
@@ -55,20 +60,20 @@
 	<content contentuid="h63415200gb6c7g41c2g9d2dg8a0341e10d9d" version="1">Reduce all damage taken by 2.</content>
 
 	<content contentuid="h184ab785gdae3g4b7ega249ge432917adifd" version="5">Duergar Conditioning</content>
-	<content contentuid="h63415200gb6c7g41c2g9d2dg8a0341e29dkd" version="1">Gain &lt;LSTag Type="Passive" Tooltip="SuperiorDarkvision"&gt;Superior Darkvision&lt;/LSTag&gt;, the ability to see within magical darkness, and the ability to cast &lt;LSTag Type="Spell" Tooltip="Shout_Enlarge_Duergar"&gt;Enlarge&lt;/LSTag&gt; once per combat. Your time in the underdark has made your eyes highly capable within the absence of light, and as such, while shrouded in total darkness you will make all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+	<content contentuid="h63415200gb6c7g41c2g9d2dg8a0341e29dkd" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made while shrouded in total darkness, &lt;LSTag Type="Status" Tooltip="Tooltip_SuperiorDarkvision"&gt;Superior Darkvision&lt;/LSTag&gt;, and the ability to cast &lt;LSTag Type="Spell" Tooltip="Shout_Enlarge_Duergar"&gt;Enlarge&lt;/LSTag&gt; once per combat encounter.</content>
 	<content contentuid="h184ab785gdae3g4b7ega249ge432917a7e58" version="5">Duergar: Enlarge</content>
 	<content contentuid="h184ab785gdae3g4b7ega249ge432917a7e59" version="5">Make yourself larger. Your weapon and unarmed attacks deal an additional +[1] damage. You have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Strength &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
 
 <!--HALF ELF-->
 
 	<content contentuid="h184ab785gdae3g4b7ega249ge4329170akd9" version="5">Half-Blood's Enlightenment</content>
-	<content contentuid="h63415200gb6c7g41c2g9d2dg8a0341e932lk" version="1">Gain a +1 bonus to Initiative, as well as &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all Wisdom based &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="h63415200gb6c7g41c2g9d2dg8a0341e932lk" version="1">Gain a +2 bonus to Initiative, as well as &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all Wisdom based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h184ab785gdae3g4b7ega249ge432917o1ldk" version="5">Half-Blood's Haste</content>
-	<content contentuid="h63415200gb6c7g41c2g9d2dg8a0341ejzje9" version="1">Gain a +1 bonus to Initiative, as well as [1] of additional &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt;.</content>
+	<content contentuid="h63415200gb6c7g41c2g9d2dg8a0341ejzje9" version="1">Gain a +2 bonus to Initiative, as well as [1] of additional &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h184ab785gdae3g4b7ega249ge43291763a55" version="5">Half-Blood's Faith</content>
-	<content contentuid="h63415200gb6c7g41c2g9d2dg8a0341edkdlk" version="1">Gain a +1 bonus to Initiative, as well as &lt;LSTag Type="Passive" Tooltip="Darkvision"&gt;Darkvision&lt;/LSTag&gt;.</content>
+	<content contentuid="h63415200gb6c7g41c2g9d2dg8a0341edkdlk" version="1">Gain a +2 bonus to Initiative, as well as &lt;LSTag Type="Status" Tooltip="Tooltip_SuperiorDarkvision"&gt;Superior Darkvision&lt;/LSTag&gt;.</content>
 
 <!--HALFLING-->
 
@@ -84,11 +89,11 @@
 	<content contentuid="h63415200gb6c7g41c2g9d2dg8a0341e13ere" version="1">Your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; is increased by 2.</content>
 
 	<content contentuid="h184ab785gdae3g4b7ega249ge432917fasdf" version="5">Forest Serenity</content>
-	<content contentuid="h63415200gb6c7g41c2g9d2dg8a0341eadfs4" version="1">Gain the ability to &lt;LSTag Type="Status" Tooltip="PETPAL"&gt;Speak With Animals&lt;/LSTag&gt; at all times, as well as the ability to cast &lt;LSTag Type="Spell" Tooltip="Target_DominateBeast_ForestGnome"&gt;Dominate Beast&lt;/LSTag&gt; once per combat.</content>
+	<content contentuid="h63415200gb6c7g41c2g9d2dg8a0341eadfs4" version="1">Gain the ability to &lt;LSTag Type="Status" Tooltip="PETPAL"&gt;Speak With Animals&lt;/LSTag&gt; at all times, status immunity to any conditions which would restrain you, and the ability to cast &lt;LSTag Type="Spell" Tooltip="Target_DominateBeast_ForestGnome"&gt;Dominate Beast&lt;/LSTag&gt; once per turn.</content>
 	<content contentuid="h184ab785gdae3g4b7ega249ge432917lds09" version="5">Forest Gnome: Dominate Beast</content>
 
 	<content contentuid="h184ab785gdae3g4b7ega249ge432917fals8" version="5">Whispers of the Underdark</content>
-	<content contentuid="h63415200gb6c7g41c2g9d2dg8a0341ea3kd9" version="1">Gain &lt;LSTag Type="Passive" Tooltip="SuperiorDarkvision"&gt;Superior Darkvision&lt;/LSTag&gt;, the ability to see within magical darkness, and the ability to cast &lt;LSTag Type="Spell" Tooltip="Target_Invisibility_DeepGnome"&gt;Invisibility&lt;/LSTag&gt; once per combat. Your time in the underdark has made your eyes highly capable within the absence of light, and as such, while shrouded in total darkness you will make all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+	<content contentuid="h63415200gb6c7g41c2g9d2dg8a0341ea3kd9" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made while shrouded in total darkness, &lt;LSTag Type="Status" Tooltip="Tooltip_SuperiorDarkvision"&gt;Superior Darkvision&lt;/LSTag&gt;, and the ability to cast &lt;LSTag Type="Spell" Tooltip="Target_Invisibility_DeepGnome"&gt;Invisibility&lt;/LSTag&gt; once per combat encounter.</content>
 	<content contentuid="h184ab785gdae3g4b7ega249ge432917f4a69" version="5">Deep Gnome: Invisibility</content>
 	<content contentuid="hf30493d0g1858g4f2eg8c77ga32d9306a945" version="3">Turn yourself &lt;LSTag Type="Status" Tooltip="INVISIBILITY"&gt;Invisible&lt;/LSTag&gt;.</content>
 	<content contentuid="h85ed0de6g029ag42a4ga711g2c0dk3ljls88" version="3">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Condition ends early if you attack or cast a spell.</content>
@@ -302,13 +307,13 @@
 
 <!--HALF ORC-->
 
-	<content contentuid="h184ab785gdae3g4b7ega249ge4329174a658" version="5">Half-Blood's Vigor</content>
-	<content contentuid="h63415200gb6c7g41c2g9d2dg8a0341e209d9" version="1">Gain a +1 bonus to Initiative, as well as &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all Strength based &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="h184ab785gdae3g4b7ega249ge4329174a658" version="5">Orcish Vigor</content>
+	<content contentuid="h63415200gb6c7g41c2g9d2dg8a0341e209d9" version="1">Gain a +2 bonus to Initiative, basic &lt;LSTag Type="Status" Tooltip="Tooltip_Darkvision"&gt;Darkvision&lt;/LSTag&gt;, and a +2 bonus to your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt;.</content>
 
 <!--MISC-->
 
 	<content contentuid="h184ab785gdae3g4b7ega249ge432917jidjw" version="5">Hell's Embrace</content>
-	<content contentuid="h63415200gb6c7g41c2g9d2dg8a03412ks8yw" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Fire damage and basic &lt;LSTag Type="Status" Tooltip="DARKVISION"&gt;Darkvision&lt;/LSTag&gt;.</content>
+	<content contentuid="h63415200gb6c7g41c2g9d2dg8a03412ks8yw" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Fire damage and basic &lt;LSTag Type="Status" Tooltip="Tooltip_Darkvision"&gt;Darkvision&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h184ab785gdae3g4b7ega249ge4329176a987" version="5">Light Sensitivity: Unobscured</content>
 	<content contentuid="h63415200gb6c7g41c2g9d2dg8a0341e32a64" version="1">Your time in the underdark has left your eyes sensitive to the light, and as such, while in unobscured areas you will suffer &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
