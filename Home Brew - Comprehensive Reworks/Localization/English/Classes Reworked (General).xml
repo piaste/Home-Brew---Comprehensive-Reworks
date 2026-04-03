@@ -612,11 +612,11 @@
 	<content contentuid="h72cddc14e86d4ba589829b2d8c95sdf00003" version="1">Artificer: Battle Synthetic</content>
 	<content contentuid="hda932ea0461d44f892254ee645d855000004" version="1">Artificer: Infused Arcsmith</content>
 
-	<content contentuid="hb30ed2d16f384cfeab24d003aceee0ce0744" version="1">Barbarian: Beastheart</content>
-	<content contentuid="h72cddc14e86d4ba589829b2d8c927f3d9304" version="1">Barbarian: Berserker</content>
-	<content contentuid="h72cddc14e86d4ba589829b2d8c95sdf8f454" version="1">Barbarian: Frostbreaker</content>
-	<content contentuid="hda932ea0461d44f892254ee645d8550d7f6f" version="1">Barbarian: Giant's Blood</content>
-	<content contentuid="h7ee37cc71e0c41a48da2d6df19815c6529e6" version="1">Barbarian: Wild Soul</content>
+	<content contentuid="hb30ed2d16f384cfeab24d003aceee0ce0744" loreTexts="true" version="1">Barbarian: Uthgardt Telhut</content>
+	<content contentuid="h72cddc14e86d4ba589829b2d8c927f3d9304" loreTexts="true" version="1">Barbarian: Berserker Trance</content>
+	<content contentuid="h72cddc14e86d4ba589829b2d8c95sdf8f454" loreTexts="true" version="1">Barbarian: Frostmaiden's Kiss</content>
+	<content contentuid="hda932ea0461d44f892254ee645d8550d7f6f" loreTexts="true" version="1">Barbarian: Kostchtchie's Aura</content>
+	<content contentuid="h7ee37cc71e0c41a48da2d6df19815c6529e6" loreTexts="true" version="1">Barbarian: Wild Weave's Thread</content>
 
 	<content contentuid="h64b0fa64a67f4e20bb166b95c40999270d36" version="1">Bard: College of Captivation</content>
 	<content contentuid="h55dffb99b6624d6dadaadbc793e2923400cd" version="1">Bard: College of Lore</content>

@@ -383,20 +383,20 @@
 
 
 
-	<content contentuid="47709b48-6124-44dc-8792-1ba94cb81915" version="1">Yokebreaker: Beastheart</content>
-	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df01" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Beastheart"&gt;Beastheart Barbarian&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="47709b48-6124-44dc-8792-1ba94cb81915" loreTexts="true" version="1">Yokebreaker: Uthgardt Telhut</content>
+	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df01" loreTexts="true" version="1">Gain the unlocks associated with levels 1 through 3 of an &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Beastheart"&gt;Uthgardt Telhut&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
-	<content contentuid="4a3405a5-4735-47b1-ba4f-4b847fe16f52" version="1">Yokebreaker: Berserker</content>
-	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df02" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Berserker"&gt;Berserker Barbarian&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="4a3405a5-4735-47b1-ba4f-4b847fe16f52" loreTexts="true" version="1">Yokebreaker: Berserker Trance</content>
+	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df02" loreTexts="true" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Berserker"&gt;Berserker Trance&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
-	<content contentuid="4a3405a5-4735-47b1-ba4f-4b847fe0d2f4" version="1">Yokebreaker: Frostbreaker</content>
-	<content contentuid="47709b48-6124-44dc-8792-5sd6f546s5d8" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Frostbreaker"&gt;Frostbreaker Barbarian&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="4a3405a5-4735-47b1-ba4f-4b847fe0d2f4" loreTexts="true" version="1">Yokebreaker: Frostmaiden's Kiss</content>
+	<content contentuid="47709b48-6124-44dc-8792-5sd6f546s5d8" loreTexts="true" version="1">Gain the unlocks associated with levels 1 through 3 of the &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Frostbreaker"&gt;Frostmaiden's Kiss&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
-	<content contentuid="6db46327-0802-4cdd-9936-6277cba143d7" version="1">Yokebreaker: Giant's Blood</content>
-	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df03" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_GiantsBlood"&gt;Giant's Blood Barbarian&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="6db46327-0802-4cdd-9936-6277cba143d7" loreTexts="true" version="1">Yokebreaker: Kostchtchie's Aura</content>
+	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df03" loreTexts="true" version="1">Gain the unlocks associated with levels 1 through 3 of &lt;LSTag Type="Status" Tooltip="StatusClassProgression_GiantsBlood"&gt;Kostchtchie's Aura&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
-	<content contentuid="dec3cc55-896b-4bde-9f1a-7981f452ce9b" version="1">Yokebreaker: Wild Soul</content>
-	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df04" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_WildSoul"&gt;Wild Soul Barbarian&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="dec3cc55-896b-4bde-9f1a-7981f452ce9b" loreTexts="true" version="1">Yokebreaker: Wild Weave's Thread</content>
+	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df04" loreTexts="true" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_WildSoul"&gt;Wild Weave's Thread&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
 
 

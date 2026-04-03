@@ -41,7 +41,8 @@
 
 <!--BEASTHEART-->
 
-	<content contentuid="h71cf10b1gadf1g4be5gbe40g466322d942f4" version="2">Beastheart</content>
+	<content contentuid="h71cf10b1gadf1g4be5gbe40g466322d942f4" loreTexts="true" version="2">Uthgardt Telhut</content>
+	<content contentuid="h559c2233gf74fg4fcfg9408gadcb1cba6316" loreTexts="true" version="6">You completed a Runehunt and were initiated into one of the many barbarian tribes of the North.Totemic spirits now answer your rage and grant you their bestial strength.</content>
 
 	<content contentuid="he6b4dabdg3471g4f6fg982cgd435a6f35612" version="14">Rage: Bestial Heart</content>
 	<content contentuid="h4412581eg59ccg45cega74cg82e5995a6d84" version="2">A primal anger lingers within your mind, and beasthood threatens to take hold. You gain access to five Bestial Hearts, each of which have unique passive benefits.</content>
@@ -130,6 +131,9 @@
 
 <!--BERSERKER-->
 
+	<content contentuid="hc337205dg93e1g4956g9924gb7d641b6e211" loreTexts="true" version="1">Berserker Trance</content>
+	<content contentuid="h5fa8a376gee1cg43e2g8f36g12129d82a292" loreTexts="true" version="9">You are capable of entering a mindless state of pure battle fury. Whether you learnt the technique in a Rashemi lodge or discovered it in the depth of your soul, it makes your rage no less terrifying.</content>
+
 	<content contentuid="he6b4dabdg3471g4f6fg982cgd435a6f21a62" version="14">Rage: Frenzy</content>
 	<content contentuid="h4412581eg59ccg45cega74cg82e5995w9d85" version="2">An uncontrollable ferocity threatens to overtake you, boiling over with pure malice. You gain access to a Frenzy with which to lay bare your pure, destructive wrath.</content>
 
@@ -161,15 +165,15 @@
 
 <!--Frostbreaker-->
 
-	<content contentuid="h40aa7e41g978dg4da6as54df84sd5f4ef803" version="1">Frostbreaker</content>
-	<content contentuid="hc526s54df84ef6s84d68f4s2e4f8d5f4880c" version="2">Amidst frigid hilltops and glacial peaks, you have honed your rage, now controlled and enduring.</content>
+	<content contentuid="h40aa7e41g978dg4da6as54df84sd5f4ef803" loreTexts="true" version="1">Frostmaiden's Kiss</content>
+	<content contentuid="hc526s54df84ef6s84d68f4s2e4f8d5f4880c" loreTexts="true" version="2">You wandered the icy glaciers beyond the Spine of the World and were unwittingly touched by Auril's capricious influence. A shard of the Cold Goddess's fury now manifests with your rage.</content>
 
-	<content contentuid="h40aa7e41g978dg4da6as54df84sd55f45001" version="1">Rage: Frostbreaker</content>
-	<content contentuid="hc526s54df84ef6s84d68f4s2e4f6s6d8f00a" version="2">Enrage, wreathing yourself in the frigid air where you once tempered your animosity.</content>
+	<content contentuid="h40aa7e41g978dg4da6as54df84sd55f45001" loreTexts="true" version="1">Rage: Everlasting Rime</content>
+	<content contentuid="hc526s54df84ef6s84d68f4s2e4f6s6d8f00a" loreTexts="true" version="2">The furious ice winds of the Frozenfar still linger within you. You gain access to a rage that summons Auril's wintry wrath.</content>
 	<content contentuid="h9c492aaag4d3cg4dc8g8bd5g12c7dd56d998" version="3">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to all physical damage, &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to Cold damage, and &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; based &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
-	<content contentuid="h40aa7e41g978dg4da6as54df84sd55f450z1" version="1">Rage: Frostbreaker</content>
+	<content contentuid="h40aa7e41g978dg4da6as54df84sd55f450z1" loreTexts="true" version="1">Rage: Everlasting Rime</content>
 	<content contentuid="hc526s54df84ef6s84d68f4s2e4f6s6d8f0za" version="2">Affected creature deals an additional [1] Cold damage with &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attacks&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Throw_ImprovisedWeapon"&gt;Improvised Weapons&lt;/LSTag&gt;, and when &lt;LSTag Type="Spell" Tooltip="Throw_Throw"&gt;Throwing&lt;/LSTag&gt; objects or creatures.&lt;br&gt;&lt;br&gt;Additionally, this creature has &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to physical damage, &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to Cold damage, and &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; based &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
-	<content contentuid="h40aa7e41g978dg4da6as54df84sd55f45a01" version="1">Bifrost</content>
+	<content contentuid="h40aa7e41g978dg4da6as54df84sd55f45a01" loreTexts="true" version="1">Reghedman's Stride</content>
 	<content contentuid="hc526s54df84ef6s84d68f4s2e4f6s6d8fa0a" version="2">&lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt; no longer slows you, and are incapable of slipping on ice. In addition, dealing damage to enemies while enraged will afflict them with one turn of &lt;LSTag Type="Status" Tooltip="FROSTBITE"&gt;Frigidity&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h40aa7e41g978dg4da6as54df84sd55f45a02" version="1">Frigid Omen</content>
@@ -193,12 +197,12 @@
 
 <!--GIANTS BLOOD-->
 
-	<content contentuid="h2e3d93fegae50g46bbga358g6a2471b4c7a2" version="2">Giant's Blood</content>
-	<content contentuid="hca7c2a37g9a04g44f9gba90gb49b269041a6" version="1">You carry the blood of Giants, invoking their might and staggering size alike by drawing strength from the same primordial forces that fuel them.</content>
+	<content contentuid="h2e3d93fegae50g46bbga358g6a2471b4c7a2" loreTexts="true" version="2">Kostchtchie's Aura</content>
+	<content contentuid="hca7c2a37g9a04g44f9gba90gb49b269041a6" loreTexts="true" version="1">You have been in the presence of one of the brutish lord of giants Kostchtchie's &lt;i&gt;hortha&lt;/i&gt;. An unnatural rage has since lurked in you, channeling the Prince of Wrath's size and fury.</content>
 
-	<content contentuid="hf0908836g8eb4g4de8gaa00g91f1813a9a4e" version="1">Rage: Giant's Blood</content>
-	<content contentuid="hba6e0170g05cag4395ga5c4g516c15eb4413" version="3">Enrage and drastically increase in both size and musculature.</content>
-	<content contentuid="h9d19297dg4dfeg48d9g84b6g8bfeac9fb332" version="1">Rage: Giant's Blood</content>
+	<content contentuid="hf0908836g8eb4g4de8gaa00g91f1813a9a4e" loreTexts="true" version="1">Rage: &lt;i&gt;Hortha&lt;/i&gt;'s Legacy</content>
+	<content contentuid="hba6e0170g05cag4395ga5c4g516c15eb4413" loreTexts="true" version="3">As Kostchtchie grew in size and power as he rampaged, so shall you. You gain access to a rage that swells you to a giant's size.</content>
+	<content contentuid="h9d19297dg4dfeg48d9g84b6g8bfeac9fb332" loreTexts="true" version="1">Rage: &lt;i&gt;Hortha&lt;/i&gt;'s Legacy</content>
 	<content contentuid="hac1e48c9g9c61g426cg8d3bgf1efd11b08ba" version="3">Affected creature has drastically increased in both size and musculature, improving all of their physical capabilities and causing them to deal an additional [1] damage with all &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attacks&lt;/LSTag&gt; and while unarmed.&lt;br&gt;&lt;br&gt;In addition, this creature has &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to physical damage, as well as &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; based &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h416cac70g5ef0g4496g9d89g598ec0c00001" version="1">Head Over Heels</content>
@@ -232,28 +236,29 @@
 
 <!--HELLSLAYER-->
 
-	<content contentuid="h40aa7e41g978dg4da6as54df84sd5f4ef801" version="1">Hellslayer</content>
-	<content contentuid="hc526s54df84ef6s84d68f4s2e4f8d5f4880a" version="2">The heat of the Hells roils within you, ready to make itself known in sudden bursts of anger.</content>
+	<content contentuid="h40aa7e41g978dg4da6as54df84sd5f4ef801" loreTexts="true" version="1">Blood War Veteran</content>
+	<content contentuid="hc526s54df84ef6s84d68f4s2e4f8d5f4880a" loreTexts="true" version="2">You fought in some capacity on the battlefields of the Blood War. Whether you faced abyssal demons or infernal devils, no mortal can leave without a shard of the Lower Planes' fury in their heart.</content>
 
 <!--PATH OF FEROCITY-->
 
-	<content contentuid="h40aa7e41g978dg4da6as54df84sd5f4ef802" version="1">Path of Ferocity</content>
-	<content contentuid="hc526s54df84ef6s84d68f4s2e4f8d5f4880b" version="2">You exist as a thing of nightmares - lopsided heaps of entrails thrown indescriminately marking your passing.</content>
+	<content contentuid="h40aa7e41g978dg4da6as54df84sd5f4ef802" loreTexts="true" version="1">Black-Blood Curse</content>
+	<content contentuid="hc526s54df84ef6s84d68f4s2e4f8d5f4880b" loreTexts="true" version="2">You survived a High Hunt organized by cultists of Malar, the Beastlord. His ferocious blessing now manifests in your rage, reveling in the screams of prey.</content>
 
 <!--STONEBREAKER-->
 
-	<content contentuid="h40aa7e41g978dg4da6as54df84sd5f4ef804" version="1">Stonebreaker</content>
-	<content contentuid="hc526s54df84ef6s84d68f4s2e4f8d5f4880d" version="2">Able to crush stone between your mere fingers, you've shouldered your rage as an insurmountable source of strength and resilience.</content>
+	<content contentuid="h40aa7e41g978dg4da6as54df84sd5f4ef804" loreTexts="true" version="1">Bigby's Reincarnation</content>
+	<content contentuid="hc526s54df84ef6s84d68f4s2e4f8d5f4880d" loreTexts="true" version="2">You are another reincarnation of the legendary wizard Bigby, famous on many worlds for his &lt;i&gt;crushing hand&lt;/i&gt; and other spells. The lack of magical talent in your current form enrages his spirit beyond measure.</content>
 
 <!--WILD SOUL-->
 
-	<content contentuid="h40aa7e41g978dg4da0g8da0gc654530f34d7" version="1">Wild Soul</content>
-	<content contentuid="h98bdd3bag3777g4870ga094g8362c31c855s" version="14">Rage: Wild Soul</content>
+	<content contentuid="h40aa7e41g978dg4da0g8da0gc654530f34d7" loreTexts="true" version="1">Wild Weave's Thread</content>
+	<content contentuid="hedfe3092ga840g4e10gb962g092566a89852" loreTexts="true" version="2">You walked through an ancient scar of the Time of Troubles, a &lt;i&gt;wild magic&lt;/i&gt; zone. The raw Weave bound itself to your essence and now answers your call, and echoes in your rage.</content>
+	<content contentuid="h98bdd3bag3777g4870ga094g8362c31c855s" loreTexts="true" version="14">Rage: Wild Magic</content>
 	<content contentuid="hc52dfbcfgb62ag4e72g9ea9gc1234b3518eb" version="2">A magical energy roils inside of you, ready to erupt. You are able to cast Spells, even while enraged. Additionally, Spells you cast at level one or higher have the potential to trigger a positive surge of &lt;LSTag Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt;.</content>
 
-	<content contentuid="h98bdd3bag3777g4870ga094g8362c31c855b" version="14">Rage: Wild Soul</content>
+	<content contentuid="h98bdd3bag3777g4870ga094g8362c31c855b" loreTexts="true" version="14">Rage: Wild Magic</content>
 	<content contentuid="h995ccd55gf9b2g4325gb9a8g6d80d7b8830e" version="2">Succumb to a &lt;LSTag Type="Status" Tooltip="RAGE_MAGIC"&gt;Rage&lt;/LSTag&gt; that releases all the magic roiling inside of you. Deal [1] additional damage with &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attacks&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Throw_ImprovisedWeapon"&gt;Improvised Weapons&lt;/LSTag&gt;, and when &lt;LSTag Type="Spell" Tooltip="Throw_Throw"&gt;Throwing&lt;/LSTag&gt; objects or creatures. This type of Rage allows for you to continue casting Spells.</content>
-	<content contentuid="hb5a027a4g2934g40bfga5e1g7cb82126a921" version="14">Rage: Wild Soul</content>
+	<content contentuid="hb5a027a4g2934g40bfga5e1g7cb82126a921" loreTexts="true" version="14">Rage: Wild Magic</content>
 	<content contentuid="h87a4cfdbg2ba1g4a61gbbe7g540a256a9216" version="2">Affected creature deals an additional [1] damage with &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attacks&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Throw_ImprovisedWeapon"&gt;Improvised Weapons&lt;/LSTag&gt;, and when &lt;LSTag Type="Spell" Tooltip="Throw_Throw"&gt;Throwing&lt;/LSTag&gt; objects or creatures.&lt;br&gt;&lt;br&gt;Additionally, this creature has &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to physical damage, as well as &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; based &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Spells may continue to be cast during this type of Rage, and will potentially trigger a positive surge of &lt;LSTag Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt; when cast at level one or higher.</content>
 
 	<content contentuid="h98bdd3bag3777g4870ga094g8362c31ieiid" version="14">Chaotic Roar</content>
