@@ -252,7 +252,7 @@
 <!--WILD SOUL-->
 
 	<content contentuid="h40aa7e41g978dg4da0g8da0gc654530f34d7" loreTexts="true" version="1">Wild Weave's Thread</content>
-	<content contentuid="hedfe3092ga840g4e10gb962g092566a89852" loreTexts="true" version="2">You walked through an ancient scar of the Time of Troubles, a &lt;i&gt;wild magic&lt;/i&gt; zone. The raw Weave bound itself to your essence and now echoes in your rage.</content>
+	<content contentuid="hde3206d4g49dag4455gbf1ag874068034c6a" loreTexts="true" version="4">You walked through an ancient scar of the Time of Troubles, a &lt;i&gt;wild magic&lt;/i&gt; zone. The raw Weave bound itself to your essence and now echoes in your rage.</content>
 
 	<content contentuid="h98bdd3bag3777g4870ga094g8362c31c855s" loreTexts="true" version="14">Rage: Wild Magic</content>
 	<content contentuid="hc52dfbcfgb62ag4e72g9ea9gc1234b3518eb" version="2">A magical energy roils inside of you, ready to erupt. You are able to cast Spells, even while enraged. Additionally, Spells you cast at level one or higher have the potential to trigger a positive surge of &lt;LSTag Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt;.</content>

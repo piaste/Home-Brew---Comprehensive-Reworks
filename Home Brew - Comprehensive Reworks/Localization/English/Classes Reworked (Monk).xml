@@ -24,8 +24,8 @@
 <!--WAY OF THE ARCANE-->
 
 	<content contentuid="hbe016590gb2f5g4fe9gaf36gddde7240410d" loreTexts="true" version="1">Shining Hand Training</content>
-	<content contentuid="h4491cf78g4771g4339g8829g33001facdf14" loreTexts="true" version="1">You trained in Amn with the time-honoured Azuthian monks of the Shining Hand, who mix wizardry with monastic discipline in devotion to the Lord of Spells.</content>
-	<content contentuid="hd7b3cc90g33b2g453aga78bgeb5db0093e19" version="1">Shining Hand Training</content>
+	<content contentuid="hca811246g62bbg4c39g9f3fg9abcfa4caa75" loreTexts="true" version="2">You trained in Amn with the time-honoured Azuthian monks of the Shining Hand, who mix wizardry with monastic discipline in devotion to the Lord of Spells.</content>
+	<content contentuid="hd7b3cc90g33b2g453aga78bgeb5db0093e19" loreTexts="true" version="1">Shining Hand Training</content>
 	<content contentuid="hb20d489bg56dfg4abfg9128gba50ebe6a4a8" version="6">This &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; is considered an &lt;LSTag Tooltip="AttackRoll"&gt;Unarmed Attack Roll&lt;/LSTag&gt;. As such, it rolls using your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt;, depending on which is higher.</content>
 
 	<content contentuid="h6fd86334ge5e3g47d0gb00fg7b0s2e2f1e52" version="2">Arcane Flurry</content>
@@ -156,7 +156,7 @@
 
 <!--WAY OF THE OPEN HAND-->
 
-	<content contentuid="h1a451c62g9b6ag463egaad0ga448260f44bf" loreTexts="true" version="1">White Rod Training</content>
+	<content contentuid="hf4a79fb8ge057g4725g934dg83cc685ec654" loreTexts="true" version="1">White Rod Training</content>
 	<content contentuid="h29ded009g66f1g4448g8fceg68452f0b4c5d" loreTexts="true" version="1">You trained in Calimshan with the renowned Loviatan monks of the White Rod, who know a thousand and one ways to inflict pain with their bare hands.</content>
 	<content contentuid="h3cf42f71g6a06g4e7ag9c4fge283255a4bc4" loreTexts="true" version="2">You trained in Calimshan with the renowned Loviatan monks of the White Rod, who know a thousand and one ways to inflict pain with their bare hands.</content>
 
@@ -203,7 +203,7 @@
 
 	<content contentuid="h05e1db8ag8572g4908ga042gffda9f365c57" loreTexts="true" version="1">Dark Moon Training</content>
 	<content contentuid="h28328e2eg7c83g4436gae8bgdddb6d09a2bf" loreTexts="true" version="1">Dark Moon Training</content>
-	<content contentuid="h12ab8d95g29c6g4fc9g8467gf5e3967ff2b6" loreTexts="true" version="1">You trained in the Cloud Peaks with the secretive Sharran monks of the Dark Moon, who wrap themselves in the very shadows to hunt down the enemies of their faith.</content>
+	<content contentuid="hb783e700ga178g434eg9843g2f441cac38a8" loreTexts="true" version="3">You trained in the Cloud Peaks with the secretive Sharran monks of the Dark Moon, who wrap themselves in the very shadows to hunt down the enemies of their faith.</content>
 
 	<content contentuid="h82f6ed54g78a2g4a1fga040g44666d8f99f8" version="2">Fists of Shade</content>
 	<content contentuid="hdd2d1cbbgaafdg4946gafdfgc5dffffed41e" version="4">Gain &lt;LSTag Type="Spell" Tooltip="Target_ShadowStep"&gt;Shadow Step&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_CloakOfShadows_Monk"&gt;Cloak of Shadows&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_ShadowStrike_Instant"&gt;Shadow Strike&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_ShadowStrike_Instant_Unarmed"&gt;Shadow Strike: Unarmed&lt;/LSTag&gt;.</content>
