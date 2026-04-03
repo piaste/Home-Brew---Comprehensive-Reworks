@@ -42,7 +42,7 @@
 <!--BEASTHEART-->
 
 	<content contentuid="h71cf10b1gadf1g4be5gbe40g466322d942f4" loreTexts="true" version="2">Uthgardt Telhut</content>
-	<content contentuid="h559c2233gf74fg4fcfg9408gadcb1cba6316" loreTexts="true" version="6">You completed a Runehunt and were initiated into one of the many barbarian tribes of the North.Totemic spirits now answer your rage and grant you their bestial strength.</content>
+	<content contentuid="h559c2233gf74fg4fcfg9408gadcb1cba6316" loreTexts="true" version="6">You completed a Runehunt and were initiated into one of the barbarian tribes of the North. Totemic spirits now answer your rage and grant you their bestial strength.</content>
 
 	<content contentuid="he6b4dabdg3471g4f6fg982cgd435a6f35612" version="14">Rage: Bestial Heart</content>
 	<content contentuid="h4412581eg59ccg45cega74cg82e5995a6d84" version="2">A primal anger lingers within your mind, and beasthood threatens to take hold. You gain access to five Bestial Hearts, each of which have unique passive benefits.</content>
@@ -132,7 +132,7 @@
 <!--BERSERKER-->
 
 	<content contentuid="hc337205dg93e1g4956g9924gb7d641b6e211" loreTexts="true" version="1">Berserker Trance</content>
-	<content contentuid="h5fa8a376gee1cg43e2g8f36g12129d82a292" loreTexts="true" version="9">You are capable of entering a mindless state of pure battle fury. Whether you learnt the technique in a Rashemi lodge or discovered it in the depth of your soul, it makes your rage no less terrifying.</content>
+	<content contentuid="h5fa8a376gee1cg43e2g8f36g12129d82a292" loreTexts="true" version="9">You are capable of entering a mindless state of pure battle fury. Whether you learnt the technique in a Rashemi lodge or deep within your soul, it makes you no less terrifying.</content>
 
 	<content contentuid="he6b4dabdg3471g4f6fg982cgd435a6f21a62" version="14">Rage: Frenzy</content>
 	<content contentuid="h4412581eg59ccg45cega74cg82e5995w9d85" version="2">An uncontrollable ferocity threatens to overtake you, boiling over with pure malice. You gain access to a Frenzy with which to lay bare your pure, destructive wrath.</content>
@@ -166,7 +166,7 @@
 <!--Frostbreaker-->
 
 	<content contentuid="h40aa7e41g978dg4da6as54df84sd5f4ef803" loreTexts="true" version="1">Frostmaiden's Kiss</content>
-	<content contentuid="hc526s54df84ef6s84d68f4s2e4f8d5f4880c" loreTexts="true" version="2">You wandered the icy glaciers beyond the Spine of the World and were unwittingly touched by Auril's capricious influence. A shard of the Cold Goddess's fury now manifests with your rage.</content>
+	<content contentuid="hc526s54df84ef6s84d68f4s2e4f8d5f4880c" loreTexts="true" version="2">You wandered the icy glaciers beyond the Spine of the World and were touched by Auril's capricious influence. A shard of the Cold Goddess's fury now manifests with your rage.</content>
 
 	<content contentuid="h40aa7e41g978dg4da6as54df84sd55f45001" loreTexts="true" version="1">Rage: Everlasting Rime</content>
 	<content contentuid="hc526s54df84ef6s84d68f4s2e4f6s6d8f00a" loreTexts="true" version="2">The furious ice winds of the Frozenfar still linger within you. You gain access to a rage that summons Auril's wintry wrath.</content>
@@ -198,11 +198,11 @@
 <!--GIANTS BLOOD-->
 
 	<content contentuid="h2e3d93fegae50g46bbga358g6a2471b4c7a2" loreTexts="true" version="2">Kostchtchie's Aura</content>
-	<content contentuid="hca7c2a37g9a04g44f9gba90gb49b269041a6" loreTexts="true" version="1">You have been in the presence of one of the brutish lord of giants Kostchtchie's &lt;i&gt;hortha&lt;/i&gt;. An unnatural rage has since lurked in you, channeling the Prince of Wrath's size and fury.</content>
+	<content contentuid="hca7c2a37g9a04g44f9gba90gb49b269041a6" loreTexts="true" version="1">You have been in the presence of one of the brutish giant lord's &lt;i&gt;hortha&lt;/i&gt;. An unnatural rage now swells in you, channeling the Prince of Wrath's size and fury.</content>
 
-	<content contentuid="hf0908836g8eb4g4de8gaa00g91f1813a9a4e" loreTexts="true" version="1">Rage: &lt;i&gt;Hortha&lt;/i&gt;'s Legacy</content>
-	<content contentuid="hba6e0170g05cag4395ga5c4g516c15eb4413" loreTexts="true" version="3">As Kostchtchie grew in size and power as he rampaged, so shall you. You gain access to a rage that swells you to a giant's size.</content>
-	<content contentuid="h9d19297dg4dfeg48d9g84b6g8bfeac9fb332" loreTexts="true" version="1">Rage: &lt;i&gt;Hortha&lt;/i&gt;'s Legacy</content>
+	<content contentuid="hf0908836g8eb4g4de8gaa00g91f1813a9a4e" loreTexts="true" version="1">Rage: Hortha's Legacy</content>
+	<content contentuid="hba6e0170g05cag4395ga5c4g516c15eb4413" loreTexts="true" version="3">As Kostchtchie grew in size and power as he rampaged, so shall you. You gain access to a rage that enlarges you to a giant's bulk.</content>
+	<content contentuid="h9d19297dg4dfeg48d9g84b6g8bfeac9fb332" loreTexts="true" version="1">Rage: Hortha's Legacy</content>
 	<content contentuid="hac1e48c9g9c61g426cg8d3bgf1efd11b08ba" version="3">Affected creature has drastically increased in both size and musculature, improving all of their physical capabilities and causing them to deal an additional [1] damage with all &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attacks&lt;/LSTag&gt; and while unarmed.&lt;br&gt;&lt;br&gt;In addition, this creature has &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to physical damage, as well as &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; based &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h416cac70g5ef0g4496g9d89g598ec0c00001" version="1">Head Over Heels</content>
@@ -252,7 +252,8 @@
 <!--WILD SOUL-->
 
 	<content contentuid="h40aa7e41g978dg4da0g8da0gc654530f34d7" loreTexts="true" version="1">Wild Weave's Thread</content>
-	<content contentuid="hedfe3092ga840g4e10gb962g092566a89852" loreTexts="true" version="2">You walked through an ancient scar of the Time of Troubles, a &lt;i&gt;wild magic&lt;/i&gt; zone. The raw Weave bound itself to your essence and now answers your call, and echoes in your rage.</content>
+	<content contentuid="hedfe3092ga840g4e10gb962g092566a89852" loreTexts="true" version="2">You walked through an ancient scar of the Time of Troubles, a &lt;i&gt;wild magic&lt;/i&gt; zone. The raw Weave bound itself to your essence and now echoes in your rage.</content>
+
 	<content contentuid="h98bdd3bag3777g4870ga094g8362c31c855s" loreTexts="true" version="14">Rage: Wild Magic</content>
 	<content contentuid="hc52dfbcfgb62ag4e72g9ea9gc1234b3518eb" version="2">A magical energy roils inside of you, ready to erupt. You are able to cast Spells, even while enraged. Additionally, Spells you cast at level one or higher have the potential to trigger a positive surge of &lt;LSTag Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt;.</content>
 
