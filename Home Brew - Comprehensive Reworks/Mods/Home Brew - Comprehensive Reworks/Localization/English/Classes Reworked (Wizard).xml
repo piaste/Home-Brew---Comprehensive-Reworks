@@ -160,19 +160,19 @@
 	<content contentuid="hc31dc575g4407g476as65d4f58es52fe10z2" loreTexts="true" version="2">Scribani's Distillation: Thunder</content>
 	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s50jzb" version="2">Generate a &lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_THUNDER"&gt;Thunder Stain&lt;/LSTag&gt;.</content>
 
-	<content contentuid="h5fe29df0g88d9g4dfeg9b60g81fa93a2a315" version="2">Luminal Surface</content>
+	<content contentuid="h5fe29df0g88d9g4dfeg9b60g81fa93a2a315" loreTexts="true" version="2">Distilled Surface</content>
 	<content contentuid="h5c1aa55eg7ec0g462cg922fgc9bdbf0pap54" version="2">Generate an elemental surface of your choice.</content>
-	<content contentuid="h5fe29df0g88d9g4dfeg9b60g81fa93a00001" version="2">Luminal Surface: Fire</content>
+	<content contentuid="h5fe29df0g88d9g4dfeg9b60g81fa93a00001" loreTexts="true" version="2">Distilled Surface: Fire</content>
 	<content contentuid="h5c1aa55eg7ec0g462cg922fgc9bdbf00000a" version="2">Generate a fire surface at an area of your choosing.</content>
-	<content contentuid="h5fe29df0g88d9g4dfeg9b60g81fa93a00002" version="2">Luminal Surface: Ice</content>
+	<content contentuid="h5fe29df0g88d9g4dfeg9b60g81fa93a00002" loreTexts="true" version="2">Distilled Surface: Ice</content>
 	<content contentuid="h5c1aa55eg7ec0g462cg922fgc9bdbf00000b" version="2">Generate an ice surface at an area of your choosing.</content>
-	<content contentuid="h5fe29df0g88d9g4dfeg9b60g81fa93a00003" version="2">Luminal Surface: Poison</content>
+	<content contentuid="h5fe29df0g88d9g4dfeg9b60g81fa93a00003" loreTexts="true" version="2">Distilled Surface: Poison</content>
 	<content contentuid="h5c1aa55eg7ec0g462cg922fgc9bdbf00000c" version="2">Generate a poison surface at an area of your choosing.</content>
-	<content contentuid="h5fe29df0g88d9g4dfeg9b60g81fa93a00004" version="2">Luminal Surface: Water</content>
+	<content contentuid="h5fe29df0g88d9g4dfeg9b60g81fa93a00004" loreTexts="true" version="2">Distilled Surface: Water</content>
 	<content contentuid="h5c1aa55eg7ec0g462cg922fgc9bdbf00000d" version="2">Generate a water surface at an area of your choosing.</content>
-	<content contentuid="h5fe29df0g88d9g4dfeg9b60g81fa93a00005" version="2">Luminal Surface: Water (Electrified)</content>
+	<content contentuid="h5fe29df0g88d9g4dfeg9b60g81fa93a00005" loreTexts="true" version="2">Distilled Surface: Water (Electrified)</content>
 	<content contentuid="h5c1aa55eg7ec0g462cg922fgc9bdbf00000e" version="2">Generate an electrified water surface at an area of your choosing.</content>
-	<content contentuid="h5fe29df0g88d9g4dfeg9b60g81fa93a4b183" version="2">Luminal Warp</content>
+	<content contentuid="h5fe29df0g88d9g4dfeg9b60g81fa93a4b183" loreTexts="true" version="2">Ethereal Flux</content>
 	<content contentuid="h5c1aa55eg7ec0g462cg922fgc9bdbf06ede2" version="2">Teleport to an area you can see, or swap places with an ally.</content>
 
 	<content contentuid="hc31dc575g4407g476as65d4f58es52fe1503" loreTexts="true" version="2">Heroicus's Containment</content>
