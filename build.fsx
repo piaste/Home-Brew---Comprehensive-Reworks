@@ -11,25 +11,24 @@ if not (Directory.Exists "./Tools") then
 open LSLib.LS
 
 let upstreamModName = "Home Brew - Comprehensive Reworks"
-let modName = 
-    $"./{upstreamModName}/Mods/"
-    |> Directory.GetDirectories
-    |> Array.exactlyOne
-    |> Path.GetFileName
+let modName = "Home Brew - Comprehensive Reworks - Lore Texts"
 
 module Localization = 
 
+    let upstreamModLocalizationFolder= $"./{upstreamModName}/Mods/{upstreamModName}/Localization/English/"
+
     let private tempDir = 
-        $"./{upstreamModName}/Localization/English/tmp"
+        $"./tmp"
         |> Path.GetFullPath
+
     let private generatedXmlPath = 
-        $"./{upstreamModName}/Localization/English/{modName}_generated_{DateTime.UtcNow.Ticks}.xml"
+        $"./{upstreamModName}/Mods/{modName}/Localization/English/{modName}_generated_{DateTime.UtcNow.Ticks}.xml"
         |> Path.GetFullPath
     let private generatedLocaPath = generatedXmlPath.Replace(".xml", ".loca")
 
     let private moveXmlsToTemp () =
         do Directory.CreateDirectory(tempDir) |> ignore
-        do Directory.GetFiles($"./{upstreamModName}/Localization/English/", "*.xml")
+        do Directory.GetFiles(upstreamModLocalizationFolder, "*.xml")
         |> Array.iter (fun f -> File.Move(f, Path.Combine(tempDir, Path.GetFileName(f))))
 
     let private collectLoreLines () =
@@ -59,11 +58,11 @@ module Localization =
         )
 
     let afterBuild() =
-        do File.Delete(generatedXmlPath)
-        do File.Delete(generatedLocaPath)
+        do File.Delete generatedXmlPath
+        do File.Delete generatedLocaPath
         do Directory.GetFiles(tempDir, "*.xml")
-        |> Array.iter (fun f -> File.Move(f, Path.Combine($"./{upstreamModName}/Localization/English/", Path.GetFileName(f))))
-        do Directory.Delete(tempDir)
+        |> Array.iter (fun f -> File.Move(f, Path.Combine(upstreamModLocalizationFolder, Path.GetFileName f)))
+        do Directory.Delete tempDir
 
 
 // get mod version from `meta.lsx`
