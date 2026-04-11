@@ -46,6 +46,7 @@ module Localization =
         Xml.Linq.XDocument.Parse (String.concat "\n" content) |> ignore
 
         // write out
+        do generatedXmlPath |> Path.GetDirectoryName |> Directory.CreateDirectory |> ignore
         File.WriteAllLines(generatedXmlPath, content)
 
     let beforeBuild() =
