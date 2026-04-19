@@ -196,7 +196,7 @@
 	<content contentuid="39f18b2938w98uef9sue9fuw989ew8efzz0s" version="1">Affected creature has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SkillCheck"&gt;Skill Checks&lt;/LSTag&gt;.</content>
 
 	<content contentuid="39f18b02804848b18a0b8dbbf2c386130002" version="1">Frostflame Armaments</content>
-	<content contentuid="39f18b02804848b18a0b8dbbf2c38613000b" version="1">A frigid cold envelops your main-hand melee weapon. Simultaneously, a roaring flame erupts around your off-hand melee weapon.&lt;Br&gt;&lt;br&gt;Upon landing a killing blow, a Frostflame explosion occurs, dealing [1] and [2] too all enemies within a [3] radius.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Fighters&lt;br&gt;Paladins&lt;br&gt;Warlocks</content>
+	<content contentuid="39f18b02804848b18a0b8dbbf2c38613000b" version="1">A frigid cold envelops your main-hand melee weapon. Simultaneously, a roaring flame erupts around your off-hand melee weapon.&lt;Br&gt;&lt;br&gt;Upon landing a killing blow, a Frostflame explosion occurs, dealing [1] and [2] to all enemies within a [3] radius.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Fighters&lt;br&gt;Paladins&lt;br&gt;Warlocks</content>
 	<content contentuid="39f18b02804848b18a0b8dbbf2c386130zzb" version="1">The Frostflame explosion deals an additional [1] and [2] per level.</content>
 	<content contentuid="39f18b02804848b18a6s45fbf2c386upcast" version="1">&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; &lt;LSTag Tooltip="SpellSlot"&gt;Upcast Info&lt;/LSTag&gt;:&lt;br&gt;The Frostflame explosion deals an additional [1] and [2] per level.</content>
 	<content contentuid="39f18b02804848b18a0b8dbbf2c38613zzz2" version="1">Frostflame Armament (Ice)</content>
@@ -318,11 +318,11 @@
 	<content contentuid="39f1898f9sdfosdoifsodofsofd99494yyyf" version="1">Gain an additional 6 arrows per level.</content>
 	<content contentuid="39f1898f9sdfosdoifsodofsofd994upcast" version="1">&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; &lt;LSTag Tooltip="SpellSlot"&gt;Upcast Info&lt;/LSTag&gt;:&lt;br&gt;Gain an additional 6 arrows per level.</content>
 	<content contentuid="39f1898f9sdfosdoifsodofsofd9949400z6" version="1">Flame Arrows</content>
-	<content contentuid="39f1898f9sdfosdoifsodofsofd9949400zf" version="1">Affected creature is wielding flaming arrows. These arrows deal an additional [1] and cause targets to &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burn&lt;/LSTag&gt; for three turns.</content>
+	<content contentuid="39f1898f9sdfosdoifsodofsofd9949400zf" version="1">Affected creature is wielding flaming arrows. These arrows deal an additional [1] and cause targets to &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burn&lt;/LSTag&gt; for one turn.</content>
 	<content contentuid="39f1898f9sdfosdoifsodofsofd99494xxx6" version="1">Flame Arrows</content>
 	<content contentuid="39f1898f9sdfosdoifsodofsofd99494xxxf" version="1">The amount of Flame Arrows you have remaining. &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; targeting a creature or object will consume one Flame Arrow.</content>
 	<content contentuid="39f1898f9sdfosdoifsodofsofd99494xyz6" version="1">Flame Arrows</content>
-	<content contentuid="39f1898f9sdfosdoifsodofsofd99494xyzf" version="1">While active, your &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; will fire flaming arrows that deal an additional [1] and cause your targets to &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burn&lt;/LSTag&gt; for three turns. This can be toggled at any time.</content>
+	<content contentuid="39f1898f9sdfosdoifsodofsofd99494xyzf" version="1">While active, your &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; will fire flaming arrows that deal an additional [1] and cause your targets to &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burn&lt;/LSTag&gt; for one turn. This can be toggled at any time.</content>
 
 	<content contentuid="39f1898f9sdfosdoifsodofsofd994940007" version="1">Internal Fortress</content>
 	<content contentuid="39f1898f9sdfosdoifsodofsofd99494000g" version="1">Protect a creature, reducing all physical damage they take by [1].&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Barbarians&lt;br&gt;Rogues&lt;br&gt;Sorcerers&lt;br&gt;Wizards</content>

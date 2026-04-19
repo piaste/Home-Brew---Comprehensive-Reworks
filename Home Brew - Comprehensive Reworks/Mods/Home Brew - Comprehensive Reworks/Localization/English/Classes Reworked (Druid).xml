@@ -86,7 +86,7 @@
 	<content contentuid="ha585d015g08f6g4c52s1d6f54s6d54ffz00c" version="2">Manually advance your season, dealing damage to all enemies within a [1] area in the process.&lt;br&gt;&lt;br&gt;The damage type this deals both changes to match the season that you are currently in, as well as whether or not your target succeeds their &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.</content>
 
 	<content contentuid="ae5967aac30a4b8babe8f0f2f7dfecd300004" version="2">Natural Desolation</content>
-	<content contentuid="ae5967aac30a4b8babe8f0f2f7dfecd30000d" version="2">While in combat, you ignore all forms of damage &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt; associated with your current season.</content>
+	<content contentuid="ae5967aac30a4b8babe8f0f2f7dfecd30000d" version="2">While in combat, you ignore all forms of damage &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt; associated with your current season when dealing damage to an enemy or item.</content>
 
 	<content contentuid="ae5967aac30a4b8babe8f0f2f7dfecd300005" version="2">Maelstrom</content>
 	<content contentuid="ae5967aac30a4b8babe8f0f2f7dfecd30000e" version="2">Upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, you immediately trigger &lt;LSTag Type="Passive" Tooltip="TempestuousSeasons"&gt;Tempestuous Seasons&lt;/LSTag&gt; within a [1] area around your target.&lt;br&gt;&lt;br&gt;Triggering Tempestuous Seasons in this way will not advance your season.</content>
@@ -156,7 +156,7 @@
 	<content contentuid="h905cec81g7e41g4b05gaaddg3d88d9f6s50a" version="2">Infuse the elemental surroundings of nature into your body, causing your attack to deal an additional [1].</content>
 
 	<content contentuid="h2b3423cfg3562g4217g9873g72b2708b4e86" version="2">Primal Strike</content>
-	<content contentuid="h9496db0cgc952g4937g90b7g66fff30f98e2" version="2">While assuming the form of a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wild Shape&lt;/LSTag&gt;, you ignore all physical &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; when dealing damage.</content>
+	<content contentuid="h9496db0cgc952g4937g90b7g66fff30f98e2" version="2">While assuming the form of a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wild Shape&lt;/LSTag&gt;, you ignore all physical &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; when dealing damage to an enemy or item.</content>
 
 	<content contentuid="he6b4dabdg3471g4f6fg982cgd435a6f6a978" version="2">Primal Speed</content>
 	<content contentuid="h4412581eg59ccg45cega74cg82e599532155" version="5">While assuming the form of a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wild Shape&lt;/LSTag&gt;, your &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; is doubled.</content>

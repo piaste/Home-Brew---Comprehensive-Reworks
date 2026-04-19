@@ -9,8 +9,10 @@
 	<content contentuid="hffe4f11ag01fdg422agbbfeg619b1fabbe3b" version="2">Affected creature is kept from death's door by a brief magical boost. Gained [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;Temporary Hit Points&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h56c56f38g0456g4531gb95dg67fb3e88f107" version="1">Acid</content>
-	<content contentuid="h24742bb9g049fg4c09gb68eg4be61b2657df" version="1">Affected creature's &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; is reduced by 2. Additionally, all physical &lt;LSTag Type="Status" Tooltip="DAMAGE_REDUCTION"&gt;Damage Reduction&lt;/LSTag&gt; provided by their armour is nullified.</content>
-	<content contentuid="h9d98565eg6e3bg4aaagb9d7gc71bac69ba58" version="2">Creatures standing in Acid have their &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; reduced by 2. Additionally, creatures covered in Acid cannot benefit from physical &lt;LSTag Type="Status" Tooltip="DAMAGE_REDUCTION"&gt;Damage Reduction&lt;/LSTag&gt; provided by their armour.</content>
+	<content contentuid="h24742bb9g049fg4c09gb68eg4be61b2657df" version="1">Affected creature's &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; is reduced by 1 per stack of Acid. Additionally, all physical &lt;LSTag Type="Status" Tooltip="DAMAGE_REDUCTION"&gt;Damage Reduction&lt;/LSTag&gt; provided by their armour is nullified.&lt;Br&gt;&lt;br&gt;Upon reaching 7 stacks, the creature will become &lt;LSTag Type="Status" Tooltip="CORRODED"&gt;Corroded&lt;/LSTag&gt; for one turn.</content>
+	<content contentuid="h9d98565eg6e3bg4aaagb9d7gc71bac69ba58" version="2">Creatures standing in Acid have their &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; reduced by 1. Additionally, creatures covered in Acid cannot benefit from physical &lt;LSTag Type="Status" Tooltip="DAMAGE_REDUCTION"&gt;Damage Reduction&lt;/LSTag&gt; provided by their armour.</content>
+	<content contentuid="h56c56f38g0456g4531gb95dg67fbenhanced" version="1">Corroded</content>
+	<content contentuid="h24742bb9g049fg4c09gb68eg4be6enhanced" version="1">Affected creature's &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; is reduced by 10. Additionally, all physical &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; are stripped from them.</content>
 
 	<content contentuid="ha4c926b9g4f75g46a0ga1b4g5ea9fdda486b" version="1">A Clown in Town</content>
 	<content contentuid="h1e2a3b0eg09c4g497dgb26bge78e34ea2588" version="1">Rue the day you crossed a fey. You were cruel to Dolly Thrice; now you'll have to pay the price.</content>
@@ -38,7 +40,7 @@
 	<content contentuid="h66fe3af7g87bcg4976gb2a4g03d9b36c2a8c" version="2">Affected creature is &lt;LSTag Tooltip="Vulnerable"&gt;Vulnerable&lt;/LSTag&gt; to Piercing damage.</content>
 
 	<content contentuid="h36efa902g81b7g4e3eg8137gb6149662d91c" version="1">Bleeding</content>
-	<content contentuid="hc32e5c52g3e8fg420cgbbedgfaf5a2f80b22" version="9">Affected creature takes [1] at the start of each turn and has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Constitution based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Removed by healing or if &lt;LSTag Type="Spell" Tooltip="Target_Help"&gt;Helped&lt;/LSTag&gt;.</content>
+	<content contentuid="hc32e5c52g3e8fg420cgbbedgfaf5a2f80b22" version="9">Affected creature loses 5% of their total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; at the start of each turn and has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Constitution based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Removed by healing or if &lt;LSTag Type="Spell" Tooltip="Target_Help"&gt;Helped&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h61169861gae88g4aadgb0degc3c1cc0e0885" version="1">Blinded</content>
 	<content contentuid="h80779d74g9d58g47ebga2a9g171250a92ad6" version="4">Affected creature has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and cannot take &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reactions&lt;/LSTag&gt;. The range of its attacks and Spells are reduced to [1]. Attack Rolls against this creature are made with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
@@ -47,8 +49,10 @@
 	<content contentuid="hc728060eg9aa6g46a7g987bg03664e5ec80a" version="1">Affected creature suffers a -1 penalty to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;, and &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt; due to the effects of having lost far too much blood.</content>
 
 	<content contentuid="h978e1507gf90eg49b5ga5f8g5b1c0548d77f" version="1">Burning</content>
-	<content contentuid="h749103c1g241dg4d07g923eg977717a2d981" version="4">Affected creature takes [1] at the beginning of each of their turns.&lt;br&gt;&lt;br&gt;Removed if &lt;LSTag Type="Spell" Tooltip="Target_Help"&gt;Helped&lt;/LSTag&gt;.</content>
-	<content contentuid="h8696a024g7942g464bg8f97geb0ba0900378" version="1">Deals 1d4 Radiant damage per turn.</content>
+	<content contentuid="h749103c1g241dg4d07g923eg977717a2d981" version="4">Affected creature takes [1] at the beginning of each of their turns.&lt;Br&gt;&lt;br&gt;Upon reaching 7 stacks, the creature will begin to &lt;LSTag Type="Status" Tooltip="BURNING_LAVA"&gt;Melt&lt;/LSTag&gt; for one turn.&lt;br&gt;&lt;br&gt;Removed if &lt;LSTag Type="Spell" Tooltip="Target_Help"&gt;Helped&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h4d641c85g4f32g46d8gad47gd88070b9d62c" version="1">Eternal Flames</content>
+	<content contentuid="h8696a024g7942g464bg8f97geb0ba0900378" version="1">Affected creature takes [1] at the beginning of each of their turns.</content>
 
 	<content contentuid="h6b5fc06cga008g4daaga6bcgf0001f71a482" version="1">Buthir's Wrath</content>
 	<content contentuid="he4f084d0g0bbcg4b59g8d01g38e0786dff09" version="1">Buthir unleashes her wrath! Her &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; has increased by 4!</content>
@@ -130,13 +134,13 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="hdd315742g68c2g470bga2eagab6d1a97ebf6" version="7">Affected creature rolls with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;. They cannot utilize their armours elemental &lt;LSTag Type="Status" Tooltip="DAMAGE_REDUCTION"&gt;Damage Reduction&lt;/LSTag&gt;. In addition, their &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; is halved.&lt;br&gt;&lt;br&gt;Removed if &lt;LSTag Type="Spell" Tooltip="Target_Help"&gt;Helped&lt;/LSTag&gt;.</content>
 
 	<content contentuid="hd9375252g63aeg4e35g9aacgf2bbaa5fced4" version="2">Frostbite</content>
-	<content contentuid="h82aaebebgdeb0g45b1g9667g73823af73796" version="4">Affected creature has a -1 penalty to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; for each remaining stack of Frostbite.</content>
+	<content contentuid="h82aaebebgdeb0g45b1g9667g73823af73796" version="4">Affected creature has a -1 penalty to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; for each remaining stack of Frostbite.&lt;Br&gt;&lt;br&gt;Upon reaching 7 stacks, the creature will become &lt;LSTag Type="Status" Tooltip="FROZEN"&gt;Frozen&lt;/LSTag&gt; for one turn.</content>
 
 	<content contentuid="hdb2fc03egbac3g4142g9972gf2291d9db39d" version="1">Frozen</content>
 	<content contentuid="h08a3c817g8538g4b6dg925cgb218f2efb8e1" version="4">Affected creature is utterly enamelled in ice and cannot act. The affected creature is &lt;LSTag Tooltip="Vulnerable"&gt;Vulnerable&lt;/LSTag&gt; to Bludgeoning, Thunder, and Force damage. If damaged by one of these damage types, the ice shatters, ending the condition. Additionally, the creature is &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Fire damage and cannot &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burn&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h6c59bf1dg68d1g42baga2d0gda475d321741" version="3">Gaping Wounds</content>
-	<content contentuid="h158578d5gc1feg4b37g848fg1bd3a81f2ab1" version="4">Affected creature takes an additional [1] when damaged.&lt;br&gt;&lt;br&gt;Removed by healing or if &lt;LSTag Type="Spell" Tooltip="Target_Help"&gt;Helped&lt;/LSTag&gt;.</content>
+	<content contentuid="h158578d5gc1feg4b37g848fg1bd3a81f2ab1" version="4">Affected creature takes an additional [1] when damaged per stack of Gaping Wounds.&lt;br&gt;&lt;br&gt;Removed by healing or if &lt;LSTag Type="Spell" Tooltip="Target_Help"&gt;Helped&lt;/LSTag&gt;.</content>
 
 	<content contentuid="hf87b11edg0a85g4b74g9658g0f2cabb56b91" version="1">Haemorrhaged</content>
 	<content contentuid="h20870268g1178g4531g9d49gcc5e85fefdcd" version="1">Affected creature has internal bleeding. They will suffer [1] at start of each turn.</content>
@@ -172,7 +176,9 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="h1409428ag346dg4abeg8be8g5dd7dff98b9e" version="2">Nearby allies deal an additional [1], as long as the hobgoblin isn't incapacitated.</content>
 
 	<content contentuid="h9c3b0b3bge6d4g4991g91d4g1368d245f149" version="2">Lightning Charges</content>
-	<content contentuid="he61586f0g9f00g47f9gad15gd252421230ba" version="11">Affected creature crackles with energy. They deal an additional [1] when dealing Lightning damage to a target.&lt;br&gt;&lt;br&gt;Upon accruing [2] stacks, all stacks will be consumed on the next successful instance of damage, causing their next attack of any type to deal an additional [3].</content>
+	<content contentuid="he61586f0g9f00g47f9gad15gd252421230ba" version="11">Affected creature crackles with energy. They deal an additional [1] with their weapons.&lt;br&gt;&lt;br&gt;Upon accruing [2] stacks, they become &lt;LSTag Type="Status" Tooltip="TESLA_COILED"&gt;Tesla Coiled&lt;/LSTag&gt;.</content>
+	<content contentuid="h9c3b0b3bge6d4g4991g91d4g1368d2teslac" version="2">Tesla Coiled</content>
+	<content contentuid="he61586f0g9f00g47f9gad15gd25242teslac" version="11">Affected creature crackles with overflowing energy. They deal an additional [1] with their weapons and all attacks create an electrical coil, arcing to a nearby enemy and dealing [2].</content>
 
 	<content contentuid="h62747c1ag6bc5g4970g96d9g577ca8051662" version="2">Madness</content>
 	<content contentuid="h7290220cgde5eg4facgaf2ag9bd42c6b0c4c" version="2">Affected creature is hostile to everyone in their vicinity.</content>
@@ -181,7 +187,7 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="h124be289g4eabg45feg8a9bgafe6e561ebb0" version="3">Affected creature regains [1] when starting their turn in Lava.</content>
 
 	<content contentuid="he89491c8g9ea0g4264gaa1agc8d6657c376e" version="2">Mental Fatigue</content>
-	<content contentuid="h4a9979c7ge708g461eg9c76g73a18a38e8f3" version="8">Affected creature has a -[1] penalty to Wisdom, Intelligence, and Charisma &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; for every turn remaining. They cannot utilize their armours elemental &lt;LSTag Type="Status" Tooltip="DAMAGE_REDUCTION"&gt;Damage Reduction&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;When it fails a Wisdom, Intelligence, or Charisma Saving Throw while having [2] or more turns of this condition remaining, the entity takes [3] and is no longer mentally fatigued.</content>
+	<content contentuid="h4a9979c7ge708g461eg9c76g73a18a38e8f3" version="8">Affected creature has a -[1] penalty to Wisdom, Intelligence, and Charisma &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; for every stack of Mental Fatigue. They cannot utilize their armours elemental &lt;LSTag Type="Status" Tooltip="DAMAGE_REDUCTION"&gt;Damage Reduction&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Upon reaching 7 stacks, the creature will become rife with &lt;LSTag Type="Status" Tooltip="MADNESS"&gt;Madness&lt;/LSTag&gt; for one turn.</content>
 
 	<content contentuid="h86c3e46cg8321g41a0gbdeeg840e84cecfcc" version="1">Mirth-Wracked</content>
 	<content contentuid="ha31d7ca0g8122g494dgab46g0e7632152502" version="2">Affected creature is stunned by a wild joke. They cannot move, take &lt;LSTag Tooltip="Action"&gt;Actions&lt;/LSTag&gt;, &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Actions&lt;/LSTag&gt;, or &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reactions&lt;/LSTag&gt; until damaged.</content>
@@ -223,7 +229,7 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="h12d93776gcc27g4165ga8cagfcb8f9d84fb4" version="2">Affected creature cannot move, take &lt;LSTag Tooltip="Action"&gt;Actions&lt;/LSTag&gt;, &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Actions&lt;/LSTag&gt;, or &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reactions&lt;/LSTag&gt;.</content>
 
 	<content contentuid="hd58e3781gc50cg486fga2a5gbeab48c9a4c6" version="1">Poisoned</content>
-	<content contentuid="h0e3666feg49ceg4aebg85feg62e178e4462c" version="2">Affected creature suffers &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="h0e3666feg49ceg4aebg85feg62e178e4462c" version="2">Affected creature takes [1] per turn for every stack of Poison they have, and suffers &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;Upon reaching 7 stacks, the creature will become stricken with an &lt;LSTag Type="Status" Tooltip="HAG_WELL_BAD"&gt;Intense Nausea&lt;/LSTag&gt; for one turn.</content>
 
 	<content contentuid="h74a7782bge5b7g4aafg82ffg8c46850e8b31" version="2">Poisonous Fumes</content>
 	<content contentuid="hd48eb365g0586g46eag800ag9ff2237a0281" version="1">Affected creature takes [1] at the beginning of each of their turns.</content>
@@ -238,7 +244,7 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="hf6737e4eg1692g42acgb65ag23edf956cbad" version="9">Affected creature reflects Radiant damage back at their aggressor twofold as Force damage.</content>
 
 	<content contentuid="h71e9454cg0dc3g45fega05egd0f72572f419" version="2">Radiating Orb</content>
-	<content contentuid="h30df09d8g9eb9g47f5gb0f6gc4964d40cbc2" version="9">Affected creature has a [1] penalty to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; per stack. It also sheds bright light in a [2] area surrounding it.&lt;br&gt;&lt;br&gt;All stacks are removed once this creature makes an Attack Roll.</content>
+	<content contentuid="h30df09d8g9eb9g47f5gb0f6gc4964d40cbc2" version="9">Affected creature has a [1] penalty to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; per stack. It also sheds bright light in a [2] area surrounding it.&lt;br&gt;&lt;br&gt;All stacks are removed once this creature makes an Attack Roll. If seven stacks are present when this condition is removed, all creatures within [3] are &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt; by an intense light.</content>
 
 	<content contentuid="h2e842c14gfaafg47a4gafaag2553e211f034" version="1">Rallied</content>
 	<content contentuid="h81de816fg12aeg4fe4gafafg8ae1064ee0e0" version="3">Affected creature has been granted [1] by a friendly combatant's rallying cry. </content>
@@ -368,14 +374,14 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="he2f86eb4g6905g465ag916dge1eaefd62e3f" version="3">Conjure and project a virulent cloud of poisonous gas. Additional clouds will project toward any enemies who are &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisoned&lt;/LSTag&gt;.</content>
 
 	<content contentuid="hfd755f83gdef4g4c34g9b6fg44ab3fd26c96" version="1">Produce Flame</content>
-	<content contentuid="hbc3e6f17g63f2g461eg9454g5115c0d2ece3" version="5">Conjure a small flame in your hand, shedding a light in a [1] radius. This flame may then be &lt;LSTag Type="Spell" Tooltip="Projectile_ProduceFlame_Hurl"&gt;Projected&lt;/LSTag&gt; into a target in order to &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burn&lt;/LSTag&gt; them indefinitely.&lt;Br&gt;&lt;br&gt;Projecting the flame on the turn that it was produced may be done as a free action.</content>
+	<content contentuid="hbc3e6f17g63f2g461eg9454g5115c0d2ece3" version="5">Conjure a holy flame in your hand, shedding a light in a [1] radius. This flame may then be &lt;LSTag Type="Spell" Tooltip="Projectile_ProduceFlame_Hurl"&gt;Projected&lt;/LSTag&gt; into a target in order to wreathe them in &lt;LSTag Type="Status" Tooltip="BURNING_HOLY"&gt;Holy Flames&lt;/LSTag&gt; indefinitely.&lt;Br&gt;&lt;br&gt;Projecting the flame on the turn that it was produced may be done as a free action.</content>
 	<content contentuid="h7f98a506g5911g4ae3gb91cg0d4bc7ee4371" version="2">Produce Flame</content>
 	<content contentuid="h1a2c2de9g6bf4g4e6cg91b3g816e9777153b" version="1">A flickering flame sheds light in a [1] radius around the creature holding it.</content>
 	<content contentuid="ha026fd7bg4999g44f2g9772gbfcfaf95e43e" version="1">Dismiss Flame</content>
 	<content contentuid="h3cded52eg9330g4c80g8f18g5f0074153a52" version="3">Extinguish the conjured flame in your hand.</content>
 	<content contentuid="hee8ed7f6g8973g4669g833fg99b4e7fcaf25" version="2">Project Flame</content>
-	<content contentuid="h4505ac3dg66edg4954gb6b5g4455b4c1d951" version="8">Force the conjured flame in your hand to enter a target, &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burning&lt;/LSTag&gt; them.</content>
-	<content contentuid="h758d7c6bg6c5cg4ba0g97c2g1fb83846a4d7" version="1">Force the conjured flame in your hand to enter a target, &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burning&lt;/LSTag&gt; them.&lt;Br&gt;&lt;br&gt;Projecting the flame on the turn that it was produced does not cost an &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt;.</content>
+	<content contentuid="h4505ac3dg66edg4954gb6b5g4455b4c1d951" version="8">Force the conjured flame in your hand to enter a target, wreathing them in &lt;LSTag Type="Status" Tooltip="BURNING_HOLY"&gt;Holy Flames&lt;/LSTag&gt; indefinitely.</content>
+	<content contentuid="h758d7c6bg6c5cg4ba0g97c2g1fb83846a4d7" version="1">Force the conjured flame in your hand to enter a target, wreathing them in &lt;LSTag Type="Status" Tooltip="BURNING_HOLY"&gt;Holy Flames&lt;/LSTag&gt; indefinitely.&lt;Br&gt;&lt;br&gt;Projecting the flame on the turn that it was produced does not cost an &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt;.</content>
 
 	<content contentuid="hb948d03cg36b4g4428gbbbbg8f9de9ef46c0" version="1">Ray of Frost</content>
 	<content contentuid="h2af8dfb6g7f9ag4feag8c69gc290977fad80" version="8">Fire a beam of pure frost which halves your targets &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt;.</content>
@@ -413,9 +419,9 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="hf0ff14cfg6a61g43d7gb9eeg1c9c7395c071" version="5">Produce a thorn covered whip, wrapping it around a target and potentially pulling them [1] closer to you.</content>
 
 	<content contentuid="haa14210cgd4e8g403cgbd07g3a63fea901c9" version="1">True Strike</content>
-	<content contentuid="he014b03bg6138g431dga1ecg45e4ebba4869" version="2">Grant yourself or an ally the ability to ignore &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; to all damage types. This includes &lt;LSTag Type="Status" Tooltip="DAMAGE_REDUCTION"&gt;Damage Reduction&lt;/LSTag&gt; granted by your targets armour.&lt;Br&gt;&lt;br&gt;This &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; may be cast while &lt;LSTag Type="Status" Tooltip="HEAVILY_SILENCED"&gt;Silenced&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Muted&lt;/LSTag&gt; and will not break &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Stealth&lt;/LSTag&gt;.</content>
+	<content contentuid="he014b03bg6138g431dga1ecg45e4ebba4869" version="2">Grant yourself or an ally the ability to ignore &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; to all damage types when dealing damage to an enemy or item. This includes &lt;LSTag Type="Status" Tooltip="DAMAGE_REDUCTION"&gt;Damage Reduction&lt;/LSTag&gt; granted by your targets armour.&lt;Br&gt;&lt;br&gt;This &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; may be cast while &lt;LSTag Type="Status" Tooltip="HEAVILY_SILENCED"&gt;Silenced&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Muted&lt;/LSTag&gt; and will not break &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Stealth&lt;/LSTag&gt;.</content>
 	<content contentuid="h7ccf8c10gf790g421aga43agdb3994f68bc3" version="1">True Strike</content>
-	<content contentuid="hd16a9cb1g3b01g46f1gb5f1gbd423dc3d885" version="2">Affected creature will ignore &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; to all damage types, including &lt;LSTag Type="Status" Tooltip="DAMAGE_REDUCTION"&gt;Damage Reduction&lt;/LSTag&gt; granted by their targets armour, until the start of their next turn.</content>
+	<content contentuid="hd16a9cb1g3b01g46f1gb5f1gbd423dc3d885" version="2">Affected creature will ignore &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; to all damage types when dealing damage to an enemy or item, including &lt;LSTag Type="Status" Tooltip="DAMAGE_REDUCTION"&gt;Damage Reduction&lt;/LSTag&gt; granted by their targets armour, until the start of their next turn.</content>
 
 	<content contentuid="h0455dad7gaff9g4f23g9f7eg85a1c4ce240c" version="1">Vicious Mockery</content>
 	<content contentuid="h24e24d25ga325g49d9g9f08g44507f959598" version="6">Dismantle an creatures confidence, causing their &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; to be made with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
@@ -571,10 +577,10 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="h4b44cea4gc139g4bb2gbceagd94c849b206d" version="5">Sculpt a massive sphere of entropic energy around a creature, devastating them and all other creatures within [1].&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Fighters&lt;br&gt;Paladins&lt;br&gt;Warlocks</content>
 
 	<content contentuid="h0c808d8egae78g4b69gb965ga051f9a670d2" version="2">Cloudkill</content>
-	<content contentuid="h584b32dfg9cccg40b4gbb89g7e9472389f58" version="7">Conjure a [1] cloud of noxious cloud that &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisons&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="SNEAKING_HEAVILY_OBSCURED"&gt;Heavily Obscures&lt;/LSTag&gt; any creature within.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Druid&lt;br&gt;Paladins&lt;br&gt;Rangers</content>
+	<content contentuid="h584b32dfg9cccg40b4gbb89g7e9472389f58" version="7">Conjure a [1] cloud of noxious cloud that &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisons&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="SNEAKING_HEAVILY_OBSCURED"&gt;Heavily Obscures&lt;/LSTag&gt; any creature within.&lt;Br&gt;&lt;br&gt; The cloud will reset a creatures amount of Poison stacks to one.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Druid&lt;br&gt;Paladins&lt;br&gt;Rangers</content>
 	<content contentuid="h388cd2acg313dg4a05g8753gc819a37c8a1a" version="2">Cloudkill</content>
-	<content contentuid="h61801db7g0d67g49aag8c5ag49d0dacfb537" version="4">While remaining in the noxious cloud, this creature is permanently &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisoned&lt;/LSTag&gt;.</content>
-	<content contentuid="h104f4603g2f12g4342gaeaeg790e9f41c09c" version="3">Creatures who remain in the cloud are &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisoned&lt;/LSTag&gt;. The cloud also heavily obscures what's in it.</content>
+	<content contentuid="h61801db7g0d67g49aag8c5ag49d0dacfb537" version="4">While remaining in the noxious cloud, this creature is permanently &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisoned&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Stepping into the cloud will reset a creatures amount of Poison stacks to one.</content>
+	<content contentuid="h104f4603g2f12g4342gaeaeg790e9f41c09c" version="3">Creatures who remain in the cloud are &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisoned&lt;/LSTag&gt;. The cloud also heavily obscures what's in it.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Stepping into the cloud will reset a creatures amount of Poison stacks to one.</content>
 
 	<content contentuid="h4e235c8bg82bag4a54gbaceg361c36788ad3" version="1">Cloud of Daggers</content>
 	<content contentuid="h7dbc2201g83acg42e2ga54ag735be7d3b736" version="5">Conjure a persistent cloud of spinning daggers that attack anyone inside. A creature cannot be affected by multiple clouds at once.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Fighters&lt;br&gt;Rogues&lt;br&gt;Warlocks&lt;br&gt;Wizards</content>
@@ -1579,8 +1585,17 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 
 <content contentuid="0000000000000000000000000000000000000" version="1">WEAPON ACTIONS</content>
 
+	<content contentuid="h641c70b1g1555g4192gbdc1g53s6d56e5f85" version="1">Advantageous Strike</content>
+	<content contentuid="ha5e12ff7ga87dg4777g8597g0s9df0oe9098" version="2">Swiftly strike a creature.</content>
+
 	<content contentuid="h48b16f26g07f4g4c51gae7cg7554e9565fad" version="2">Backbreaker</content>
 	<content contentuid="h069297a9g027cg4b60g88a8gd274ecca736e" version="4">Possibly knock your enemy &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h48b16f26g07f4g4654s9e8se5f4e2f545e25" version="2">Befuddling Strike</content>
+	<content contentuid="h069297a9g027cg4b60g86se8e59d6e5f8e54" version="4">Strike your enemy, possibly &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Befuddling&lt;/LSTag&gt; them.</content>
+
+	<content contentuid="h48b16f26g07f4g4654s9e8se5f3s6d6d6e85" version="2">Blinding Strike</content>
+	<content contentuid="h069297a9g027cg4b60g86s8e5d6f8e5f4585" version="4">Strike at your enemies eyes, possibly &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinding&lt;/LSTag&gt; them.</content>
 
 	<content contentuid="hb5fad65fg4751g45d2gb3f1ga6ed5085c68e" version="2">Brace (Melee)</content>
 	<content contentuid="hda2aa6aeg7b6cg4c74gb82ag14d462d8f358" version="6">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all melee damage rolls for the rest of your turn.</content>
@@ -1591,8 +1606,11 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="hea5b28c1gbeb4g4879gb80dgc9bd4b784efc" version="2">Concussive Smash</content>
 	<content contentuid="h90a1c9eegce5eg4a7dgb13agd067d29b812f" version="7">Possibly &lt;LSTag Type="Status" Tooltip="DAZED"&gt;Daze&lt;/LSTag&gt; your target.</content>
 
+	<content contentuid="hea5b28c1g225854879gb80dgc9b6e859d854" version="2">Crowning Strike</content>
+	<content contentuid="h90a1c9eeg646884a7dgb1e56f5e6f58b812f" version="7">Crown your target with your hammer, sending them &lt;LSTag Type="Status" Tooltip="MAG_ATTACK_DEBUFF"&gt;Reeling&lt;/LSTag&gt;.</content>
+
 	<content contentuid="h8fad3ac3gf816g4c2agbd76gbbcc61598a91" version="2">Maiming Strike</content>
-	<content contentuid="h0d927707g90f7g455cg8233gbd3bca6e7947" version="5">Possibly &lt;LSTag Type="Status" Tooltip="CRIPPLED"&gt;Maim&lt;/LSTag&gt; your target.&lt;Br&gt;&lt;Br&gt;Has no effect on flying creatures.</content>
+	<content contentuid="h0d927707g90f7g455cg8233gbd3bca6e7947" version="5">Possibly &lt;LSTag Type="Status" Tooltip="CRIPPLED"&gt;Maim&lt;/LSTag&gt; your target.</content>
 
 	<content contentuid="hcce43c1fg16feg4428g9226g66eda8d49f82" version="2">Disarming Strike</content>
 	<content contentuid="h29e8a3f7g106fg4b2bg9e32ga959590fa6a9" version="5">Possibly force your target to drop the weapons they are holding.</content>
@@ -1601,13 +1619,16 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="h5fe95e00g6de4g4ee1g827dg73ea09058e6e" version="4">Possibly throw your enemy &lt;LSTag Type="Status" Tooltip="OFF_BALANCED"&gt;Off Balance&lt;/LSTag&gt;.</content>
 
 	<content contentuid="hdaade16fgee60g400dgbba1gb988a803ffbb" version="2">Haft Strike</content>
-	<content contentuid="h711a98c2g1a3bg4ab1g9a70ga05f39cb9bf6" version="4">Strike your target with the haft of your polearm.</content>
+	<content contentuid="h711a98c2g1a3bg4ab1g9a70ga05f39cb9bf6" version="4">Strike your target with the haft of your glaive, dealing your normal damage converted to bludgeoning.</content>
 
 	<content contentuid="he5a1a17dgecfeg4e94gbe80g3ec7cec359b8" version="2">Heartstopper</content>
 	<content contentuid="h73b8cd06g612fg4048g8f10g6bdbe4004532" version="5">Possibly inflict &lt;LSTag Type="Status" Tooltip="CHEST_TRAUMA"&gt;Bodily Trauma&lt;/LSTag&gt; upon your target.</content>
 
 	<content contentuid="h0cc7ad9dgac8eg4676g8d66g69d50e3451dc" version="2">Lacerate</content>
 	<content contentuid="h0a928102gf114g42f6g9e27g5f04ae26c345" version="4">Possibly force your target to &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleed&lt;/LSTag&gt;.</content>
+
+	<content contentuid="hea5b28c1gbeb4g09sd98sdfs987ek8e9yifd" version="2">Lobotomizing Strike</content>
+	<content contentuid="h90a1c9eegce5eg46s9e8e8f5e8f6s9d89889" version="4">Pierce your targets skull, &lt;LSTag Type="Status" Tooltip="MAG_FLESHREND"&gt;Rending&lt;/LSTag&gt; their flesh.</content>
 
 	<content contentuid="h641c70b1g1555g4192gbdc1g5f8dbc5e4a60" version="2">Piercing Strike</content>
 	<content contentuid="ha5e12ff7ga87dg4777g8597g9825a26ef3f4" version="5">Possibly inflict &lt;LSTag Type="Status" Tooltip="GAPING_WOUND"&gt;Gaping Wounds&lt;/LSTag&gt;.</content>
@@ -1619,13 +1640,22 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="hec9b71f9g1faeg487fgaa2eg85b0b9444976" version="7">For the rest of your turn, deal additional damage with your melee weapon equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Strength Modifier&lt;/LSTag&gt;.</content>
 
 	<content contentuid="hb5df12c1gfa0ag4970ga525g0ea3925db6d9" version="2">Rush Attack</content>
-	<content contentuid="he15c60afgc19ag49a8g812bg9c0dc713a53e" version="3">Charge forward and attack the first enemy in your way, possibly forcing them &lt;LSTag Type="Status" Tooltip="OFF_BALANCED"&gt;Off Balance&lt;/LSTag&gt;.</content>
+	<content contentuid="he15c60afgc19ag49a8g812bg9c0dc713a53e" version="3">Charge forward and attack the first creature in your way, possibly forcing them &lt;LSTag Type="Status" Tooltip="OFF_BALANCED"&gt;Off Balance&lt;/LSTag&gt;.</content>
 
-	<content contentuid="h3c2d0bd7g2584g4e75gb23bg25ab7871d445" version="1">Overwhelm</content>
-	<content contentuid="h26f3759bg82c2g4f58g915fg893ad148c5f1" version="1">When you miss your target with a &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attack&lt;/LSTag&gt;, use the overpowering force of your swing to deal [1] anyway.</content>
+	<content contentuid="h66842f7dg459cg428ega015g73225d6f3e58" version="1">Silencing Strike</content>
+	<content contentuid="he9c818edg35bfg48d1gb631gee0090dkeffs" version="2">Slash at a creature's throat, possibly &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Muting&lt;/LSTag&gt; them.</content>
+
+	<content contentuid="h641c70b1g1555g4192gbdc1g5f6668985585" version="1">Terrifying Strike</content>
+	<content contentuid="he9c818edg35bfg48d1gb631ge994od9fk48f" version="2">Crush a target, potentially leaving them &lt;LSTag Type="Status" Tooltip="FEARED"&gt;Terrified&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h641c70b1g1555g4192gbdc1g5f83s5d2f5d4" version="1">Throw Javelin</content>
+	<content contentuid="ha5e12ff7ga87dg4777g8597g9826s8e5e858" version="2">Throw a Javelin at a target.</content>
 
 	<content contentuid="h66842f7dg459cg428ega015g73ace0595be7" version="1">Topple</content>
 	<content contentuid="he9c818edg35bfg48d1gb631geea652850cfd" version="2">Swipe at a creature to possibly knock it &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h66842f7dg459cg428ega016s8e5f5f584a52" version="1">Martial Vortex</content>
+	<content contentuid="he9c818edg35bfg4greoipf1geea652850cfd" version="2">Swing your sword at all nearby creatures.</content>
 
 	<content contentuid="h66666332g2913g4a6dga54ege0fe75d293da" version="2">Weakening Strike</content>
 	<content contentuid="h025b9a3cg7e71g4562gb9d2g24307dbbf77e" version="5">Possibly inflict a &lt;LSTag Type="Status" Tooltip="HINDERED"&gt;Weak Grip&lt;/LSTag&gt; upon your target.</content>
@@ -1642,24 +1672,130 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="h0bdd92afge500g4484g820dgbb47db366fc3" version="2">Piercing Shot</content>
 	<content contentuid="h65d96dbcg7697g4779g87c5g32708261711a" version="4">Possibly inflict &lt;LSTag Type="Status" Tooltip="GAPING_WOUND"&gt;Gaping Wounds&lt;/LSTag&gt; upon your target.</content>
 
-	<content contentuid="h0bdd92afge500g4484g820dgbb22d5f00d2f" version="2">Defensive Combat</content>
-	<content contentuid="h65d96dbcg7697g4779g87c5g3222d85f9s45" version="3">Gain &lt;LSTag Type="Passive" Tooltip="Shield_Defenses_Description"&gt;Defensive Combat&lt;/LSTag&gt;.</content>
-	<content contentuid="h65d96dbcg7697g4779g87c5g32dd6e900df6" version="4">When equipped, you may use your shield to defend yourself, reducing your aggressor's &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; by an amount equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;. In addition, you gain &lt;LSTag Type="Spell" Tooltip="Target_ShieldBlow_Daze"&gt;Dazing Bash&lt;/LSTag&gt;, and when an enemy fails a to damage you with a melee attack, you may use your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; to &lt;LSTag Type="Spell" Tooltip="Target_ShieldBlow_Riposte"&gt;Shield Bash&lt;/LSTag&gt; them, potentially forcing them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
-	<content contentuid="h0bdd92afge500g4484g820dgbb22d5f225d8" version="2">Dazing Bash</content>
-	<content contentuid="h65d96dbcg7697g4779g87c5g3222d8566s98" version="3">Bash an enemy with your shield, possibly leaving them &lt;LSTag Type="Status" Tooltip="DAZED"&gt;Dazed&lt;/LSTag&gt;.</content>
-
-	<content contentuid="h0bdd92afge500g4484g820dgbb22d5f13d52" version="2">Raise Shield</content>
-	<content contentuid="h65d96dbcg7697g4779g87c5g32dd6e9d8d52" version="4">Raise your shield to defend yourself, reducing your aggressor's &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; by an amount equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
+<content contentuid="0000000000000000000000000000000000000" version="1">GEAR TYPE SPECIFIC ACTIONS AND PASSIVES</content>
 
 	<content contentuid="h0bdd92afge500g4484g820dgbb22d5f13d53" version="2">Deflection</content>
 	<content contentuid="h65d96dbcg7697g4779g87c5g32dd6e9d8d53" version="4">Reduce damage taken by &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attacks&lt;/LSTag&gt; by an amount equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
-
 	<content contentuid="h56473724ga6e4g4490gb397g1f83bf984d8c" version="2">Deflective Blows</content>
-	<content contentuid="h244342b5ge15eg44bfg8495gfe2d53029b3b" version="2">Gain the ability to defend yourself, reducing any aggressor's &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; by an amount equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;. In addition, when an enemy fails to damage you with a melee attack, you may make an &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attack&lt;/LSTag&gt; or bash them with your shield, potentially knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
+	<content contentuid="h244342b5ge15eg44bfg8495gfe2d53029b3b" version="2">Gain the ability to defend yourself, reducing incoming &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; by an amount equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;. In addition, when an enemy fails an Attack Roll against you, you may retaliate against them.</content>
 	<content contentuid="ha0b4f218g3fbfg44c8gb871g7508b6e84444" version="2">Deflective Blows: Shield Bash</content>
 	<content contentuid="h1e2b5e63ga607g41d7gb85cg361a99036ec6" version="2">When an enemy fails to damage you with a melee attack, bash them with your shield, forcing them to succeed a Strength based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or fall &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;, taking [1] in the process.</content>
 	<content contentuid="h56473724ga6e4g4490gb397g1f83bfweapon" version="2">Deflective Blows: Retaliatory Strike</content>
 	<content contentuid="h244342b5ge15eg44bfg8495gfe2d53weapon" version="2">When an enemy fails to damage you with a melee attack, you may strike back with an &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attack&lt;/LSTag&gt;.</content>
+	<content contentuid="h0bdd92afge500g4484g820dgbb22d5f225d8" version="2">Dazing Bash</content>
+	<content contentuid="h65d96dbcg7697g4779g87c5g3222d8566s98" version="3">Bash an enemy with your shield, possibly leaving them &lt;LSTag Type="Status" Tooltip="DAZED"&gt;Dazed&lt;/LSTag&gt;.</content>
+	<content contentuid="h0bdd92afge500g4484g820dgbb22d5f13d52" version="2">Raise Shield</content>
+	<content contentuid="h65d96dbcg7697g4779g87c5g32dd6e9d8d52" version="4">Raise your shield to defend yourself, reducing your aggressor's &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; by an amount equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
+
+	<content contentuid="ha0a9d4d4gdd96g431dgb386g6a12d4545d21" version="1">Free Handling</content>
+	<content contentuid="hcc220960g681dg4db6g8cbag2c02d2f15467" version="3">With nothing equipped in your&lt;Br&gt;off-hand equipment slots, gain an additional &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt; once every three turns. In addition, you gain a +4&lt;Br&gt;bonus to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and your Initiative, as well as the ability to make an &lt;LSTag Type="Spell" Tooltip="Target_UnarmedStrike_Monk"&gt;Unarmed Strike&lt;/LSTag&gt; using your &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
+	<content contentuid="ha0a9d4d4gdd96g431dgb386g6a12d2d5f45e" version="1">Free Handling: Strike</content>
+	<content contentuid="ha0a9d4d4gdd96g431dgb386g6a12d4522d45" version="1">Free Handling: Action</content>
+	<content contentuid="hcc220960g681dg4db6g8cbag2c05s6d669d7" version="3">Affected creature will gain an additional &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt; upon reaching three stacks of this condition. This condition is immediately removed if in a state in which Free Handling charges cannot be accrued.</content>
+	<content contentuid="ha0a9d4d4gdd96g431dgb386g6a12d4522d54" version="1">Free Handling: Action Surge</content>
+	<content contentuid="hcc220960g681dg4db6g8cbag2c05s6dff6s8" version="3">Affected creature has gained an additional &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt; this turn. This condition is immediately removed if in a state in which Free Handling charges cannot be accrued.</content>
+	<content contentuid="h755f7955g27b6g499fgb0aag0b51d65fc7a7" version="1">Can be dual wielded and benefits from Free Handling.</content>
+
+	<content contentuid="h141b89fdgbd46g44a4g8b6fg39a9c72a3bed" version="2">Overwhelm</content>
+	<content contentuid="hee4cc52cg793cg4dc6g81fbgead2a4da91b5" version="3">Upon making a &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attack&lt;/LSTag&gt;, deal additional damage to your target equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; multiplied by two. This additional damage is still dealt even when you miss.</content>
+	<content contentuid="h3c2d0bd7g2584g4e75gb23bg25ab7871d445" version="1">Overwhelm</content>
+	<content contentuid="h26f3759bg82c2g4f58g915fg893ad148c5f1" version="1">When you miss your target with a &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attack&lt;/LSTag&gt;, use the overpowering force of your swing to deal [1] anyway.</content>
+	<content contentuid="he07ef4d4gd151g4071gbcb4ge33046cb0453" version="1">Requires both hands to use and benefits from Overwhelm.</content>
+
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb600001" version="1">Battle High</content>
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000a" version="3">While below 75% of your total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;, you add your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; to this weapons damage.</content>
+
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb600002" version="1">Dazing Strikes</content>
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000b" version="3">When dealing damage with this weapon, you &lt;LSTag Type="Status" Tooltip="DAZED"&gt;Daze&lt;/LSTag&gt; your target for one turn.</content>
+
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb600003" version="1">Backstabber</content>
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000c" version="3">While damaging an enemy or item from behind with this weapon, you add your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; to your damage roll.</content>
+
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb600004" version="1">Disarming Chain</content>
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000d" version="3">Upon rolling a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, you potentially force your target to drop the weapons that they are holding.</content>
+
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb600005" version="1">Barbarism</content>
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000e" version="3">When dealing damage with this weapon, you deal additional damage equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;, however your &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; are reduced by the same amount.</content>
+
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb600006" version="1">Throwing Expertise</content>
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000f" version="3">You &lt;LSTag Type="Spell" Tooltip="Throw_Throw"&gt;Throw&lt;/LSTag&gt; objects and creatures as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;. Once per turn, you may throw your javeline. Afterwards, it will return to you.</content>
+
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb600007" version="1">All in the Wrist</content>
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000g" version="3">When dealing damage with this weapon, you inflict a &lt;LSTag Type="Status" Tooltip="HINDERED"&gt;Weak Grip&lt;/LSTag&gt; upon your target for one turn.</content>
+
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb600008" version="1">Swordsmanship</content>
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000h" version="3">As a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;, you may strike back at an enemy who makes a failed &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against you.</content>
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb6000z8" version="1">Swordsmanship</content>
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb6000zh" version="3">Strike back at an enemy who makes a failed &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against you.</content>
+
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb600009" version="1">Critical Bash</content>
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000i" version="3">When damaging a &lt;LSTag Type="Status" Tooltip="DAZED"&gt;Dazed&lt;/LSTag&gt; creature, the number you need in order to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; is reduced by 2.</content>
+
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb600010" version="1">Piercing Strikes</content>
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000j" version="3">This weapon deals an additional [1].</content>
+
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb600011" version="1">Low Blows</content>
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000k" version="3">Once per turn, you may utilize your &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; to potentially force a target &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
+
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb600012" version="1">One on One</content>
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000l" version="3">When you have just one enemy within [1] of you, this weapon makes all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb600013" version="1">Curved Frame</content>
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000m" version="3">Reduce incoming &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; by an amount equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
+
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb600014" version="1">Hidden Strike</content>
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000n" version="3">While &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Sneaking&lt;/LSTag&gt;, you make all &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attacks&lt;/LSTag&gt; as a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;.</content>
+
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb600015" version="1">Reap What You Sow</content>
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000o" version="3">When dealing damage with this weapon, you cause your target to &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleed&lt;/LSTag&gt; for one turn.</content>
+
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb600016" version="1">Just the Tip</content>
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000p" version="3">When dealing damage with this weapon to an enemy at the edge of your reach, you make your &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb600017" version="1">Pinned Down</content>
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000q" version="3">When dealing damage with this weapon, you potentially &lt;LSTag Type="Status" Tooltip="CRIPPLED"&gt;Cripple&lt;/LSTag&gt; your target for one turn.</content>
+
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb600018" version="1">War Hammered</content>
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000r" version="3">When dealing damage with this weapon, you knock your target &lt;LSTag Type="Status" Tooltip="OFF_BALANCED"&gt;Off Balance&lt;/LSTag&gt; for one turn.</content>
+
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb600019" version="1">Shattered Plate</content>
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000s" version="3">When dealing damage with this weapon, you apply one stack of &lt;LSTag Type="Status" Tooltip="WEAKENED_ARMOR"&gt;Shredded Armour&lt;/LSTag&gt; to your target.</content>
+
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb600020" version="1">Irresistable Force</content>
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000t" version="3">When dealing damage with this weapon, you ignore all forms of Bludgeoning &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt;.</content>
+
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb600021" version="1">Heavy Cleave</content>
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000u" version="3">When dealing damage with this weapon, you ignore all forms of Slashing &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt;.</content>
+
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb600022" version="1">Splash Zone</content>
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000v" version="3">When dealing damage with this weapon, deal damage equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Strength Modifier&lt;/LSTag&gt; to all enemies within [1] of your target.</content>
+
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb600023" version="1">Sit Down</content>
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000w" version="3">When dealing damage with this weapon, you force your target &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
+
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb600024" version="1">Blade Weaver</content>
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000x" version="3">Once per turn, as a free action, you may strike with this weapons haft.</content>
+
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb600025" version="1">Opportune Stopping Power</content>
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000y" version="3">Making an &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attack&lt;/LSTag&gt; with this weapon will immobilize your target.</content>
+
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb600026" version="1">Plate Piercer</content>
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000z" version="3">When dealing damage with this weapon, you ignore all forms of Piercing &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt;.</content>
+
+	<content contentuid="d273c2a6f9f24f73b755b9c0092eb9fa00001" version="1">Heavy Load</content>
+	<content contentuid="d273c2a6f9f24f73b755b9c0092eb9fa0000a" version="3">When making a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt;, you expend [1] of your &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; in order to deal additional damage to enemies and items equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; and ignore their Piercing &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt;.</content>
+
+	<content contentuid="d273c2a6f9f24f73b755b9c0092eb9fa00002" version="1">Choice of Infantry</content>
+	<content contentuid="d273c2a6f9f24f73b755b9c0092eb9fa0000b" version="3">When making a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt;, you roll with a +[1] bonus to all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; at the expense of being unable to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
+
+	<content contentuid="d273c2a6f9f24f73b755b9c0092eb9fa00003" version="1">Concealed Carry</content>
+	<content contentuid="d273c2a6f9f24f73b755b9c0092eb9fa0000c" version="3">While &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Sneaking&lt;/LSTag&gt;, you make all &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; as a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;.</content>
+
+	<content contentuid="d273c2a6f9f24f73b755b9c0092eb9fa00004" version="1">Snapshot</content>
+	<content contentuid="d273c2a6f9f24f73b755b9c0092eb9fa0000d" version="3">You make all &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
+
+	<content contentuid="d273c2a6f9f24f73b755b9c0092eb9fa00005" version="1">Draw Strength</content>
+	<content contentuid="d273c2a6f9f24f73b755b9c0092eb9fa0000e" version="3">You add your &lt;LSTag Tooltip="AbilityModifier"&gt;Strength Modifier&lt;/LSTag&gt; to the damage you deal with all &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt;.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">MISC</content>
 	<content contentuid="hc1e12016g745fg425agb531gbbf855247fce" version="1">Cannot use.&lt;br&gt;</content>
@@ -1884,7 +2020,7 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="h758abd63g8589g4828g9941g7b42c2fd291a" version="10">Relentlessly leap upon your foes, potentially knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h460e20c6g102cg45e3g87c9g9b4c31d971b2" version="5">Rake Claws</content>
-	<content contentuid="h454884c4g6f72g47f2g9fc0g32a264d71cac" version="3">Rake your malevolent claws deep into the of flesh your target, &lt;LSTag Type="Status" Tooltip="CRIPPLED"&gt;Crippling&lt;/LSTag&gt; them.&lt;Br&gt;&lt;br&gt;If your target is &lt;LSTag Type="Status" Tooltip="FEARED"&gt;Terrified&lt;/LSTag&gt;, this action will always roll as a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
+	<content contentuid="h454884c4g6f72g47f2g9fc0g32a264d71cac" version="3">Rake your malevolent claws deep into the of flesh your target, possibly &lt;LSTag Type="Status" Tooltip="CRIPPLED"&gt;Crippling&lt;/LSTag&gt; them.&lt;Br&gt;&lt;br&gt;If your target is &lt;LSTag Type="Status" Tooltip="FEARED"&gt;Terrified&lt;/LSTag&gt;, this action will always roll as a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h570f57d9g6601g4a31ga490g137fd5bf308b" version="2">Blood Bath</content>
 	<content contentuid="h6864c126g19c9g47b4gab82gdfc791590721" version="6">Tear deep into your target, forcing them to &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleed&lt;/LSTag&gt;. The ensuing gush of blood continuously heals you for [1] per turn.</content>
@@ -1933,7 +2069,7 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="h3ff34c49g7320g4d54gb35agaf2e833c0fc2" version="1">Affected creature is magically paralyzed - they cannot move, take &lt;LSTag Tooltip="Action"&gt;Actions&lt;/LSTag&gt;, &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Actions&lt;/LSTag&gt;, or &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reactions&lt;/LSTag&gt;, and they are &lt;LSTag Tooltip="Vulnerable"&gt;Vulnerable&lt;/LSTag&gt; to Bludgeoning, Piercing, and Slashing damage.</content>
 
 	<content contentuid="hfc1de4e2g5ba7g498ag871fgdfb79598ac38" version="2">Gossamer Tomb</content>
-	<content contentuid="hdc46bc24g4b8ag4656gaae7g684cb71b3db0" version="6">Affected creature is paralyzed - completely entombed in &lt;LSTag Type="Status" Tooltip="SPIDER_INFESTATION"&gt;Infested&lt;/LSTag&gt; spider silk, and cannot move or take &lt;LSTag Tooltip="Action"&gt;Actions&lt;/LSTag&gt;, &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Actions&lt;/LSTag&gt;, or &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reactions&lt;/LSTag&gt;. Unless the silk is removed with Acid or Fire damage, it will explode, dealing [1] to the entombed creature.</content>
+	<content contentuid="hdc46bc24g4b8ag4656gaae7g684cb71b3db0" version="6">Affected creature is paralyzed - completely entombed in &lt;LSTag Type="Status" Tooltip="SPIDER_INFESTATION"&gt;Infested&lt;/LSTag&gt; spider silk, and cannot move or take &lt;LSTag Tooltip="Action"&gt;Actions&lt;/LSTag&gt;, &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Actions&lt;/LSTag&gt;, or &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reactions&lt;/LSTag&gt;. Unless the silk is removed with Acid or Fire damage, or by being &lt;LSTag Type="Spell" Tooltip="Target_Help"&gt;Helped&lt;/LSTag&gt;, it will explode, dealing [1] to the entombed creature.</content>
 
 	<content contentuid="h7c8ce380g0d56g4807gb60cg58e283b4ecdb" version="2">Vampire Ascendant</content>
 	<content contentuid="hf9a3c136gfa53g4170g9eeega20ced9c9111" version="4">Behold, the Vampire Ascendant! Thousands of souls have bought you power, granting you &lt;LSTag Type="Spell" Tooltip="Target_LOW_Astarion_VampireAscendant"&gt;Ascendant Bite&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Shout_LOW_MistyEscape_Astarion"&gt;Gaseous form&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;You also gain a +[1] bonus to all damage dealt.</content>

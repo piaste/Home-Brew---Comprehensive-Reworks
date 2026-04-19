@@ -277,7 +277,7 @@
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000c" version="1">&lt;LSTag Type="Spell" Tooltip="Target_JudgementCut"&gt;Judgement Cut&lt;/LSTag&gt; now targets creatures within [1] of your original target. In addition, &lt;LSTag Type="Spell" Tooltip="Target_MirageBlade"&gt;Mirage Blade&lt;/LSTag&gt; is now capable of targeting an additional creature. Finally, when dealing damage to an enemy with &lt;LSTag Type="Spell" Tooltip="Target_TemperedStrike"&gt;Tempered Strike&lt;/LSTag&gt;, you roll your damage with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
 
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500004" version="1">Unanswered Angle</content>
-	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000d" version="1">When dealing damage to an enemy with a weapon, you ignore all physical &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt;.</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000d" version="1">When dealing damage to an enemy or item with a weapon, you ignore all physical &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt;.</content>
 
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500005" version="1">Concentration</content>
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000e" version="1">Ending your turn without moving will restore one &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Point&lt;/LSTag&gt;.</content>
@@ -336,7 +336,7 @@
 	<content contentuid="4512454c8e254628bd4dc62ea243a2a00000k" version="6">Upon a successful killing blow against an enemy, restore one of your &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Points&lt;/LSTag&gt;. This effect can trigger once per turn.</content>
 
 	<content contentuid="4512454c8e254628bd4dc62ea243a2a000012" version="6">Mystic Strikes</content>
-	<content contentuid="4512454c8e254628bd4dc62ea243a2a00000l" version="6">When dealing damage, you ignore bludgeoning &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt;.</content>
+	<content contentuid="4512454c8e254628bd4dc62ea243a2a00000l" version="6">When dealing damage to an enemy or item, you ignore bludgeoning &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt;.</content>
 
 	<content contentuid="4512454c8e254628bd4dc62ea243a2a000013" version="6">Opportune Reversal</content>
 	<content contentuid="4512454c8e254628bd4dc62ea243a2a00000m" version="6">When an enemy fails to damage you with a &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attack&lt;/LSTag&gt;, use your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; in order to retaliate with a swift &lt;LSTag Type="Spell" Tooltip="Target_UnarmedStrike_Monk"&gt;Unarmed Strike&lt;/LSTag&gt;.</content>

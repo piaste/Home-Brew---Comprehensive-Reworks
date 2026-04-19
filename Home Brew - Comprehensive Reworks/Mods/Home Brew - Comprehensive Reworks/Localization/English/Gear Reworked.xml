@@ -1,33 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <contentList>
 
-<content contentuid="0000000000000000000000000000000000000" version="1">MISC TOOLTIPS</content>
-	<content contentuid="hc3051800g8d41g428fgb80ag9479e41d112d" version="2">Cannot use.</content>
-	<content contentuid="hc8e135e8ged19g44edgb738g567b239931ac" version="1">Cannot use.</content>
-	<content contentuid="hc8e135e8ged19g44edgb7a2sdf6s4d45fe85" loreTexts="true" version="1">This weapon may be consumed by a Weapon Master in order to permanently learn its unique action.</content>
-
-<content contentuid="0000000000000000000000000000000000000" version="1">CLASS PASSIVES NON STACKING TOOLTIP</content>
-	<content contentuid="h040f504dgc3fdg4ba6gb3ddg95b4a7e9a784" version="2">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Class Passives and Feats cannot stack with themselves through use of items.</content>
-
-<content contentuid="0000000000000000000000000000000000000" version="1">HAG HAIR EDIT</content>
-	<content contentuid="he3613a4egb36fg4e21g9b64gf28eb5ea79fd" version="1">You want to be stronger? Tougher? Smarter? Done! Anything is possible.</content>
-	<content contentuid="hb9985314gbdaeg43abgb09eg0ba62f84f450" version="1">Consuming this piece of fey flesh will alter your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt;. </content>
-	<content contentuid="h893ca8b9g6fb3g4becg8313gfad6a93c0ad7" version="1">Consuming this piece of fey flesh will alter your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt;.</content>
-	<content contentuid="h2613a90bg932fg4a04g9533ga8aa80ba3222" version="1">Consuming this piece of fey flesh will alter your &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt;.</content>
-	<content contentuid="hcd29882agc525g43a4gb69ag577fc554d421" version="1">Consuming this piece of fey flesh will alter your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;.</content>
-	<content contentuid="h066676b1gce7dg4bf5gbcd5g7ae30c97493e" version="1">Consuming this piece of fey flesh will alter your &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt;.</content>
-	<content contentuid="he0cd3c1cg3e22g4477g8804g00084266704a" version="1">Consuming this piece of fey flesh will alter your &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt;.</content>
-
-	<content contentuid="h1dcaeebcg9c5dg49dcg9e23g74d9056a4bd0" version="2">Trusting a Hag</content>
-	<content contentuid="h8c35f8f8gf36bg49f0gb846g32f6dd6f3cee" version="2">Trusting a Hag sure does have benefits, doesn't it?</content>
-
-<content contentuid="0000000000000000000000000000000000000" version="1">ATTUNEMENT INTEGRATION</content>
-	<content contentuid="hd3a156cc7fbf4a5c985eef63f0c2b99b55g3" version="1">Attunement</content>
-	<content contentuid="h98e3be41aead4b5bb8ee60104126ded4b17d" version="5">Determines your ability to equip magical items. The rarity of the item determines the amount of Attunement required to equip it, with each higher rarity costing more.&lt;br&gt;&lt;br&gt;Uncommon items require one point of Attunement.&lt;br&gt;&lt;br&gt;Rare items require two points of Attunement.&lt;br&gt;&lt;br&gt;Very Rare items require three points of Attunement.&lt;br&gt;&lt;br&gt;Legendary items require four points of Attunement.</content>
-
-	<content contentuid="h9328bdc1gcc66g4369g91f3gf3568b1c5133" version="1">Wyvern Toxin</content>
-	<content contentuid="h057011f1g48a4g48b2g85daga04e5026f87d" version="2">Affected entity takes [1] at the start of its next turn.</content>
-
 <content contentuid="0000000000000000000000000000000000000" version="1">ARROWS</content>
 	<content contentuid="he2f3af0ag21d0g40efg833bg12f5032eba13" version="1">Arrow of Aberration Slaying</content>
 	<content contentuid="h2f9cb0f3ge068g493egafd3g3d752f9cc7d0" version="5">Fire an arrow which rolls an additional damage die against Aberrations.</content>
@@ -107,6 +80,14 @@
 	<content contentuid="hc8088769g3a9ag439fg906cg148133ad098c" version="1">Arrow of Undead Slaying</content>
 	<content contentuid="h85fe6bc7gf51cg4013g8340ge67827c71da0" version="5">Fire an arrow which rolls an additional damage die against Undead.</content>
 
+<content contentuid="0000000000000000000000000000000000000" version="1">ATTUNEMENT</content>
+	<content contentuid="hd3a156cc7fbf4a5c985eef63f0c2b99b55g3" version="1">Attunement</content>
+	<content contentuid="h98e3be41aead4b5bb8ee60104126ded4b17d" version="5">Determines your ability to equip magical items. The rarity of the item determines the amount of Attunement required to equip it, with each higher rarity costing more.&lt;br&gt;&lt;br&gt;Uncommon items require one point of Attunement.&lt;br&gt;&lt;br&gt;Rare items require two points of Attunement.&lt;br&gt;&lt;br&gt;Very Rare items require three points of Attunement.&lt;br&gt;&lt;br&gt;Legendary items require four points of Attunement.</content>
+
+<content contentuid="0000000000000000000000000000000000000" version="1">COATINGS</content>
+	<content contentuid="h9328bdc1gcc66g4369g91f3gf3568b1c5133" version="1">Wyvern Toxin</content>
+	<content contentuid="h057011f1g48a4g48b2g85daga04e5026f87d" version="2">Affected entity takes [1] at the start of its next turn.</content>
+
 <content contentuid="0000000000000000000000000000000000000" version="1">GRENADES</content>
 	<content contentuid="hdc8a91deg015dg45ceg8d80g241d74ae227e" version="1">Acid Vial</content>
 	<content contentuid="hbb61911fg1ef9g499fg81c9g7faa0889a910" version="3">Hurl an acid vial that explodes on impact, coating the the ground and all creatures in &lt;LSTag Type="Status" Tooltip="ACID"&gt;Acid&lt;/LSTag&gt;.</content>
@@ -125,10 +106,10 @@
 	<content contentuid="hdabeeeabg6ff2g41f7ga621g29af93483047" version="1">Deals damage to nearby creatures and objects, knocking them back.</content>
 
 	<content contentuid="he0b246f2g5db2g4fb3g9b00gsdfsdf48d4f1" version="1">Hag's Orb of Flame</content>
-	<content contentuid="h568f6bb9g9b54g4c28g9909gbasd8f4d585d" version="2">Hurl an orb of slime that explodes on impact, magically &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burning&lt;/LSTag&gt; the ground and all creatures. These flames will never expire on their own.</content>
+	<content contentuid="h568f6bb9g9b54g4c28g9909gbasd8f4d585d" version="2">Hurl an orb of slime that explodes on impact, magically &lt;LSTag Type="Status" Tooltip="BURNING_LAVA"&gt;Melting&lt;/LSTag&gt; the ground and all creatures. This heat will never expire on it's own.</content>
 
 	<content contentuid="hb813d87agc78eg4649gaadag1dbd56d28851" version="1">Hag's Orb of Poison</content>
-	<content contentuid="h568f6bb9g9b54g4c28g9909gbasd8f4d585e" version="2">Hurl an orb of slime that explodes on impact, creating a cloud that magically &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisons&lt;/LSTag&gt; all creatures. This poison will never expire on its own.</content>
+	<content contentuid="h568f6bb9g9b54g4c28g9909gbasd8f4d585e" version="2">Hurl an orb of slime that explodes on impact, inflicting an &lt;LSTag Type="Status" Tooltip="HAG_WELL_BAD"&gt;Intense Nausea&lt;/LSTag&gt; on your target.</content>
 
 	<content contentuid="h810c0dc1g6efeg4c70ga03fg4dbe76e35de3" version="4">Flashblinder</content>
 	<content contentuid="h896262dcge3c4g4f82g9341g721bdc1905ca" version="3">Fling a Flashblinder bomb that &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinds&lt;/LSTag&gt; creatures. If the targeted creature is a Steel Watcher, it becomes &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stunned&lt;/LSTag&gt;, and suffers a -1d4 penalty to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
@@ -157,21 +138,22 @@
 
 	<content contentuid="h8ce0e24cgb5c8g4140gbd31g274d62cd0548" version="1">Applies a condition that reflects all incoming projectiles back at their source.</content>
 
-<content contentuid="0000000000000000000000000000000000000" version="1">EDIT TENACITY DESC</content>
-	<content contentuid="h141b89fdgbd46g44a4g8b6fg39a9c72a3bed" version="2">Overwhelm</content>
-	<content contentuid="hee4cc52cg793cg4dc6g81fbgead2a4da91b5" version="3">Upon making a &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attack&lt;/LSTag&gt;, deal additional damage to your target equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; multiplied by two. This additional damage is still dealt even when you miss.</content>
+<content contentuid="0000000000000000000000000000000000000" version="1">HAG HAIR</content>
+	<content contentuid="he3613a4egb36fg4e21g9b64gf28eb5ea79fd" version="1">You want to be stronger? Tougher? Smarter? Done! Anything is possible.</content>
+	<content contentuid="hb9985314gbdaeg43abgb09eg0ba62f84f450" version="1">Consuming this piece of fey flesh will alter your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt;. </content>
+	<content contentuid="h893ca8b9g6fb3g4becg8313gfad6a93c0ad7" version="1">Consuming this piece of fey flesh will alter your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt;.</content>
+	<content contentuid="h2613a90bg932fg4a04g9533ga8aa80ba3222" version="1">Consuming this piece of fey flesh will alter your &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt;.</content>
+	<content contentuid="hcd29882agc525g43a4gb69ag577fc554d421" version="1">Consuming this piece of fey flesh will alter your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;.</content>
+	<content contentuid="h066676b1gce7dg4bf5gbcd5g7ae30c97493e" version="1">Consuming this piece of fey flesh will alter your &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt;.</content>
+	<content contentuid="he0cd3c1cg3e22g4477g8804g00084266704a" version="1">Consuming this piece of fey flesh will alter your &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt;.</content>
+	<content contentuid="h1dcaeebcg9c5dg49dcg9e23g74d9056a4bd0" version="2">Trusting a Hag</content>
+	<content contentuid="h8c35f8f8gf36bg49f0gb846g32f6dd6f3cee" version="2">Trusting a Hag sure does have benefits, doesn't it?</content>
 
-<content contentuid="0000000000000000000000000000000000000" version="1">NATURAL FIT</content>
-	<content contentuid="h7f0e20a8g47c3g4b55g97b7gccb6bed4a545" version="2">Natural Fit</content>
-	<content contentuid="h38489231gcd0eg4f03gbfa2g50c81839a978" version="3">This armour allows you to add the entirety of your &lt;LSTag Tooltip="AbilityModifier"&gt;Dexterity Modifier&lt;/LSTag&gt; to your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;.</content>
-
-<content contentuid="0000000000000000000000000000000000000" version="1">HEAVY HANDED</content>
-	<content contentuid="h141b89fdgbd46g44a4g8b6fg39a9c729a454" version="2">Heavy Handed</content>
-	<content contentuid="hee4cc52cg793cg4dc6g81fbgead2a4d93iid" version="3">Wielding a shield causes you to roll all Dexterity based &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt; with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
-
-<content contentuid="0000000000000000000000000000000000000" version="1">HEAVY FRAME</content>
-	<content contentuid="h141b89fdgbd46g44a4g8b6fg39a9c7245422" version="2">Heavy Frame</content>
-	<content contentuid="hee4cc52cg793cg4dc6g81fbgead2a4daaa97" version="3">Wearing heavy armour causes you to roll all Dexterity based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
+<content contentuid="0000000000000000000000000000000000000" version="1">MISC</content>
+	<content contentuid="hc3051800g8d41g428fgb80ag9479e41d112d" version="2">Cannot use.</content>
+	<content contentuid="hc8e135e8ged19g44edgb738g567b239931ac" version="1">Cannot use.</content>
+	<content contentuid="hc8e135e8ged19g44edgb7a2sdf6s4d45fe85" version="1">This weapon may be consumed by a Frontier Knight in order to permanently learn its unique action.</content>
+	<content contentuid="h040f504dgc3fdg4ba6gb3ddg95b4a7e9a784" version="2">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Class Passives and Feats cannot stack with themselves through use of items.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">DOLOR AMARUS</content>
 	<content contentuid="h14bb2ed0gfdfcg41d1g8f4fg7616054f5657" version="2">Dolor Amarus</content>
@@ -299,10 +281,6 @@
 	<content contentuid="h5d2ad051g524cg4307gb74cge8ss645df65d" version="2">Bloodborne</content>
 	<content contentuid="h03946d5bg81a1g4ec9gb7aas65df648d9485" version="4">&lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made against &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleeding&lt;/LSTag&gt; targets with this weapon are rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
 
-<content contentuid="0000000000000000000000000000000000000" version="1">TITANSTRING BOW</content>
-	<content contentuid="h5d2ad051g524cg4307gb74cge85e1245e5f0" version="2">Titan Weapon</content>
-	<content contentuid="h03946d5bg81a1g4ec9gb7a2g1e6167466678" version="4">This weapon deals additional damage equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Strength Modifier&lt;/LSTag&gt;, if positive. You also add your Strength Modifier to all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made with this weapon.</content>
-
 <content contentuid="0000000000000000000000000000000000000" version="1">ABYSS BECKONERS</content>
 	<content contentuid="h37507dfdg7da6g467fga0afgd4b3653e3e8d" version="2">Demonspirit Aura</content>
 	<content contentuid="haf729777g05f6g4813ga134gfbfb0694b4f6" version="5">The wearers summoned creatures have &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to all damage.</content>
@@ -371,7 +349,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">RUPTURING BLADE</content>
 	<content contentuid="h12c68a5cg0abfg4511g82f2g974c71f2a121" version="2">Searing Blood</content>
-	<content contentuid="hedaef3c9g5466g447cg9074g6c444507c85a" version="2">Cut into an enemy, dealing an additional [1] and causing them to &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burn&lt;/LSTag&gt; indefinitely.</content>
+	<content contentuid="hedaef3c9g5466g447cg9074g6c444507c85a" version="2">Cut into an enemy, dealing an additional [1] and causing them to &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burn&lt;/LSTag&gt;.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">LINEBREAKER BOOTS</content>
 	<content contentuid="66706bd4b60a4ca88b703f3fc04225d68554d" version="1">Linebreaker</content>
@@ -445,7 +423,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">FIRESTOKER</content>
 	<content contentuid="h90f4b5f1g8abcg4d4cg8927g8e45439b4d93" version="2">Burned Alive</content>
-	<content contentuid="h4c557879g3069g4d79gb276g9c441e08965d" version="2">Dealing damage with this weapon has the potential to &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burn&lt;/LSTag&gt; enemies for three turns. This weapon deals an additional [1] to Burning targets.</content>
+	<content contentuid="h4c557879g3069g4d79gb276g9c441e08965d" version="2">Dealing damage with this weapon has the potential to &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burn&lt;/LSTag&gt; enemies for one turn. This weapon deals an additional [1] to Burning targets.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">DARK JUSTICIAR HELM</content>
 	<content contentuid="h4a6583d8gcfb0g43fag939eg292d1a6667d2" version="1">Swathed in Shadow</content>
@@ -570,8 +548,6 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">GLOVES OF HAIL OF THORNS</content>
 	<content contentuid="he32b12d4g39f6g48edgac83gc0e56ab3b8dc" version="3">Gloves of Thorns</content>
 	<content contentuid="h67b2e826g9777g4c0eg8817gf53e0186e355" version="2">Whoever previously owned these gloves marked each with a series of thirty superficial scrapes, six per finger. What they indicate is unclear.&lt;/i&gt; </content>
-	<content contentuid="h416d4ca9gedbcg43begaac9g68de768739e8" version="2">Infernal Retribution</content>
-	<content contentuid="hfc8d126dgb4ebg443bg8a5dg19f21cc70e32" version="5">When struck by a melee attack, your aggressor will take [1].</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">HELLDUSK ARMOUR</content>
 	<content contentuid="h416d4ca9gedbcg43begaac9g68226d5885d4" version="2">Hellflame's Retaliation</content>
@@ -603,7 +579,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">MOURNING FROST</content>
 	<content contentuid="he93a29eag81eeg443ag9c1cgf090434954be" version="2">Heart of Ice</content>
-	<content contentuid="h65727509g07b2g4c4bg8f32g6c7e48b8c476" version="2">When dealing Cold as your primary source of damage, the wielder deals an additional [1]. All Cold based damage rolls are rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; and ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt;.</content>
+	<content contentuid="h65727509g07b2g4c4bg8f32g6c7e48b8c476" version="2">When dealing Cold as your primary source of damage, the wielder deals an additional [1]. All Cold based damage rolls are rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; and ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; when dealing damage to an enemy or item.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">MAGICAL HAND CROSSBOW</content>
 	<content contentuid="h409a130eg0873g41b9gbee5g1142c6cc85a5" version="1">Cunning Combo</content>
@@ -674,7 +650,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">POISONERS GLOVES</content>
 	<content contentuid="h652a00afg4653g4a9dgb61bg05bc6c287845" version="2">Envenom</content>
-	<content contentuid="h5df07e65gf294g4854gbe83g4f8594997899" version="7">Whenever you deal Poison damage, the target may potentially become &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisoned&lt;/LSTag&gt; for three turns.</content>
+	<content contentuid="h5df07e65gf294g4854gbe83g4f8594997899" version="7">Whenever you deal Poison damage, the target may potentially become &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisoned&lt;/LSTag&gt; for one turn.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">RING OF SHADOWS</content>
 	<content contentuid="h652a00afg4653g4a9dgb61bg05bc6c25f174" version="2">Shade Swept</content>
@@ -787,7 +763,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">HELLFIRE HAND CROSSBOW</content>
 	<content contentuid="h6be57554g7c70g4a43ga368geff5984a9024" version="1">Hellstalker</content>
-	<content contentuid="hca2fd184ge17fg4db4g8bcbgb4ec9a4375e4" version="2">Inflict &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burning&lt;/LSTag&gt; for three turns when damaging a creature with this weapon.</content>
+	<content contentuid="hca2fd184ge17fg4db4g8bcbgb4ec9a4375e4" version="2">Inflict &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burning&lt;/LSTag&gt; for one turn when damaging a creature with this weapon.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">ABSOLUTES PROTECTOR</content>
 	<content contentuid="he226a345g3586g4cb9g9ac2gc914caeab8e0" version="3">Absolute's Aegis</content>
@@ -799,7 +775,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">CIRCLET OF MENTAL ANGUISH</content>
 	<content contentuid="hc53d2398ga5eag4000g97fbg3e924cdfee75" version="2">Psychic Leech</content>
-	<content contentuid="h7664542ag459dg496bgb71fgef11c1df0270" version="6">When an enemy fails a Intelligence, Wisdom, or Charisma based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; against one of your Spells or &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt;, you regain [1].</content>
+	<content contentuid="h7664542ag459dg496bgb71fgef11c1df0270" version="6">When an enemy fails a Intelligence, Wisdom, or Charisma based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; against one of your Spells or &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt;, you regain [1]. No effect on Spells and Cantrips which deal damage thorugh making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">BRAINDRAIN GLOVES</content>
 	<content contentuid="h88f19151g080fg4fabgbd15g14dad3782bba" version="2">Mental Interference</content>
@@ -823,7 +799,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">ADAMANTINE MACE</content>
 	<content contentuid="h226b6cacgc1a7g451fg9c98g30e3b761fcdc" version="1">Lethal Weapon</content>
-	<content contentuid="h484ad669gd0d2g4ac1g8b26g4139664ff70b" version="2">This weapon ignores Slashing &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt;.</content>
+	<content contentuid="h484ad669gd0d2g4ac1g8b26g4139664ff70b" version="2">This weapon ignores Slashing &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; when dealing damage to an enemy or item.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">ARMOUR OF UNINHIBITED KUSHIGO</content>
 	<content contentuid="hf133988eg587dg437fg8a04g652df85fa40e" version="2">Kushigo Counter</content>
@@ -994,11 +970,11 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">GLOOMSTRAND SHIELD</content>
 	<content contentuid="d3e15e63749c4b62b8e7760cca5s4d6f45254" version="2">A Devil In Darkness</content>
-	<content contentuid="d3e15e63749c4b62b8e7760cc7076s4df98se" version="4">While &lt;LSTag Type="Status" Tooltip="SNEAKING_HEAVILY_OBSCURED"&gt;Heavily Obscured&lt;/LSTag&gt;, you ignore all physical based &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt;.</content>
+	<content contentuid="d3e15e63749c4b62b8e7760cc7076s4df98se" version="4">While &lt;LSTag Type="Status" Tooltip="SNEAKING_HEAVILY_OBSCURED"&gt;Heavily Obscured&lt;/LSTag&gt;, you ignore all physical based &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; when dealing damage to an enemy or item.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">SHIFTING CORPUS RING</content>
 	<content contentuid="d3e15e63749c4b62b8e7760cca5s4asdf5e25" version="2">Elemental Corpus</content>
-	<content contentuid="d3e15e63749c4b62b8e7760cc706sdf48e598" version="4">While &lt;LSTag Type="Status" Tooltip="SNEAKING_HEAVILY_OBSCURED"&gt;Heavily Obscured&lt;/LSTag&gt;, you ignore all elemental based &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt;.</content>
+	<content contentuid="d3e15e63749c4b62b8e7760cc706sdf48e598" version="4">While &lt;LSTag Type="Status" Tooltip="SNEAKING_HEAVILY_OBSCURED"&gt;Heavily Obscured&lt;/LSTag&gt;, you ignore all elemental based &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; when dealing damage to an enemy or item.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">SWORDMASTER GLOVES</content>
 	<content contentuid="h0445cfe5g6a60g48e4g84d4g95928d3674f0" version="3">Sword Mastery</content>
@@ -1278,7 +1254,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">GOLD WYRMLING STAFF</content>
 	<content contentuid="h2e6fa769g18f6g4563gbd32g7432dd2d66f5" version="1">Wyrmling's Breath</content>
-	<content contentuid="he337f1fcg5a97g4d5bg8549g223css6d9887" version="3">Dealing damage with this weapon has a chance to &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burn&lt;/LSTag&gt; your target for three turns.</content>
+	<content contentuid="he337f1fcg5a97g4d5bg8549g223css6d9887" version="3">Dealing damage with this weapon has a chance to &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burn&lt;/LSTag&gt; your target for one turn.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">HAMMER OF THE JUST</content>
 	<content contentuid="h81c05b30g45acg4903g8514gd7f0980adf88" version="2">Destroy the Wicked</content>
@@ -1286,7 +1262,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">KURWIN'S CAUTERISER</content>
 	<content contentuid="hbc228ac0gd7e8g4338g885eg563538390696" version="2">Cauteriser</content>
-	<content contentuid="h4060707fg3939g4f92gbed7g0fe2d8003d8c" version="4">Upon dealing damage, the target &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burns&lt;/LSTag&gt; for three turns.</content>
+	<content contentuid="h4060707fg3939g4f92gbed7g0fe2d8003d8c" version="4">Upon dealing damage, the target &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burns&lt;/LSTag&gt; for one turn.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">ARMOUR OF PERSISTENCE</content>
 	<content contentuid="hcfac9774g6a1cg4135gb384gdbd09af2c6df" version="1">Legendary Persistence</content>
@@ -1751,18 +1727,12 @@
 	<content contentuid="hfbb93055gaca7g45f3gbddaga9a909674948" version="3">Affected creature's has a +[1] bonus to it's next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">IDOL OF SELUNE</content>
-	<content contentuid="da064a39b0974e78af15ca44211c8ccd00001" version="2">Moon-Maiden's Guidance</content>
-	<content contentuid="da064a39b0974e78af15ca44211c8ccd0000a" version="6">Affected creature is protected within the Shadow Curse.</content>
 	<content contentuid="h90d0e046gb518g46c1gb669g9516da84881f" version="2">A statue of Selûne, Lady of Silver, the Moonmaiden. Just holding this statue seems to ward off feelings of an encroaching shadow...</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">IDOL OF SHAR</content>
-	<content contentuid="da064a39b0974e78af15ca44211c8ccd00002" version="2">Lady of Loss' Vision</content>
-	<content contentuid="da064a39b0974e78af15ca44211c8ccd0000b" version="6">Affected creature is able to see normally in darkness, both magical and non-magical, to a distance of [1].</content>
 	<content contentuid="haf055d2fgf19ag4982g99afg62dbbd988027" version="3">Carved from black marble, this effigy is as terrible and perfect as the Lady of Loss herself. Just holding this statue seems to give one feelins of ease within darkness...</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">IDOL OF SYLVANUS</content>
-	<content contentuid="da064a39b0974e78af15ca44211c8ccd00003" version="2">Grove Father's Diplomacy</content>
-	<content contentuid="da064a39b0974e78af15ca44211c8ccd0000c" version="6">Affected creature can comprehend and communicate with beasts.</content>
 	<content contentuid="h664c60a6ga05ag4521gb393g5c3298e7bfde" version="1">A stone statue of Silvanus, the Oak Father, god of nature and its impartial fairness. Just holding this statue seems to provide one a deep understanding of nature...</content>
 	<content contentuid="ha7198ddfgdcb7g4492gb9d3g68946c916429" version="1">A stone statue of Silvanus, the Oak Father, god of nature and its impartial fairness. Just holding this statue seems to provide one a deep understanding of nature...</content>
 
@@ -2238,7 +2208,6 @@
 	<content contentuid="h8e871668gd6a4g480agb654g1a8f1a97f553" version="1">A crude a simple token made of painted wood dedicated to The Crying God.</content>
 	<content contentuid="hf20fa9e6g2e6fg4c41g9558g2385e2ff3148" version="1">Ilmater's Mercy</content>
 	<content contentuid="hb7d81a93gabf3g4d41gb4a5g26912e01f0e7" version="1">Healing another creature grants them &lt;LSTag Type="Status" Tooltip="JWL_Status_SymbolIlmater"&gt;Ilmater's Preservation&lt;/LSTag&gt; for 3 turns.</content>
-	<content contentuid="he70e5d81g1fa0g4991g8621g06ae522c1aec" version="1">Effected creature swells with radiant stability. Only a hit that deals at least [1] damage can damage it.</content>
 
 	<content contentuid="h607cb9b3g9628g4c33ga19dgcb768b1f493e" version="1">Holy Symbol of Correlon Larethian</content>
 	<content contentuid="h8e2a987ag05bfg42d0gaa19gbff4c1e8c994" version="1">A small pin, meant to be worn on the chest, dedicated to the elven god of art and magic.</content>

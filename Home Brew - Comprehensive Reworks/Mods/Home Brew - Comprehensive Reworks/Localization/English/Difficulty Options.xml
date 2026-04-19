@@ -72,6 +72,7 @@ Honoured Adventurers:
 - Mako
 - Annoynamous72z
 - Kaiser Karry, Champion of Lightning
+- Neem
 	</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">MYTHIC DIFFICULTY</content>
@@ -91,7 +92,7 @@ See the tutorial menu for info on Mythic changes.</content>
 	<content contentuid="957ba11249774ae19941f337058395be00001" version="4">Mythic: Dangerous Encounter</content>
 	<content contentuid="957ba11249774ae19941f337058395be0000a" version="4">This creature has a +[1] bonus to the first &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; it makes each round. In addition, upon &lt;LSTag Tooltip="Downed"&gt;Downing&lt;/LSTag&gt; a member of your party, the Downed party member will receive an additional stack of Exhaustion and Stress.</content>
 	<content contentuid="957ba11249774ae19941f337058395be00002" version="4">Mythic: Fatal Encounter</content>
-	<content contentuid="957ba11249774ae19941f337058395be0000b" version="4">This creature has a +[1] bonus to the first three &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; it makes each round. In addition, upon &lt;LSTag Tooltip="Downed"&gt;Downing&lt;/LSTag&gt; a member of your party, the Downed party member will immediately die.</content>
+	<content contentuid="957ba11249774ae19941f337058395be0000b" version="4">This creature has a +[1] bonus to the first three &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; it makes each round. In addition, upon &lt;LSTag Tooltip="Downed"&gt;Downing&lt;/LSTag&gt; a member of your party, the Downed party member will immediately die.</content>
 
 	<content contentuid="957ba11249774ae19941f337058395be000z1" version="4">Mythic: Lesser Resistance</content>
 	<content contentuid="957ba11249774ae19941f337058395be000za" version="4">Affected creature has a +[1] bonus to the first &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; it makes each round.</content>

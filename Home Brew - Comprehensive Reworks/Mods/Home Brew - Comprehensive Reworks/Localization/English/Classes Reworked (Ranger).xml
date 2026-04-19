@@ -171,7 +171,7 @@
 	<content contentuid="h20b19b1bg5da3g41d4g901bgd1d616a87715" version="2">When damaging a target you are currently &lt;LSTag Type="Status" Tooltip="HUNTED"&gt;Hunting&lt;/LSTag&gt;, you gain a bonus to all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; equal to the amount of stacks they have remaining.</content>
 
 	<content contentuid="h4d476cb8gfa45g4f4cga9d1gd0b109e9f9a2" version="2">On the Hunt</content>
-	<content contentuid="h20b19b1bg5da3g41d4g901bgd1d613fe8115" version="2">When damaging a target you are currently &lt;LSTag Type="Status" Tooltip="HUNTED"&gt;Hunting&lt;/LSTag&gt;, you roll your damage dice with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; and ignore all forms of physical &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt;.</content>
+	<content contentuid="h20b19b1bg5da3g41d4g901bgd1d613fe8115" version="2">When damaging a target you are currently &lt;LSTag Type="Status" Tooltip="HUNTED"&gt;Hunting&lt;/LSTag&gt;, you roll your damage dice with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. In addition, you ignore all forms of physical &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; when dealing damage to an enemy or item.</content>
 
 	<content contentuid="h4d476cb8gfa45g4f4cga9d13w5e6f5sef21e" version="2">Twinned Strikes</content>
 	<content contentuid="h20b19b1bg5da3g41d4g9015se46f5s4e6f8d" version="2">When making a weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, you may select two targets instead of one.</content>
@@ -365,7 +365,7 @@
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d10000d" version="2">You no longer provoke &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt;.</content>
 
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d100008" version="4">Explosive Arrowheads</content>
-	<content contentuid="791a0319eeed4e25949847ad3a0dd1d10000h" version="4">When you deal damage with a ranged weapon, you deal Force damage equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; multiplied by 2 in a [1] area. This can be toggled at any time.</content>
+	<content contentuid="791a0319eeed4e25949847ad3a0dd1d10000h" version="4">When you deal damage with a ranged weapon, you deal Force damage equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; multiplied by 2 in a [1] area. This damage is fixed and cannot be increased. This can be toggled at any time.</content>
 
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d100006" version="4">Hidden Inventory</content>
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d10000f" version="4">Once per turn, upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on an enemy, restore one charge of your &lt;LSTag Type="ActionResource" Tooltip="NaturalRecoveryPoint"&gt;Natural Focus&lt;/LSTag&gt;.</content>
@@ -393,7 +393,7 @@
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d10000p" version="4">When dealing damage to another creature with a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt;, deal an additional instance of [1] for every [2] between you and your target, up to a maximum of [3].</content>
 
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d100017" version="4">Superior Technique</content>
-	<content contentuid="791a0319eeed4e25949847ad3a0dd1d10000q" version="4">When dealing damage, you ignore Piercing &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt;.</content>
+	<content contentuid="791a0319eeed4e25949847ad3a0dd1d10000q" version="4">When dealing damage to an enemy or item, you ignore Piercing &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt;.</content>
 
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d100018" version="4">Sure Shot</content>
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d10000r" version="4">The number needed to land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; while making a weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; is reduced by 1.</content>

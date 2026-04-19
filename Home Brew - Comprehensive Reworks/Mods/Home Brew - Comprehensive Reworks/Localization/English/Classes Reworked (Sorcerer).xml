@@ -11,7 +11,7 @@
 	<content contentuid="h579c4854g5d33g44a4ga2d7ga8226s3d5584" version="6">Creationary</content>
 	<content contentuid="h291fdebdgb520g4fa0g90c0gca26s9d5f885" version="1">When a Spell is cast within [1] of you, you may store the arcane energy as &lt;LSTag Type="Status" Tooltip="SORCEROUS_OVERFLOW"&gt;Sorcerous Overflow&lt;/LSTag&gt;. The Spell cast must cost a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; in order to do so. Upon reaching three stacks of Sorcerous Overflow, you gain a &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Point&lt;/LSTag&gt;.</content>
 	<content contentuid="hb117050dg0016g4833g87f03s2df6s846fdf" version="6">Sorcerous Overflow</content>
-	<content contentuid="h893450deg4af3g43f4gaasdf9498984d568d" version="1">Affected creature is storing residual arcane energy. They will create a &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Point&lt;/LSTag&gt; upon reaching three stacks of Sorcerous Overflow.</content>
+	<content contentuid="h893450deg4af3g43f4gaasdf9498984d568d" version="1">Affected creature is storing residual arcane energy. They will create a &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Point&lt;/LSTag&gt; upon reaching three stacks of Sorcerous Overflow.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Upon reaching three or more stacks of Sorcerous Overflow, the amount of stacks is immediately reset to zero.</content>
 
 	<content contentuid="63fa01e411fe4ccab69ded74223655e900000" version="1">Sorcery Channeling</content>
 	<content contentuid="63fa01e411fe4ccab69ded74223655e90000z" version="1">Spend &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slots&lt;/LSTag&gt; to gain &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Points&lt;/LSTag&gt;. You may have up to 24 Sorcery Points at any given time.</content>
@@ -258,7 +258,7 @@
 	<content contentuid="h6cc6b6fega327g411ag9b33g098e0c8636b1" loreTexts="true" version="3">You burn with an inner link to the Undying Pyre, its heat arduous to control and impossible to quench.</content>
 
 	<content contentuid="h14011b40g647cg4560g8a71g0ddec16c4753" version="2">Magmatic</content>
-	<content contentuid="h476f70abgabb6g4b83g9c5dg0c73cbe34904" version="14">When dealing damage, you ignore Fire based &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt;. At the start of each of your turns, and upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, you generate one stack of &lt;LSTag Type="Status" Tooltip="MAG_FIRE_HEAT"&gt;Heat&lt;/LSTag&gt;.</content>
+	<content contentuid="h476f70abgabb6g4b83g9c5dg0c73cbe34904" version="14">When dealing damage to an enemy or item, you ignore Fire based &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt;. At the start of each of your turns, and upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, you generate one stack of &lt;LSTag Type="Status" Tooltip="MAG_FIRE_HEAT"&gt;Heat&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h74aaf9a2g8faag4fb3gb244g4bb2470fb648" loreTexts="true" version="2">Pyric Retort</content>
 	<content contentuid="hc277c521g31b6g4c21gb01ag7d599d569e7e" loreTexts="true"  version="2">When an ally is about to be damaged, you may expend one stack of &lt;LSTag Type="Status" Tooltip="MAG_FIRE_HEAT"&gt;Heat&lt;/LSTag&gt; in order to fire a &lt;LSTag Type="Spell" Tooltip="Projectile_PyrrhicFlare"&gt;Pyric Flare&lt;/LSTag&gt; at their aggressor. In addition, killing a &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burning&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="BURNING_LAVA"&gt;Melting&lt;/LSTag&gt; enemy will generate one &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Point&lt;/LSTag&gt;.</content>
@@ -268,7 +268,9 @@
 	<content contentuid="hc277c521g31b6g4c21gb01ag7d599d56d8f9" loreTexts="true"  version="2">A flare so hot that upon landing, one might confuse the result with a small area of magma.</content>
 
 	<content contentuid="h4ce8f1b2ga05eg462cg9504gadc745415456" version="3">Singe Song</content>
-	<content contentuid="h68bbe23dg8336g4c12g917dgbf9c5ac97845" loreTexts="true"  version="2">You gain &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to Fire damage. Upon dealing Fire damage while you possess stacks of &lt;LSTag Type="Status" Tooltip="MAG_FIRE_HEAT"&gt;Heat&lt;/LSTag&gt;, you fire a &lt;LSTag Type="Spell" Tooltip="Projectile_PyrrhicFlare"&gt;Pyric Flare&lt;/LSTag&gt; at another enemy within [1] of your target.&lt;br&gt;&lt;br&gt;Each Pyric Flare fired will reduce your Heat stacks by 1, and each enemy may only be targeted by a Pyric Flare if they are not &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burning&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="BURNING_LAVA"&gt;Melting&lt;/LSTag&gt;. This can be toggled at any time.</content>
+	<content contentuid="h68bbe23dg8336g4c12g917dgbf9c5ac97845" loreTexts="true"  version="2">You gain &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to Fire damage. Upon dealing Fire damage while you possess stacks of &lt;LSTag Type="Status" Tooltip="MAG_FIRE_HEAT"&gt;Heat&lt;/LSTag&gt;, you fire a &lt;LSTag Type="Spell" Tooltip="Projectile_PyrrhicFlare"&gt;Flickering Pyric Flare&lt;/LSTag&gt; at another enemy within [1] of your target.&lt;br&gt;&lt;br&gt;Each Pyric Flare fired will reduce your Heat stacks by 1, and each enemy may only be targeted by a Pyric Flare if they are not &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burning&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="BURNING_LAVA"&gt;Melting&lt;/LSTag&gt;. This can be toggled at any time.</content>
+	<content contentuid="h74aaf9a2g8faag4fb3gb244g4bb2422weakr" version="2">Flickering Pyric Flare</content>
+	<content contentuid="hc277c521g31b6g4c21gb01ag7d599d5weakr" version="2">A flickering flare, still exceptionally hot to the touch.</content>
 
 	<content contentuid="hdd253f93g3119g4c14g9dadgcd0ae3d3d655" version="1">Volcanic Eruption</content>
 	<content contentuid="h4099049ag1c50g49fegb46fg8a5919w5d888" version="1">Once per combat encounter, you may immediately erupt, creating a [1] pool of lava beneath the feet of all enemies within [2] of you.</content>
@@ -360,7 +362,7 @@
     <content contentuid="f29e1f76-9c88-4dee-9923-81e924388937" version="1">&lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt; that deal damage deal the maximum amount of damage possible.&lt;br&gt;&lt;br&gt;Costs 2 &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Points&lt;/LSTag&gt; per cast.</content>
 	
     <content contentuid="689cae2f-e4ff-44cc-84ce-180aa6727a03" version="1">Metamagic: Piercing Spell</content>
-    <content contentuid="259166d2-1d55-416e-82f8-20a96e4d4467" version="1">Spells and &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt; that deal damage ignore all &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Costs [1] &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Points&lt;/LSTag&gt; per cast.</content>
+    <content contentuid="259166d2-1d55-416e-82f8-20a96e4d4467" version="1">Spells and &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt; that deal damage to an enemy or item ignore all &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Costs [1] &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Points&lt;/LSTag&gt; per cast.</content>
 
 	<content contentuid="h2a4fba9dg0b06g4e44ga7b4gbd11d93de433" version="1">Metamagic: Quickened Spell</content>
 	<content contentuid="h7a4aed26ga038g4775g885ag81cc91f418ac" version="1">Quickened Spell</content>
@@ -389,7 +391,6 @@
 	<content contentuid="h8c9f627fgff0ag4f0bgab3dg2f1e75e85e4b" version="1">Metamagic: Twinned Spell</content>
 	<content contentuid="h8d567697g1843g4bdcga303g744782e3c803" version="1">Twinned Spell</content>
 	<content contentuid="hf96ed50cg50d3g4ce9g87bbg295a0910065f" version="2">Spells and &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt; that only target one creature can now target an additional creature.&lt;br&gt;&lt;br&gt;Costs [1] &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Points&lt;/LSTag&gt; per level of &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; used. Cantrips cost 2 Sorcery Points.</content>
-	<content contentuid="h7f172d6cg6359g4158gb711gcd159662cc53" version="1">For Spells that don't fire a projectile, the targets need to be within [1] of each other.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">PASSIVES</content>
 

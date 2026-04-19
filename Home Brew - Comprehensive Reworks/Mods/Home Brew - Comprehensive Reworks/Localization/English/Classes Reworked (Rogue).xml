@@ -79,7 +79,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">ASSASSIN</content>
 
 	<content contentuid="h653597fcg1942g4ce1gaefag1ecf2fa01d4b" version="1">Assassinate</content>
-	<content contentuid="h853b555ege835g49e1g9e27g74680e24aef5" version="4">You immediately restore your &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt; and &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; at the beginning of combat and have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; when attacking targets who have not taken a turn yet.&lt;br&gt;&lt;br&gt;Outside of combat, while &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Sneaking&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt;, any successful &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; you make deals an additonal 6 damage multiplied by your level. The type of damage dealt is the same as your main-hand melee weapon.</content>
+	<content contentuid="h853b555ege835g49e1g9e27g74680e24aef5" version="4">You immediately restore your &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt; and &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; at the beginning of combat and have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; when attacking targets who have not taken a turn yet.&lt;br&gt;&lt;br&gt;Outside of combat, while &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Sneaking&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt;, any successful &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; you make deals an additonal 12 damage multiplied by your level. The type of damage dealt is the same as your main-hand melee weapon.</content>
 
 	<content contentuid="hc4558204g2c77g4b58gafb6g0ba6b394a584" version="1">Assassin's Focus</content>
 	<content contentuid="h098941ccgc4ecg49f2gb22agabed0b093kff" version="3">Every three turns while in combat, you gain an &lt;LSTag Type="ActionResource" Tooltip="AssassinsMark"&gt;Assassin's Mark&lt;/LSTag&gt;. You may use these to trigger &lt;LSTag Type="Status" Tooltip="Tooltip_Assassinate"&gt;Assassinate&lt;/LSTag&gt; when dealing damage to an enemy while in combat. Killing an enemy with this passive active will not expend your Assassin's Mark. This effect can be toggled at any time.</content>
@@ -93,11 +93,11 @@
 	<content contentuid="hc4558204g2c77g4b58gafb6g0ba6b3966d54" version="1">Assassin's Mark</content>
 	<content contentuid="h098941ccgc4ecg49f2gb22agabed0b0dd5f8" version="3">Used to trigger &lt;LSTag Type="Status" Tooltip="Tooltip_Assassinate"&gt;Assassinate&lt;/LSTag&gt; when dealing damage.</content>
 
-	<content contentuid="hc4558204g2c77g4b58ga69870ba6b394a584" version="1">Critical Shock</content>
-	<content contentuid="h098941ccgc4ecg49f2dfsd68abed0b093kff" version="3">All successful &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against &lt;LSTag Type="Status" Tooltip="SURPRISED"&gt;Surprised&lt;/LSTag&gt; targets are considered &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hits&lt;/LSTag&gt;.</content>
-
 	<content contentuid="hc4558204g2c77g4b58gafb6g0ba6b3948a22" version="1">Hidden Implement</content>
-	<content contentuid="h098941ccgc4ecg49f2gb22agabed0b06a977" version="3">While &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Sneaking&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt;, you have a chance to &lt;LSTag Type="Status" Tooltip="SURPRISED"&gt;Surprise&lt;/LSTag&gt; your target upon dealing damage.</content>
+	<content contentuid="h098941ccgc4ecg49f2gb22agabed0b06a977" version="3">While &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Sneaking&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt;, you have a chance to &lt;LSTag Type="Status" Tooltip="PARALYZED"&gt;Paralyzed&lt;/LSTag&gt; your target upon dealing damage.</content>
+
+	<content contentuid="hc4558204g2c77g4b58ga69870ba6b394a584" version="1">Critical Shock</content>
+	<content contentuid="h098941ccgc4ecg49f2dfsd68abed0b093kff" version="3">All successful &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; outside of combat are considered to be &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hits&lt;/LSTag&gt;.</content>
 
 	<content contentuid="hc4558204g2c77g4b58gafb6g0ba6b399a654" version="1">Marked for Blood</content>
 	<content contentuid="h098941ccgc4ecg49f2gb22agabed0b05a225" version="3">While &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Sneaking&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt;, dealing damage to a target leaves it unable to be &lt;LSTag Type="Status" Tooltip="ALERTED"&gt;Alerted&lt;/LSTag&gt; until the end of your turn.</content>
@@ -127,7 +127,7 @@
 	<content contentuid="h5d259314g1895g4578ga2efg34184a6c08e2" version="1">Mocking Tone</content>
 	<content contentuid="h5d259314g1895g4578ga2efg34184a6c08e1" version="6">Dismantle a creatures confidence, causing their next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; to be made with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
 	<content contentuid="h34233a5agb50eg4820g9f22d5f6s4d5f8d5f" version="1">Provocative Challenge</content>
-	<content contentuid="hba8f1eeeg12c1g43dag9s54df6sd4fs84845" version="5">Roll a Persuasion based &lt;LSTag Tooltip="SkillCheck"&gt;Skill Check&lt;/LSTag&gt; to &lt;LSTag Type="Status" Tooltip="PANACHE"&gt;Provoke&lt;/LSTag&gt; all nearby creatures. Each creature will roll an Insight based Skill Check to resist your provocation.</content>
+	<content contentuid="hba8f1eeeg12c1g43dag9s54df6sd4fs84845" version="5">Roll a Persuasion based &lt;LSTag Tooltip="SkillCheck"&gt;Skill Check&lt;/LSTag&gt; to &lt;LSTag Type="Status" Tooltip="PANACHE"&gt;Provoke&lt;/LSTag&gt; all nearby creatures. Each creature will roll an Insight based Skill Check to resist your provocation. While active, you are considered to be a preferred target.</content>
 	<content contentuid="hd949774cg4e2dg412fga08cgb35c03573323" version="1">Provoked</content>
 	<content contentuid="had7a8c4bg8548g41a5ga8f0g917a335f2c56" version="3">Affected creature has a -5 penalty on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; when not attacking the creature who provoked them.</content>
 

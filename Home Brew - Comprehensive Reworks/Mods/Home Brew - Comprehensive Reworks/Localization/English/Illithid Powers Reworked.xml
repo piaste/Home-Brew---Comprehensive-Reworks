@@ -103,7 +103,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">DISPLACER BEAST SHAPE</content>
 	<content contentuid="h97567157gea8eg43f4g942cgd9adsfasdf11" version="2">Hivemind</content>
-	<content contentuid="h443d376dg292ag4338g9fb4g838sdf654845" version="3">Gain a +2 bonus to your Initiative and &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;. In addition, you gain the ability to see normally in darkness, both magical and non-magical, to a distance of [2].</content>
+	<content contentuid="h443d376dg292ag4338g9fb4g838sdf654845" version="3">Gain a +2 bonus to your Initiative and &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;. In addition, you gain the ability to see normally in darkness, both magical and non-magical, to a distance of [1].</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">FRACTURE PSYCHE</content>
 	<content contentuid="h7bc43a8cg9c8eg4c17gbb2dgc7c7b613a5a3" version="1">Fracture Psyche</content>
@@ -144,7 +144,7 @@
 	<content contentuid="h1eae02fagf8eeg4f63g9b3bgd031a52eb312" version="2">Mind Sanctuary Aura</content>
 	<content contentuid="hda4eb1b3gce2ag443cg93c7gdaea828b2f72" version="6">Anyone within the &lt;LSTag Type="Spell" Tooltip="Target_TAD_MindSanctuary&gt;Mind Sanctuary&lt;/LSTag&gt; becomes &lt;LSTag Type="Status" Tooltip="HASTE"&gt;Hastened&lt;/LSTag&gt;.</content>
 	<content contentuid="hfbc71a17g062dg4270gb5c9g389f726c3a12" version="3">Within the Mind Sanctuary</content>
-	<content contentuid="hca7dd49cg5965g4e11g8529g54629d864e21" version="5">Affected creature can take &lt;LSTag Tooltip="Action"&gt;Actions&lt;/LSTag&gt; and &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Actions&lt;/LSTag&gt; interchangeably.</content>
+	<content contentuid="hca7dd49cg5965g4e11g8529g54629d864e21" version="5">Affected creature is &lt;LSTag Type="Status" Tooltip="HASTE"&gt;Hastened&lt;/LSTag&gt;.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">FREECAST</content>
 	<content contentuid="h04d8715fg4ae1g4460g8c01gd331fb88383b" version="3">Freecast</content>

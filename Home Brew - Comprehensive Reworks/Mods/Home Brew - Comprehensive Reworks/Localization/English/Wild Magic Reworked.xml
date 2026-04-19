@@ -351,7 +351,7 @@
 	<content contentuid="9675816e2b2d450481089f09c7edb16b3330m" version="1">Enemies within [1] take [2].</content>
 
 	<content contentuid="9675816e2b2d450481089f09c7edb16b33314" version="2">Blazing Curses</content>
-	<content contentuid="9675816e2b2d450481089f09c7edb16b3330n" version="1">You and all allies within [1] &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burn&lt;/LSTag&gt; until the fire is doused.</content>
+	<content contentuid="9675816e2b2d450481089f09c7edb16b3330n" version="1">You and all allies within [1] &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burn&lt;/LSTag&gt; for three turns.</content>
 
 	<content contentuid="9675816e2b2d450481089f09c7edb16b33315" version="2">Multiversal Shovel Squad!</content>
 	<content contentuid="9675816e2b2d450481089f09c7edb16b3330o" version="1">Summon three allied Quasits until the end of your next combat encounter.</content>

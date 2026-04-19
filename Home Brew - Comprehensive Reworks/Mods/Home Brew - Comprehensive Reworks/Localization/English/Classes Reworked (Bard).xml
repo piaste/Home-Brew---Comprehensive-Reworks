@@ -100,7 +100,7 @@ Captivation</content>
 	<content contentuid="hacc1d957g1ef1g4debg9f26gc25bcf4000aa" version="1">Affected creature regains &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; each turn equal to their &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;. If hit by a &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attack&lt;/LSTag&gt;, the attacker immediately becomes &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charmed&lt;/LSTag&gt; for the rest of their turn.</content>
 
 	<content contentuid="habfab1deg96a3g4928gbb99g29b61ef00002" version="2">Parade March</content>
-	<content contentuid="hacc1d957g1ef1g4debg9f26gc25bcf40000b" version="1">Enemies within range of your Performance are forced to make all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; with a -5 penalty unless made against you.</content>
+	<content contentuid="hacc1d957g1ef1g4debg9f26gc25bcf40000b" version="1">Enemies within range of your Performance are forced to make all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; with a -5 penalty unless made against you. While active, you are considered to be a preferred target.</content>
 
 	<content contentuid="habfab1deg96a3g4928gbb99g29b61ef00003" version="2">Cover of Captivation</content>
 	<content contentuid="hacc1d957g1ef1g4debg9f26gc25bcf40000c" version="1">When you are about to be damaged, you may spend one of your &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt; charges in order to negate the damage you would have taken.</content>
@@ -113,7 +113,7 @@ Captivation</content>
 	<content contentuid="hacc1d957g1ef1g4debg9f26gc25bcf40000d" version="1">When a creature within [1] of you becomes &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charmed&lt;/LSTag&gt; during combat, you immediately regain one charge of &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt;.</content>
 
 	<content contentuid="habfab1deg96a3g4928gbb99g29b61ef00005" version="2">Performative Shielding</content>
-	<content contentuid="hacc1d957g1ef1g4debg9f26gc25bcf40000e" version="1">While &lt;LSTag Type="Spell" Tooltip="Shout_Bard_Perform_Whistle"&gt;Performing&lt;/LSTag&gt;, you become &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to all forms of damage.</content>
+	<content contentuid="hacc1d957g1ef1g4debg9f26gc25bcf40000e" version="1">While &lt;LSTag Type="Spell" Tooltip="Shout_Bard_Perform_Whistle"&gt;Performing&lt;/LSTag&gt; in combat, you become &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to all forms of damage.</content>
 
 	<content contentuid="habfab1deg96a3g4928gbb99g29b61ef00006" version="2">Countenance of Stoicism</content>
 	<content contentuid="hacc1d957g1ef1g4debg9f26gc25bcf40000f" version="1">While &lt;LSTag Type="Spell" Tooltip="Shout_Bard_Perform_Whistle"&gt;Performing&lt;/LSTag&gt;, your &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; cannot be broken.</content>

@@ -12,9 +12,20 @@
 	<content contentuid="9b7b811b9c3043e189f94554a64sw6df84fed" version="3">Allow Respec</content>
 	<content contentuid="9b7b811b9c3043e189f94556s8ef4e8f45845" version="3">Selecting an Oathbreaker as your starting class grants the Oathbreaker dialogue tag, disabling your ability to respec. Toggle this passive off in order to remove the Oathbreaker dialogue tag, allowing you to respec. This can be toggled at any time.</content>
 
-	<content contentuid="9b7b811b9c3043e189f945540bf5116eff2d5" version="3">Break Oath</content>
-	<content contentuid="9b7b811b9c3043e189f945540bf5116ess6d8" version="3">A Paladin's oath is a sacred, binding vow. Their power a manifestation of their devotion to a just cause. To rescind one's oath would be utterly unconscionable...right?</content>
-	<content contentuid="9b7b811b9c3043e189f945540bf5116fd2d51" version="3">This action will have grave consequences.</content>
+	<content contentuid="9b7b811b9c3043e189f945540bf5116eff200" version="5">Sworn Oath</content>
+	<content contentuid="9b7b811b9c3043e189f945540bf5116ess60z" version="1">Oaths upheld lend permanence to power, strengthened by your conviction. To what ideals have you sworn yourself to?&lt;br&gt;&lt;br&gt;Breaking your oath will result in grave consequences.</content>
+
+	<content contentuid="9b7b811b9c3043e189f945540bf5116eff204" version="6">Oath of Arbitration</content>
+	<content contentuid="9b7b811b9c3043e189f945540bf5116ess60d" version="1">You've sworn to exert your wisdom, identify the higher morality in any given circumstance, and fight for it. To chasten those who dole out their villainy by wiping their blight from the world forever.</content>
+
+	<content contentuid="9b7b811b9c3043e189f945540bf5116eff202" version="6">Oath of Civilization</content>
+	<content contentuid="9b7b811b9c3043e189f945540bf5116ess60b" version="1">You have sworn to preserve the ideals of civility and law, serving society to ensure it might continue. To always uphold and protect the belief of the civil majority, even when you may not agree.</content>
+
+	<content contentuid="9b7b811b9c3043e189f945540bf5116eff201" version="6">Oath of Preservation</content>
+	<content contentuid="9b7b811b9c3043e189f945540bf5116ess60a" version="1">You have sworn to show kindness, to enkindle the light of hope in the bleakest hollows of despair. To stand against the devilry that would snip its stem, as a beacon of prosperity for all to follow.</content>
+
+	<content contentuid="9b7b811b9c3043e189f945540bf5116eff203" version="6">Oath of Tribulation</content>
+	<content contentuid="9b7b811b9c3043e189f945540bf5116ess60c" version="1">You've sworn to show courage in the face of hardship, stride dauntlessly into action, and to lend your arm to those in need. To tend to your responsibilities, and support those entrusted to your care.</content>
 
 	<content contentuid="9b7b811b9c3043e189f945540bf5116e12a52" version="3">Smites</content>
 	<content contentuid="9b7b811b9c3043e189f945540bf5116e6a954" version="3">Oaths emboldened lay bare the path to preserve one's ideals.&lt;br&gt;A hammer of dawn to fall upon those deserving.</content>
@@ -92,11 +103,10 @@
 	<content contentuid="fe6f4159abae42539029e28400120938489fd" version="3">Smitten</content>
 	<content contentuid="fe6f4159abae42539029e28400149r99gdf9f" version="3">When making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; with one of your Smites, you make your roll with a +20 bonus.</content>
 
-<content contentuid="0000000000000000000000000000000000000" version="1">OATH OF THE ANCIENTS</content>
+<content contentuid="0000000000000000000000000000000000000" version="1">ANCIENT WARDEN</content>
 
-	<content contentuid="h7bd98082g8d1cg49b7gbdd9g5d45924e8d01" version="1">You fight on the side of light in the cosmic struggle against darkness to preserve the sanctity of life and the beauty of nature.&lt;br&gt;&lt;br&gt;Breaking your oath will result in grave consequences.</content>
-	<content contentuid="h7f1a984fgbf47g443fg904dgc1629c44d642" version="1">Committed to preserving life, you fight on the side of the light in the cosmic struggle against darkness.&lt;br&gt;&lt;br&gt;Breaking your oath will result in grave consequences.</content>
-	<content contentuid="ha8bcd3cdgf15eg4ac6gac7eg0a6307c4a189" version="2">Oath of the Ancients paladins abide by the following tenets:&lt;br&gt;&lt;br&gt;Kindle the Light. Through acts of kindness, enkindle the light of hope in the bleakest hollows of despair.&lt;br&gt;&lt;br&gt;Shelter the Light. Where love blooms, stand against the devilry that would snip its stem.&lt;br&gt;&lt;br&gt;Preserve Your Own Light. Delight in culture and small joys to preserve the light in your own heart.&lt;br&gt;&lt;br&gt;Breaking your oath will result in grave consequences.</content>
+	<content contentuid="h2a7352eag799cg44afgaf7cg1ad3e9fbbf42" version="1">Ancient Warden</content>
+	<content contentuid="h7bd98082g8d1cg49b7gbdd9g5d45924e8d01" version="1">Wardens of life and light, you bind your oath to the quiet strength of nature. Where hope grows stubborn, and darkness is worn away by time, your light shines as a beacon of hope and prosperity.</content>
 
 	<content contentuid="h298b9a29g5657g4aa9gaad6gad3a8af6ad54" version="1">Ancient Judgement</content>
 	<content contentuid="hb2400634gf3e4g46f1gb93dg1330e4d6asdf" version="3">When making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; or dealing damage to a Fey type creature, roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Once per turn, upon landing a killing blow on a Fey enemy, restore one &lt;LSTag Type="ActionResource" Tooltip="WarPriestActionPoint"&gt;Crusader's Smite&lt;/LSTag&gt; charge.</content>
@@ -131,10 +141,10 @@
 	<content contentuid="h298b9a29g5657g4aa9gaad6gad3a8a22d3f4" version="1">Oathbound Defender</content>
 	<content contentuid="hb2400634gf3e4g46f1gb93dg1330e422d35f" version="3">Your &lt;LSTag Type="Spell" Tooltip="Shout_HealingRadiance"&gt;Healing Radiance&lt;/LSTag&gt; now grants &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to all damage until it is recast. When dealing damage to a target affected by your &lt;LSTag Type="Spell" Tooltip="Target_NaturesWrath"&gt;Binding Radiance&lt;/LSTag&gt;, all damage dice is rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
 
-<content contentuid="0000000000000000000000000000000000000" version="1">OATH OF THE CROWNED PHOENIX</content>
+<content contentuid="0000000000000000000000000000000000000" version="1">CROWNED PHOENIX</content>
 
-	<content contentuid="hf8d923abg2aeeg446agac9dgbb27081e8db2" version="2">Oath of the Crowned Phoenix</content>
-	<content contentuid="hb0043457gfdd6g470agbfd6g6594b92ca488" version="2">You have sworn yourself to the ideals of civilisation and law, serving society to ensure it is reborn from the ashes of our mistakes.&lt;br&gt;&lt;br&gt;Breaking your oath will result in grave consequences.</content>
+	<content contentuid="hf8d923abg2aeeg446agac9dgbb27081e8db2" version="2">Crowned Phoenix</content>
+	<content contentuid="hb0043457gfdd6g470agbfd6g6594b92ca488" version="2">Bound to the endless flame that is your will, you rise unbroken. Each failing serving as a spark, a promise that even in ash, the will of fire shall endure.</content>
 
 	<content contentuid="hf8d923abg2aeeg446agac9dgbb2708100001" version="2">Crowned Judgement</content>
 	<content contentuid="hf8d923abg2aeeg446agac9dgbb270810000a" version="2">When making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; or dealing damage to an Aberration type creature, roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Once per turn, upon landing a killing blow on an enemy Aberration, restore one &lt;LSTag Type="ActionResource" Tooltip="WarPriestActionPoint"&gt;Crusader's Smite&lt;/LSTag&gt; charge.</content>
@@ -164,11 +174,10 @@
 	<content contentuid="hf8d923abg2aeeg446agac9dgbb27081000s6" version="2">Reborn of Ash</content>
 	<content contentuid="hf8d923abg2aeeg446agac9dgbb27081000sf" version="2">Affected creature must take a &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt; before they are able to self-revive again.</content>
 
-<content contentuid="0000000000000000000000000000000000000" version="1">OATH OF DEVOTION</content>
+<content contentuid="0000000000000000000000000000000000000" version="1">DEVOUT PARAGON</content>
 
-	<content contentuid="h238b6cb3gdff0g4151gbd79g2af569925479" version="1">Following the ideal of the knight in shining armour, you act with honour and virtue to protect the weak and pursue the greater good.&lt;br&gt;&lt;br&gt;Breaking your oath will result in grave consequences.</content>
-	<content contentuid="h87c4c0a8g61cag47bfg83f0ge3513c8c077b" version="1">Following the ideal of the knight in shining armour, you act with honour and virtue in the pursuit of the greater good.&lt;br&gt;&lt;br&gt;Breaking your oath will result in grave consequences.</content>
-	<content contentuid="h10176a56gc32bg4a58gbe0ag3570e2e82560" version="2">Oath of Devotion paladins abide by the following tenets:&lt;br&gt;&lt;br&gt;Courage. Stride dauntlessly into action.&lt;br&gt;&lt;br&gt;Compassion. Show clemency when prudent, and lend your arm to those in need.&lt;br&gt;&lt;br&gt;Duty. Tend your responsibilities, obey just laws, and support those entrusted to your care.&lt;br&gt;&lt;br&gt;Breaking your oath will result in grave consequences.</content>
+	<content contentuid="h07d494ebg069ag42a7g8fdfge1cb3672bac5" version="1">Devout Paragon</content>
+	<content contentuid="h238b6cb3gdff0g4151gbd79g2af569925479" version="1">You stand as a living oath. Your blade steady, your will unyielding - a beacon of truth that knows not how to falter in the face of looming darkness.</content>
 
 	<content contentuid="h298b9a29g5657g4aa9gaad6gad3a8afasdfd" version="1">Divine Judgement</content>
 	<content contentuid="hb2400634gf3e4g46f1gb93dg1330e4dwerdd" version="3">When making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; or dealing damage to a Fiend type creature, roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Once per turn, upon landing a killing blow on an enemy Fiend, restore one &lt;LSTag Type="ActionResource" Tooltip="WarPriestActionPoint"&gt;Crusader's Smite&lt;/LSTag&gt; charge.</content>
@@ -202,11 +211,10 @@
 	<content contentuid="h298b9a29g5657g4aa9gaad6gad22d3d1f1d5" version="1">Pure Radiance</content>
 	<content contentuid="hb2400634gf3e4g46f1gb93dg136s6d5f4d54" version="3">When making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against a creature afflicted with stacks of &lt;LSTag Type="Status" Tooltip="MAG_RADIANT_RADIATING_ORB"&gt;Radiating Orb&lt;/LSTag&gt;, you roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; and deal an additional [1].</content>
 
-<content contentuid="0000000000000000000000000000000000000" version="1">OATH OF VENGEANCE</content>
+<content contentuid="0000000000000000000000000000000000000" version="1">OATHBOUND CRUSADER</content>
 
-	<content contentuid="h573bd5d7g78ccg467cga56dg4392c97ad6ba" version="1">You have set aside even your own purity to right wrongs and deliver justice to those who have committed the most grievous sins.&lt;br&gt;&lt;br&gt;Breaking your oath will result in grave consequences.</content>
-	<content contentuid="h58aefc0egf58bg47ddg9f89g3b0fdcca9a8d" version="1">You have set aside even your own purity to right wrongs and deliver justice to those who have committed the most grievous sins.&lt;br&gt;&lt;br&gt;Breaking your oath will result in grave consequences.</content>
-	<content contentuid="h1fb86333g9cfag4f84g9d95g881b26df4b90" version="2">Oath of Vengeance paladins abide by the following tenets:&lt;br&gt;&lt;br&gt;Fight the Greater Evil. Exerting your wisdom, identify the higher morality in any given instance, and fight for it.&lt;br&gt;&lt;br&gt;No Mercy for the Wicked. Chasten those who dole out their villainy by wiping their blight from the world forever.&lt;br&gt;&lt;br&gt;Breaking your oath will result in grave consequences.</content>
+	<content contentuid="h83972695g2797g49bdg8e3bga526a352143d" version="1">Oathbound Crusader</content>
+	<content contentuid="h573bd5d7g78ccg467cga56dg4392c97ad6ba" version="1">You are the serrated edge of justice unyielding, relentless, and cold - vengeance embodied, living in service to those who would cry out for it.</content>
 
 	<content contentuid="h298b9a29g5657g4aa9gaad6gad3a8afsdf98" version="1">Righteous Judgement</content>
 	<content contentuid="hb2400634gf3e4g46f1gb93dg1330e4derere" version="3">When making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; or dealing damage to a Undead type creature, roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Once per turn, upon landing a killing blow on an enemy Undead, restore one &lt;LSTag Type="ActionResource" Tooltip="WarPriestActionPoint"&gt;Crusader's Smite&lt;/LSTag&gt; charge.</content>
@@ -314,7 +322,7 @@
   <content contentuid="fe6f4159abae42539029e284001d12de0000f" version="3">Once per turn, upon damaging another creature with one of your Smites, gain &lt;LSTag Type="Status" Tooltip="DIVINE_FAVOR"&gt;Divine Favor&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="SHIELD_OF_FAITH"&gt;Shield of Faith&lt;/LSTag&gt; for three turns.</content>
 
   <content contentuid="fe6f4159abae42539029e284001d12de00007" version="3">Infallible Beacon</content>
-  <content contentuid="fe6f4159abae42539029e284001d12de0000g" version="3">During combat, emit an aura across [1], forcing a -5 penalty on enemy &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; when made against anyone but you.</content>
+  <content contentuid="fe6f4159abae42539029e284001d12de0000g" version="3">During combat, emit an aura across [1], forcing a -5 penalty on enemy &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; when made against anyone but you. While active, you are considered to be a preferred target.</content>
 
   <content contentuid="fe6f4159abae42539029e284001d12de00008" version="3">Lay On Hands</content>
   <content contentuid="fe6f4159abae42539029e284001d12de0000h" version="3">Use your &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; charges to imbue your hands with divine power, healing a target, or curing them of most debilitations.</content>

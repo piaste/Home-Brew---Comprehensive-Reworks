@@ -46,6 +46,13 @@
 	<content contentuid="h94981fe3g720cg4a5dga655g1191bf437278" loreTexts="true" version="1">Anarchs of Shyr Tradition</content>
 	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad9a6207" loreTexts="true" version="1">You studied magic with adventuring swordmages, familiar with the magical bladework spread by the stormsoul genasi of Shyr and Akanûl.</content>
 
+	<content contentuid="h94981fe3g720cg4a5dga655g1191bf400002" version="1">Steelforged Arcana</content>
+	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad90000b" version="1">In combat, you may siphon the Arcane energy from the fallen. Doing so restores charges of &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery&lt;/LSTag&gt; equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; and infuses your weapon with &lt;LSTag Type="Status" Tooltip="ARCANE_FORCE"&gt;Arcane Force&lt;/LSTag&gt; for three turns.</content>
+	<content contentuid="h94981fe3g720cg4a5dga655g1191bf4000z2" version="1">Siphon Arcana</content>
+	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad9000zb" version="1">Siphon Arcane energy from the nearby fallen, restoring charges of &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery&lt;/LSTag&gt; and infusing your weapon with &lt;LSTag Type="Status" Tooltip="ARCANE_FORCE"&gt;Arcane Force&lt;/LSTag&gt; for three turns.</content>
+	<content contentuid="h94981fe3g720cg4a5dga655g1191bf400zz2" version="1">Siphoned Arcana</content>
+	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad900zzb" version="1">Affected weapon deals an additional [1].</content>
+
 	<content contentuid="h94981fe3g720cg4a5dga655g1191bf400001" version="1">The Approaching Storm</content>
 	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad90000a" version="1">Gain &lt;LSTag Type="Spell" Tooltip="Shout_SteelWindStorm"&gt;Steel-Wind Storm&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Projectile_SteelWindBeam"&gt;Steel-Wind Burst&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Projectile_SteelWindStrike"&gt;Steel-Wind Strike&lt;/LSTag&gt;.</content>
 	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad9zzzzz" version="1">This action utilizes a weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; while also functioning as a Spell.</content>
@@ -61,13 +68,6 @@
 
 	<content contentuid="h94981fe3g720cg4a5dga655g1191bf40zzz1" version="1">Steel-Wind Burst</content>
 	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad90zzza" version="1">Fire a beam of pure Arcane energy, carrying the properties of your blade toward a target of your choice.</content>
-
-	<content contentuid="h94981fe3g720cg4a5dga655g1191bf400002" version="1">Steelforged Arcana</content>
-	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad90000b" version="1">In combat, you may siphon the Arcane energy from the fallen. Doing so restores charges of &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery&lt;/LSTag&gt; equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; and infuses your weapon with &lt;LSTag Type="Status" Tooltip="ARCANE_FORCE"&gt;Arcane Force&lt;/LSTag&gt; for three turns.</content>
-	<content contentuid="h94981fe3g720cg4a5dga655g1191bf4000z2" version="1">Siphon Arcana</content>
-	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad9000zb" version="1">Siphon the Arcane energy from the fallen, restoring charges of &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery&lt;/LSTag&gt; equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; and infusing your weapon with &lt;LSTag Type="Status" Tooltip="ARCANE_FORCE"&gt;Arcane Force&lt;/LSTag&gt; for three turns.</content>
-	<content contentuid="h94981fe3g720cg4a5dga655g1191bf400zz2" version="1">Siphoned Arcana</content>
-	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad900zzb" version="1">Affected weapon deals an additional [1].</content>
 
 	<content contentuid="h94981fe3g720cg4a5dga655g1191bf400004" loreTexts="true" version="1">Aegis of Assault</content>
 	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad90000d" version="1">Once per turn, upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, you may cast &lt;LSTag Type="Spell" Tooltip="Target_SteelWindStrike"&gt;Steel-Wind Strike&lt;/LSTag&gt; as a free action.</content>
@@ -121,7 +121,7 @@
 	<content contentuid="hcbb5a5cfg7df0g412cga4a4g3c5b855d728f" version="4">You add your &lt;LSTag Tooltip="AbilityModifier"&gt;Intelligence Modifier&lt;/LSTag&gt; to the damage roll of the first Spell you cast each turn.</content>
 
 	<content contentuid="h9aee3403g58c0g4c53g8ca6g3891666d454d" version="2">Explosive Understanding</content>
-	<content contentuid="hcbb5a5cfg7df0g412cga4a4g3c5b22d5f978" version="4">Once per cast, when dealing damage with a Spell, all enemies within [1] of your target take Force damage equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Intelligence Modifier&lt;/LSTag&gt;.</content>
+	<content contentuid="hcbb5a5cfg7df0g412cga4a4g3c5b22d5f978" version="4">Once per turn, when dealing damage with a Spell, all enemies within [1] of your target take Force damage equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Intelligence Modifier&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h9aee3403g58c0g4c53g8ca6g3891622d564d" version="2">Scholar's Focus</content>
 	<content contentuid="hcbb5a5cfg7df0g412cga4a4g3c5b22ss9df7" version="4">The first Spell you cast each turn will not cost an &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt; or &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
@@ -198,7 +198,7 @@
 	<content contentuid="hc31dc575g4407g476as65d4f58es52010003" version="2">Fire Stain</content>
 	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef54601000c" version="2">The next Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; you cast will reduce the number required to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; by 1.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; &lt;LSTag Type="Passive" Tooltip="ElementalConcierge"&gt;Yrix's Sieve&lt;/LSTag&gt; must be toggled on in order to utilize this effect.</content>
 	<content contentuid="hc31dc575g4407g476as65d4f58es52010004" version="2">Force Stain</content>
-	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef54601000d" version="2">The next Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; you cast will ignore all forms of damage &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; &lt;LSTag Type="Passive" Tooltip="ElementalConcierge"&gt;Yrix's Sieve&lt;/LSTag&gt; must be toggled on in order to utilize this effect.</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef54601000d" version="2">The next Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; you cast will ignore all forms of damage &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; when dealing damage to an enemy or item.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; &lt;LSTag Type="Passive" Tooltip="ElementalConcierge"&gt;Yrix's Sieve&lt;/LSTag&gt; must be toggled on in order to utilize this effect.</content>
 	<content contentuid="hc31dc575g4407g476as65d4f58es52010005" version="2">Lightning Stain</content>
 	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef54601000e" version="2">The next Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; you cast will prevent your target from using &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reactions&lt;/LSTag&gt; until the end of their next turn.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; &lt;LSTag Type="Passive" Tooltip="ElementalConcierge"&gt;Yrix's Sieve&lt;/LSTag&gt; must be toggled on in order to utilize this effect.</content>
 	<content contentuid="hc31dc575g4407g476as65d4f58es52010006" version="2">Necrotic Stain</content>
@@ -361,7 +361,7 @@
 	<content contentuid="772cd70f49274c7596988bf90e992ca80000j" version="6">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt; based &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;. Additionally, you add your &lt;LSTag Tooltip="AbilityModifier"&gt;Intelligence Modifier&lt;/LSTag&gt; to all Charisma based &lt;LSTag Tooltip="SkillCheck"&gt;Skill Checks&lt;/LSTag&gt;.</content>
 
 	<content contentuid="772cd70f49274c7596988bf90e992ca800011" version="6">Mystic Override</content>
-	<content contentuid="772cd70f49274c7596988bf90e992ca80000k" version="6">You ignore elemental &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; when dealing damage.</content>
+	<content contentuid="772cd70f49274c7596988bf90e992ca80000k" version="6">You ignore elemental &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; when dealing damage to an enemy or item.</content>
 
 	<content contentuid="772cd70f49274c7596988bf90e992ca800012" version="6">Potent Cantrips</content>
 	<content contentuid="772cd70f49274c7596988bf90e992ca80000l" version="6">When dealing damage with a &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt;, deal additional damage equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; multiplied by two.</content>

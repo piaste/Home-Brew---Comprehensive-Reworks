@@ -81,7 +81,7 @@
 	<content contentuid="49523fb3deaa14de1766304e0911fbc49ae44" version="2">Artillerists specialize in hurling projectiles down range and creating various types of explosions on the battlefield. This destructive power is valued by armies across many different worlds.</content>
 
 	<content contentuid="h509b8e00gacb9g46a5sd6f456e4ef4f00001" version="1">Armour-Piercing Rounds</content>
-	<content contentuid="h509b8e00gacb9g46a5sd6f456e4ef4f0000a" version="2">When dealing damage with a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt;, you ignore piercing &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt;.</content>
+	<content contentuid="h509b8e00gacb9g46a5sd6f456e4ef4f0000a" version="2">When dealing damage with a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt; to an enemy or item, you ignore piercing &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h509b8e00gacb9g46a5sd6f456e4ef4f00002" version="1">Anti-Material Ammunition</content>
 	<content contentuid="h509b8e00gacb9g46a5sd6f456e4ef4f0000b" version="2">Upon landing a killing blow, you may fire &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
@@ -253,7 +253,7 @@
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc400016" version="1">Optimization: Reactive Overload</content>
 	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40000p" version="2">Grant allies an additional &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; upon &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infusing&lt;/LSTag&gt; them.</content>
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc400017" version="1">Optimization: Resistance Override</content>
-	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40000q" version="2">Allies you &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; ignore all forms of damage &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt;.</content>
+	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40000q" version="2">Allies you &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; ignore all forms of damage &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; when dealing damage to an enemy or item.</content>
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc400018" version="1">Optimization: Spell Calibration Sequence</content>
 	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40000r" version="2">Grant allies a +2 bonus to their &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt; upon &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infusing&lt;/LSTag&gt; them.</content>
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc400019" version="1">Optimization: Spell Slot Bypass</content>
@@ -410,7 +410,7 @@
 	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe50ys" version="2">Affected creature is unable to utilize their &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; until they land a killing blow.</content>
 
 	<content contentuid="115fb28f01e84e44b3536f475sd5f4ef2f020" version="1">Vital Aim</content>
-	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe500t" version="2">Landing a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; with a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt; permanently inflicts &lt;LSTag Type="Status" Tooltip="GAPING_WOUND"&gt;Gaping Wounds&lt;/LSTag&gt; on your targets.</content>
+	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe500t" version="2">Landing a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; with a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt; inflicts a &lt;LSTag Type="Status" Tooltip="GAPING_WOUND"&gt;Gaping Wound&lt;/LSTag&gt; on your target.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">FIREARMS</content>
 

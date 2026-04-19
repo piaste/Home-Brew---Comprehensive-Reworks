@@ -9,7 +9,7 @@
 	<content contentuid="hd0473bcfg9145g41d2gad13g8bc78ce6d718" version="1">Rage</content>
 	<content contentuid="h0758d09cgc5abg4ea7g8e0bg3ecc90844352" version="2">Deal [1] additional damage with &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attacks&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Throw_ImprovisedWeapon"&gt;Improvised Weapons&lt;/LSTag&gt;, and when &lt;LSTag Type="Spell" Tooltip="Throw_Throw"&gt;Throwing&lt;/LSTag&gt; objects or creatures.</content>
 	<content contentuid="h9c492aaag4d3cg4dc8g8bd5g12c7dd5dbdef" version="3">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to all physical damage, and &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; based &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
-	<content contentuid="h16ea2d0ag2091g41b6g9091gdcf58b901af6" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Killing blows and &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hits&lt;/LSTag&gt; will reset the duration of your Rage.</content>
+	<content contentuid="h16ea2d0ag2091g41b6g9091gdcf58b901af6" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Killing blows and &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hits&lt;/LSTag&gt; will reset the duration of your Rage. While active, you are considered to be a preferred target.</content>
 	<content contentuid="h38b9d877g03f5g4724g99b0g5f004bd7b30f" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Rage blocks the ability to both cast and &lt;LSTag Tooltip="Concentration"&gt;Concentrate&lt;/LSTag&gt; on Spells.</content>
 
 	<content contentuid="hb5a027a4g2934g40bfga5e1g7cb821264ea9" version="1">Rage</content>
@@ -152,7 +152,7 @@
 	<content contentuid="h7cff444dga20bg4ecbg8807g7fe34851fbe3" version="4">As a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;, make a melee attack with your equipped weapon, rolling with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;. Upon doing so, you will receive &lt;LSTag Type="Status" Tooltip="RAGE_FRENZY_BURNOUT"&gt;Frenzied Strain&lt;/LSTag&gt;.</content>
 
 	<content contentuid="he6b4dabdg3471g4f6fg982cgd435a6f3a655" version="2">Steelbreaker</content>
-	<content contentuid="h4412581eg59ccg45cega74cg82e5995sad88" version="5">When dealing damage, you ignore all &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; to Bludgeoning, Piercing, and Slashing damage.</content>
+	<content contentuid="h4412581eg59ccg45cega74cg82e5995sad88" version="5">When dealing damage to an enemy or item, you ignore all &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; to Bludgeoning, Piercing, and Slashing damage.</content>
 
 	<content contentuid="he6b4dabdg3471g4f6fg982cgd435a6fd6fb3" version="2">Feral Instinct</content>
 	<content contentuid="h4412581eg59ccg45cega74cg82e59953d71b" version="5">While &lt;LSTag Type="Status" Tooltip="RAGE_FRENZY"&gt;Frenzied&lt;/LSTag&gt;, your &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; is doubled.</content>
@@ -309,7 +309,7 @@
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf80000f" version="2">&lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt; no longer slows you down. While enraged, you benefit from the effects of &lt;LSTag Type="Status" Tooltip="WATER_WALK_BARBARIAN"&gt;Water Walk&lt;/LSTag&gt;.</content>
 
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf800007" version="1">Overwhelming Power</content>
-	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf80000g" version="2">When dealing damage while enraged, you ignore all physical &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt;.</content>
+	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf80000g" version="2">When dealing damage to an enemy or item while enraged, you ignore all physical &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt;.</content>
 
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf800008" version="1">Peak Physicality</content>
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf80000h" version="2">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; based &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;. In addition, your Strength is increased by [1].</content>
