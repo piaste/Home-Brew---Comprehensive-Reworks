@@ -671,10 +671,10 @@
 	<content contentuid="h5a5318c3f19b4e7cb289bd094bfee3f80aa4" version="1">Monk: Way of the Open Hand</content>
 	<content contentuid="h3358a14e04844f9598c3eb0f6098f96f160d" version="1">Monk: Way of the Shadow Arts</content>
 
-	<content contentuid="h5689281b356a4051921b16eb13a486a4bea7" version="1">Paladin: Oath of the Ancients</content>
-	<content contentuid="h72389daf54ac4fad93c7dcc2f902c9e0f209" version="1">Paladin: Oath of the Crowned Phoenix</content>
-	<content contentuid="h33046c15ea574ec5a91bd4c8709dead4a46g" version="1">Paladin: Oath of Devotion</content>
-	<content contentuid="h20453170b9ff4b9c8c32d33a020357b50ac9" version="1">Paladin: Oath of Vengeance</content>
+	<content contentuid="h5689281b356a4051921b16eb13a486a4bea7" loreTexts="true" version="1">Paladin: Sibling of the Ruby Rose</content>
+	<content contentuid="h72389daf54ac4fad93c7dcc2f902c9e0f209" loreTexts="true" version="1">Paladin: Mystic Fire Knight</content>
+	<content contentuid="h33046c15ea574ec5a91bd4c8709dead4a46g" loreTexts="true" version="1">Paladin: Radiant Heart Auxiliary</content>
+	<content contentuid="h20453170b9ff4b9c8c32d33a020357b50ac9" loreTexts="true" version="1">Paladin: Chevall of the Gauntlet</content>
 	<content contentuid="hf4ed1f7d36d94c2abcda899d07b9e943ab47" version="1">Paladin: Oathbreaker</content>
 
 	<content contentuid="he2f1a1df896949edb5d6b3530f25289178g6" loreTexts="true" version="1">Ranger: High Forest Trail</content>
