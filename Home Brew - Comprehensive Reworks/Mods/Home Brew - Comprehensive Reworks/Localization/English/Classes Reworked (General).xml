@@ -666,10 +666,10 @@
 	<content contentuid="hc956224f7f584e9096e7a3c79458d1cc9bg3" version="1">Fighter: Eldritch Knight</content>
 	<content contentuid="hb2ff7aec766b4e64b8113c7656e78468c3a3" loreTexts="true" version="1">Fighter: Weapon Master</content>
 
-	<content contentuid="he4b572ffeab94f5abe81a1a1cf592b3f16f8" version="1">Monk: Way of the Arcane</content>
-	<content contentuid="hd8792c892dc84db3af6522385b14d22579f5" version="1">Monk: Way of the Drunken Fist</content>
-	<content contentuid="h5a5318c3f19b4e7cb289bd094bfee3f80aa4" version="1">Monk: Way of the Open Hand</content>
-	<content contentuid="h3358a14e04844f9598c3eb0f6098f96f160d" version="1">Monk: Way of the Shadow Arts</content>
+	<content contentuid="he4b572ffeab94f5abe81a1a1cf592b3f16f8" loreTexts="true" version="1">Monk: Shining Hand Training</content>
+	<content contentuid="hd8792c892dc84db3af6522385b14d22579f5" loreTexts="true" version="1">Monk: Saint Dionysus Training</content>
+	<content contentuid="h5a5318c3f19b4e7cb289bd094bfee3f80aa4" loreTexts="true" version="1">Monk: White Rod Training</content>
+	<content contentuid="h3358a14e04844f9598c3eb0f6098f96f160d" loreTexts="true" version="1">Monk: Dark Moon Training</content>
 
 	<content contentuid="h5689281b356a4051921b16eb13a486a4bea7" loreTexts="true" version="1">Paladin: Sibling of the Ruby Rose</content>
 	<content contentuid="h72389daf54ac4fad93c7dcc2f902c9e0f209" loreTexts="true" version="1">Paladin: Mystic Fire Knight</content>
@@ -742,7 +742,7 @@
 	<content contentuid="2308f2d16d384c75b3281d5bb3ce365d000aa" version="3">Cantrips are weaker than Spells, though they do not consume &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slots&lt;/LSTag&gt; when cast.</content>
 
 	<content contentuid="115fb28f01e84e44b3536f4741b47c35000a1" version="1">Spells</content>
-	<content contentuid="115fb28f01e84e44b3536f4741b47c35000aa" version="3">Spells are stronger than Cantrips, though they require &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slots&lt;/LSTag&gt; in order to cast.&lt;Br&gt;&lt;br&gt;Under the Way of the Arcane, you may select any Spell.</content>
+	<content contentuid="115fb28f01e84e44b3536f4741b47c35000aa" loreTexts="true" version="3">Spells are stronger than Cantrips, though they require &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slots&lt;/LSTag&gt; in order to cast.&lt;Br&gt;&lt;br&gt;As an initiate of the Shining Hand, you may select any Spell.</content>
 
 	<content contentuid="h549cca93gf9e4g4525s98dfsudu8f88ufffd" version="1">Martial Proficiency</content>
 	<content contentuid="hfe30431cgc831g46a239489w8ef79d8ffdee" version="3">You add your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; with all weapons.</content>

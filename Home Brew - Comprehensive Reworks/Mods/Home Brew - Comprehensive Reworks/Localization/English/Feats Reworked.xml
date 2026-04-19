@@ -469,20 +469,20 @@
 
 
 
-	<content contentuid="9280d9ee-964f-4d64-bed7-4f12394c4546" loreTexts="true" version="1">Yokebreaker: Way of the Arcane</content>
-	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df21" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_WayoftheArcane"&gt;Way of the Arcane Monk&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="9280d9ee-964f-4d64-bed7-4f12394c4546" loreTexts="true" version="1">Yokebreaker: Shining Hand Training</content>
+	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df21" loreTexts="true" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_WayoftheArcane"&gt;Shining Hand Monk&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
-	<content contentuid="a8334ef2-a1f9-48be-95aa-603dcf047827" loreTexts="true" version="1">Yokebreaker: Way of the Drunken Fist</content>
-	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df22" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_WayoftheDrunkenFist"&gt;Way of the Drunken Fist Monk&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="a8334ef2-a1f9-48be-95aa-603dcf047827" loreTexts="true" version="1">Yokebreaker: Saint Dionysus Training</content>
+	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df22" loreTexts="true" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_WayoftheDrunkenFist"&gt;Saint Dionysus Fist Monk&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
-	<content contentuid="5af5fd0f-ef26-42ce-aeed-3c1c25507529" loreTexts="true" version="1">Yokebreaker: Way of the Open Hand</content>
-	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df23" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_WayoftheOpenHand"&gt;Way of the Open Hand Monk&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="5af5fd0f-ef26-42ce-aeed-3c1c25507529" loreTexts="true" version="1">Yokebreaker: White Rod Training</content>
+	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df23" loreTexts="true" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_WayoftheOpenHand"&gt;White Rod Monk&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
-	<content contentuid="4498ba54-55e6-452d-a2db-b3d34420699f" loreTexts="true" version="1">Yokebreaker: Way of the Shadow Arts</content>
-	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df24" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_WayoftheShadowArts"&gt;Way of the Shadow Arts Monk&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="4498ba54-55e6-452d-a2db-b3d34420699f" loreTexts="true" version="1">Yokebreaker: Dark Moon Training</content>
+	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df24" loreTexts="true" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_WayoftheShadowArts"&gt;Dark Moon Monk&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
-	<content contentuid="0e03571b-171b-438f-8925-1865e9159fe2" loreTexts="true" version="1">Yokebreaker: Way of the Tempered Steel</content>
-	<content contentuid="b242a680-3c86-4741-962b-66678b5c5c11" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_WayoftheTemperedSteel"&gt;Way of the Tempered Steel Monk&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="0e03571b-171b-438f-8925-1865e9159fe2" loreTexts="true" version="1">Yokebreaker: Soaring Way Training</content>
+	<content contentuid="b242a680-3c86-4741-962b-66678b5c5c11" loreTexts="true" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_WayoftheTemperedSteel"&gt;Soaring Way Monk&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
 
 
