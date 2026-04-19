@@ -105,10 +105,10 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">ANCIENT WARDEN</content>
 
-	<content contentuid="h2a7352eag799cg44afgaf7cg1ad3e9fbbf42" loreText="true" version="1">Sibling of the Ruby Rose</content>
-	<content contentuid="h7bd98082g8d1cg49b7gbdd9g5d45924e8d01" loreText="true" version="1">You served with the legendary Sisters and Brothers of the Ruby Rose, an order of paladins devoted to the defence of beauty, truth, and health.</content>
+	<content contentuid="h2a7352eag799cg44afgaf7cg1ad3e9fbbf42" loreTexts="true" version="1">Sibling of the Ruby Rose</content>
+	<content contentuid="h7bd98082g8d1cg49b7gbdd9g5d45924e8d01" loreTexts="true" version="1">You served with the legendary Sisters and Brothers of the Ruby Rose, an order of paladins devoted to the defence of beauty, truth, and purity.</content>
 
-	<content contentuid="h298b9a29g5657g4aa9gaad6gad3a8af6ad54" loreText="true" version="1">Bane of the Wretched</content>
+	<content contentuid="h298b9a29g5657g4aa9gaad6gad3a8af6ad54" loreTexts="true" version="1">Bane of the Wretched</content>
 	<content contentuid="hb2400634gf3e4g46f1gb93dg1330e4d6asdf" version="3">When making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; or dealing damage to a Fey type creature, roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Once per turn, upon landing a killing blow on a Fey enemy, restore one &lt;LSTag Type="ActionResource" Tooltip="WarPriestActionPoint"&gt;Crusader's Smite&lt;/LSTag&gt; charge.</content>
 
 	<content contentuid="hbab5946eg8740g4466g98a2g004ef00cfba3" version="1">Healing Radiance</content>
@@ -118,28 +118,28 @@
 	<content contentuid="hd545e2f3g7d65g45ceg8e98g644247ca9ca2" version="1">Healing Radiance</content>
 	<content contentuid="heea9b291g431dg4608g8c6dgdf159e2b35e7" version="3">Affected creature will automatically cast &lt;LSTag Type="Spell" Tooltip="Shout_HealingRadiance"&gt;Healing Radiance&lt;/LSTag&gt; again when this status expires.</content>
 
-	<content contentuid="h298b9a29g5657g4aa9gaad6gad3a8af6a35a" loreText="true" version="1">Gilded Chains</content>
+	<content contentuid="h298b9a29g5657g4aa9gaad6gad3a8af6a35a" loreTexts="true" version="1">Gilded Chains</content>
 	<content contentuid="hb2400634gf3e4g46f1gb93dg1330e4dd5c0d" version="3">&lt;LSTag Type="Status" Tooltip="NATURES_WRATH"&gt;Restrain&lt;/LSTag&gt; an enemy. They cannot move. &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against them have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. They make all Dexterity based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
-	<content contentuid="hae3bd4a6g45c4g4239g8651g4654829d3821" loreText="true" version="1">Gilded Chains</content>
+	<content contentuid="hae3bd4a6g45c4g4239g8651g4654829d3821" loreTexts="true" version="1">Gilded Chains</content>
 
 	<content contentuid="h298b9a29g5657g4aa9gaad6gad22d3d6d584" version="1">Soothing Radiance</content>
-	<content contentuid="hb2400634gf3e4g46f1gb93dg1336d6668458" loreText="true" version="3">Your &lt;LSTag Type="Spell" Tooltip="Shout_HealingRadiance"&gt;Healing Radiance&lt;/LSTag&gt; now provides the effects of &lt;LSTag Type="Spell" Tooltip="Target_LesserRestoration"&gt;Latent Restoration&lt;/LSTag&gt;. Targets of &lt;LSTag Type="Spell" Tooltip="Target_NaturesWrath"&gt;Gilded Chains&lt;/LSTag&gt; make their &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; when attempting to resist it.</content>
+	<content contentuid="hb2400634gf3e4g46f1gb93dg1336d6668458" loreTexts="true" version="3">Your &lt;LSTag Type="Spell" Tooltip="Shout_HealingRadiance"&gt;Healing Radiance&lt;/LSTag&gt; now provides the effects of &lt;LSTag Type="Spell" Tooltip="Target_LesserRestoration"&gt;Latent Restoration&lt;/LSTag&gt;. Targets of &lt;LSTag Type="Spell" Tooltip="Target_NaturesWrath"&gt;Gilded Chains&lt;/LSTag&gt; make their &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; when attempting to resist it.</content>
 
-	<content contentuid="hdf505853g3437g496dg8732gf741d6ae1ebb" loreText="true" version="1">Turn the Wretched</content>
+	<content contentuid="hdf505853g3437g496dg8732gf741d6ae1ebb" loreTexts="true" version="1">Turn the Wretched</content>
 	<content contentuid="h0c6caa26gbea1g4841g8ad9g816bac6717c7" version="2">&lt;LSTag Type="Status" Tooltip="TURNED"&gt;Turn&lt;/LSTag&gt; nearby enemies, dealing damage to them in the process. They are forced to flee and cannot come close to you. Fey creatures take twice as much damage from this action.</content>
 
-	<content contentuid="h298b9a29g5657g4aa9gaad6gad3a8af6a851" loreText="true" version="1">Expansive Vow</content>
-	<content contentuid="hb2400634gf3e4g46f1gb93dg1330e4dasdf5" loreText="true" version="3">The range of your &lt;LSTag Type="Spell" Tooltip="Shout_HealingRadiance"&gt;Healing Radiance&lt;/LSTag&gt; is doubled. Additionally, &lt;LSTag Type="Spell" Tooltip="Target_NaturesWrath"&gt;Gilded Chains&lt;/LSTag&gt; may now select up to three targets.</content>
+	<content contentuid="h298b9a29g5657g4aa9gaad6gad3a8af6a851" loreTexts="true" version="1">Expansive Vow</content>
+	<content contentuid="hb2400634gf3e4g46f1gb93dg1330e4dasdf5" loreTexts="true" version="3">The range of your &lt;LSTag Type="Spell" Tooltip="Shout_HealingRadiance"&gt;Healing Radiance&lt;/LSTag&gt; is doubled. Additionally, &lt;LSTag Type="Spell" Tooltip="Target_NaturesWrath"&gt;Gilded Chains&lt;/LSTag&gt; may now select up to three targets.</content>
 
-	<content contentuid="hd8ffaca7g8aa7g4e02ga546g3592286387a8" version="2">Aura of Protection</content>
+	<content contentuid="hd8ffaca7g8aa7g4e02ga546g3592286387a8" loreTexts="true" version="2">Aura of Confidence</content>
 	<content contentuid="h3728832agb688g4081gad4eg7dcab2a79276" version="5">During combat, you emit an aura which grants both yourself and allies &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
-	<content contentuid="hdfe1f27agb8e1g487cg88fdg8ca4b3c795fc" version="2">Aura of Protection</content>
+	<content contentuid="hdfe1f27agb8e1g487cg88fdg8ca4b3c795fc" loreTexts="true" version="2">Aura of Confidence</content>
 	<content contentuid="hc3749f97g4b86g46e8g9f1bg8bd2293a8de0" version="4">Affected creature is emitting an aura across [1] which grants both this creature and allies &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
-	<content contentuid="h5d27ac75g5b53g4844gba19g9c87ff56d98a" version="2">Aura of Protection</content>
+	<content contentuid="h5d27ac75g5b53g4844gba19g9c87ff56d98a" loreTexts="true" version="2">Aura of Confidence</content>
 	<content contentuid="hf20fdd4bg5dbcg4d9cg851cge25980a53bc0" version="4">Has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; within [1] of the Paladin responsible for this status.</content>
 
-	<content contentuid="h298b9a29g5657g4aa9gaad6gad3a8a22d3f4" version="1">Oathbound Defender</content>
-	<content contentuid="hb2400634gf3e4g46f1gb93dg1330e422d35f" loreText="true" version="3">Your &lt;LSTag Type="Spell" Tooltip="Shout_HealingRadiance"&gt;Healing Radiance&lt;/LSTag&gt; now grants &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to all damage until it is recast. When dealing damage to a target affected by your &lt;LSTag Type="Spell" Tooltip="Target_NaturesWrath"&gt;Gilded Chains&lt;/LSTag&gt;, all damage dice is rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+	<content contentuid="h298b9a29g5657g4aa9gaad6gad3a8a22d3f4" loreTexts="true" version="1">Paragon of Grace</content>
+	<content contentuid="hb2400634gf3e4g46f1gb93dg1330e422d35f" loreTexts="true" version="3">Your &lt;LSTag Type="Spell" Tooltip="Shout_HealingRadiance"&gt;Healing Radiance&lt;/LSTag&gt; now grants &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to all damage until it is recast. When dealing damage to a target affected by your &lt;LSTag Type="Spell" Tooltip="Target_NaturesWrath"&gt;Gilded Chains&lt;/LSTag&gt;, all damage dice is rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">CROWNED PHOENIX</content>
 
@@ -180,7 +180,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">DEVOUT PARAGON</content>
 
 	<content contentuid="h07d494ebg069ag42a7g8fdfge1cb3672bac5" loreTexts="true" version="1">Radiant Heart Auxiliary</content>
-	<content contentuid="h238b6cb3gdff0g4151gbd79g2af569925479" version="1">You served in the junior ranks of the Most Noble Order of the Radiant Heart, a fraternal organization that preserves peace and protects the weak across the Realms. </content>
+	<content contentuid="h238b6cb3gdff0g4151gbd79g2af569925479" loreTexts="true" version="1">You served in the junior ranks of the Most Noble Order of the Radiant Heart, a fraternal organization that preserves peace and protects the weak across the Realms. </content>
 
 	<content contentuid="h298b9a29g5657g4aa9gaad6gad3a8afasdfd" loreTexts="true" version="1">Bane of the Wicked</content>
 	<content contentuid="hb2400634gf3e4g46f1gb93dg1330e4dwerdd" version="3">When making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; or dealing damage to a Fiend type creature, roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Once per turn, upon landing a killing blow on an enemy Fiend, restore one &lt;LSTag Type="ActionResource" Tooltip="WarPriestActionPoint"&gt;Crusader's Smite&lt;/LSTag&gt; charge.</content>
@@ -211,7 +211,7 @@
 	<content contentuid="hac89c8ceg3aaag4f93ga5bfg52a93dc45905" version="2">Aura of Courage</content>
 	<content contentuid="h883a2333g00cag41c3gbc95g563f6c765164" version="4">Has &lt;LSTag Type="Status" Tooltip="HEROISM"&gt;Heroism&lt;/LSTag&gt; as well as &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to all fear based status effects while within [1] of the Paladin responsible for this status.</content>
 
-	<content contentuid="h298b9a29g5657g4aa9gaad6gad22d3d1f1d5" version="1">Pure Radiance</content>
+	<content contentuid="h298b9a29g5657g4aa9gaad6gad22d3d1f1d5" loreTexts="true" version="1">Champion of Justice</content>
 	<content contentuid="hb2400634gf3e4g46f1gb93dg136s6d5f4d54" version="3">When making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against a creature afflicted with stacks of &lt;LSTag Type="Status" Tooltip="MAG_RADIANT_RADIATING_ORB"&gt;Radiating Orb&lt;/LSTag&gt;, you roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; and deal an additional [1].</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">OATHBOUND CRUSADER</content>
@@ -239,18 +239,18 @@
 	<content contentuid="h298b9a29g5657g4aa9gaad6gaasdfafsdfs1" loreTexts="true" version="1">Abjure the Guilty</content>
 	<content contentuid="hb2400634gf3e4g46f1gb93dg1sdfsddasdf5" version="3">When dealing damage to a target affected by &lt;LSTag Type="Spell" Tooltip="Target_AbjureEnemy"&gt;Abjure Enemy&lt;/LSTag&gt;, roll your damage dice with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Additionally, &lt;LSTag Type="Spell" Tooltip="Target_InquisitorsMight"&gt;Inquisitor's Might&lt;/LSTag&gt; also grants Advantage on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
 
-	<content contentuid="hce5530e4g3326g4a39ga467gf5d023c89bcd" version="2">Aura of Warding</content>
+	<content contentuid="hce5530e4g3326g4a39ga467gf5d023c89bcd" loreTexts="true" version="2">Aura of Perseverance</content>
 	<content contentuid="h7b194af9ge1fbg47b4g95ebg4b5d0eebb313" version="9">During combat you emit an aura which grants both yourself and allies &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to damage from spells.</content>
-	<content contentuid="hd2abbfe7g0d50g4bbega5bdg8d1977439ff6" version="2">Aura of Warding</content>
+	<content contentuid="hd2abbfe7g0d50g4bbega5bdg8d1977439ff6" loreTexts="true" version="2">Aura of Perseverance</content>
 	<content contentuid="hbffabd18gf3d3g40b5gbfd1gc6d5bcb7c11e" version="5">Affected creature is emitting an aura across [1] which grants both this creature and allies &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to damage from spells.</content>
-	<content contentuid="ha87fa9dbg5e60g4a75ga11bgba1fb919d196" version="2">Aura of Warding</content>
+	<content contentuid="ha87fa9dbg5e60g4a75ga11bgba1fb919d196" loreTexts="true" version="2">Aura of Perseverance</content>
 	<content contentuid="h32aa4439g4e6eg4398gb2f1g160c7ceab346" version="6">Has &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to damage from spells while within [1] of the Paladin responsible for this status.</content>
 
-	<content contentuid="h298b9a29g5657g4aa9gaad6gad3a822d3f45" version="1">I Am Vengeance</content>
+	<content contentuid="h298b9a29g5657g4aa9gaad6gad3a822d3f45" loreTexts="true" version="1">Vengeance Incarnate</content>
 	<content contentuid="hb2400634gf3e4g46f1gb93dg1330e4ss6d85" version="3">Once per combat encounter, erupt in radiant fury. Your weapon attacks deal an additional [1] for three turns and all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; you make are rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
-	<content contentuid="h298b9a29g5657g4aa9gaad6gad3a8af00001" version="1">Visage of Vengeance</content>
+	<content contentuid="h298b9a29g5657g4aa9gaad6gad3a8af00001" loreTexts="true" version="1">Vengeance Incarnate</content>
 	<content contentuid="hb2400634gf3e4g46f1gb93dg1330e4a0000a" version="3">Erupt in radiant fury. Your weapon attacks deal an additional [1] and all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; are made with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
-	<content contentuid="h298b9a29g5657g4aa9gaad6gad3a8af000z1" version="1">Visage of Vengeance</content>
+	<content contentuid="h298b9a29g5657g4aa9gaad6gad3a8af000z1" loreTexts="true" version="1">Vengeance Incarnate</content>
 	<content contentuid="hb2400634gf3e4g46f1gb93dg1330e4a000za" version="3">Affected creature has erupted in radiant fury. Their weapon attacks deal an additional [1] and they make all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">OATHBREAKER</content>
