@@ -5,3 +5,11 @@
 *.pak
 output/
 Tools/
+
+*
+!Home Brew - Comprehensive Reworks/Mods/HomeBrew - Comprehensive Reworks/Localization/English
+!Home Brew - Comprehensive Reworks/Mods/Home Brew - Comprehensive Reworks
+!Home Brew - Comprehensive Reworks/Mods/Home Brew - Comprehensive Reworks - Lore Texts
+!.github
+!*.fsx
+!README.md
