@@ -303,7 +303,7 @@ the Tome</content>
 <content contentuid="0000000000000000000000000000000000000" version="1">PASSIVES</content>
 
 	<content contentuid="9b7b811b9c3043e189f945540bf5116e00011" version="5">Eldritch Boons</content>
-	<content contentuid="9b7b811b9c3043e189f945540bf5116e0000k" version="1">Pacts forged in deepest secrecies beget chaotic, eldritch power.&lt;br&gt;Contracts satiated will provide new forms of strength. </content>
+	<content contentuid="9b7b811b9c3043e189f945540bf5116e0000k" version="1">Pacts forged in deepest secrecies beget chaotic, eldritch power.&lt;br&gt;Contracts satiated will provide new forms of strength.</content>
 
 	<content contentuid="hcbb02b50g75d3g468fgacb6gb7c74696a953" version="5">Bane of the Pact</content>
 	<content contentuid="h53277800gd3a4g4984gbff6g0af596693jjc" version="1">Dealing damage with your &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt; applies &lt;LSTag Type="Status" Tooltip="BANE"&gt;Bane&lt;/LSTag&gt; to your target for three turns. This can be toggled at any time.</content>

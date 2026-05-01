@@ -234,21 +234,21 @@
 	<content contentuid="greater0cgbbe9g4b3ag6ee1ga1fb5c73gv65" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Radiant damage and the ability to use &lt;LSTag Type="Spell" Tooltip="Zone_BreathWeapon_Greater_Radiant"&gt;Greater Scintillating Breath&lt;/LSTag&gt;. At level 9, the strength of your Draconic Ancestry will reach its full potential.</content>
 	<content contentuid="superior7g732dg488egbd41g33c51138dh70" version="5">Superior Draconic Ancestry: Crystal</content>
 	<content contentuid="superiorcgbbe9g4b3ag6ee1ga1fb5c73gv65" version="1">Gain &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to Radiant damage and the ability to use &lt;LSTag Type="Spell" Tooltip="Zone_BreathWeapon_Superior_Radiant"&gt;Superior Scintillating Breath&lt;/LSTag&gt;.</content>
-  
+	
 	<content contentuid="h5b2a52b7g732dg488egbd41g33c51138swad" version="5">Draconic Ancestry: Emerald</content>
 	<content contentuid="h7894f0bfg25a2g46d7gc488gd31e5b9csda6" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Psychic damage and the ability to use &lt;LSTag Type="Spell" Tooltip="Zone_BreathWeapon_Psychic"&gt;Psionic Breath&lt;/LSTag&gt;. At levels 5 and 9, the strength of your Draconic Ancestry grows.</content>
 	<content contentuid="greaterb7g732dg488egbd41g33c51138swad" version="5">Greater Draconic Ancestry: Emerald</content>
 	<content contentuid="greaterbfg25a2g46d7gc488gd31e5b9csda6" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Psychic damage and the ability to use &lt;LSTag Type="Spell" Tooltip="Zone_BreathWeapon_Greater_Psychic"&gt;Greater Psionic Breath&lt;/LSTag&gt;. At level 9, the strength of your Draconic Ancestry will reach its full potential.</content>
 	<content contentuid="superior7g732dg488egbd41g33c51138swad" version="5">Superior Draconic Ancestry: Emerald</content>
 	<content contentuid="superiorfg25a2g46d7gc488gd31e5b9csda6" version="1">Gain &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to Psychic damage and the ability to use &lt;LSTag Type="Spell" Tooltip="Zone_BreathWeapon_Superior_Psychic"&gt;Superior Psionic Breath&lt;/LSTag&gt;.</content>
-  
+	
 	<content contentuid="h5b2a52b7g732dg488egbd41g33c511384ndx" version="5">Draconic Ancestry: Sapphire</content>
 	<content contentuid="h26f30b81g2c95g44eegf37fgfb807812ae4e" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Thunder damage and the ability to use &lt;LSTag Type="Spell" Tooltip="Zone_BreathWeapon_Thunder"&gt;Sonic Breath&lt;/LSTag&gt;. At levels 5 and 9, the strength of your Draconic Ancestry grows.</content>
 	<content contentuid="greaterb7g732dg488egbd41g33c511384ndx" version="5">Greater Draconic Ancestry: Sapphire</content>
 	<content contentuid="greater81g2c95g44eegf37fgfb807812ae4e" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Thunder damage and the ability to use &lt;LSTag Type="Spell" Tooltip="Zone_BreathWeapon_Greater_Thunder"&gt;Greater Sonic Breath&lt;/LSTag&gt;. At level 9, the strength of your Draconic Ancestry will reach its full potential.</content>
 	<content contentuid="superior7g732dg488egbd41g33c511384ndx" version="5">Superior Draconic Ancestry: Sapphire</content>
 	<content contentuid="superior1g2c95g44eegf37fgfb807812ae4e" version="1">Gain &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to Thunder damage and the ability to use &lt;LSTag Type="Spell" Tooltip="Zone_BreathWeapon_Superior_Thunder"&gt;Superior Sonic Breath&lt;/LSTag&gt;.</content>
-  
+	
 	<content contentuid="h5b2a52b7g732dg488egbd41g33c51138c36h" version="5">Draconic Ancestry: Topaz</content>
 	<content contentuid="hafa21eefgf5c3g4c66g7b8bg84ed7f609dc9" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Necrotic damage and the ability to use &lt;LSTag Type="Spell" Tooltip="Zone_BreathWeapon_Necrotic"&gt;Desiccating Breath&lt;/LSTag&gt;. At levels 5 and 9, the strength of your Draconic Ancestry grows.</content>
 	<content contentuid="greaterb7g732dg488egbd41g33c51138c36h" version="5">Greater Draconic Ancestry: Topaz</content>

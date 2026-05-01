@@ -71,7 +71,7 @@
 	<content contentuid="h2accac8fg28eeg4d85gb412g2f6f8ec2d756" loreTexts="true" version="1">You explored the endless paths of the Great Everwood and learned to befriend the many beasts that call it home.</content>
 
 	<content contentuid="hdea6e468g7f71g48f6gaf6fg36fce0dfy4f2" version="3">Nevermore</content>
-	<content contentuid="hdea6e468g7f71g48f6gaf6fg36fce0df6568" version="3">You will not provoke attacks of opportunity. </content>
+	<content contentuid="hdea6e468g7f71g48f6gaf6fg36fce0df6568" version="3">You will not provoke attacks of opportunity.</content>
 	<content contentuid="hdea6e468g7f71g48f6gaf6fg36fce0d73jd8" version="3">Netherese Plumes</content>
 	<content contentuid="hdea6e468g7f71g48f6gaf6fg36fce0d25d5d" version="3">Create a pocket of darkness, &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinding&lt;/LSTag&gt; all who enter.</content>
 
@@ -161,11 +161,11 @@
 	<content contentuid="h671dedb3g21bag48d5g97998w23eyr9wyu9f" version="2">Helmsplitter</content>
 	<content contentuid="h671dedb3g21bag48d5g979eg623089r97d8f" version="5">Gain the ability to target entire groups of enemies with your weapons.</content>
 	<content contentuid="h671dedb3g21bag48d5g979eg6b61817cc1e4" version="2">Volley</content>
-	<content contentuid="h671dedb3g21bag48d5g979eg6b61817cc1e5" version="5">Loose a volley of arrows within an area, making separate &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against each target. </content>
+	<content contentuid="h671dedb3g21bag48d5g979eg6b61817cc1e5" version="5">Loose a volley of arrows within an area, making separate &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against each target.</content>
 	<content contentuid="h671dedb3g21bag48d5g979eg6b61817cc1e9" version="2">Rain Storm</content>
-	<content contentuid="h671dedb3g21bag48d5g979eg6b61817cc1e8" version="5">Loose a volley of bullets within an area, making separate &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against each target. </content>
+	<content contentuid="h671dedb3g21bag48d5g979eg6b61817cc1e8" version="5">Loose a volley of bullets within an area, making separate &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against each target.</content>
 	<content contentuid="ha320b97dg0f62g46a8gbf6bg983046bdc3e1" version="2">Whirlwind</content>
-	<content contentuid="h06746addg056dg43f1gada6g851e17ef5b22" version="5">Strike out at all nearby foes, making separate &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against each target. </content>
+	<content contentuid="h06746addg056dg43f1gada6g851e17ef5b22" version="5">Strike out at all nearby foes, making separate &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against each target.</content>
 
 	<content contentuid="h4d476cb8gfa45g4f4cga9d1gd0b102a255a2" version="2">Marksman's Eye</content>
 	<content contentuid="h20b19b1bg5da3g41d4g901bgd1d616a87715" version="2">When damaging a target you are currently &lt;LSTag Type="Status" Tooltip="HUNTED"&gt;Hunting&lt;/LSTag&gt;, you gain a bonus to all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; equal to the amount of stacks they have remaining.</content>
@@ -381,7 +381,7 @@
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d100012" version="4">Natural Huntsman</content>
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d10000l" version="4">Dealing damage to another creature grants a +1 bonus to all damage dealt for the rest of your turn. This effect can stack.</content>
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d100z12" version="4">Natural Huntsman</content>
-	<content contentuid="791a0319eeed4e25949847ad3a0dd1d1000zl" version="4">Affected creature has a +2 bonus to all damage dealt for each stack of Natural Huntsman.</content>
+	<content contentuid="791a0319eeed4e25949847ad3a0dd1d1000zl" version="4">Affected creature has a +1 bonus to all damage dealt for each stack of Natural Huntsman.</content>
 
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d100013" version="4">Natural Opportunity</content>
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d10000m" version="4">Gain an additional &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;. In addition, &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt; that you make will attack with both weapons.</content>

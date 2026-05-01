@@ -21,7 +21,7 @@
 	<content contentuid="06ccff5b74f84871a26d66436d5da6d500004" version="2">Druidcraft</content>
 	<content contentuid="aa20553d362b4ff6b5d95c70e4e37e590000d" version="1">Attempt to &lt;LSTag Type="Status" Tooltip="ENSNARED_VINES"&gt;Entangle&lt;/LSTag&gt; another creature.</content>
 
-	<content contentuid="06ccff5b74f84871a26d66436d5da6d500005" version="1">Frostbite</content>
+	<content contentuid="06ccff5b74f84871a26d66436d5da6d500005" version="1">Frigid Touch</content>
 	<content contentuid="aa20553d362b4ff6b5d95c70e4e37e590000e" version="1">Touch a creature, causing a numbing frost to form around them, imposing &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on their next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
 	<content contentuid="06ccff5b74f84871a26d66436d5da6d5000a5" version="1">Frigid</content>
 	<content contentuid="aa20553d362b4ff6b5d95c70e4e37e59000ae" version="1">Affected creature has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;. Removed upon dealing damage.</content>

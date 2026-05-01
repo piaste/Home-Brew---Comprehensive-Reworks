@@ -6,7 +6,7 @@
 	<content contentuid="66523fb3deaa14de1766304e0918494800001" version="1">Blunderbuss</content>
 	<content contentuid="66523fb3deaa14de1766304e0918494800002" version="1">Flintlock</content>
 	<content contentuid="66523fb3deaa14de1766304e0918494800003" version="1">Musket</content>
-	<content contentuid="66523fb3deaa14de1766304e091849480000a" version="2">The players currently equipped firearm.</content>
+	<content contentuid="66523fb3deaa14de1766304e091849480000a" version="2">The player's currently equipped firearm.</content>
 
 	<content contentuid="66523fb3deaa14de1766304e096s5d4f68e54" version="1">Ammunition: 3</content>
 	<content contentuid="77523fb3deaa14de1766304e09s56ef956e84" version="2">Gain three shots of ammunition to fire your currently equipped firearms unique actions. You may restore your supply of Ammunition by &lt;LSTag Type="Spell" Tooltip="Shout_Reload_Firearm"&gt;Reloading&lt;/LSTag&gt;, or by finishing a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;. Ammunition is also reloaded automatically at the end of each combat encounter.</content>
@@ -89,7 +89,7 @@
 	<content contentuid="h509b8e00gacb9g46a5sd6f456e4ef4f000zb" version="2">Affected creature may fire &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h509b8e00gacb9g46a5sd6f456e4ef4f00003" version="1">Marked Suppression</content>
-	<content contentuid="h509b8e00gacb9g46a5sd6f456e4ef4f0000c" version="2">Dealing damage to an enemy with a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt; will &lt;LSTag Type="Status" Tooltip="MARKED_SUPPRESSION"&gt;Mark&lt;/LSTag&gt; them. When either yourself or allies make an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against a Marked creature, it is rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Only one enemy may be Marked at a time.</content>
+	<content contentuid="h509b8e00gacb9g46a5sd6f456e4ef4f0000c" version="2">Dealing damage to an enemy with a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt; will &lt;LSTag Type="Status" Tooltip="MARKED_SUPPRESSION"&gt;Mark&lt;/LSTag&gt; them. When either yourself or allies make an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against a Marked creature, it is rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Only one enemy may be Marked at a time.</content>
 	<content contentuid="h509b8e00gacb9g46a5sd6f456e4ef4f000z3" version="1">Marked</content>
 	<content contentuid="h509b8e00gacb9g46a5sd6f456e4ef4f000zc" version="2">Affected creature is Marked. &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made against them are rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Only one enemy may be Marked at a time.</content>
 
@@ -109,7 +109,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">BATTLE SYNTHETIC</content>
 
 	<content contentuid="33523fb3deaa14de1766304e0911fbc49ae33" version="1">Battle Synthetic</content>
-	<content contentuid="44523fb3deaa14de1766304e0911fbc49ae44" version="2">Armies require protection, and someone has to put things back together if defenses fall. A Battle Synthetic is an expert at defending others and repairs on the field. To aid in their work, Battlesmiths are accompanied by an Automaton.</content>
+	<content contentuid="44523fb3deaa14de1766304e0911fbc49ae44" version="2">Armies require protection, and someone has to put things back together if defenses fall. A Battle Synthetic is an expert at defending others and repairs on the field. To aid in their work, Battle Synthetics are accompanied by an Automaton.</content>
 
 	<content contentuid="h509b8e00gacb9g46a5sd65df45e4f2f00001" version="1">Stabilizing Rounds</content>
 	<content contentuid="h5b8e00gacb9g46a5sd6f4566e8f5d8s0000a" version="2">Your &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt; heal allies within [1] of your target for [2] &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.</content>
@@ -124,7 +124,7 @@
 	<content contentuid="h509b8e00gacb9g46a5sd65df45e4f2f00002" version="1">Targeted Repair Cycle</content>
 	<content contentuid="h5b8e00gacb9g46a5sd6f4566e8f5d8s0000b" version="2">Upon damaging an enemy with a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt;, they become &lt;LSTag Type="Status" Tooltip="SYNTHETIC_MARK"&gt;Synthetically Marked&lt;/LSTag&gt; until the end of their next turn. Allies who damage a Synthetically Marked creature will recover [1] &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;. Only one enemy may be Synthetically Marked at a time.</content>
 	<content contentuid="h509b8e00gacb9g46a5sd65df45e4f2f000z2" version="1">Synthetic Mark</content>
-	<content contentuid="h5b8e00gacb9g46a5sd6f4566e8f5d8s000zb" version="2">Affected creature will heal whomever damages them for [1] &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.</content>
+	<content contentuid="h5b8e00gacb9g46a5sd6f4566e8f5d8s000zb" version="2">Affected creature will heal whoever damages them for [1] &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h509b8e00gacb9g46a5sd65df45e4f2f00003" version="1">Take Your Medicine</content>
 	<content contentuid="h5b8e00gacb9g46a5sd6f4566e8f5d8s0000c" version="2">Your firearms are capable of healing allies when targeting them.</content>
@@ -141,10 +141,10 @@
 	<content contentuid="h5b8e00gacb9g46a5sd6f4566e8f5d8s0000f" version="2">Lil' G has grown to an enormous size, growing stronger than ever!</content>
 
 	<content contentuid="h509b8e00gacb9g46a5sd65d2df15dff00001" version="1">Arcane Current</content>
-	<content contentuid="h5b8e00gacb9g46a5sd6f4566s8d5f4s0000a" version="2">Fire an beam of Arcane energy at a nearby target. This beam seeks your target out, and cannot miss.</content>
+	<content contentuid="h5b8e00gacb9g46a5sd6f4566s8d5f4s0000a" version="2">Fire a beam of Arcane energy at a nearby target. This beam seeks your target out, and cannot miss.</content>
 
 	<content contentuid="h509b8e00gacb9g46a5sd65d2df15dff00002" version="1">Cleansing Beam</content>
-	<content contentuid="h5b8e00gacb9g46a5sd6f4566s8d5f4s0000b" version="2">Fire an beam of Arcane energy at a nearby ally in order to cleanse them of all cases of blindness, disease, intoxication, paralysis or poison.</content>
+	<content contentuid="h5b8e00gacb9g46a5sd6f4566s8d5f4s0000b" version="2">Fire a beam of Arcane energy at a nearby ally to cleanse them of all cases of blindness, disease, intoxication, paralysis or poison.</content>
 
 	<content contentuid="h509b8e00gacb9g46a5sd65d2df15dff00003" version="1">Self Destruct</content>
 	<content contentuid="h5b8e00gacb9g46a5sd6f4566s8d5f4s0000c" version="2">Self destruct, causing massive damage to anything nearby when the blast erupts.</content>
@@ -184,15 +184,15 @@
 	<content contentuid="47523fb3deaa14de1766304e0911fbc49ae44" version="2">To an Infused Arcsmith, bodies are but a malleable canvas. Enhanced and honed through magic in order to unleash their potency, an Arcsmith's power only grows over time as experimentation and bonding further refines their work.</content>
 
 	<content contentuid="88523fb3deaa14de1766304e0911fbc49ae88" version="1">Matrix Charges</content>
-	<content contentuid="99523fb3deaa14de1766304e0911fbc49ae99" version="2">Used in order to infuse allies and enemies.</content>
+	<content contentuid="99523fb3deaa14de1766304e0911fbc49ae99" version="2">Used to infuse allies and enemies.</content>
 
 	<content contentuid="h509b8e00gacb9g46a583898dfj5df2f00001" version="1">Infusion Matrix</content>
-	<content contentuid="h5b8e00gacb9g46a5sd6f45623r4ff8s0000a" version="2">Gain the ability to infuse allies and enemies in order to apply powerful buffs and debuffs. In addition, &lt;LSTag Type="Spell" Tooltip="Shout_Reload_Firearm"&gt;Reloading&lt;/LSTag&gt; your firearms will restore one &lt;LSTag Type="ActionResource" Tooltip="InfusionSlots"&gt;Matrix Charge&lt;/LSTag&gt;.</content>
+	<content contentuid="h5b8e00gacb9g46a5sd6f45623r4ff8s0000a" version="2">Gain the ability to infuse allies and enemies to apply powerful buffs and debuffs. In addition, &lt;LSTag Type="Spell" Tooltip="Shout_Reload_Firearm"&gt;Reloading&lt;/LSTag&gt; your firearms will restore one &lt;LSTag Type="ActionResource" Tooltip="InfusionSlots"&gt;Matrix Charge&lt;/LSTag&gt;.</content>
 	<content contentuid="h509b8e00gacb9g46a583898dfj5df2f000z1" version="1">Infuse Creature</content>
-	<content contentuid="h5b8e00gacb9g46a5sd6f45623r4ff8s000za" version="2">Infuse allies or enemies in order to provide a variety of different effects based on your choice of Optimization and Sabotage matrices.</content>
+	<content contentuid="h5b8e00gacb9g46a5sd6f45623r4ff8s000za" version="2">Infuse allies or enemies to provide a variety of different effects based on your choice of Optimization and Sabotage matrices.</content>
 
 	<content contentuid="h509b8e00gacb9g46a583898dfj5df2f00002" version="1">Adaptive Intervention</content>
-	<content contentuid="h5b8e00gacb9g46a5sd6f45623r4ff8s0000b" version="2">You may expend one &lt;LSTag Type="ActionResource" Tooltip="InfusionSlots"&gt;Matrix Charge&lt;/LSTag&gt; in order to grant an ally &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt;. Additionally, when an ally or enemy is about to be damaged, you may expend a &lt;LSTag Type="ActionResource" Tooltip="InfusionSlots"&gt;Matrix Charge&lt;/LSTag&gt; to immediately &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; them.</content>
+	<content contentuid="h5b8e00gacb9g46a5sd6f45623r4ff8s0000b" version="2">You may expend one &lt;LSTag Type="ActionResource" Tooltip="InfusionSlots"&gt;Matrix Charge&lt;/LSTag&gt; to grant an ally &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt;. Additionally, when an ally or enemy is about to be damaged, you may expend a &lt;LSTag Type="ActionResource" Tooltip="InfusionSlots"&gt;Matrix Charge&lt;/LSTag&gt; to immediately &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; them.</content>
 	<content contentuid="h509b8e00gacb9g46a583898dfj5df2f000z2" version="1">Adaptive Intervention</content>
 	<content contentuid="h5b8e00gacb9g46a5sd6f45623r4ff8s000zb" version="2">Grant an ally &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="h509b8e00gacb9g46a583898dfj5df2f000y2" version="1">Adaptive Intervention</content>
@@ -211,14 +211,14 @@
 	<content contentuid="h509b8e00gacb9g46a583898dfj5df2f00005" version="1">Overclocked Subroutine</content>
 	<content contentuid="h5b8e00gacb9g46a5sd6f45623r4ff8s0000e" version="2">You may now &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; three creatures at once.</content>
 
-	<content contentuid="h509b8e00gacb9g46a583898dfj5df2f00006" version="1">Expermental Augmentation</content>
+	<content contentuid="h509b8e00gacb9g46a583898dfj5df2f00006" version="1">Experimental Augmentation</content>
 	<content contentuid="h5b8e00gacb9g46a5sd6f45623r4ff8s0000f" version="2">Upon &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infusing&lt;/LSTag&gt; an ally they will experience a sudden surge of positive &lt;LSTag Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt;. Upon Infusing an enemy, they will instead experience a negative surge of Wild Magic. This may occur once per turn.</content>
 
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc400000" version="1">Optimization Matrix</content>
 	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc400000" version="2">Select an effect to apply to your allies upon Infusing them.</content>
 
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc40xxyz" version="1">Infused</content>
-	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40xyzz" version="2">Affected creature is affected by a variety of effects based on an Arcsmith's choice of Optimization and Sabotage matrices.</content>
+	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40xyzz" version="2">Affected creature is infused with a variety of effects based on an Arcsmith's choice of Optimization and Sabotage matrices.</content>
 
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc400001" version="1">Optimization: Adaptive Shielding</content>
 	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40000a" version="2">Grant allies &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to all damage upon &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infusing&lt;/LSTag&gt; them.</content>
@@ -277,7 +277,7 @@
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc40z006" version="1">Sabotage: Direct System Damage</content>
 	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40z00f" version="2">Enemies you &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; take 1d8 Force damage multiplied by your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; No extended effect when Infusing the same enemy multiple times.</content>
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc40z007" version="1">Sabotage: Exposed System Info</content>
-	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40z00g" version="2">Enemies you &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; will have all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made toward them be made with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40z00g" version="2">Enemies you &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; will have all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made toward them rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc40z008" version="1">Sabotage: Greater Soporific</content>
 	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40z00h" version="2">Enemies you &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; will fall &lt;LSTag Type="Status" Tooltip="SLEEPING"&gt;Asleep&lt;/LSTag&gt; when their Infusion wears off.</content>
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc40z009" version="1">Sabotage: Healing Lockout</content>
@@ -317,7 +317,7 @@
 	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe500b" version="2">Your firearms are incapable of &lt;LSTag Type="Status" Tooltip="FIREARM_MALFUNCTION"&gt;Misfiring&lt;/LSTag&gt;.</content>
 
 	<content contentuid="115fb28f01e84e44b3536f475sd5f4ef2f003" version="1">Automated Arcane Suppression</content>
-	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe500c" version="2">When an enemy casts a Spell, you may expend one round of &lt;LSTag Type="ActionResource" Tooltip="FirearmAmmo"&gt;Ammunition&lt;/LSTag&gt; in order to make a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt; against them with your firearm.</content>
+	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe500c" version="2">When an enemy casts a Spell, you may expend one round of &lt;LSTag Type="ActionResource" Tooltip="FirearmAmmo"&gt;Ammunition&lt;/LSTag&gt; to make a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt; against them with your firearm.</content>
 	<content contentuid="115fb28f01e84e44b3536f475sd5f4ef2f0z3" version="1">Automated Arcane Suppression</content>
 	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe50zc" version="2">When an enemy casts a Spell, make a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt; against them with your firearm.</content>
 
@@ -332,7 +332,7 @@
 	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe500e" version="2">The number needed to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; with your firearms is reduced by 1.</content>
 
 	<content contentuid="115fb28f01e84e44b3536f475sd5f4ef2f006" version="1">Elemental Payload</content>
-	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe500f" version="2">Gain the ability to cause a localized elemental shock with your equipped weapons, causing them to deal an additional 1d4 damage type of your choice.</content>
+	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe500f" version="2">Gain the ability to cause a localized elemental shock with your equipped weapons, causing them to deal an additional +1d4 damage type of your choice.</content>
 	<content contentuid="115fb28f01e84e44b3536f475sd5f4ef2f0z6" version="1">Elemental Payload</content>
 	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe50zf" version="2">Cause a localized elemental shock with your equipped weapons, allowing them to deal additional damage.&lt;Br&gt;&lt;br&gt;This &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; may be cast while &lt;LSTag Type="Status" Tooltip="HEAVILY_SILENCED"&gt;Silenced&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Muted&lt;/LSTag&gt; and will not break &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Stealth&lt;/LSTag&gt;.</content>
 	<content contentuid="115fb28f01e84e44b3536f475sd6s5d5f2d01" version="1">Elemental Payload: Acid</content>
@@ -358,7 +358,7 @@
 	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe500i" version="2">Dealing damage with your firearms causes your target to Burn.</content>
 
 	<content contentuid="115fb28f01e84e44b3536f475sd5f4ef2f010" version="1">Kinetic Feedback Loop</content>
-	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe500j" version="2">When an ally is damaged, you may expend one round of &lt;LSTag Type="ActionResource" Tooltip="FirearmAmmo"&gt;Ammunition&lt;/LSTag&gt; in order to make a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt; with one of your firearms against their aggressor.</content>
+	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe500j" version="2">When an ally is damaged, you may expend one round of &lt;LSTag Type="ActionResource" Tooltip="FirearmAmmo"&gt;Ammunition&lt;/LSTag&gt; to make a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt; with one of your firearms against their aggressor.</content>
 	<content contentuid="115fb28f01e84e44b3536f475sd5f4ef2fz10" version="1">Kinetic Feedback Loop</content>
 	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe50zj" version="2">When an ally is damaged, make a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt; with one of your firearms against their aggressor.</content>
 
@@ -390,7 +390,7 @@
 	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe500o" version="2">Once per turn, upon landing a Killing Blow or a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; with a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt;, you restore one round of &lt;LSTag Type="ActionResource" Tooltip="FirearmAmmo"&gt;Ammunition&lt;/LSTag&gt;.</content>
 
 	<content contentuid="115fb28f01e84e44b3536f475sd5f4ef2f016" version="1">Recoil Compensation</content>
-	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe500p" version="2">Once per turn, landing a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; with one of your firearms allows you to expend one round of your &lt;LSTag Type="ActionResource" Tooltip="FirearmAmmo"&gt;Ammunition&lt;/LSTag&gt; in order to fire at your target again.</content>
+	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe500p" version="2">Once per turn, landing a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; with one of your firearms allows you to expend one round of your &lt;LSTag Type="ActionResource" Tooltip="FirearmAmmo"&gt;Ammunition&lt;/LSTag&gt; to fire at your target again.</content>
 	<content contentuid="115fb28f01e84e44b3536f475sd5f4ef2fz16" version="1">Recoil Compensation</content>
 	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe50zp" version="2">Affected creature may be fired upon once again by their aggressor.</content>
 
@@ -403,9 +403,9 @@
 	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe50zr" version="2">Affected creature may &lt;LSTag Type="Spell" Tooltip="Shout_Reload_Firearm"&gt;Reload&lt;/LSTag&gt; their firearms as a free action.</content>
 
 	<content contentuid="115fb28f01e84e44b3536f475sd5f4ef2f019" version="1">Synthetic Action Economy</content>
-	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe500s" version="2">You may expend your &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; in order to regain your &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt;. Afterwards, you will be unable to use your Bonus Action again until you land a killing blow.</content>
+	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe500s" version="2">You may expend your &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; to regain your &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt;. Afterwards, you will be unable to use your Bonus Action again until you land a killing blow.</content>
 	<content contentuid="115fb28f01e84e44b3536f475sd5f4ef2fz19" version="1">Synthetic Action Economy</content>
-	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe50zs" version="2">Expend your &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; in order to regain your &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt;. Afterwards, you will be unable to use your Bonus Action again until you land a killing blow.</content>
+	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe50zs" version="2">Expend your &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; to regain your &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt;. Afterwards, you will be unable to use your Bonus Action again until you land a killing blow.</content>
 	<content contentuid="115fb28f01e84e44b3536f475sd5f4ef2fy19" version="1">Synthetic Action Economy</content>
 	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe50ys" version="2">Affected creature is unable to utilize their &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; until they land a killing blow.</content>
 
@@ -425,13 +425,13 @@
 	<content contentuid="hfd394f99ge717g4b41ga956g51531e822c41" version="3">Firearm Proficiency</content>
 
 	<content contentuid="h39d01fe9647646449a44ba72ce26fb562c4d" version="1">Ammunition</content>
-	<content contentuid="hd2b13a17eb1745489b41121e677f9c7b60ac" version="1">Used to fire your currently equipped firearms unique actions.</content>
+	<content contentuid="hd2b13a17eb1745489b41121e677f9c7b60ac" version="1">Used to fire your currently equipped firearm's unique actions.</content>
 
 	<content contentuid="h4eb05b30f89b4d3fa9ea58a29dc17fb78c6g" version="1">Blunderbuss</content>
 	<content contentuid="h19b1e375f56847abba0b91fe963663a025ab" version="1">Blunderbuss</content>
 	<content contentuid="hf23219f4d0914655a282c7f6327b33e54g3d" version="1">Improved Blunderbuss</content>
 	<content contentuid="h1138118bce9b41628c10a095c9fbbb6b4776" version="1">Refined Blunderbuss</content>
-	<content contentuid="hc20cdb98d4cf407d8686bc7af76360a75181" version="1">This blunderbuss appears to have been fashioned from gondian metalworking, held together by their craftsmanship. When fired, the firearm emits a loud, irregular bang.</content>
+	<content contentuid="hc20cdb98d4cf407d8686bc7af76360a75181" version="1">This blunderbuss appears to have been fashioned from Gondian metalworking, held together by their craftsmanship. When fired, the firearm emits a loud, irregular bang.</content>
 
 	<content contentuid="h5bd072ff8e674f1c9c4d544b43ba51123gf5" version="1">Flintlock</content>
 	<content contentuid="h79c3ecdb17104a25a3ed85df12dfebb98ff9" version="1">Flintlock</content>
@@ -458,9 +458,9 @@
 	<content contentuid="h81ed88e5gbedcg4e19g820ag3c711ff35217" version="1">Ranged Attack</content>
 	<content contentuid="h509b8e00gacb9g46e8d5f4e5fee8d5f65sd7" version="1">Fire a long range shot from your musket.</content>
 	<content contentuid="h1699213a6f194fa6ac028aaf1119707e2162" version="1">Precision Aim</content>
-	<content contentuid="h691a4d59f41f4427978220a7c85d3cc70921" version="1">Enter into a crouched stance, doubling your musket's range and the bonus damage provided by &lt;LSTag Type="Passive" Tooltip="BootsontheGround"&gt;Boots on the Ground&lt;/LSTag&gt;. While in this crouched stance, &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; are made with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;, consume one round of &lt;LSTag Type="ActionResource" Tooltip="FirearmAmmo"&gt;Ammunition&lt;/LSTag&gt;, and your &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; is reduced to zero.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Using this action again will cause you to stand back up, restoring your ability to move.</content>
+	<content contentuid="h691a4d59f41f4427978220a7c85d3cc70921" version="1">Enter a crouched stance, doubling your musket's range and the bonus damage provided by &lt;LSTag Type="Passive" Tooltip="BootsontheGround"&gt;Boots on the Ground&lt;/LSTag&gt;. While in this crouched stance, &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; are made with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;, consume one round of &lt;LSTag Type="ActionResource" Tooltip="FirearmAmmo"&gt;Ammunition&lt;/LSTag&gt;, and your &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; is reduced to zero.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Using this action again will cause you to stand back up, restoring your ability to move.</content>
 	<content contentuid="h1699213a6f194fa6ac028aaf1119707e2163" version="1">Precision Aim</content>
-	<content contentuid="h691a4d59f41f4427978220a7c85d3cc70922" version="1">Affected creature has entered into a crouched stance, doubling their musket's range and the bonus damage provided by &lt;LSTag Type="Passive" Tooltip="BootsontheGround"&gt;Boots on the Ground&lt;/LSTag&gt;. While in this crouched stance, their &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; are made with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;, consume one round of &lt;LSTag Type="ActionResource" Tooltip="FirearmAmmo"&gt;Ammunition&lt;/LSTag&gt;, and their &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; is reduced to zero.</content>
+	<content contentuid="h691a4d59f41f4427978220a7c85d3cc70922" version="1">Affected creature has entered a crouched stance, doubling their musket's range and the bonus damage provided by &lt;LSTag Type="Passive" Tooltip="BootsontheGround"&gt;Boots on the Ground&lt;/LSTag&gt;. While in this crouched stance, their &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; are made with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;, consume one round of &lt;LSTag Type="ActionResource" Tooltip="FirearmAmmo"&gt;Ammunition&lt;/LSTag&gt;, and their &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; is reduced to zero.</content>
 
 	<content contentuid="h509b8e00gacb9g46e8d55s6d5f4ef4500000" version="1">Summon Firearms</content>
 	<content contentuid="h509b8e00gacb9g46e8d5f4e6as8dfe800000" version="2">Summon one of three unique firearms. As you level in Artificer, they will deal additional damage and gain new effects.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Summoning your firearms may be done at any time as a free action.</content>
@@ -471,7 +471,7 @@
 	<content contentuid="h509b8e00gacb9g46e8d55s6d5f4ef4500003" version="1">Summon Musket</content>
 	<content contentuid="h509b8e00gacb9g46e8d5f4e6as8dfe80000c" version="2">Summon a musket capable of dealing high single target damage at a long range.</content>
 
-    <content contentuid="h9948c4df266c474c8f2a9e9f7c75bd508e81" version="1">Reload</content>
+	<content contentuid="h9948c4df266c474c8f2a9e9f7c75bd508e81" version="1">Reload</content>
 	<content contentuid="h60fad97c1f12406089daa939fafbde5dc671" version="1">Restore your supply of &lt;LSTag Type="ActionResource" Tooltip="FirearmAmmo"&gt;Ammunition&lt;/LSTag&gt; and clear any &lt;LSTag Type="Status" Tooltip="FIREARM_MALFUNCTION"&gt;Misfires&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h6e14d0af00b24f35a154d0b96e68a1b067d4" version="1">Misfire</content>

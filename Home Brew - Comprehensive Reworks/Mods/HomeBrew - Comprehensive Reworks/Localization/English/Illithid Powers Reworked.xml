@@ -7,7 +7,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">PSIONIC OVERLOAD</content>
 	<content contentuid="h2d18417cgc993g4e52g914cgf1e205a824cb" version="2">Psionic Overload</content>
-	<content contentuid="h74504e19g746bg4867gb7d5g63a74cd99dd0" version="4">When dealing damage with a weapon or while unarmed or assuming the form of a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wild Shape&lt;/LSTag&gt;, deal an additional [1].</content>
+	<content contentuid="h74504e19g746bg4867gb7d5g63a74cd99dd0" version="4">When dealing damage with a weapon or while unarmed or assuming the form of a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt;, deal an additional [1].</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">FAVOURABLE BEGINNINGS</content>
 	<content contentuid="hb3c2d634g1eb9g4b82gbd88g599b2eec1f66" version="3">Favourable Outcomes</content>
@@ -57,9 +57,9 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">CHARM</content>
 	<content contentuid="hc0e7c142g5bc6g469cgb07ag5c5d8dd55078" version="2">Illithid Influence</content>
-	<content contentuid="hcdf85be6g6d3dg4bc5g9dcfg3f9688e97bb8" version="6">You may channel the dark allure of the tadpole to &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charm&lt;/LSTag&gt; an enemy that attacks you, preventing them from attacking you until their next turn. </content>
+	<content contentuid="hcdf85be6g6d3dg4bc5g9dcfg3f9688e97bb8" version="6">You may channel the dark allure of the tadpole to &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charm&lt;/LSTag&gt; an enemy that attacks you, preventing them from attacking you until their next turn.</content>
 	<content contentuid="h64f41820g60c0g49a5g8af7ge22f6563fbea" version="1">Illithid Influence</content>
-	<content contentuid="hf75d828dg5bc2g4a77g8636g1baa0e933a30" version="2">Forcibly &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charm&lt;/LSTag&gt; an enemy that attacks you, preventing them from attacking you until their next turn. </content>
+	<content contentuid="hf75d828dg5bc2g4a77g8636g1baa0e933a30" version="2">Forcibly &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charm&lt;/LSTag&gt; an enemy that attacks you, preventing them from attacking you until their next turn.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">DISPLACE</content>
 	<content contentuid="hf368aca8g11b7g4e67g9247g9d5281894a7f" version="2">Displace</content>

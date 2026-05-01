@@ -68,11 +68,11 @@
 	<content contentuid="heec87dfbg454fg4550g8622gb200a6700ssb" version="2">Affected creature is considered to be Undead. They have &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to Necrotic and Poison damage.</content>
 
 	<content contentuid="h6cc498f5g13a0g4dc1g8c91gff3580c00003" version="1">Harvest</content>
-	<content contentuid="heec87dfbg454fg4550g8622gb200a670000c" version="1">While within [1] of a corpse, they radiate a necrotic aura, dealing [2] to all enemies within [3] at the start of each of their turns and preventing them from recovering &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;When damaging a creature suffering from a &lt;LSTag Type="Status" Tooltip="PLAGUEOFROT"&gt;Curse of Rot&lt;/LSTag&gt;, they receive one additional stack as well. This can be toggled at any time.</content>
+	<content contentuid="heec87dfbg454fg4550g8622gb200a670000c" version="1">While within [1] of a corpse, they radiate a necrotic aura, dealing [2] to all enemies within [3] at the start of each of their turns and preventing them from recovering &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;When damaging a creature suffering from a &lt;LSTag Type="Status" Tooltip="PLAGUEOFROT"&gt;Curse of Rot&lt;/LSTag&gt;, they receive one additional stack. This can be toggled at any time.</content>
 	<content contentuid="h6cc498f5g13a0g4dc1g8c91gff3580c000z3" version="1">Fresh Harvest</content>
-	<content contentuid="heec87dfbg454fg4550g8622gb200a67000zc" version="1">Affected corpse is radiating a necrotic aura, dealing [1] to all enemies within [2] at the start of each of their turns and preventing them from recovering &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;When damaging a creature suffering from a &lt;LSTag Type="Status" Tooltip="PLAGUEOFROT"&gt;Curse of Rot&lt;/LSTag&gt;, they receive one additional stack as well.</content>
+	<content contentuid="heec87dfbg454fg4550g8622gb200a67000zc" version="1">Affected corpse is radiating a necrotic aura, dealing [1] to all enemies within [2] at the start of each of their turns and preventing them from recovering &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;When damaging a creature suffering from a &lt;LSTag Type="Status" Tooltip="PLAGUEOFROT"&gt;Curse of Rot&lt;/LSTag&gt;, they receive one additional stack.</content>
 	<content contentuid="h6cc498f5g13a0g4dc1g8c91gff3580c00zz3" version="1">Harvest's Yield</content>
-	<content contentuid="heec87dfbg454fg4550g8622gb200a6700zzc" version="1">Affected creature is taking [1] at the start of each of their turns and cannot recover &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;If the affected creature is also suffering from a &lt;LSTag Type="Status" Tooltip="PLAGUEOFROT"&gt;Curse of Rot&lt;/LSTag&gt;, they receive one additional stack per turn as well.</content>
+	<content contentuid="heec87dfbg454fg4550g8622gb200a6700zzc" version="1">Affected creature is taking [1] at the start of each of their turns and cannot recover &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;If the affected creature is also suffering from a &lt;LSTag Type="Status" Tooltip="PLAGUEOFROT"&gt;Curse of Rot&lt;/LSTag&gt;, they receive one additional stack per turn.</content>
 	
 	<content contentuid="h6cc498f5g13a0g4dc1g8c91gff3580c00004" version="2">Insurmountable Suffering</content>
 	<content contentuid="heec87dfbg454fg4550g8622gb200a670000d" version="2">When dealing damage to an enemy or item, you ignore all forms of &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt; to Necrotic damage.</content>
@@ -149,7 +149,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">TEMPEST DOMAIN</content>
 
 	<content contentuid="ha24a3a6cg38bbg4ef4g8aa3g2a86a454tc01" version="1">Discharge</content>
-	<content contentuid="hd9f3cddag9dc3g44dfg965ag71389787tc01" version="1">Once per action, when dealing damage to a creature, you create projectiles of of Cold, Lightning, or Thunder. These projectiles jump to two other enemies within [1] of your target, dealing damage equal to your levels in Cleric to all three targets.</content>
+	<content contentuid="hd9f3cddag9dc3g44dfg965ag71389787tc01" version="1">Once per action, when dealing damage to a creature, you create projectiles of Cold, Lightning, or Thunder. These projectiles jump to two other enemies within [1] of your target, dealing damage equal to your levels in Cleric to all three targets.</content>
 	<content contentuid="ha24a3a6cg38bbg4ef4g8aa3g2a86a454tc02" version="1">Discharge (Cold)</content>
 	<content contentuid="hd9f3cddag9dc3g44dfg965ag71389787tc02" version="1">Once per action, when dealing damage to a creature, you create jagged shards of ice. These shards jump to two other enemies within [1] of your target, dealing Cold damage equal to your levels in Cleric to all three targets.</content>
 	<content contentuid="ha24a3a6cg38bbg4ef4g8aa3g2a86a454tc03" version="1">Discharge (Lightning)</content>
@@ -157,7 +157,7 @@
 	<content contentuid="ha24a3a6cg38bbg4ef4g8aa3g2a86a454tc04" version="1">Discharge (Thunder)</content>
 	<content contentuid="hd9f3cddag9dc3g44dfg965ag71389787tc04" version="1">Once per action, when dealing damage to a creature, you create booming spheres of Thunder. These spheres jump to two other enemies within [1] of your target, dealing Thunder damage equal to your levels in Cleric to all three targets.</content>
 	<content contentuid="ha24a3a6cg38bbg4ef4g8aa3g2a86a454tcz1" version="1">Eruptive Discharge</content>
-	<content contentuid="hd9f3cddag9dc3g44dfg965ag71389787tcz1" version="1">Once per action, when dealing damage to a creature, you create projectiles of of Cold, Lightning, or Thunder. These projectiles jump to all other enemies within [1] of your target, dealing damage equal to your levels in Cleric to all targets.</content>
+	<content contentuid="hd9f3cddag9dc3g44dfg965ag71389787tcz1" version="1">Once per action, when dealing damage to a creature, you create projectiles of Cold, Lightning, or Thunder. These projectiles jump to all other enemies within [1] of your target, dealing damage equal to your levels in Cleric to all targets.</content>
 	<content contentuid="ha24a3a6cg38bbg4ef4g8aa3g2a86a454tcz2" version="1">Eruptive Discharge (Cold)</content>
 	<content contentuid="hd9f3cddag9dc3g44dfg965ag71389787tcz2" version="1">Once per action, when dealing damage to a creature, you create jagged shards of ice. These shards jump to all other enemies within [1] of your target, dealing Cold damage equal to your levels in Cleric to all targets.</content>
 	<content contentuid="ha24a3a6cg38bbg4ef4g8aa3g2a86a454tcz3" version="1">Eruptive Discharge (Lightning)</content>
@@ -166,7 +166,7 @@
 	<content contentuid="hd9f3cddag9dc3g44dfg965ag71389787tcz4" version="1">Once per action, when dealing damage to a creature, you create booming spheres of Thunder. These spheres jump to all other enemies within [1] of your target, dealing Thunder damage equal to your levels in Cleric to all targets.</content>
 
 	<content contentuid="h1b39a27dg9af5g49eega545g56c1105a8f92" version="1">Destructive Wrath</content>
-	<content contentuid="h5eb4eeebg7db0g4469gb357gd135c8cb92c6" version="1">When dealing Cold, Lightning or Thunder based damage, you may expend a &lt;LSTag Type="ActionResource" Tooltip="ChannelDivinity"&gt;Channel Divinity&lt;/LSTag&gt; charge in order to maximize the damage dealt for that action.</content>
+	<content contentuid="h5eb4eeebg7db0g4469gb357gd135c8cb92c6" version="1">When dealing Cold, Lightning or Thunder based damage, you may expend a &lt;LSTag Type="ActionResource" Tooltip="ChannelDivinity"&gt;Channel Divinity&lt;/LSTag&gt; charge to maximize the damage dealt for that action.</content>
 	<content contentuid="h1b39a27dg9af5g49eega545g56c1105a8fff" version="1">Destructive Wrath</content>
 	<content contentuid="h5eb4eeebg7db0g4469gb357gd135c8cb9sdf" version="1">When dealing Cold, Lightning or Thunder damage, maximize the damage dealt for that action.</content>
 
@@ -219,7 +219,7 @@
 	<content contentuid="h5846ba7cg19b5g475cg88dbg2ea9d37ss6f9" version="3">Make an additional &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attack&lt;/LSTag&gt; or &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h994500d0g1703g421bg8028g0f3a3101a644" version="2">War God's Vessel</content>
-	<content contentuid="hf729263eg37dcg43fbg923cg24cc642ieood" version="2">When you utilize your War God's Blessing in order to succeed an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, the bonus to your Attack Rolls remains active for three turns.</content>
+	<content contentuid="hf729263eg37dcg43fbg923cg24cc642ieood" version="2">When you utilize your War God's Blessing to succeed an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, the bonus to your Attack Rolls remains active for three turns.</content>
 	<content contentuid="h994500d0g1703g421bg8028g0f3a3101a645" version="2">War God's Vessel</content>
 	<content contentuid="hf729263eg37dcg43fbg923cg24cc642ieoo5" version="2">Affected character has a +10 bonus to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
 
@@ -231,7 +231,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">PASSIVES</content>
 
 	<content contentuid="9b7b811b9c3043e189f945540bf5116e00003" version="1">Holy Divinations</content>
-	<content contentuid="9b7b811b9c3043e189f945540bf5116e0000c" version="1">Blessed be the Cleric who receives such gracious gifts from their god.&lt;br&gt;A veritable sign commanding prayers become power.</content>
+	<content contentuid="9b7b811b9c3043e189f945540bf5116e0000c" version="1">Blessed be the Cleric who receives such gracious gifts from their deity.&lt;br&gt;A veritable sign commanding prayers become power.</content>
 
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e00001" version="1">Aegis</content>
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e0000a" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all Constitution based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
@@ -240,7 +240,7 @@
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e0000b" version="1">Upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on a non-allied creature, emit an aura which &lt;LSTag Type="Status" Tooltip="BLESS"&gt;Blesses&lt;/LSTag&gt; yourself and all allies within [1] of you for three turns.</content>
 
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e00013" version="1">Blood for Blood</content>
-	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e0000m" version="1">The first time you heal a creature each turn, the number you need in order to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; is reduced by 1. This effect will reset upon landing a Critical Hit.</content>
+	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e0000m" version="1">The first time you heal a creature each turn, the number you need to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; is reduced by 1. This effect will reset upon landing a Critical Hit.</content>
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e00z13" version="6">Blood for Blood</content>
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e000zm" version="6">Affected creature will roll &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hits&lt;/LSTag&gt; more easily. The number required is reduced by 1 for each stack of Blood for Blood. This effect will reset once they have rolled a Critical Hit.</content>
 
@@ -254,10 +254,10 @@
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e0000e" version="1">At the end of any combat encounter, emit a healing aura across [1] which restores +1d6 &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; multiplied by your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; to yourself and all allies.</content>
 
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e00006" version="1">Ethereal Intuition</content>
-	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e0000f" version="1">Permanently gain the affects of &lt;LSTag Type="Status" Tooltip="GUIDANCE"&gt;Guidance&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="RESISTANCE"&gt;Resistance&lt;/LSTag&gt;.</content>
+	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e0000f" version="1">Permanently gain the effects of &lt;LSTag Type="Status" Tooltip="GUIDANCE"&gt;Guidance&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="RESISTANCE"&gt;Resistance&lt;/LSTag&gt;.</content>
 
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e00007" version="1">Fell Repentance</content>
-	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e0000g" version="1">When an enemy makes an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against an ally within [1], you may use your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; in order to retaliate with either &lt;LSTag Type="Spell" Tooltip="Target_ChillTouch"&gt;Bone Chill&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_SacredFlame"&gt;Sacred Flame&lt;/LSTag&gt; or &lt;LSTag Type="Spell" Tooltip="Target_SparkSurge"&gt;Spark Surge&lt;/LSTag&gt;.</content>
+	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e0000g" version="1">When an enemy makes an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against an ally within [1], you may use your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; to retaliate with either &lt;LSTag Type="Spell" Tooltip="Target_ChillTouch"&gt;Bone Chill&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_SacredFlame"&gt;Sacred Flame&lt;/LSTag&gt; or &lt;LSTag Type="Spell" Tooltip="Target_SparkSurge"&gt;Spark Surge&lt;/LSTag&gt;.</content>
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e00xz7" version="1">Fell Repentance: Bone Chill</content>
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e00xzg" version="1">When an enemy makes an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against an ally within [1], retaliate with &lt;LSTag Type="Spell" Tooltip="Target_ChillTouch"&gt;Bone Chill&lt;/LSTag&gt;.</content>
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e000z7" version="1">Fell Repentance: Sacred Flame</content>
@@ -279,11 +279,11 @@
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e0000i" version="1">When an enemy damages you with a melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, deal damage to them equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Wisdom Modifier&lt;/LSTag&gt; multiplied by two. The type of damage dealt changes depending on your choice of subclass.</content>
 
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e00010" version="1">Immaculate Ward</content>
-	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e0000j" version="1">When an enemy makes an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against you, you may use your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; and one of your &lt;LSTag Type="ActionResource" Tooltip="ChannelDivinity"&gt;Channel Divinity&lt;/LSTag&gt; charges in order to receive &lt;LSTag Type="Status" Tooltip="BLADE_WARD_IMMACULATE"&gt;Immaculate Blade Ward&lt;/LSTag&gt; for one turn.</content>
+	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e0000j" version="1">When an enemy makes an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against you, you may use your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; and one of your &lt;LSTag Type="ActionResource" Tooltip="ChannelDivinity"&gt;Channel Divinity&lt;/LSTag&gt; charges to receive &lt;LSTag Type="Status" Tooltip="BLADE_WARD_IMMACULATE"&gt;Immaculate Blade Ward&lt;/LSTag&gt; for one turn.</content>
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e00z10" version="1">Immaculate Ward</content>
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e000zj" version="1">When an enemy makes an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against you, receive &lt;LSTag Type="Status" Tooltip="BLADE_WARD_IMMACULATE"&gt;Immaculate Blade Ward&lt;/LSTag&gt; for one turn.</content>
 	<content contentuid="h95b5ab2fgeef8g4901ga451g443b608ffldi" version="1">Immaculate Blade Ward</content>
-	<content contentuid="hbaec3368g3f8bg4577g8a7fg6c16b2099df9" version="1">Affected creature is &lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to the next instance of Bludgeoning, Piercing, or Slashing damage that they would have suffered.</content>
+	<content contentuid="hbaec3368g3f8bg4577g8a7fg6c16b2099df9" version="1">Affected creature is &lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to the next instance of Bludgeoning, Piercing, or Slashing damage they would have suffered.</content>
 
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e00011" version="1">Martyrdom</content>
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e0000k" version="1">Upon being &lt;LSTag Tooltip="Downed"&gt;Downed&lt;/LSTag&gt; or killed within [1] of an enemy, erupt as a raging inferno, uncontrollably scorching them. The damage of this passive scales with your level.</content>
@@ -303,7 +303,7 @@
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e0000q" version="1">During combat, emit an aura across [1] which provides &lt;LSTag Type="Status" Tooltip="SANCTUARY"&gt;Sanctuary&lt;/LSTag&gt; to allies who are &lt;LSTag Tooltip="Downed"&gt;Downed&lt;/LSTag&gt;.</content>
 
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e00018" version="1">Stalwart</content>
-	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e0000r" version="1">Permanently gain the affects of &lt;LSTag Type="Status" Tooltip="DISPEL_EVIL_AND_GOOD"&gt;Dispel Evil and Good&lt;/LSTag&gt;.</content>
+	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e0000r" version="1">Permanently gain the effects of &lt;LSTag Type="Status" Tooltip="DISPEL_EVIL_AND_GOOD"&gt;Dispel Evil and Good&lt;/LSTag&gt;.</content>
 
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e00019" version="1">Stout Believer</content>
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e0000s" version="1">Gain status immunity to all forms of fear. Additionally, upon healing a creature with a Spell, they receive &lt;LSTag Type="Status" Tooltip="DEATH_WARD"&gt;Death Ward&lt;/LSTag&gt; for three turns.</content>

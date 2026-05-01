@@ -104,8 +104,8 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">ELIXIR OF BLOODLUST</content>
 	<content contentuid="ha7c28a23g532cg4fbfg8b0ag5a79e27210df" version="5">Drink to enter a bloodlust. Once per turn when you kill a foe, you gain [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;Temporary Hit Points&lt;/LSTag&gt;. Replaces effects from other elixirs when drunk.</content>
-	<content contentuid="h0549b1c4gd837g4cc5g9848ge994d1926b62" version="5">Affected creature has entered a murderous state of bloodlust. Once per turn, when it kills an enemy, it gains  [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;Temporary Hit Points&lt;/LSTag&gt;.</content>
-	<content contentuid="hc30f1d3bgf8f2g4f7cga6abg715ea6f762b6" version="1">You have entered a murderous state of bloodlust. Once per turn, when you kill an enemy, you gain  [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;Temporary Hit Points&lt;/LSTag&gt;.</content>
+	<content contentuid="h0549b1c4gd837g4cc5g9848ge994d1926b62" version="5">Affected creature has entered a murderous state of bloodlust. Once per turn, when it kills an enemy, it gains [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;Temporary Hit Points&lt;/LSTag&gt;.</content>
+	<content contentuid="hc30f1d3bgf8f2g4f7cga6abg715ea6f762b6" version="1">You have entered a murderous state of bloodlust. Once per turn, when you kill an enemy, you gain [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;Temporary Hit Points&lt;/LSTag&gt;.</content>
 	<content contentuid="he5087ea3g15a6g4bf3ga3c3g095da22241de" version="3">Affected creature's has been granted &lt;LSTag Tooltip="TemporaryHitPoints"&gt;Temporary Hit Points&lt;/LSTag&gt; due to their bloodlust.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">ELIXIR OF HEROISM</content>
@@ -129,7 +129,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">ELIXIR OF VICIOUSNESS</content>
 	<content contentuid="hfcc699cag2bd0g482egbcdag07ef310bc5c7" version="2">Drink to reduce the number you need to roll to land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; by 1. Replaces effects from other elixirs when drunk.</content>
-	<content contentuid="h3232a28fg2bb2g4c80g9348gbb88f2c8a765" version="3">Affected creature needs to roll 1 lower in order to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;. Replaces effects from other elixirs when drunk. </content>
+	<content contentuid="h3232a28fg2bb2g4c80g9348gbb88f2c8a765" version="3">Affected creature needs to roll 1 lower in order to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;. Replaces effects from other elixirs when drunk.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">TADPOLE ELIXIR</content>
 	<content contentuid="h9528c13eg8800g475agb466gd0698d62fa8b" version="2">Drink to gain &lt;LSTag Type="Status" Tooltip="ALCH_ELIXIR_TADPOLE"&gt;Psionic Weakening&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="ALCH_ELIXIR_TADPOLE_ADVANTAGE"&gt;Psionic Enrichment&lt;/LSTag&gt;. Replaces effects from other elixirs when drunk.</content>
