@@ -11,11 +11,12 @@ if not (Directory.Exists "./Tools") then
 open LSLib.LS
 
 let upstreamModName = "Home Brew - Comprehensive Reworks"
-let modName = "Home Brew - Comprehensive Reworks - Lore Texts"
+let upstreamModNameSubfolder = "HomeBrew - Comprehensive Reworks"
+let modName = "HomeBrew - Comprehensive Reworks - Lore Texts"
 
 module Localization = 
 
-    let upstreamModLocalizationFolder= $"./{upstreamModName}/Mods/{upstreamModName}/Localization/English/"
+    let upstreamModLocalizationFolder= $"./{upstreamModName}/Mods/{upstreamModNameSubfolder}/Localization/English/"
 
     let private tempDir = 
         $"./tmp"

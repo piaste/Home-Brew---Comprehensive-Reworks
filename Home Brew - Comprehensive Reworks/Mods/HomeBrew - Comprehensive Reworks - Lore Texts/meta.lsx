@@ -8,11 +8,11 @@
                     <children>
                         <node id="ModuleShortDesc">
                             <attribute id="Folder" type="LSString"
-                                value="Home Brew - Comprehensive Reworks" />
+                                value="HomeBrew - Comprehensive Reworks" />
                             <attribute id="MD5" type="LSString"
                                 value="37b96058984e75d6245aa0182223c669" />
                             <attribute id="Name" type="LSString"
-                                value="Home Brew - Comprehensive Reworks" />
+                                value="HomeBrew - Comprehensive Reworks" />
                             <attribute id="PublishHandle" type="uint64" value="0" />
                             <attribute id="UUID" type="guid"
                                 value="486d1526-3505-4b09-9790-0f6a60f5ac0f" />
@@ -34,14 +34,14 @@
                     <attribute id="Author" type="LSString" value="brogue" />
                     <attribute id="CharacterCreationLevelName" type="FixedString" value="" />
                     <attribute id="Description" type="LSWString"
-                        value="Some lore-based text edits to Home Brew - Comprehensive Reworks" />
+                        value="Some lore-based text edits to HomeBrew - Comprehensive Reworks" />
                     <attribute id="Folder" type="LSWString"
-                        value="Home Brew - Comprehensive Reworks - Lore Texts" />
+                        value="HomeBrew - Comprehensive Reworks - Lore Texts" />
                     <attribute id="LobbyLevelName" type="FixedString" value="" />
                     <attribute id="MD5" type="LSString" value="" />
                     <attribute id="MenuLevelName" type="FixedString" value="" />
                     <attribute id="Name" type="FixedString"
-                        value="Home Brew - Comprehensive Reworks (Lore Texts)" />
+                        value="HomeBrew - Comprehensive Reworks (Lore Texts)" />
                     <attribute id="NumPlayers" type="uint8" value="4" />
                     <attribute id="PhotoBooth" type="FixedString" value="" />
                     <attribute id="StartupLevelName" type="FixedString" value="" />
