@@ -178,8 +178,8 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">MIRE MIST</content>
 
-	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf00000" version="1">Mire Mist</content>
-	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bfzzzzz" version="1">Through stagnant waters, decay takes root. Through drifting vapors and creeping corrosion, the wilderness slowly consumes all who trespass within it.</content>
+	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf00000" loreTexts="true" version="1">Merdelain Trail</content>
+	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bfzzzzz" loreTexts="true" version="1">You explored the tainted ruins of the Mere of Dead Men and learned the power of the dreadful acid breathed by its black dragons.</content>
 
 	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf00001" version="1">Caustic Mire</content>
 	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf0000a" version="1">Both you and your Ranger Companions deal an additional [1] when dealing damage to an enemy. This bonus does not apply to damage dealt with an off-hand weapon. In addition, each time that you deal damage, you apply one stack of &lt;LSTag Type="Status" Tooltip="ACID"&gt;Acid&lt;/LSTag&gt;.</content>
