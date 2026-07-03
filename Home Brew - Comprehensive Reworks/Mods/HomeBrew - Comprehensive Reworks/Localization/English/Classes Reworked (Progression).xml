@@ -128,7 +128,7 @@
 	<content contentuid="55ce1b701c9642a4a3dbf59a6810157f00062" loreTexts="true" version="1">Class Progression - Saint Dionysus Training</content>
 	<content contentuid="55ce1b701c9642a4a3dbf59a6810157f0006b" version="2">Level 1: Gain &lt;LSTag Type="Status" Tooltip="Tooltip_MartialArts_Display"&gt;Martial Arts&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_IntoxicatingStrikes"&gt;Flurry of Blows: Intoxicating&lt;/LSTag&gt;, and &lt;LSTag Type="Status" Tooltip="Tooltip_BingeDrinker"&gt;Binge Drinker&lt;/LSTag&gt; &lt;br&gt;&lt;br&gt;Level 2: Select Two Class Passives &lt;br&gt;&lt;br&gt;Level 3: Gain &lt;LSTag Type="Status" Tooltip="Tooltip_LeafHurricane"&gt;Leaf Hurricane&lt;/LSTag&gt; &lt;br&gt;&lt;br&gt;Level 4: Select a Feat &lt;br&gt;&lt;br&gt;Level 5: Gain &lt;LSTag Type="Status" Tooltip="Tooltip_Martial_Flux_Display"&gt;Martial Flux&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="Tooltip_ContactBuzz"&gt;Contact Buzz&lt;/LSTag&gt; &lt;br&gt;&lt;br&gt;Level 6: Select Two Class Passives &lt;br&gt;&lt;br&gt;Level 7: Gain &lt;LSTag Type="Status" Tooltip="Tooltip_LuckoftheDrunkard"&gt;Luck of the Drunkard&lt;/LSTag&gt; &lt;br&gt;&lt;br&gt;Level 8: Select a Feat &lt;br&gt;&lt;br&gt;Level 9: Gain &lt;LSTag Type="Status" Tooltip="Tooltip_Martial_Mastery"&gt;Martial Mastery&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="Tooltip_DrunkenAwareness"&gt;Drunken Awareness&lt;/LSTag&gt; &lt;br&gt;&lt;br&gt;Level 10: Select Two Class Passives &lt;br&gt;&lt;br&gt;Level 11: Gain &lt;LSTag Type="Status" Tooltip="Tooltip_EighthGateofSake"&gt;Eighth Gate of Sake&lt;/LSTag&gt; &lt;br&gt;&lt;br&gt;Level 12: Select a Feat</content>
 
-	<content contentuid="f9900443f0f849e8ba7804a9743dd66200007" version="1">Class Progression - Way of the Gentle Fist</content>
+	<content contentuid="f9900443f0f849e8ba7804a9743dd66200007" loreTexts="true" version="1">Class Progression - Broken Ones Training</content>
 	<content contentuid="f9900443f0f849e8ba7804a9743dd6620000g" version="2">Level 1: Gain &lt;LSTag Type="Status" Tooltip="Tooltip_MartialArts_Display"&gt;Martial Arts&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_FlurryOfBlows"&gt;Flurry of Blows&lt;/LSTag&gt;, and &lt;LSTag Type="Status" Tooltip="Tooltip_Serenity"&gt;Serenity&lt;/LSTag&gt; &lt;br&gt;&lt;br&gt;Level 2: Select Two Class Passives &lt;br&gt;&lt;br&gt;Level 3: Gain &lt;LSTag Type="Status" Tooltip="Tooltip_MendingBlows"&gt;Mending Blows&lt;/LSTag&gt; &lt;br&gt;&lt;br&gt;Level 4: Select a Feat &lt;br&gt;&lt;br&gt;Level 5: Gain &lt;LSTag Type="Status" Tooltip="Tooltip_Martial_Flux_Display"&gt;Martial Flux&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="Tooltip_FistsofEquilibrium"&gt;Fists of Equilibrium&lt;/LSTag&gt; &lt;br&gt;&lt;br&gt;Level 6: Select Two Class Passives &lt;br&gt;&lt;br&gt;Level 7: Gain &lt;LSTag Type="Status" Tooltip="Tooltip_MercifulCounter"&gt;Merciful Counter&lt;/LSTag&gt; &lt;br&gt;&lt;br&gt;Level 8: Select a Feat &lt;br&gt;&lt;br&gt;Level 9: Gain &lt;LSTag Type="Status" Tooltip="Tooltip_Martial_Mastery"&gt;Martial Mastery&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="Tooltip_CleansingGuidance"&gt;Cleansing Guidance&lt;/LSTag&gt; &lt;br&gt;&lt;br&gt;Level 10: Select Two Class Passives &lt;br&gt;&lt;br&gt;Level 11: Gain &lt;LSTag Type="Status" Tooltip="Tooltip_FlowofCompassion"&gt;Flow of Compassion&lt;/LSTag&gt; &lt;br&gt;&lt;br&gt;Level 12: Select a Feat</content>
 
 	<content contentuid="55ce1b701c9642a4a3dbf59a6810157f00063" loreTexts="true" version="1">Class Progression - White Rod Training</content>
@@ -394,23 +394,23 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">MONK</content>
 
-	<content contentuid="55ce1b701c9642a4a3dbf59a6810157fzz061" loreTexts="true"  version="1">Yokebreaker - Shining Hand Training</content>
+	<content contentuid="55ce1b701c9642a4a3dbf59a6810157fzz061" loreTexts="true"  version="1">Yokebreaker - Shining Hand</content>
 	<content contentuid="55ce1b701c9642a4a3dbf59a6810157fzz06a" version="2">Caster Subclass: Gain two &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt;, three Spells, and four Level One &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slots&lt;/LSTag&gt; &lt;br&gt;&lt;br&gt;Gain &lt;LSTag Type="Status" Tooltip="Tooltip_Flow_State"&gt;Flow State&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="Tooltip_Essence_of_the_Elements"&gt;Essence of the Elements&lt;/LSTag&gt; </content>
 
-	<content contentuid="55ce1b701c9642a4a3dbf59a6810157fzz062" loreTexts="true" version="1">Yokebreaker - Saint Dionysus Training</content>
+	<content contentuid="55ce1b701c9642a4a3dbf59a6810157fzz062" loreTexts="true" version="1">Yokebreaker - Saint Dionysus</content>
 	<content contentuid="55ce1b701c9642a4a3dbf59a6810157fzz06b" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_IntoxicatingStrikes"&gt;Flurry of Blows: Intoxicating&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="Tooltip_BingeDrinker"&gt;Binge Drinker&lt;/LSTag&gt;, and &lt;LSTag Type="Status" Tooltip="Tooltip_LeafHurricane"&gt;Leaf Hurricane&lt;/LSTag&gt; </content>
 
 
-	<content contentuid="55ce1b701c9642a4a3dbf592e5d6e8f5e6f85" version="1">Yokebreaker - Way of the Gentle Fist</content>
+	<content contentuid="55ce1b701c9642a4a3dbf592e5d6e8f5e6f85" loreTexts="true" version="1">Yokebreaker - Broken Ones</content>
 	<content contentuid="55ce1b701c9642a4a3dbf59a6899dzdd88f58" version="2">Gain &lt;LSTag Type="Status" Tooltip="Tooltip_Serenity"&gt;Serenity&lt;/LSTag&gt;, and &lt;LSTag Type="Status" Tooltip="Tooltip_MendingBlows"&gt;Mending Blows&lt;/LSTag&gt;</content>
 
-	<content contentuid="55ce1b701c9642a4a3dbf59a6810157fzz063" loreTexts="true" version="1">Yokebreaker - White Rod Training</content>
+	<content contentuid="55ce1b701c9642a4a3dbf59a6810157fzz063" loreTexts="true" version="1">Yokebreaker - White Rod</content>
 	<content contentuid="55ce1b701c9642a4a3dbf59a6810157fzz06c" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_OpenHandTechnique_Knock"&gt;Flurry of Blows: Topple&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_OpenHandTechnique_NoReactions"&gt;Flurry of Blows: Stagger&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_OpenHandTechnique_Push"&gt;Flurry of Blows: Push&lt;/LSTag&gt;, and &lt;LSTag Type="Status" Tooltip="Tooltip_Weaponized_Fists"&gt;Weaponized Fists&lt;/LSTag&gt; </content>
 
-	<content contentuid="55ce1b701c9642a4a3dbf59a6810157fzz064" loreTexts="true" version="1">Yokebreaker - Dark Moon Training</content>
+	<content contentuid="55ce1b701c9642a4a3dbf59a6810157fzz064" loreTexts="true" version="1">Yokebreaker - Dark Moon</content>
 	<content contentuid="55ce1b701c9642a4a3dbf59a6810157fzz06d" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_FlurryOfBlows"&gt;Flurry of Blows&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_ShadowStep"&gt;Shadow Step&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_CloakOfShadows_Monk"&gt;Cloak of Shadows&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_ShadowStrike_Instant"&gt;Shadow Strike&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_ShadowStrike_Instant_Unarmed"&gt;Shadow Strike: Unarmed&lt;/LSTag&gt;, and &lt;LSTag Type="Status" Tooltip="Tooltip_Void_Stalker"&gt;Void Stalker&lt;/LSTag&gt; </content>
 
-	<content contentuid="55ce1b2d5f5e6f5ea3dbf59a6810157f2yoke" loreTexts="true" version="1">Yokebreaker - Soaring Way Training</content>
+	<content contentuid="55ce1b2d5f5e6f5ea3dbf59a6810157f2yoke" loreTexts="true" version="1">Yokebreaker - Soaring Way</content>
 	<content contentuid="55ce1b701c9642a59a68101572e5f4e5fyoke" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_FlurryOfBlows"&gt;Flurry of Blows&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="Tooltip_TemperedDiscipline"&gt;Tempered Discipline&lt;/LSTag&gt;, and &lt;LSTag Type="Status" Tooltip="Tooltip_FocusedSerenity"&gt;Focused Serenity&lt;/LSTag&gt; </content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">PALADIN</content>
@@ -435,22 +435,22 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">RANGER</content>
 
-	<content contentuid="55ce1b701c9642a4a3dbf59a6810157fzz082" loreTexts="true" version="1">Yokebreaker - High Forest Trail</content>
+	<content contentuid="55ce1b701c9642a4a3dbf59a6810157fzz082" loreTexts="true" version="1">Yokebreaker - High Forest</content>
 	<content contentuid="55ce1b701c9642a4a3dbf59a6810157fzz08b" version="2">Gain &lt;LSTag Type="Status" Tooltip="Tooltip_ShieldoftheWildfront"&gt;Spear of the Wildfront&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="Tooltip_WoodlandSynergy"&gt;Woodland Synergy&lt;/LSTag&gt; </content>
 
-	<content contentuid="55ce1b701c9642a4a3dbf59a6810157fzz083" loreTexts="true" version="1">Yokebreaker - Underdark Trail</content>
+	<content contentuid="55ce1b701c9642a4a3dbf59a6810157fzz083" loreTexts="true" version="1">Yokebreaker - Underdark</content>
 	<content contentuid="55ce1b701c9642a4a3dbf59a6810157fzz08c" loreTexts="true" version="2">Gain &lt;LSTag Type="Status" Tooltip="Tooltip_GloomstalkersInitiative"&gt;Upperdark Adventurer&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="Tooltip_GloomstalkersDeceit"&gt;Middledark Survivor&lt;/LSTag&gt; </content>
 
-	<content contentuid="55ce1b701c9642a4a3dbf59a6810157fzz081" loreTexts="true" version="1">Yokebreaker - Greypeaks Trail</content>
+	<content contentuid="55ce1b701c9642a4a3dbf59a6810157fzz081" loreTexts="true" version="1">Yokebreaker - Greypeaks</content>
 	<content contentuid="55ce1b701c9642a4a3dbf59a6810157fzz08a" version="2">Gain &lt;LSTag Type="Status" Tooltip="Tooltip_Natural_Hunter"&gt;Natural Hunter&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="Tooltip_OpportuneShot"&gt;Opportune Strike&lt;/LSTag&gt; </content>
 
-	<content contentuid="f9900443f0f849e8ba7804a9743dd662yoke9" loreTexts="true" version="1">Class Progression - Merdelain Trail</content>
+	<content contentuid="f9900443f0f849e8ba7804a9743dd662yoke9" loreTexts="true" version="1">Class Progression - Merdelain</content>
 	<content contentuid="f9900443f0f849e8ba7804a9743dd662yokei" version="2">Gain &lt;LSTag Type="Status" Tooltip="Tooltip_CausticMire"&gt;Caustic Mire&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="Tooltip_CorrosiveBloom"&gt;Corrosive Bloom&lt;/LSTag&gt;</content>
 
-	<content contentuid="55ce1b701c9642a4a3dbf59a6810157fzz084" loreTexts="true" version="1">Yokebreaker - Neverwinter Wood Trail</content>
+	<content contentuid="55ce1b701c9642a4a3dbf59a6810157fzz084" loreTexts="true" version="1">Yokebreaker - Neverwinter Wood</content>
 	<content contentuid="55ce1b701c9642a4a3dbf59a6810157fzz08d" version="2">Gain &lt;LSTag Type="Status" Tooltip="Tooltip_Swarmkeeper_Bee"&gt;Colony of Bees&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="Tooltip_Swarmkeeper_Jellyfish"&gt;Bloom of Jellyfish&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="Tooltip_Swarmkeeper_Moth"&gt;Eclipse of Moths&lt;/LSTag&gt;, and &lt;LSTag Type="Status" Tooltip="Tooltip_Free_Spirited"&gt;Free Spirited&lt;/LSTag&gt; </content>
 
-	<content contentuid="55ce1b701c962s6e5f4s9e8f4s9684ef6s5d4" loreTexts="true" version="1">Yokebreaker - Evermoors Trail</content>
+	<content contentuid="55ce1b701c962s6e5f4s9e8f4s9684ef6s5d4" loreTexts="true" version="1">Yokebreaker - Evermoors</content>
 	<content contentuid="55ce1ba6w4ef6zs4ad5f64we6f1s54fw8ef4e" version="2">Gain &lt;LSTag Type="Status" Tooltip="Tooltip_ClosingBite"&gt;Closing Bite&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="Tooltip_SecondFang"&gt;Second Fang&lt;/LSTag&gt; </content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">ROGUE</content>
@@ -515,22 +515,22 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">WIZARD</content>
 
-	<content contentuid="55ce1b701c9642a4a3dbf59a6810157fzz121" loreTexts="true" version="1">Yokebreaker - Anarchs of Shyr Tradition</content>
+	<content contentuid="55ce1b701c9642a4a3dbf59a6810157fzz121" loreTexts="true" version="1">Yokebreaker - Anarchs of Shyr</content>
 	<content contentuid="55ce1b701c9642a4a3dbf59a6810157fzz12a" version="2">Gain &lt;LSTag Type="Status" Tooltip="Tooltip_SteelforgedArcana"&gt;Steelforged Arcana&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="Tooltip_TheApproachingStorm"&gt;The Approaching Storm&lt;/LSTag&gt; </content>
 
-	<content contentuid="55ce1b701c9642a4a3dbf59a6810157fzz122" loreTexts="true" version="1">Yokebreaker - Coronal Guards Tradition</content>
+	<content contentuid="55ce1b701c9642a4a3dbf59a6810157fzz122" loreTexts="true" version="1">Yokebreaker - Coronal Guards</content>
 	<content contentuid="55ce1b701c9642a4a3dbf59a6810157fzz12b" version="2">Gain &lt;LSTag Type="Status" Tooltip="Tooltip_ArcaneWard"&gt;Arcane Ward&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="Tooltip_ProjectedWard"&gt;Projected Ward&lt;/LSTag&gt; </content>
 
-	<content contentuid="8fb95f7299ba48ec8eee7033b032567d0yoke" loreTexts="true" version="1">Yokebreaker - Zakharan Sha'ir Tradition</content>
+	<content contentuid="8fb95f7299ba48ec8eee7033b032567d0yoke" loreTexts="true" version="1">Yokebreaker - Zakharan Sha'ir</content>
 	<content contentuid="8fb95f7299ba48ec8eee7033b032567dzyoke" loreTexts="true" version="2">Gain &lt;LSTag Type="Status" Tooltip="Tooltip_PrimalBond"&gt;Calling the Janni&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="Tooltip_RendElements"&gt;Rend Elements&lt;/LSTag&gt;</content>
 
-	<content contentuid="55ce1b701c9642a4a3dbf59a6810157fzz123" loreTexts="true" version="1">Yokebreaker - Cormyr War Wizards Tradition</content>
+	<content contentuid="55ce1b701c9642a4a3dbf59a6810157fzz123" loreTexts="true" version="1">Yokebreaker - Cormyr War Wizards</content>
 	<content contentuid="55ce1b701c9642a4a3dbf59a6810157fzz12c" version="2">Gain &lt;LSTag Type="Status" Tooltip="Tooltip_SculptSpells"&gt;Sculpt Spells&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="Tooltip_EruptiveCasting"&gt;Eruptive Casting&lt;/LSTag&gt; </content>
 
-	<content contentuid="55ce1b701c92e56sd5f4e5fe2810157fzz123" loreTexts="true" version="1">Yokebreaker - Netherese Variators Tradition</content>
+	<content contentuid="55ce1b701c92e56sd5f4e5fe2810157fzz123" loreTexts="true" version="1">Yokebreaker - Netherese Variators</content>
 	<content contentuid="55ce1b703dbf59a68101572se56sf65ef48e5" loreTexts="true" version="2">Gain &lt;LSTag Type="Status" Tooltip="Tooltip_ElementalConcierge"&gt;Yrix's Sieve&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Shout_LuminalConversion"&gt;Scribani's Distillation&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_SurfaceAlteration_Container"&gt;Scribani's Accident&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_BenignTransposition_Teleport"&gt;Scribani's Absconding&lt;/LSTag&gt;</content>
 
-	<content contentuid="55ce1b701c9642a4a3dbf59a6810157fzz124" loreTexts="true" version="1">Yokebreaker - Thayan Necromancers Tradition</content>
+	<content contentuid="55ce1b701c9642a4a3dbf59a6810157fzz124" loreTexts="true" version="1">Yokebreaker - Thayan Necromancers</content>
 	<content contentuid="55ce1b701c9642a4a3dbf59a6810157fzz12d" version="2">Gain &lt;LSTag Type="Status" Tooltip="Tooltip_NecromanticApprentice"&gt;Necromantic Apprentice&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="Tooltip_Lifedrinker"&gt;Lifedrinker&lt;/LSTag&gt; </content>
 
 </contentList>

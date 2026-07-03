@@ -156,8 +156,8 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">WAY OF THE GENTLE FIST</content>
 
-	<content contentuid="acb55f4f68334d90acd68f5f37353d0b00000" version="1">Way of the Gentle Fist</content>
-	<content contentuid="acb55f4f68334d90acd68f5f37353d0bzzzzz" version="1">Through harmony, your guiding hands provide relief. Through practiced inner peace, those around you are blessed with a calming sense of solidarity.</content>
+	<content contentuid="acb55f4f68334d90acd68f5f37353d0b00000" loreTexts="true" version="1">Broken Ones Training</content>
+	<content contentuid="acb55f4f68334d90acd68f5f37353d0bzzzzz" loreTexts="true" version="1">You trained in the Dalelands with the wandering Ilmatari monks called the Broken Ones, who pursue the path of healers and protectors of the meek.</content>
 
 	<content contentuid="acb55f4f68334d90acd68f5f37353d0b00001" version="1">Serenity</content>
 	<content contentuid="acb55f4f68334d90acd68f5f37353d0b0000a" version="1">You are considered to be a preferred target. Each turn, you heal for an amount equal to your unarmed dice. This can be toggled at any time.</content>
