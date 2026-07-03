@@ -414,7 +414,7 @@
 	<content contentuid="6db46327-0802-4cdd-9936-6277cba143d7" loreTexts="true" version="1">Yokebreaker: Kostchtchie's Aura</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df03" loreTexts="true" version="1">Gain the unlocks associated with levels 1 through 3 of &lt;LSTag Type="Status" Tooltip="StatusClassProgression_GiantsBlood"&gt;Kostchtchie's Aura&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
-	<content contentuid="994daae4-a665-4cce-8665-82206ff8cc3c" version="1">Yokebreaker: Rosemourn</content>
+	<content contentuid="994daae4-a665-4cce-8665-82206ff8cc3c" loreTexts="true" version="1">Yokebreaker: Black-Barbed Curse</content>
 	<content contentuid="1afcee40-36c8-4958-9954-9246647bb58d" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Rosemourn"&gt;Rosemourn Barbarian&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
 	<content contentuid="dec3cc55-896b-4bde-9f1a-7981f452ce9b" loreTexts="true" version="1">Yokebreaker: Wild Weave's Thread</content>

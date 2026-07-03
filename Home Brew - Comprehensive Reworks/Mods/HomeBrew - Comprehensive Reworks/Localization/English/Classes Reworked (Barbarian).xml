@@ -236,8 +236,8 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">ROSEMOURN</content>
 
-	<content contentuid="e45b631605924e679e7ea6024bc4911f00000" version="2">Rosemourn</content>
-	<content contentuid="e45b631605924e679e7ea6024bc4911f0000z" version="1">Your fury runs unconscionably deep, resting soundly in scars of the past. The briars of that past help you to forge both strength and resilience.</content>
+	<content contentuid="e45b631605924e679e7ea6024bc4911f00000" loreTexts="true" version="2">Black-Barbed Curse</content>
+	<content contentuid="e45b631605924e679e7ea6024bc4911f0000z" loreTexts="true" version="1">&lt;i&gt;You who a-scaped my maze and carried my thorns into the wide world, did the black-briar madness twine kindly in your blood? Or does it yet a-bite, like a jealous lover in the dark?&lt;/i&gt;</content>
 
 	<content contentuid="e45b631605924e679e7ea6024bc4911f00001" version="2">Briar Blood</content>
 	<content contentuid="e45b631605924e679e7ea6024bc4911f0000a" version="1">Gain &lt;LSTag Type="Spell" Tooltip="Shout_Rage_Rosemourn"&gt;Rage: Briar Blood&lt;/LSTag&gt;.</content>
