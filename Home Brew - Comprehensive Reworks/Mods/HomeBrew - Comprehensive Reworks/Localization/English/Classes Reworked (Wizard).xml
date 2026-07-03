@@ -110,21 +110,21 @@
 
 	<content contentuid="51a9b0aeb5c646d7a60393a2c39ff5ec00001" loreTexts="true" version="1">Calling the Janni</content>
 	<content contentuid="51a9b0aeb5c646d7a60393a2c39ff5ec0000a" version="1">Gain the ability to summon one of four &lt;LSTag Type="Spell" Tooltip="Target_SummonElementalContainer"&gt;Elementals&lt;/LSTag&gt;. Each Elemental scales with your level in Wizard.</content>
-	<content contentuid="he5dcbff7g0ca2g46ffgb2cdgcb7f29715ada" version="2">Conjure Elemental</content>
+	<content contentuid="he5dcbff7g0ca2g46ffgb2cdgcb7f29715ada" loreTexts="true" version="2">Conjure Janni</content>
 	<content contentuid="h1b7cc2f8g18b3g4532gaeacg900ab90fb8e2" version="2">Bend the barrier between the Planes until they disgorge an elemental ally to follow and fight for you.</content>
-	<content contentuid="h5492f279g48bcg4389g875cg8f20255064b7" version="2">Conjure Elemental: Air</content>
+	<content contentuid="h5492f279g48bcg4389g875cg8f20255064b7" loreTexts="true" version="2">Conjure Janni: Air</content>
 	<content contentuid="h0adad6dagc390g4460g926fga076481f4a17" loreTexts="true" version="7">Conjure an air elemental that can &lt;LSTag Type="Status" Tooltip="SHOCKED"&gt;Shock&lt;/LSTag&gt; your foes. The elemental grows in strength alongside you as you level as a Sha'ir.</content>
-	<content contentuid="h46e29875g0cc2g4dfdgbe48g53c684017c60" version="2">Conjure Elemental: Earth</content>
-	<content contentuid="h693c9a37g938eg485cgbd7eg399f46fa4e50" version="11">Conjure an earth elemental that can create sludgy mud surfaces while walloping your foes. The elemental grows in strength alongside you as you level as a Sha'ir.</content>
-	<content contentuid="h16e0960bg5758g478bga682g986ced8af811" version="2">Conjure Elemental: Fire</content>
+	<content contentuid="h46e29875g0cc2g4dfdgbe48g53c684017c60" loreTexts="true" version="2">Conjure Janni: Earth</content>
+	<content contentuid="h693c9a37g938eg485cgbd7eg399f46fa4e50" loreTexts="true" version="11">Conjure an earth elemental that can create sludgy mud surfaces while walloping your foes. The elemental grows in strength alongside you as you level as a Sha'ir.</content>
+	<content contentuid="h16e0960bg5758g478bga682g986ced8af811" loreTexts="true" version="2">Conjure Janni: Fire</content>
 	<content contentuid="h4fb964c2gc61ag4371g913ag7804944b7236" loreTexts="true" version="7">Conjure a fire elemental that can make your foes &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burn&lt;/LSTag&gt;. The elemental grows in strength alongside you as you level as a Sha'ir.</content>
-	<content contentuid="hce53144cgef89g4664g8a99gd61a7911eb7d" version="2">Conjure Elemental: Water</content>
+	<content contentuid="hce53144cgef89g4664g8a99gd61a7911eb7d" loreTexts="true" version="2">Conjure Janni: Water</content>
 	<content contentuid="hfafe6326gba8ag4f0dg87ffg9d96c29b91d8" loreTexts="true" version="8">Conjure a water elemental that can mete out cold punishment upon your foes. The elemental grows in strength alongside you as you level as a Sha'ir.</content>
 	<content contentuid="h99e91a28gd1cfg4a52ga069g0872099b22ee" version="2">Primordial Gale</content>
 	<content contentuid="h9e31d18eg4ac4g494fg815agb0df292cdbbc" version="6">Gales of crackling, stormy wind swirl around you, battering nearby creatures and &lt;LSTag Type="Status" Tooltip="SHOCKED"&gt;Shocking&lt;/LSTag&gt; them.</content>
 	<content contentuid="hf27103b5gb236g48f3ga86egd8da8db1431a" version="2">Seismic Strike</content>
 	<content contentuid="hec17c9dbgb32cg46b0gad56gb0c7dc21eb27" version="4">Bring down your arms like stone slabs, smashing nearby creatures, and potentially pushing them back [1] while knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
-	<content contentuid="51a9b0aeb5c646dsedf5e65f539ff5ec00001" version="1">Conjured Elemental</content>
+	<content contentuid="51a9b0aeb5c646dsedf5e65f539ff5ec00001" loreTexts="true" version="1">Conjured Janni</content>
 	<content contentuid="h6a2bf69fg45d1g432cg8e57g5f3ce777a77d" version="1">&lt;LSTag Type="Status" Tooltip="FROSTBITE"&gt;Frostbitten&lt;/LSTag&gt; targets take double damage.</content>
 	<content contentuid="he5ac56ebgebf3g4e73gbdf7g8129c98c51cb" version="2">Healing Vapour</content>
 	<content contentuid="h385e6616ge372g41c5g9c2egb9c23e59e3e0" version="2">Conjure a healing mist, restoring the &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; of an ally you can see.</content>
