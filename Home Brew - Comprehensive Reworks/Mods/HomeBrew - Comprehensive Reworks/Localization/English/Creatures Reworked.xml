@@ -388,26 +388,36 @@
 	<content contentuid="h36f181f8g1bcag43bag8f71g6922585d6968" version="2">This creature has status immunity to all curses.</content>
 
 	<content contentuid="h2395dc03ga60dg4ca8gbf28g9c5d6d2d3d5f" version="1">Ethereal</content>
-	<content contentuid="h36f181f8g1bcag43bag8f71g6922585345rf" version="2">This creature is incorporeal. They may be walked through, projectiles may be shot through them, and they can not be forcibly moved. Additionally, attacks of opportunity may not be made against them.</content>
+	<content contentuid="h36f181f8g1bcag43bag8f71g6922585345rf" version="2">This creature is incorporeal. They may be walked through, projectiles may be shot through them, and they can not be forcibly moved, restrained, or affected by &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;. Additionally, attacks of opportunity may not be made against them.</content>
 
 	<content contentuid="5118b4641cdb4145a0fb4699faf1d32200011" version="5">Show of Strength</content>
 	<content contentuid="5118b4641cdb4145a0fb4699faf1d3220000k" version="1">When dealing damage, create a [1] shockwave which reverberates through all targets Large or smaller, dealing [2] and potentially throwing them back by [3].</content>
 
 	<content contentuid="5118b4641cdb4145a0fb4699fafs2df5df151" version="5">Ravenous</content>
-	<content contentuid="5118b4641cdb4145a0fb4699faf1def5d6f85" version="1">Upon landing a killing blow upon another creature, Gnolls erupt in a state of utter bloodlust. For three turns after, they make all damage rolls with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+	<content contentuid="5118b4641cdb4145a0fb4699faf1def5d6f85" version="1">Upon landing a killing blow upon another creature, Gnolls erupt in a state of utter bloodlust. For three turns after, they make all damage rolls with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; and gain an additional &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
 	<content contentuid="hff5da981g75e9g4858gb0d2gc9c9b5d83d43" version="5">Ravenous</content>
-	<content contentuid="hb0d4eb86gf0d4g4ddcg8749g24e61ca08075" version="1">Affected creature makes all damage rolls with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+	<content contentuid="hb0d4eb86gf0d4g4ddcg8749g24e61ca08075" version="1">Affected creature makes all damage rolls with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; and has gained an additional &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
 	<content contentuid="hbb87ab9agdd0fg427fga15egb62bbc303b67" version="5">Soul Offering</content>
 	<content contentuid="h270a3cbag5b1ag40a9g900agb9845a55a6fe" version="1">Offer a fragment of a creature's soul to Yeenoghu, preventing them from using &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Actions&lt;/LSTag&gt; or &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reactions&lt;/LSTag&gt;.</content>
 	<content contentuid="h1518b9acgbc01g400dg9597gaa9513fd4bf1" version="5">Offering to Yeenoghu</content>
 	<content contentuid="hd4588502g88a1g476ega1dbg36c19ca1db02" version="1">Affected creature cannot use &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Actions&lt;/LSTag&gt; or &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reactions&lt;/LSTag&gt;.</content>
 	<content contentuid="he178b3c5gf349g4a29gbd9cg862ce1549bef" version="1">Bloodfest</content>
 	<content contentuid="h84e6c72bgc32bg4ecbgb9b1g0f50f039191f" version="3">Gorge on a corpse of the fallen to regain &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.</content>
+	<content contentuid="hc75c74f4ge237g4933gad9cg82a0d406d16b" version="1">Aura of Bloodthirst</content>
+	<content contentuid="h70c6ab1bged9fg458eg9af1g87111a33cba1" version="1">Affected creature exudes a bloodthirsty radiance, providing their allies with the ability to &lt;LSTag Type="Spell" Tooltip="Target_Bite_Gnoll_Bonus"&gt;Bite&lt;/LSTag&gt; their enemies.</content>
+
+	<content contentuid="5118b4641cda5s6df45s62ef168ef4sd6524f" version="2">Hags Gone Wild</content>
+	<content contentuid="5118b4641cdb414as54df645se98rfs65e978" version="3">Upon dealing damage with a melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, cause your target to potentially experience a negative surge of &lt;LSTag Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h3344d3e6gb749g4bd5ga9e9g75f0de1c9cca" version="5">Hooked on Horror</content>
 	<content contentuid="h38d3f000g4a2eg4682g9f80g949b43077930" version="2">Hook Horrors can make a &lt;LSTag Type="Spell" Tooltip="Target_Multiattack_HookHorror"&gt;Multiattack&lt;/LSTag&gt; if their target is &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="FEARED"&gt;Terrified&lt;/LSTag&gt;. Upon dealing damage while unobscured, they potentially Terrify their target.</content>
 	<content contentuid="h7c6af9d2g4845g4bd0g88c1g9c5bc4d7a3a8" version="4">Aim two attacks at a &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="FEARED"&gt;Terrified&lt;/LSTag&gt; target and possibly make them &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleed&lt;/LSTag&gt;.</content>
 
+	<content contentuid="h2395dc03ga60d2s6e5f6e8f9ecc613301043" version="2">Maddening Visage</content>
+	<content contentuid="h36f181f8g1bc99989e5f6e8589c05e02ea0c" version="2">When damaging a creature, you potentially drive them to &lt;LSTag Type="Status" Tooltip="MADNESS"&gt;Madness&lt;/LSTag&gt; for one turn.</content>
+
+	<content contentuid="h4b7c2703ge1a8g4a6s54df6942s341f4s85e" version="2">Mino-Tourism</content>
+	<content contentuid="6e8d6rf93g166eg4d2bga330g5f64s2dfse8f" version="2">Gain status immunity to all conditions which would restrain you. In addition, you are unaffected by &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;.</content>
 	<content contentuid="h8b1e4382g54b9g4448g8ac8g0e405a387872" version="2">Brutal Leap</content>
 	<content contentuid="hf0605cb7g76fdg43b6gb5a2gfed702bd045e" version="2">Leap at a target, damaging any nearby creatures that are Large or smaller, and possibly knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
 
@@ -416,11 +426,24 @@
 	<content contentuid="h2395dc03ga60dg4ca8gbf28g9cc6132sd3d1" version="1">The Queen's Brood</content>
 	<content contentuid="h36f181f8g1bcag43bag8f71g69c05esdfe58" version="1">Upon being damaged, the Spider Queen will create one Phase Spiderling.</content>
 
+	<content contentuid="h1fc6c0bbg4cf4g4ac7g8e8dgbe7ead417b34" version="1">Static Overdrive</content>
+	<content contentuid="haebd3b95g5e41g4d86g825dg38047306da99" version="7">Emanate a static discharge that buffs nearby constructs and damages all others.</content>
+	<content contentuid="hf5220778g7134g42e1g80e3g552354171d55" version="2">Static Discharge Aura</content>
+	<content contentuid="hd45b0482g65e4g444fgb7b7g24fcff4dbff7" version="7">All constructs near Bernard deal an additional [2] with weapon attacks. Enemies take [1] each turn, and an additional [1] when attacking Bernard.&lt;br&gt;&lt;br&gt;When the condition ends, Bernard is &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stunned&lt;/LSTag&gt; for 1 turn.</content>
+	<content contentuid="h59181596g722cg4118ga15eg8d9416f88889" version="2">Static Discharge: Electroshock</content>
+	<content contentuid="hb6048001g3fc8g4af4g91b1g2a1ac8a22eb4" version="4">Affected creature is standing near a statically charged Bernard. It takes [1] each turn, can't take &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reactions&lt;/LSTag&gt;, and will take an additional [1] if it attacks Bernard.</content>
+	<content contentuid="h102f6a97g9a5eg4f48gadb8gb5b4ec28f1c3" version="2">Static Discharge: Supercharge</content>
+	<content contentuid="h38fc824ag71d8g4f2agb813gcaef1111fc4b" version="3">Affected creature is standing near a statically charged Bernard. They deal an additional [1].</content>
+
 	<content contentuid="h2395dc03ga60dg4ca8gbf28g9cc6132sd5f4" version="5">Unstable Little Shits</content>
 	<content contentuid="h36f181f8g1bcag43bag8f71g69c05effde58" version="1">At the beginning of each of their turns, gremishka will always trigger a sudden burst of truly random Wild Magic.</content>
 
 	<content contentuid="h3344d3e6gb749g4bd5ga9e9g75f0desd5f21" version="5">Displacement</content>
 	<content contentuid="h38d3f000g4a2eg4682g9wsefe845de868545" version="1">While unubscured, Displacer Beasts may cause their targets to go &lt;LSTag Type="Status" Tooltip="MADNESS"&gt;Mad&lt;/LSTag&gt; when dealing damage to them.</content>
+	<content contentuid="ha87e063cg90aag4085g94bbg77b7f89b339e" version="5">Illusory Copy</content>
+	<content contentuid="h50825fb4g9c1ag4146g9efeg7164023ebf01" version="1">Create an illusory Displacer Beast at a location you can see. It will then attack nearby enemies for three turns.</content>
+	<content contentuid="ha87e063cg90aag4085g94bbg77b7f2d5f6e2" version="5">Illusory Displacement</content>
+	<content contentuid="h50825fb4g9c1ag4146g9efeg716406s8e6f8" version="1">Teleport a creature to an area you can see, rending their mind in the process. Allies will take no damage from this action.</content>
 
 	<content contentuid="h3344d3e6gb749g4bd5ga9e9g75f2d5f3d542" version="5">Timmask Touch</content>
 	<content contentuid="h38d3f000g4a2eg4682g9wsefe845de5d8f7e" version="1">Upon dealing damage to a creature who is not a plant, Myconid potentially implant &lt;LSTag Type="Status" Tooltip="TIMMASK_SPORES"&gt;Timmask Spores&lt;/LSTag&gt; into their target, unless they or their target are &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burning&lt;/LSTag&gt;.</content>
@@ -442,7 +465,7 @@
 	<content contentuid="ha0731de1g1891g4e13gbcc2g73a403bee003" version="2">Luring Song</content>
 	<content contentuid="h8de31c05gb5c0g4495g9bc7g16ef9a6fedb9" version="4">Affected creature must succeed a Wisdom based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; every turn or be &lt;LSTag Type="Status" Tooltip="LURING_SONG"&gt;Lured&lt;/LSTag&gt; by the nearby Harpy's song.</content>
 	<content contentuid="hde9698b9gf76eg4f75g9df2g1ce018012400" version="3">Lured</content>
-	<content contentuid="h3a9c3870g9491g4e8eg8f73ga1f4e720897b" version="5">Affected creature has been attracted to a nearby harpy's luring melody. &lt;br&gt;&lt;Br&gt;The affected creature will use their turn to move closer to the harpy, allowing her to make multiple attacks each turn!</content>
+	<content contentuid="h3a9c3870g9491g4e8eg8f73ga1f4e720897b" version="5">Affected creature has been attracted to a nearby melody. &lt;br&gt;&lt;Br&gt;The affected creature will use their turn to move closer to the source of this condition.</content>
 	<content contentuid="h1e0892f6g5a93g49e9g8b1agd2d9567213f5" version="2">Resisted the Song</content>
 	<content contentuid="hb02b136dg05a2g4dd6ga156gb7be1ba0fa3b" version="3">Affected creature has succeeded a &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; against the nearby harpy's &lt;LSTag Type="Spell" Tooltip="Shout_LuringSong_Harpy"&gt;Luring Song&lt;/LSTag&gt; and is immune to its effects for [1] turns.</content>
 
@@ -473,8 +496,10 @@
 	<content contentuid="5118b4641cdb4145a0fb4699faf1d32200007" version="1">Relentless Attacks</content>
 	<content contentuid="5118b4641cdb4145a0fb4699faf1d3220000g" version="4">You may make an additional weapon attack per turn, though the second attack is rolled with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
 
-	<content contentuid="5118b4641cdb4145a0fb4699faf1d32200008" version="1">Fury of the Small</content>
-	<content contentuid="5118b4641cdb4145a0fb4699faf1d3220000h" version="4">When damaging a creature larger than you, you deal an additional [1].</content>
+	<content contentuid="5118b4641cdb4145a0fb4699faf1d32200008" version="1">Mob Mentality</content>
+	<content contentuid="5118b4641cdb4145a0fb4699faf1d3220000h" version="4">When starting their turn within [1] of an ally, this creature gains an &lt;LSTag Type="Passive" Tooltip="ExtraAttack"&gt;Extra Attack&lt;/LSTag&gt;.</content>
+	<content contentuid="5118b4641cdb4145a0fb4699faf1d322012z8" version="1">Mob Mentality</content>
+	<content contentuid="5118b4641cdb4145a0fb4699faf1d322013zh" version="4">Affected creature may make an &lt;LSTag Type="Passive" Tooltip="ExtraAttack"&gt;Extra Attack&lt;/LSTag&gt; this turn.</content>
 
 	<content contentuid="5118b4641cdb4145a0fb4699faf1d32200009" version="1">Devour Intellect</content>
 	<content contentuid="5118b4641cdb4145a0fb4699faf1d3220000i" version="4">Consume fragments of a creature's mind. If your targets Intelligence is below 4, it takes double the damage and is &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stunned&lt;/LSTag&gt;.</content>
@@ -499,8 +524,11 @@
 	<content contentuid="hc761eaf7g4df1g4de8g8f79gcaae9047a8f6" version="1">Shadow Veil</content>
 	<content contentuid="h6bcb2ab7g7c97g4746gb6begba800a7c6099" version="5">While Lightly or Heavily Obscured, shadow mastiffs are &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Bludgeoning, Piercing, and Slashing damage.</content>
 
+	<content contentuid="hfe99824fgaebdg44cdgb53dgc4b2e268a4c1" version="1">Necrotic Claws</content>
+	<content contentuid="hee2bb5a4gc190g4a74ga5c2g0aeeee48ce64" version="1">Lash out with cursed claws, possibly reducing your target's maximum &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; by 12.</content>
+
 	<content contentuid="h2ee34512gc3f5g4d94ga18bgd6643da1df2b" version="1">Life Drain</content>
-	<content contentuid="h375db52dg77cbg466cg9479ge283edebf6c4" version="6">Possibly drain a creature's &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; by 8. The creature dies if their Hit Points are reduced to 0.</content>
+	<content contentuid="h375db52dg77cbg466cg9479ge283edebf6c4" version="6">Possibly drain a creature's &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; by 12. The creature dies if their Hit Points are reduced to 0.</content>
 	<content contentuid="h06f58ab0g490dg4e3ag94b5gdbfe0f14baf6" version="1">Life Drain</content>
 	<content contentuid="hf29a30b7gc592g4228g95c6g112e9c5f4127" version="3">Affected creature's maximum &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; have been reduced by 8 per stack of this condition. They will die if their maximum Hit Points are reduced to 0.</content>
 
@@ -528,5 +556,44 @@
 
 	<content contentuid="h4d353f31g6d0bg480fg9f83gf19c75e1217b" version="2">Lunar Strike</content>
 	<content contentuid="h90e2ebe0g1948g4e17g8f0fg70121c9fd858" version="2">Engulf your weapon in Selûne's light, dealing additional Radiant damage and surrounding your target in &lt;LSTag Type="Status" Tooltip="BURNING_HOLY"&gt;Holy Flames&lt;/LSTag&gt;.</content>
+
+	<content contentuid="5118b4641cdb4145a0fb4699fa2s6e5fe4545" version="2">Grip of the Night</content>
+	<content contentuid="5118b4641cd9we8fs56e8f56e5fe54fe89s85" version="2">When dealing damage, you ignore Necrotic &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt;.</content>
+
+	<content contentuid="hbf1f45a4g0c29g4e66ga808gd31c054d7dfa" version="4">Greater Automaton: Phase One</content>
+	<content contentuid="hbf1f45a4g0c29g4e66ga808gd6s84e6f46s5" version="2">Affected creature will throw their target backward by [1] upon forcing them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
+	<content contentuid="hb5232a3egc046g45e9g92a9gbeaec7eace7c" version="1">Greater Automaton: Phase Two</content>
+	<content contentuid="hbf1f45a4g0c29g4e66ga808gd6sd62e5f454" version="1">Affected creature will throw their target backward by [1] upon forcing them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;. In addition, their &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; is doubled, and upon starting each turn, they will &lt;LSTag Type="Spell" Tooltip="Shout_Stomp_Grym"&gt;Stomp&lt;/LSTag&gt;.</content>
+	<content contentuid="h19f40345g9a45g2s6e6f5s6g9d7ac6f516a0" version="3">Detonation Impending</content>
+	<content contentuid="h77eab7c0g5f42g4eecg98978ef5c07277422" version="5">Grym prepares to erupt in a cataclysmic explosion.</content>
+	<content contentuid="hb5232a3egc046g45e9g926we8d6e8feace7c" version="1">Greater Automaton: Phase Three</content>
+	<content contentuid="hbf1f45a4g0c29g4e66ga808gd2225e6f6454" version="1">Affected creature will throw their target backward by [1] upon forcing them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;. In addition, their &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; is doubled, and upon starting each turn, they will &lt;LSTag Type="Spell" Tooltip="Shout_Stomp_Grym"&gt;Stomp&lt;/LSTag&gt;.</content>
+
+	<content contentuid="5118b4641cdb4145a0fb4werewolfzzfe4545" version="2">Tanks Be-Were</content>
+	<content contentuid="5118b4641cd9we8fs56e8werewolfzze89s85" version="2">When dealing damage, you ignore physical &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt;.</content>
+
+	<content contentuid="hdd9d510dgd356g4d16g9f7fg477520ebc92c" version="1">Savage Howl</content>
+	<content contentuid="h5d825199g974bg43d3gb449g6c11dda65d21" version="1">Gather your pack. Each ally within earshot can move an additional [1] during their next turn, and gains [2].</content>
+
+	<content contentuid="he76603c3g4dc6g4887g892eg55625d8f8f5c" version="1">Vampiric Ascendant</content>
+	<content contentuid="hdeb72ea9g049ag4255ga2f9gbec85c0b1b58" version="5">With the ritual complete Cazador has ascended to an unstoppable Vampire Lord. His &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; has increased by [1], his &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by 8, and the damage he deals by [2]. Each turn, he will regain 100 &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h6d32ce11g65cag4ef8ga2b3g2b4d2ceace9d" version="4">Diabolic Chains</content>
+	<content contentuid="hc322babegf3e2g48cdgb218g96a9c301dbc8" version="8">Lash out with [1] magmatic chains of &lt;LSTag Type="Status" Tooltip="BURNING_HELLFIRE"&gt;Hellfire&lt;/LSTag&gt;.</content>
+	<content contentuid="hb73f3e80ge609g4c3ag8cf6g87263cfeb97f" version="3">Flames of Avernus</content>
+	<content contentuid="h7bb3d42ag53c1g473bgaf3eg4df1239a951d" version="5">Loose a searing wave of infernal fire from your palms. </content>
+	<content contentuid="h19304115ge85eg44d5g91d9gdbd3a9275958" version="2">Incinerate</content>
+	<content contentuid="h619a6c76gc33dg407eg83d4g9cf453fee817" version="3">Wreath a target in malevolent flame.</content>
+
+	<content contentuid="ha9858ef0g6e6bg4b10g87a6g139be9983951" version="4">Self-Detonate</content>
+	<content contentuid="h13121acbg8531g40d0gb4e2g05e6a4e93943" version="3">Detonate yourself in a massive inferno.</content>
+
+	<content contentuid="h0b65f9efg09cbg4eafg87e9g66137a4a1565" version="3">Unrelenting Storm</content>
+	<content contentuid="h5f65f460g37d6g40d2ga98bg9b85f8aea9ba" version="3">Affected creature will instantly recover [1] &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; when killed. In addition, it will begin &lt;LSTag Type="Status" Tooltip="DRAGON_SKELETAL_FLIGHTSTATE"&gt;Hoarding Energy&lt;/LSTag&gt;, gain [2] for [3] rounds, and lose all &lt;LSTag Tooltip="IncapacitatingCondition"&gt;Incapacitating Conditions&lt;/LSTag&gt;.</content>
+	<content contentuid="h1f934d12g982bg446ag9ac1gc96b23f742e7" version="2">Stormheart Resolve</content>
+	<content contentuid="h358a087cg3cb4g4e62g967bgfcd5ade476a0" version="3">Affected creature has begun &lt;LSTag Type="Status" Tooltip="DRAGON_SKELETAL_FLIGHTSTATE"&gt;Hoarding Energy&lt;/LSTag&gt;, gained [1] for [2] rounds, and lost all &lt;LSTag Tooltip="IncapacitatingConditions"&gt;Incapacitating Conditions&lt;/LSTag&gt;. Each turn, they will call down bolts of lightning within the area.</content>
+
+	<content contentuid="hb8556c58g922cg4db1gbdf3g00b8827ebaf5" version="2">Morphic Ambush</content>
+	<content contentuid="ha75c380dg4646g4f13gac91g8cd2342e7411" version="2">Undergo a shocking transformation and possibly &lt;LSTag Type="Status" Tooltip="SURPRISED"&gt;Surprise&lt;/LSTag&gt; your foes.</content>
 
 </contentList>

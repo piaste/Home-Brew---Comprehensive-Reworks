@@ -174,7 +174,30 @@
 	<content contentuid="h20b19b1bg5da3g41d4g901bgd1d613fe8115" version="2">When damaging a target you are currently &lt;LSTag Type="Status" Tooltip="HUNTED"&gt;Hunting&lt;/LSTag&gt;, you roll your damage dice with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. In addition, you ignore all forms of physical &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; when dealing damage to an enemy or item.</content>
 
 	<content contentuid="h4d476cb8gfa45g4f4cga9d13w5e6f5sef21e" version="2">Twinned Strikes</content>
-	<content contentuid="h20b19b1bg5da3g41d4g9015se46f5s4e6f8d" version="2">When making a weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, you may select two targets instead of one.</content>
+	<content contentuid="h20b19b1bg5da3g41d4g9015se46f5s4e6f8d" version="2">When making a weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, you may target two creatures instead of one.</content>
+
+<content contentuid="0000000000000000000000000000000000000" version="1">MIRE MIST</content>
+
+	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf00000" version="1">Mire Mist</content>
+	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bfzzzzz" version="1">Through stagnant waters, decay takes root. Through drifting vapors and creeping corrosion, the wilderness slowly consumes all who trespass within it.</content>
+
+	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf00001" version="1">Caustic Mire</content>
+	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf0000a" version="1">Both you and your Ranger Companions deal an additional [1] when dealing damage to an enemy. This bonus does not apply to damage dealt with an off-hand weapon. In addition, each time that you deal damage, you apply one stack of &lt;LSTag Type="Status" Tooltip="ACID"&gt;Acid&lt;/LSTag&gt;.</content>
+
+	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf00002" version="1">Corrosive Bloom</content>
+	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf0000b" version="1">When &lt;LSTag Type="Status" Tooltip="CORRODED"&gt;Corrosion&lt;/LSTag&gt; is removed from an enemy, all enemies within [1] of them receive &lt;LSTag Type="Status" Tooltip="CAUSTIC_BRINE"&gt;Caustic Brine&lt;/LSTag&gt; for three turns.</content>
+
+	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf00003" version="1">Dissolving Touch</content>
+	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf0000c" version="1">You ignore all forms of Acid based &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt; when dealing damage to an enemy or item.</content>
+
+	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf00004" version="1">Burning Quarry</content>
+	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf0000d" version="1">When dealing damage to a creature suffering from &lt;LSTag Type="Status" Tooltip="CAUSTIC_BRINE"&gt;Caustic Brine&lt;/LSTag&gt;, you roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+
+	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf00005" version="1">Spreading Mire</content>
+	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf0000e" version="1">&lt;LSTag Type="Status" Tooltip="Tooltip_CorrosiveBloom"&gt;Corrosive Bloom&lt;/LSTag&gt; now applies &lt;LSTag Type="Status" Tooltip="CAUSTIC_BRINE"&gt;Caustic Brine&lt;/LSTag&gt; to your targets indefinitely, rather than for three turns.</content>
+
+	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf00006" version="1">Fatal Decay</content>
+	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf0000f" version="1">When dealing damage to a &lt;LSTag Type="Status" Tooltip="CORRODED"&gt;Corroded&lt;/LSTag&gt; enemy, you will only roll &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hits&lt;/LSTag&gt;.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">SWARMKEEPER</content>
 
@@ -365,7 +388,7 @@
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d10000d" version="2">You no longer provoke &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt;.</content>
 
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d100008" version="4">Explosive Arrowheads</content>
-	<content contentuid="791a0319eeed4e25949847ad3a0dd1d10000h" version="4">When you deal damage with a ranged weapon, you deal Force damage equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; multiplied by 2 in a [1] area. This damage is fixed and cannot be increased. This can be toggled at any time.</content>
+	<content contentuid="791a0319eeed4e25949847ad3a0dd1d10000h" version="4">When you deal damage with a ranged weapon, you deal Force damage equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; multiplied by 2 in a [1] area. This can be toggled at any time.</content>
 
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d100006" version="4">Hidden Inventory</content>
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d10000f" version="4">Once per turn, upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on an enemy, restore one charge of your &lt;LSTag Type="ActionResource" Tooltip="NaturalRecoveryPoint"&gt;Natural Focus&lt;/LSTag&gt;.</content>
@@ -379,9 +402,9 @@
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d1000zk" version="4">Affected creature has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made against the attacked Ranger who possesses this passive.</content>
 
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d100012" version="4">Natural Huntsman</content>
-	<content contentuid="791a0319eeed4e25949847ad3a0dd1d10000l" version="4">Dealing damage to another creature grants a +1 bonus to all damage dealt for the rest of your turn. This effect can stack.</content>
+	<content contentuid="791a0319eeed4e25949847ad3a0dd1d10000l" version="4">Dealing damage to another creature grants a +1 bonus to all physical damage dealt for the rest of your turn. This effect can stack.</content>
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d100z12" version="4">Natural Huntsman</content>
-	<content contentuid="791a0319eeed4e25949847ad3a0dd1d1000zl" version="4">Affected creature has a +1 bonus to all damage dealt for each stack of Natural Huntsman.</content>
+	<content contentuid="791a0319eeed4e25949847ad3a0dd1d1000zl" version="4">Affected creature has a +1 bonus to all physical damage dealt for each stack of Natural Huntsman.</content>
 
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d100013" version="4">Natural Opportunity</content>
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d10000m" version="4">Gain an additional &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;. In addition, &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt; that you make will attack with both weapons.</content>

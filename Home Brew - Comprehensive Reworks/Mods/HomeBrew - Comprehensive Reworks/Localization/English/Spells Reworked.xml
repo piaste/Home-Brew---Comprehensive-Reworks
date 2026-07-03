@@ -33,7 +33,7 @@
 	<content contentuid="he4120ec1gc489g4f2fg947cgbe6449fed394" version="3">Affected creature's deity has flooded its mind with ancient secrets both benevolent and baleful. It has a +[1] bonus to all &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
 
 	<content contentuid="ha5f07a62g4eefg4ce3gb36egbccbb316e957" version="2">Arcane Acuity</content>
-	<content contentuid="h98740ecdg7b6ag49feg8616g1d025bf32624" version="5">Affected creature has a +[1] bonus to its Spell based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt;. This bonus increases for each remaining stack.</content>
+	<content contentuid="h98740ecdg7b6ag49feg8616g1d025bf32624" version="5">Affected creature has a +[1] bonus to its &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made with Spells and &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt;, as well as it's &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt;. This bonus increases for each remaining stack.</content>
 
 	<content contentuid="h2b4b1619g0580g4ba2g9c7bg6c81cac40be5" version="4">Arcane Charge</content>
 	<content contentuid="h8b3ddcacge2d8g41e0ga7eegb3cefedd8678" version="15">While &lt;LSTag Type="Status" Tooltip="THREATENED"&gt;Threatened&lt;/LSTag&gt;, affected creature has a +[1] bonus to damage with Spells.</content>
@@ -200,7 +200,7 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="h9c3b0b3bge6d4g4991g91d4g1368d245f149" version="2">Lightning Charges</content>
 	<content contentuid="he61586f0g9f00g47f9gad15gd252421230ba" version="11">Affected creature crackles with energy. They deal an additional [1] with their weapons.&lt;br&gt;&lt;br&gt;Upon accruing [2] stacks, they become &lt;LSTag Type="Status" Tooltip="TESLA_COILED"&gt;Tesla Coiled&lt;/LSTag&gt;.</content>
 	<content contentuid="h9c3b0b3bge6d4g4991g91d4g1368d2teslac" version="2">Tesla Coiled</content>
-	<content contentuid="he61586f0g9f00g47f9gad15gd25242teslac" version="11">Affected creature crackles with overflowing energy. They deal an additional [1] with their weapons and all attacks create an electrical coil, arcing to a nearby enemy and dealing [2].</content>
+	<content contentuid="he61586f0g9f00g47f9gad15gd25242teslac" version="11">Affected creature crackles with overflowing energy. They deal an additional [1] with their weapons and all attacks cause their target to create an internal electrical coil, arcing to a nearby enemy and dealing [2].</content>
 
 	<content contentuid="h62747c1ag6bc5g4970g96d9g577ca8051662" version="2">Madness</content>
 	<content contentuid="h7290220cgde5eg4facgaf2ag9bd42c6b0c4c" version="2">Affected creature is hostile to everyone in their vicinity.</content>
@@ -209,7 +209,7 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="h124be289g4eabg45feg8a9bgafe6e561ebb0" version="3">Affected creature regains [1] when starting their turn in Lava.</content>
 
 	<content contentuid="h978e1507gf90eg49b5g33s6d2f545548d77f" version="1">Melting</content>
-	<content contentuid="h749103c1g241dg4d07g988e9e6f999a2d981" version="4">Affected creature takes [1] at the beginning of each of their turns.</content>
+	<content contentuid="h749103c1g241dg4d07g988e9e6f999a2d981" version="4">Affected creature takes [1] at the beginning of each of their turns. Removed if &lt;LSTag Type="Status" Tooltip="WET"&gt;Wet&lt;/LSTag&gt;.</content>
 
 	<content contentuid="he89491c8g9ea0g4264gaa1agc8d6657c376e" version="2">Mental Fatigue</content>
 	<content contentuid="h4a9979c7ge708g461eg9c76g73a18a38e8f3" version="8">Affected creature has a -[1] penalty to Wisdom, Intelligence, and Charisma &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; for every stack of Mental Fatigue. They cannot utilize their armours elemental &lt;LSTag Type="Status" Tooltip="DAMAGE_REDUCTION"&gt;Damage Reduction&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Upon reaching 7 stacks, the creature will become rife with &lt;LSTag Type="Status" Tooltip="MADNESS"&gt;Madness&lt;/LSTag&gt; for one turn.</content>
@@ -266,7 +266,7 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="hfe0869e3g3954g4eb1g915agd39ade42ecde" version="3">Affected creature has fallen. They cannot act, and they have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Strength and Dexterity based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;. Attacks within [1] of the affected creature have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; when targeting it.&lt;br&gt;&lt;br&gt;A Prone creature will spend half of its &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; to stand up, immediately removing this status.&lt;br&gt;&lt;br&gt;Removed if &lt;LSTag Type="Spell" Tooltip="Target_Help"&gt;Helped&lt;/LSTag&gt;.</content>
 
 	<content contentuid="hf68573edgb5f3g4027gb92cgd55a096d74b3" version="2">Radiant Retort</content>
-	<content contentuid="hf6737e4eg1692g42acgb65ag23edf956cbad" version="9">Affected creature reflects Radiant damage back at their aggressor twofold as Force damage.</content>
+	<content contentuid="hf6737e4eg1692g42acgb65ag23edf956cbad" version="9">Affected creature reflects Radiant damage back at their aggressor twofold as Force damage while obscured in darkness.</content>
 
 	<content contentuid="h71e9454cg0dc3g45fega05egd0f72572f419" version="2">Radiating Orb</content>
 	<content contentuid="h30df09d8g9eb9g47f5gb0f6gc4964d40cbc2" version="9">Affected creature has a [1] penalty to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; per stack. It also sheds bright light in a [2] area surrounding it.&lt;br&gt;&lt;br&gt;All stacks are removed once this creature makes an Attack Roll. If seven stacks are present when this condition is removed, all creatures within [3] are &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt; by an intense light.</content>
@@ -468,7 +468,8 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 
 	<content contentuid="h142f3203g1c23g4848g9cffgd6bce15b3e12" version="1">Animate Dead</content>
 	<content contentuid="h80a04053gcf68g44afgab5bg5ad5a05a0969" version="5">Create an undead servant from a corpse. The corpse cannot be large in size.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Paladins&lt;br&gt;Rogues&lt;br&gt;Wizards</content>
-	<content contentuid="h06553ae4gc02bg4b85g8b6fg29bbf4fdc9a8" version="2">Zombies born from the Crawling Gnaw cannot last. They take [1] each turn.</content>
+	<content contentuid="h06553ae4gc02bg4b85g8b6fg29bbf4fdc9a8" version="2">Zombies born from the Crawling Gnaw. They cannot last long, though they can quickly overwhelm their foes.</content>
+	<content contentuid="hc6b32806g0fa4g48f5g9a05gd485d5eed014" version="3">Infected with zombie mucus. &lt;br&gt;&lt;br&gt;If the affected entity dies before the infection wears off, it will temporarily rise again as a &lt;LSTag Type="Status" Tooltip="ZOMBIE_DECAY"&gt;Newborn Zombie&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h131cf5deg1aa9g4fe5gaf4egaf6183c423bb" version="2">Arcane Gate</content>
 	<content contentuid="h1e0b1b6egeeeeg4ce3gba26g51ba616b338c" version="3">Create two linked teleportation portals.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Paladins&lt;br&gt;Rogues&lt;br&gt;Wizards</content>
@@ -979,6 +980,9 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="h9c45b075g7cfeg4557ga26fgbcee9d2040a5" version="1">Freedom of Movement</content>
 	<content contentuid="h1ee0dfcbg9ebcg4117gb921gebf190ea4a7d" version="3">Affected creature's &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; is unaffected by &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;, Spells, or magical effects. Additionally, they cannot be paralyzed or restrained.</content>
 
+	<content contentuid="hb14f7ccdg67afg4755g8d86g0b50b9220a16;3" version="15">Garrotted</content>
+	<content contentuid="h1e88c530ge710g465dgb3e0g5b3c4a81e356" version="15">Affected creature is being strangled by a garrotte. It is &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Muted&lt;/LSTag&gt;, cannot move, &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against it are made with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;, and it takes [1] per turn. If the entity and the garrotter move more than [2] apart, this condition ends.</content>
+
 	<content contentuid="h44585d58gfba7g4acfgb5ffg76b55f7f155e" version="1">Gaseous Form</content>
 	<content contentuid="h0b98d9b2g9dd4g40b0g9cd7g3164e5903e24" version="3">Transform yourself or an ally into a tiny gas cloud. The cloud cannot fall, and fits through small openings.&lt;Br&gt;&lt;br&gt;The cloud has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Constitution, Dexterity, and Strength &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
 	<content contentuid="hb245b5f0gab6fg4a4cgbf62g80326dc2dfb3" version="1">Gaseous Form</content>
@@ -1349,7 +1353,7 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="h992a87efg1211g44c6g8086g6622d5f3d658" version="2">Revive a companion. They return to life with 1 &lt;LSTag Tooltip="HitPoints"&gt;Hit Point&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h95f5d6a3ga4a7g4dadg9a30gdbdb21961493" version="1">Sanctuary</content>
-	<content contentuid="h3593ae09g5ec5g4751gb3cdg86acec7e3571" version="2">Prevent yourself or another creature from being directly targeted by harmful actions until you choose to attack or harm another creature. You can still be affected by actions which have an area of effect.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Druid&lt;br&gt;Paladins&lt;br&gt;Rangers</content>
+	<content contentuid="h3593ae09g5ec5g4751gb3cdg86acec7e3571" version="2">Prevent yourself or another creature from being directly targeted by harmful actions while in combat until you choose to attack or harm another creature. You can still be affected by actions which have an area of effect.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Druid&lt;br&gt;Paladins&lt;br&gt;Rangers</content>
 	<content contentuid="ha2ac2d1ag3f78g486bgb77agde19d9daaf48" version="1">Sanctuary</content>
 	<content contentuid="hc9451523g081eg40beg9402g9f061f264ae3" version="3">Affected creature can't be directly targeted by harmful actions. However, it can still be affected by actions which have an area of effect. Sanctuary immediately ends if the affected creature chooses to attack or harm another creature, and they will then receive &lt;LSTag Type="Status" Tooltip="SANCTUARY_BLOCK"&gt;Sanctuary Immunity&lt;/LSTag&gt; for 3 turns.</content>
 	<content contentuid="ha8d0991dg0cd3g4163ga409gc2330fbf41b0" version="2">Sanctuary Immunity</content>
@@ -1362,12 +1366,12 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="h9047132dg45c1g4d1bgb834ga98bc0aa41ff" version="2">Slow</content>
 	<content contentuid="h87e09423gaa01g4372g99d2g7ff4d657e8d1" version="6">Target a creature and impose severe limitations upon all facets of normal function, including halving their &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt;, reducing their &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by 2, and preventing them from utilizing &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reactions&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Each turn, the affected creature will attempt to come to their senses through a Wisdom based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Barbarians&lt;br&gt;Clerics&lt;br&gt;Paladins&lt;br&gt;Sorcerers</content>
 	<content contentuid="h1b414996gb9a5g471dgaa85gbbe2657548b0" version="2">Slowed</content>
-	<content contentuid="hf0d5c7f8g9e5fg41e4g99d5gd97fe3698321" version="7">Affected creature has had their &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; halved, and its &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; has been reduced by 2. Additionally, the creatures Dexterity based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; are rolled with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;The creature cannot use &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reactions&lt;/LSTag&gt; or make more than 1 attack per turn.&lt;br&gt;&lt;br&gt;Each turn, the affected creature will attempt to come to their senses through a Wisdom based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.</content>
+	<content contentuid="hf0d5c7f8g9e5fg41e4g99d5gd97fe3698321" version="7">Affected creature has had their &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; halved, and its &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; has been reduced by 2. Additionally, the creatures Dexterity based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; are rolled with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; and they cannot use &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reactions&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Each turn, the affected creature will attempt to come to their senses through a Wisdom based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.</content>
 
 	<content contentuid="hd2d06133g5277g44f8ga6dbg82bef1117d44" version="2">See Invisibility</content>
-	<content contentuid="ha4544864g1c5eg4d1ag9c19gdec71cfb899c" version="3">Grant yourself or another creature the ability to see &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; entities, revealing them to others.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Barbarians&lt;br&gt;Clerics&lt;br&gt;Paladins&lt;br&gt;Sorcerers</content>
+	<content contentuid="ha4544864g1c5eg4d1ag9c19gdec71cfb899c" version="3">Grant yourself or another creature the ability to see &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; enemies, revealing them to others.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Barbarians&lt;br&gt;Clerics&lt;br&gt;Paladins&lt;br&gt;Sorcerers</content>
 	<content contentuid="h5ad4a60dga70fg45efg9efbge4e61ca4e073" version="2">See Invisibility</content>
-	<content contentuid="h68bd4926g8e1ag4de6gbdccgb01be0a5379b" version="3">Affected creature can see &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; entities within [1]. Invisible entities must succeed a Dexterity based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or they will become visible.</content>
+	<content contentuid="h68bd4926g8e1ag4de6gbdccgb01be0a5379b" version="3">Affected creature can see &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; enemies within [1]. Invisible enemies must succeed a Dexterity based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or they will become visible.</content>
 
 	<content contentuid="hfcaa3d8cgbd95g4df2g8d47g0c3195e389f7" version="2">Seeming</content>
 	<content contentuid="hdf38500fg33bdg4a7ag9589g21230cc729ce" version="4">Disguise yourself and nearby members of your adventuring party.</content>
@@ -1694,10 +1698,13 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="he9c818edg35bfg48d1gb631geea652850cfd" version="2">Swipe at a creature to possibly knock it &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h66842f7dg459cg428ega016s8e5f5f584a52" version="1">Martial Vortex</content>
-	<content contentuid="he9c818edg35bfg4greoipf1geea652850cfd" version="2">Swing your sword at all nearby creatures.</content>
+	<content contentuid="he9c818edg35bfg4greoipf1geea652850cfd" version="2">Swing your weapon at all nearby creatures.</content>
 
 	<content contentuid="h66666332g2913g4a6dga54ege0fe75d293da" version="2">Weakening Strike</content>
 	<content contentuid="h025b9a3cg7e71g4562gb9d2g24307dbbf77e" version="5">Possibly inflict a &lt;LSTag Type="Status" Tooltip="HINDERED"&gt;Weak Grip&lt;/LSTag&gt; upon your target.</content>
+
+	<content contentuid="h6005bcf0g00abg4cd0ga97bg0fd6fef3383d" version="2">Blinding Shot</content>
+	<content contentuid="hb6659a10g0a0dg4e39gb515g5edd49975319" version="5">Possibly &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blind&lt;/LSTag&gt; your target.</content>
 
 	<content contentuid="ha07074c0gf103g42ffg8e82gf2e599cf32fd" version="2">Brace (Ranged)</content>
 	<content contentuid="h96c46cb5g8a78g4063g8e23g459378f4ef14" version="4">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all ranged damage rolls for the rest of your turn.</content>
@@ -1780,7 +1787,7 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="8fb2fdabe5824cec92bf151467230bb6000zh" version="3">Strike back at an enemy who makes a failed &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against you.</content>
 
 	<content contentuid="8fb2fdabe5824cec92bf151467230bb600009" version="1">Critical Bash</content>
-	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000i" version="3">When damaging a &lt;LSTag Type="Status" Tooltip="DAZED"&gt;Dazed&lt;/LSTag&gt; creature, the number you need in order to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; is reduced by 2.</content>
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000i" version="3">When damaging a &lt;LSTag Type="Status" Tooltip="DAZED"&gt;Dazed&lt;/LSTag&gt; creature, the number you need in order to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; is reduced by 1.</content>
 
 	<content contentuid="8fb2fdabe5824cec92bf151467230bb600010" version="1">Piercing Strikes</content>
 	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000j" version="3">This weapon deals an additional [1].</content>
@@ -1849,7 +1856,7 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="d273c2a6f9f24f73b755b9c0092eb9fa0000e" version="3">You add your &lt;LSTag Tooltip="AbilityModifier"&gt;Strength Modifier&lt;/LSTag&gt; to the damage you deal with all &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt;.</content>
 
 	<content contentuid="d273c2a6f9f24f73b755b9c0092eb9fa00006" version="1">Abracadabra</content>
-	<content contentuid="d273c2a6f9f24f73b755b9c0092eb9fa0000f" version="3">Your Spell based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and your &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt; are both increased by [1].</content>
+	<content contentuid="d273c2a6f9f24f73b755b9c0092eb9fa0000f" version="3">Your &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made with Spells and &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt;, as well as your &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt;, are both increased by [1].</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">MISC</content>
 	<content contentuid="hc1e12016g745fg425agb531gbbf855247fce" version="1">Cannot use.&lt;br&gt;</content>
@@ -2107,9 +2114,9 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="h23dde6dfg0193g4163g86e1g2390wr70w788" version="6">Ferociously slam yourself against your target.</content>
 
 	<content contentuid="h245d543eg02dfg45f5g910age84e27663e89" version="2">Shadow Blade</content>
-	<content contentuid="h3ce51988gc9efg482ag9b9egdabe769a9482" version="3">Weave a blade into your hand from the nearby shadows. The blade deals [1]. While in an obscured area, damage dealt with the blade is maximized and you make all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; using it with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Barbarians&lt;br&gt;Clerics&lt;br&gt;Paladins&lt;br&gt;Sorcerers</content>
+	<content contentuid="h3ce51988gc9efg482ag9b9egdabe769a9482" version="3">Weave a blade into your hand from the nearby shadows. The blade deals [1]. While &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Sneaking&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; in an obscured area, the blades damage is maximized.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Barbarians&lt;br&gt;Clerics&lt;br&gt;Paladins&lt;br&gt;Sorcerers</content>
 	<content contentuid="h0160e9efg8974g43d6gb3fcg8d4e9d200a3c" version="4">Shadows Edge</content>
-	<content contentuid="ha672fd65g0fe4g4596g9529gce372c013ca1" version="6">While in a &lt;LSTag Type="Status" Tooltip="SNEAKING_HEAVILY_OBSCURED"&gt;Heavily Obscured&lt;/LSTag&gt; area, damage dealt with this blade is maximized and you make all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; using it with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+	<content contentuid="ha672fd65g0fe4g4596g9529gce372c013ca1" version="6">While &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Sneaking&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; in an obscured area, this blades damage is maximized.</content>
 
 	<content contentuid="h8d8581efg7155g41b5g9c1ag6a6f59c3bc03" version="1">Paralysed</content>
 	<content contentuid="hb40ed8aagb03fg4f38gb8bcg7f1a2c96633a" version="1">Affected creature has been paralysed. They cannot act.</content>
@@ -2127,5 +2134,14 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 
 	<content contentuid="h7c8ce380g0d56g4807gb60cg58e283b4ecdb" version="2">Vampire Ascendant</content>
 	<content contentuid="hf9a3c136gfa53g4170g9eeega20ced9c9111" version="4">Behold, the Vampire Ascendant! Thousands of souls have bought you power, granting you &lt;LSTag Type="Spell" Tooltip="Target_LOW_Astarion_VampireAscendant"&gt;Ascendant Bite&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Shout_LOW_MistyEscape_Astarion"&gt;Gaseous form&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;You also gain a +[1] bonus to all damage dealt.</content>
+
+	<content contentuid="h85a66febg18eeg41b6g84bcgf2f1cb213355" version="1">Weakened Intelligence</content>
+	<content contentuid="hc71486d7geedcg4fcag9ba2g198152d38cb5" version="3">Your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt; has been reduced by 2 by the Zaith'isk. The githyanki device failed to harm your illithid parasite.</content>
+
+	<content contentuid="hc6f3cb65g7243g40f1g8857gf203a16a9724" version="1">Weakened Wisdom</content>
+	<content contentuid="h55e0fc7dgcd0ag4bb7g8d6cgb1d093ce452b" version="3">Your &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; has been reduced by 2 by the Zaith'isk. The githyanki device failed to harm your illithid parasite.</content>
+
+	<content contentuid="h5fa1c04fgefe3g4c8bga374gf08691eb0067" version="1">Weakened Constitution</content>
+	<content contentuid="h202dc139g4871g4a2ega932g075704cbbcbc" version="3">Your &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; has been reduced by 2 by the Zaith'isk. The githyanki device failed to harm your illithid parasite.</content>
 
 </contentList>

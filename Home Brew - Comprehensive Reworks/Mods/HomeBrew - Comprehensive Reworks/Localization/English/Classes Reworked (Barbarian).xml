@@ -9,7 +9,7 @@
 	<content contentuid="hd0473bcfg9145g41d2gad13g8bc78ce6d718" version="1">Rage</content>
 	<content contentuid="h0758d09cgc5abg4ea7g8e0bg3ecc90844352" version="2">Deal [1] additional damage with &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attacks&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Throw_ImprovisedWeapon"&gt;Improvised Weapons&lt;/LSTag&gt;, and when &lt;LSTag Type="Spell" Tooltip="Throw_Throw"&gt;Throwing&lt;/LSTag&gt; objects or creatures.</content>
 	<content contentuid="h9c492aaag4d3cg4dc8g8bd5g12c7dd5dbdef" version="3">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to all physical damage, and &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; based &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
-	<content contentuid="h16ea2d0ag2091g41b6g9091gdcf58b901af6" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Killing blows and &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hits&lt;/LSTag&gt; will reset the duration of your Rage. While active, you are considered to be a preferred target.</content>
+	<content contentuid="h16ea2d0ag2091g41b6g9091gdcf58b901af6" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Killing blows and &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hits&lt;/LSTag&gt; will reset the duration of your Rage.</content>
 	<content contentuid="h38b9d877g03f5g4724g99b0g5f004bd7b30f" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Rage blocks the ability to both cast and &lt;LSTag Tooltip="Concentration"&gt;Concentrate&lt;/LSTag&gt; on Spells.</content>
 
 	<content contentuid="hb5a027a4g2934g40bfga5e1g7cb821264ea9" version="1">Rage</content>
@@ -19,17 +19,17 @@
 	<content contentuid="hf316da37g19bdg4e20gb23cgb3e985d13765" version="3">Manually end your &lt;LSTag Type="Status" Tooltip="RAGE"&gt;Rage&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h86a825dagb852g4f68g847cg41fcba245fa6" version="1">Reckless Attack</content>
-	<content contentuid="hf12dfcdfg3774g4f31g849cg8c09c219a454" version="9">Make all Melee and Throw based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. However, enemies will also have Advantage when making Attack Rolls against you. This effect can be toggled at any time.</content>
+	<content contentuid="hf12dfcdfg3774g4f31g849cg8c09c219a454" version="9">Make all Melee and Throw based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. However, enemies will also have Advantage when making Attack Rolls against you, and you will be considered to be a preferred target. This effect can be toggled at any time.</content>
 	<content contentuid="h0f5c3539g18bbg4891ga824g827151a00373" version="2">Reckless Attack</content>
 	<content contentuid="h93857089gb140g4c33ga0a9g26fde3f2c154" version="7">Affected creature has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Melee and Throw based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, however enemies also have Advantage when making Attack Rolls against it.</content>
 
 	<content contentuid="h0f5c3539g18bbg4891ga824g827151a3a699" version="1">Reckless Assault</content>
-	<content contentuid="hf12dfcdfg3774g4f31g849cg8c09c21878a4" version="9">Make all Melee and Throw based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Additionally, reduce the number needed to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; by one. However, enemies will also have Advantage when making Attack Rolls against you. This effect can be toggled at any time.</content>
+	<content contentuid="hf12dfcdfg3774g4f31g849cg8c09c21878a4" version="9">Make all Melee and Throw based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Additionally, reduce the number needed to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; by one. However, enemies will also have Advantage when making Attack Rolls against you, and you will be considered to be a preferred target. This effect can be toggled at any time.&lt;Br&gt;&lt;Br&gt;This passive acts as a replacement of &lt;LSTag Type="Passive" Tooltip="RecklessAttack_Toggle"&gt;Reckless Attack&lt;/LSTag&gt;.</content>
 	<content contentuid="h0f5c3539g18bbg4891ga824g827151a3a521" version="1">Reckless Assault</content>
 	<content contentuid="h93857089gb140g4c33ga0a9g26fde3f6a975" version="2">Affected creature has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Melee and Throw based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, however enemies also have Advantage when making Attack Rolls against it. The number this creature needs to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; is reduced by one.</content>
 
 	<content contentuid="h0f5c3539g18bbg4891ga824g827151a6a922" version="1">Reckless Rampage</content>
-	<content contentuid="hf12dfcdfg3774g4f31g849cg8c09c219799d" version="9">Make all Melee and Throw based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Additionally, reduce the number needed to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; by one, and when rolling a Critical Hit, roll an additional damage die. However, enemies will also have Advantage when making Attack Rolls against you. This effect can be toggled at any time.</content>
+	<content contentuid="hf12dfcdfg3774g4f31g849cg8c09c219799d" version="9">Make all Melee and Throw based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Additionally, reduce the number needed to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; by one, and when rolling a Critical Hit, roll an additional damage die. However, enemies will also have Advantage when making Attack Rolls against you, and you will be considered to be a preferred target. This effect can be toggled at any time.&lt;Br&gt;&lt;Br&gt;This passive acts as a replacement of &lt;LSTag Type="Passive" Tooltip="RecklessAssault_Toggle"&gt;Reckless Assault&lt;/LSTag&gt;.</content>
 	<content contentuid="h0f5c3539g18bbg4891ga824g827151a6a475" version="1">Reckless Rampage</content>
 	<content contentuid="h93857089gb140g4c33ga0a9g26fde3f34594" version="2">Affected creature has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Melee and Throw based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, however enemies also have Advantage when making Attack Rolls against it. The number this creature needs to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; is reduced by one. When rolling a Critical Hit, this creature also rolls an additional damage die.</content>
 
@@ -161,7 +161,7 @@
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf80000r" version="2">Upon landing a killing blow while &lt;LSTag Type="Status" Tooltip="RAGE_FRENZY"&gt;Frenzied&lt;/LSTag&gt;, immediately restore your &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
 
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf83a335" version="1">Let It Rip</content>
-	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf8asdf8" version="2">Once per turn, your &lt;LSTag Type="Spell" Tooltip="Target_FrenziedStrike"&gt;Frenzied Strike&lt;/LSTag&gt; will deal the maximum damage possible. This effect is reset upon triggering &lt;LSTag Type="Passive" Tooltip="ThrilloftheKill"&gt;Thrill of the Kill&lt;/LSTag&gt;.</content>
+	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf8asdf8" version="2">Once per turn, your &lt;LSTag Type="Spell" Tooltip="Target_FrenziedStrike"&gt;Frenzied Strike&lt;/LSTag&gt; will deal the maximum damage possible. This effect is reset upon triggering &lt;LSTag Type="Status" Tooltip="Tooltip_ThrilloftheKill"&gt;Thrill of the Kill&lt;/LSTag&gt;.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">Frostbreaker</content>
 
@@ -234,20 +234,40 @@
 	<content contentuid="h108ff3ccga8e3g43f1gbeb5g194e49900006" version="1">Titanic Strength</content>
 	<content contentuid="h108ff3ccga8e3g43f1gbeb5g194e4990000f" version="2">While enraged, dealing damage to another creature will always knock them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;. In addition, your &lt;LSTag Tooltip="TwoHanded"&gt;Non-Versatile Weapons&lt;/LSTag&gt; are now considered &lt;LSTag Tooltip="Versatile"&gt;Versatile&lt;/LSTag&gt;, allowing you to dual-wield them.</content>
 
-<content contentuid="0000000000000000000000000000000000000" version="1">HELLSLAYER</content>
+<content contentuid="0000000000000000000000000000000000000" version="1">ROSEMOURN</content>
 
-	<content contentuid="h40aa7e41g978dg4da6as54df84sd5f4ef801" loreTexts="true" version="1">Blood War Veteran</content>
-	<content contentuid="hc526s54df84ef6s84d68f4s2e4f8d5f4880a" loreTexts="true" version="2">You fought in some capacity on the battlefields of the Blood War. Whether you faced abyssal demons or infernal devils, no mortal can leave without a shard of the Lower Planes' fury in their heart.</content>
+	<content contentuid="e45b631605924e679e7ea6024bc4911f00000" version="2">Rosemourn</content>
+	<content contentuid="e45b631605924e679e7ea6024bc4911f0000z" version="1">Your fury runs unconscionably deep, resting soundly in scars of the past. The briars of that past help you to forge both strength and resilience.</content>
 
-<content contentuid="0000000000000000000000000000000000000" version="1">PATH OF FEROCITY</content>
+	<content contentuid="e45b631605924e679e7ea6024bc4911f00001" version="2">Briar Blood</content>
+	<content contentuid="e45b631605924e679e7ea6024bc4911f0000a" version="1">Gain &lt;LSTag Type="Spell" Tooltip="Shout_Rage_Rosemourn"&gt;Rage: Briar Blood&lt;/LSTag&gt;.</content>
+	<content contentuid="e45b631605924e679e7ea6024bc4911f000z1" version="2">Rage: Briar Blood</content>
+	<content contentuid="e45b631605924e679e7ea6024bc4911f000za" version="1">Enrage, covering yourself in thorns. Enemies who damage you with a melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; will take [1]. In addition, while moving, you will leave behind a trail of &lt;LSTag Type="Spell" Tooltip="Target_SpikeGrowth"&gt;Spike Growth&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;While enraged, both yourself and allies within [2] of you are immune to the effects of both Spike Growth and &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;.</content>
+	<content contentuid="e45b631605924e679e7ea6024bc4911f00zz1" version="2">Rage: Briar Blood</content>
+	<content contentuid="e45b631605924e679e7ea6024bc4911f00zza" version="1">Affected creature is covered in thorns, causing them to deal an additional [1] damage with all &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attacks&lt;/LSTag&gt; and while unarmed.&lt;br&gt;&lt;br&gt;In addition, this creature has &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to physical damage, as well as &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; based &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Furthermore, enemies who damage them with a melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; will take [2]. While moving, they will leave behind a trail of &lt;LSTag Type="Spell" Tooltip="Target_SpikeGrowth"&gt;Spike Growth&lt;/LSTag&gt;, and both this creature and allies within [3] of them are immune to the effects of both Spike Growth and &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;.</content>
+	<content contentuid="e45b631605924e679e7ea6024bc4911f0zzz1" version="2">Briar's Protection</content>
+	<content contentuid="e45b631605924e679e7ea6024bc4911f0zzza" version="1">Affected creature is immune to the effects of both Spike Growth and &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;.</content>
 
-	<content contentuid="h40aa7e41g978dg4da6as54df84sd5f4ef802" loreTexts="true" version="1">Black-Blood Curse</content>
-	<content contentuid="hc526s54df84ef6s84d68f4s2e4f8d5f4880b" loreTexts="true" version="2">You survived a High Hunt organized by cultists of Malar, the Beastlord. His ferocious blessing now manifests in your rage, reveling in the screams of prey.</content>
+	<content contentuid="e45b631605924e679e7ea6024bc4911f00002" version="2">Bloodvine Grasp</content>
+	<content contentuid="e45b631605924e679e7ea6024bc4911f0000b" version="1">Gain &lt;LSTag Type="Spell" Tooltip="Target_BloodvineGrasp"&gt;Bloodvine Grasp&lt;/LSTag&gt;.</content>
+	<content contentuid="e45b631605924e679e7ea6024bc4911f000z2" version="2">Bloodvine Grasp</content>
+	<content contentuid="e45b631605924e679e7ea6024bc4911f000zb" version="1">Pull a target up to [1] closer to you, causing them to &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleed&lt;/LSTag&gt;.</content>
 
-<content contentuid="0000000000000000000000000000000000000" version="1">STONEBREAKER</content>
+	<content contentuid="e45b631605924e679e7ea6024bc4911f00003" version="2">Barbed Protection</content>
+	<content contentuid="e45b631605924e679e7ea6024bc4911f0000c" version="1">When an ally within [1] of you is attacked, you may use &lt;LSTag Type="Spell" Tooltip="Target_BloodvineGrasp"&gt;Bloodvine Grasp&lt;/LSTag&gt; on their aggressor as a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;.</content>
+	<content contentuid="e45b631605924e679e7ea6024bc4911f000z3" version="2">Barbed Protection</content>
+	<content contentuid="e45b631605924e679e7ea6024bc4911f000zc" version="1">When an ally within [1] of you is attacked, you may use &lt;LSTag Type="Spell" Tooltip="Target_BloodvineGrasp"&gt;Bloodvine Grasp&lt;/LSTag&gt; on their aggressor as a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;.</content>
 
-	<content contentuid="h40aa7e41g978dg4da6as54df84sd5f4ef804" loreTexts="true" version="1">Bigby's Reincarnation</content>
-	<content contentuid="hc526s54df84ef6s84d68f4s2e4f8d5f4880d" loreTexts="true" version="2">You are another reincarnation of the legendary wizard Bigby, famous on many worlds for his &lt;i&gt;crushing hand&lt;/i&gt; and other spells. The lack of magical talent in your current form enrages his spirit beyond measure.</content>
+	<content contentuid="e45b631605924e679e7ea6024bc4911f00004" version="2">Thornfall</content>
+	<content contentuid="e45b631605924e679e7ea6024bc4911f0000d" version="1">Causing an enemy to take damage by falling will deal an additional [1] to both them, as well as all enemies within [2] of them.</content>
+	<content contentuid="e45b631605924e679e7ea6024bc4911f000z4" version="2">Eruption of Thorns</content>
+	<content contentuid="e45b631605924e679e7ea6024bc4911f000zd" version="1">Erupt in thorns, dealing damage to all nearby enemies.</content>
+
+	<content contentuid="e45b631605924e679e7ea6024bc4911f00005" version="2">Bloodvine Thicket</content>
+	<content contentuid="e45b631605924e679e7ea6024bc4911f0000e" version="1">Upon enraging, create a [1] area of &lt;LSTag Type="Spell" Tooltip="Target_SpikeGrowth"&gt;Spike Growth&lt;/LSTag&gt; beneath your feat.</content>
+
+	<content contentuid="e45b631605924e679e7ea6024bc4911f00006" version="2">Heart of Thorns</content>
+	<content contentuid="e45b631605924e679e7ea6024bc4911f0000f" version="1">Upon ending your turn, you deal [1] to all enemies within [2] of you.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">WILD SOUL</content>
 
@@ -299,7 +319,7 @@
 	<content contentuid="heb6e4d12g04eag4dbcgba42gc1bc6b5e3ca0" version="4">Menace an enemy and attempt to instil a dreadful feeling of &lt;LSTag Type="Status" Tooltip="INTIMIDATING_PRESENCE"&gt;Intimidation&lt;/LSTag&gt; within them.</content>
 
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf800003" version="1">Faceoff</content>
-	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf80000c" version="2">If an enemy damages you, use your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; to potentially &lt;LSTag Type="Status" Tooltip="INTIMIDATING_PRESENCE"&gt;Intimidate&lt;/LSTag&gt; them.</content>
+	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf80000c" version="2">If an enemy damages you, use one of your &lt;LSTag Type="ActionResource" Tooltip="Rage"&gt;Rage Charges&lt;/LSTag&gt; to potentially &lt;LSTag Type="Status" Tooltip="INTIMIDATING_PRESENCE"&gt;Intimidate&lt;/LSTag&gt; them.</content>
 	<content contentuid="heb6e4d12g04eag4dbcgba42gc1bc6b56a945" version="4">If an enemy damages you, attempt to instil a dreadful feeling of &lt;LSTag Type="Status" Tooltip="INTIMIDATING_PRESENCE"&gt;Intimidation&lt;/LSTag&gt; within them.</content>
 
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf800005" version="1">Furious Criticals</content>
@@ -309,7 +329,7 @@
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf80000f" version="2">&lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt; no longer slows you down. While enraged, you benefit from the effects of &lt;LSTag Type="Status" Tooltip="WATER_WALK_BARBARIAN"&gt;Water Walk&lt;/LSTag&gt;.</content>
 
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf800007" version="1">Overwhelming Power</content>
-	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf80000g" version="2">When dealing damage to an enemy or item while enraged, you ignore all physical &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt;.</content>
+	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf80000g" version="2">When dealing damage to an enemy or item while enraged, you ignore all physical &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt;.</content>
 
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf800008" version="1">Peak Physicality</content>
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf80000h" version="2">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; based &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;. In addition, your Strength is increased by [1].</content>
@@ -325,7 +345,7 @@
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf80002k" version="2">Make an additional &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attack&lt;/LSTag&gt; using your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;.</content>
 
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf800012" version="1">Raging Vitality</content>
-	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf80000l" version="2">While enraged, recover +1d6 &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; per turn.</content>
+	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf80000l" version="2">While enraged, recover +1d12 &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; per turn.</content>
 
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf800013" version="1">Relentless Endurance</content>
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf80000m" version="2">Upon starting your turn while below half of your total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; you receive total damage &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; until the beginning of your next turn. This may occur once per combat encounter.</content>
@@ -336,7 +356,7 @@
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf80000n" version="2">Once per turn, landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; causes enemies within [1] of your target to potentially become &lt;LSTag Type="Status" Tooltip="INTIMIDATING_PRESENCE"&gt;Intimidated&lt;/LSTag&gt;. This effect can trigger once per turn.</content>
 
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf800015" version="1">Rooted in Anger</content>
-	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf80000o" version="2">At the beginning of any combat encounter, you enrage as a free action. At the end of any combat encounter, if still enraged, you regain one &lt;LSTag Type="ActionResource" Tooltip="Rage"&gt;Rage Charge&lt;/LSTag&gt;.</content>
+	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf80000o" version="2">At the beginning of any combat encounter, you enrage as a free action.</content>
 
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf800016" version="1">Tempered Retaliation</content>
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf80000p" version="2">While enraged, gain the ability to immediately retaliate upon taking damage, spending your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; to make an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against your aggressor.</content>

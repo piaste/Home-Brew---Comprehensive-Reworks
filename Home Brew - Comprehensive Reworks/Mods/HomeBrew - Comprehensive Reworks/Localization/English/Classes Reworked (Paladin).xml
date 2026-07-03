@@ -58,6 +58,14 @@
 	<content contentuid="he9150fbcg1b55g49aegaa3egc4717c966666" version="2">Shatter the mind of your target with necrotic wrath, afflicting them with &lt;LSTag Type="Status" Tooltip="SPITEFUL_SUFFERING_1"&gt;Spiteful Suffering&lt;/LSTag&gt;.</content>
 	<content contentuid="h5b946111g68b0g402dg8509g7e0582a72f04" version="1">Oathbroken Smite: Critical</content>
 
+	<content contentuid="fe6f4159abae42539029e284001enametyrant" version="3">Wrath of the Tyrant</content>
+	<content contentuid="fe6f4159abae42539029e284001d12detyrant" version="3">Gain &lt;LSTag Type="Spell" Tooltip="CTarget_Smite_Tyrant"&gt;Tyrannical Smite&lt;/LSTag&gt;.</content>
+	<content contentuid="h940c3156gad0fg4a92g8573gff26b04tyrant" version="1">Tyrannical Smite</content>
+	<content contentuid="he9150fbcg1b55g49aegaa3egc4717c9tyrant" version="2">Force your target to kneel and &lt;LSTag Type="Status" Tooltip="COMMAND_GROVEL"&gt;Grovel&lt;/LSTag&gt; beneath your feet. This action always rolls with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+	<content contentuid="h940c3156gad0fg4a92g8573gffreacttyrant" version="1">Tyrannical Smite</content>
+	<content contentuid="he9150fbcg1b55g49aegaa3egc4reacttyrant" version="2">Force your target to kneel and &lt;LSTag Type="Status" Tooltip="COMMAND_GROVEL"&gt;Grovel&lt;/LSTag&gt; beneath your feet.</content>
+	<content contentuid="h5b946111g68b0g402dg8509g7e0582atyrant" version="1">Tyrannical Smite: Critical</content>
+
 	<content contentuid="fe6f4159abae42539029e284001d12de00011" version="3">Blinding Smite</content>
 	<content contentuid="fe6f4159abae42539029e284001d12de0000k" version="3">Gain &lt;LSTag Type="Spell" Tooltip="CTarget_Smite_Blinding"&gt;Blinding Smite&lt;/LSTag&gt;.</content>
 	<content contentuid="h8a44e5a9g1396g471fgb4afgbb351beefb55" version="2">Blinding Smite</content>
@@ -129,7 +137,7 @@
 	<content contentuid="h0c6caa26gbea1g4841g8ad9g816bac6717c7" version="2">&lt;LSTag Type="Status" Tooltip="TURNED"&gt;Turn&lt;/LSTag&gt; nearby enemies, dealing damage to them in the process. They are forced to flee and cannot come close to you. Fey creatures take twice as much damage from this action.</content>
 
 	<content contentuid="h298b9a29g5657g4aa9gaad6gad3a8af6a851" loreTexts="true" version="1">Expansive Vow</content>
-	<content contentuid="hb2400634gf3e4g46f1gb93dg1330e4dasdf5" loreTexts="true" version="3">The range of your &lt;LSTag Type="Spell" Tooltip="Shout_HealingRadiance"&gt;Healing Radiance&lt;/LSTag&gt; is doubled. Additionally, &lt;LSTag Type="Spell" Tooltip="Target_NaturesWrath"&gt;Gilded Chains&lt;/LSTag&gt; may now select up to three targets.</content>
+	<content contentuid="hb2400634gf3e4g46f1gb93dg1330e4dasdf5" loreTexts="true" version="3">The range of your &lt;LSTag Type="Spell" Tooltip="Shout_HealingRadiance"&gt;Healing Radiance&lt;/LSTag&gt; is doubled. Additionally, &lt;LSTag Type="Spell" Tooltip="Target_NaturesWrath"&gt;Gilded Chains&lt;/LSTag&gt; may now target three creatures, rather than one.</content>
 
 	<content contentuid="hd8ffaca7g8aa7g4e02ga546g3592286387a8" loreTexts="true" version="2">Aura of Confidence</content>
 	<content contentuid="h3728832agb688g4081gad4eg7dcab2a79276" version="5">During combat, you emit an aura which grants both yourself and allies &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
@@ -173,9 +181,9 @@
 <content contentuid="hf8d923abg2aeeg446agac9dgbb27081000se" loreTexts="true" version="2">Affected creature is &lt;LSTag Type="Status" Tooltip="SEARING_SMITE"&gt;Searing&lt;/LSTag&gt; all enemies within [1] of them with &lt;i&gt;spellfire&lt;/i&gt; and causing their allies to receive the effects of &lt;LSTag Type="Status" Tooltip="WARDING_BOND"&gt;Warding Bond&lt;/LSTag&gt;.</content>
 
 <content contentuid="hf8d923abg2aeeg446agac9dgbb2708100006" loreTexts="true" version="2">Vessel of the Weave</content>
-<content contentuid="hf8d923abg2aeeg446agac9dgbb270810000f" loreTexts="true" version="2">The first time you are &lt;LSTag Type="Status" Tooltip="DOWNED"&gt;Downed&lt;/LSTag&gt; each &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;, you immediately recover all of your &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;, erupting in an uncontrollable surge of &lt;i&gt;spellfire&lt;/i&gt; and gaining &lt;LSTag Type="Status" Tooltip="SUNSCORCHED"&gt;Weave Infused&lt;/LSTag&gt; for three turns. When you recover from being Downed in this way, you retain your &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt; and &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;.</content>
+<content contentuid="hf8d923abg2aeeg446agac9dgbb270810000f" loreTexts="true" version="2">The first time you are &lt;LSTag Type="Status" Tooltip="DOWNED"&gt;Downed&lt;/LSTag&gt; in any combat encounter, you immediately recover all of your &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;, erupting in an uncontrollable surge of &lt;i&gt;spellfire&lt;/i&gt; and gaining &lt;LSTag Type="Status" Tooltip="SUNSCORCHED"&gt;Weave Infused&lt;/LSTag&gt; for three turns. When you recover from being Downed in this way, you retain your &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt; and &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;.</content>
 <content contentuid="hf8d923abg2aeeg446agac9dgbb27081000s6" loreTexts="true" version="2">Spent Conduit</content>
-<content contentuid="hf8d923abg2aeeg446agac9dgbb27081000sf" loreTexts="true" version="2">Affected creature must take a &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt; before they are able to self-revive again.</content>
+<content contentuid="hf8d923abg2aeeg446agac9dgbb27081000sf" loreTexts="true" version="2">Affected creature may self-revive again at the end of their next combat encounter.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">DEVOUT PARAGON</content>
 
@@ -196,7 +204,7 @@
 	<content contentuid="h35572396g0398g4fa5g9a19ga44db89fe53f" version="1">Affected weapon adds its wielders &lt;LSTag Tooltip="AbilityModifier"&gt;Charisma Modifier&lt;/LSTag&gt; to &lt;LSTag Tooltip="AbilityModifier"&gt;Attack Rolls&lt;/LSTag&gt;. It has become magical and emits radiant light across [1].</content>
 
 	<content contentuid="h298b9a29g5657g4aa9gaad6gasd2f1s2df15" version="1">Sacred Oath</content>
-	<content contentuid="hb2400634gf3e4g46f1gb93dgsd4f6s4df484" version="3">Select two additional targets when casting &lt;LSTag Type="Spell" Tooltip="Target_HolyRebuke"&gt;Holy Rebuke&lt;/LSTag&gt;. Additionally, dealing damage with your &lt;LSTag Type="Spell" Tooltip="Shout_SacredWeapon"&gt;Sacred Weapon&lt;/LSTag&gt; restores your &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;. The value restored is equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Charisma Modifier&lt;/LSTag&gt;.</content>
+	<content contentuid="hb2400634gf3e4g46f1gb93dgsd4f6s4df484" version="3">You may target two additional creatures when casting &lt;LSTag Type="Spell" Tooltip="Target_HolyRebuke"&gt;Holy Rebuke&lt;/LSTag&gt;. Additionally, dealing damage with your &lt;LSTag Type="Spell" Tooltip="Shout_SacredWeapon"&gt;Sacred Weapon&lt;/LSTag&gt; restores your &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;. The value restored is equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Charisma Modifier&lt;/LSTag&gt;.</content>
 
 	<content contentuid="hb27de5a4g2331g490cgbbd5g86200d758e5e" loreTexts="true" version="1">Turn the Wicked</content>
 	<content contentuid="h3961da1bg0e72g49a3gb0c0g2e5d38ac39ba" version="3">&lt;LSTag Type="Status" Tooltip="TURNED"&gt;Turn&lt;/LSTag&gt; nearby enemies, dealing damage to them in the process. They are forced to flee and cannot come close to you. Fiends take twice as much damage from this action.</content>
@@ -289,6 +297,40 @@
 
 	<content contentuid="h298b9a29g5657g4aa9gaad6gad3a8af1a141" version="1">Oathbreaker Supreme</content>
 	<content contentuid="hb2400634gf3e4g46f1gb93dg1330e4asd141" version="3">Afflicting a creature with &lt;LSTag Type="Status" Tooltip="SPITEFUL_SUFFERING_1"&gt;Spiteful Suffering&lt;/LSTag&gt; now &lt;LSTag Type="Status" Tooltip="FEARED"&gt;Terrifies&lt;/LSTag&gt; them for one turn.</content>
+
+<content contentuid="0000000000000000000000000000000000000" version="1">TYRANT</content>
+
+	<content contentuid="05ba80fa2f9c43a3b2da424d8e82080b00000" version="1">Tyrant</content>
+	<content contentuid="05ba80fa2f9c43a3b2da424d8e82080bzzzzz" version="1">Through fear, obedience is secured. Through absolute authority, the weak are broken and even the defiant learn their place.</content>
+
+	<content contentuid="acb55f4f68334da6s574wdf96s87fee200001" version="1">Tyrant's Judgement</content>
+	<content contentuid="acb55f4f68334da6s574wdf96s87fee20000a" version="3">When making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; or dealing damage to a creature benefitting from &lt;LSTag Type="Status" Tooltip="LOCKDOWN_CONDITION"&gt;Lockdown Immunity&lt;/LSTag&gt;, roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Once per turn, upon landing a killing blow on an enemy benefitting from Lockdown Immunity, restore one &lt;LSTag Type="ActionResource" Tooltip="WarPriestActionPoint"&gt;Crusader's Smite&lt;/LSTag&gt; charge.</content>
+	<content contentuid="acb55f4f68334da6s574wdf96s87fee2000z1" version="1">Commanding Grasp</content>
+	<content contentuid="acb55f4f68334da6s574wdf96s87fee2000za" version="3">Use the strength of your dominating will to command a hostile creature.</content>
+	<content contentuid="hfec496d6g4fd4g44f9g80f4ge01f6bbgrasp" version="2">Commanding Grasp: Approach</content>
+	<content contentuid="h864f6f10gdc36g46a7g8dc4gf58decagrasp" version="2">Commanding Grasp: Drop</content>
+	<content contentuid="ha3578590gf6f5g48d3gafe0g8753a56grasp" version="2">Commanding Grasp: Flee</content>
+	<content contentuid="h688e52f7g7c0cg4e72ga96fg0a5af0bgrasp" version="2">Commanding Grasp: Grovel</content>
+	<content contentuid="he94ac9a1g3bf8g4d3dg8665g15b7364grasp" version="2">Commanding Grasp: Halt</content>
+	<content contentuid="hbe9433acg21f7g450fg8e4dg52d76d7reign" version="1">Reign of Fear</content>
+	<content contentuid="hd646ac32g6ba7g4baagb3beg2ddef1areign" version="2">Impose your conquering will upon all nearby enemies, &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightening&lt;/LSTag&gt; them.</content>
+
+	<content contentuid="acb55f4f68334da6s574wdf96s87fee200002" version="1">Grovel Beneath Me</content>
+	<content contentuid="acb55f4f68334da6s574wdf96s87fee20000b" version="1">Once per turn, upon using your &lt;LSTag Type="Spell" Tooltip="CTarget_Smite_Tyrant"&gt;Tyrannical Smite&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt; enemies within [1] of you will potentially &lt;LSTag Type="Status" Tooltip="COMMAND_GROVEL"&gt;Grovel&lt;/LSTag&gt; for one turn.</content>
+
+	<content contentuid="acb55f4f68334da6s574wdf96s87fee200003" version="1">Turn the Defiant</content>
+	<content contentuid="acb55f4f68334da6s574wdf96s87fee20000c" version="1">&lt;LSTag Type="Status" Tooltip="TURNED"&gt;Turn&lt;/LSTag&gt; nearby enemies, dealing damage to them in the process. They are forced to flee and cannot come close to you. Creatures benefitting from &lt;LSTag Type="Status" Tooltip="LOCKDOWN_CONDITION"&gt;Lockdown Immunity &lt;/LSTag&gt; take twice as much damage from this action.</content>
+
+	<content contentuid="acb55f4f68334da6s574wdf96s87fee200004" version="1">Escalation of Fear</content>
+	<content contentuid="acb55f4f68334da6s574wdf96s87fee20000d" version="1">Dealing damage to a &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt; enemy will potentially cause them to become &lt;LSTag Type="Status" Tooltip="FEARED"&gt;Terrified&lt;/LSTag&gt; for one turn.</content>
+
+	<content contentuid="acb55f4f68334da6s574wdf96s87fee200005" version="1">Aura of the Conquerer</content>
+	<content contentuid="acb55f4f68334da6s574wdf96s87fee20000e" version="5">During combat, you emit an aura, &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightening&lt;/LSTag&gt; enemies within [1] of you.</content>
+	<content contentuid="acb55f4f68334da6s574wdf96s87fee2000z5" version="2">Aura of Protection</content>
+	<content contentuid="acb55f4f68334da6s574wdf96s87fee2000ze" version="4">Affected creature is emitting an aura, &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightening&lt;/LSTag&gt; enemies within [1] of them.</content>
+
+	<content contentuid="acb55f4f68334da6s574wdf96s87fee200006" version="1">Fist of the Tyrant</content>
+	<content contentuid="acb55f4f68334da6s574wdf96s87fee20000f" version="1">Once per turn, upon dealing damage to another creature with your &lt;LSTag Type="Spell" Tooltip="CTarget_Smite_Tyrant"&gt;Tyrannical Smite&lt;/LSTag&gt;, you conjure a massive Fist of Bane. Upon ending your turn, the fist will then fall, dealing immense damage to any creatures beneath it.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">PASSIVES</content>
 

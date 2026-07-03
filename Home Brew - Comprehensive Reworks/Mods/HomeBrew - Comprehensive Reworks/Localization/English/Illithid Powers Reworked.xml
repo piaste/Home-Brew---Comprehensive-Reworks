@@ -95,11 +95,11 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">PERILOUS STAKES</content>
 	<content contentuid="h97567157gea8eg43f4g942cgd98961fd7adb" version="2">Perilous Stakes</content>
-	<content contentuid="h443d376dg292ag4338g9fb4g8383b67db13b" version="3">Make a creature &lt;LSTag Tooltip="Vulnerable"&gt;Vulnerable&lt;/LSTag&gt; to all damage. If not killed before the status is resolved, the target will immediately restore all of their &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.</content>
+	<content contentuid="h443d376dg292ag4338g9fb4g8383b67db13b" version="3">Strip a creature of all &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; for three turns. In addition, they are immediately stripped of their &lt;LSTag Type="Status" Tooltip="LOCKDOWN_CONDITION"&gt;Lockdown Immunity&lt;/LSTag&gt;, if it is currently active.</content>
 	<content contentuid="h714ed70fg1c3dg4f80g8a54g776ff1697fcb" version="2">Perilous Stakes</content>
-	<content contentuid="hbb769d0dg2061g433fga434gd0f9792a2950" version="2">Affected creature is &lt;LSTag Tooltip="Vulnerable"&gt;Vulnerable&lt;/LSTag&gt; to all damage. If not killed before this status is resolved, the creature will immediately restore all of their &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.</content>
+	<content contentuid="hbb769d0dg2061g433fga434gd0f9792a2950" version="2">Affected creature has been stripped of all &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt;.</content>
 	<content contentuid="hd9f7c754g438bg4488gafcegeded1ce68a1d" version="1">Empowered Perilous Stakes</content>
-	<content contentuid="h80c4be40g2711g45b6g8ef5g73c4fb2e7293" version="7">Make a creature &lt;LSTag Tooltip="Vulnerable"&gt;Vulnerable&lt;/LSTag&gt; to all damage for a longer period of time. If not killed before the status is resolved, the target will immediately restore all of their &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.</content>
+	<content contentuid="h80c4be40g2711g45b6g8ef5g73c4fb2e7293" version="7">Strip a creature of all &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; for three turns.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">DISPLACER BEAST SHAPE</content>
 	<content contentuid="h97567157gea8eg43f4g942cgd9adsfasdf11" version="2">Hivemind</content>

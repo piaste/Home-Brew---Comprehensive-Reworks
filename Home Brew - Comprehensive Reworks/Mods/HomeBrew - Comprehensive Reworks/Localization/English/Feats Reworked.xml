@@ -112,11 +112,11 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">DUELLISTS INSTICT</content>
 
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa00020" version="2">Duellist's Instinct</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa0000t" version="4">While dual-wielding, gain the ability to make an off-hand attack as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;, and &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt; that you make will attack with both weapons.&lt;br&gt;&lt;br&gt;In addition, you gain three &lt;LSTag Type="ActionResource" Tooltip="DualWield"&gt;Duellist Charges&lt;/LSTag&gt;. These charges can be spent to gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, or to force enemies to attack you with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;. Once per turn, landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on an enemy will restore one charge.&lt;br&gt;&lt;br&gt;Furthermore, at any time you may add your global &lt;LSTag Tooltip="AbilityModifier"&gt;Strength Modifier&lt;/LSTag&gt; to weapon damage dealt while dual-wielding at the expense of making your weapon based Attack Rolls with Disadvantage. This may be toggled at any time.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa0000t" version="4">While dual-wielding, gain the ability to make an off-hand attack as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;, and &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt; that you make will attack with both weapons.&lt;br&gt;&lt;br&gt;In addition, you gain three &lt;LSTag Type="ActionResource" Tooltip="DualWield"&gt;Duellist Charges&lt;/LSTag&gt;. These charges can be spent to gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, or to force enemies to attack you with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;. Once per turn, landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on an enemy will restore one charge.&lt;br&gt;&lt;br&gt;Furthermore, you add your global &lt;LSTag Tooltip="AbilityModifier"&gt;Strength Modifier&lt;/LSTag&gt; to weapon damage dealt while dual-wielding.</content>
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa00a20" version="2">Duellist's Instinct</content>
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa00a0t" version="4">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, and force enemies to attack you with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Once per turn, the first time you deal or take damage will consume one &lt;LSTag Type="ActionResource" Tooltip="DualWield"&gt;Duellist Charge&lt;/LSTag&gt;. You may restore one Duellist Charge per turn by landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on an enemy.</content>
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa12354" version="2">Duellist's Assault</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aasdf68" version="4">Add your global &lt;LSTag Tooltip="AbilityModifier"&gt;Strength Modifier&lt;/LSTag&gt; to weapon damage dealt while dual-wielding at the expense of making your weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;. This may be toggled at any time.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aasdf68" version="4">Add your global &lt;LSTag Tooltip="AbilityModifier"&gt;Strength Modifier&lt;/LSTag&gt; to weapon damage dealt while dual-wielding.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">DUNESIS</content>
 
@@ -311,7 +311,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">ARCANE ECHOES</content>
 
 	<content contentuid="8a87461fd8dd4f5b9098ded714sdf68878d03" version="2">Arcane Echoes</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f60d1fd250c" version="3">Once per turn, gain between one and six &lt;LSTag Type="ActionResource" Tooltip="ArcaneEchoesPoint"&gt;Arcane Echo&lt;/LSTag&gt;. Arcane Echoes may be used to recover your &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slots&lt;/LSTag&gt;.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f60d1fd250c" version="3">Once per turn, gain between one and six &lt;LSTag Type="ActionResource" Tooltip="ArcaneEchoesPoint"&gt;Arcane Echoes&lt;/LSTag&gt;. Arcane Echoes may be used to recover your &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slots&lt;/LSTag&gt;.</content>
 	<content contentuid="212a895d77db42d6f3d5f8rbc4431d38000z0" version="1">Arcane Echoes</content>
 	<content contentuid="212a895d77db42d6f3d5f8rbc4431d38000zz" version="1">Utilized to recover &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slots&lt;/LSTag&gt; through &lt;LSTag Type="Spell" Tooltip="Shout_ArcaneEchoes"&gt;Arcane Echoes&lt;/LSTag&gt;.</content>
 	<content contentuid="212a895d77db42d6f3d5f8rbc4431d38000z1" version="6">Arcane Echoes</content>
@@ -332,12 +332,12 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">BLESSINGS OF THE MOON</content>
 
 	<content contentuid="8a87461fd8dd4f5b9098ded714sdf68878d04" version="2">Blessings of the Moon</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f60d1fd250d" version="3">Gain &lt;LSTag Type="Spell" Tooltip="CShout_MOO_Nightsong_RadiantConsumption"&gt;Blessing of Moonfire&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Projectile_MOO_Nightsong_GuidingBolt"&gt;Lunar Flare&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_MOO_Nightsong_SearingSmite"&gt;Lunar Strike&lt;/LSTag&gt;. In addition, dealing damage to an enemy restores 1d4 &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; to all nearby allies.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f60d1fd250d" version="3">Gain &lt;LSTag Type="Spell" Tooltip="CShout_MOO_Nightsong_RadiantConsumption"&gt;Blessing of Moonfire&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Projectile_MOO_Nightsong_GuidingBolt"&gt;Lunar Flare&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_MOO_Nightsong_SearingSmite"&gt;Lunar Strike&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;In addition, dealing damage to an enemy restores 1d4 &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; to all nearby allies. If dealing damage in an area of effect around yourself, the heal triggers from your position, rather than your targets.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">COMBAT MEDIC</content>
 
 	<content contentuid="8a87461fd8dd4f5b9098ded714sdf68878d05" version="2">Combat Medic</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f60d1fd250e" version="3">Upon &lt;LSTag Type="Spell" Tooltip="Target_Help"&gt;Helping&lt;/LSTag&gt; another creature, they regain additional &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; equal to the amount you currently have. In addition, you may Help creatures as a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;. This may be toggled at any time.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f60d1fd250e" version="3">Upon &lt;LSTag Type="Spell" Tooltip="Target_Help"&gt;Helping&lt;/LSTag&gt; another creature, they regain additional &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; equal to the amount you currently have.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">GALVANIZED STORMSOUL</content>
 
@@ -375,7 +375,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">VISAGE OF REFLECTION</content>
 
 	<content contentuid="8a87461fd8dd4f5b9098ded714sdf68878d11" version="2">Visage of Reflection</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f60d1fd250k" version="3">Upon receiving physical damage, your aggressor takes half of the damage you received as Force damage.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f60d1fd250k" version="3">Upon receiving physical damage, your aggressor also takes the damage you received as Force damage.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">YOKEBREAKER</content>
 
@@ -397,6 +397,9 @@
 	<content contentuid="be31014b-2a27-4970-b6d6-c95bde200004" version="1">Yokebreaker: Infused Arcsmith</content>
 	<content contentuid="be31014b-2a27-4970-b6d6-c95bde20000d" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_InfusedArcsmith"&gt;Infused Arcsmith Artificer&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
+	<content contentuid="1a9d3485-d1ed-4672-86e1-427bff9b0658" version="1">Yokebreaker: Striker</content>
+	<content contentuid="ad7d0046-12ae-4cb0-90c7-85df2ee3bc46" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Striker"&gt;Striker Artificer&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+
 
 
 	<content contentuid="47709b48-6124-44dc-8792-1ba94cb81915" loreTexts="true" version="1">Yokebreaker: Uthgardt Telhut</content>
@@ -411,9 +414,11 @@
 	<content contentuid="6db46327-0802-4cdd-9936-6277cba143d7" loreTexts="true" version="1">Yokebreaker: Kostchtchie's Aura</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df03" loreTexts="true" version="1">Gain the unlocks associated with levels 1 through 3 of &lt;LSTag Type="Status" Tooltip="StatusClassProgression_GiantsBlood"&gt;Kostchtchie's Aura&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
+	<content contentuid="994daae4-a665-4cce-8665-82206ff8cc3c" version="1">Yokebreaker: Rosemourn</content>
+	<content contentuid="1afcee40-36c8-4958-9954-9246647bb58d" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Rosemourn"&gt;Rosemourn Barbarian&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+
 	<content contentuid="dec3cc55-896b-4bde-9f1a-7981f452ce9b" loreTexts="true" version="1">Yokebreaker: Wild Weave's Thread</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df04" loreTexts="true" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_WildSoul"&gt;Wild Weave's Thread&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
-
 
 
 
@@ -425,6 +430,9 @@
 
 	<content contentuid="94c029af-fb65-4fbe-b723-613f9b0d233e" version="1">Yokebreaker: College of Moriendi</content>
 	<content contentuid="d5c9fabe-0777-4b6e-8ddf-d3670d678ccb" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Lore"&gt;College of Moriendi Bard&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+
+	<content contentuid="17b4e26e-6836-48c3-86f6-184a2b348426" version="1">Yokebreaker: College of Nostalgia</content>
+	<content contentuid="b340d652-5879-4a35-984e-50b92122f161" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Nostalgia"&gt;College of Nostalgia Bard&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
 	<content contentuid="3703a8f9-0db1-44ab-8766-4c5027e0a3ef" version="1">Yokebreaker: College of Steel</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df07" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Steel"&gt;College of Steel Bard&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
@@ -439,6 +447,9 @@
 
 	<content contentuid="d0c1e4ac-08cf-468b-ae1b-56e06840a278" version="1">Yokebreaker: Forge Domain</content>
 	<content contentuid="70c5110d-fb4d-4639-95ab-df472ba50a1e" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Forge"&gt;Forge Domain Cleric&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+
+	<content contentuid="30029def-0935-44c3-8f65-75663c750a16" version="1">Yokebreaker: Illusory Domain</content>
+	<content contentuid="06a478c5-848e-442f-94a1-0f0eaafd59f6" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Illusory"&gt;Illusory Domain Cleric&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
 	<content contentuid="462a81da-b40b-47a3-88da-303b2b548119" version="1">Yokebreaker: Life Domain</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df10" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Life"&gt;Life Domain Cleric&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
@@ -459,6 +470,9 @@
 
 	<content contentuid="9da16729-7582-4650-8eb2-d88abf644be2" version="1">Yokebreaker: Circle of the Moon</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df14" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Moon"&gt;Circle of the Moon Druid&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+
+	<content contentuid="2a397244-bb9b-4f9d-889c-8f3e9a348229" version="1">Yokebreaker: Circle of the Shadows</content>
+	<content contentuid="5754c5ba-d771-44e4-b2e6-3353740defc8" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_CircleoftheShadows"&gt;Circle of the Shadows Druid&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
 	<content contentuid="04be25f8-996d-4928-85c1-02dfa3ff73d9" version="1">Yokebreaker: Circle of the Spores</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df15" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Spores"&gt;Circle of the Spores Druid&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
@@ -483,6 +497,9 @@
 	<content contentuid="60a729fb-da09-413d-b69b-4cce00cf9c08" version="1">Yokebreaker: Weapon Master</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df20" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_FrontierKnight"&gt;Weapon Master&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
+	<content contentuid="806aa51a-dff0-41f5-be15-4b5121c75ebe" version="1">Yokebreaker: Palisade</content>
+	<content contentuid="be9fd4ad-1393-45b6-9a2f-d64ca488894e" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Palisade"&gt;Palisade Fighter&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+
 
 
 	<content contentuid="9280d9ee-964f-4d64-bed7-4f12394c4546" loreTexts="true" version="1">Yokebreaker: Shining Hand Training</content>
@@ -490,6 +507,9 @@
 
 	<content contentuid="a8334ef2-a1f9-48be-95aa-603dcf047827" loreTexts="true" version="1">Yokebreaker: Saint Dionysus Training</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df22" loreTexts="true" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_WayoftheDrunkenFist"&gt;Saint Dionysus Fist Monk&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+
+	<content contentuid="fb171ab4-8b71-4736-ac30-0214883122a5" version="1">Yokebreaker: Way of the Gentle Fist</content>
+	<content contentuid="fba6226b-fdab-4189-888f-ab0cacf97a15" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_WayoftheGentleFist"&gt;Way of the Gentle Fist Monk&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
 	<content contentuid="5af5fd0f-ef26-42ce-aeed-3c1c25507529" loreTexts="true" version="1">Yokebreaker: White Rod Training</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df23" loreTexts="true" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_WayoftheOpenHand"&gt;White Rod Monk&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
@@ -517,6 +537,9 @@
 	<content contentuid="c09b13fa-d82c-4b47-ad5a-6a5sd4fe2f41" version="1">Yokebreaker: Oathbreaker</content>
 	<content contentuid="47709b48-6124-44dc-8792-6a5sd42e6f8e" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Oathbreaker"&gt;Oathbreaker Paladin&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
+	<content contentuid="eb3922d2-0eec-43fb-99d5-884203c0af97" version="1">Yokebreaker: Tyrant</content>
+	<content contentuid="2e28011e-1a75-4ca2-b7eb-e9a5619e5c70" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Tyrant"&gt;Tyrant Paladin&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+
 	<content contentuid="e63cefa5-efd4-40d4-8dad-2430d3ba04ed" loreTexts="true" version="1">Yokebreaker: High Forest Trail</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df29" loreTexts="true" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Beastmaster"&gt;High Forest Trail&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
@@ -529,8 +552,12 @@
 	<content contentuid="1b0b93e3-5a59-435e-a438-f33c487c85a8" loreTexts="true" version="1">Yokebreaker: Neverwinter Wood Trail</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df32" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Swarmkeeper"&gt;Neverwinter Wood Trail&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
+	<content contentuid="5e8347bc-3658-427b-8ff4-38f44bfec08f" version="1">Yokebreaker: Mire Mist</content>
+	<content contentuid="3f1497d9-00f1-4c1d-83e6-c28de3f98d02" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_MireMist"&gt;Mire Mist Ranger&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+
 	<content contentuid="d2b32777-c2ee-46bf-8530-097243ac2ea6" loreTexts="true" version="1">Yokebreaker: Evermoors Trail</content>
 	<content contentuid="fcb64d7b-2826-4277-91a2-dd74a9ffda4d" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Twinfang"&gt;Evermoors Trail&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+
 
 
 	<content contentuid="0bfdc937-3a62-449d-8b3f-29812adf32a1" version="1">Yokebreaker: Arcane Trickster</content>
@@ -548,6 +575,9 @@
 	<content contentuid="dca9c5f8-868a-4cd0-bdca-fc6443a9117f" version="1">Yokebreaker: Thief</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df36" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Thief"&gt;Thief Rogue&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
+	<content contentuid="d6521329-2633-4ef7-9198-222173557313" version="1">Yokebreaker: Virulence</content>
+	<content contentuid="0c3e7fc1-1536-4540-88f6-370b34addd2e" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Virulence"&gt;Virulence Rogue&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+
 
 
 	<content contentuid="e4c32443-a174-4fd1-93d8-9f91148ffe30" version="1">Yokebreaker: Draconic Bloodline</content>
@@ -558,6 +588,9 @@
 
 	<content contentuid="bdb436c7-daf0-43d9-944f-4ddbf08befe0" version="1">Yokebreaker: Shade Walker</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df38" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_ShadeWalker"&gt;Shade Walker Sorcerer&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+
+	<content contentuid="502ca0fa-586c-4b22-a50e-3af8b8a24e34" version="1">Yokebreaker: Soul of the Frenzied Tundra</content>
+	<content contentuid="241d2854-851a-43d8-98f7-c3aa0a125c57" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_FrenziedTundra"&gt;Soul of the Frenzied Tundra Sorcerer&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
 	<content contentuid="ba6dd9aa-f5c4-4d65-ba06-b415e0f424d4" loreTexts="true" version="1">Yokebreaker: Volcanic Heart</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df39" loreTexts="true" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Volcanist"&gt;Volcanic Heart Sorcerer&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
@@ -579,6 +612,9 @@
 	<content contentuid="0df1b7d5-e045-4944-b1d7-2wse68se7ef5" version="1">Yokebreaker: Pact of the Primordial</content>
 	<content contentuid="47709b48-6124-44dc-8792-388we984ifif" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_PactofthePrimordialDemon"&gt;Pact of Primordial Demon Warlock&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
+	<content contentuid="b6546edd-2929-405e-90c0-a1a44494080b" version="1">Yokebreaker: Pact of Severance</content>
+	<content contentuid="24264a88-56f4-447c-acd2-d62ac0f148c9" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_PactofSeverance"&gt;Pact of Severance Warlock&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+
 	<content contentuid="47526eef-46d6-4976-948e-753f4790b427" version="1">Yokebreaker: Pact of the Tome</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df44" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_PactoftheTome"&gt;Pact of the Tome Warlock&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
@@ -589,6 +625,9 @@
 
 	<content contentuid="e32bb8fb-b52f-4e75-a2d5-f753713b32e6" loreTexts="true" version="1">Yokebreaker: Coronal Guards Tradition</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df46" loreTexts="true" version="1">Gain the unlocks associated with levels 1 through 3 of the &lt;LSTag Type="Status" Tooltip="StatusClassProgression_ArcaneWarden"&gt;Coronal Guards Tradition&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+
+	<content contentuid="303a48f2-f718-4893-b1da-7ce8b7e4b5d3" version="1">Yokebreaker: Elementalist</content>
+	<content contentuid="1d60447c-fbff-4a33-bfb3-9d661bfdab79" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Elementalist"&gt;Elementalist Wizard&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
 	<content contentuid="ae030679-dbd0-414d-ab31-36c9e39ca5c7" loreTexts="true" version="1">Yokebreaker: Cormyr War Wizards Tradition</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df47" loreTexts="true" version="1">Gain the unlocks associated with levels 1 through 3 of the &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Evoker"&gt;Cormyr War Wizards Tradition&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>

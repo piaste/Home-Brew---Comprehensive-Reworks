@@ -55,8 +55,8 @@
 
 	<content contentuid="h94981fe3g720cg4a5dga655g1191bf400001" version="1">The Approaching Storm</content>
 	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad90000a" version="1">Gain &lt;LSTag Type="Spell" Tooltip="Shout_SteelWindStorm"&gt;Steel-Wind Storm&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Projectile_SteelWindBeam"&gt;Steel-Wind Burst&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Projectile_SteelWindStrike"&gt;Steel-Wind Strike&lt;/LSTag&gt;.</content>
-	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad9zzzzz" version="1">This action utilizes a weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; while also functioning as a Spell.</content>
-	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad9yyyyy" version="1">This action utilizes a weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; while also functioning as a &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt;.</content>
+	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad9zzzzz" version="1">This action utilizes a weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; while also functioning as a Spell. If a Spell innately deals both physical and elemental damage, the physical damage cannot be increased.</content>
+	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad9yyyyy" version="1">This action utilizes a weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; while also functioning as a &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt;. If a Cantrip innately deals both physical and elemental damage, the physical damage cannot be increased.</content>
 
 	<content contentuid="h94981fe3g720cg4a5dga655g1191bf4000z1" version="1">Steel-Wind Storm</content>
 	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad9000za" version="1">Invoke the Arcane winds which guide you, granting a +1 bonus to your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; and &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
@@ -70,7 +70,7 @@
 	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad90zzza" version="1">Fire a beam of pure Arcane energy, carrying the properties of your blade toward a target of your choice.</content>
 
 	<content contentuid="h94981fe3g720cg4a5dga655g1191bf400004" loreTexts="true" version="1">Aegis of Assault</content>
-	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad90000d" version="1">Once per turn, upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, you may cast &lt;LSTag Type="Spell" Tooltip="Target_SteelWindStrike"&gt;Steel-Wind Strike&lt;/LSTag&gt; as a free action.</content>
+	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad90000d" version="1">Once per turn, upon landing a killing blow, you may cast &lt;LSTag Type="Spell" Tooltip="Target_SteelWindStrike"&gt;Steel-Wind Strike&lt;/LSTag&gt; as a free action.</content>
 	<content contentuid="h94981fe3g720cg4a5dga655g1191bf4000z4" loreTexts="true" version="1">Aegis of Assault</content>
 	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad9000zd" version="1">Affected creature may cast &lt;LSTag Type="Spell" Tooltip="Target_SteelWindStrike"&gt;Steel-Wind Strike&lt;/LSTag&gt; as a free action.</content>
 
@@ -103,6 +103,47 @@
 	<content contentuid="h7e7c99dagd015g43c3ga8f7gf322d5f46s89" version="2">Retaliatory Ward</content>
 	<content contentuid="hab452074g482eg41fbga327gd4s399dfjd33" version="2">Being damaged by a melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; deals Force damage to your aggressor equal to the amount of &lt;LSTag Type="Status" Tooltip="ARCANE_WARD"&gt;Arcane Ward&lt;/LSTag&gt; charges you have remaining.</content>
 
+<content contentuid="0000000000000000000000000000000000000" version="1">ELEMENTALIST</content>
+
+	<content contentuid="51a9b0aeb5c646d7a60393a2c39ff5ec00000" version="1">Elementalist</content>
+	<content contentuid="51a9b0aeb5c646d7a60393a2c39ff5eczzzzz" version="1">The elements answer your call as loyal companions. Whether flame, storm, stone, or tide, each serves as an extension of your arcane mastery.</content>
+
+	<content contentuid="51a9b0aeb5c646d7a60393a2c39ff5ec00001" version="1">Primal Bond</content>
+	<content contentuid="51a9b0aeb5c646d7a60393a2c39ff5ec0000a" version="1">Gain the ability to summon one of four &lt;LSTag Type="Spell" Tooltip="Target_SummonElementalContainer"&gt;Elementals&lt;/LSTag&gt;. Each Elemental scales with your level in Wizard.</content>
+	<content contentuid="he5dcbff7g0ca2g46ffgb2cdgcb7f29715ada" version="2">Conjure Elemental</content>
+	<content contentuid="h1b7cc2f8g18b3g4532gaeacg900ab90fb8e2" version="2">Bend the barrier between the Planes until they disgorge an elemental ally to follow and fight for you.</content>
+	<content contentuid="h5492f279g48bcg4389g875cg8f20255064b7" version="2">Conjure Elemental: Air</content>
+	<content contentuid="h0adad6dagc390g4460g926fga076481f4a17" version="7">Conjure an air elemental that can &lt;LSTag Type="Status" Tooltip="SHOCKED"&gt;Shock&lt;/LSTag&gt; your foes. The elemental grows in strength alongside you as you level as an Elementalist.</content>
+	<content contentuid="h46e29875g0cc2g4dfdgbe48g53c684017c60" version="2">Conjure Elemental: Earth</content>
+	<content contentuid="h693c9a37g938eg485cgbd7eg399f46fa4e50" version="11">Conjure an earth elemental that can create sludgy mud surfaces while walloping your foes. The elemental grows in strength alongside you as you level as an Elementalist.</content>
+	<content contentuid="h16e0960bg5758g478bga682g986ced8af811" version="2">Conjure Elemental: Fire</content>
+	<content contentuid="h4fb964c2gc61ag4371g913ag7804944b7236" version="7">Conjure a fire elemental that can make your foes &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burn&lt;/LSTag&gt;. The elemental grows in strength alongside you as you level as an Elementalist.</content>
+	<content contentuid="hce53144cgef89g4664g8a99gd61a7911eb7d" version="2">Conjure Elemental: Water</content>
+	<content contentuid="hfafe6326gba8ag4f0dg87ffg9d96c29b91d8" version="8">Conjure a water elemental that can mete out cold punishment upon your foes. The elemental grows in strength alongside you as you level as an Elementalist.</content>
+	<content contentuid="h99e91a28gd1cfg4a52ga069g0872099b22ee" version="2">Primordial Gale</content>
+	<content contentuid="h9e31d18eg4ac4g494fg815agb0df292cdbbc" version="6">Gales of crackling, stormy wind swirl around you, battering nearby creatures and &lt;LSTag Type="Status" Tooltip="SHOCKED"&gt;Shocking&lt;/LSTag&gt; them.</content>
+	<content contentuid="hf27103b5gb236g48f3ga86egd8da8db1431a" version="2">Seismic Strike</content>
+	<content contentuid="hec17c9dbgb32cg46b0gad56gb0c7dc21eb27" version="4">Bring down your arms like stone slabs, smashing nearby creatures, and potentially pushing them back [1] while knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
+	<content contentuid="51a9b0aeb5c646dsedf5e65f539ff5ec00001" version="1">Conjured Elemental</content>
+	<content contentuid="h6a2bf69fg45d1g432cg8e57g5f3ce777a77d" version="1">&lt;LSTag Type="Status" Tooltip="FROSTBITE"&gt;Frostbitten&lt;/LSTag&gt; targets take double damage.</content>
+	<content contentuid="he5ac56ebgebf3g4e73gbdf7g8129c98c51cb" version="2">Healing Vapour</content>
+	<content contentuid="h385e6616ge372g41c5g9c2egb9c23e59e3e0" version="2">Conjure a healing mist, restoring the &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; of an ally you can see.</content>
+
+	<content contentuid="51a9b0aeb5c646d7a60393a2c39ff5ec00002" version="1">Rend Elements</content>
+	<content contentuid="51a9b0aeb5c646d7a60393a2c39ff5ec0000b" version="1">Depending on which &lt;LSTag Type="Spell" Tooltip="Target_SummonElementalContainer"&gt;Elemental&lt;/LSTag&gt; you currently have summoned, you ignore &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt; of their respective damage type when targeting an enemy or item.</content>
+
+	<content contentuid="51a9b0aeb5c646d7a60393a2c39ff5ec00003" version="1">Channeled Infusion</content>
+	<content contentuid="51a9b0aeb5c646d7a60393a2c39ff5ec0000c" version="1">Depending on which &lt;LSTag Type="Spell" Tooltip="Target_SummonElementalContainer"&gt;Elemental&lt;/LSTag&gt; you currently have summoned, you deal an additional 1d4 damage of their respective type. This bonus does not apply to damage dealt with an off-hand weapon. In addition, each of your elementals have learned a new action.</content>
+
+	<content contentuid="51a9b0aeb5c646d7a60393a2c39ff5ec00004" version="1">Primordial Ward</content>
+	<content contentuid="51a9b0aeb5c646d7a60393a2c39ff5ec0000d" version="1">Depending on which &lt;LSTag Type="Spell" Tooltip="Target_SummonElementalContainer"&gt;Elemental&lt;/LSTag&gt; you currently have summoned, you gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to their respective type of damage.</content>
+
+	<content contentuid="51a9b0aeb5c646d7a60393a2c39ff5ec00005" version="1">Parallel Echo</content>
+	<content contentuid="51a9b0aeb5c646d7a60393a2c39ff5ec0000e" version="1">Depending on which &lt;LSTag Type="Spell" Tooltip="Target_SummonElementalContainer"&gt;Elemental&lt;/LSTag&gt; you currently have summoned, when taking damage of their respective type, you reflect it as Force damage back at your aggressor. In addition, each of your elementals have learned a new action.</content>
+
+	<content contentuid="51a9b0aeb5c646d7a60393a2c39ff5ec00006" version="1">Primal Convergence</content>
+	<content contentuid="51a9b0aeb5c646d7a60393a2c39ff5ec0000f" version="1">You may summon all four &lt;LSTag Type="Spell" Tooltip="Target_SummonElementalContainer"&gt;Elementals&lt;/LSTag&gt; at once.</content>
+
 <content contentuid="0000000000000000000000000000000000000" version="1">EVOKER</content>
 
 	<content contentuid="h727905b8g38bdg4c23gb9dcgdf7dce904ee9" loreTexts="true" version="1">Cormyr War Wizards Tradition</content>
@@ -118,10 +159,10 @@
 	<content contentuid="hcbb5a5cfg7df0g412cga4a4g3c6s6d50005a" version="6">Upon casting a Spell, restore one of your &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery&lt;/LSTag&gt; charges. A &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; must be consumed in order for this effect to trigger.</content>
 
 	<content contentuid="h9aee3403g58c0g4c53g8ca6g38914f4f8164" version="2">Evoke the Weave</content>
-	<content contentuid="hcbb5a5cfg7df0g412cga4a4g3c5b855d728f" version="4">You add your &lt;LSTag Tooltip="AbilityModifier"&gt;Intelligence Modifier&lt;/LSTag&gt; to the damage roll of the first Spell you cast each turn.</content>
+	<content contentuid="hcbb5a5cfg7df0g412cga4a4g3c5b855d728f" version="4">You add your &lt;LSTag Tooltip="AbilityModifier"&gt;Intelligence Modifier&lt;/LSTag&gt; to the Damage Rolls of all Spells you cast.</content>
 
 	<content contentuid="h9aee3403g58c0g4c53g8ca6g3891666d454d" version="2">Explosive Understanding</content>
-	<content contentuid="hcbb5a5cfg7df0g412cga4a4g3c5b22d5f978" version="4">Once per turn, when dealing damage with a Spell, all enemies within [1] of your target take Force damage equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Intelligence Modifier&lt;/LSTag&gt;.</content>
+	<content contentuid="hcbb5a5cfg7df0g412cga4a4g3c5b22d5f978" version="4">When dealing damage with a Spell, all enemies within [1] of your target take Force damage equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Intelligence Modifier&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h9aee3403g58c0g4c53g8ca6g3891622d564d" version="2">Scholar's Focus</content>
 	<content contentuid="hcbb5a5cfg7df0g412cga4a4g3c5b22ss9df7" version="4">The first Spell you cast each turn will not cost an &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt; or &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
@@ -136,7 +177,7 @@
 	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546zzzzzz" loreTexts="true" version="1">&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Yrix's Sieve Effects:&lt;br&gt;&lt;br&gt;Acid Stain:&lt;br&gt;&lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_ACID"&gt;Effect&lt;/LSTag&gt;&lt;br&gt;&lt;br&gt;Cold Stain:&lt;br&gt;&lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_COLD"&gt;Effect&lt;/LSTag&gt;&lt;br&gt;&lt;br&gt;Fire Stain:&lt;br&gt;&lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_FIRE"&gt;Effect&lt;/LSTag&gt;&lt;br&gt;&lt;br&gt;Force Stain:&lt;br&gt;&lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_FORCE"&gt;Effect&lt;/LSTag&gt;&lt;br&gt;&lt;br&gt;Lightning Stain:&lt;br&gt;&lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_LIGHTNING"&gt;Effect&lt;/LSTag&gt;&lt;br&gt;&lt;br&gt;Necrotic Stain:&lt;br&gt;&lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_NECROTIC"&gt;Effect&lt;/LSTag&gt;&lt;br&gt;&lt;br&gt;Poison Stain:&lt;br&gt;&lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_POISON"&gt;Effect&lt;/LSTag&gt;&lt;br&gt;&lt;br&gt;Psychic Stain:&lt;br&gt;&lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_PSYCHIC"&gt;Effect&lt;/LSTag&gt;&lt;br&gt;&lt;br&gt;Radiant Stain:&lt;br&gt;&lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_RADIANT"&gt;Effect&lt;/LSTag&gt;&lt;br&gt;&lt;br&gt;Thunder Stain:&lt;br&gt;&lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_THUNDER"&gt;Effect&lt;/LSTag&gt;</content>
 
 	<content contentuid="hc31dc575g4407g476as65d4f58es52fe1502" loreTexts="true" version="2">Scribani's Distillation</content>
-	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s5ef0b" version="2">Gain the ability to expend one charge of &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery&lt;/LSTag&gt; in order to generate an Elemental Stain of your choice for three turns. In addition, you may also expend one charge of your Arcane Recovery in order to either create an elemental surface, teleport to a location you can see, or swap places with an ally.</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s5ef0b" version="2">Gain the ability to expend one charge of &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery&lt;/LSTag&gt; in order to generate an Elemental Stain of your choice. In addition, you may create an elemental surface, teleport to a location you can see, or swap places with an ally as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
 	<content contentuid="hc31dc575g4407g476as65d4f58es52fe15z2" loreTexts="true" version="2">Scribani's Distillation</content>
 	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s5efzb" version="2">Generate an Elemental Stain of your choice for one turn.</content>
 	<content contentuid="hc31dc575g4407g476as65d4f58es52fe01z2" loreTexts="true" version="2">Scribani's Distillation: Acid</content>
@@ -160,19 +201,19 @@
 	<content contentuid="hc31dc575g4407g476as65d4f58es52fe10z2" loreTexts="true" version="2">Scribani's Distillation: Thunder</content>
 	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s50jzb" version="2">Generate a &lt;LSTag Type="Status" Tooltip="ELEMENTALSTAIN_THUNDER"&gt;Thunder Stain&lt;/LSTag&gt;.</content>
 
-	<content contentuid="h5fe29df0g88d9g4dfeg9b60g81fa93a2a315" loreTexts="true" version="2">Distilled Surface</content>
+	<content contentuid="h5fe29df0g88d9g4dfeg9b60g81fa93a2a315" loreTexts="true" version="2">Scribani's Accident</content>
 	<content contentuid="h5c1aa55eg7ec0g462cg922fgc9bdbf0pap54" version="2">Generate an elemental surface of your choice.</content>
-	<content contentuid="h5fe29df0g88d9g4dfeg9b60g81fa93a00001" loreTexts="true" version="2">Distilled Surface: Fire</content>
+	<content contentuid="h5fe29df0g88d9g4dfeg9b60g81fa93a00001" loreTexts="true" version="2">Scribani's Accident: Fire</content>
 	<content contentuid="h5c1aa55eg7ec0g462cg922fgc9bdbf00000a" version="2">Generate a fire surface at an area of your choosing.</content>
-	<content contentuid="h5fe29df0g88d9g4dfeg9b60g81fa93a00002" loreTexts="true" version="2">Distilled Surface: Ice</content>
+	<content contentuid="h5fe29df0g88d9g4dfeg9b60g81fa93a00002" loreTexts="true" version="2">Scribani's Accident: Ice</content>
 	<content contentuid="h5c1aa55eg7ec0g462cg922fgc9bdbf00000b" version="2">Generate an ice surface at an area of your choosing.</content>
-	<content contentuid="h5fe29df0g88d9g4dfeg9b60g81fa93a00003" loreTexts="true" version="2">Distilled Surface: Poison</content>
+	<content contentuid="h5fe29df0g88d9g4dfeg9b60g81fa93a00003" loreTexts="true" version="2">Scribani's Accident: Poison</content>
 	<content contentuid="h5c1aa55eg7ec0g462cg922fgc9bdbf00000c" version="2">Generate a poison surface at an area of your choosing.</content>
-	<content contentuid="h5fe29df0g88d9g4dfeg9b60g81fa93a00004" loreTexts="true" version="2">Distilled Surface: Water</content>
+	<content contentuid="h5fe29df0g88d9g4dfeg9b60g81fa93a00004" loreTexts="true" version="2">Scribani's Accident: Water</content>
 	<content contentuid="h5c1aa55eg7ec0g462cg922fgc9bdbf00000d" version="2">Generate a water surface at an area of your choosing.</content>
-	<content contentuid="h5fe29df0g88d9g4dfeg9b60g81fa93a00005" loreTexts="true" version="2">Distilled Surface: Water (Electrified)</content>
+	<content contentuid="h5fe29df0g88d9g4dfeg9b60g81fa93a00005" loreTexts="true" version="2">Scribani's Accident: Water (Electrified)</content>
 	<content contentuid="h5c1aa55eg7ec0g462cg922fgc9bdbf00000e" version="2">Generate an electrified water surface at an area of your choosing.</content>
-	<content contentuid="h5fe29df0g88d9g4dfeg9b60g81fa93a4b183" loreTexts="true" version="2">Ethereal Flux</content>
+	<content contentuid="h5fe29df0g88d9g4dfeg9b60g81fa93a4b183" loreTexts="true" version="2">Scribani's Escape</content>
 	<content contentuid="h5c1aa55eg7ec0g462cg922fgc9bdbf06ede2" version="2">Teleport to an area you can see, or swap places with an ally.</content>
 
 	<content contentuid="hc31dc575g4407g476as65d4f58es52fe1503" loreTexts="true" version="2">Heroicus's Containment</content>
@@ -208,7 +249,7 @@
 	<content contentuid="hc31dc575g4407g476as65d4f58es52010008" version="2">Psychic Stain</content>
 	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef54601000h" loreTexts="true" version="2">The next instance of damage you cause with either a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; will impose &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on your targets &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; until the end of their next turn.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; &lt;LSTag Type="Passive" Tooltip="ElementalConcierge"&gt;Yrix's Sieve&lt;/LSTag&gt; must be toggled on in order to utilize this effect.</content>
 	<content contentuid="hc31dc575g4407g476as65d4f58es52010009" version="2">Radiant Stain</content>
-	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef54601000i" loreTexts="true" version="2">The next time you target an ally with either a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; will heal that ally. The amount of &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; restored scales with your level.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; &lt;LSTag Type="Passive" Tooltip="ElementalConcierge"&gt;Yrix's Sieve&lt;/LSTag&gt; must be toggled on in order to utilize this effect.</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef54601000i" loreTexts="true" version="2">The next Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; you cast which targets an ally with will restore their &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;. The amount of Hit Points restored scales with your level.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; &lt;LSTag Type="Passive" Tooltip="ElementalConcierge"&gt;Yrix's Sieve&lt;/LSTag&gt; must be toggled on in order to utilize this effect.</content>
 	<content contentuid="hc31dc575g4407g476as65d4f58es52010010" version="2">Thunder Stain</content>
 	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef54601000j" loreTexts="true" version="2">The next instance of damage you cause with either a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; will render your target unable to speak, preventing them from casting Spells with a verbal components until the end of their next turn.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; &lt;LSTag Type="Passive" Tooltip="ElementalConcierge"&gt;Yrix's Sieve&lt;/LSTag&gt; must be toggled on in order to utilize this effect.</content>
 
@@ -254,13 +295,10 @@
 	<content contentuid="h882cb4d7g2c6ag47d3g998dgaca2f619e3e7" loreTexts="true" version="2">You studied magic with unscrupulous occultists, familiar with the dark arts of undeath taught in the secretive enclaves of the Red Wizards.</content>
 
 	<content contentuid="h89c2a75ag2f4fg4d83g9e66g81575b95f1c4" version="2">Necromantic Apprentice</content>
-	<content contentuid="h699f408ag3943g45bcga13cg10548238165a" version="2">Dealing damage to an enemy will permanently apply &lt;LSTag Type="Status" Tooltip="CRAWLING_GNAW_SWITCH"&gt;Crawling Gnaw&lt;/LSTag&gt; to your target..</content>
+	<content contentuid="h699f408ag3943g45bcga13cg10548238165a" version="2">Dealing damage to an enemy will permanently apply &lt;LSTag Type="Status" Tooltip="CRAWLING_GNAW_SWITCH"&gt;Crawling Gnaw&lt;/LSTag&gt; to your target. No effect when damaging Constructs, Elementals, Plants, Ooze, or Undead.</content>
 
 	<content contentuid="h2f479431gb8d1g41e5g890dg59ddd0becf9c" version="2">Lifedrinker</content>
 	<content contentuid="he6ee1384geb80g45fbg8d56gbf7262d63153" version="1">When you deal damage with a Spell, you recover &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; equal to half of the total damage dealt.</content>
-
-	<content contentuid="hcaab1c71g330cg4860g8ceeg443b4a5b3fd6" version="2">Apostle of the Risen Dead</content>
-	<content contentuid="h2ad29575gfd7cg4566g8445g7594ca37780e" version="1">All allied Undead within [1] gain a bonus to their &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and damage equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Intelligence Modifier&lt;/LSTag&gt; during combat.</content>
 
 	<content contentuid="h9aee3403g58c0g4c53g8ca6g380393800072" version="6">Preemptive Atrocity</content>
 	<content contentuid="hcbb5a5cfg7df0g412cga4a4g3c6s6d50007b" version="6">At the beginning of any combat encounter, you immediately summon a Death Shepherd. In addition, you gain the ability to &lt;LSTag Type="Spell" Tooltip="Target_BindUndead"&gt;Bind Undead&lt;/LSTag&gt; creatures.</content>
@@ -269,11 +307,14 @@
 	<content contentuid="h89c2a75ag2f4fg4d83g9e66g81575b9000z1" version="1">Bound Undead</content>
 	<content contentuid="h699f408ag3943g45bcga13cg1054823000za" version="1">Affected creature has been reanimated by a nearby Necromancer. Their soul is now bound to their new owner.</content>
 
-	<content contentuid="h9aee3403g58c0g4c53g8ca6g3803922d6f45" version="6">Dominion Over Death</content>
-	<content contentuid="hcbb5a5cfg7df0g412cga4a4g3c6s6ddd69f8" version="6">Your summoned Undead are immune to the effects of &lt;LSTag Type="Status" Tooltip="ZOMBIE_DECAY"&gt;Decay&lt;/LSTag&gt;.</content>
-
 	<content contentuid="h9aee3403g58c0g4c53g8ca6g380393800071" version="6">Raise Hell</content>
 	<content contentuid="hcbb5a5cfg7df0g412cga4a4g3c6s6d50007a" version="6">At the beginning of any combat encounter, all suitable corpses within [1] are raised as Undead.</content>
+
+	<content contentuid="hcaab1c71g330cg4860g8ceeg443b4a5b3fd6" version="2">Apostle of the Risen Dead</content>
+	<content contentuid="h2ad29575gfd7cg4566g8445g7594ca37780e" version="1">All allied Undead within [1] gain a bonus to their &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and damage equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Intelligence Modifier&lt;/LSTag&gt; during combat.</content>
+
+	<content contentuid="h9aee3403g58c0g4c53g8ca6g3803922d6f45" version="6">Dominion Over Death</content>
+	<content contentuid="hcbb5a5cfg7df0g412cga4a4g3c6s6ddd69f8" version="6">Your &lt;LSTag Type="Status" Tooltip="ZOMBIE_DECAY"&gt;Newborn Zombies&lt;/LSTag&gt; now last until the end of combat, rather than for three turns.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">SCHOLARLY ACUMEN</content>
 
@@ -312,6 +353,12 @@
 	<content contentuid="5a0a8be93f0843769764a34a3e0000000000j" version="6">Upon casting a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; belonging to the Illusion school, recover one charge of &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery&lt;/LSTag&gt;.</content>
 	<content contentuid="5a0a8be93f0843769764a34a3e00000000020" version="6">Scholarly Acumen: Necromancy</content>
 	<content contentuid="5a0a8be93f0843769764a34a3e0000000000k" version="6">Upon casting a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; belonging to the Necromancy school, recover one charge of &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery&lt;/LSTag&gt;.</content>
+
+	<content contentuid="5a0a8be93f0843769764a34a3e0fe63800002" version="6">Greater Acumen</content>
+	<content contentuid="5a0a8be93f0843769764a34a3e0fe6380000b" version="6">Completing your &lt;LSTag Type="Passive" Tooltip="Scholarly_Acumen"&gt;Scholarly Acumen&lt;/LSTag&gt; now recovers two charges of &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery&lt;/LSTag&gt;.</content>
+
+	<content contentuid="5a0a8be93f0843769764a34a3e0fe63800003" version="6">Superior Acumen</content>
+	<content contentuid="5a0a8be93f0843769764a34a3e0fe6380000c" version="6">Completing your &lt;LSTag Type="Passive" Tooltip="Scholarly_Acumen"&gt;Scholarly Acumen&lt;/LSTag&gt; now recovers three charges of &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery&lt;/LSTag&gt;.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">PASSIVES</content>
 

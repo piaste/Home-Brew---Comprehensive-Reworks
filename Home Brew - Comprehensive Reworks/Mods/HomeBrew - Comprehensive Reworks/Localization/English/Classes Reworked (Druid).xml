@@ -108,9 +108,9 @@
 	<content contentuid="35222cb96ba542f2bffc5d681a0331cf0000a" version="1">Summon a woodland Dryad. The Dryad grows in strength alongside you as you level within the Circle of the Land.</content>
 
 	<content contentuid="b84b364eea3d414a8c9b99e2be62857500001" version="1">Ensnaring Presence</content>
-	<content contentuid="b84b364eea3d414a8c9b99e2be6285750000a" version="1">Creatures that you damage must succeed a Strength based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or become &lt;LSTag Type="Status" Tooltip="ENSNARED_VINES"&gt;Entangled&lt;/LSTag&gt;.</content>
+	<content contentuid="b84b364eea3d414a8c9b99e2be6285750000a" version="1">Creatures that you damage must succeed a Strength based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or become &lt;LSTag Type="Status" Tooltip="ENSNARED_VINES"&gt;Entangled&lt;/LSTag&gt;. No effect on creatures that are Huge or larger.</content>
 	<content contentuid="b84b364eea3d414a8c9b99e2be628575000a1" version="1">Ensnaring Presence</content>
-	<content contentuid="b84b364eea3d414a8c9b99e2be628575000aa" version="1">Creatures that you damage must succeed a Strength based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or become &lt;LSTag Type="Status" Tooltip="ENSNARED_VINES"&gt;Entangled&lt;/LSTag&gt;.</content>
+	<content contentuid="b84b364eea3d414a8c9b99e2be628575000aa" version="1">Creatures that you damage must succeed a Strength based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or become &lt;LSTag Type="Status" Tooltip="ENSNARED_VINES"&gt;Entangled&lt;/LSTag&gt;. No effect on creatures that are Huge or larger.</content>
 
 	<content contentuid="b84b364eea3d414a8c9b99e2be62857500002" version="1">Nature's Grasp</content>
 	<content contentuid="b84b364eea3d414a8c9b99e2be6285750000b" version="1">Creatures affected by your &lt;LSTag Type="Passive" Tooltip="Ensnaring_Presence"&gt;Ensnaring Presence&lt;/LSTag&gt; suffer &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; when rolling against your &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;. Additionally, creatures that your &lt;LSTag Type="Spell" Tooltip="Target_ConjureDryad"&gt;Dryad&lt;/LSTag&gt; damages must succeed a Strength based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or become &lt;LSTag Type="Status" Tooltip="ENSNARED_VINES"&gt;Entangled&lt;/LSTag&gt;.</content>
@@ -165,11 +165,39 @@
 	<content contentuid="h6462906fg8352g4e58g9bc1g232e8fdaf5ab" version="1">Once per turn, while assuming the form of a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt; and after having made an unarmed or weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; with your main hand, you may make two additional attacks for free.</content>
 
 	<content contentuid="h580791fcg0d77g485bg8f6eg4a9w6a5sdf82" version="2">Lunar Shift</content>
-	<content contentuid="hab01f6f3gbe5ag482ag9399g6asdf4sd5e98" version="1">Upon casting a Spell, you may assume the form of a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt; as a free action. Upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; while assuming the form of a Wildshape, you may cast one Spell without expending a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;.</content>
+	<content contentuid="hab01f6f3gbe5ag482ag9399g6asdf4sd5e98" version="1">Upon casting a Spell, you may assume the form of a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt; without expending a &lt;LSTag Type="ActionResource" Tooltip="WildShape"&gt;Wildshape Charge&lt;/LSTag&gt;. Upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; while assuming the form of a Wildshape, you may cast one Spell without expending a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;.</content>
 	<content contentuid="h580791fcg0d77g485bg8f6eg4a9w6a5sdf83" version="2">Lunar Shift - Spellbound</content>
 	<content contentuid="hab01f6f3gbe5ag482ag9399g6asdf4sd5e99" version="1">Affected creature may cast one Spell without expending a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;.</content>
 	<content contentuid="h580791fcg0d77g485bg8f6eg4a9w6a5sdf85" version="2">Lunar Shift - Wildbound</content>
-	<content contentuid="hab01f6f3gbe5ag482ag9399g6asdf4sd5e97" version="1">Affected creature may assume the form of a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt; as a free action.</content>
+	<content contentuid="hab01f6f3gbe5ag482ag9399g6asdf4sd5e97" version="1">Affected creature may assume the form of a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt; without expending a &lt;LSTag Type="ActionResource" Tooltip="WildShape"&gt;Wildshape Charge&lt;/LSTag&gt;.</content>
+
+<content contentuid="0000000000000000000000000000000000000" version="1">CIRCLE OF THE SHADOWS</content>
+
+	<content contentuid="5126c10823d3434e8286ee66c19e569800000" version="2">Circle of the Shadows</content>
+	<content contentuid="5126c10823d3434e8286ee66c19e5698zzzzz" version="2">Death is the most natural occurance within nature. From within the shadows, you observe this fact in the truest of form, and guide others to a more intimate understanding.</content>
+
+	<content contentuid="5126c10823d3434e8286ee66c19e569800001" version="2">Displaced Nature</content>
+	<content contentuid="5126c10823d3434e8286ee66c19e56980000a" version="2">Gain the ability to shift into a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape_DisplacerBeast"&gt;Displacer Beast&lt;/LSTag&gt; at will. In addition, you gain the ability to see in magical darkness out to a range of [1].</content>
+	<content contentuid="5126c10823d3434e8286ee66c19e5698000z1" version="1">Wildshape: Displacer Beast</content>
+	<content contentuid="5126c10823d3434e8286ee66c19e5698000za" version="8">Assume the shape of a Displacer Beast, capable of both driving your targets to &lt;LSTag Type="Status" Tooltip="MADNESS"&gt;Madness&lt;/LSTag&gt; and creating &lt;LSTag Type="Spell" Tooltip="Target_CreateIllusion_DisplacerBeast"&gt;Illusory Copies&lt;/LSTag&gt; of yourself.</content>
+	<content contentuid="5126c10823d3434e8286ee66c19e569800zz1" version="1">Displacer Beast</content>
+
+	<content contentuid="5126c10823d3434e8286ee66c19e569800002" version="2">Veilstalker</content>
+	<content contentuid="5126c10823d3434e8286ee66c19e56980000b" version="2">While obscured, you deal additional Psychic damage and recover &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; at the start of each of your turns, equal to your levels in Druid. This bonus does not apply to damage dealt with an off-hand weapon.</content>
+
+	<content contentuid="5126c10823d3434e8286ee66c19e569800003" version="2">Predatory Communion</content>
+	<content contentuid="5126c10823d3434e8286ee66c19e56980000c" version="2">Gain the ability to morph your allies into &lt;LSTag Type="Spell" Tooltip="Shout_WildShape_DisplacerBeast"&gt;Displacer Beasts&lt;/LSTag&gt;.</content>
+	<content contentuid="5126c10823d3434e8286ee66c19e5698000z3" version="2">Predatory Communion</content>
+	<content contentuid="5126c10823d3434e8286ee66c19e5698000zc" version="2">Forcibly morph an ally into a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape_DisplacerBeast"&gt;Displacer Beast&lt;/LSTag&gt;.</content>
+
+	<content contentuid="5126c10823d3434e8286ee66c19e569800004" version="2">Distorted Visage</content>
+	<content contentuid="5126c10823d3434e8286ee66c19e56980000d" version="2">You are permanently considered to be &lt;LSTag Type="Status" Tooltip="SNEAKING_HEAVILY_OBSCURED"&gt;Heavily Obscured&lt;/LSTag&gt; to any creature further than [1] from you.</content>
+
+	<content contentuid="5126c10823d3434e8286ee66c19e569800005" version="2">Nightspill</content>
+	<content contentuid="5126c10823d3434e8286ee66c19e56980000e" version="2">Upon moving in combat, you leave behind a cloud of magical Darkness. This can be toggled at any time.</content>
+
+	<content contentuid="5126c10823d3434e8286ee66c19e569800006" version="2">Hallucinatory Horror</content>
+	<content contentuid="5126c10823d3434e8286ee66c19e56980000f" version="2">Upon driving a creature to &lt;LSTag Type="Status" Tooltip="MADNESS"&gt;Madness&lt;/LSTag&gt;, they become &lt;LSTag Tooltip="Vulnerable"&gt;Vulnerable&lt;/LSTag&gt; to Psychic damage.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">CIRCLE OF THE SPORES</content>
 

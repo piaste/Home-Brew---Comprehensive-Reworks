@@ -129,7 +129,7 @@
 	<content contentuid="h380fd620g031cg4b8bg9e8cgf7cee590000a" version="1">You are immune to the negative effects of being &lt;LSTag Type="Status" Tooltip="DRUNK"&gt;Inebriated&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="TIPSY"&gt;Tipsy&lt;/LSTag&gt;, and all positive effects are doubled. Upon consuming alcohol, you recover one &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Point&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h3beda6c5g0a7bg4b59g8451g60811c200002" version="1">Leaf Hurricane</content>
-	<content contentuid="h380fd620g031cg4b8bg9e8cgf7cee590000b" version="1">Upon drinking alcohol, you immediately &lt;LSTag Type="Spell" Tooltip="Shout_Dash"&gt;Dash&lt;/LSTag&gt;. While &lt;LSTag Type="Status" Tooltip="DRUNK"&gt;Inebriated&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="TIPSY"&gt;Tipsy&lt;/LSTag&gt;, you will not provoke &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt;.</content>
+	<content contentuid="h380fd620g031cg4b8bg9e8cgf7cee590000b" version="1">Upon drinking alcohol, you immediately &lt;LSTag Type="Spell" Tooltip="Shout_Dash"&gt;Dash&lt;/LSTag&gt;. While &lt;LSTag Type="Status" Tooltip="DRUNK"&gt;Inebriated&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="TIPSY"&gt;Tipsy&lt;/LSTag&gt;, you will not provoke &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt;, and all damage you deal is rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h3beda6c5g0a7bg4b59g8451g60811c200003" version="1">Contact Buzz</content>
 	<content contentuid="h380fd620g031cg4b8bg9e8cgf7cee590000c" version="1">Dealing damage causes your target to become &lt;LSTag Type="Status" Tooltip="DRUNK"&gt;Inebriated&lt;/LSTag&gt; for three turns.</content>
@@ -141,9 +141,9 @@
 	<content contentuid="h380fd620g031cg4b8bg9e8cgf7cee590000e" version="1">While &lt;LSTag Type="Status" Tooltip="DRUNK"&gt;Inebriated&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="TIPSY"&gt;Tipsy&lt;/LSTag&gt;, all enemies make &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against you with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h3beda6c5g0a7bg4b59g8451g60811c200006" version="1">Eighth Gate of Saké</content>
-	<content contentuid="h380fd620g031cg4b8bg9e8cgf7cee590000f" version="1">Upon taking damage by a melee attack while &lt;LSTag Type="Status" Tooltip="DRUNK"&gt;Inebriated&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="TIPSY"&gt;Tipsy&lt;/LSTag&gt;, you immediately fall &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;. Enemies have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; when targeting you while Prone, and standing up requires no &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt;. Upon standing back up, your next instance of damage will always roll as a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
+	<content contentuid="h380fd620g031cg4b8bg9e8cgf7cee590000f" version="1">Upon taking damage by a melee attack while &lt;LSTag Type="Status" Tooltip="DRUNK"&gt;Inebriated&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="TIPSY"&gt;Tipsy&lt;/LSTag&gt;, you immediately fall &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;. Enemies have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; when targeting you while Prone, and standing up requires no &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt;. Upon standing back up, all damage you deal will always roll as a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; for the rest of your turn.</content>
 	<content contentuid="h3beda6c5g0a7bg4b59g8451g60811c2000z6" version="1">Eighth Gate of Saké</content>
-	<content contentuid="h380fd620g031cg4b8bg9e8cgf7cee59000zf" version="1">Affected creature will roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on their next instance of damage.</content>
+	<content contentuid="h380fd620g031cg4b8bg9e8cgf7cee59000zf" version="1">Affected creature will roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; when dealing damage.</content>
 
 	<content contentuid="h3beda6c5g0a7bg4b59g8451g6as5d4f00001" version="1">Flurry of Blows: Intoxicating</content>
 	<content contentuid="h3beda6c5g0a7bg4b59g8451g6as5d4f0000a" version="1">While &lt;LSTag Type="Status" Tooltip="DRUNK"&gt;Inebriated&lt;/LSTag&gt;, deliver two hits in rapid succession. If your target is Inebriated, this action will potentially knock them &lt;LSTag Type="Status" Tooltip="UNCONSCIOUS"&gt;Unconscious&lt;/LSTag&gt; for one turn, removing the condition.</content>
@@ -153,6 +153,31 @@
 
 	<content contentuid="h3beda6c5g0a7bg4b59g8451g6as5d4f00003" version="1">Breath of the Brewery</content>
 	<content contentuid="h3beda6c5g0a7bg4b59g8451g6as5d4f0000c" version="1">While &lt;LSTag Type="Status" Tooltip="DRUNK"&gt;Inebriated&lt;/LSTag&gt;, belch a breathtakingly pungent scent so debilitating that it may rob those affected of their senses, driving them &lt;LSTag Type="Status" Tooltip="MADNESS"&gt;Mad&lt;/LSTag&gt;.</content>
+
+<content contentuid="0000000000000000000000000000000000000" version="1">WAY OF THE GENTLE FIST</content>
+
+	<content contentuid="acb55f4f68334d90acd68f5f37353d0b00000" version="1">Way of the Gentle Fist</content>
+	<content contentuid="acb55f4f68334d90acd68f5f37353d0bzzzzz" version="1">Through harmony, your guiding hands provide relief. Through practiced inner peace, those around you are blessed with a calming sense of solidarity.</content>
+
+	<content contentuid="acb55f4f68334d90acd68f5f37353d0b00001" version="1">Serenity</content>
+	<content contentuid="acb55f4f68334d90acd68f5f37353d0b0000a" version="1">You are considered to be a preferred target. Each turn, you heal for an amount equal to your unarmed dice. This can be toggled at any time.</content>
+
+	<content contentuid="acb55f4f68334d90acd68f5f37353d0b00002" version="1">Mending Blows</content>
+	<content contentuid="acb55f4f68334d90acd68f5f37353d0b0000b" version="1">Dealing damage to an enemy heals all allies within [1] for an amount equal to your unarmed dice.</content>
+
+	<content contentuid="acb55f4f68334d90acd68f5f37353d0b00003" version="1">Fists of Equilibrium</content>
+	<content contentuid="acb55f4f68334d90acd68f5f37353d0b0000c" version="1">Healing an ally &lt;LSTag Type="Status" Tooltip="CALM_EMOTIONS"&gt;Calms&lt;/LSTag&gt; them. No effect on enraged allies.</content>
+
+	<content contentuid="acb55f4f68334d90acd68f5f37353d0b00004" version="1">Merciful Counter</content>
+	<content contentuid="acb55f4f68334d90acd68f5f37353d0b0000d" version="1">When an ally within [1] of you is damaged while above half of their total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;, you may heal them for an amount equal to your unarmed dice as a free &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;.</content>
+	<content contentuid="acb55f4f68334d90acd68f5f37353d0b000z4" version="1">Merciful Counter</content>
+	<content contentuid="acb55f4f68334d90acd68f5f37353d0b000zd" version="1">When an ally within [1] of you is damaged while above half of their total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;, heal them for an amount equal to your unarmed dice.</content>
+
+	<content contentuid="acb55f4f68334d90acd68f5f37353d0b00005" version="1">Cleansing Guidance</content>
+	<content contentuid="acb55f4f68334d90acd68f5f37353d0b0000e" version="1">Healing an ally provides both &lt;LSTag Type="Spell" Tooltip="Target_LesserRestoration"&gt;Latent Restoration&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_GreaterRestoration"&gt;Great Cleanse&lt;/LSTag&gt;.</content>
+
+	<content contentuid="acb55f4f68334d90acd68f5f37353d0b00006" version="1">Flow of Compassion</content>
+	<content contentuid="acb55f4f68334d90acd68f5f37353d0b0000f" version="1">When dodging an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, you restore &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; to yourself and all allies within [1] equal to your unarmed dice.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">WAY OF THE OPEN HAND</content>
 
@@ -257,7 +282,7 @@
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650503zz1" loreTexts="true" version="2">Refined Daito</content>
 
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500az1" version="2">Tempered Edge</content>
-	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500aza" version="5">Dealing damage with this weapon afflicts your target with both &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleeding&lt;/LSTag&gt; and with &lt;LSTag Type="Status" Tooltip="GAPING_WOUND"&gt;Gaping Wounds&lt;/LSTag&gt; for three turns.</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500aza" version="5">Dealing damage with this weapon afflicts your target with one stack of both &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleeding&lt;/LSTag&gt; and with &lt;LSTag Type="Status" Tooltip="GAPING_WOUND"&gt;Gaping Wounds&lt;/LSTag&gt;.</content>
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500bz1" version="2">Serrated Split</content>
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500bza" version="5">Applying &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleed&lt;/LSTag&gt; to a creature with this weapon causes them to take the Bleed damage when both starting and ending their turn.</content>
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500cz1" version="2">Motivated Edge</content>
@@ -274,7 +299,7 @@
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000b" version="1">When dealing damage to an enemy with a weapon, you add your base unarmed damage to the damage dealt.</content>
 
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500003" version="1">Macabre Patience</content>
-	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000c" version="1">&lt;LSTag Type="Spell" Tooltip="Target_JudgementCut"&gt;Judgement Cut&lt;/LSTag&gt; now targets creatures within [1] of your original target. In addition, &lt;LSTag Type="Spell" Tooltip="Target_MirageBlade"&gt;Mirage Blade&lt;/LSTag&gt; is now capable of targeting an additional creature. Finally, when dealing damage to an enemy with &lt;LSTag Type="Spell" Tooltip="Target_TemperedStrike"&gt;Tempered Strike&lt;/LSTag&gt;, you roll your damage with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000c" version="1">&lt;LSTag Type="Spell" Tooltip="Target_JudgementCut"&gt;Judgement Cut&lt;/LSTag&gt; now targets creatures within [1] of your original target. In addition, &lt;LSTag Type="Spell" Tooltip="Target_MirageBlade"&gt;Mirage Blade&lt;/LSTag&gt; is now capable of targeting two creatures, rather than one. Finally, when dealing damage to an enemy with &lt;LSTag Type="Spell" Tooltip="Target_TemperedStrike"&gt;Tempered Strike&lt;/LSTag&gt;, you roll your damage with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
 
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500004" version="1">Unanswered Angle</content>
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000d" version="1">When dealing damage to an enemy or item with a weapon, you ignore all physical &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt;.</content>
@@ -283,7 +308,7 @@
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000e" version="1">Ending your turn without moving will restore one &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Point&lt;/LSTag&gt;.</content>
 
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500006" loreTexts="true" version="1">Strike of the Daito</content>
-	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000f" version="1">&lt;LSTag Type="Spell" Tooltip="Target_JudgementCut"&gt;Judgement Cut&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_MirageBlade"&gt;Mirage Blade&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_TemperedStrike"&gt;Tempered Strike&lt;/LSTag&gt; will always trigger a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000f" version="1">When targeting a creature with all of their &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_JudgementCut"&gt;Judgement Cut&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_MirageBlade"&gt;Mirage Blade&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_TemperedStrike"&gt;Tempered Strike&lt;/LSTag&gt; will always trigger a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">PASSIVES</content>
 
@@ -370,8 +395,8 @@
 	<content contentuid="h1edbc190gdde8g4b3bgbfa6g294167324391" version="8">Double your &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Shout_Disengage"&gt;Disengage&lt;/LSTag&gt;.</content>
 
 	<content contentuid="4512454c8e254628bd4dc62ea243a2a000020" version="6">Zen Recovery</content>
-	<content contentuid="4512454c8e254628bd4dc62ea243a2a00000t" version="6">Upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, you may expend your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; in order to restore your &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; if you do not currently have one available.</content>
+	<content contentuid="4512454c8e254628bd4dc62ea243a2a00000t" version="6">Upon landing a killing blow, you may expend your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; in order to restore your &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; if you do not currently have one available.</content>
 	<content contentuid="4512454c8e254628bd4dc62ea243a2a000z20" version="6">Zen Recovery</content>
-	<content contentuid="4512454c8e254628bd4dc62ea243a2a0000zt" version="6">Upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, restore your &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; if you do not currently have one available.</content>
+	<content contentuid="4512454c8e254628bd4dc62ea243a2a0000zt" version="6">Upon landing a killing blow, restore your &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; if you do not currently have one available.</content>
 
 </contentList>

@@ -61,6 +61,9 @@
 	<content contentuid="h17df6462g1bf8g454dg87aeg3d80fs5d5e6f" version="1">Curse of Moriendi</content>
 	<content contentuid="h79198be7g46c4g4c7bgb6aegb16s8e5f8e54" version="1">Affected creature is forced to dance for all eternity. Creatures within [1] of them will become &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt; for one turn.</content>
 
+	<content contentuid="hc9735187g68cag427ag8ff9d8f8dff800008" version="1">Climax</content>
+	<content contentuid="h843e9f50g1485g4d5dgb338f8df33d90000h" version="2">End your performance in climactic triumph! Deal Thunder damage to all enemies within [1].</content>
+
 	<content contentuid="hc9735187g68cag427ag8ff9d8f8dff800007" version="1">Climax</content>
 	<content contentuid="h843e9f50g1485g4d5dgb338f8df33d90000g" version="2">End your performance in climactic triumph! Provide your &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt; to all allies within [1].</content>
 
@@ -166,7 +169,31 @@ Moriendi</content>
 	<content contentuid="h279a572b5d5e5f6e8f5e3g62e52f2e5f000e" version="1">All Necromancy based Spells and &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt; make both their &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and Damage Rolls with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;</content>
 
 	<content contentuid="h279a572b5d5e5f6e8f5e3g62e52f2e5f0006" version="1">Ars Moriendi</content>
-	<content contentuid="h279a572b5d5e5f6e8f5e3g62e52f2e5f000f" version="1">All Necromancy based Spells and &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt; may target an additional creature.</content>
+	<content contentuid="h279a572b5d5e5f6e8f5e3g62e52f2e5f000f" version="1">All Necromancy based Spells and &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt; may target two creatures, rather than one.</content>
+
+<content contentuid="0000000000000000000000000000000000000" version="1">COLLEGE OF NOSTALGIA</content>
+
+	<content contentuid="e334c34320a546bea6b4e7636363749b00000" version="1">College of 
+Nostalgia</content>
+	<content contentuid="e334c34320a546bea6b4e7636363749bzzzzz" version="1">Within music lies the beating heart of nostalgia. And within that nostalgia, power is cultivated through a lifetime of experience. You manifest that experience in displays of raw intensity that only music can convey.</content>
+
+	<content contentuid="e334c34320a546bea6b4e7636363749b00001" version="1">The Sufferer and the Witness</content>
+	<content contentuid="e334c34320a546bea6b4e7636363749b0000a" version="1">When you deal damage to an enemy, you deal additional [1]. This bonus does not apply to damage dealt with an off-hand weapon.&lt;br&gt;&lt;br&gt;Upon reaching a state of &lt;LSTag Type="Status" Tooltip="PERFORMATIVE_CHORUS"&gt;Performative Chorus&lt;/LSTag&gt;, you may deal [2] to all enemies within [3], potentially &lt;LSTag Type="Status" Tooltip="MAG_THUNDER_REVERBERATION"&gt;Reverberating&lt;/LSTag&gt; them.</content>
+
+	<content contentuid="e334c34320a546bea6b4e7636363749b00002" version="1">Lateralus</content>
+	<content contentuid="e334c34320a546bea6b4e7636363749b0000b" version="1">When dealing Thunder damage, you inflict one stack of &lt;LSTag Type="Status" Tooltip="MAG_THUNDER_REVERBERATION"&gt;Reverberation&lt;/LSTag&gt;.</content>
+
+	<content contentuid="e334c34320a546bea6b4e7636363749b00003" version="1">Meteora</content>
+	<content contentuid="e334c34320a546bea6b4e7636363749b0000c" version="1">You ignore all Thunder based &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt;.</content>
+
+	<content contentuid="e334c34320a546bea6b4e7636363749b00004" version="1">The Paramoure Sessions</content>
+	<content contentuid="e334c34320a546bea6b4e7636363749b0000d" version="1">Upon knocking an enemy &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;, all creatures within [1] of your target take an additional [2].</content>
+
+	<content contentuid="e334c34320a546bea6b4e7636363749b00005" version="1">Fallen</content>
+	<content contentuid="e334c34320a546bea6b4e7636363749b0000e" version="1">Upon knocking an enemy &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;, all allies within [1] of your target receive the effects of your &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt;.</content>
+
+	<content contentuid="e334c34320a546bea6b4e7636363749b00006" version="1">The Black Parade</content>
+	<content contentuid="e334c34320a546bea6b4e7636363749b0000f" version="1">Upon dealing Thunder damage, you potentially &lt;LSTag Type="Status" Tooltip="LURING_SONG"&gt;Lure&lt;/LSTag&gt; your target for one turn.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">COLLEGE OF STEEL</content>
 
@@ -216,7 +243,7 @@ Steel</content>
 	<content contentuid="439cb1c55ce44da8b8f3as5d6f4545840000a" version="3">While &lt;LSTag Type="Spell" Tooltip="Shout_Bard_Perform_Whistle"&gt;Performing&lt;/LSTag&gt; in combat, weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and Damage Rolls are rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
 
 	<content contentuid="439cb1c55ce44da8b8f3c8eurwueffd500002" version="1">Climactic Strikes</content>
-	<content contentuid="439cb1c55ce44da8b8f3c9a8sdf9u9f50000b" version="3">Once per turn while &lt;LSTag Type="Spell" Tooltip="Shout_Bard_Perform_Whistle"&gt;Performing&lt;/LSTag&gt; in combat, landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; with a weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; will immediately put you into a state of &lt;LSTag Type="Status" Tooltip="PERFORMATIVE_CHORUS"&gt;Performative Chorus&lt;/LSTag&gt;.</content>
+	<content contentuid="439cb1c55ce44da8b8f3c9a8sdf9u9f50000b" version="3">Once per turn while &lt;LSTag Type="Spell" Tooltip="Shout_Bard_Perform_Whistle"&gt;Performing&lt;/LSTag&gt; in combat, landing a killing blow with a weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; will immediately put you into a state of &lt;LSTag Type="Status" Tooltip="PERFORMATIVE_CHORUS"&gt;Performative Chorus&lt;/LSTag&gt;.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">COLLEGE OF VALOUR</content>
 
@@ -249,7 +276,7 @@ Valour</content>
 	<content contentuid="h004d056bga0c0g4211g864fgd0a167f0cf2e" version="4">Revitalize yourself and nearby allies as though you had taken a &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h22af06bagd2d2g4b30ga1adg8e6a48155122" version="1">Valourous Camaraderie</content>
-	<content contentuid="hd8bd4b9fg59a5g4295g9ab0g199a999778dd" version="4">You may select two additional targets with your &lt;LSTag Type="Spell" Tooltip="Target_BardicInspiration_Combat"&gt;Refined Bardic Inspiration&lt;/LSTag&gt;. In addition, applying your Bardic Inspiration to an ally causes an enemy within [1] of them to take [2].</content>
+	<content contentuid="hd8bd4b9fg59a5g4295g9ab0g199a999778dd" version="4">You may target three creatures with your &lt;LSTag Type="Spell" Tooltip="Target_BardicInspiration_Combat"&gt;Refined Bardic Inspiration&lt;/LSTag&gt;. In addition, applying your Bardic Inspiration to an ally causes an enemy within [1] of them to take [2].</content>
 
 	<content contentuid="hb117050dg0016g4833g87f0g8d614082da8e" version="1">Font of Valour</content>
 	<content contentuid="h893450deg4af3g43f4gad83g7b35893b360d" version="1">Your Font of Inspiration now overflows with valour! In addition to fully restoring all three charges of your &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt; at the beginning of combat, you now also restore one charge every three turns for as long as combat persists.</content>
@@ -281,7 +308,7 @@ Valour</content>
 	<content contentuid="171ffb649bb448399193ed1c0d6896dd000za" version="1">While in the presence of an allied Bard's performance, this creature receives a +[1] bonus to all damage rolls.</content>
 
 	<content contentuid="171ffb649bb448399193ed1c0d6896dd00002" version="1">Discerning Insult</content>
-	<content contentuid="171ffb649bb448399193ed1c0d6896dd0000b" version="1">As a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;, reduce the confidence of your target, applying a -1d4 penalty to their &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt;, or &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
+	<content contentuid="171ffb649bb448399193ed1c0d6896dd0000b" version="1">As a free &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;, reduce the confidence of your target, applying a -1d4 penalty to their &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt;, or &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
 	<content contentuid="h04cd9c24g4e19g422bg983bge808593fb7c0" version="1">Cutting Words</content>
 	<content contentuid="h3ab0da6aga36dg4861g906egff10a4c63cc8" version="3">Reduce a targets &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Check&lt;/LSTag&gt; or &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; by -1d4.</content>
 
@@ -307,7 +334,7 @@ Valour</content>
 	<content contentuid="h4344309ag115dg487bgbdcbg14552d822356" version="1">Bardic Strike (Ranged)</content>
 
 	<content contentuid="171ffb649bb448399193ed1c0d6896dd00008" version="1">Guided Inspiration</content>
-	<content contentuid="171ffb649bb448399193ed1c0d6896dd0000h" version="1">Dealing damage to an enemy has a 20% chance to apply your &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt; to an ally within [1] of you.</content>
+	<content contentuid="171ffb649bb448399193ed1c0d6896dd0000h" version="1">Dealing damage to an enemy has a 25% chance to apply your &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt; to an ally within [1] of you.</content>
 
 	<content contentuid="171ffb649bb448399193ed1c0d6896dd00009" version="1">Harmonious Aura</content>
 	<content contentuid="171ffb649bb448399193ed1c0d6896dd0000i" version="1">While &lt;LSTag Type="Spell" Tooltip="Shout_Bard_Perform_Whistle"&gt;Performing&lt;/LSTag&gt; in combat, emit an aura across [1] which provides a +2 bonus to allied &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;While projecting your &lt;LSTag Type="Status" Tooltip="PERFORMATIVE_VERSE"&gt;Performative Verse&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="PERFORMATIVE_CHORUS"&gt;Performative Chorus&lt;/LSTag&gt;, this bonus increases to +4 or +6, respectively.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Passive" Tooltip="Mute_Songs"&gt;Muting&lt;/LSTag&gt; your Performance halves the effectiveness of this passive.</content>

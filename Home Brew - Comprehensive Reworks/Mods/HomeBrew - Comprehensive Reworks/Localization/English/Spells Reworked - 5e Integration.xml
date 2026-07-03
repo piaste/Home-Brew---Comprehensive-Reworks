@@ -63,7 +63,7 @@
 	<content contentuid="aa20553d362b4ff6b5d95c70e4e37e590000o" version="1">Cause a creature to become &lt;LSTag Type="Status" Tooltip="WET"&gt;Wet&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;This &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; may be cast while &lt;LSTag Type="Status" Tooltip="HEAVILY_SILENCED"&gt;Silenced&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Muted&lt;/LSTag&gt; and will not break &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Stealth&lt;/LSTag&gt;.</content>
 
 	<content contentuid="06ccff5b74f84871a26d66436d5da6d500016" version="1">Spare the Dying</content>
-	<content contentuid="aa20553d362b4ff6b5d95c70e4e37e590000p" version="1">&lt;LSTag Type="Spell" Tooltip="Target_Help"&gt;Help&lt;/LSTag&gt; an ally from a distance.</content>
+	<content contentuid="aa20553d362b4ff6b5d95c70e4e37e590000p" version="1">Restore an allies &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; from a distance.</content>
 
 	<content contentuid="06ccff5b74f84871a26d66436d5da6d500017" version="1">Blade Surge</content>
 	<content contentuid="aa20553d362b4ff6b5d95c70e4e37e590000q" version="1">Summon a [1] cyclone of blades around you.</content>
@@ -168,10 +168,10 @@
 	<content contentuid="a5sfd4df9s89fd9s8fd45sdfsa5sd0ss0000h" version="1">Place your hand upon another creature, rolling an additional damage die if they are &lt;LSTag Type="Status" Tooltip="WET"&gt;Wet&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Fighters&lt;br&gt;Rogues&lt;br&gt;Warlocks&lt;br&gt;Wizards</content>
 
 	<content contentuid="a5sfd4s65asd5fsdf1d45sdfsa5sd0ss00009" version="1">Ensnaring Trap</content>
-	<content contentuid="a5sfd4df9s89fd9s8fd45sdfsa5sd0ss0000i" version="1">Place three traps on the ground. If another creature steps on one of the traps, they are immediately &lt;LSTag Type="Status" Tooltip="RESTRAINED"&gt;Restrained&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Druids&lt;br&gt;Fighters&lt;br&gt;Rangers&lt;br&gt;Warlocks</content>
+	<content contentuid="a5sfd4df9s89fd9s8fd45sdfsa5sd0ss0000i" version="1">Place two traps on the ground. If another creature steps on one of the traps, they are immediately &lt;LSTag Type="Status" Tooltip="RESTRAINED"&gt;Restrained&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Druids&lt;br&gt;Fighters&lt;br&gt;Rangers&lt;br&gt;Warlocks</content>
 	<content contentuid="a5sfd4s65asd5fsdf1d45sdfsa5sd0ssaaaa9" version="1">Snare Trap</content>
-	<content contentuid="54e8a2a10c964c98bdfeffda9a0ba26108896" version="1">Place an additional three traps per level.</content>
-	<content contentuid="54e8a2a10c964c98bdfeffda9a0ba26upcast" version="1">&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; &lt;LSTag Tooltip="SpellSlot"&gt;Upcast Info&lt;/LSTag&gt;:&lt;br&gt;Place three additional traps per level.</content>
+	<content contentuid="54e8a2a10c964c98bdfeffda9a0ba26108896" version="1">Place an additional two traps per level.</content>
+	<content contentuid="54e8a2a10c964c98bdfeffda9a0ba26upcast" version="1">&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; &lt;LSTag Tooltip="SpellSlot"&gt;Upcast Info&lt;/LSTag&gt;:&lt;br&gt;Place two additional traps per level.</content>
 
 	<content contentuid="a5sfd4s65asd5fsdf1d45sdfsa5sd0ss00010" version="1">Tasha's Caustic Brew</content>
 	<content contentuid="a5sfd4df9s89fd9s8fd45sdfsa5sd0ss0000j" version="1">Spew a [1] line of caustic acid, burning everything in your path.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Fighters&lt;br&gt;Rogues&lt;br&gt;Warlocks&lt;br&gt;Wizards</content>

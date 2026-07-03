@@ -3,8 +3,8 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">SORCERER</content>
 
-	<content contentuid="hc3cb9a24g2714g46f1gb026g3cf7426738b5" version="2">Sorcery Points are an important facet of a Sorcerer's power. They can be spent to augment Spells in unique and powerful ways, or converted to be used as fuel for Spell Slots. You may have up to 24 Sorcery Points at any given time.</content>
-	<content contentuid="hc4b799ebg71fag4e61g8ef1g4840fb1c17a5" version="1">Sorcery Points can be used to augment Spells in unique and powerful ways. You may have up to 24 Sorcery Points at any given time.</content>
+	<content contentuid="hc3cb9a24g2714g46f1gb026g3cf7426738b5" version="2">Sorcery Points are an important facet of a Sorcerer's power. They can be spent to augment Spells in unique and powerful ways, or converted to be used as fuel for Spell Slots.</content>
+	<content contentuid="hc4b799ebg71fag4e61g8ef1g4840fb1c17a5" version="1">Sorcery Points can be used to augment Spells in unique and powerful ways.</content>
 
 	<content contentuid="h579c4854g5d33g44a4ga2d7ga83cc2f3a211" version="6">Creationary</content>
 	<content contentuid="h291fdebdgb520g4fa0g90c0gca2a2a689j56" version="1">Gain the ability to convert &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slots&lt;/LSTag&gt; into &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Points&lt;/LSTag&gt; and vice versa.&lt;br&gt;&lt;br&gt;When converting Sorcery Points into Spell Slots, you may create Spell Slots up to one level higher than what you can normally cast, up to the sixth level. You cannot create more than twice the amount of Spell Slots that you would normally have available for any given level.&lt;br&gt;&lt;br&gt;Additionally, when a Spell is cast within [1] of you, you may store the arcane energy as &lt;LSTag Type="Status" Tooltip="SORCEROUS_OVERFLOW"&gt;Sorcerous Overflow&lt;/LSTag&gt;. Upon reaching three stacks of Sorcerous Overflow, you gain a Sorcery Point.</content>
@@ -251,6 +251,29 @@
 	<content contentuid="h16312bfag01a2g42f8g943bg3fcba8e00006" version="1">Pitch Black</content>
 	<content contentuid="hec37ca35g480cg4de1gae65g3986c350000f" version="1">While &lt;LSTag Type="Status" Tooltip="SNEAKING_HEAVILY_OBSCURED"&gt;Heavily Obscured&lt;/LSTag&gt;, all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and damage rolls you make are rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. When your &lt;LSTag Type="Spell" Tooltip="Target_HoundOfIllOmen"&gt;Hounds of Ill Omen&lt;/LSTag&gt; clone themselves, their clones will never expire, and their can now produce further clones as well.</content>
 
+<content contentuid="0000000000000000000000000000000000000" version="1">SOUL OF THE FRENZIED TUNDRA</content>
+
+	<content contentuid="9585509cf15f491a86ba751105cc210000000" version="1">Soul of the Frenzied Tundra</content>
+	<content contentuid="9585509cf15f491a86ba751105cc2100zzzzz" version="1">Within your blood rages an endless winter. Those touched by your frozen power are driven into a maddened frenzy beneath the tundra's merciless chill.</content>
+
+	<content contentuid="9585509cf15f491a86ba751105cc210000001" version="1">Winter is Coming</content>
+	<content contentuid="9585509cf15f491a86ba751105cc21000000a" version="1">When dealing damage, you deal additional Cold damage equal to your levels in Sorcerer. This bonus does not apply to damage dealt with an off-hand weapon.</content>
+
+	<content contentuid="9585509cf15f491a86ba751105cc210000002" version="1">Frigid Madness</content>
+	<content contentuid="9585509cf15f491a86ba751105cc21000000b" version="1">Dealing damage has a chance to apply one turn of &lt;LSTag Type="Status" Tooltip="MADNESS"&gt;Madness&lt;/LSTag&gt; to your target.</content>
+
+	<content contentuid="9585509cf15f491a86ba751105cc210000003" version="1">Winter Harvest</content>
+	<content contentuid="9585509cf15f491a86ba751105cc21000000c" version="1">Once per turn, upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; against a &lt;LSTag Type="Status" Tooltip="MADNESS"&gt;Maddened&lt;/LSTag&gt; enemy, you create one &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Point&lt;/LSTag&gt;.</content>
+
+	<content contentuid="9585509cf15f491a86ba751105cc210000004" version="1">Frenzied Blizzard</content>
+	<content contentuid="9585509cf15f491a86ba751105cc21000000d" version="1">Enemies suffering from &lt;LSTag Type="Status" Tooltip="MADNESS"&gt;Madness&lt;/LSTag&gt; receive [1] per turn.</content>
+
+	<content contentuid="9585509cf15f491a86ba751105cc210000005" version="1">Murderous Delirium</content>
+	<content contentuid="9585509cf15f491a86ba751105cc21000000e" version="1">&lt;LSTag Type="Status" Tooltip="MADNESS"&gt;Maddened&lt;/LSTag&gt; enemies deal the maximum damage possible when targeting their allies.</content>
+
+	<content contentuid="9585509cf15f491a86ba751105cc210000006" version="1">Frozen Soul</content>
+	<content contentuid="9585509cf15f491a86ba751105cc21000000f" version="1">&lt;LSTag Type="Status" Tooltip="MADNESS"&gt;Maddened&lt;/LSTag&gt; enemies are considered to be priority targets, and are significantly more likely to be targeted by their allies.</content>
+
 <content contentuid="0000000000000000000000000000000000000" version="1">VOLCANIST</content>
 
 	<content contentuid="ha09bcdedg1cb1g4a53ga72dgb9bf9bbb3cb0" loreTexts="true" version="1">Volcanic Heart</content>
@@ -358,8 +381,8 @@
 	<content contentuid="hc6d29819g33d5g4ca7g9957gb8c47d823262" version="1">Heightened Spell</content>
 	<content contentuid="h73917ce3gc827g49e4ga954g8a5f696de6f7" version="4">Targets of Spells or &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt; that require &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; make their Saving Throw with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Costs [1] &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Points&lt;/LSTag&gt; per cast.</content>
 
-	<content contentuid="0287fd8d-84da-4799-a59f-a6b5d75aa7f0" version="1">Metamagic: Maximized Cantrip</content>
-	<content contentuid="f29e1f76-9c88-4dee-9923-81e924388937" version="1">&lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt; that deal damage deal the maximum amount of damage possible.&lt;br&gt;&lt;br&gt;Costs 2 &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Points&lt;/LSTag&gt; per cast.</content>
+	<content contentuid="0287fd8d-84da-4799-a59f-a6b5d75aa7f0" version="1">Metamagic: Maximized Magic</content>
+	<content contentuid="f29e1f76-9c88-4dee-9923-81e924388937" version="1">Spells and &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt; that deal damage deal the maximum amount of damage possible.&lt;br&gt;&lt;br&gt;Costs [1] &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Points&lt;/LSTag&gt; per cast.</content>
 	
 	<content contentuid="689cae2f-e4ff-44cc-84ce-180aa6727a03" version="1">Metamagic: Piercing Spell</content>
 	<content contentuid="259166d2-1d55-416e-82f8-20a96e4d4467" version="1">Spells and &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt; that deal damage to an enemy or item ignore all &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Costs [1] &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Points&lt;/LSTag&gt; per cast.</content>
@@ -385,7 +408,7 @@
 	<content contentuid="b0bc6550-9678-4d3d-8530-fce9d32f77b6" version="1">Damaging Spells and &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt; push your enemies back by [1] and may cause them to fall &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; if they fail a Strength based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Costs [2] &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Points&lt;/LSTag&gt; per cast.</content>
 	
 	<content contentuid="e38654de-fd40-4f34-96c6-25a5886af1a9" version="1">Metamagic: Tripled Spell</content>
-	<content contentuid="1468eac4-3b98-4861-9a24-579a9a78235e" version="1">Spells and &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt; that only target one creature can now target two additional creatures.&lt;br&gt;&lt;br&gt;Costs [1] &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Points&lt;/LSTag&gt; per level of &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; used. Cantrips cost 3 Sorcery Points.</content>
+	<content contentuid="1468eac4-3b98-4861-9a24-579a9a78235e" version="1">Spells and &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt; that only target one creature can now target two additional creatures.&lt;br&gt;&lt;br&gt;Costs [1] &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Points&lt;/LSTag&gt; per level of &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; used. Cantrips cost 4 Sorcery Points.</content>
 	<content contentuid="h7f172d6cg6359g4158gb711gcd159662cc53" version="1">For Spells that don't fire a projectile, the targets need to be within [1] of each other.</content>
 
 	<content contentuid="h8c9f627fgff0ag4f0bgab3dg2f1e75e85e4b" version="1">Metamagic: Twinned Spell</content>
@@ -398,7 +421,7 @@
 	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b50000a" version="1">Upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, you create one &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Point&lt;/LSTag&gt;. This effect can trigger once per turn.</content>
 
 	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b500002" version="1">Arcane Oppression</content>
-	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b50000b" version="1">After having used &lt;LSTag Type="Spell" Tooltip="Shout_CreateSpellSlotLVL2"&gt;Spell Channeling&lt;/LSTag&gt; or &lt;LSTag Type="Spell" Tooltip="Shout_CreateSorceryPointsLVL2"&gt;Sorcery Channeling&lt;/LSTag&gt;, enemies within [1] of you roll with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; when attempting to resist your Spells effects.</content>
+	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b50000b" version="1">After having used &lt;LSTag Type="Spell" Tooltip="Target_CreateSpellSlotLVL2"&gt;Spell Channeling&lt;/LSTag&gt; or &lt;LSTag Type="Spell" Tooltip="Shout_CreateSorceryPointsLVL2"&gt;Sorcery Channeling&lt;/LSTag&gt;, enemies within [1] of you roll with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; when attempting to resist your Spells effects.</content>
 	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b5000z2" version="1">Arcane Oppression</content>
 	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b5000zb" version="1">Affected creature is forcing enemies within [1] to roll with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; when attempting to resist the effects of Spells.</content>
 	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b500zz2" version="1">Arcane Oppression</content>
@@ -465,7 +488,7 @@
 	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b50000m" version="1">When you start your turn while &lt;LSTag Type="Status" Tooltip="FLANKED"&gt;Threatened&lt;/LSTag&gt;, you may cast &lt;LSTag Type="Spell" Tooltip="Target_MistyStep"&gt;Misty Step&lt;/LSTag&gt; without expending a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;.</content>
 
 	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b500014" version="1">Mystic Empowerment</content>
-	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b50000n" version="1">When rolling with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on your Spell based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; or &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;, roll the damage of your Spells with Advantage as well.</content>
+	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b50000n" version="1">When rolling with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made with Spells, &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt;, or &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;, you roll the damage of your Spells with Advantage as well.</content>
 
 	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b500015" version="1">Natural Vortex</content>
 	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b50000o" version="1">When a creature within [1] of you casts a Spell, you generate two stacks of &lt;LSTag Type="Status" Tooltip="SORCEROUS_OVERFLOW"&gt;Sorcerous Overflow&lt;/LSTag&gt;, rather than one.</content>
@@ -474,7 +497,7 @@
 	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b50000p" version="1">When damaged by an enemy, you generate one stack of &lt;LSTag Type="Status" Tooltip="SORCEROUS_OVERFLOW"&gt;Sorcerous Overflow&lt;/LSTag&gt;.</content>
 
 	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b500017" version="1">Shared Creation</content>
-	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b50000q" version="1">&lt;LSTag Type="Spell" Tooltip="Shout_CreateSpellSlotLVL2"&gt;Spell Channeling&lt;/LSTag&gt; may now target allies.</content>
+	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b50000q" version="1">&lt;LSTag Type="Spell" Tooltip="Target_CreateSpellSlotLVL2"&gt;Spell Channeling&lt;/LSTag&gt; may now target allies.</content>
 
 	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b500018" version="1">Sorcerous Acumen</content>
 	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b50000r" version="1">Gain the ability to expend one &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Point&lt;/LSTag&gt; to gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on any &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Check&lt;/LSTag&gt;.</content>
