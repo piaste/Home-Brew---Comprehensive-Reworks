@@ -224,8 +224,8 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">OATHBOUND CRUSADER</content>
 
-	<content contentuid="h83972695g2797g49bdg8e3bga526a352143d" loreTexts="true" version="1">Chevall of the Gauntlet</content>
-	<content contentuid="h573bd5d7g78ccg467cga56dg4392c97ad6ba" loreTexts="true" version="1">You served with the vigilant Order of the Gauntlet, a coalition of upstanding warriors who hunt down those who committed evil deeds.</content>
+	<content contentuid="h83972695g2797g49bdg8e3bga526a352143d" loreTexts="true" version="1">Gilded Eye Inquisitor</content>
+	<content contentuid="h573bd5d7g78ccg467cga56dg4392c97ad6ba" loreTexts="true" version="1">You served with the fanatic Order of the Gilded Eye, knights of Helm who mercilessly hunt down corruption and evil in the North.</content>
 
 	<content contentuid="h298b9a29g5657g4aa9gaad6gad3a8afsdf98" loreTexts="true" version="1">Bane of the Damned</content>
 	<content contentuid="hb2400634gf3e4g46f1gb93dg1330e4derere" version="3">When making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; or dealing damage to a Undead type creature, roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Once per turn, upon landing a killing blow on an enemy Undead, restore one &lt;LSTag Type="ActionResource" Tooltip="WarPriestActionPoint"&gt;Crusader's Smite&lt;/LSTag&gt; charge.</content>
@@ -300,8 +300,8 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">TYRANT</content>
 
-	<content contentuid="05ba80fa2f9c43a3b2da424d8e82080b00000" version="1">Tyrant</content>
-	<content contentuid="05ba80fa2f9c43a3b2da424d8e82080bzzzzz" version="1">Through fear, obedience is secured. Through absolute authority, the weak are broken and even the defiant learn their place.</content>
+	<content contentuid="05ba80fa2f9c43a3b2da424d8e82080b00000" loreTexts="true" version="1">Black Gauntlet Crusader</content>
+	<content contentuid="05ba80fa2f9c43a3b2da424d8e82080bzzzzz" loreTexts="true" version="1">You served with the Banite knights of the Black Gauntlet, a ruthless brotherhood from Mintar intent on imposing absolute order and fealty to the Black Hand.</content>
 
 	<content contentuid="acb55f4f68334da6s574wdf96s87fee200001" version="1">Tyrant's Judgement</content>
 	<content contentuid="acb55f4f68334da6s574wdf96s87fee20000a" version="3">When making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; or dealing damage to a creature benefitting from &lt;LSTag Type="Status" Tooltip="LOCKDOWN_CONDITION"&gt;Lockdown Immunity&lt;/LSTag&gt;, roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Once per turn, upon landing a killing blow on an enemy benefitting from Lockdown Immunity, restore one &lt;LSTag Type="ActionResource" Tooltip="WarPriestActionPoint"&gt;Crusader's Smite&lt;/LSTag&gt; charge.</content>
