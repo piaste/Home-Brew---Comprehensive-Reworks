@@ -105,21 +105,21 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">ELEMENTALIST</content>
 
-	<content contentuid="51a9b0aeb5c646d7a60393a2c39ff5ec00000" version="1">Elementalist</content>
-	<content contentuid="51a9b0aeb5c646d7a60393a2c39ff5eczzzzz" version="1">The elements answer your call as loyal companions. Whether flame, storm, stone, or tide, each serves as an extension of your arcane mastery.</content>
+	<content contentuid="51a9b0aeb5c646d7a60393a2c39ff5ec00000" loreTexts="true" version="1">Zakharan Sha'ir Tradition</content>
+	<content contentuid="51a9b0aeb5c646d7a60393a2c39ff5eczzzzz" loreTexts="true" version="1">You studied magic with far-travelling wizards, familiar with the elemental summoning rituals practiced in the deserts of the remote Land of Fate.</content>
 
-	<content contentuid="51a9b0aeb5c646d7a60393a2c39ff5ec00001" version="1">Primal Bond</content>
+	<content contentuid="51a9b0aeb5c646d7a60393a2c39ff5ec00001" loreTexts="true" version="1">Calling the Janni</content>
 	<content contentuid="51a9b0aeb5c646d7a60393a2c39ff5ec0000a" version="1">Gain the ability to summon one of four &lt;LSTag Type="Spell" Tooltip="Target_SummonElementalContainer"&gt;Elementals&lt;/LSTag&gt;. Each Elemental scales with your level in Wizard.</content>
 	<content contentuid="he5dcbff7g0ca2g46ffgb2cdgcb7f29715ada" version="2">Conjure Elemental</content>
 	<content contentuid="h1b7cc2f8g18b3g4532gaeacg900ab90fb8e2" version="2">Bend the barrier between the Planes until they disgorge an elemental ally to follow and fight for you.</content>
 	<content contentuid="h5492f279g48bcg4389g875cg8f20255064b7" version="2">Conjure Elemental: Air</content>
-	<content contentuid="h0adad6dagc390g4460g926fga076481f4a17" version="7">Conjure an air elemental that can &lt;LSTag Type="Status" Tooltip="SHOCKED"&gt;Shock&lt;/LSTag&gt; your foes. The elemental grows in strength alongside you as you level as an Elementalist.</content>
+	<content contentuid="h0adad6dagc390g4460g926fga076481f4a17" loreTexts="true" version="7">Conjure an air elemental that can &lt;LSTag Type="Status" Tooltip="SHOCKED"&gt;Shock&lt;/LSTag&gt; your foes. The elemental grows in strength alongside you as you level as a Sha'ir.</content>
 	<content contentuid="h46e29875g0cc2g4dfdgbe48g53c684017c60" version="2">Conjure Elemental: Earth</content>
-	<content contentuid="h693c9a37g938eg485cgbd7eg399f46fa4e50" version="11">Conjure an earth elemental that can create sludgy mud surfaces while walloping your foes. The elemental grows in strength alongside you as you level as an Elementalist.</content>
+	<content contentuid="h693c9a37g938eg485cgbd7eg399f46fa4e50" version="11">Conjure an earth elemental that can create sludgy mud surfaces while walloping your foes. The elemental grows in strength alongside you as you level as a Sha'ir.</content>
 	<content contentuid="h16e0960bg5758g478bga682g986ced8af811" version="2">Conjure Elemental: Fire</content>
-	<content contentuid="h4fb964c2gc61ag4371g913ag7804944b7236" version="7">Conjure a fire elemental that can make your foes &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burn&lt;/LSTag&gt;. The elemental grows in strength alongside you as you level as an Elementalist.</content>
+	<content contentuid="h4fb964c2gc61ag4371g913ag7804944b7236" loreTexts="true" version="7">Conjure a fire elemental that can make your foes &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burn&lt;/LSTag&gt;. The elemental grows in strength alongside you as you level as a Sha'ir.</content>
 	<content contentuid="hce53144cgef89g4664g8a99gd61a7911eb7d" version="2">Conjure Elemental: Water</content>
-	<content contentuid="hfafe6326gba8ag4f0dg87ffg9d96c29b91d8" version="8">Conjure a water elemental that can mete out cold punishment upon your foes. The elemental grows in strength alongside you as you level as an Elementalist.</content>
+	<content contentuid="hfafe6326gba8ag4f0dg87ffg9d96c29b91d8" loreTexts="true" version="8">Conjure a water elemental that can mete out cold punishment upon your foes. The elemental grows in strength alongside you as you level as a Sha'ir.</content>
 	<content contentuid="h99e91a28gd1cfg4a52ga069g0872099b22ee" version="2">Primordial Gale</content>
 	<content contentuid="h9e31d18eg4ac4g494fg815agb0df292cdbbc" version="6">Gales of crackling, stormy wind swirl around you, battering nearby creatures and &lt;LSTag Type="Status" Tooltip="SHOCKED"&gt;Shocking&lt;/LSTag&gt; them.</content>
 	<content contentuid="hf27103b5gb236g48f3ga86egd8da8db1431a" version="2">Seismic Strike</content>
@@ -132,16 +132,16 @@
 	<content contentuid="51a9b0aeb5c646d7a60393a2c39ff5ec00002" version="1">Rend Elements</content>
 	<content contentuid="51a9b0aeb5c646d7a60393a2c39ff5ec0000b" version="1">Depending on which &lt;LSTag Type="Spell" Tooltip="Target_SummonElementalContainer"&gt;Elemental&lt;/LSTag&gt; you currently have summoned, you ignore &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt; of their respective damage type when targeting an enemy or item.</content>
 
-	<content contentuid="51a9b0aeb5c646d7a60393a2c39ff5ec00003" version="1">Channeled Infusion</content>
+	<content contentuid="51a9b0aeb5c646d7a60393a2c39ff5ec00003" loreTexts="true" version="1">Janni's Favour</content>
 	<content contentuid="51a9b0aeb5c646d7a60393a2c39ff5ec0000c" version="1">Depending on which &lt;LSTag Type="Spell" Tooltip="Target_SummonElementalContainer"&gt;Elemental&lt;/LSTag&gt; you currently have summoned, you deal an additional 1d4 damage of their respective type. This bonus does not apply to damage dealt with an off-hand weapon. In addition, each of your elementals have learned a new action.</content>
 
-	<content contentuid="51a9b0aeb5c646d7a60393a2c39ff5ec00004" version="1">Primordial Ward</content>
+	<content contentuid="51a9b0aeb5c646d7a60393a2c39ff5ec00004" loreTexts="true" version="1">Janni's Protection</content>
 	<content contentuid="51a9b0aeb5c646d7a60393a2c39ff5ec0000d" version="1">Depending on which &lt;LSTag Type="Spell" Tooltip="Target_SummonElementalContainer"&gt;Elemental&lt;/LSTag&gt; you currently have summoned, you gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to their respective type of damage.</content>
 
-	<content contentuid="51a9b0aeb5c646d7a60393a2c39ff5ec00005" version="1">Parallel Echo</content>
+	<content contentuid="51a9b0aeb5c646d7a60393a2c39ff5ec00005" loreTexts="true" version="1">Janni's Revenge</content>
 	<content contentuid="51a9b0aeb5c646d7a60393a2c39ff5ec0000e" version="1">Depending on which &lt;LSTag Type="Spell" Tooltip="Target_SummonElementalContainer"&gt;Elemental&lt;/LSTag&gt; you currently have summoned, when taking damage of their respective type, you reflect it as Force damage back at your aggressor. In addition, each of your elementals have learned a new action.</content>
 
-	<content contentuid="51a9b0aeb5c646d7a60393a2c39ff5ec00006" version="1">Primal Convergence</content>
+	<content contentuid="51a9b0aeb5c646d7a60393a2c39ff5ec00006" loreTexts="true" version="1">Seal of Jafar the Incomparable</content>
 	<content contentuid="51a9b0aeb5c646d7a60393a2c39ff5ec0000f" version="1">You may summon all four &lt;LSTag Type="Spell" Tooltip="Target_SummonElementalContainer"&gt;Elementals&lt;/LSTag&gt; at once.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">EVOKER</content>
@@ -213,7 +213,7 @@
 	<content contentuid="h5c1aa55eg7ec0g462cg922fgc9bdbf00000d" version="2">Generate a water surface at an area of your choosing.</content>
 	<content contentuid="h5fe29df0g88d9g4dfeg9b60g81fa93a00005" loreTexts="true" version="2">Scribani's Accident: Water (Electrified)</content>
 	<content contentuid="h5c1aa55eg7ec0g462cg922fgc9bdbf00000e" version="2">Generate an electrified water surface at an area of your choosing.</content>
-	<content contentuid="h5fe29df0g88d9g4dfeg9b60g81fa93a4b183" loreTexts="true" version="2">Scribani's Escape</content>
+	<content contentuid="h5fe29df0g88d9g4dfeg9b60g81fa93a4b183" loreTexts="true" version="2">Scribani's Absconding</content>
 	<content contentuid="h5c1aa55eg7ec0g462cg922fgc9bdbf06ede2" version="2">Teleport to an area you can see, or swap places with an ally.</content>
 
 	<content contentuid="hc31dc575g4407g476as65d4f58es52fe1503" loreTexts="true" version="2">Heroicus's Containment</content>
