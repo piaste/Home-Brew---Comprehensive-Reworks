@@ -46,7 +46,7 @@
 	<content contentuid="hc4558204g2c77g4b58gafb6g0ba6b3938989" version="1">Superior Sneak Attack</content>
 	<content contentuid="h098941ccgc4ecg49f2gb22agabed0blopoi7" version="3">You may utilize your &lt;LSTag Type="Spell" Tooltip="Target_SneakAttack"&gt;Sneak Attack&lt;/LSTag&gt; three times per turn.</content>
 
-<content contentuid="0000000000000000000000000000000000000" version="1">ARCANE TRICKSTER</content>
+<content contentuid="0000000000000000000000000000000000000" loreTexts="true" version="1">Telflamm Guild [shadowmasters]</content>
 
 	<content contentuid="hdb24b7c0g74dag4e54gb7a3gac62e6a68522" version="1">Arcane Trickery</content>
 	<content contentuid="h25b27b77g4bc8g4944g881bg9f10basdf558" version="1">&lt;LSTag Type="Spell" Tooltip="Target_SneakAttack"&gt;Sneak Attack&lt;/LSTag&gt; can trigger when casting &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt; and Spells. Additionally, casting Cantrips and Spells while &lt;LSTag Type="Spell" Tooltip="Shout_Hide"&gt;Hidden&lt;/LSTag&gt; will not break &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Stealth&lt;/LSTag&gt;.</content>
@@ -77,6 +77,8 @@
 	<content contentuid="h25b27b77g4bc8g4944g881bg9fasfda99898" version="1">At the start of each of your turns, if visible, you become &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; until the end of your turn.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">ASSASSIN</content>
+
+	<content contentuid="sdasdsa" loreTexts="true" version="1">Galenas Guild</content>
 
 	<content contentuid="h653597fcg1942g4ce1gaefag1ecf2fa01d4b" version="1">Assassinate</content>
 	<content contentuid="h853b555ege835g49e1g9e27g74680e24aef5" version="4">You immediately restore your &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt; and &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; at the beginning of combat and have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; when attacking targets who have not taken a turn yet.&lt;br&gt;&lt;br&gt;Outside of combat, while &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Sneaking&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt;, any successful &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; you make deals an additonal 12 damage multiplied by your levels in Rogue. The type of damage dealt is the same as your main-hand melee weapon.</content>
@@ -109,7 +111,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">HIDDEN TOXICANT</content>
 
-	<content contentuid="hedbd9f3fgf4d8g4f16gb02we68f4s65ef485" version="1">Hidden Toxicant</content>
+	<content contentuid="hedbd9f3fgf4d8g4f16gb02we68f4s65ef485" loreTexts="true" version="1">Westgate Guild [night masks]</content>
 	<content contentuid="hf081aa54g2345s4e6f84s6e2f1e87f42f454" version="1">You have learned to turn flesh into a vessel for ruin. With measured tinctures and precise brews, you mark vital points and allow your toxins to do the rest.</content>
 
 	<content contentuid="hedbd9f3fgf4d8g4f16gb02we68f4s6500001" version="1">Imbued Toxicity</content>
@@ -156,7 +158,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">MERCENARY</content>
 
-	<content contentuid="hc28be462g2fd3g4877g8cadgf069f941993c" version="1">Mercenary</content>
+	<content contentuid="hc28be462g2fd3g4877g8cadgf069f941993c" loreTexts="true" version="1">Skullport Guild [xanathar]</content>
 	<content contentuid="h2eeb9353g59b7g44aeg9bcag22fdd7fd811d" version="1">Equally as intelligent as you are cunning, you can talk your way through any situation. And when blades are drawn, you can speak that language, too.</content>
 
 	<content contentuid="h34233a5agb50eg4820g9f10g3e21aa000001" version="1">Taking the Initiative</content>
@@ -192,6 +194,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">THIEF</content>
 
+	<content contentuid="afgasfasf" loreTexts="true" version="1">Crimmor Guild [shadow thieves]</content>
 	<content contentuid="hcd3d3bacgb879g492ega933g2254d1202f48" version="1">Your mastery of evasion makes the antics of a scoundrel second nature.</content>
 
 	<content contentuid="hc4558204g2c77g4b58g6a98522a6b394a6a8" version="1">Get Out of Jail Free</content>
@@ -221,7 +224,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">VIRULENCE</content>
 
-	<content contentuid="dfd64ed09bb241db9f6107f73591ee2600000" version="1">Virulence</content>
+	<content contentuid="dfd64ed09bb241db9f6107f73591ee2600000" loreTexts="true" version="1">Cormyr Guild [fire knives]</content>
 	<content contentuid="dfd64ed09bb241db9f6107f73591ee26zzzzz" version="1">A single wound is all you require. What begins as a scratch soon festers into ruin as virulent corruption courses through your victim.</content>
 
 	<content contentuid="dfd64ed09bb241db9f6107f73591ee2600001" version="1">Virulent Edge</content>

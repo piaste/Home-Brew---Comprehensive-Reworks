@@ -123,8 +123,7 @@ Captivation</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">COLLEGE OF LORE</content>
 
-	<content contentuid="h279a572bg826ag49e3g9223g665c354e3de1" version="1">College of
-Lore</content>
+	<content contentuid="h279a572bg826ag49e3g9223g665c354e3de1" loreTexts="true" version="1">College of New Olamn</content>
 	<content contentuid="h4d45858cg3653g4192g8076g08327ea38dc5" version="1">You pursue beauty and truth, collecting knowledge from scholarly tomes to peasants' tales, and use your gifts to hold both audiences and enemies spellbound.</content>
 
 	<content contentuid="he0912b6fge4b5g4b8fgbc26ge66a9a5a8a44" version="1">The Best Kept Secrets</content>
@@ -247,8 +246,7 @@ Steel</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">COLLEGE OF VALOUR</content>
 
-	<content contentuid="he43c3ee1gb725g4a47g902cg6727f52d77c6" version="1">College of
-Valour</content>
+	<content contentuid="he43c3ee1gb725g4a47g902cg6727f52d77c6" loreTexts="true" version="1">Skald</content>
 	<content contentuid="h76d3ad64g7e5cg412agac20g17c5e3cb57d0" version="1">You wander the land to witness and relate the deeds of the mighty, keeping alive the memory of heroes of the past and inspiring heroes of the future.</content>
 
 	<content contentuid="hbd0341e3g775bg4a92g84feg270e44176bdb" version="1">Refined Bardic Inspiration</content>
