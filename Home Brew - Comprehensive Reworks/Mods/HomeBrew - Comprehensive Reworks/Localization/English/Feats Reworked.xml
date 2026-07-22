@@ -560,23 +560,23 @@
 
 
 
-	<content contentuid="0bfdc937-3a62-449d-8b3f-29812adf32a1" version="1">Yokebreaker: Arcane Trickster</content>
-	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df33" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_ArcaneTrickster"&gt;Arcane Trickster Rogue&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="0bfdc937-3a62-449d-8b3f-29812adf32a1" loreTexts="true" version="1">Yokebreaker: Telflamm Streets</content>
+	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df33" loreTexts="true" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_ArcaneTrickster"&gt;Telflamm Streets Rogue&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
-	<content contentuid="b8521733-fde0-4025-bd90-9d73358819f9" version="1">Yokebreaker: Assassin</content>
-	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df34" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Assassin"&gt;Assassin Rogue&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="b8521733-fde0-4025-bd90-9d73358819f9" loreTexts="true" version="1">Yokebreaker: Galenas Paths</content>
+	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df34" loreTexts="true" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Assassin"&gt;Galenas Paths Rogue&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
-	<content contentuid="b8521733-fde0-4025-bd90-2d5ef1f5e4f5" version="1">Yokebreaker: Hidden Toxicant</content>
-	<content contentuid="47709b48-6124-44dc-8792-a6e8f6e8f598" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_HiddenToxicant"&gt;Hidden Toxicant Rogue&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="b8521733-fde0-4025-bd90-2d5ef1f5e4f5" loreTexts="true" version="1">Yokebreaker: Westgate Docks</content>
+	<content contentuid="47709b48-6124-44dc-8792-a6e8f6e8f598" loreTexts="true" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_HiddenToxicant"&gt;Westgate Docks Rogue&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
-	<content contentuid="a05f596f-a10f-4c5e-b8f6-405ad37a146c" version="1">Yokebreaker: Mercenary</content>
-	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df35" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Swashbuckler"&gt;Mercenary Rogue&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="a05f596f-a10f-4c5e-b8f6-405ad37a146c" loreTexts="true" version="1">Yokebreaker: Skullport Caves</content>
+	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df35" loreTexts="true" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Swashbuckler"&gt;Skullport Caves Rogue&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
-	<content contentuid="dca9c5f8-868a-4cd0-bdca-fc6443a9117f" version="1">Yokebreaker: Thief</content>
-	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df36" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Thief"&gt;Thief Rogue&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="dca9c5f8-868a-4cd0-bdca-fc6443a9117f" loreTexts="true" version="1">Yokebreaker: Amnian Roads</content>
+	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df36" loreTexts="true" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Thief"&gt;Amnian Roads Rogue&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
-	<content contentuid="d6521329-2633-4ef7-9198-222173557313" version="1">Yokebreaker: Virulence</content>
-	<content contentuid="0c3e7fc1-1536-4540-88f6-370b34addd2e" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Virulence"&gt;Virulence Rogue&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="d6521329-2633-4ef7-9198-222173557313" loreTexts="true" version="1">Yokebreaker: Cormyr Hallways</content>
+	<content contentuid="0c3e7fc1-1536-4540-88f6-370b34addd2e" loreTexts="true" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Virulence"&gt;Cormyr Hallways Rogue&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
 
 

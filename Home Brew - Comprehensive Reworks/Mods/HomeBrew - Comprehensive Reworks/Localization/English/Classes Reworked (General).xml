@@ -695,11 +695,11 @@
 	<content contentuid="h437731e40ccf4eed92b833bf3e3a7c8e2e55" loreTexts="true" version="1">Ranger: Neverwinter Wood Trail</content>
 	<content contentuid="h437731e40ccf4eed92b833bf3e3a7c8etwin" loreTexts="true" version="1">Ranger: Evermoors Trail</content>
 
-	<content contentuid="h887976b614304ec78b4449ad1d3e45012f6e" version="1">Rogue: Arcane Trickster</content>
-	<content contentuid="h5ac4211b67404f48a9e8976bf17a7b077674" version="1">Rogue: Assassin</content>
-	<content contentuid="h5ac4211b67404f48a9e8976bf2se5f6s54ef" version="1">Rogue: Hidden Toxicant</content>
-	<content contentuid="h1a147cb174bc46c59e2a8a8997501d256223" version="1">Rogue: Mercenary</content>
-	<content contentuid="hf3a37e1adfa04e18a9f37b5103b8aead7e76" version="1">Rogue: Thief</content>
+	<content contentuid="h887976b614304ec78b4449ad1d3e45012f6e" loreTexts="true" version="1">Rogue: Telflamm Streets</content>
+	<content contentuid="h5ac4211b67404f48a9e8976bf17a7b077674" loreTexts="true" version="1">Rogue: Galenas Paths</content>
+	<content contentuid="h5ac4211b67404f48a9e8976bf2se5f6s54ef" loreTexts="true" version="1">Rogue: Westgate Docks</content>
+	<content contentuid="h1a147cb174bc46c59e2a8a8997501d256223" loreTexts="true" version="1">Rogue: Skullport Caves</content>
+	<content contentuid="hf3a37e1adfa04e18a9f37b5103b8aead7e76" loreTexts="true" version="1">Rogue: Amnian Roads</content>
 
 	<content contentuid="h74cb6d76f7084d1d9ccca5ba1622140f3c7d" version="1">Sorcerer: Draconic Bloodline</content>
 	<content contentuid="h73a8aafef8874258bc6950b4c4d569b0842e" version="1">Sorcerer: Shade Walker</content>
