@@ -3,8 +3,8 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">RANGER</content>
 
-	<content contentuid="h4c613264gb41123r6ega54wef6584s6e4f65" version="4">Natural Focus Charges: 3</content>
-	<content contentuid="h50416111g8a61g4293r87ys9df87983rofef" version="2">You gain three Natural Focus Charges per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, which allow you to either summon your Ranger Companion or fire various types of arrows.</content>
+	<content contentuid="h4c613264gb41123r6ega54wef6584s6e4f65" version="4">Natural Focus Charges: 1</content>
+	<content contentuid="h50416111g8a61g4293r87ys9df87983rofef" version="2">You gain a Natural Focus Charge, which recharges upon taking a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;. Natural Focus charges allow you to fire various types of unique arrows.</content>
 
 	<content contentuid="hffaccf0ag0569g4b24gb7bfg483838dkhdic" version="1">RANGERCOMPANION</content>
 	<content contentuid="hffaccf0ag0569g4b24gb7bfg483838d38ddd" version="1">RANGERCOMPANIONTAGFORRANGEROVERHAUL</content>
@@ -14,9 +14,9 @@
 	<content contentuid="hdea6e468g7f71g48f6gaf6fg36fce0dfa091" version="3">Ranger's Companion</content>
 	
 	<content contentuid="f3e644b1265f469bbb959e1a73bc2d6f00001" version="1">Conjure Rangers Companion</content>
-	<content contentuid="779eb310c0a341c8b24b0441abdecb0f0000a" version="2">Summon a beast companion of your choice. Your companion grows in strength alongside you as you level.</content>
+	<content contentuid="779eb310c0a341c8b24b0441abdecb0f0000a" version="2">Summon a beast companion of your choice. Your companion grows in strength alongside you as you level.&lt;br&gt;&lt;br&gt;In addition, when your companion lands a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, you recover one charge of your &lt;LSTag Type="ActionResource" Tooltip="NaturalRecoveryPoint"&gt;Natural Focus&lt;/LSTag&gt;.</content>
 
-	<content contentuid="hf2d30149g1349g4008g9807g532569db7932" version="2">Affected creature's stats increase for every level of its summoning Ranger.&lt;br&gt;&lt;br&gt;In addition, it gains various passive effects depending on the passives that its Ranger possesses.</content>
+	<content contentuid="hf2d30149g1349g4008g9807g532569db7932" version="2">Affected creature's stats increase for every level of its summoning Ranger.&lt;br&gt;&lt;br&gt;In addition, when this creature lands a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, it's summoner recovers one charge of their &lt;LSTag Type="ActionResource" Tooltip="NaturalRecoveryPoint"&gt;Natural Focus&lt;/LSTag&gt;.</content>
 
 	<content contentuid="hffaccf0ag0569g4b24gb7bfg470a9169ad4c" version="1">Natural Focus</content>
 	<content contentuid="h2ee6856age76eg452dga908g11fe6f0034f3" version="1">The number of times you can utilize your unique skills as a Ranger.</content>
@@ -137,12 +137,12 @@
 	<content contentuid="hafc743f7g5d89g4175g80bfg869c34sds687" version="9">When rolling a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; against a target, you may also cause them to become &lt;LSTag Type="Status" Tooltip="FEARED"&gt;Terrified&lt;/LSTag&gt; for one turn.</content>
 
 	<content contentuid="hae000758g2c53g402cgb846g1e5asdfa8397" loreTexts="true" version="2">Lowerdark Predator</content>
-	<content contentuid="hb8bf311cg5a03g46a9g888bgceewersfa4f5" version="2">&lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made against a &lt;LSTag Type="Status" Tooltip="FEARED"&gt;Terrified&lt;/LSTag&gt; target will always roll as a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
+	<content contentuid="hb8bf311cg5a03g46a9g888bgceewersfa4f5" version="2">&lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made against a &lt;LSTag Type="Status" Tooltip="FEARED"&gt;Terrified&lt;/LSTag&gt; target will always roll as a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;. Upon landing a Critical Hit with this passive, Terrified is immediately removed from your target.</content>
 
 	<content contentuid="hfad5bf4eg0236g4af2g970agfdc9c7d219e2" version="2">Dread Ambusher</content>
-	<content contentuid="hafc743f7g5d89g4175g80bfg869c348717ed" version="9">On the first turn of combat, every successful &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; will be rolled as a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
+	<content contentuid="hafc743f7g5d89g4175g80bfg869c348717ed" version="9">On each turn of combat, your first successful &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; will be rolled as a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
 	<content contentuid="h8fe2d065g37c5g4c09ga086gb6a1db243352" version="2">Dread Ambusher</content>
-	<content contentuid="h0ed18fffge19bg4abag838fg1ed1692e591f" version="9">Affected creature will roll every successful &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; as a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
+	<content contentuid="h0ed18fffge19bg4abag838fg1ed1692e591f" version="9">Affected creature will roll their next successful &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; as a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">HUNTER</content>
 
@@ -171,10 +171,10 @@
 	<content contentuid="h20b19b1bg5da3g41d4g901bgd1d616a87715" version="2">When damaging a target you are currently &lt;LSTag Type="Status" Tooltip="HUNTED"&gt;Hunting&lt;/LSTag&gt;, you gain a bonus to all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; equal to the amount of stacks they have remaining.</content>
 
 	<content contentuid="h4d476cb8gfa45g4f4cga9d1gd0b109e9f9a2" version="2">On the Hunt</content>
-	<content contentuid="h20b19b1bg5da3g41d4g901bgd1d613fe8115" version="2">When damaging a target you are currently &lt;LSTag Type="Status" Tooltip="HUNTED"&gt;Hunting&lt;/LSTag&gt;, you roll your damage dice with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. In addition, you ignore all forms of physical &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; when dealing damage to an enemy or item.</content>
+	<content contentuid="h20b19b1bg5da3g41d4g901bgd1d613fe8115" version="2">When damaging a target you are currently &lt;LSTag Type="Status" Tooltip="HUNTED"&gt;Hunting&lt;/LSTag&gt;, you roll your damage dice with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. In addition, you ignore all forms of physical &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt; when dealing damage to an enemy or item.</content>
 
 	<content contentuid="h4d476cb8gfa45g4f4cga9d13w5e6f5sef21e" version="2">Twinned Strikes</content>
-	<content contentuid="h20b19b1bg5da3g41d4g9015se46f5s4e6f8d" version="2">When making a weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, you may target two creatures instead of one.</content>
+	<content contentuid="h20b19b1bg5da3g41d4g9015se46f5s4e6f8d" version="2">Your single target Frontier Ballistics may target two creatures instead of one.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">MIRE MIST</content>
 
@@ -182,7 +182,7 @@
 	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bfzzzzz" loreTexts="true" version="1">You explored the tainted ruins of the Mere of Dead Men and learned the power of the dreadful acid breathed by its black dragons.</content>
 
 	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf00001" version="1">Caustic Mire</content>
-	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf0000a" version="1">Both you and your Ranger Companions deal an additional [1] when dealing damage to an enemy. This bonus does not apply to damage dealt with an off-hand weapon. In addition, each time that you deal damage, you apply one stack of &lt;LSTag Type="Status" Tooltip="ACID"&gt;Acid&lt;/LSTag&gt;.</content>
+	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf0000a" version="1">Both you and your Ranger Companions deal an additional [1] when dealing damage to an enemy. In addition, each time that you deal damage, you apply one stack of &lt;LSTag Type="Status" Tooltip="ACID"&gt;Acid&lt;/LSTag&gt;.</content>
 
 	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf00002" version="1">Corrosive Bloom</content>
 	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf0000b" version="1">When &lt;LSTag Type="Status" Tooltip="CORRODED"&gt;Corrosion&lt;/LSTag&gt; is removed from an enemy, all enemies within [1] of them receive &lt;LSTag Type="Status" Tooltip="CAUSTIC_BRINE"&gt;Caustic Brine&lt;/LSTag&gt; for three turns.</content>
@@ -197,7 +197,7 @@
 	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf0000e" version="1">&lt;LSTag Type="Status" Tooltip="Tooltip_CorrosiveBloom"&gt;Corrosive Bloom&lt;/LSTag&gt; now applies &lt;LSTag Type="Status" Tooltip="CAUSTIC_BRINE"&gt;Caustic Brine&lt;/LSTag&gt; to your targets indefinitely, rather than for three turns.</content>
 
 	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf00006" version="1">Fatal Decay</content>
-	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf0000f" version="1">When dealing damage to a &lt;LSTag Type="Status" Tooltip="CORRODED"&gt;Corroded&lt;/LSTag&gt; enemy, you will only roll &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hits&lt;/LSTag&gt;.</content>
+	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf0000f" version="1">When dealing damage to a &lt;LSTag Type="Status" Tooltip="CORRODED"&gt;Corroded&lt;/LSTag&gt; enemy, you will only roll &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hits&lt;/LSTag&gt;. Upon landing a Critical Hit with this passive, Corrosion is immediately removed from your target.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">SWARMKEEPER</content>
 
@@ -277,42 +277,36 @@
 	<content contentuid="55a0054c23a247a29697b3a59e5eba7f0000e" version="1">When both you and your Ranger Companion damage the same creature, they become &lt;LSTag Type="Status" Tooltip="CRIPPLED"&gt;Crippled&lt;/LSTag&gt; for one turn.</content>
 
 	<content contentuid="55a0054c23a247a29697b3a59e5eba7f00006" version="1">Apex Coordination</content>
-	<content contentuid="55a0054c23a247a29697b3a59e5eba7f0000f" version="1">When either you or your Ranger Companion deal damage to a creature the other has already damaged, you deal an additional 1d8 damage.</content>
+	<content contentuid="55a0054c23a247a29697b3a59e5eba7f0000f" version="1">When either you or your Ranger Companion deal damage to a creature the other has already damaged, you deal an additional +1d12 damage.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">ARROWS</content>
 
 	<content contentuid="h8df46bbbg30b8g491ag835dg00ff2d5f4d64" version="4">Frontier Ballistics</content>
 	<content contentuid="hf44d4aedgce78g4700gb024gfcss6d9f7d87" version="4">Use your &lt;LSTag Type="ActionResource" Tooltip="NaturalRecoveryPoint"&gt;Natural Focus&lt;/LSTag&gt; to fire various types of unique arrows.</content>
 
-	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700019" version="4">Arrow of Aberration Slaying</content>
-	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000s" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfAberrationSlaying"&gt;Arrow of Aberration Slaying&lt;/LSTag&gt;.</content>
-
 	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700001" version="4">Arrow of Acid</content>
 	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000a" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfAcid"&gt;Arrow of Acid&lt;/LSTag&gt;.</content>
+
+	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700009" version="4">Arrow of Aleviation</content>
+	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000i" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfFiendSlaying"&gt;Arrow of Aleviation&lt;/LSTag&gt;.</content>
 
 	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700014" version="4">Arrow of Arcane Interference</content>
 	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000n" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfAntimagic"&gt;Arrow of Arcane Interference&lt;/LSTag&gt;.</content>
 
-	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700005" version="4">Arrow of Beast Slaying</content>
-	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000e" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfBeastSlaying"&gt;Arrow of Beast Slaying&lt;/LSTag&gt;.</content>
-
-	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700006" version="4">Arrow of Construct Slaying</content>
-	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000f" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfConstructSlaying"&gt;Arrow of Construct Slaying&lt;/LSTag&gt;.</content>
+	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700011" version="4">Arrow of Chaos</content>
+	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000k" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfMonstrositySlaying"&gt;Arrow of Chaos&lt;/LSTag&gt;.</content>
 
 	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700007" version="4">Arrow of Darkness</content>
 	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000g" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfDarkness"&gt;Arrow of Darkness&lt;/LSTag&gt;.</content>
 
-	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700008" version="4">Arrow of Elemental Slaying</content>
-	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000h" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfElementalSlaying"&gt;Arrow of Elemental Slaying&lt;/LSTag&gt;.</content>
-
-	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700009" version="4">Arrow of Fiend Slaying</content>
-	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000i" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfFiendSlaying"&gt;Arrow of Fiend Slaying&lt;/LSTag&gt;.</content>
-
 	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700002" version="4">Arrow of Fire</content>
 	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000b" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfFire"&gt;Arrow of Fire&lt;/LSTag&gt;.</content>
 
-	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700021" version="4">Arrow of Humanoid Slaying</content>
-	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000u" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfHumanoidSlaying"&gt;Arrow of Humanoid Slaying&lt;/LSTag&gt;.</content>
+	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700006" version="4">Arrow of Horde Shuttling</content>
+	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000f" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfConstructSlaying"&gt;Arrow of Horde Shuttling&lt;/LSTag&gt;.</content>
+
+	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700021" version="4">Arrow of Boxing</content>
+	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000u" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfHumanoidSlaying"&gt;Arrow of Boxing&lt;/LSTag&gt;.</content>
 
 	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700003" version="4">Arrow of Ice</content>
 	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000c" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfIce"&gt;Arrow of Ice&lt;/LSTag&gt;.</content>
@@ -323,11 +317,11 @@
 	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700004" version="4">Arrow of Lightning</content>
 	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000d" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfLightning"&gt;Arrow of Lightning&lt;/LSTag&gt;.</content>
 
+	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700008" version="4">Arrow of Malediction</content>
+	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000h" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfElementalSlaying"&gt;Arrow of Malediction&lt;/LSTag&gt;.</content>
+
 	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700015" version="4">Arrow of Many Targets</content>
 	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000o" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfRicochet"&gt;Arrow of Many Targets&lt;/LSTag&gt;.</content>
-
-	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700011" version="4">Arrow of Monstrosity Slaying</content>
-	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000k" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfMonstrositySlaying"&gt;Arrow of Monstrosity Slaying&lt;/LSTag&gt;.</content>
 
 	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700022" version="4">Arrow of Piercing</content>
 	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000v" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfPiercing"&gt;Arrow of Piercing&lt;/LSTag&gt;.</content>
@@ -338,11 +332,17 @@
 	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700016" version="4">Arrow of Salving</content>
 	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000p" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfDispelling"&gt;Arrow of Salving&lt;/LSTag&gt;.</content>
 
+	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700019" version="4">Arrow of Slaying</content>
+	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000s" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfAberrationSlaying"&gt;Arrow of Slaying&lt;/LSTag&gt;.</content>
+
+	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700005" version="4">Arrow of Tracking</content>
+	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000e" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfBeastSlaying"&gt;Arrow of Tracking&lt;/LSTag&gt;.</content>
+
 	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700017" version="4">Arrow of Teleportation</content>
 	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000q" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfTeleportation"&gt;Arrow of Teleportation&lt;/LSTag&gt;.</content>
 
-	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700013" version="4">Arrow of Undead Slaying</content>
-	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000m" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfUndeadSlaying"&gt;Arrow of Undead Slaying&lt;/LSTag&gt;.</content>
+	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700013" version="4">Arrow of Weakening</content>
+	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000m" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfUndeadSlaying"&gt;Arrow of Weakening&lt;/LSTag&gt;.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">PASSIVES</content>
 

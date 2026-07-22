@@ -142,7 +142,7 @@
 	<content contentuid="h3557fe72g2249g4b24ga497gb05417249e82" version="2">Mind Sanctuary</content>
 	<content contentuid="hb86adc61g8cefg4121gb8cbgfa8d79b09208" version="5">Sculpt a magical nexus that &lt;LSTag Type="Status" Tooltip="HASTE"&gt;Hastens&lt;/LSTag&gt; creatures within it.</content>
 	<content contentuid="h1eae02fagf8eeg4f63g9b3bgd031a52eb312" version="2">Mind Sanctuary Aura</content>
-	<content contentuid="hda4eb1b3gce2ag443cg93c7gdaea828b2f72" version="6">Anyone within the &lt;LSTag Type="Spell" Tooltip="Target_TAD_MindSanctuary&gt;Mind Sanctuary&lt;/LSTag&gt; becomes &lt;LSTag Type="Status" Tooltip="HASTE"&gt;Hastened&lt;/LSTag&gt;.</content>
+	<content contentuid="hda4eb1b3gce2ag443cg93c7gdaea828b2f72" version="6">Anyone within the &lt;LSTag Type="Spell" Tooltip="Target_TAD_MindSanctuary"&gt;Mind Sanctuary&lt;/LSTag&gt; becomes &lt;LSTag Type="Status" Tooltip="HASTE"&gt;Hastened&lt;/LSTag&gt;.</content>
 	<content contentuid="hfbc71a17g062dg4270gb5c9g389f726c3a12" version="3">Within the Mind Sanctuary</content>
 	<content contentuid="hca7dd49cg5965g4e11g8529g54629d864e21" version="5">Affected creature is &lt;LSTag Type="Status" Tooltip="HASTE"&gt;Hastened&lt;/LSTag&gt;.</content>
 
@@ -170,8 +170,8 @@
 	<content contentuid="h17566e31g76ddg41d8gafe5gb617ae1c8677" version="1">Awakened</content>
 	<content contentuid="h02c55962g989ag4901ga98cg8fcf76a9a120" version="1">Your tadpole has been thoroughly awakened. Illithid Powers no longer reduce your maximum &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.</content>
 
-	<content contentuid="h202dc139g4871g4a2ega932g075704cbbcbc" version="3">Your &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; has been reduced by 2 by the Zaith'isk. The githyanki device failed to harm your illithid parasite, and has instead permanently taken something from you.</content>
-	<content contentuid="h55e0fc7dgcd0ag4bb7g8d6cgb1d093ce452b" version="3">Your &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; has been reduced by 2 by the Zaith'isk. The githyanki device failed to harm your illithid parasite, and has instead permanently taken something from you.</content>
-	<content contentuid="hc71486d7geedcg4fcag9ba2g198152d38cb5" version="3">Your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt; has been reduced by 2 by the Zaith'isk. The githyanki device failed to harm your illithid parasite, and has instead permanently taken something from you.</content>
+	<content contentuid="4aacf12f90964e39b7ce773390bad4e465601" version="3">Your &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; has been reduced by 2 by the Zaith'isk. The githyanki device failed to harm your illithid parasite, and has instead permanently taken something from you.</content>
+	<content contentuid="4aacf12f90964e39b7ce773390bad4e465602" version="3">Your &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; has been reduced by 2 by the Zaith'isk. The githyanki device failed to harm your illithid parasite, and has instead permanently taken something from you.</content>
+	<content contentuid="4aacf12f90964e39b7ce773390bad4e465603" version="3">Your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt; has been reduced by 2 by the Zaith'isk. The githyanki device failed to harm your illithid parasite, and has instead permanently taken something from you.</content>
 
 </contentList>

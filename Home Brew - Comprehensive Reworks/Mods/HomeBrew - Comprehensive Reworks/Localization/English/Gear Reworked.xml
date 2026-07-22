@@ -2,83 +2,84 @@
 <contentList>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">ARROWS</content>
-	<content contentuid="he2f3af0ag21d0g40efg833bg12f5032eba13" version="1">Arrow of Aberration Slaying</content>
-	<content contentuid="h2f9cb0f3ge068g493egafd3g3d752f9cc7d0" version="5">Fire an arrow which rolls an additional damage die against Aberrations.</content>
 
 	<content contentuid="he7d3b067gf505g4895g93f4gd8a8856a8c3c" version="1">Arrow of Acid</content>
-	<content contentuid="h58d1b318g8c0eg4cf8g9785g4fd2dab88428" version="3">Fire an arrow which explodes in a spray of acid that deals an additional [2].</content>
+	<content contentuid="h58d1b318g8c0eg4cf8g9785g4fd2dab88428" version="3">Fire an arrow which explodes in a spray of acid, coating the ground for three turns and dealing an additional [1] to all caught in the radius</content>
+
+	<content contentuid="hd49eb0b4gd15bg417dg98b2g7ead6584c533" version="1">Arrow of Aleviation</content>
+	<content contentuid="h94ea1db8g1360g4f3cgb557gfa35c161b3f2" version="5">Fire an arrow which restores a creature's &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.</content>
 
 	<content contentuid="hfa474df3g6f0ag45e2gb8d7g706291929b90" version="2">Arrow of Arcane Interference</content>
-	<content contentuid="h55e4821ege0a7g470fg8d5dg8f45efbd49e5" version="3">Fire an arrow which breaks your target's &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Mutes&lt;/LSTag&gt; them.</content>
+	<content contentuid="h55e4821ege0a7g470fg8d5dg8f45efbd49e5" version="3">Fire an arrow which breaks your target's &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Mutes&lt;/LSTag&gt; them for one turn.</content>
 
-	<content contentuid="ha50b0313g4be0g4db7gbbb1g44177dc9ebeb" version="1">Arrow of Beast Slaying</content>
-	<content contentuid="h75823bbcg4d0bg4d9agb192gfe8c20b23f8a" version="5">Fire an arrow which rolls an additional damage die against Beasts.</content>
+	<content contentuid="hc777b4f4g17c8g4e6dg92c1g19eda481f6bd" version="1">Arrow of Boxing</content>
+	<content contentuid="h62bb6b87g6a61g4a36gbc23g408f99395d93" version="5">Fire an arrow which deals additional bludgeoning damage and knocks your target &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h57cf9b12g090ag426ag8d70g115201c8c1ad" version="1">Arrow of Celestial Slaying</content>
-	<content contentuid="hfc0ba6eag3baeg41ecg98adgd82d4eece9d4" version="5">Fire an arrow which rolls an additional damage die against Celestials.</content>
+	<content contentuid="hfc0ba6eag3baeg41ecg98adgd82d4eece9d4" version="5">Fire an arrow which deals an additional [1] against Celestials.</content>
 
-	<content contentuid="ha881c553gff7cg464fgba45g3786ace1ff82" version="1">Arrow of Construct Slaying</content>
-	<content contentuid="he6550266g5b4cg45b1gb1f3ge9836262f386" version="5">Fire an arrow which rolls an additional damage die against Constructs.</content>
+	<content contentuid="h26954623gd0bcg4a4agaed9g6e54bc6f3ffe" version="1">Arrow of Chaos</content>
+	<content contentuid="h0605539eg3494g4f6fg834dg51784944a2b0" version="5">Fire an arrow which forces your target to experience a negative surge of &lt;LSTag Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h2ebcbfe2gd6b3g4befga0f4g60f0a38008f8" version="1">Arrow of Darkness</content>
-	<content contentuid="h3b28824bga635g4d77g920cg9bbdd03dbfda" version="3">Fire an arrow which spreads magical darkness on impact.</content>
+	<content contentuid="h3b28824bga635g4d77g920cg9bbdd03dbfda" version="3">Fire an arrow which spreads a cloud of magical darkness for three turns on impact.</content>
 
 	<content contentuid="h50f265d0g752dg44ffg80cfg2f45248639ba" version="1">Arrow of Dragon Slaying</content>
 	<content contentuid="h28af2aecg2986g4508g8046gb3c29104062a" version="5">ire an arrow which rolls an additional damage die against Dragons.</content>
 
-	<content contentuid="h3a223ba2g04d7g4f40g9223g2122e181880b" version="1">Arrow of Elemental Slaying</content>
-	<content contentuid="hb87cebf9gfce3g4a52g9dbbg2165ae0fde92" version="5">Fire an arrow which rolls an additional damage die against Elementals.</content>
-
 	<content contentuid="h304d9cf2g3c3bg4ce8g9462g15592aa2a34e" version="1">Arrow of Fey Slaying</content>
-	<content contentuid="h3e474646g04c0g4414gb47bg8903176d6032" version="5">Fire an arrow which rolls an additional damage die against Fey.</content>
-
-	<content contentuid="hd49eb0b4gd15bg417dg98b2g7ead6584c533" version="1">Arrow of Fiend Slaying</content>
-	<content contentuid="h94ea1db8g1360g4f3cgb557gfa35c161b3f2" version="5">Fire an arrow which rolls an additional damage die against Fiends.</content>
+	<content contentuid="h3e474646g04c0g4414gb47bg8903176d6032" version="5">Fire an arrow which deals an additional [1] against Fey.</content>
 
 	<content contentuid="h0f9a7ae2gb3bbg480ag82b1gfcddc4f2c5d1" version="1">Arrow of Fire</content>
-	<content contentuid="h0710e5c7g3b91g4235g889egd516723b5e02" version="3">Fire an arrow which erupts in scorching fire that deals an additional [2].</content>
+	<content contentuid="h0710e5c7g3b91g4235g889egd516723b5e02" version="3">Fire an arrow which erupts in scorching fire, setting the ground ablaze for three turns and dealing an additional [1] to all caught in the radius.</content>
 
 	<content contentuid="h0b26054fgee27g4041gbb53g91e6e75534fb" version="1">Arrow of Giant Slaying</content>
-	<content contentuid="hd5332414geea8g431cg9901g0bcd3ee5d6f9" version="5">Fire an arrow which rolls an additional damage die against Giants.</content>
+	<content contentuid="hd5332414geea8g431cg9901g0bcd3ee5d6f9" version="5">Fire an arrow which deals an additional [1] against Giants.</content>
 
-	<content contentuid="hc777b4f4g17c8g4e6dg92c1g19eda481f6bd" version="1">Arrow of Humanoid Slaying</content>
-	<content contentuid="h62bb6b87g6a61g4a36gbc23g408f99395d93" version="5">Fire an arrow which rolls an additional damage die against Humanoids.</content>
+	<content contentuid="ha881c553gff7cg464fgba45g3786ace1ff82" version="1">Arrow of Horde Shuttling</content>
+	<content contentuid="he6550266g5b4cg45b1gb1f3ge9836262f386" version="5">Fire an arrow which pulls all enemies up to [1] closer toward your target.</content>
 
 	<content contentuid="h3fd8d9b6gc313g4c06gb554g38571ae4045b" version="1">Arrow of Ice</content>
-	<content contentuid="hee002a86gf31dg462dgba26g1e382714dc6e" version="3">Fire an arrow which shatters into ice that deals an additional [2].</content>
+	<content contentuid="hee002a86gf31dg462dgba26g1e382714dc6e" version="3">Fire an arrow which shatters into ice, freezing the ground for three turns and dealing an additional [1] to all caught in the radius.</content>
 
 	<content contentuid="h5ec08a06g3cdbg4200ga7b4g80c73d124e06" version="1">Arrow of Ilmater</content>
-	<content contentuid="hd25654bag1e54g4135gb9f3g614e67b5b5b5" version="2">Fire an arrow which ravages your target, preventing them from regaining &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.</content>
+	<content contentuid="hd25654bag1e54g4135gb9f3g614e67b5b5b5" version="2">Fire an arrow which ravages your target, preventing them from regaining &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; for three turns.</content>
 
 	<content contentuid="h4b7cd142g8888g46cegaec5ge3495314a9db" version="1">Arrow of Lightning</content>
-	<content contentuid="h73a1e466g9e27g4ca7g80b8g6cc90b7cb8f7" version="3">Fire an arrow which explodes in a bolt of lightning that deals an additional [2].</content>
+	<content contentuid="h73a1e466g9e27g4ca7g80b8g6cc90b7cb8f7" version="3">Fire an arrow which explodes in a bolt of lightning, electrifying water that it touches and dealing an additional [1] to all caught in the radius.</content>
+
+	<content contentuid="h3a223ba2g04d7g4f40g9223g2122e181880b" version="1">Arrow of Malediction</content>
+	<content contentuid="hb87cebf9gfce3g4a52g9dbbg2165ae0fde92" version="5">Fire an arrow which causes your target to &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleed&lt;/LSTag&gt; indefinitely.</content>
 
 	<content contentuid="h0b80a0c0g7281g431egb624g3c496b59ce67" version="1">Arrow of Many Targets</content>
 	<content contentuid="hb7ad154eg6ce4g4da6g8f42ga9396530dcbe" version="4">Fire an arrow that can hit up to two targets if they are within [1] of each other.</content>
 
-	<content contentuid="h26954623gd0bcg4a4agaed9g6e54bc6f3ffe" version="1">Arrow of Monstrosity Slaying</content>
-	<content contentuid="h0605539eg3494g4f6fg834dg51784944a2b0" version="5">Fire an arrow which rolls an additional damage die against Monstrosities.</content>
-
 	<content contentuid="ha6e72561g1607g4e83gb484g5352fd80c713" version="1">Arrow of Ooze Slaying</content>
-	<content contentuid="h38f5697dge0fbg42e1g8d8dgc70686483530" version="5">Fire an arrow which rolls an additional damage die against Oozes.</content>
+	<content contentuid="h38f5697dge0fbg42e1g8d8dgc70686483530" version="5">Fire an arrow which deals an additional [1] against Oozes.</content>
 
 	<content contentuid="h687d0557g1c85g4673g979bg8244ac9a5727" version="1">Arrow of Piercing</content>
-	<content contentuid="h9017f0fbg8eb9g4356gb526gffb754668b92" version="1">Fire an arrow which deals half damage to creatures directly behind your initial target.</content>
+	<content contentuid="h9017f0fbg8eb9g4356gb526gffb754668b92" version="1">Fire an arrow which deals damage to creatures in a [1] line.</content>
 
 	<content contentuid="h15975c4dgc2c4g4a6dg83aeg09a82da01795" version="1">Arrow of Plant Slaying</content>
-	<content contentuid="hb5adbe19ged05g4c89gababgb61c53485082" version="5">Fire an arrow which rolls an additional damage die against Plants.</content>
+	<content contentuid="hb5adbe19ged05g4c89gababgb61c53485082" version="5">Fire an arrow which deals an additional [1] against Plants.</content>
 
 	<content contentuid="hb66e62f7gae14g4356gababg5e27efb1faf1" version="1">Arrow of Roaring Thunder</content>
-	<content contentuid="hf6154615g1d6cg4fbagbbafg019ce0e27e73" version="5">Fire an arrow which explodes on impact, pushing targets back [1].</content>
+	<content contentuid="hf6154615g1d6cg4fbagbbafg019ce0e27e73" version="5">Fire an arrow which explodes on impact, possibly pushing targets back [1].</content>
 
 	<content contentuid="h2d0e56f9gaf36g4f43g9a96g2a7ab6948eff" version="4">Arrow of Salving</content>
 	<content contentuid="hf93a1bdeg5b93g491ag9e4cgeafb8fd3e223" version="7">Fire an arrow which provides the effects of &lt;LSTag Type="Spell" Tooltip="Target_LesserRestoration"&gt;Latent Restoration&lt;/LSTag&gt;.</content>
 
+	<content contentuid="he2f3af0ag21d0g40efg833bg12f5032eba13" version="1">Arrow of Slaying</content>
+	<content contentuid="h2f9cb0f3ge068g493egafd3g3d752f9cc7d0" version="5">Fire an arrow which deals an additional [1] against non humanoid targets.</content>
+
+	<content contentuid="ha50b0313g4be0g4db7gbbb1g44177dc9ebeb" version="1">Arrow of Tracking</content>
+	<content contentuid="h75823bbcg4d0bg4d9agb192gfe8c20b23f8a" version="5">Fire an arrow which cannot miss and afflicts your target with &lt;LSTag Type="Status" Tooltip="FAERIE_FIRE"&gt;Faerie Fire&lt;/LSTag&gt;.</content>
+
 	<content contentuid="h338f3b2cged0bg4e4agb5d1g04a83fc4429e" version="2">Arrow of Transposition</content>
 	<content contentuid="hc305d493g4311g4071g9261gf845d467eb86" version="3">Fire an arrow which teleports you to wherever it lands.</content>
 
-	<content contentuid="hc8088769g3a9ag439fg906cg148133ad098c" version="1">Arrow of Undead Slaying</content>
-	<content contentuid="h85fe6bc7gf51cg4013g8340ge67827c71da0" version="5">Fire an arrow which rolls an additional damage die against Undead.</content>
+	<content contentuid="hc8088769g3a9ag439fg906cg148133ad098c" version="1">Arrow of Weakening</content>
+	<content contentuid="h85fe6bc7gf51cg4013g8340ge67827c71da0" version="5">Fire an arrow which applies &lt;LSTag Type="Status" Tooltip="BANE"&gt;Bane&lt;/LSTag&gt; to your target for three turns.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">ATTUNEMENT</content>
 	<content contentuid="hd3a156cc7fbf4a5c985eef63f0c2b99b55g3" version="1">Attunement</content>
@@ -302,7 +303,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">BHAALIST ARMOUR</content>
 	<content contentuid="h4c517878gaff7g4cf9g80ebg1485fb167ac4" version="3">Aura Of Murder</content>
-	<content contentuid="hca6a61c4g4985g4472gab5bgeebc0c055f00" version="2">Landing a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; causes your target to become &lt;LSTag Tooltip="Vulnerable"&gt;Vulnerable&lt;/LSTag&gt; to Piercing damage until the start of their next turn.</content>
+	<content contentuid="hca6a61c4g4985g4472gab5bgeebc0c055f00" version="2">Landing a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; strips your target of all damage &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; for three turns.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">BHAALIST GLOVES</content>
 	<content contentuid="h637d25d5g33ddg41b2ga10cg08ca6b0a3ca6" version="1">Wrap a shadow rope around a Humanoid creature's throat to start &lt;LSTag Type="Status" Tooltip="MAG_GARROTE_TARGET"&gt;Garrotting&lt;/LSTag&gt; it.</content>
@@ -438,7 +439,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">RING OF ABSOLUTE FORCE</content>
 	<content contentuid="h2639ffe7g77a9g4dc2gb95cgc219e4f0ca7f" version="2">Absolute Tempest</content>
-	<content contentuid="hd8f5c814gc998g4b5bga85fg28466ae520df" version="3">When dealing Thunder damage, the damage is increased by +[1].</content>
+	<content contentuid="hd8f5c814gc998g4b5bga85fg28466ae520df" version="3">When dealing Thunder damage, the damage is increased by +[1]. No effect while assuming a &lt;LSTag Type="ActionResource" Tooltip="Wildshape"&gt;Wildshaped&lt;/LSTag&gt;.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">CAP OF WRATH</content>
 	<content contentuid="hc9ee68f2g9cb1g496cg9dceg0bb5acb2cebe" version="2">Last Stand</content>
@@ -490,7 +491,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">ROBE OF SUMMER</content>
 	<content contentuid="hcbc03dafg8aacg4068g808cg1849bsdfd225" version="3">Summer Heat</content>
-	<content contentuid="hc38ef374g8d19g47d5g80d3g0bdd2f5d6f45" version="5">When dealing Fire damage with Spells or &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt;, you deal an additional [1].</content>
+	<content contentuid="hc38ef374g8d19g47d5g80d3g0bdd2f5d6f45" version="5">When the wearer casts a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; that deals Fire damage, it deals an additional [1].</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">PUNCH DRUNK BASTARD</content>
 	<content contentuid="he4a130abgff41g4523gb29eg783ddfb71769" version="2">Tippler's Rage</content>
@@ -723,7 +724,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">RING OF SPITEFUL THUNDER</content>
 	<content contentuid="h7ade8bedg3b12g4e9ega0c0g39ac4561ec63" version="2">Spiteful Thunder</content>
-	<content contentuid="h6434a385g471bg4729g9d4bgb51b42a05f2b" version="7">When the wearer deals Thunder damage to a &lt;LSTag Type="Status" Tooltip="MAG_THUNDER_REVERBERATION"&gt;Reverberating&lt;/LSTag&gt; creature, it becomes &lt;LSTag Type="Status" Tooltip="DAZED"&gt;Dazed&lt;/LSTag&gt; for three turns unless it succeeds a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.</content>
+	<content contentuid="h6434a385g471bg4729g9d4bgb51b42a05f2b" version="7">When the wearer deals damage to a &lt;LSTag Type="Status" Tooltip="MAG_THUNDER_REVERBERATION"&gt;Reverberating&lt;/LSTag&gt; creature, it becomes &lt;LSTag Type="Status" Tooltip="DAZED"&gt;Dazed&lt;/LSTag&gt; for three turns unless it succeeds a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">CLOAK OF DERIVATION</content>
 	<content contentuid="h6ca28184gb0eeg41b9g8888g184e7c14bb1a" version="2">Deadly Derivation</content>
@@ -880,6 +881,10 @@
 	<content contentuid="h5f7f6031g7ae9g48a1g9ecdg8a10a72d525f" version="2">Covert Crits</content>
 	<content contentuid="hcbdf26d1g1f6cg4771gadd5g968db39sd6f8" version="4">While obscured, the number you need to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; while attacking is reduced by 1. This effect can stack.</content>
 
+<content contentuid="0000000000000000000000000000000000000" version="1">NECKLACE OF ELEMENTAL AUGMENTATION</content>
+	<content contentuid="hc4ad4d92gba57g4cecgbb82g5b31a68306e9" version="2">Elemental Augmentation</content>
+	<content contentuid="h8325974bg580bg4efdgb968g23048f4c24aa" version="10">When one of your &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt; deals Acid, Cold, Fire, Lightning, or Thunder damage as it's primary source of damage, you add your &lt;LSTag Tooltip="SpellcastingAbilityModifier"&gt;Spellcasting Modifier&lt;/LSTag&gt; to the damage dealt.</content>
+
 <content contentuid="0000000000000000000000000000000000000" version="1">DEVILFOIL MASK</content>
 	<content contentuid="h9b3a403egfba1g424ag9bdeg841fa5a4a454" version="2">Devilish Bargain</content>
 	<content contentuid="h600a70ebgef05g4769ga741g73846dc66a97" version="4">Gain &lt;LSTag Type="Status" Tooltip="UNI_MERREGONMASK_EFFECT"&gt;Infernal Legion&lt;/LSTag&gt;.</content>
@@ -919,8 +924,8 @@
 	<content contentuid="hf48fdd2fg0a02g4fd6g9ab9g92db8ec732cc" version="3">Dealing damage with this weapon has a chance to &lt;LSTag Type="Status" Tooltip="ENSNARING_STRIKE"&gt;Ensnare&lt;/LSTag&gt; your target if it is not a plant or a beast.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">WHISPERING MASK</content>
-	<content contentuid="he25a2005g0569g423cg8adega4b4eb6a59ae" version="3">Part of the Flock: Weird Magic</content>
-	<content contentuid="hdab5ba67g83a1g4162g937bgee603c87c79a" version="2">Auntie Ethel welcomes you, dearie. Upon being damaged, you have a chance of experiencing a sudden surge of &lt;LSTag Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt;.</content>
+	<content contentuid="he25a2005g0569g423cg8adega4b4eb6a59ae" version="3">Part of the Flock</content>
+	<content contentuid="hdab5ba67g83a1g4162g937bgee603c87c79a" version="2">Auntie Ethel welcomes you to her flock, dearie. This mask will dispel Ethel's nearby illusions...for a price.&lt;br&gt;&lt;br&gt;In addition, upon being damaged, you have a chance of experiencing a sudden surge of &lt;LSTag Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt;.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">PALE OAK</content>
 	<content contentuid="h0e5919fbg8bf8g48c7gb3ffgs65d4f65d4df" version="2">Withering Roots</content>
@@ -1011,7 +1016,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">EVERBURN BLADE</content>
 	<content contentuid="h6d7bd506g0399g40d8g9ccbgf2cbb41ff5d6" version="2">Everburn</content>
-	<content contentuid="h000d4a79ge387g43d7ga7eeg22c52d2ss6f9" version="4">Dealing damage with this weapon causes your target to &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burn&lt;/LSTag&gt; for one turn.</content>
+	<content contentuid="h000d4a79ge387g43d7ga7eeg22c52d2ss6f9" version="4">Dealing damage with this weapon potentially causes your target to &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burn&lt;/LSTag&gt; for one turn.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">GLOWING SHIELD</content>
 	<content contentuid="h6f526c99g8a05g4600gbc11g5b2b154981bc" version="2">Loving Protection</content>
@@ -1067,7 +1072,11 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">HEDGE WANDERER ARMOUR</content>
 	<content contentuid="h7c010d6bg743bg4afdgaa7cg1e225d2f5545" version="1">Lifebloom</content>
-	<content contentuid="haec88c7bg018bg42afgbe89g4asd5f6d8584" version="3">Upon using your &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt; to heal another creature, you transfer your &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; to them for the turn, if you have one available. This can be toggled at any time.</content>
+	<content contentuid="haec88c7bg018bg42afgbe89g4asd5f6d8584" version="3">Upon using your &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt; to heal another creature, you transfer your &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; to them for the turn, &lt;LSTag Type="Status" Tooltip="HASTE"&gt;Hastening&lt;/LSTag&gt; them, if you have one available. This can be toggled at any time.</content>
+
+<content contentuid="0000000000000000000000000000000000000" version="1">MARTIAL EXERTION GLOVES</content>
+	<content contentuid="ha4b5c898g0bcfg4641ga7c9g16a9d4b862f5" version="2">Martial Exertion</content>
+	<content contentuid="hf6d265cfg21fdg4334g8e39ge03a71205022" version="4">Push past your physical limits, taking [1] in order to &lt;LSTag Type="Status" Tooltip="HASTE"&gt;Hasten&lt;/LSTag&gt; yourself.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">WOOD WOAD SHIELD</content>
 	<content contentuid="h7c010d6bg743bg4afdgaa7cg1e225d222545" version="1">Vicious Seed</content>
@@ -1089,7 +1098,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">COLD SNAP</content>
 	<content contentuid="hee87b1afg77b0g43a5g9ab0gee6157ec09de" version="2">Chilling Counter</content>
-	<content contentuid="hf9961059g646eg4646gb936ge54098a70132" version="3">When a creature fails an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against you, it becomes &lt;LSTag Type="Status" Tooltip="CHILLED"&gt;Chilled&lt;/LSTag&gt; for [1] turns.</content>
+	<content contentuid="hf9961059g646eg4646gb936ge54098a70132" version="3">When a creature fails an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against you, it becomes &lt;LSTag Type="Status" Tooltip="CHILLED"&gt;Chilled&lt;/LSTag&gt; for [1] turn.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">CROOKED WAND OF FIREBALLS</content>
 	<content contentuid="h161aa62ag510cg48cega0cbge37e3321c64a" version="2">Crooked Wand of Fireballs</content>
@@ -1203,7 +1212,13 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">HORNS OF THE BERSERKER</content>
 	<content contentuid="h0633c5c1g0427g4169g8b1fgde5e1605d387" version="1">Blood Thirst</content>
-	<content contentuid="ha0b53930g3ba7g425ag8901g41585c661758" version="4">Unarmed and melee attacks will deal an additional [1] while below half of your total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.</content>
+	<content contentuid="ha0b53930g3ba7g425ag8901g41585c661758" version="4">Physical attacks will deal an additional [1] while below half of your total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.</content>
+
+<content contentuid="0000000000000000000000000000000000000" version="1">BRACING BAND</content>
+	<content contentuid="h6c6e1164ge270g44f6gaf88g84fedd3491c5" version="2">Personal Space</content>
+	<content contentuid="h34da065dg67a2g4a64g90e6g40a3da484f82" version="2">After shoving an enemy, the wearer gains a +2 to their &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; until their next turn.</content>
+	<content contentuid="hba78a35cgdaeag4eedgbe3fg2e119d7c0558" version="2">Enhanced Armour Class</content>
+	<content contentuid="hb2175f98g5478g4848gbb8ega407090d8472" version="2">Affected creature's &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; increased by 2.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">KILLERS SWEETHEART</content>
 	<content contentuid="h00d004f6g09f6g43bfga6bbg3b2447c60133" version="2">Executioner</content>
@@ -1336,7 +1351,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">PYROQUICKNESS HAT</content>
 	<content contentuid="h882f26e1g5702g4d33g835cgd8aef161b3bb" version="2">Fiery Return</content>
-	<content contentuid="ha52eda16g7787g4edfg8adbg567579ada73c" version="4">When you deal Fire damage with a Spell, you &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burn&lt;/LSTag&gt; yourself and gain an additional &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
+	<content contentuid="ha52eda16g7787g4edfg8adbg567579ada73c" version="4">When you deal Fire damage with a Spell, your target begins to &lt;LSTag Type="Status" Tooltip="BURNING_AZER"&gt;Burn Fiercely&lt;/LSTag&gt;.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">UNFLINCHING PROTECTOR AMULET</content>
 	<content contentuid="hf620a8ddg9452g4c30gaaf1g7f83be65e53e" version="2">Unflinching Protection</content>
@@ -1347,6 +1362,12 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">WAVEMOTHER'S SICKLE</content>
 	<content contentuid="h04c27da9g92f0g4caag9936gbd73fbd0b092" version="2">Watery Guidance</content>
 	<content contentuid="h2519e7d8gf845g448fg8097g2b67969a34f0" version="2">This weapon makes both &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and Damage with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; when targeting &lt;LSTag Type="Status" Tooltip="WET"&gt;Wet&lt;/LSTag&gt; creatures.</content>
+
+<content contentuid="0000000000000000000000000000000000000" version="1">CHAIN OF LIBERATION</content>
+	<content contentuid="h827ba941gff11g4de2g99deg58ace2bd514a" version="2">Sprint</content>
+	<content contentuid="hbee0e895g455bg446dg9727g58a48ee90280" version="3">Once per turn, the wearer can &lt;LSTag Type="Spell" Tooltip="Rush_MAG_Mobility_SprintForMomentum_Action"&gt;Sprint&lt;/LSTag&gt;.</content>
+	<content contentuid="h9c1c65cag1648g4836g9953gecf069a20869" version="2">Sprint</content>
+	<content contentuid="h3915c981g07d9g4e53ga2f8g9b50878bb262" version="2">Rush ahead in a straight line.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">INFERNAL MACE</content>
 	<content contentuid="h6816720eg3126g4738gabb9g87c800dd6f84" version="2">Infernal Weapon</content>
@@ -1374,7 +1395,11 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">SHADE-SLAYER CLOAK</content>
 	<content contentuid="h45c8f017g88abg43e8gbbb0gbeabc933a016" version="2">Shade-Slayer</content>
-	<content contentuid="h8cbbaa63g1d97g4741gb065gc06a1647ab86" version="4">While &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Sneaking&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt;, damaging an enemy who has not had a turn yet will always result in a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
+	<content contentuid="h8cbbaa63g1d97g4741gb065gc06a1647ab86" version="4">While &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Sneaking&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt;, damaging an enemy below 20% of their maximum &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; will always result in a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
+
+<content contentuid="0000000000000000000000000000000000000" version="1">POISONERS ROBE</content>
+	<content contentuid="hcbc03dafg8aacg4068g808cg1849be085b2f" version="1">Poison Trails</content>
+	<content contentuid="hc38ef374g8d19g47d5g80d3g0bc2665dd615" version="1">When the wearer casts a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; that deals Poison damage, it deals an additional [1].</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">CINDERMOTH CLOAK</content>
 	<content contentuid="h4a0a6885g53f5g4a35g8c2egeb3a3b3190fe" version="2">Flaming Shroud</content>
@@ -1563,7 +1588,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">HELMET OF GRIT</content>
 	<content contentuid="h60c7c367g27a1g4974ga2a1g9981f61131f3" version="2">Gritty</content>
-	<content contentuid="hac52787ag9453g4ac7gb7e1g6bc38ba8690d" version="2">When the wearer has 75% &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; or less, they gain an additional &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
+	<content contentuid="hac52787ag9453g4ac7gb7e1g6bc38ba8690d" version="2">When the wearer has 75% &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; or less, they become &lt;LSTag Type="Status" Tooltip="HASTE"&gt;Hastened&lt;/LSTag&gt;.</content>
 	<content contentuid="h774d2034g260ag4415g811fge16ec53b3c81" version="1">Gritty</content>
 	<content contentuid="hbac36a5fgc882g4cfbg9f24g83162aac3c57" version="1">Affected creature has an additional &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
 
@@ -1611,6 +1636,10 @@
 	<content contentuid="h019c26f6g67b0g4b19ga98eg843c9d76d379" version="1">Marksmanship</content>
 	<content contentuid="hf2c566d6g5f9dg4519g87adg898d5c07515c" version="2">You gain a +[1] bonus to Ranged &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
 
+<content contentuid="0000000000000000000000000000000000000" version="1">TIGHTENING ORBIT HELM</content>
+	<content contentuid="hac6a4d2fg9308g467agb761g0aded921d731" version="3">Tightening Orbit</content>
+	<content contentuid="hc55be74bg3577g4ed5g9e47g435ecbeb569c" version="7">Pull every nearby enemy toward you with damaging force.</content>
+
 <content contentuid="0000000000000000000000000000000000000" version="1">SAREVOK'S HORNED HELMET</content>
 	<content contentuid="h45510682g7072g49c2g83fdg9ba6394b0c5e" version="3">Deathbringer's Sight</content>
 	<content contentuid="hed42c5a0gbb6bg48f7g8c9egfc75d8eaa058" version="4">You gain &lt;LSTag Type="Passive" Tooltip="Darkvision"&gt;Darkvision&lt;/LSTag&gt; up to a range of [1]. The number needed to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; while attacking is reduced by 1. This effect can stack.</content>
@@ -1640,7 +1669,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">WAPIRAS CROWN</content>
 	<content contentuid="h1ff0301fgd6a2g40a5g8369ga302f1278e80" version="1">Wapira's Blessing</content>
-	<content contentuid="h19bec3dage4f2g4123g90b6gc1c099d03d95" version="1">When healing another creature, you regain [1].</content>
+	<content contentuid="h19bec3dage4f2g4123g90b6gc1c099d03d95" version="1">When directly targeting another creature with a heal, you regain [1].</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">HAT OF UPROARIOUS LAUGHTER</content>
 	<content contentuid="hcbc3f9f4g25eeg4d5egb2fegc4ba164df2be" version="1">Slippery Slapsticky</content>
@@ -1847,7 +1876,7 @@
 	<content contentuid="h34928a6ag6133g4798gb825g22fb15f51b11" version="1">Holy Symbol of Kelemvor</content>
 	<content contentuid="hc7f5cd59g17dbg4c01gae23g95151b0c035e" version="1">A small and ancient stone coin with the symbol of Kelemvor engraved on it.</content>
 	<content contentuid="h056322b9g3133g4a74g94fcg870752f5a500" version="1">Balance the Scales</content>
-	<content contentuid="h41345d5eg81deg4336g8edcgbd7b9c2bc9b7" version="1">When dealing elemental damage with a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt;, deal an additional +1d4 damage.</content>
+	<content contentuid="h41345d5eg81deg4336g8edcgbd7b9c2bc9b7" version="1">When dealing damage with a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt;, deal an additional +1d4 damage.</content>
 
 	<content contentuid="hf0015675gcc57g4b31ga36agebbbae1f8c88" version="1">Holy Symbol of Silvanus</content>
 	<content contentuid="hd0b62233gaec6g4b49g9b23g497b53984317" version="1">A smooth wooden token carved with the symbol of Silvanus on the front.</content>
@@ -1864,7 +1893,7 @@
 	<content contentuid="h6f2f299dgce78g4e46gbe1dg18a3e1921f77" version="1">Triage Kit</content>
 	<content contentuid="ha7930679g7090g4390g9136gdbf730456f69" version="1">A collection of tools used for treating wounds in the field.</content>
 	<content contentuid="h9feab2e7g52b5g4455ga485g021f03b0811d" version="1">Tend Injuries</content>
-	<content contentuid="h4addf87dg5166g40cfg9467gd2110e037825" version="1">&lt;LSTag Type="Spell" Tooltip="Target_Help"&gt;Help&lt;/LSTag&gt; a creature as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
+	<content contentuid="h4addf87dg5166g40cfg9467gd2110e037825" version="1">You may &lt;LSTag Type="Spell" Tooltip="Target_Help"&gt;Help&lt;/LSTag&gt; creatures as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;. This can be toggled at any time.</content>
 
 	<content contentuid="h1e15e6ebg8ae1g40cfg9677g25dd23123a2e" version="1">Portable Whetstone</content>
 	<content contentuid="h19b3ae37g5128g4905gab1fg7361a8482cf0" version="1">A sharp stone used for keeping slashing and piercing weapons ready for battle.</content>
@@ -1881,8 +1910,9 @@
 	<content contentuid="hda711983gaa8dg4857g8009g6e7fad1586f9" version="1">Candle of Lawful Invocation</content>
 	<content contentuid="h39c74846g1ebag40aagb85dg948bcd217aa3" version="1">A slender taper dedicated to various lawful deities.</content>
 	<content contentuid="h6464bc22gfd08g4349gad10g8d70ed230120" version="1">Holy Warmth</content>
-	<content contentuid="h737ae331g5f76g4ffag8528gd91bdf1e21dd" version="1">Infuse your weapon with light.</content>
-	<content contentuid="h93101549gc2acg425ag92f7gf0b846a2f2ae" version="1">When targeting a creature holding an object, they gain an additional 1st level &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;.</content>
+	<content contentuid="h93101549gc2acg425ag92f7gf0b846a2f2ae" version="1">Targeting a creature, granting them an additional 1st level &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;.</content>
+	<content contentuid="h6464bc22gfd08g4349gad10g8d70ed23012z" version="1">Holy Warmth</content>
+	<content contentuid="h93101549gc2acg425ag92f7gf0b846a2f2az" version="1">Affected creature has an additional 1st level &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h623f78f1gb4cbg477aga12cg22b6926a343a" version="1">Efficient Quiver</content>
 	<content contentuid="hadade399g5e64g4096ga708g87fbc6bf17b8" version="1">Contains a small extradimensional space capable of holding more than the average quiver.</content>
@@ -2228,7 +2258,7 @@
 	<content contentuid="hdff40298g8708g4d55ga18cgcff4aba8924a" version="1">Book of Vile Darkness</content>
 	<content contentuid="ha7ed7395g99f2g413bgae55gc66140a0b42b" version="1">A tome of ineffable wickedness, a reference work of evil authored, edited and compiled by some of the most powerful and maleficent entities across the multiverse.</content>
 	<content contentuid="hc0e432eagb51ag49c3g86c4gb430b50db13f" version="1">Infernal Gambit</content>
-	<content contentuid="h922b1f5bg84a6g4e4dgb432g8dd80f67aba9" version="1">While in combat, if you don't deal damage, you take [1] at the end of your turn. Whenever you deal damage, deal an additional [2] as well.</content>
+	<content contentuid="h922b1f5bg84a6g4e4dgb432g8dd80f67aba9" version="1">While in combat, if you don't deal damage, you take [1] at the end of your turn. Whenever you deal damage to an enemy with a Spell, deal an additional [2] as well.</content>
 	<content contentuid="h64b04b49gcb66g44cdg8d6dg0b2d6419d435" version="1">Unwavering</content>
 	<content contentuid="he8f86af8g35c8g4d95g9637gd9033c8d605a" version="1">The cursed knowledge flowing within you prevents fear from affecting you.</content>
 
@@ -2291,7 +2321,7 @@
 	<content contentuid="hbad72f06g47b7g476fg847fg186749cecc71" version="1">Chaos Rod</content>
 	<content contentuid="hb4a3d36cga382g4f94g914cg303d4bd57a2a" version="1">This wand warps with barely-contained magic.</content>
 	<content contentuid="969ab85776d540a1b4b9d757b30281ea00004" version="1">Chaos Bolt</content>
-	<content contentuid="969ab85776d540a1b4b9d757b30281ea0000d" version="3">Your &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; fire a &lt;LSTag Type="Spell" Tooltip="Projectile_Abracadabra_ChaosRod"&gt;Chaos Bolt&lt;/LSTag&gt;. The bolt causes your target to experience a surge of &lt;LSTag Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt; which causes a random amount of elemental damage. The damage done by this wand cannot be increased.</content>
+	<content contentuid="969ab85776d540a1b4b9d757b30281ea0000d" version="3">Your &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; fire a &lt;LSTag Type="Spell" Tooltip="Projectile_Abracadabra_ChaosRod"&gt;Chaos Bolt&lt;/LSTag&gt;. The bolt causes your target to experience a surge of &lt;LSTag Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt; which causes a random amount of elemental damage. The damage done by these surges cannot be affected by passive effects or increased in any way.</content>
 	<content contentuid="969ab85776d540a1b4b9d757b30281ea000z4" version="1">Chaos Bolt</content>
 	<content contentuid="969ab85776d540a1b4b9d757b30281ea000zd" version="3">Fire a bolt of chaotic &lt;LSTag Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt;. The bolt causes your target to experience a Wild Magic surge which causes a random amount of elemental damage.</content>
 
@@ -2337,7 +2367,7 @@
 	<content contentuid="hd61ed6a7gc34eg4ed8g972dg5c5292749d10" version="1">Split Fate</content>
 	<content contentuid="h449168cbg9efeg4293gbba6g89474fac6401" version="1">A shaving struck from the legendary staff, Markoheshkir.</content>
 	<content contentuid="969ab85776d540a1b4b9d757b30281ea00010" version="1">Divided Outcome</content>
-	<content contentuid="969ab85776d540a1b4b9d757b30281ea0000j" version="1">Your &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; produce an &lt;LSTag Type="Spell" Tooltip="Projectile_Abracadabra_SplitFate"&gt;Unstable Outcome&lt;/LSTag&gt;, dealing a random amount of damage to enemies, or restoring a random amount of health to allies. The damage done by this wand cannot be increased.</content>
+	<content contentuid="969ab85776d540a1b4b9d757b30281ea0000j" version="1">Your &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; produce an &lt;LSTag Type="Spell" Tooltip="Projectile_Abracadabra_SplitFate"&gt;Unstable Outcome&lt;/LSTag&gt;, dealing a random amount of damage to enemies, or restoring a random amount of health to allies. The damage and healing done by these surges cannot be affected by passive effects or increased in any way.</content>
 	<content contentuid="969ab85776d540a1b4b9d757b30281ea00z10" version="1">Unstable Outcome</content>
 	<content contentuid="969ab85776d540a1b4b9d757b30281ea000zj" version="3">Produce an unstable &lt;LSTag Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt;, dealing a random amount of damage to enemies, or restoring a random amount of health to allies.</content>
 	<content contentuid="969ab85776d540a1b4b9d757b30281ea00b10" version="1">Unstable Threads</content>

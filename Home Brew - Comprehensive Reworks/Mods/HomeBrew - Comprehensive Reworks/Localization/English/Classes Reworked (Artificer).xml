@@ -81,7 +81,7 @@
 	<content contentuid="49523fb3deaa14de1766304e0911fbc49ae44" version="2">Artillerists specialize in hurling projectiles down range and creating various types of explosions on the battlefield. This destructive power is valued by armies across many different worlds.</content>
 
 	<content contentuid="h509b8e00gacb9g46a5sd6f456e4ef4f00001" version="1">Armour-Piercing Rounds</content>
-	<content contentuid="h509b8e00gacb9g46a5sd6f456e4ef4f0000a" version="2">When dealing damage with a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt; to an enemy or item, you ignore piercing &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt;.</content>
+	<content contentuid="h509b8e00gacb9g46a5sd6f456e4ef4f0000a" version="2">When dealing damage with a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt; to an enemy or item, you ignore piercing &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h509b8e00gacb9g46a5sd6f456e4ef4f00002" version="1">Anti-Material Ammunition</content>
 	<content contentuid="h509b8e00gacb9g46a5sd6f456e4ef4f0000b" version="2">Upon landing a killing blow, you may fire &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
@@ -103,8 +103,8 @@
 	<content contentuid="h509b8e00gacb9g46a5sd6f456e4ef4f00005" version="1">Covering Fire</content>
 	<content contentuid="h509b8e00gacb9g46a5sd6f456e4ef4f0000e" version="2">Once per turn, landing a Killing Blow with a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt; will restore an &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt;.</content>
 
-	<content contentuid="h509b8e00gacb9g46a5sd6f456e4ef4f00006" version="1">Double Tap</content>
-	<content contentuid="h509b8e00gacb9g46a5sd6f456e4ef4f0000f" version="2">Your &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; which only target one creature may now target two creatures instead.</content>
+	<content contentuid="h509b8e00gacb9g46a5sd6f456e4ef4f00006" version="1">Quintessential Stockpile</content>
+	<content contentuid="h509b8e00gacb9g46a5sd6f456e4ef4f0000f" version="2">Gain an additional 9 rounds of &lt;LSTag Type="ActionResource" Tooltip="FirearmAmmo"&gt;Ammunition&lt;/LSTag&gt;.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">BATTLE SYNTHETIC</content>
 
@@ -127,7 +127,7 @@
 	<content contentuid="h5b8e00gacb9g46a5sd6f4566e8f5d8s000zb" version="2">Affected creature will heal whoever damages them for [1] &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h509b8e00gacb9g46a5sd65df45e4f2f00003" version="1">Take Your Medicine</content>
-	<content contentuid="h5b8e00gacb9g46a5sd6f4566e8f5d8s0000c" version="2">Your firearms are capable of healing allies when targeting them.</content>
+	<content contentuid="h5b8e00gacb9g46a5sd6f4566e8f5d8s0000c" version="2">Your firearms base actions are capable of healing allies when targeting them.</content>
 
 	<content contentuid="h509b8e00gacb9g46a5sd65df45e4f2f00004" version="1">Lil' G[reat Heal]</content>
 	<content contentuid="h5b8e00gacb9g46a5sd6f4566e8f5d8s0000d" version="2">Allies standing within [1] of Lil' G regain &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; every turn.</content>
@@ -250,8 +250,8 @@
 	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40000n" version="2">Grant allies +4 bonus to their &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; upon &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infusing&lt;/LSTag&gt; them.</content>
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc400015" version="1">Optimization: Predictive Targeting Module</content>
 	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40000o" version="2">Grant allies &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; upon &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infusing&lt;/LSTag&gt; them.</content>
-	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc400016" version="1">Optimization: Reactive Overload</content>
-	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40000p" version="2">Grant allies an additional &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; upon &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infusing&lt;/LSTag&gt; them.</content>
+	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc400016" version="1">Optimization: Proactive Overload</content>
+	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40000p" version="2">Grant allies one turn of &lt;LSTag Type="Status" Tooltip="HASTE"&gt;Haste&lt;/LSTag&gt; upon &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infusing&lt;/LSTag&gt; them.</content>
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc400017" version="1">Optimization: Resistance Override</content>
 	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40000q" version="2">Allies you &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; ignore all forms of damage &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; when dealing damage to an enemy or item.</content>
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc400018" version="1">Optimization: Spell Calibration Sequence</content>
@@ -312,8 +312,10 @@
 
 	<content contentuid="862d4e8f8c41462d8a2a4a2cfd5b81e100001" version="1">First Strike</content>
 	<content contentuid="862d4e8f8c41462d8a2a4a2cfd5b81e10000a" version="2">You can no longer be &lt;LSTag Type="Status" Tooltip="SURPRISED"&gt;Surprised&lt;/LSTag&gt;. In addition, you gain &lt;LSTag Type="Status" Tooltip="ALPHA_STRIKE"&gt;Alpha Strike&lt;/LSTag&gt; during your first turn of combat.</content>
-	<content contentuid="862d4e8f8c41462d8a2a4a2cfd5b81e1000z1" version="1">First Strike</content>
-	<content contentuid="862d4e8f8c41462d8a2a4a2cfd5b81e1000za" version="2">Affected creature's &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; may target two creatures, rather than one.</content>
+	<content contentuid="862d4e8f8c41462d8a2a4a2cfd5b81e1000z1" version="1">Alpha Strike</content>
+	<content contentuid="862d4e8f8c41462d8a2a4a2cfd5b81e1000za" version="2">Affected creature's &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; may select two targets, or the same target twice. No effect on actions with an area of effect.</content>
+	<content contentuid="862d4e8f8c41462d8a2a4a2cfd5b81e100zz1" version="1">Alpha Strike</content>
+	<content contentuid="862d4e8f8c41462d8a2a4a2cfd5b81e100zza" version="2">Select two targets, or the same target twice, with your equipped ranged weapon.</content>
 
 	<content contentuid="862d4e8f8c41462d8a2a4a2cfd5b81e100002" version="1">Controlled Tempo</content>
 	<content contentuid="862d4e8f8c41462d8a2a4a2cfd5b81e10000b" version="2">Gain the ability to &lt;LSTag Type="Status" Tooltip="EXPEDITE_TURN"&gt;Expedite&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="DELAY_TURN"&gt;Delay&lt;/LSTag&gt; a creature's turn.</content>
@@ -332,10 +334,10 @@
 	<content contentuid="862d4e8f8c41462d8a2a4a2cfd5b81e10000c" version="2">Landing a killing blow will extend the duration of &lt;LSTag Type="Status" Tooltip="ALPHA_STRIKE"&gt;Alpha Strike&lt;/LSTag&gt; by one turn.</content>
 
 	<content contentuid="862d4e8f8c41462d8a2a4a2cfd5b81e100004" version="1">Delayed Reaction</content>
-	<content contentuid="862d4e8f8c41462d8a2a4a2cfd5b81e10000d" version="2">&lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made against a creature suffering from a &lt;LSTag Type="Status" Tooltip="DELAY_TURN"&gt;Delayed Turn&lt;/LSTag&gt; are rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+	<content contentuid="862d4e8f8c41462d8a2a4a2cfd5b81e10000d" version="2">Creature suffering from a &lt;LSTag Type="Status" Tooltip="DELAY_TURN"&gt;Delayed Turn&lt;/LSTag&gt; are unable to utilize their &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reactions&lt;/LSTag&gt;.</content>
 
 	<content contentuid="862d4e8f8c41462d8a2a4a2cfd5b81e100005" version="1">Coordinated Strike</content>
-	<content contentuid="862d4e8f8c41462d8a2a4a2cfd5b81e10000e" version="2">&lt;LSTag Type="Status" Tooltip="EXPEDITE_TURN"&gt;Expediting&lt;/LSTag&gt; a creature's turn grants them &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all Damage Rolls.</content>
+	<content contentuid="862d4e8f8c41462d8a2a4a2cfd5b81e10000e" version="2">&lt;LSTag Type="Status" Tooltip="EXPEDITE_TURN"&gt;Expediting&lt;/LSTag&gt; a creature's turn grants them &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all Damage Rolls. In addition, &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made against a creature suffering from a &lt;LSTag Type="Status" Tooltip="DELAY_TURN"&gt;Delayed Turn&lt;/LSTag&gt; are rolled with Advantage.</content>
 
 	<content contentuid="862d4e8f8c41462d8a2a4a2cfd5b81e100006" version="1">Kill Window</content>
 	<content contentuid="862d4e8f8c41462d8a2a4a2cfd5b81e10000f" version="2">While &lt;LSTag Type="Status" Tooltip="ALPHA_STRIKE"&gt;Alpha Strike&lt;/LSTag&gt; is active, all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; you make are considered to be &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hits&lt;/LSTag&gt;.</content>
@@ -438,9 +440,9 @@
 	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe50zr" version="2">Affected creature may &lt;LSTag Type="Spell" Tooltip="Shout_Reload_Firearm"&gt;Reload&lt;/LSTag&gt; their firearms as a free action.</content>
 
 	<content contentuid="115fb28f01e84e44b3536f475sd5f4ef2f019" version="1">Synthetic Action Economy</content>
-	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe500s" version="2">Once per combat, you may expend your &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; to regain your &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt;.</content>
+	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe500s" version="2">Once per combat, you may expend your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; to regain your &lt;LSTag Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
 	<content contentuid="115fb28f01e84e44b3536f475sd5f4ef2fz19" version="1">Synthetic Action Economy</content>
-	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe50zs" version="2">Expend your &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; to regain your &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt;.</content>
+	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe50zs" version="2">Expend your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; to regain your &lt;LSTag Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
 
 	<content contentuid="115fb28f01e84e44b3536f475sd5f4ef2f020" version="1">Vital Aim</content>
 	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe500t" version="2">Landing a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; with a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt; inflicts a &lt;LSTag Type="Status" Tooltip="GAPING_WOUND"&gt;Gaping Wound&lt;/LSTag&gt; on your target.</content>
@@ -505,7 +507,7 @@
 	<content contentuid="h509b8e00gacb9g46e8d5f4e6as8dfe80000c" version="2">Summon a musket capable of dealing high single target damage at a long range.</content>
 
 	<content contentuid="h9948c4df266c474c8f2a9e9f7c75bd508e81" version="1">Reload</content>
-	<content contentuid="h60fad97c1f12406089daa939fafbde5dc671" version="1">Restore your supply of &lt;LSTag Type="ActionResource" Tooltip="FirearmAmmo"&gt;Ammunition&lt;/LSTag&gt; and clear any &lt;LSTag Type="Status" Tooltip="FIREARM_MALFUNCTION"&gt;Misfires&lt;/LSTag&gt;.</content>
+	<content contentuid="h60fad97c1f12406089daa939fafbde5dc671" version="1">Restore three rounds of &lt;LSTag Type="ActionResource" Tooltip="FirearmAmmo"&gt;Ammunition&lt;/LSTag&gt; and clear any &lt;LSTag Type="Status" Tooltip="FIREARM_MALFUNCTION"&gt;Misfires&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h6e14d0af00b24f35a154d0b96e68a1b067d4" version="1">Misfire</content>
 	<content contentuid="he84edbeb69df4c939af10bdf09d10c4966ga" version="1">Affected creature's firearm has malfunctioned. It cannot fire until the start of their next turn.&lt;/b&gt;&lt;br&gt;Cleared by &lt;LSTag Type="Spell" Tooltip="Shout_Reload_Firearm"&gt;Reloading&lt;/LSTag&gt;.</content>

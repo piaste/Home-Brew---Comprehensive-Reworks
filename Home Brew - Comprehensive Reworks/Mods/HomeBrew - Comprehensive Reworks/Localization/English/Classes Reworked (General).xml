@@ -55,8 +55,8 @@
 	<content contentuid="h0c70f5b2gba30g4e9ag8da5gc920032ded8e" version="2">Attacking a target outside of your weapon's range will cause you to roll with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;, as will making a ranged attack while &lt;LSTag Type="Status" Tooltip="FLANKED"&gt;Threatened&lt;/LSTag&gt; by another creature.</content>
 
 	<content contentuid="h5de66794geebdg4ae4g9a10gb179984775a0" version="2">Mythic: Difficulty Information</content>
-	<content contentuid="h387eedf2gb5a2g451egb45dgab227aa1d794" version="2">Mythic is an incredibly punishing difficulty entirely unique to Home Brew. In it, you will find yourself subject to a number of new dangers and debilitations. The most noticeable of differences being that of Exhaustion, Stress, and Toxicity.&lt;br&gt;&lt;br&gt;Any time that you are Downed, &lt;LSTag Tooltip="CriticalHit"&gt;Critically Hit&lt;/LSTag&gt;, or upon starting your turn with less than 34% of your total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;, you will accrue one stack of Exhaustion. While the first three stacks of Exhaustion serve only to warn you of impending consequence, four stacks or more will quickly create serious physical debilitations.&lt;br&gt;&lt;br&gt;Stacks of Stress are accrued at the same rate as Exhaustion, though Stress is also gained upon rolling a Critical Miss. Along with this, Stress is shared amongst the entire party - when one of your party begins to stress, the rest of the team will follow right alongside them. You may relieve both you and your party of Stress by landing killing blows.&lt;br&gt;&lt;br&gt;Stacks of toxicity are accrued upon drinking any form of potion or elixir. For as beneficial as they are, they also have toxins within them which make it hard to digest too many in any given day. Drink too many, and you'll quickly begin to run into serious side effects.&lt;br&gt;&lt;br&gt;One stack of Exhaustion, Stress, and Toxicity will always be removed upon taking a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Death in Mythic results in a serious, irreversable reduction of your &lt;LSTag Tooltip="AbilityModifier"&gt;Ability Scores&lt;/LSTag&gt;. After dying three times, you will no longer be able to be targeted by &lt;LSTag Type="Spell" Tooltip="Teleportation_Revivify"&gt;Revivify&lt;/LSTag&gt;. Avoid dying at all costs.&lt;br&gt;&lt;br&gt;When in combat with &lt;LSTag Type="Status" Tooltip="Tooltip_Dangerous_Encounter"&gt;Dangerous&lt;/LSTag&gt; and &lt;LSTag Type="Passive" Tooltip="Fatal_Encounter"&gt;Fatal&lt;/LSTag&gt; foes, you will find that they are also significantly more deadly. Dangerous Encounters will gain the ability to resist one &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; each round of combat, and cause you to accrue twice as much Exhaustion and Stress upon &lt;LSTag Type="Status" Tooltip="DOWNED"&gt;Downing&lt;/LSTag&gt; you. Fatal Encounters will not be so kind - true bosses gain the ability to resist three Saving Throws per round, and should they Down you, you will immediately die.&lt;br&gt;&lt;br&gt;There are several other mechanics contained within Mythic to place pressure on the player - some which appear as new enemy behaviors and abilities, some that take place over time, and some that appear in sudden, horrific moments of realization. The key to success will be a well thought out strategy, finding ways to circumvent or play around your losses, and an understanding that your party will not finish this run in one piece.&lt;br&gt;&lt;br&gt;Once you start a save on Mythic, there's no going back.</content>
-	<content contentuid="h08f4ec57g2a71g4c67g8df3g4ce23a0f5860" version="2">Mythic is an incredibly punishing difficulty entirely unique to Home Brew. In it, you will find yourself subject to a number of new dangers and debilitations. The most noticeable of differences being that of Exhaustion, Stress, and Toxicity.&lt;br&gt;&lt;br&gt;Any time that you are Downed, &lt;LSTag Tooltip="CriticalHit"&gt;Critically Hit&lt;/LSTag&gt;, or upon starting your turn with less than 34% of your total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;, you will accrue one stack of Exhaustion. While the first three stacks of Exhaustion serve only to warn you of impending consequence, four stacks or more will quickly create serious physical debilitations.&lt;br&gt;&lt;br&gt;Stacks of Stress are accrued at the same rate as Exhaustion, though Stress is also gained upon rolling a Critical Miss. Along with this, Stress is shared amongst the entire party - when one of your party begins to stress, the rest of the team will follow right alongside them. You may relieve both you and your party of Stress by landing killing blows.&lt;br&gt;&lt;br&gt;Stacks of toxicity are accrued upon drinking any form of potion or elixir. For as beneficial as they are, they also have toxins within them which make it hard to digest too many in any given day. Drink too many, and you'll quickly begin to run into serious side effects.&lt;br&gt;&lt;br&gt;One stack of Exhaustion, Stress, and Toxicity will always be removed upon taking a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Death in Mythic results in a serious, irreversable reduction of your &lt;LSTag Tooltip="AbilityModifier"&gt;Ability Scores&lt;/LSTag&gt;. After dying three times, you will no longer be able to be targeted by &lt;LSTag Type="Spell" Tooltip="Teleportation_Revivify"&gt;Revivify&lt;/LSTag&gt;. Avoid dying at all costs.&lt;br&gt;&lt;br&gt;When in combat with &lt;LSTag Type="Status" Tooltip="Tooltip_Dangerous_Encounter"&gt;Dangerous&lt;/LSTag&gt; and &lt;LSTag Type="Passive" Tooltip="Fatal_Encounter"&gt;Fatal&lt;/LSTag&gt; foes, you will find that they are also significantly more deadly. Dangerous Encounters will gain the ability to resist one &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; each round of combat, and cause you to accrue twice as much Exhaustion and Stress upon &lt;LSTag Type="Status" Tooltip="DOWNED"&gt;Downing&lt;/LSTag&gt; you. Fatal Encounters will not be so kind - true bosses gain the ability to resist three Saving Throws per round, and should they Down you, you will immediately die.&lt;br&gt;&lt;br&gt;There are several other mechanics contained within Mythic to place pressure on the player - some which appear as new enemy behaviors and abilities, some that take place over time, and some that appear in sudden, horrific moments of realization. The key to success will be a well thought out strategy, finding ways to circumvent or play around your losses, and an understanding that your party will not finish this run in one piece.&lt;br&gt;&lt;br&gt;Once you start a save on Mythic, there's no going back.</content>
+	<content contentuid="h387eedf2gb5a2g451egb45dgab227aa1d794" version="2">Mythic is an incredibly punishing difficulty entirely unique to Home Brew. In it, you will find yourself subject to a number of new dangers and debilitations. The most noticeable of differences being that of Exhaustion, Stress, and Toxicity.&lt;br&gt;&lt;br&gt;Any time that you are Downed or &lt;LSTag Tooltip="CriticalHit"&gt;Critically Hit&lt;/LSTag&gt;, you will accrue one stack of Exhaustion. While the first three stacks of Exhaustion serve only to warn you of impending consequence, four stacks or more will quickly create serious physical debilitations. You may relieve yourself of Exhaustion by drinking potions and elixirs.&lt;br&gt;&lt;br&gt;Stacks of Stress are accrued upon rolling a Critical Miss, or failing a &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;. You may relieve both you and your party of Stress by landing killing blows or Critical Hits.&lt;br&gt;&lt;br&gt;Stacks of toxicity are accrued upon drinking any form of potion or elixir. Drink too many, and you'll quickly begin to build Stress and run into serious side effects.&lt;br&gt;&lt;br&gt;One stack of Exhaustion, Stress, and Toxicity will always be removed upon taking a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Death in Mythic results in a serious, irreversable reduction of your &lt;LSTag Tooltip="AbilityModifier"&gt;Ability Scores&lt;/LSTag&gt;. After dying three times, you will no longer be able to be targeted by &lt;LSTag Type="Spell" Tooltip="Teleportation_Revivify"&gt;Revivify&lt;/LSTag&gt;. Avoid dying at all costs.&lt;br&gt;&lt;br&gt;When in combat with &lt;LSTag Type="Status" Tooltip="Tooltip_Dangerous_Encounter"&gt;Dangerous&lt;/LSTag&gt; and &lt;LSTag Type="Passive" Tooltip="Fatal_Encounter"&gt;Fatal&lt;/LSTag&gt; foes, you will find that they are also significantly more deadly. Dangerous Encounters will gain the ability to resist one &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; each round of combat, and cause you to accrue twice as much Exhaustion upon &lt;LSTag Type="Status" Tooltip="DOWNED"&gt;Downing&lt;/LSTag&gt; you. Fatal Encounters will not be so kind - true bosses gain the ability to resist three Saving Throws per round, and should they Down you, you will immediately die.&lt;br&gt;&lt;br&gt;There are several other mechanics contained within Mythic to place pressure on the player - some which appear as new enemy behaviors and abilities, some that take place over time, and some that appear in sudden, horrific moments of realization. The key to success will be a well thought out strategy, finding ways to circumvent or play around your losses, and an understanding that your party will not finish this run in one piece.&lt;br&gt;&lt;br&gt;Once you start a save on Mythic, there's no going back.</content>
+	<content contentuid="h08f4ec57g2a71g4c67g8df3g4ce23a0f5860" version="2">Mythic is an incredibly punishing difficulty entirely unique to Home Brew. In it, you will find yourself subject to a number of new dangers and debilitations. The most noticeable of differences being that of Exhaustion, Stress, and Toxicity.&lt;br&gt;&lt;br&gt;Any time that you are Downed or &lt;LSTag Tooltip="CriticalHit"&gt;Critically Hit&lt;/LSTag&gt;, you will accrue one stack of Exhaustion. While the first three stacks of Exhaustion serve only to warn you of impending consequence, four stacks or more will quickly create serious physical debilitations. You may relieve yourself of Exhaustion by drinking potions and elixirs.&lt;br&gt;&lt;br&gt;Stacks of Stress are accrued upon rolling a Critical Miss, or failing a &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;. You may relieve both you and your party of Stress by landing killing blows or Critical Hits.&lt;br&gt;&lt;br&gt;Stacks of toxicity are accrued upon drinking any form of potion or elixir. Drink too many, and you'll quickly begin to build Stress and run into serious side effects.&lt;br&gt;&lt;br&gt;One stack of Exhaustion, Stress, and Toxicity will always be removed upon taking a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Death in Mythic results in a serious, irreversable reduction of your &lt;LSTag Tooltip="AbilityModifier"&gt;Ability Scores&lt;/LSTag&gt;. After dying three times, you will no longer be able to be targeted by &lt;LSTag Type="Spell" Tooltip="Teleportation_Revivify"&gt;Revivify&lt;/LSTag&gt;. Avoid dying at all costs.&lt;br&gt;&lt;br&gt;When in combat with &lt;LSTag Type="Status" Tooltip="Tooltip_Dangerous_Encounter"&gt;Dangerous&lt;/LSTag&gt; and &lt;LSTag Type="Passive" Tooltip="Fatal_Encounter"&gt;Fatal&lt;/LSTag&gt; foes, you will find that they are also significantly more deadly. Dangerous Encounters will gain the ability to resist one &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; each round of combat, and cause you to accrue twice as much Exhaustion upon &lt;LSTag Type="Status" Tooltip="DOWNED"&gt;Downing&lt;/LSTag&gt; you. Fatal Encounters will not be so kind - true bosses gain the ability to resist three Saving Throws per round, and should they Down you, you will immediately die.&lt;br&gt;&lt;br&gt;There are several other mechanics contained within Mythic to place pressure on the player - some which appear as new enemy behaviors and abilities, some that take place over time, and some that appear in sudden, horrific moments of realization. The key to success will be a well thought out strategy, finding ways to circumvent or play around your losses, and an understanding that your party will not finish this run in one piece.&lt;br&gt;&lt;br&gt;Once you start a save on Mythic, there's no going back.</content>
 
 	<content contentuid="h9fe2accfg442cg42fdg850egf7c8afb3f20c" version="2">You can &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt; to recover half of your &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;All classes also recover one or more class specific resources on a Short Rest - inspect a resource's tooltip to learn more about when it is recovered.</content>
 	<content contentuid="he6b47788gb4aeg4c6aga7bbgb5cc18180f16" version="5">You can &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt; to recover half of your &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;All classes also recover one or more class specific resources on a Short Rest - inspect a resource's tooltip to learn more about when it is recovered.</content>
@@ -349,21 +349,21 @@
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f89tnone" version="3">You have no additional character traits.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00001" version="3">Adrenaline Surge</content>
-	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000a" version="3">While below 75% of your maximum &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;, you gain a +2 bonus to all damage dealt. However, while above 75% of your maximum Hit Points, you receive a -2 penalty instead.</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000a" version="3">While below 50% of your maximum &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;, you deal additional damage equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00002" version="3">Blind Emotions</content>
-	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000b" version="3">You permanently benefit from the effects of being &lt;LSTag Type="Status" Tooltip="CALM_EMOTIONS"&gt;Calmed&lt;/LSTag&gt;. However, upon being struck by a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; you are &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt; for three turns.</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000b" version="3">You permanently benefit from the effects of being &lt;LSTag Type="Status" Tooltip="CALM_EMOTIONS"&gt;Calmed&lt;/LSTag&gt;. However, you have a -4 penalty to all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00003" version="3">Bloody Results</content>
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000c" version="3">Gain a bonus to damage dealt equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;. However, when taking damage, you take additional damage equal to your Proficiency Bonus as well.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00004" version="3">Borrowed Time</content>
-	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000d" version="3">At the beginning of any combat encounter, you receive &lt;LSTag Tooltip="TemporaryHitPoints"&gt;Temporary Hit Points&lt;/LSTag&gt; equal to your level multiplied by two. Upon ending combat, you take Force damage equal to your level multiplied by four.</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000d" version="3">At the beginning of any combat encounter, you receive &lt;LSTag Tooltip="TemporaryHitPoints"&gt;Temporary Hit Points&lt;/LSTag&gt; equal to your level multiplied by two. Upon ending combat, you take Force damage equal to your level multiplied by two as well.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00005" version="3">Breathe Deep</content>
-	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000e" version="3">Gain the ability to center yourself with a deep breath, restoring your &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt;. At the end of your turn, you will immediately fall &lt;LSTag Type="Status" Tooltip="UNCONSCIOUS"&gt;Unconscious&lt;/LSTag&gt; for three turns. In addition, at the start of each of your turns, you have a chance to fall unconscious for one turn.</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000e" version="3">Gain the ability to center yourself with a deep breath, &lt;LSTag Type="Status" Tooltip="HASTE"&gt;Hastening&lt;/LSTag&gt; yourself. At the end of your turn, you will immediately fall &lt;LSTag Type="Status" Tooltip="UNCONSCIOUS"&gt;Unconscious&lt;/LSTag&gt; for three turns. In addition, at the start of each of your turns, you have a 5% chance to fall Unconscious for one turn.</content>
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd000z5" version="3">Breathe Deep</content>
-	<content contentuid="h8612a65dg446cg427bga712g6sd8f89000ze" version="3">Center yourself with a deep breath, restoring your &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt;. At the end of your turn, you will immediately fall &lt;LSTag Type="Status" Tooltip="UNCONSCIOUS"&gt;Unconscious&lt;/LSTag&gt; for three turns.</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sd8f89000ze" version="3">Center yourself with a deep breath, &lt;LSTag Type="Status" Tooltip="HASTE"&gt;Hastening&lt;/LSTag&gt; yourself. At the end of your turn, you will immediately fall &lt;LSTag Type="Status" Tooltip="UNCONSCIOUS"&gt;Unconscious&lt;/LSTag&gt; for three turns.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00006" version="3">Confidently Incorrect</content>
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000f" version="3">Upon casting a Spell, there is a 10% chance that it will erupt in a violent explosion, damaging everything within [1] of your target.</content>
@@ -372,9 +372,9 @@
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000g" version="3">Reduce the number needed to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; by 2 when making a weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;. However, the damage of your Critical Hits is permanently halved.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00008" version="3">Crybaby</content>
-	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000h" version="3">Upon being damaged while not enraged, you immediately fall &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; and begin to cry. Upon starting your next turn, you become &lt;LSTag Type="Status" Tooltip="CALM_EMOTIONS"&gt;Calm&lt;/LSTag&gt; for three turns.</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000h" version="3">At the start of any combat encounter, you are &lt;LSTag Type="Status" Tooltip="CALM_EMOTIONS"&gt;Calm&lt;/LSTag&gt; for three turns. However, upon being &lt;LSTag Tooltip="CriticalHit"&gt;Critically Hit&lt;/LSTag&gt;, you immediately fall &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; and begin to cry.</content>
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd000z8" version="3">Crying</content>
-	<content contentuid="h8612a65dg446cg427bga712g6sd8f89000zh" version="3">Affected creature is crying. Upon expiration of this status, they will become &lt;LSTag Type="Status" Tooltip="CALM_EMOTIONS"&gt;Calm&lt;/LSTag&gt; for three turns.</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sd8f89000zh" version="3">Affected creature is throwing a fit!</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00009" version="3">Delusions in the Dark</content>
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000i" version="3">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Necrotic damage and status immunity to Fear-based effects. However, you also become &lt;LSTag Tooltip="Vulnerable"&gt;Vulnerable&lt;/LSTag&gt; to Radiant damage.</content>
@@ -387,13 +387,19 @@
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f8900zzj" version="3">Affected creature is paralyzed, unable to act. Attacks made against them will always result in a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00011" version="3">Gentle Giant</content>
-	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000k" version="3">You are permanently &lt;LSTag Type="Status" Tooltip="ENLARGE_BARBARIAN"&gt;Enlarged&lt;/LSTag&gt;. However, rather than having your damage increased by [1], it is instead reduced.</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000k" version="3">You are permanently &lt;LSTag Type="Status" Tooltip="ENLARGE_BARBARIAN"&gt;Enlarged&lt;/LSTag&gt;. However, rather than having your damage increased by [1], it is instead reduced by 2.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00012" version="3">Gilded Pilfer</content>
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000l" version="3">When dealing damage, you deal an additional point of damage for every 10 gold pieces your target has in their inventory, consuming them in the process.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00013" version="3">Glass Cannon</content>
-	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000m" version="3">Gain the ability to toggle between having an additional &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt; or &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;. However, you also receive a -10 penalty to your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;, your maximum &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; are halved, and you make all &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.&lt;Br&gt;&lt;Br&gt;Toggling this passive while in combat has no effect.</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000m" version="3">Gain the ability to have an additional &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt; or &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;. However, you also receive a -10 penalty to your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;, your maximum &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; are halved, and you are unable to utilize your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reactions&lt;/LSTag&gt; during combat.</content>
+	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00x13" version="3">Glass Cannon</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sd8f89000xm" version="3">Gain an additional &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt; or &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
+	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00z13" version="3">Glass Cannon (Action)</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sd8f89000zm" version="3">Gain an additional &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt;.</content>
+	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00y13" version="3">Glass Cannon (Bonus Action)</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sd8f89000ym" version="3">Gain an additional &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00014" version="3">Hands of Calamity</content>
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000n" version="3">Upon killing an enemy with a melee-based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, everything within [1] of them will receive [2].</content>
@@ -431,7 +437,7 @@
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000x" version="3">While traveling with just one other companion, you gain an additional &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt; and your maximum &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; are doubled.&lt;Br&gt;&lt;Br&gt;While traveling completely alone, you gain two additional Actions and your maximum Hit Points are tripled.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00025" version="3">Narcoleptic</content>
-	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000y" version="3">Upon starting your turn, you have a 25% chance to fall &lt;LSTag Type="Status" Tooltip="SLEEP"&gt;Asleep&lt;/LSTag&gt;. Upon waking from a sleep-based Condition, your next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; will roll as a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000y" version="3">Upon starting your turn, you have a 25% chance to fall &lt;LSTag Type="Status" Tooltip="SLEEP"&gt;Asleep&lt;/LSTag&gt;. However, upon waking from a sleep-based Condition, your next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; will roll as a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00026" version="3">Natural Medium</content>
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000z" version="3">Permanently gain the effects of &lt;LSTag Type="Spell" Tooltip="Shout_DetectThoughts"&gt;Detect Thoughts&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_SpeakWithAnimals"&gt;Speak with Animals&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_SpeakWithDead"&gt;Speak with Dead&lt;/LSTag&gt;. However, you make all Charisma-based &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt; with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
@@ -461,11 +467,15 @@
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00z33" version="3">Slow Roller</content>
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f8900zag" version="3">Affected creature's &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; is halved.</content>
 
-	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00034" version="3">Stinky</content>
-	<content contentuid="h8612a65dg446cg427bga712g6sd8f89000ah" version="3">You gain status-based immunity to &lt;LSTag Type="Status" Tooltip="BIBBERBANG_FUMES"&gt;Noxious Fumes&lt;/LSTag&gt;. However, while moving you will create a [1] cloud of Noxious Gas and you make all Charisma-based &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt; with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
-
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00035" version="3">Split Focus</content>
-	<content contentuid="h8612a65dg446cg427bga712g6sd8f89000ai" version="3">Gain the ability to target two creatures at once with your weapon-based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;. However, all weapon-based Attack Rolls also deal half damage.</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sd8f89000ai" version="3">During combat, you gain the ability to target three different creatures with your standard weapon-based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;. However, when dealing damage with your weapons, your damage is halved.</content>
+	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00z35" version="3">Split Focus (Melee)</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sd8f8900zai" version="3">Target three different creatures with your equipped melee weapon.</content>
+	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00y35" version="3">Split Focus (Ranged)</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sd8f8900yai" version="3">Target three different creatures with your equipped ranged weapon.</content>
+
+	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00034" version="3">Stinky</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sd8f89000ah" version="3">You gain status-based immunity to &lt;LSTag Type="Status" Tooltip="BIBBERBANG_FUMES"&gt;Noxious Fumes&lt;/LSTag&gt;. However, while moving you will create a [1] cloud of Noxious Gas, and you make all Charisma-based &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt; with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00036" version="3">Sunlight Aversion</content>
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f89000aj" version="3">While in an obscured area, you gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;. However, while unobscured, you roll with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; instead.</content>
@@ -501,29 +511,61 @@
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sarchety01" version="3">Arcane Precision</content>
 	<content contentuid="h8612a65dg446cg427bga712g6sdarchety0a" version="3">Reduce the number needed to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; by 2 when making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; with a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt;.</content>
 
+	<content contentuid="h6eb72b35g6633g4642gaf97gc5sarchety16" version="3">Chaotic Fortune</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sdarchety0p" version="3">Each turn in combat, you have a 5% chance to experience a positive surge of &lt;LSTag Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt;.</content>
+
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sarchety02" version="3">Combat Mastery</content>
 	<content contentuid="h8612a65dg446cg427bga712g6sdarchety0b" version="3">Gain a +4 bonus to your &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h6eb72b35g6633g4642gaf97gc5sarchety12" version="3">Controlled Aggro</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sdarchety0l" version="3">While in combat, enemies will see you as a priority target.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sarchety03" version="3">Deepened Resolve</content>
 	<content contentuid="h8612a65dg446cg427bga712g6sdarchety0c" version="3">Gain a bonus to your &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
 
+	<content contentuid="h6eb72b35g6633g4642gaf97gc5sarchety19" version="3">Empowered Summons</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sdarchety0s" version="3">Creatures that you summon gain a +2 bonus to their...&lt;Br&gt;- &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;&lt;Br&gt;- &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;&lt;Br&gt;- Damage Rolls&lt;Br&gt;- &lt;LSTag Type="Status" Tooltip="DAMAGE_REDUCTION"&gt;Damage Reduction&lt;/LSTag&gt;&lt;Br&gt;- &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt;&lt;Br&gt;- Initiative&lt;Br&gt;- &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;</content>
+
+	<content contentuid="h6eb72b35g6633g4642gaf97gc5sarchety11" version="3">Fortified Armour</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sdarchety0k" version="3">While not wearing Light Armour, your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; is increased by 2. While not wearing Heavy Armour, your &lt;LSTag Type="Status" Tooltip="DAMAGE_REDUCTION"&gt;Damage Reduction&lt;/LSTag&gt; is increased by 2.</content>
+
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sarchety04" version="3">Imposing Will</content>
-	<content contentuid="h8612a65dg446cg427bga712g6sdarchety0d" version="3">Gain a +2 bonus to your &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt;.</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sdarchety0d" version="3">Gain a +2 bonus to the &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt; of Spells you cast and Conditions you apply.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sarchety05" version="3">Iron Breaker</content>
 	<content contentuid="h8612a65dg446cg427bga712g6sdarchety0e" version="3">When dealing damage to an enemy or item, you ignore all physical &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt;.</content>
 
+	<content contentuid="h6eb72b35g6633g4642gaf97gc5sarchety14" version="3">Iron Fists</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sdarchety0n" version="3">Gain a +4 bonus to your physical Unarmed damage.</content>
+
+	<content contentuid="h6eb72b35g6633g4642gaf97gc5sarchety18" version="3">Martial Balance</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sdarchety0r" version="3">You add your global &lt;LSTag Tooltip="AbilityModifier"&gt;Strength Modifier&lt;/LSTag&gt; to melee damage dealt while dual-wielding.</content>
+
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sarchety06" version="3">Martial Precision</content>
 	<content contentuid="h8612a65dg446cg427bga712g6sdarchety0f" version="3">Reduce the number needed to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; by 2 when making a weapon or unarmed based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
 
+	<content contentuid="h6eb72b35g6633g4642gaf97gc5sarchety17" version="3">Measured Arcana</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sdarchety0q" version="3">Damaging, area of effect Spells that you cast will deal no damage to your allies.</content>
+
+	<content contentuid="h6eb72b35g6633g4642gaf97gc5sarchety13" version="3">Quick Reflexes</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sdarchety0m" version="3">Gain a +4 bonus to your Initiative.</content>
+
+	<content contentuid="h6eb72b35g6633g4642gaf97gc5sarchety20" version="3">Reactive Retribution</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sdarchety0t" version="3">When an ally is damaged, you may expend your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; in order to make a melee-based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against their aggressor.</content>
+	<content contentuid="h6eb72b35g6633g4642gaf97gc5sarchetz20" version="3">Reactive Retribution</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sdarchetz0t" version="3">When an ally is damaged, make a melee-based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against their aggressor.</content>
+
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sarchety07" version="3">Restorative Touch</content>
-	<content contentuid="h8612a65dg446cg427bga712g6sdarchety0g" version="3">When healing yourself or another creature, restore an additional 4 &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sdarchety0g" version="3">When healing another creature, restore additional &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; equal to 2 multiplied by your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sarchety08" version="3">Tempered Body</content>
 	<content contentuid="h8612a65dg446cg427bga712g6sdarchety0h" version="3">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to all physical damage.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sarchety09" version="3">Tempered Mind</content>
 	<content contentuid="h8612a65dg446cg427bga712g6sdarchety0i" version="3">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to all elemental damage.</content>
+
+	<content contentuid="h6eb72b35g6633g4642gaf97gc5sarchety15" version="3">Unchecked Force</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sdarchety0o" version="3">Gain a bonus to your weapon based damage equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sarchety10" version="3">Weave Breaker</content>
 	<content contentuid="h8612a65dg446cg427bga712g6sdarchety0j" version="3">When dealing damage to an enemy or item, you ignore all elemental &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt;.</content>
@@ -550,7 +592,7 @@
 	<content contentuid="h3d5ecb16g20f8g4febgba03g41ae11b9ddf2" version="1">Turn on the charm. Coax and cajole.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; grants &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; when resisting the effects of charm based conditions.</content>
 
 	<content contentuid="h7b5cbdbfg05acg4158ga1eeg382c44ff18b0" version="1">Summoned</content>
-	<content contentuid="hefa4f2d8g4c9cg4d67gbb72g918e773ed491" version="1">Affected creature is a summoned entity. All summoned creatures gain additional &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; equal to your level multiplied by four. In addition, they use your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; as their own, and add it to their &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;, &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, Damage Rolls, &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt;, and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; as well.</content>
+	<content contentuid="hefa4f2d8g4c9cg4d67gbb72g918e773ed491" version="1">Affected creature is a summoned entity. All summoned creatures use your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; as their own, and add it to their...&lt;Br&gt;- &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;&lt;Br&gt;- &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;&lt;Br&gt;- Damage Rolls&lt;Br&gt;- &lt;LSTag Type="Status" Tooltip="DAMAGE_REDUCTION"&gt;Damage Reduction&lt;/LSTag&gt;&lt;Br&gt;- &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt;&lt;Br&gt;- Initiative&lt;Br&gt;- &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">AI CONTROL</content>
 
@@ -666,9 +708,10 @@
 	<content contentuid="h988e7e8d83e64ee69e0cdced053127c8e7f2" version="1">Cleric: Tempest Domain</content>
 	<content contentuid="ha4f7ddc08e144bbd89108ce54da37ab1e8ee" version="1">Cleric: War Domain</content>
 
-	<content contentuid="hce77bbc6faab4af68df9778e8922d5f45d66" version="1">Druid: Circle of the Elements</content>
+	<content contentuid="hce77bbc6faab4af68df9778e8922d5f45d66" version="1">Druid: Circle of Elements</content>
 	<content contentuid="hce77bbc6faab4af68df9778e89b4b1c91e59" version="1">Druid: Circle of the Land</content>
 	<content contentuid="h937c303643d243128ee28e429ffc02fbdc89" version="1">Druid: Circle of the Moon</content>
+	<content contentuid="5b9c6b9f8fb541f3839d6c3738507a9c00000" version="1">Druid: Circle of Shadows</content>
 	<content contentuid="h4d4b577779a048fbb78cd244e0b84b17b85b" version="1">Druid: Circle of the Spores</content>
 	<content contentuid="ha82b54fa9f7949ce9a572079139362c3046d" version="1">Druid: Circle of the Stars</content>
 
@@ -676,44 +719,54 @@
 	<content contentuid="h8e07c781f6be48bb8d11f539e1c8b49bg65b" version="1">Fighter: Champion</content>
 	<content contentuid="h8e07c781f6be48bb8d11f539e12d5f3d5f65" loreTexts="true" version="1">Fighter: Blazing Cavalier</content>
 	<content contentuid="hc956224f7f584e9096e7a3c79458d1cc9bg3" version="1">Fighter: Eldritch Knight</content>
-	<content contentuid="hb2ff7aec766b4e64b8113c7656e78468c3a3" loreTexts="true" version="1">Fighter: Weapon Master</content>
+	<content contentuid="hb2ff7aec766b4e64b8113c7656e78468c3a3" version="1">Fighter: Frontier Knight</content>
+	<content contentuid="5b9c6b9f8fb541f3839d6c3738507a9c00001" version="1">Fighter: Palisade</content>
 
-	<content contentuid="he4b572ffeab94f5abe81a1a1cf592b3f16f8" loreTexts="true" version="1">Monk: Shining Hand Training</content>
-	<content contentuid="hd8792c892dc84db3af6522385b14d22579f5" loreTexts="true" version="1">Monk: Saint Dionysus Training</content>
-	<content contentuid="h5a5318c3f19b4e7cb289bd094bfee3f80aa4" loreTexts="true" version="1">Monk: White Rod Training</content>
-	<content contentuid="h3358a14e04844f9598c3eb0f6098f96f160d" loreTexts="true" version="1">Monk: Dark Moon Training</content>
+	<content contentuid="he4b572ffeab94f5abe81a1a1cf592b3f16f8" version="1">Monk: Way of the Arcane</content>
+	<content contentuid="hd8792c892dc84db3af6522385b14d22579f5" version="1">Monk: Way of the Drunken Fist</content>
+	<content contentuid="5b9c6b9f8fb541f3839d6c3738507a9c00002" version="1">Monk: Way of the Gentle Fist</content>
+	<content contentuid="h5a5318c3f19b4e7cb289bd094bfee3f80aa4" version="1">Monk: Way of the Open Hand</content>
+	<content contentuid="h3358a14e04844f9598c3eb0f6098f96f160d" version="1">Monk: Way of the Shadow Arts</content>
+	<content contentuid="5b9c6b9f8fb541f3839d6c3738507a9c00003" version="1">Monk: Way of the Tempered Steel</content>
 
-	<content contentuid="h5689281b356a4051921b16eb13a486a4bea7" loreTexts="true" version="1">Paladin: Sibling of the Ruby Rose</content>
-	<content contentuid="h72389daf54ac4fad93c7dcc2f902c9e0f209" loreTexts="true" version="1">Paladin: Mystic Fire Knight</content>
-	<content contentuid="h33046c15ea574ec5a91bd4c8709dead4a46g" loreTexts="true" version="1">Paladin: Radiant Heart Auxiliary</content>
-	<content contentuid="h20453170b9ff4b9c8c32d33a020357b50ac9" loreTexts="true" version="1">Paladin: Gilded Eye </content>
+	<content contentuid="h5689281b356a4051921b16eb13a486a4bea7" version="1">Paladin: Ancient Warden</content>
+	<content contentuid="h72389daf54ac4fad93c7dcc2f902c9e0f209" version="1">Paladin: Crowned Phoenix</content>
+	<content contentuid="h33046c15ea574ec5a91bd4c8709dead4a46g" version="1">Paladin: Devout Paragon</content>
+	<content contentuid="h20453170b9ff4b9c8c32d33a020357b50ac9" version="1">Paladin: Oathbound Crusader</content>
 	<content contentuid="hf4ed1f7d36d94c2abcda899d07b9e943ab47" version="1">Paladin: Oathbreaker</content>
+	<content contentuid="5b9c6b9f8fb541f3839d6c3738507a9c00004" version="1">Paladin: Tyrant</content>
 
-	<content contentuid="he2f1a1df896949edb5d6b3530f25289178g6" loreTexts="true" version="1">Ranger: High Forest Trail</content>
-	<content contentuid="hd6c7fa424e574445908ea18fb4f6d8de3b9c" loreTexts="true" version="1">Ranger: Underdark Trail</content>
-	<content contentuid="h621dfdee398b463792b18ff7d88eb5d75127" loreTexts="true" version="1">Ranger: Greypeaks Trail</content>
-	<content contentuid="h437731e40ccf4eed92b833bf3e3a7c8e2e55" loreTexts="true" version="1">Ranger: Neverwinter Wood Trail</content>
-	<content contentuid="h437731e40ccf4eed92b833bf3e3a7c8etwin" loreTexts="true" version="1">Ranger: Evermoors Trail</content>
+	<content contentuid="he2f1a1df896949edb5d6b3530f25289178g6" version="1">Ranger: Beast Master</content>
+	<content contentuid="hd6c7fa424e574445908ea18fb4f6d8de3b9c" version="1">Ranger: Gloom Stalker</content>
+	<content contentuid="h621dfdee398b463792b18ff7d88eb5d75127" version="1">Ranger: Hunter</content>
+	<content contentuid="h437731e40ccf4eed92b833bf3e3a7c8e2e55" version="1">Ranger: Swarmkeeper</content>
+	<content contentuid="h437731e40ccf4eed92b833bf3e3a7c8etwin" version="1">Ranger: Twinfang</content>
+	<content contentuid="5b9c6b9f8fb541f3839d6c3738507a9c00005" version="1">Ranger: Mire Mist</content>
 
-	<content contentuid="h887976b614304ec78b4449ad1d3e45012f6e" loreTexts="true" version="1">Rogue: Telflamm Streets</content>
-	<content contentuid="h5ac4211b67404f48a9e8976bf17a7b077674" loreTexts="true" version="1">Rogue: Galenas Paths</content>
-	<content contentuid="h5ac4211b67404f48a9e8976bf2se5f6s54ef" loreTexts="true" version="1">Rogue: Westgate Docks</content>
-	<content contentuid="h1a147cb174bc46c59e2a8a8997501d256223" loreTexts="true" version="1">Rogue: Skullport Caves</content>
-	<content contentuid="hf3a37e1adfa04e18a9f37b5103b8aead7e76" loreTexts="true" version="1">Rogue: Amnian Roads</content>
+	<content contentuid="h887976b614304ec78b4449ad1d3e45012f6e" version="1">Rogue: Arcane Trickster</content>
+	<content contentuid="h5ac4211b67404f48a9e8976bf17a7b077674" version="1">Rogue: Assassin</content>
+	<content contentuid="h5ac4211b67404f48a9e8976bf2se5f6s54ef" version="1">Rogue: Hidden Toxicant</content>
+	<content contentuid="h1a147cb174bc46c59e2a8a8997501d256223" version="1">Rogue: Mercenary</content>
+	<content contentuid="hf3a37e1adfa04e18a9f37b5103b8aead7e76" version="1">Rogue: Thief</content>
+	<content contentuid="5b9c6b9f8fb541f3839d6c3738507a9c00006" version="1">Rogue: Virulence</content>
 
 	<content contentuid="h74cb6d76f7084d1d9ccca5ba1622140f3c7d" version="1">Sorcerer: Draconic Bloodline</content>
+	<content contentuid="5b9c6b9f8fb541f3839d6c3738507a9c00008" version="1">Sorcerer: Radiant Bloom</content>
 	<content contentuid="h73a8aafef8874258bc6950b4c4d569b0842e" version="1">Sorcerer: Shade Walker</content>
+	<content contentuid="5b9c6b9f8fb541f3839d6c3738507a9c00007" version="1">Sorcerer: Soul of the Frenzied Tundra</content>
 	<content contentuid="h304a5e34541a42f098df489329c48ee49a00" loreTexts="true" version="1">Sorcerer: Volcanic Heart</content>
 	<content contentuid="h0c1d71fc32044f7480d64ef77b978f2d1eea" version="1">Sorcerer: Wild Magic</content>
 
 	<content contentuid="hc3c6d414533e4e019f42a85c9ef4acc7020g" version="1">Warlock: Pact of the Blade</content>
-	<content contentuid="hb462d35d35dd41e5ad91cfea37e0429dbc0b" version="1">Warlock: Pact of the Chain</content>
+	<content contentuid="hb462d35d35dd41e5ad91cfea37e0429dbc0b" version="1">Warlock: Pact of the Chained</content>
 	<content contentuid="hfaac57ba1de244f3abc2cb0eeedea64c5931" version="1">Warlock: Pact of Penumbra</content>
 	<content contentuid="hfaac57ba1de244f3abc2c2s5ef56f5e8f454" version="1">Warlock: Pact of the Primordial</content>
+	<content contentuid="5b9c6b9f8fb541f3839d6c3738507a9c00009" version="1">Warlock: Pact of Severance</content>
 	<content contentuid="h4eda45b1312b481bbdb967db21001156768a" version="1">Warlock: Pact of the Tome</content>
 
 	<content contentuid="h7a8fbc177eec490588472d84bb58ffdd6266" loreTexts="true" version="1">Wizard: Anarchs of Shyr Tradition</content>
 	<content contentuid="h4eb2a8ec440643a49fcb8159c8ba72df4689" loreTexts="true" version="1">Wizard: Coronal Guards Tradition</content>
+	<content contentuid="5b9c6b9f8fb541f3839d6c3738507a9c00010" loreTexts="true" version="1">Wizard: Zakharan Sha'ir Tradition</content>
 	<content contentuid="he3784714c0d84b9e9326b760ead1364c71g7" loreTexts="true" version="1">Wizard: Cormyr War Wizards Tradition</content>
 	<content contentuid="h297875b8c2474e7ca666ffeba2832cd21893" loreTexts="true" version="1">Wizard: Thayan Necromancers Tradition</content>
 	<content contentuid="he3784714c0d84b9e6689b760ea3s5d2e5888" loreTexts="true" version="1">Wizard: Netherese Variators Tradition</content>
@@ -806,20 +859,22 @@
 	<content contentuid="h441085efge3a5g4004gba8dgf2378e8986c8" version="1">Fortitude and resilience. Improves &lt;LSTag Tooltip="SpellcastingAbilityModifier"&gt;Spellcasting&lt;/LSTag&gt; for Barbarians, Bards, Fighters, Paladins, Sorcerers, and Warlocks, as well as their ability to apply Conditions.&lt;Br&gt;&lt;Br&gt;Also reduces elemental damage taken when wearing Medium or Heavy Armour.</content>
 	<content contentuid="hb5a027a4g2934g40bfga5e1g7c00d2f5s698" version="1">Global Bonus</content>
 	<content contentuid="hb5a027a4g2934g40bfga5e1g7c225ds5f648" version="1">Full Metal</content>
-	<content contentuid="hb5a027a4g2934g40bfga5e1g7c225ds22564" version="1">While wearing Medium or Heavy Armour, physical damage is reduced by your &lt;LSTag Tooltip="AbilityModifier"&gt;Constitution Modifier&lt;/LSTag&gt;, and elemental damage is reduced by your Charisma Modifier.</content>
+	<content contentuid="hb5a027a4g2934g40bfga5e1g7c225ds22564" version="1">While wearing Medium or Heavy Armour, physical damage taken by an attack is reduced by your &lt;LSTag Tooltip="AbilityModifier"&gt;Constitution Modifier&lt;/LSTag&gt;, and elemental damage is reduced by your Charisma Modifier. While wearing Medium Armour, your &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; are also increased by 2, multiplied by your level.</content>
 	<content contentuid="h4333422eg15d9g4c6egbfbeg9f06915940d1" version="1">&lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; bonus limited to +2.&lt;Br&gt;&lt;LSTag Type="Status" Tooltip="DAMAGE_REDUCTION"&gt;Damage Reduction&lt;/LSTag&gt; limited to -2.</content>
 	<content contentuid="h24a49208g1912g4270g9d2dgc2986ab10ae0" version="1">&lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; is unaffected by your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt;.&lt;Br&gt;&lt;LSTag Type="Status" Tooltip="DAMAGE_REDUCTION"&gt;Damage Reduction&lt;/LSTag&gt; has no limit.</content>
 	<content contentuid="h0bdd92afge500g4484g820dgbb225d655458" version="1">Damage Reduction</content>
 	<content contentuid="h65d96dbcg7697g4779g87c5g3266d9858858" version="1">When you are about to receive physical damage due to a Melee or Ranged &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, or due to a Spell, you utilize your armour to lessen the blow and reduce the damage. Damage is reduced by a value equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Constitution Modifier&lt;/LSTag&gt;. In addition, elemental damage is reduced by an amount equal to your Charisma Modifier.</content>
 
 	<content contentuid="hcf90a672g10deg4b3egad4fg9094c6ac6224" version="1">Extra Attack</content>
-	<content contentuid="he37249cfg5d71g499cg82d9gc369133f2066" version="2">Once per turn, after having made an unarmed or weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, you may make an additional attack for free.&lt;Br&gt;&lt;Br&gt;Your Extra Attack cannot be a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt;.</content>
+	<content contentuid="he37249cfg5d71g499cg82d9gc369133f2066" version="2">Once per turn, after having made an unarmed or weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, you may make an additional attack as a free action.&lt;Br&gt;&lt;Br&gt;Your Extra Attack cannot be a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h3e6c622egb059g47e7gb925g7e82eae32521" version="2">Extra Attack: Martial Surge</content>
-	<content contentuid="h36aba2dbg6f37g4343ga32egcab0fd7d5f68" version="1">Gain an additional &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt; at all times.&lt;Br&gt;&lt;Br&gt;This passive acts as a replacement of &lt;LSTag Type="Passive" Tooltip="ExtraAttack"&gt;Extra Attack&lt;/LSTag&gt;.</content>
+	<content contentuid="h36aba2dbg6f37g4343ga32egcab0fd7d5f68" version="1">Gain an additional &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt; or &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Bonus Action&lt;/LSTag&gt; at all times. This can be toggled at any time outside of combat.&lt;Br&gt;&lt;Br&gt;This passive acts as a replacement of &lt;LSTag Type="Passive" Tooltip="ExtraAttack"&gt;Extra Attack&lt;/LSTag&gt;.</content>
 
 	<content contentuid="hb5a027a4g2934g40bfga5e1g7cb821278a54" version="1">Extra Attack: Steel Cast</content>
-	<content contentuid="h87a4cfdbg2ba1g4a61gbbe7g540a28a9a966" version="2">Once per turn, after having made an unarmed or weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, or after having cast a Spell, you may make an additional attack for free.&lt;Br&gt;&lt;Br&gt;This passive acts as a replacement of &lt;LSTag Type="Passive" Tooltip="ExtraAttack"&gt;Extra Attack&lt;/LSTag&gt;.</content>
+	<content contentuid="h87a4cfdbg2ba1g4a61gbbe7g540a28a9a966" version="2">Once per turn, after having made an unarmed or weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, or after having cast a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt;, you may make an additional attack, or cast an additional Cantrip, as a free action.&lt;Br&gt;&lt;Br&gt;This passive acts as a replacement of &lt;LSTag Type="Passive" Tooltip="ExtraAttack"&gt;Extra Attack&lt;/LSTag&gt;.</content>
+	<content contentuid="hb5a027a4g2934g40bfga5e1g7cb821226454" version="1">Steel Cast</content>
+	<content contentuid="h87a4cfdbg2ba1g4a61gbbe7g540a28a22585" version="2">Affected creature may make an additional attack, or cast an additional &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt;, as a free action.</content>
 
 	<content contentuid="h3e6c622egb059g47e7gb925g7e82eae1bfda" version="2">Lunar Instinct</content>
 	<content contentuid="h36aba2dbg6f37g4343ga32egcab0fd7edcb3" version="1">While assuming the form of a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt;, you gain an additional &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt;.</content>
@@ -842,5 +897,15 @@ Fully resting requires &lt;LSTag Tooltip="CampSupplies"&gt;Camp Supplies&lt;/LST
 	<content contentuid="h446e0ad1gfd15g47a2gb144ge583b8svgale" version="1">Gale's Severed Mage Hand</content>
 	<content contentuid="hd0d5c5b6g213bg4a73g984espicytiefling" version="1">Spicy</content>
 	<content contentuid="h0749c679gda4bg4fc7gaf23spicytiefling" version="1">When damaged by a melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, your aggressor takes [1].</content>
+
+
+<content contentuid="0000000000000000000000000000000000000" version="1">TRAPS</content>
+
+	<content contentuid="hd4bc7182g1c72g4663gbdb9g1e401f52a37f" version="1">Hammer Impact</content>
+	<content contentuid="h82fa9a5fgc12cg4eeegb458gc2253625e710" version="2">An immense weight slams down. Any creature large sized or smaller who is hit by this will instantly die.</content>
+
+	<content contentuid="h19381cb5gd0c4g451fg86b4ge10b7cda5110" version="1">Shattered Stalactite</content>
+	<content contentuid="h82fa9a5fgc12cg4eeegb458gcf8d3e25e710" version="2">Shards of stone shatter in all directions. Any creature medium sized or smaller who is hit by this will instantly die.</content>
+	<content contentuid="h67bf1ab2g0885g4c6aga3b4g8c8a2013bbda" version="5">The next time this stalactite takes damage, it will drop, &lt;LSTag Type="Spell" Tooltip="Projectile_Stalactite_Explosion"&gt;Shattering&lt;/LSTag&gt; on anything underneath. Any creature medium sized or smaller who is hit by this will instantly die.</content>
 
 </contentList>

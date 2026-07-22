@@ -136,12 +136,12 @@
 	<content contentuid="1532e50122e94186bab1a621b059dbedzzzzz" version="1">Your faith is one of occlusion and obscurity. Secrets forged in shadow, bound in rites which elude all but the most devout of followers.</content>
 
 	<content contentuid="1532e50122e94186bab1a621b059dbed00001" version="1">Veilcasting</content>
-	<content contentuid="1532e50122e94186bab1a621b059dbed0000a" version="1">If they are not currently &lt;LSTag Type="Status" Tooltip="INVISIBILITY_BLOCKER"&gt;Revealed&lt;/LSTag&gt;, targeting an ally with a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; will cause them to become &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; for one turn.&lt;br&gt;&lt;br&gt;Additionally, upon causing a creature to become &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; through Veilcasting, all enemies within [1] of them receive [2].</content>
+	<content contentuid="1532e50122e94186bab1a621b059dbed0000a" version="1">If they are not currently &lt;LSTag Type="Status" Tooltip="INVISIBILITY_BLOCKER"&gt;Revealed&lt;/LSTag&gt;, directly targeting an ally with a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; will cause them to become &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; for three turns.&lt;br&gt;&lt;br&gt;Additionally, upon causing a creature to become &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; through Veilcasting, all enemies within [1] of them receive [2].</content>
 
 	<content contentuid="1532e50122e94186bab1a621b059dbed00002" version="1">Mirror Force</content>
-	<content contentuid="1532e50122e94186bab1a621b059dbed0000b" version="1">When an ally is damaged by an enemy, use a &lt;LSTag Type="ActionResource" Tooltip="ChannelDivinity"&gt;Channel Divinity&lt;/LSTag&gt; charge to deal [1] to their aggeressor. In addition, you cause your ally to regain [2].</content>
+	<content contentuid="1532e50122e94186bab1a621b059dbed0000b" version="1">When an ally is damaged by an enemy, use a &lt;LSTag Type="ActionResource" Tooltip="ChannelDivinity"&gt;Channel Divinity&lt;/LSTag&gt; charge to reflect the damage back to their aggeressor. In addition, you cause your ally to regain [2].</content>
 	<content contentuid="1532e50122e94186bab1a621b059dbed000z2" version="1">Mirror Force</content>
-	<content contentuid="1532e50122e94186bab1a621b059dbed000zb" version="1">When an ally is damaged by an enemy, deal [1] to their aggeressor. In addition, you cause your ally to regain [2].</content>
+	<content contentuid="1532e50122e94186bab1a621b059dbed000zb" version="1">When an ally is damaged by an enemy, reflect the damage back to their aggeressor. In addition, you cause your ally to regain [2].</content>
 
 	<content contentuid="1532e50122e94186bab1a621b059dbed00003" version="1">Phantom Communion</content>
 	<content contentuid="1532e50122e94186bab1a621b059dbed0000c" version="1">If you are not currently &lt;LSTag Type="Status" Tooltip="INVISIBILITY_BLOCKER"&gt;Revealed&lt;/LSTag&gt;, targeting an ally with a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; will cause you to become &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; as well.</content>
@@ -155,7 +155,7 @@
 	<content contentuid="1532e50122e94186bab1a621b059dbed000ze" version="1">Swap places with an &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; ally as a free action.</content>
 
 	<content contentuid="1532e50122e94186bab1a621b059dbed00006" version="1">Fractured Reality</content>
-	<content contentuid="1532e50122e94186bab1a621b059dbed0000f" version="1">Upon dealing Psychic damage, your target is stripped of their &lt;LSTag Type="Status" Tooltip="LOCKDOWN_CONDITION_DESCRIPTION"&gt;Lockdown Immunity&lt;/LSTag&gt;.</content>
+	<content contentuid="1532e50122e94186bab1a621b059dbed0000f" version="1">Creatures you &lt;LSTag Type="Status" Tooltip="SURPRISED"&gt;Surprise&lt;/LSTag&gt; become &lt;LSTag Tooltip="Vulnerable"&gt;Vulnerable&lt;/LSTag&gt; to Psychic damage.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">LIFE DOMAIN</content>
 
@@ -226,7 +226,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">WAR DOMAIN</content>
 
 	<content contentuid="h994500d0g1703g421bg8028g0f3a3103c858" version="2">Radiant Strikes</content>
-	<content contentuid="hf729263eg37dcg43fbg923cg24cc642f6773" version="2">Deal an additional [1] on any successful &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
+	<content contentuid="hf729263eg37dcg43fbg923cg24cc642f6773" version="2">When you deal damage to an enemy, you deal an additional [1].</content>
 
 	<content contentuid="hef0a183bgbc91g478cg8e70g38f55677ac77" version="2">War God's Blessing</content>
 	<content contentuid="h52cf6bc9gdc15g4852gae20ga2dc3879ffad" version="3">Bestow the glory of your god, using your &lt;LSTag Type="ActionResource" Tooltip="ChannelDivinity"&gt;Channel Divinity&lt;/LSTag&gt; charge to grant either yourself or an ally within [1] a +[2] bonus to an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
@@ -284,7 +284,9 @@
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e0000d" version="1">Increase your odds of experiencing instances of &lt;LSTag Type="ActionResource" Tooltip="DivineIntervention"&gt;Divine Intervention&lt;/LSTag&gt; from 33% to 50%.</content>
 
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e00005" version="1">Divine Restoration</content>
-	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e0000e" version="1">At the end of any combat encounter, emit a healing aura across [1] which restores +1d6 &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; multiplied by your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; to yourself and all allies.</content>
+	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e0000e" version="1">At the end of any combat encounter, you emit a healing aura across [1] after three turns, which restores +1d6 &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; multiplied by your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; to yourself and all allies.</content>
+	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e000z5" version="1">Divine Restoration</content>
+	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e000ze" version="1">Affected creature will emit a healing aura across [1] after three turns, which restores +1d6 &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; multiplied by their &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; to both themselves and all allies.</content>
 
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e00006" version="1">Ethereal Intuition</content>
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e0000f" version="1">Permanently gain the effects of &lt;LSTag Type="Status" Tooltip="GUIDANCE"&gt;Guidance&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="RESISTANCE"&gt;Resistance&lt;/LSTag&gt;.</content>

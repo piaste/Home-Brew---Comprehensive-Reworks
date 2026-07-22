@@ -251,9 +251,9 @@
 	<content contentuid="h16312bfag01a2g42f8g943bg3fcba8e00006" version="1">Pitch Black</content>
 	<content contentuid="hec37ca35g480cg4de1gae65g3986c350000f" version="1">While &lt;LSTag Type="Status" Tooltip="SNEAKING_HEAVILY_OBSCURED"&gt;Heavily Obscured&lt;/LSTag&gt;, all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and damage rolls you make are rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. When your &lt;LSTag Type="Spell" Tooltip="Target_HoundOfIllOmen"&gt;Hounds of Ill Omen&lt;/LSTag&gt; clone themselves, their clones will never expire, and their can now produce further clones as well.</content>
 
-<content contentuid="0000000000000000000000000000000000000" version="1">SOUL OF THE FRENZIED TUNDRA</content>
+<content contentuid="0000000000000000000000000000000000000" version="1">SOUL OF THE FRENZIED</content>
 
-	<content contentuid="9585509cf15f491a86ba751105cc210000000" version="1">Soul of the Frenzied Tundra</content>
+	<content contentuid="9585509cf15f491a86ba751105cc210000000" version="1">Soul of the Frenzied</content>
 	<content contentuid="9585509cf15f491a86ba751105cc2100zzzzz" version="1">Within your blood rages an endless winter. Those touched by your frozen power are driven into a maddened frenzy beneath the tundra's merciless chill.</content>
 
 	<content contentuid="9585509cf15f491a86ba751105cc210000001" version="1">Winter is Coming</content>
@@ -266,13 +266,13 @@
 	<content contentuid="9585509cf15f491a86ba751105cc21000000c" version="1">Once per turn, upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; against a &lt;LSTag Type="Status" Tooltip="MADNESS"&gt;Maddened&lt;/LSTag&gt; enemy, you create one &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Point&lt;/LSTag&gt;.</content>
 
 	<content contentuid="9585509cf15f491a86ba751105cc210000004" version="1">Frenzied Blizzard</content>
-	<content contentuid="9585509cf15f491a86ba751105cc21000000d" version="1">Enemies suffering from &lt;LSTag Type="Status" Tooltip="MADNESS"&gt;Madness&lt;/LSTag&gt; receive [1] per turn.</content>
+	<content contentuid="9585509cf15f491a86ba751105cc21000000d" version="1">Enemies suffering from &lt;LSTag Type="Status" Tooltip="MADNESS"&gt;Madness&lt;/LSTag&gt; receive [1] per turn. In addition, when dealing damage to an enemy or item, you ignore Cold based &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt;.</content>
 
 	<content contentuid="9585509cf15f491a86ba751105cc210000005" version="1">Murderous Delirium</content>
-	<content contentuid="9585509cf15f491a86ba751105cc21000000e" version="1">&lt;LSTag Type="Status" Tooltip="MADNESS"&gt;Maddened&lt;/LSTag&gt; enemies deal the maximum damage possible when targeting their allies.</content>
+	<content contentuid="9585509cf15f491a86ba751105cc21000000e" version="1">&lt;LSTag Type="Status" Tooltip="MADNESS"&gt;Maddened&lt;/LSTag&gt; enemies deal the maximum damage possible when targeting their allies. In addition, Maddened enemies are considered to be priority targets, and are significantly more likely to be targeted by their allies.</content>
 
 	<content contentuid="9585509cf15f491a86ba751105cc210000006" version="1">Frozen Soul</content>
-	<content contentuid="9585509cf15f491a86ba751105cc21000000f" version="1">&lt;LSTag Type="Status" Tooltip="MADNESS"&gt;Maddened&lt;/LSTag&gt; enemies are considered to be priority targets, and are significantly more likely to be targeted by their allies.</content>
+	<content contentuid="9585509cf15f491a86ba751105cc21000000f" version="1">Once per turn, upon using &lt;LSTag Type="Passive" Tooltip="CreationaryText"&gt;Creationary&lt;/LSTag&gt;, all enemies within of you [1] take [2].</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">VOLCANIST</content>
 
@@ -281,7 +281,7 @@
 	<content contentuid="h6cc6b6fega327g411ag9b33g098e0c8636b1" loreTexts="true" version="3">You burn with an inner link to the Undying Pyre, its heat arduous to control and impossible to quench.</content>
 
 	<content contentuid="h14011b40g647cg4560g8a71g0ddec16c4753" version="2">Magmatic</content>
-	<content contentuid="h476f70abgabb6g4b83g9c5dg0c73cbe34904" version="14">When dealing damage to an enemy or item, you ignore Fire based &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt;. At the start of each of your turns, and upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, you generate one stack of &lt;LSTag Type="Status" Tooltip="MAG_FIRE_HEAT"&gt;Heat&lt;/LSTag&gt;.</content>
+	<content contentuid="h476f70abgabb6g4b83g9c5dg0c73cbe34904" version="14">When dealing damage to an enemy or item, you ignore Fire based &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt;. At the start of each of your turns, and upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, you generate one stack of &lt;LSTag Type="Status" Tooltip="MAG_FIRE_HEAT"&gt;Heat&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h74aaf9a2g8faag4fb3gb244g4bb2470fb648" loreTexts="true" version="2">Pyric Retort</content>
 	<content contentuid="hc277c521g31b6g4c21gb01ag7d599d569e7e" loreTexts="true"  version="2">When an ally is about to be damaged, you may expend one stack of &lt;LSTag Type="Status" Tooltip="MAG_FIRE_HEAT"&gt;Heat&lt;/LSTag&gt; in order to fire a &lt;LSTag Type="Spell" Tooltip="Projectile_PyrrhicFlare"&gt;Pyric Flare&lt;/LSTag&gt; at their aggressor. In addition, killing a &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burning&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="BURNING_LAVA"&gt;Melting&lt;/LSTag&gt; enemy will generate one &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Point&lt;/LSTag&gt;.</content>
@@ -382,7 +382,7 @@
 	<content contentuid="h73917ce3gc827g49e4ga954g8a5f696de6f7" version="4">Targets of Spells or &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt; that require &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; make their Saving Throw with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Costs [1] &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Points&lt;/LSTag&gt; per cast.</content>
 
 	<content contentuid="0287fd8d-84da-4799-a59f-a6b5d75aa7f0" version="1">Metamagic: Maximized Magic</content>
-	<content contentuid="f29e1f76-9c88-4dee-9923-81e924388937" version="1">Spells and &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt; that deal damage deal the maximum amount of damage possible.&lt;br&gt;&lt;br&gt;Costs [1] &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Points&lt;/LSTag&gt; per cast.</content>
+	<content contentuid="f29e1f76-9c88-4dee-9923-81e924388937" version="1">Spells and &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt; that deal damage deal the maximum amount of damage possible.&lt;br&gt;&lt;br&gt;Costs [1] &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Points&lt;/LSTag&gt; per level of &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; used. Cantrips cost 3 Sorcery Points.</content>
 	
 	<content contentuid="689cae2f-e4ff-44cc-84ce-180aa6727a03" version="1">Metamagic: Piercing Spell</content>
 	<content contentuid="259166d2-1d55-416e-82f8-20a96e4d4467" version="1">Spells and &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt; that deal damage to an enemy or item ignore all &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Costs [1] &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Points&lt;/LSTag&gt; per cast.</content>
@@ -408,7 +408,7 @@
 	<content contentuid="b0bc6550-9678-4d3d-8530-fce9d32f77b6" version="1">Damaging Spells and &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt; push your enemies back by [1] and may cause them to fall &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; if they fail a Strength based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Costs [2] &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Points&lt;/LSTag&gt; per cast.</content>
 	
 	<content contentuid="e38654de-fd40-4f34-96c6-25a5886af1a9" version="1">Metamagic: Tripled Spell</content>
-	<content contentuid="1468eac4-3b98-4861-9a24-579a9a78235e" version="1">Spells and &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt; that only target one creature can now target two additional creatures.&lt;br&gt;&lt;br&gt;Costs [1] &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Points&lt;/LSTag&gt; per level of &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; used. Cantrips cost 4 Sorcery Points.</content>
+	<content contentuid="1468eac4-3b98-4861-9a24-579a9a78235e" version="1">Spells and &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt; that only target one creature can now target two additional creatures.&lt;br&gt;&lt;br&gt;Costs [1] &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Points&lt;/LSTag&gt; per level of &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; used. Cantrips cost 3 Sorcery Points.</content>
 	<content contentuid="h7f172d6cg6359g4158gb711gcd159662cc53" version="1">For Spells that don't fire a projectile, the targets need to be within [1] of each other.</content>
 
 	<content contentuid="h8c9f627fgff0ag4f0bgab3dg2f1e75e85e4b" version="1">Metamagic: Twinned Spell</content>

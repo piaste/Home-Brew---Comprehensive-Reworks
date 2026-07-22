@@ -30,7 +30,7 @@
 	<content contentuid="d3e15e63749c4b62b8e7760cc70741209sd09" version="3">Gain the ability to &lt;LSTag Type="Spell" Tooltip="Shout_Dash"&gt;Dash&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_Disengage"&gt;Disengage&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Shout_Hide"&gt;Hide&lt;/LSTag&gt; as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;. This effect can be toggled at any time.</content>
 
 	<content contentuid="d3e15e63749c4b62b8e7760ccaw2es6f2e2f1" version="1">Dexterous Maneuvers</content>
-	<content contentuid="d3e15e63749c4b62b8e7760cc72354r6we8fa" version="3">All throw based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; that you make receive a bonus equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Dexterity Modifier&lt;/LSTag&gt;.</content>
+	<content contentuid="d3e15e63749c4b62b8e7760cc72354r6we8fa" version="3">All unarmed based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; that you make receive a bonus equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Dexterity Modifier&lt;/LSTag&gt;.</content>
 
 	<content contentuid="hc4558204g2c77g4b58gafb6g0ba6b399ja83" version="1">Lucky Toss</content>
 	<content contentuid="h098941ccgc4ecg49f2gb22agabed0b01ofk9" version="3">While in combat, you have a 50% chance to restore one &lt;LSTag Type="ActionResource" Tooltip="LuckPoint"&gt;Luck Point&lt;/LSTag&gt; at the beginning of your turns.</content>
@@ -55,7 +55,7 @@
 	<content contentuid="hdb24b7c0g74dag4e54gb7a3gac62e6a68522" version="1">Arcane Trickery</content>
 	<content contentuid="h25b27b77g4bc8g4944g881bg9f10basdf558" version="1">&lt;LSTag Type="Spell" Tooltip="Target_SneakAttack"&gt;Sneak Attack&lt;/LSTag&gt; can trigger when casting &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt; and Spells. Additionally, casting Cantrips and Spells while &lt;LSTag Type="Spell" Tooltip="Shout_Hide"&gt;Hidden&lt;/LSTag&gt; will not break &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Stealth&lt;/LSTag&gt;.</content>
 	<content contentuid="hd8a8ad84g4f65g46fdgb04dg5b91dafss5f8" version="1">Arcane Sneak Attack</content>
-	<content contentuid="h23701712ge994g40bfga729g36dc38dss354" version="2">Deal an extra [1] to a creature you have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; against. If casting a &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; or Spell, Sneak Attack will instead deal Force damage. You must be wielding a &lt;LSTag Tooltip="Finesse"&gt;Finesse Weapon&lt;/LSTag&gt; in order to trigger Sneak Attack.</content>
+	<content contentuid="h23701712ge994g40bfga729g36dc38dss354" version="2">Deal an extra [1] to a creature you have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; against. If casting a &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; or Spell, Sneak Attack will instead deal Force damage, and Advantage is not required. You must be wielding a &lt;LSTag Tooltip="Finesse"&gt;Finesse Weapon&lt;/LSTag&gt; in order to trigger Sneak Attack.</content>
 
 	<content contentuid="hae3fe1d9geac1g4c8bga1ceg4c711da0beba" version="1">Blessing of the Trickster</content>
 	<content contentuid="hdb24b7c0g74dag4e54gb7a3gac62ec5ca246" version="1">Grant yourself or another creature &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisibility&lt;/LSTag&gt; and &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; based &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt;.</content>
@@ -86,7 +86,9 @@
 	<content contentuid="h941ec3e2geb18g475ega113gb538e05370ca" loreTexts="true" version="1">You apprenticed with the legendary Assassins of the Galenas Mountains, slaying your targets with a single strike.</content> 
 
 	<content contentuid="h653597fcg1942g4ce1gaefag1ecf2fa01d4b" version="1">Assassinate</content>
-	<content contentuid="h853b555ege835g49e1g9e27g74680e24aef5" version="4">You immediately restore your &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt; and &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; at the beginning of combat and have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; when attacking targets who have not taken a turn yet.&lt;br&gt;&lt;br&gt;Outside of combat, while &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Sneaking&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt;, any successful &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; you make deals an additonal 12 damage multiplied by your levels in Rogue. The type of damage dealt is the same as your main-hand melee weapon.</content>
+	<content contentuid="h853b555ege835g49e1g9e27g74680e24aef5" version="4">You immediately restore your &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt; and &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; at the beginning of combat and have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; when attacking targets who have not taken a turn yet.&lt;br&gt;&lt;br&gt;Outside of combat, while &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Sneaking&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt;, any successful &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; you make deals an additonal 12 damage multiplied by your levels in Rogue. The type of damage dealt is the same as your main-hand melee weapon.&lt;br&gt;&lt;br&gt;Additionally, you gain the ability to &lt;LSTag Type="Spell" Tooltip="Target_Assassinate"&gt;Assassinate&lt;/LSTag&gt; targets from above.</content>
+	<content contentuid="hc4558204g2c77g4b58gafb6g0b225255e6f8" version="1">Assassinate</content>
+	<content contentuid="h098941ccgc4ecg49f2gb22agab6d9d6e8558" version="3">While &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Sneaking&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt;, jump down onto a target from above, dealing significantly more damage.</content>
 
 	<content contentuid="hc4558204g2c77g4b58gafb6g0ba6b394a584" version="1">Assassin's Focus</content>
 	<content contentuid="h098941ccgc4ecg49f2gb22agabed0b093kff" version="3">Every three turns while in combat, you gain an &lt;LSTag Type="ActionResource" Tooltip="AssassinsMark"&gt;Assassin's Mark&lt;/LSTag&gt;. You may use these to trigger &lt;LSTag Type="Status" Tooltip="Tooltip_Assassinate"&gt;Assassinate&lt;/LSTag&gt; when dealing damage to an enemy while in combat. Killing an enemy with this passive active will not expend your Assassin's Mark. This effect can be toggled at any time.</content>
@@ -101,7 +103,7 @@
 	<content contentuid="h098941ccgc4ecg49f2gb22agabed0b0dd5f8" version="3">Used to trigger &lt;LSTag Type="Status" Tooltip="Tooltip_Assassinate"&gt;Assassinate&lt;/LSTag&gt; when dealing damage.</content>
 
 	<content contentuid="hc4558204g2c77g4b58gafb6g0ba6b3948a22" version="1">Hidden Implement</content>
-	<content contentuid="h098941ccgc4ecg49f2gb22agabed0b06a977" version="3">While &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Sneaking&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt;, you have a chance to &lt;LSTag Type="Status" Tooltip="PARALYZED"&gt;Paralyze&lt;/LSTag&gt; your target upon dealing damage.</content>
+	<content contentuid="h098941ccgc4ecg49f2gb22agabed0b06a977" version="3">While &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Sneaking&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt;, you have a chance to &lt;LSTag Type="Status" Tooltip="PARALYZED"&gt;Paralyze&lt;/LSTag&gt; your target upon dealing damage in combat. If your target is not currently in combat, they are immediately Paralyzed.</content>
 
 	<content contentuid="hc4558204g2c77g4b58ga69870ba6b394a584" version="1">Critical Shock</content>
 	<content contentuid="h098941ccgc4ecg49f2dfsd68abed0b093kff" version="3">All successful &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; outside of combat are considered to be &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hits&lt;/LSTag&gt;.</content>
@@ -112,7 +114,7 @@
 	<content contentuid="h098941ccgc4ecg49f2gb22agabed99a84225" version="3">Affected creature is unable to be &lt;LSTag Type="Status" Tooltip="ALERTED"&gt;Alerted&lt;/LSTag&gt;.</content>
 
 	<content contentuid="hc4558204g2c77g4b58gafb6g0ba6b39adsdf" version="1">Execute</content>
-	<content contentuid="h098941ccgc4ecg49f2gb22agabed0b0ewrff" version="3">Dealing damage to a target with less than 10% of its total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; instantly kills them.</content>
+	<content contentuid="h098941ccgc4ecg49f2gb22agabed0b0ewrff" version="3">Dealing damage to a target with less than 20% of its total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; instantly kills them.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">HIDDEN TOXICANT</content>
 
@@ -186,7 +188,7 @@
 	<content contentuid="had7a8c4bg8548g41a5ga8f0g917a335f2c56" version="3">Affected creature has a -5 penalty on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; when not attacking the creature who provoked them.</content>
 
 	<content contentuid="h34233a5agb50eg4820g9f10g3e21aa000002" version="1">Steady Footwork</content>
-	<content contentuid="hba8f1eeeg12c1g43dag9a43g15d42b30000b" version="2">Gain status immunity to falling &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;. In addition, you now always succed Dexterity based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
+	<content contentuid="hba8f1eeeg12c1g43dag9a43g15d42b30000b" version="2">Gain status immunity to falling &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;. In addition, you now always succeed Dexterity based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h34233a5agb50eg4820g9f10g3e21aa000003" version="1">Improvised Explosives</content>
 	<content contentuid="hba8f1eeeg12c1g43dag9a43g15d42b30000c" version="5">Throw a grenade at a target.</content>
@@ -225,7 +227,7 @@
 	<content contentuid="hc4558204g2c77g4b58gaf999a8a6b394a6a8" version="1">&lt;LSTag Type="Passive" Tooltip="LuckyToss"&gt;Lucky Toss&lt;/LSTag&gt; now restores a &lt;LSTag Type="ActionResource" Tooltip="LuckPoint"&gt;Luck Point&lt;/LSTag&gt; every turn.</content>
 
 	<content contentuid="h653597fcg1942g4ce1gaefag1ecf2fa5a4a2" version="1">No Honor Among Us</content>
-	<content contentuid="h853b555ege835g49e1g9e27g74680e28376e" version="4">Gain three additional &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reactions&lt;/LSTag&gt;.</content>
+	<content contentuid="h853b555ege835g49e1g9e27g74680e28376e" version="4">The first &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; you roll each turn will always deal the maximum damage possible.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">VIRULENCE</content>
 
@@ -247,10 +249,10 @@
 	<content contentuid="dfd64ed09bb241db9f6107f73591ee260000d" version="1">Your &lt;LSTag Type="Spell" Tooltip="Target_SneakAttack"&gt;Sneak Attack&lt;/LSTag&gt; now deals damage to all enemies in a [1] radius.</content>
 
 	<content contentuid="dfd64ed09bb241db9f6107f73591ee2600005" version="1">Toxic Opportunity</content>
-	<content contentuid="dfd64ed09bb241db9f6107f73591ee260000e" version="1">When targeting a creature coated in &lt;LSTag Type="Status" Tooltip="ACID"&gt;Acid&lt;/LSTag&gt;, you make all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+	<content contentuid="dfd64ed09bb241db9f6107f73591ee260000e" version="1">When targeting a creature coated in &lt;LSTag Type="Status" Tooltip="ACID"&gt;Acid&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="CORRODED"&gt;Corrosion&lt;/LSTag&gt;, you make all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and Damage Rolls with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
 
 	<content contentuid="dfd64ed09bb241db9f6107f73591ee2600006" version="1">Terminal Exposure</content>
-	<content contentuid="dfd64ed09bb241db9f6107f73591ee260000f" version="1">When dealing damage to a &lt;LSTag Type="Status" Tooltip="CORRODED"&gt;Corroded&lt;/LSTag&gt; enemy, you deal additional damage equal to your &lt;LSTag Type="Spell" Tooltip="Target_SneakAttack"&gt;Sneak Attack&lt;/LSTag&gt;.</content>
+	<content contentuid="dfd64ed09bb241db9f6107f73591ee260000f" version="1">When dealing physical damage to a &lt;LSTag Type="Status" Tooltip="CORRODED"&gt;Corroded&lt;/LSTag&gt; enemy with a weapon, you deal additional damage equal to your &lt;LSTag Type="Spell" Tooltip="Target_SneakAttack"&gt;Sneak Attack&lt;/LSTag&gt;. Upon dealing this bonus damage, Corrosion is immediately removed from your target.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">PASSIVES</content>
 
@@ -304,7 +306,7 @@
 	<content contentuid="d3e15e63749c4b62b8e7760cc7074120000zl" version="3">When an enemy fails a &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attack&lt;/LSTag&gt; against you, make one against them in retaliation, &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinding&lt;/LSTag&gt; them for the rest of their turn in the process.</content>
 
 	<content contentuid="d3e15e63749c4b62b8e7760cc707412000013" version="1">Quick Reflexes</content>
-	<content contentuid="d3e15e63749c4b62b8e7760cc70741200000m" version="3">Gain an additional &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;. When making an &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt;, you inflict &lt;LSTag Type="Status" Tooltip="HAG_STILLBORN"&gt;Hemorrhaged&lt;/LSTag&gt; for three turns.</content>
+	<content contentuid="d3e15e63749c4b62b8e7760cc70741200000m" version="3">Gain an additional &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;. In addition, when making an &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt;, you inflict &lt;LSTag Type="Status" Tooltip="HAG_STILLBORN"&gt;Hemorrhaged&lt;/LSTag&gt; for three turns.</content>
 
 	<content contentuid="d3e15e63749c4b62b8e7760cc707412000014" version="1">Reactive Movement</content>
 	<content contentuid="d3e15e63749c4b62b8e7760cc70741200000n" version="3">Gain the ability to &lt;LSTag Type="Spell" Tooltip="Shout_Dash"&gt;Dash&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_Disengage"&gt;Disengage&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Shout_Hide"&gt;Hide&lt;/LSTag&gt; as a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;. This effect can be toggled at any time.</content>

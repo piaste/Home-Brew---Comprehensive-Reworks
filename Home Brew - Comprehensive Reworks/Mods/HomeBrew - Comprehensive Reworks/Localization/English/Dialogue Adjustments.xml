@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <contentList>
 
-	<content contentuid="h71cc0ae9gdaf3g47d1g8938gb76e766f386b" version="3">Welcome to Homebrew</content>
+	<content contentuid="h71cc0ae9gdaf3g47d1g8938gb76e766f386b" version="3">Welcome to HomeBrew</content>
 	<content contentuid="he115f203gfd93g4047g9bc1g721d1d759a7b" version="1">Level Up</content>
 	<content contentuid="hf0352edfg4106g4ed7g9964gcf8eaa164fbf" version="1">Confirm Target(s)</content>
 
@@ -19,6 +19,8 @@
 
 	<content contentuid="hbb0b283bgb773g4770g84fag8ff8af0f6ff7" version="4">I'll speak to Zevlor.</content>
 
+	<content contentuid="hd8890e36g39fcg4a3ag9837gee07d5915198" version="4">Fine. I'll answer.</content>
+
 	<content contentuid="h048166ffge6a8g4ccegb166gcb95bc389a12" version="10">Can you help me change my class?</content>
 	
 	<content contentuid="h2868412cgd8c7g478dgb0c7gfa999c7ad2f5" version="2">A mind flayer?! Give me one reason not to kill you.</content>
@@ -28,5 +30,9 @@
 	<content contentuid="he990c3e4ge94fg421ag9b58gbd1ee7280c43" version="2">That's exactly what I plan on doing.</content>
 
 	<content contentuid="h18b31400g508fg4470g98fdg3ae32624b4ec" version="2">I can't let you do this, Shadowheart. I won't.</content>
+
+	<content contentuid="h52421ca0g8ceag4bbdgb24age84feaea650f" version="1">You owe me for dealing with the goblins at the gate. Release her. I'll see that she stays out of trouble.</content>
+	<content contentuid="h5ac2e6cag65bdg4127g8da0g3e001e85cbb3" version="3">You owe me for dealing with the goblins at the gate. Release her. I'll see that she stays out of trouble.</content>
+	<content contentuid="hf49f7afag97aag4103g9171g2bdcc62fb4e1" version="1">You owe me for dealing with the goblins at the gate. Release her. I'll see that she stays out of trouble.</content>
 
 </contentList>

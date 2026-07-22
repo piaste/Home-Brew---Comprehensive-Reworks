@@ -177,7 +177,7 @@
 	<content contentuid="a5sfd4df9s89fd9s8fd45sdfsa5sd0ss0000j" version="1">Spew a [1] line of caustic acid, burning everything in your path.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Fighters&lt;br&gt;Rogues&lt;br&gt;Warlocks&lt;br&gt;Wizards</content>
 
 	<content contentuid="a5sfd4s65asd5fsdf1d45sdfsa5sd0ss00011" version="1">Unseen Servant</content>
-	<content contentuid="a5sfd4df9s89fd9s8fd45sdfsa5sd0ss0000k" version="1">Summon an &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; servant. They will be ignored by other creatures, and are capable of interacting with the environment around you.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Paladins&lt;br&gt;Rogues&lt;br&gt;Wizards</content>
+	<content contentuid="a5sfd4df9s89fd9s8fd45sdfsa5sd0ss0000k" version="1">Summon an &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; servant. They will be ignored by other creatures, and are capable of interacting with the environment around you. While standing next to an enemy, the enemy will become &lt;LSTag Type="Status" Tooltip="CRIME_DISTRACTED"&gt;Critically Distracted&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Paladins&lt;br&gt;Rogues&lt;br&gt;Wizards</content>
 	<content contentuid="h5f04604fg105cg4281g9fedg0a3ef74343d4" version="1">Unseen Servant</content>
 
 	<content contentuid="a5sfd4s65asd5fsdf1d45sdfsa5sd0ss00012" version="1">Zephyr Movement</content>
@@ -322,12 +322,12 @@
 	<content contentuid="39f1898f9sdfosdoifsodofsofd99494xxx6" version="1">Flame Arrows</content>
 	<content contentuid="39f1898f9sdfosdoifsodofsofd99494xxxf" version="1">The amount of Flame Arrows you have remaining. &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; targeting a creature or object will consume one Flame Arrow.</content>
 	<content contentuid="39f1898f9sdfosdoifsodofsofd99494xyz6" version="1">Flame Arrows</content>
-	<content contentuid="39f1898f9sdfosdoifsodofsofd99494xyzf" version="1">While active, your &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; will fire flaming arrows that deal an additional [1] and cause your targets to &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burn&lt;/LSTag&gt; for one turn. This can be toggled at any time.</content>
+	<content contentuid="39f1898f9sdfosdoifsodofsofd99494xyzf" version="1">Deal an additional [1] and cause your targets to &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burn&lt;/LSTag&gt; for one turn when making a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt;.</content>
 
 	<content contentuid="39f1898f9sdfosdoifsodofsofd994940007" version="1">Internal Fortress</content>
-	<content contentuid="39f1898f9sdfosdoifsodofsofd99494000g" version="1">Protect a creature, reducing all physical damage they take by [1].&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Barbarians&lt;br&gt;Rogues&lt;br&gt;Sorcerers&lt;br&gt;Wizards</content>
+	<content contentuid="39f1898f9sdfosdoifsodofsofd99494000g" version="1">Protect a creature, reducing all physical damage they take by [1] until the end of their next combat encounter.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Barbarians&lt;br&gt;Rogues&lt;br&gt;Sorcerers&lt;br&gt;Wizards</content>
 	<content contentuid="39f1898f9sdfosdoifsodofsofd9949400z7" version="1">Internal Fortress</content>
-	<content contentuid="39f1898f9sdfosdoifsodofsofd9949400zg" version="1">Affected creature is protected, reducing physical damage taken by [1].</content>
+	<content contentuid="39f1898f9sdfosdoifsodofsofd9949400zg" version="1">Affected creature is protected, reducing physical damage taken by [1] until the end of their next combat encounter.</content>
 
 	<content contentuid="39f1898f9sdfosdoifsodofsofd994940008" version="1">Blood Broker</content>
 	<content contentuid="39f1898f9sdfosdoifsodofsofd99494000h" version="1">Sacrifice your own life in order to resurrect a companion with all of their &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Fighters&lt;br&gt;Paladins&lt;br&gt;Warlocks</content>

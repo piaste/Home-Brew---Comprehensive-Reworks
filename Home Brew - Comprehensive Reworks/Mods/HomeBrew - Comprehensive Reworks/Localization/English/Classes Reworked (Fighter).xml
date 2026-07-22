@@ -14,7 +14,7 @@
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f5fs854" version="2">Affected creature will restore [1] &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; and regain one of their &lt;LSTag Type="ActionResource" Tooltip="SuperiorityDie"&gt;Superiority Dice&lt;/LSTag&gt; upon the expiration of this status.</content>
 
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f59a644" version="2">Action Surge</content>
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f593kdd" version="2">Once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, restore your &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt; and three of your &lt;LSTag Type="ActionResource" Tooltip="SuperiorityDie"&gt;Superiority Dice&lt;/LSTag&gt;.</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f593kdd" version="2">Once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="HASTE"&gt;Hasten&lt;/LSTag&gt; yourself and restore three of your &lt;LSTag Type="ActionResource" Tooltip="SuperiorityDie"&gt;Superiority Dice&lt;/LSTag&gt;.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">ARCANE ARCHER</content>
 
@@ -22,9 +22,9 @@
 	<content contentuid="h85ff75b5g7ec5g445dga8ffgf95bbb8f5cbc" version="1">You are capable of infusing the weave into your attacks, providing your archery with a supernatural quality - and your foes something to fear.</content>
 	<content contentuid="h5c182d74g17e4g41d7g8f76g94f7b210feea" version="1">Arcane Quiver</content>
 	<content contentuid="hf1b82802gb809g4e09gbb73gcb06c780034d" version="2">Through your Arcane Quiver, you tap into the weave itself, enabling you to infuse your &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; with various types of magic.</content>
-	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad9xyzab" version="1">This action utilizes a weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; while also functioning as a &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt;. If a Cantrip innately deals both physical and elemental damage, the physical damage cannot be increased.</content>
-	<content contentuid="hf318c6dcg5444g4c2ag86b72e5ef5e2f5e45" version="1">If a &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; innately deals both physical and elemental damage, the physical damage cannot be increased.</content>
-	<content contentuid="hf318c6dcg5444g4c2ag86b72e5ef5e2f5e46" version="1">If a Spell innately deals both physical and elemental damage, the physical damage cannot be increased.</content>
+	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad9xyzab" version="1">This action utilizes a weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; while also functioning as a &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt;. If a Cantrip innately deals both physical and elemental damage, the elemental damage cannot be increased.</content>
+	<content contentuid="hf318c6dcg5444g4c2ag86b72e5ef5e2f5e45" version="1">If a &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; innately deals both physical and elemental damage, the elemental damage cannot be increased.</content>
+	<content contentuid="hf318c6dcg5444g4c2ag86b72e5ef5e2f5e46" version="1">If a Spell innately deals both physical and elemental damage, the elemental damage cannot be increased.</content>
 
 	<content contentuid="h2e8de670g9f71g4d53ga652ga2816de00001" version="1">Focused Weave</content>
 	<content contentuid="hf12dfcdfg3774g4f31g849cg8c09c210000a" version="1">Your basic &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; no longer utilize &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;. As such, they can no longer miss your targets or roll &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hits&lt;/LSTag&gt;. While active, your basic Ranged Weapon Attack is considered to be a &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;In addition, while active, your Elemental Fletchings will be fired as stronger, Focused Fletchings. This can be toggled at any time.</content>
@@ -134,13 +134,13 @@
 	<content contentuid="hf12dfcdfg3774g4f31g849cg8c09c2100x1d" version="1">Teleport an item or creature to another location.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; This Spell may be cast while &lt;LSTag Type="Status" Tooltip="HEAVILY_SILENCED"&gt;Silenced&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Muted&lt;/LSTag&gt; and will not break &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Stealth&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h2e8de670g9f71g4d53ga652ga2816de00004" version="1">Improved Fletching</content>
-	<content contentuid="hf12dfcdfg3774g4f31g849cg8c09c210000d" version="1">&lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt; which cost an &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt; may now be cast using your &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;. This may be toggled at any time.</content>
+	<content contentuid="hf12dfcdfg3774g4f31g849cg8c09c210000f" version="1">When casting a &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt;, reduce the number needed to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; by 1.</content>
 
 	<content contentuid="h2e8de670g9f71g4d53ga652ga2816de00005" version="1">Greater Focus</content>
 	<content contentuid="hf12dfcdfg3774g4f31g849cg8c09c210000e" version="1">When &lt;LSTag Type="Passive" Tooltip="FocusedWeave"&gt;Focused Weave&lt;/LSTag&gt; is active, your basic shots now ricochet to two other creatures if within [1] of each other.</content>
 
 	<content contentuid="h2e8de670g9f71g4d53ga652ga2816de00006" version="1">Eye of the Arcana</content>
-	<content contentuid="hf12dfcdfg3774g4f31g849cg8c09c210000f" version="1">When casting a &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt;, reduce the number needed to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; by 1.</content>
+	<content contentuid="hf12dfcdfg3774g4f31g849cg8c09c210000d" version="1">&lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt; which cost an &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt; may now be cast using your &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;. This may be toggled at any time.</content>
 
 	<content contentuid="h2e8de670g9f71g4d53ga652ga2816de5sd2f" version="1">Arcane Focus</content>
 	<content contentuid="hf12dfcdfg3774g4f31g849cg8c09c210df58" version="1">When &lt;LSTag Type="Passive" Tooltip="FocusedWeave"&gt;Focused Weave&lt;/LSTag&gt; is active, your basic shots now ricochet to all other creatures within [1] of your original target.</content>
@@ -457,9 +457,6 @@
 	<content contentuid="0e3d63a2603a455a9f70a7874a87c2b400000" version="1">Palisade</content>
 	<content contentuid="0e3d63a2603a455a9f70a7874a87c2b4zzzzz" version="1">The best offense is a good defense, and you've taken the adage to heart. Shield in hand, you march forward, ready to bash any who challenge you into a fine mist.</content>
 	
-	<content contentuid="0e3d63a2603a455a9f70a7874a87c2b400001" version="1">Reinforced Strikes</content>
-	<content contentuid="0e3d63a2603a455a9f70a7874a87c2b40000a" version="1">Dealing damage with a shield deals additional damage equal to your &lt;LSTag Type="ActionResource" Tooltip="SuperiorityDie"&gt;Superiority Dice&lt;/LSTag&gt;.</content>
-	
 	<content contentuid="0e3d63a2603a455a9f70a7874a87c2b400002" version="1">Projected Bulwark</content>
 	<content contentuid="0e3d63a2603a455a9f70a7874a87c2b40000b" version="1">&lt;LSTag Type="Spell" Tooltip="Target_ShieldBlow_Daze"&gt;Dazing Bash&lt;/LSTag&gt; is now capable of targeting creatures within [1] of you.</content>
 	
@@ -467,7 +464,10 @@
 	<content contentuid="0e3d63a2603a455a9f70a7874a87c2b40000c" version="1">When an ally within [1] of you is damaged by an enemy, you may use &lt;LSTag Type="Spell" Tooltip="Target_ShieldBlow_Daze"&gt;Dazing Bash&lt;/LSTag&gt; against their aggressor as a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;.</content>
 	<content contentuid="0e3d63a2603a455a9f70a7874a87c2b4000z3" version="1">Sentinel's Rebuke</content>
 	<content contentuid="0e3d63a2603a455a9f70a7874a87c2b4000zc" version="1">When an ally within [1] of you is damaged by an enemy, use &lt;LSTag Type="Spell" Tooltip="Target_ShieldBlow_Daze"&gt;Dazing Bash&lt;/LSTag&gt; against their aggressor.</content>
-	
+		
+	<content contentuid="0e3d63a2603a455a9f70a7874a87c2b400001" version="1">Reinforced Strikes</content>
+	<content contentuid="0e3d63a2603a455a9f70a7874a87c2b40000a" version="1">Dealing damage with a shield deals additional damage equal to your &lt;LSTag Type="ActionResource" Tooltip="SuperiorityDie"&gt;Superiority Die&lt;/LSTag&gt;.</content>
+
 	<content contentuid="0e3d63a2603a455a9f70a7874a87c2b400004" version="1">Iron Avalanche</content>
 	<content contentuid="0e3d63a2603a455a9f70a7874a87c2b40000d" version="1">Killing a creature with your shield now causes them to erupt, dealing Force damage to any other enemies within [1] of them equal to your &lt;LSTag Type="ActionResource" Tooltip="SuperiorityDie"&gt;Superiority Dice&lt;/LSTag&gt;.</content>
 	
@@ -504,13 +504,15 @@
 	<content contentuid="h7c51b8ceg0e65g499cga16fgbf3c7b6f007c" version="5">&lt;LSTag Type="Status" Tooltip="CHALLENGERS_CALL"&gt;Challenge&lt;/LSTag&gt; an enemy to attack only you. The challenged enemy will have a -5 penalty on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against anyone but you.</content>
 
 	<content contentuid="ha4a1a217g472cg4bf5g8935g57822249ebc5" version="1">Commander's Strike</content>
-	<content contentuid="h3d912e65g29e8g4cc4g88b8g19b8e6610601" version="2">Spend an &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt; and &lt;LSTag Type="ActionResource" Tooltip="SuperiorityDie"&gt;Superiority Die&lt;/LSTag&gt; to direct an ally to strike a foe. The ally may use their &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; on their next turn to make an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
+	<content contentuid="h3d912e65g29e8g4cc4g88b8g19b8e6610601" version="2">Spend a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; and a &lt;LSTag Type="ActionResource" Tooltip="SuperiorityDie"&gt;Superiority Die&lt;/LSTag&gt; to direct an ally to strike a foe. The ally may use their &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; on their next turn to make an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
 	<content contentuid="h5b61a898gd4e7g4cdbg86ccgcdc0c213aeb9" version="2">Commander's Strike</content>
 	<content contentuid="hf4f7ad9bg0c50g4185g934cg870b02680df1" version="5">Direct an ally to strike a foe. The ally may use their &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; on their next turn to make an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
 	<content contentuid="h465e5656g3ee8g4f55gbd78g9f2442f80aae" version="2">Commander's Strike</content>
 	<content contentuid="h5ba19729g4862g4d30ga73bg03e82b0d97ff" version="3">Affected creature can spend their &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; to make a &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attack&lt;/LSTag&gt;.</content>
-	<content contentuid="h4344309ag115dg487bgbdcbg14b10d6f58d1" version="2">Commander's Strike</content>
-	<content contentuid="h637d4cbeg01f8g44faga3deg34bde92e9f72" version="1">Directed by your ally, use your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; to make a weapon attack.</content>
+	<content contentuid="h4344309ag115dg487bgbdcbg14b10d6f58d1" version="2">Commander's Strike (Melee)</content>
+	<content contentuid="h637d4cbeg01f8g44faga3deg34bde92e9f72" version="1">Directed by your ally, use your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; to make a melee weapon attack.</content>
+	<content contentuid="5a87bcfe67ea4856b59681fa1fea187266854" version="2">Commander's Strike (Ranged)</content>
+	<content contentuid="5a87bcfe67ea4856b59681fa1fea18722d3f5" version="1">Directed by your ally, use your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; to make a ranged weapon attack.</content>
 
 	<content contentuid="ha21fd129ga099g435ag9297gc77a566a5901" version="2">Disarming Attack</content>
 	<content contentuid="hb567e7abg48f7g4b73g96e3g7750ecb59f62" version="4">Spend an &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt; and &lt;LSTag Type="ActionResource" Tooltip="SuperiorityDie"&gt;Superiority Die&lt;/LSTag&gt; to make an attack that potentially forces the target to drop the weapons they are holding.</content>

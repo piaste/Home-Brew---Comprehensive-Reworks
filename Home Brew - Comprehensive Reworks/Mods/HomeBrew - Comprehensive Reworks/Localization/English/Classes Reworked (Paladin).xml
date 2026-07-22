@@ -9,8 +9,8 @@
 	<content contentuid="h4c613264gb41123r6egb992839r7987fe983" version="4">Crusader's Smite Charges: 3</content>
 	<content contentuid="h50416111g8a61g43fs54fs9283r9w78rw97f" version="2">You gain three Smite Charges per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, which allow you to deal tremendous damage to your enemies.</content>
 
-	<content contentuid="9b7b811b9c3043e189f94554a64sw6df84fed" version="3">Allow Respec</content>
-	<content contentuid="9b7b811b9c3043e189f94556s8ef4e8f45845" version="3">Selecting an Oathbreaker as your starting class grants the Oathbreaker dialogue tag, disabling your ability to respec. Toggle this passive off in order to remove the Oathbreaker dialogue tag, allowing you to respec. This can be toggled at any time.</content>
+	<content contentuid="9b7b811b9c3043e189f94554a64sw6df84fed" version="3">Broken Oath</content>
+	<content contentuid="9b7b811b9c3043e189f94556s8ef4e8f45845" version="3">Selecting this as your starting subclass grants the Oathbreaker dialogue tag, disabling your ability to swear an oath, as well as respec. Toggle this passive off in order to remove the Oathbreaker dialogue tag, allowing you to respec. This can be toggled at any time.</content>
 
 	<content contentuid="9b7b811b9c3043e189f945540bf5116eff200" version="5">Sworn Oath</content>
 	<content contentuid="9b7b811b9c3043e189f945540bf5116ess60z" version="1">Oaths upheld lend permanence to power, strengthened by your conviction. To what ideals have you sworn yourself to?&lt;br&gt;&lt;br&gt;Breaking your oath will result in grave consequences.</content>
@@ -326,11 +326,13 @@
 
 	<content contentuid="acb55f4f68334da6s574wdf96s87fee200005" version="1">Aura of the Conquerer</content>
 	<content contentuid="acb55f4f68334da6s574wdf96s87fee20000e" version="5">During combat, you emit an aura, &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightening&lt;/LSTag&gt; enemies within [1] of you.</content>
-	<content contentuid="acb55f4f68334da6s574wdf96s87fee2000z5" version="2">Aura of Protection</content>
+	<content contentuid="acb55f4f68334da6s574wdf96s87fee2000z5" version="2">Aura of the Conquerer</content>
 	<content contentuid="acb55f4f68334da6s574wdf96s87fee2000ze" version="4">Affected creature is emitting an aura, &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightening&lt;/LSTag&gt; enemies within [1] of them.</content>
 
 	<content contentuid="acb55f4f68334da6s574wdf96s87fee200006" version="1">Fist of the Tyrant</content>
-	<content contentuid="acb55f4f68334da6s574wdf96s87fee20000f" version="1">Once per turn, upon dealing damage to another creature with your &lt;LSTag Type="Spell" Tooltip="CTarget_Smite_Tyrant"&gt;Tyrannical Smite&lt;/LSTag&gt;, you conjure a massive Fist of Bane. Upon ending your turn, the fist will then fall, dealing immense damage to any creatures beneath it.</content>
+	<content contentuid="acb55f4f68334da6s574wdf96s87fee20000f" version="1">Once per turn, upon dealing damage to another creature with your &lt;LSTag Type="Spell" Tooltip="CTarget_Smite_Tyrant"&gt;Tyrannical Smite&lt;/LSTag&gt;, you conjure a massive Fist of the Tyrant. Upon ending your turn, the fist will then fall, dealing immense damage to any creatures beneath it.</content>
+	<content contentuid="hbe5861f0gda5eg407cg966fgfaf065006642" version="2">Crush the Defiant</content>
+	<content contentuid="h3854b4fbgc9e5g409bg91d7g9cda5aad63f9" version="2">The Tyrant's mighty fist drops, crushing the will and body of all underneath it, knocking any survivors &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;. </content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">PASSIVES</content>
 
@@ -393,7 +395,7 @@
 	<content contentuid="fe6f4159abae42539029e284001d12deafiow" version="3">Affected creature will recover one &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; charge when this status expires.</content>
 
 	<content contentuid="fe6f4159abae42539029e284001d12de00010" version="3">Principle of Belief</content>
-	<content contentuid="fe6f4159abae42539029e284001d12de0000j" version="3">When dealing damage to Aberrations, Fey, Fiends, or Undead, you deal an additional +1d12 damage.</content>
+	<content contentuid="fe6f4159abae42539029e284001d12de0000j" version="3">When dealing damage to Aberrations, Fey, Fiends, or Undead, you deal an additional +12 damage.</content>
 
 	<content contentuid="h3e63e6aag19b0g400agb559g2e125483261f" version="3">Repel the Damned</content>
 	<content contentuid="h90dc6c92g4bdag440cg8119g6a95df4567cf" version="3">All enemies within [1] of you take damage at the start of their turns equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Charisma Modifier&lt;/LSTag&gt;. The type of damage dealt changes depending on your choice of subclass.</content>
