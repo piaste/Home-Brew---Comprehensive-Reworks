@@ -243,20 +243,20 @@
 
 	<content contentuid="h7c7985f4g0ff2g4097ga2b5g220983d7561c" loreTexts="true" version="1">You have mastered a wide array of combat techniques, every fight an opportunity to display your skills or to unleash the powers of legendary weapons.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0new1" version="2">Cooldown - Technique: Advantageous Strike</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0newa" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_AdvantageousStrike_Frontier"&gt;Technique: Advantageous Strike&lt;/LSTag&gt; again upon the expiration of this status.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0new1" loreTexts="true" version="2">Cooldown - Technique: Advantageous Strike</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0newa" loreTexts="true" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_AdvantageousStrike_Frontier"&gt;Technique: Advantageous Strike&lt;/LSTag&gt; again upon the expiration of this status.</content>
 
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800001" version="2">Cooldown - Technique: Backbreaker</content>
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000a" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_PostureBreaker_Frontier"&gt;Technique: Backbreaker&lt;/LSTag&gt; again upon the expiration of this status.</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800001" loreTexts="true" version="2">Cooldown - Technique: Backbreaker</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000a" loreTexts="true" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_PostureBreaker_Frontier"&gt;Technique: Backbreaker&lt;/LSTag&gt; again upon the expiration of this status.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0new2" version="2">Cooldown - Technique: Befuddling Strike</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0newb" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_BefuddlingStrike_Frontier"&gt;Technique: Befuddling Strike&lt;/LSTag&gt; again upon the expiration of this status.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0new2" loreTexts="true" version="2">Cooldown - Technique: Befuddling Strike</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0newb" loreTexts="true" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_BefuddlingStrike_Frontier"&gt;Technique: Befuddling Strike&lt;/LSTag&gt; again upon the expiration of this status.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0new3" version="2">Cooldown - Technique: Blinding Strike</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0newc" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_BlindingStrike_Frontier"&gt;Technique: Blinding Strike&lt;/LSTag&gt; again upon the expiration of this status.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0new3" loreTexts="true" version="2">Cooldown - Technique: Blinding Strike</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0newc" loreTexts="true" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_BlindingStrike_Frontier"&gt;Technique: Blinding Strike&lt;/LSTag&gt; again upon the expiration of this status.</content>
 
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800002" version="2">Cooldown - Technique: Brace (Melee)</content>
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000b" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Shout_Steady_Frontier"&gt;Technique: Brace (Melee)&lt;/LSTag&gt; again upon the expiration of this status.</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800002" loreTexts="true" version="2">Cooldown - Technique: Brace (Melee)</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000b" loreTexts="true" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Shout_Steady_Frontier"&gt;Technique: Brace (Melee)&lt;/LSTag&gt; again upon the expiration of this status.</content>
 
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800003" loreTexts="true" version="2">Cooldown - Technique: Cleave</content>
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000c" loreTexts="true" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Zone_Cleave_Frontier"&gt;Technique: Cleave&lt;/LSTag&gt; again upon the expiration of this status.</content>
@@ -264,32 +264,32 @@
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800004" loreTexts="true" version="2">Cooldown - Technique: Concussive Smash</content>
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000d" loreTexts="true" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_ConcussiveSmash_Frontier"&gt;Technique: Concussive Smash&lt;/LSTag&gt; again upon the expiration of this status.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0new4" version="2">Cooldown - Technique: Crowning Strike</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0newd" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_CrowningStrike_Frontier"&gt;Technique: Crowning Strike&lt;/LSTag&gt; again upon the expiration of this status.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0new4" loreTexts="true" version="2">Cooldown - Technique: Crowning Strike</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0newd" loreTexts="true" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_CrowningStrike_Frontier"&gt;Technique: Crowning Strike&lt;/LSTag&gt; again upon the expiration of this status.</content>
 
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800005" version="2">Cooldown - Technique: Disarming Strike</content>
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000e" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_CripplingStrike_Frontier"&gt;Technique: Disarming Strike&lt;/LSTag&gt; again upon the expiration of this status.</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800005" loreTexts="true" version="2">Cooldown - Technique: Disarming Strike</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000e" loreTexts="true" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_CripplingStrike_Frontier"&gt;Technique: Disarming Strike&lt;/LSTag&gt; again upon the expiration of this status.</content>
 
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800006" loreTexts="true" version="2">Cooldown - Technique: Flourish</content>
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000f" loreTexts="true" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_DisarmingStrike_Frontier"&gt;Technique: Flourish&lt;/LSTag&gt; again upon the expiration of this status.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0new5" version="2">Cooldown - Technique: Grand Slam</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0newe" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Shout_GrandSlam_Frontier"&gt;Technique: Grand Slam&lt;/LSTag&gt; again upon the expiration of this status.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0new5" loreTexts="true" version="2">Cooldown - Technique: Grand Slam</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0newe" loreTexts="true" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Shout_GrandSlam_Frontier"&gt;Technique: Grand Slam&lt;/LSTag&gt; again upon the expiration of this status.</content>
 
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800007" version="2">Cooldown - Technique: Heartstopper</content>
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000g" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_OpeningAttack_Frontier"&gt;Technique: Heartstopper&lt;/LSTag&gt; again upon the expiration of this status.</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800007" loreTexts="true" version="2">Cooldown - Technique: Heartstopper</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000g" loreTexts="true" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_OpeningAttack_Frontier"&gt;Technique: Heartstopper&lt;/LSTag&gt; again upon the expiration of this status.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0new6" version="2">Cooldown - Technique: Javelin Toss</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0newf" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Projectile_ThrowJavelin_Frontier"&gt;Technique: Javelin Toss&lt;/LSTag&gt; again upon the expiration of this status.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0new6" loreTexts="true" version="2">Cooldown - Technique: Javelin Toss</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0newf" loreTexts="true" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Projectile_ThrowJavelin_Frontier"&gt;Technique: Javelin Toss&lt;/LSTag&gt; again upon the expiration of this status.</content>
 
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800008" version="2">Cooldown - Technique: Lacerate</content>
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000h" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_HeartStopper_Frontier"&gt;Technique: Lacerate&lt;/LSTag&gt; again upon the expiration of this status.</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800008" loreTexts="true" version="2">Cooldown - Technique: Lacerate</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000h" loreTexts="true" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_HeartStopper_Frontier"&gt;Technique: Lacerate&lt;/LSTag&gt; again upon the expiration of this status.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0new7" version="2">Cooldown - Technique: Lobotomizing Strike</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0newg" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Frontier_LobotomizingStrike"&gt;Technique: Lobotomizing Strike&lt;/LSTag&gt; again upon the expiration of this status.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0new7" loreTexts="true" version="2">Cooldown - Technique: Lobotomizing Strike</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0newg" loreTexts="true" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Frontier_LobotomizingStrike"&gt;Technique: Lobotomizing Strike&lt;/LSTag&gt; again upon the expiration of this status.</content>
 
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800009" version="2">Cooldown - Technique: Maiming Strike</content>
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000i" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_Slash_New_Frontier"&gt;Technique: Maiming Strike&lt;/LSTag&gt; again upon the expiration of this status.</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800009" loreTexts="true" version="2">Cooldown - Technique: Maiming Strike</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000i" loreTexts="true" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_Slash_New_Frontier"&gt;Technique: Maiming Strike&lt;/LSTag&gt; again upon the expiration of this status.</content>
 
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800010" loreTexts="true" version="2">Cooldown - Technique: Piercing Strike</content>
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000j" loreTexts="true" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_PiercingThrust_Frontier"&gt;Technique: Piercing Strike&lt;/LSTag&gt; again upon the expiration of this status.</content>
@@ -306,26 +306,26 @@
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800014" loreTexts="true" version="2">Cooldown - Technique: Overwhelm</content>
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000n" loreTexts="true" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_UnarmedStrike_Frontier"&gt;Technique: Unarmed Strike&lt;/LSTag&gt; again upon the expiration of this status.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0new8" version="2">Cooldown - Technique: Silencing Strike</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0newh" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Frontier_SilencingStrike"&gt;Technique: Silencing Strike&lt;/LSTag&gt; again upon the expiration of this status.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0new8" loreTexts="true" version="2">Cooldown - Technique: Silencing Strike</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0newh" loreTexts="true" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Frontier_SilencingStrike"&gt;Technique: Silencing Strike&lt;/LSTag&gt; again upon the expiration of this status.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0new9" version="2">Cooldown - Technique: Terrifying Strike</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0newi" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Frontier_TerrifyingStrike"&gt;Technique: Terrifying Strike&lt;/LSTag&gt; again upon the expiration of this status.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0new9" loreTexts="true" version="2">Cooldown - Technique: Terrifying Strike</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0newi" loreTexts="true" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Frontier_TerrifyingStrike"&gt;Technique: Terrifying Strike&lt;/LSTag&gt; again upon the expiration of this status.</content>
 
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800015" version="2">Cooldown - Technique: Topple</content>
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000o" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_Topple_Frontier"&gt;Technique: Topple&lt;/LSTag&gt; again upon the expiration of this status.</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800015" loreTexts="true" version="2">Cooldown - Technique: Topple</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000o" loreTexts="true" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_Topple_Frontier"&gt;Technique: Topple&lt;/LSTag&gt; again upon the expiration of this status.</content>
 
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800016" loreTexts="true" version="2">Cooldown - Technique: Weakening Strike</content>
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000p" loreTexts="true" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_HinderingSmash_Frontier"&gt;Technique: Weakening Strike&lt;/LSTag&gt; again upon the expiration of this status.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66bnew10" version="2">Cooldown - Technique: Vortex</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0newj" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Shout_Vortex_Frontier"&gt;Technique: Vortex&lt;/LSTag&gt; again upon the expiration of this status.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66bnew10" loreTexts="true" version="2">Cooldown - Technique: Vortex</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0newj" loreTexts="true" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Shout_Vortex_Frontier"&gt;Technique: Vortex&lt;/LSTag&gt; again upon the expiration of this status.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66bnew11" version="2">Cooldown - Technique: Blinding Shot</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0newk" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Projectile_BlindingShot_Frontier"&gt;Technique: Blinding Shot&lt;/LSTag&gt; again upon the expiration of this status.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66bnew11" loreTexts="true" version="2">Cooldown - Technique: Blinding Shot</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0newk" loreTexts="true" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Projectile_BlindingShot_Frontier"&gt;Technique: Blinding Shot&lt;/LSTag&gt; again upon the expiration of this status.</content>
 
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800017" version="2">Cooldown - Technique: Brace (Ranged)</content>
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000q" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Shout_SteadyRanged_Frontier"&gt;Technique: Brace (Ranged)&lt;/LSTag&gt; again upon the expiration of this status.</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800017" loreTexts="true" version="2">Cooldown - Technique: Brace (Ranged)</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000q" loreTexts="true" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Shout_SteadyRanged_Frontier"&gt;Technique: Brace (Ranged)&lt;/LSTag&gt; again upon the expiration of this status.</content>
 
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e236a99800018" loreTexts="true" version="2">Cooldown - Technique: Hamstring Shot</content>
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209980000r" loreTexts="true" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Projectile_HamstringShot_Frontier"&gt;Technique: Hamstring Shot&lt;/LSTag&gt; again upon the expiration of this status.</content>
@@ -339,20 +339,20 @@
 	<content contentuid="9b7b811b9c3043e189f945540bf5116ea9872" version="2">Combat Techniques</content>
 	<content contentuid="9b7b811b9c3043e189f945540bf5116ea5487" version="2">Gain mastery of various combat techniques.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0wen1" version="2">Technique: Advantageous Strike</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0wena" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_AdvantageousStrike_Frontier"&gt;Technique: Advantageous Strike&lt;/LSTag&gt;.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0wen1" loreTexts="true" version="2">Technique: Advantageous Strike</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0wena" loreTexts="true" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_AdvantageousStrike_Frontier"&gt;Technique: Advantageous Strike&lt;/LSTag&gt;.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00001" version="2">Technique: Backbreaker</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000a" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_PostureBreaker_Frontier"&gt;Technique: Backbreaker&lt;/LSTag&gt;.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00001" loreTexts="true" version="2">Technique: Backbreaker</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000a" loreTexts="true" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_PostureBreaker_Frontier"&gt;Technique: Backbreaker&lt;/LSTag&gt;.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0wen2" version="2">Technique: Befuddling Strike</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0wenb" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_BefuddlingStrike_Frontier"&gt;Technique: Befuddling Strike&lt;/LSTag&gt;.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0wen2" loreTexts="true" version="2">Technique: Befuddling Strike</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0wenb" loreTexts="true" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_BefuddlingStrike_Frontier"&gt;Technique: Befuddling Strike&lt;/LSTag&gt;.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0wen3" version="2">Technique: Blinding Strike</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0wenc" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_BlindingStrike_Frontier"&gt;Technique: Blinding Strike&lt;/LSTag&gt;.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0wen3" loreTexts="true" version="2">Technique: Blinding Strike</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0wenc" loreTexts="true" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_BlindingStrike_Frontier"&gt;Technique: Blinding Strike&lt;/LSTag&gt;.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00002" version="2">Technique: Brace (Melee)</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000b" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Shout_Steady_Frontier"&gt;Technique: Brace (Melee)&lt;/LSTag&gt;.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00002" loreTexts="true" version="2">Technique: Brace (Melee)</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000b" loreTexts="true" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Shout_Steady_Frontier"&gt;Technique: Brace (Melee)&lt;/LSTag&gt;.</content>
 
 	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00003" loreTexts="true" version="2">Technique: Cleave</content>
 	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000c" loreTexts="true" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Zone_Cleave_Frontier"&gt;Technique: Cleave&lt;/LSTag&gt;.</content>
@@ -360,32 +360,32 @@
 	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00004" loreTexts="true" version="2">Technique: Concussive Smash</content>
 	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000d" loreTexts="true" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_ConcussiveSmash_Frontier"&gt;Technique: Concussive Smash&lt;/LSTag&gt;.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0wen4" version="2">Technique: Crowning Strike</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0wend" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_CrowningStrike_Frontier"&gt;Technique: Crowning Strike&lt;/LSTag&gt;.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0wen4" loreTexts="true" version="2">Technique: Crowning Strike</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0wend" loreTexts="true" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_CrowningStrike_Frontier"&gt;Technique: Crowning Strike&lt;/LSTag&gt;.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00005" version="2">Technique: Disarming Strike</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000e" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_DisarmingStrike_Frontier"&gt;Technique: Disarming Strike&lt;/LSTag&gt;.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00005" loreTexts="true" version="2">Technique: Disarming Strike</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000e" loreTexts="true" ersion="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_DisarmingStrike_Frontier"&gt;Technique: Disarming Strike&lt;/LSTag&gt;.</content>
 
 	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00006" loreTexts="true" version="2">Technique: Flourish</content>
 	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000f" loreTexts="true" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_OpeningAttack_Frontier"&gt;Technique: Flourish&lt;/LSTag&gt;.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0wen5" version="2">Technique: Grand Slam</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0wene" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Shout_GrandSlam_Frontier"&gt;Technique: Grand Slam&lt;/LSTag&gt;.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0wen5" loreTexts="true" version="2">Technique: Grand Slam</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0wene" loreTexts="true" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Shout_GrandSlam_Frontier"&gt;Technique: Grand Slam&lt;/LSTag&gt;.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00007" version="2">Technique: Heartstopper</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000g" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_HeartStopper_Frontier"&gt;Technique: Heartstopper&lt;/LSTag&gt;.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00007" loreTexts="true" version="2">Technique: Heartstopper</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000g" loreTexts="true" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_HeartStopper_Frontier"&gt;Technique: Heartstopper&lt;/LSTag&gt;.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0wen6" version="2">Technique: Javelin Toss</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0wenf" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Projectile_ThrowJavelin_Frontier"&gt;Technique: Javelin Toss&lt;/LSTag&gt;.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0wen6" loreTexts="true" version="2">Technique: Javelin Toss</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0wenf" loreTexts="true" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Projectile_ThrowJavelin_Frontier"&gt;Technique: Javelin Toss&lt;/LSTag&gt;.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00008" version="2">Technique: Lacerate</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000h" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_Slash_New_Frontier"&gt;Technique: Lacerate&lt;/LSTag&gt;.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00008" loreTexts="true" version="2">Technique: Lacerate</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000h" loreTexts="true" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_Slash_New_Frontier"&gt;Technique: Lacerate&lt;/LSTag&gt;.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0wen7" version="2">Technique: Lobotomizing Strike</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0weng" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_LobotomizingStrike_Frontier"&gt;Technique: Lobotomizing Strike&lt;/LSTag&gt;.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0wen7" loreTexts="true" version="2">Technique: Lobotomizing Strike</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0weng" loreTexts="true" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_LobotomizingStrike_Frontier"&gt;Technique: Lobotomizing Strike&lt;/LSTag&gt;.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00009" version="2">Technique: Maiming Strike</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000i" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_CripplingStrike_Frontier"&gt;Technique: Maiming Strike&lt;/LSTag&gt;.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00009" loreTexts="true" version="2">Technique: Maiming Strike</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000i" loreTexts="true" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_CripplingStrike_Frontier"&gt;Technique: Maiming Strike&lt;/LSTag&gt;.</content>
 
 	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00010" loreTexts="true" version="2">Technique: Piercing Strike</content>
 	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000j" loreTexts="true" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_PiercingThrust_Frontier"&gt;Technique: Piercing Strike&lt;/LSTag&gt;.</content>
@@ -399,29 +399,29 @@
 	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00013" loreTexts="true" version="2">Technique: Rush Attack</content>
 	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000m" loreTexts="true" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Rush_SpringAttack_Frontier"&gt;Technique: Rush Attack&lt;/LSTag&gt;.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0wen8" version="2">Technique: Silencing Strike</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0wenh" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_SilencingStrike_Frontier"&gt;Technique: Silencing Strike&lt;/LSTag&gt;.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0wen8" loreTexts="true" version="2">Technique: Silencing Strike</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0wenh" loreTexts="true" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_SilencingStrike_Frontier"&gt;Technique: Silencing Strike&lt;/LSTag&gt;.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0wen9" version="2">Technique: Terrifying Strike</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0weni" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_TerrifyingStrike_Frontier"&gt;Technique: Terrifying Strike&lt;/LSTag&gt;.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0wen9" loreTexts="true" version="2">Technique: Terrifying Strike</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0weni" loreTexts="true" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_TerrifyingStrike_Frontier"&gt;Technique: Terrifying Strike&lt;/LSTag&gt;.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00015" version="2">Technique: Topple</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000o" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_Topple_Frontier"&gt;Technique: Topple&lt;/LSTag&gt;.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00015" loreTexts="true" version="2">Technique: Topple</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000o" loreTexts="true" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_Topple_Frontier"&gt;Technique: Topple&lt;/LSTag&gt;.</content>
 
 	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00014" loreTexts="true" version="2">Technique: Unarmed Strike</content>
 	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000n" loreTexts="true" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_UnarmedStrike_Frontier"&gt;Technique: Unarmed Strike&lt;/LSTag&gt;.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66bwen10" version="2">Technique: Vortex</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0wenj" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Shout_Vortex_Frontier"&gt;Technique: Vortex&lt;/LSTag&gt;.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66bwen10" loreTexts="true" version="2">Technique: Vortex</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0wenj" loreTexts="true" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Shout_Vortex_Frontier"&gt;Technique: Vortex&lt;/LSTag&gt;.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00016" version="2">Technique: Weakening Strike</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000p" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_HinderingSmash_Frontier"&gt;Technique: Weakening Strike&lt;/LSTag&gt;.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00016" loreTexts="true" version="2">Technique: Weakening Strike</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000p" loreTexts="true" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_HinderingSmash_Frontier"&gt;Technique: Weakening Strike&lt;/LSTag&gt;.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66bwen11" version="2">Technique: Blinding Shot</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0wenk" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Projectile_BlindingShot_Frontier"&gt;Technique: Blinding Shot&lt;/LSTag&gt;.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66bwen11" loreTexts="true" version="2">Technique: Blinding Shot</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0wenk" loreTexts="true" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Projectile_BlindingShot_Frontier"&gt;Technique: Blinding Shot&lt;/LSTag&gt;.</content>
 
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00017" version="2">Technique: Brace (Ranged)</content>
-	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000q" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Shout_SteadyRanged_Frontier"&gt;Technique: Brace (Ranged)&lt;/LSTag&gt;.</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00017" loreTexts="true" version="2">Technique: Brace (Ranged)</content>
+	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000q" loreTexts="true" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Shout_SteadyRanged_Frontier"&gt;Technique: Brace (Ranged)&lt;/LSTag&gt;.</content>
 
 	<content contentuid="58ff3f1bd299431ab58216d6d561c66b00018" loreTexts="true" version="2">Technique: Hamstring Shot</content>
 	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0000r" loreTexts="true" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Projectile_HamstringShot_Frontier"&gt;Technique: Hamstring Shot&lt;/LSTag&gt;.</content>
