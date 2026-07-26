@@ -32,7 +32,7 @@ jobs:
         run: |
           # Define prefix and suffix
           PREFIX="HomeBrew - Comprehensive Reworks - Lore Text"
-          SUFFIX=".pak"
+          SUFFIX=".zip"
 
           # Use find to match files in the output folder based on the prefix/suffix
           FILE=$(find ./output -type f -name "${PREFIX}*${SUFFIX}" | head -n 1)

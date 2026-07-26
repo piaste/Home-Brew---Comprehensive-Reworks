@@ -251,9 +251,9 @@
 	<content contentuid="h16312bfag01a2g42f8g943bg3fcba8e00006" version="1">Pitch Black</content>
 	<content contentuid="hec37ca35g480cg4de1gae65g3986c350000f" version="1">While &lt;LSTag Type="Status" Tooltip="SNEAKING_HEAVILY_OBSCURED"&gt;Heavily Obscured&lt;/LSTag&gt;, all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and damage rolls you make are rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. When your &lt;LSTag Type="Spell" Tooltip="Target_HoundOfIllOmen"&gt;Hounds of Ill Omen&lt;/LSTag&gt; clone themselves, their clones will never expire, and their can now produce further clones as well.</content>
 
-<content contentuid="0000000000000000000000000000000000000" version="1">SOUL OF THE FRENZIED</content>
+<content contentuid="0000000000000000000000000000000000000" version="1">SOUL OF THE FRENZIED TUNDRA</content>
 
-	<content contentuid="9585509cf15f491a86ba751105cc210000000" version="1">Soul of the Frenzied</content>
+	<content contentuid="9585509cf15f491a86ba751105cc210000000" version="1">Soul of the Frenzied Tundra</content>
 	<content contentuid="9585509cf15f491a86ba751105cc2100zzzzz" version="1">Within your blood rages an endless winter. Those touched by your frozen power are driven into a maddened frenzy beneath the tundra's merciless chill.</content>
 
 	<content contentuid="9585509cf15f491a86ba751105cc210000001" version="1">Winter is Coming</content>

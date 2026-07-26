@@ -1,5 +1,6 @@
 open System
 open System.IO
+open System.IO.Compression
 
 #load "./getLsLib.fsx"
 
@@ -66,6 +67,13 @@ module Localization =
         |> Array.iter (fun f -> File.Move(f, Path.Combine(upstreamModLocalizationFolder, Path.GetFileName f)))
         do Directory.Delete tempDir
 
+// helper
+let zipFile (sourceFile: string) (zipPath: string) =
+    use archive = ZipFile.Open(zipPath, ZipArchiveMode.Create)
+
+    let entryName = Path.GetFileName(sourceFile)
+    archive.CreateEntryFromFile(sourceFile, entryName, CompressionLevel.Optimal)
+    |> ignore
 
 // get mod version from `meta.lsx`
 open System.Xml.Linq
@@ -87,17 +95,22 @@ let version =
     |> LSLib.LS.PackedVersion.FromInt64
     |> fun pv -> sprintf "%i.%i.%i.%i" pv.Major pv.Minor pv.Revision pv.Build
 
-// build package
-let outputPath = 
-    Directory.CreateDirectory "./output"
-    |> _.FullName
-    |> fun path -> $"{path}/{modName}-{version}.pak"
+
+let outputPak, outputZip = 
+    // build package
+    let outputBase = 
+        Directory.CreateDirectory "./output"
+        |> _.FullName
+        |> fun path -> $"{path}/{modName}"
+
+    in outputBase + ".pak", outputBase + $"-{version}.zip"
+
 
 // actual build
-do File.Delete outputPath
+do File.Delete outputPak
 do Localization.beforeBuild()
 do Packager().CreatePackage(
-        packagePath = outputPath,
+        packagePath = outputPak,
         inputPath = System.IO.Path.GetFullPath $"./{upstreamModName}/" ,
         build = new PackageBuildData(
             Version = Enums.PackageVersion.V18,
@@ -107,4 +120,7 @@ do Packager().CreatePackage(
     ).Wait()
 do Localization.afterBuild()
 
-System.Console.WriteLine $"Generated {outputPath}"
+// zip into versioned file
+do zipFile outputPak outputZip
+
+System.Console.WriteLine $"Generated {outputPak}"
