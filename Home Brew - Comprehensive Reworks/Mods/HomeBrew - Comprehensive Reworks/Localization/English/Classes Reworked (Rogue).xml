@@ -119,7 +119,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">HIDDEN TOXICANT</content>
 
 	<content contentuid="hedbd9f3fgf4d8g4f16gb02we68f4s65ef485" loreTexts="true" version="1">Westgate Docks</content>
-	<content contentuid="hf081aa54g2345s4e6f84s6e2f1e87f42f454" version="1">You apprenticed with the ruthless Night Masks, acquiring a collection of deadly recipes from all over Faerûn.</content>
+	<content contentuid="hf081aa54g2345s4e6f84s6e2f1e87f42f454" loreTexts="true" version="1">You apprenticed with the ruthless Night Masks, acquiring a collection of deadly recipes from all over Faerûn.</content>
 
 	<content contentuid="hf081aa54g2345s4e6f84s6e2f1e87f42f454" version="1">Imbued Toxicity</content>
 	<content contentuid="hf081aa54g2345s4e6f84s6e2f1e87f40000a" version="1">Upon dealing Poison damage to an enemy, you afflict them with one stack of &lt;LSTag Type="Status" Tooltip="TOXICITY"&gt;Cursed Toxicity&lt;/LSTag&gt;. Stacks of Toxicity can then be &lt;LSTag Type="Spell" Tooltip="Target_Toxicity_Container"&gt;Detonated&lt;/LSTag&gt; in order to trigger various effects. In addition, your &lt;LSTag Type="Spell" Tooltip="Target_SneakAttack"&gt;Sneak Attack&lt;/LSTag&gt; deals Poison damage.</content>
