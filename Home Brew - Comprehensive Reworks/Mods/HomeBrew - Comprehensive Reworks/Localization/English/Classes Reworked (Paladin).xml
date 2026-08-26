@@ -35,7 +35,7 @@
 	<content contentuid="h25d1fb0cg356dg49e4gb43bg597ee721f740" version="1">Crusader's Smite</content>
 
 	<content contentuid="h8df46bbbg30b8g491ag835dg0096665s5e2f" version="3">Judgement of the Crucible</content>
-	<content contentuid="hf44d4aedgce78g4700gb024gfc7d5e5f4e56" version="3">Once per turn, upon killing another creature with one of your Smites, you immediately restore one &lt;LSTag Type="ActionResource" Tooltip="WarPriestActionPoint"&gt;Crusader's Smite&lt;/LSTag&gt; charge.</content>
+	<content contentuid="hf44d4aedgce78g4700gb024gfc7d5e5f4e56" version="3">Once per turn, upon killing another creature, you immediately restore one &lt;LSTag Type="ActionResource" Tooltip="WarPriestActionPoint"&gt;Crusader's Smite&lt;/LSTag&gt; charge.</content>
 
 	<content contentuid="h8df46bbbg30b8g491ag835dg009666a21584" version="3">Smites</content>
 	<content contentuid="hf44d4aedgce78g4700gb024gfc7d56a92315" version="3">Lay waste to your enemies.&lt;br&gt;Lay bare your conviction.</content>
@@ -49,11 +49,12 @@
 	<content contentuid="h28716118g877cg44ddgb1d7ga74d0018f2ff" version="1">Divine Smite: Critical</content>
 	<content contentuid="h940c3156gad0fg4a92g8573gff26b0472int" version="1">Divine Smite</content>
 	<content contentuid="he9150fbcg1b55g49aegaa3egc4717c987int" version="2">Smite your target with divine fury. Upon damaging a target, further &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made against the target are rolled with Advantage as well.</content>
+	<content contentuid="454b4786616f48b5b44a62fa1c0105e500000" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Smites cannot trigger off of Spells or &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt;.</content>
 
 	<content contentuid="fe6f4159abae42539029e284001d12de11111" version="3">Oath Broken</content>
 	<content contentuid="fe6f4159abae42539029e284001d12de22222" version="3">Gain &lt;LSTag Type="Spell" Tooltip="CTarget_Smite_Oathbroken"&gt;Oathbroken Smite&lt;/LSTag&gt;.</content>
 	<content contentuid="h940c3156gad0fg4a92g8573gff26b0433333" version="1">Oathbroken Smite</content>
-	<content contentuid="he9150fbcg1b55g49aegaa3egc4717c944444" version="2">Shatter the mind of your target with necrotic wrath, afflicting them with &lt;LSTag Type="Status" Tooltip="SPITEFUL_SUFFERING_1"&gt;Spiteful Suffering&lt;/LSTag&gt;. This action always rolls with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Targeting a corpse will instead immediately raise a Shadow servant until the end of your current combat encounter.</content>
+	<content contentuid="he9150fbcg1b55g49aegaa3egc4717c944444" version="2">Shatter the mind of your target with necrotic wrath, afflicting them with &lt;LSTag Type="Status" Tooltip="SPITEFUL_SUFFERING_1"&gt;Spiteful Suffering&lt;/LSTag&gt;. This action always rolls with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Targeting a corpse during combat will instead immediately raise a Shadow servant until the end of your current combat encounter.</content>
 	<content contentuid="h940c3156gad0fg4a92g8573gff26b0455555" version="1">Oathbroken Smite</content>
 	<content contentuid="he9150fbcg1b55g49aegaa3egc4717c966666" version="2">Shatter the mind of your target with necrotic wrath, afflicting them with &lt;LSTag Type="Status" Tooltip="SPITEFUL_SUFFERING_1"&gt;Spiteful Suffering&lt;/LSTag&gt;.</content>
 	<content contentuid="h5b946111g68b0g402dg8509g7e0582a72f04" version="1">Oathbroken Smite: Critical</content>
@@ -111,6 +112,9 @@
 	<content contentuid="fe6f4159abae42539029e28400120938489fd" version="3">Smitten</content>
 	<content contentuid="fe6f4159abae42539029e28400149r99gdf9f" version="3">When making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; with one of your Smites, you make your roll with a +20 bonus.</content>
 
+	<content contentuid="fe6f4159abae42539029e2840012093812345" version="3">Condemned</content>
+	<content contentuid="fe6f4159abae42539029e28400149r9912345" version="3">Once per combat, when making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; with one of your Smites, you will deal the maximum damage possible.</content>
+
 <content contentuid="0000000000000000000000000000000000000" version="1">ANCIENT WARDEN</content>
 
 	<content contentuid="h2a7352eag799cg44afgaf7cg1ad3e9fbbf42" loreTexts="true" version="1">Sibling of the Ruby Rose</content>
@@ -137,7 +141,7 @@
 	<content contentuid="h0c6caa26gbea1g4841g8ad9g816bac6717c7" version="2">&lt;LSTag Type="Status" Tooltip="TURNED"&gt;Turn&lt;/LSTag&gt; nearby enemies, dealing damage to them in the process. They are forced to flee and cannot come close to you. Fey creatures take twice as much damage from this action.</content>
 
 	<content contentuid="h298b9a29g5657g4aa9gaad6gad3a8af6a851" loreTexts="true" version="1">Expansive Vow</content>
-	<content contentuid="hb2400634gf3e4g46f1gb93dg1330e4dasdf5" loreTexts="true" version="3">The range of your &lt;LSTag Type="Spell" Tooltip="Shout_HealingRadiance"&gt;Healing Radiance&lt;/LSTag&gt; is doubled. Additionally, &lt;LSTag Type="Spell" Tooltip="Target_NaturesWrath"&gt;Gilded Chains&lt;/LSTag&gt; may now target three creatures, rather than one.</content>
+	<content contentuid="hb2400634gf3e4g46f1gb93dg1330e4dasdf5" loreTexts="true" version="3">The range of your &lt;LSTag Type="Spell" Tooltip="Shout_HealingRadiance"&gt;Healing Radiance&lt;/LSTag&gt; is doubled. Additionally, &lt;LSTag Type="Spell" Tooltip="Target_NaturesWrath"&gt;Gilded Chains&lt;/LSTag&gt; may now target three separate creatures, rather than one.</content>
 
 	<content contentuid="hd8ffaca7g8aa7g4e02ga546g3592286387a8" loreTexts="true" version="2">Aura of Confidence</content>
 	<content contentuid="h3728832agb688g4081gad4eg7dcab2a79276" version="5">During combat, you emit an aura which grants both yourself and allies &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
@@ -164,7 +168,7 @@
 <content contentuid="hf8d923abg2aeeg446agac9dgbb27081000ba" version="2">When an ally within [1] of you is about to be damaged, take Fire damage equal to four times that of your level in order to heal them for the same amount, swapping places with them in the process. Your ally must be below half of their total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.</content>
 
 <content contentuid="hf8d923abg2aeeg446agac9dgbb2708100002" loreTexts="true" version="2">Arcane Ignition</content>
-<content contentuid="hf8d923abg2aeeg446agac9dgbb270810000b" loreTexts="true" version="2">Using &lt;LSTag Type="Spell" Tooltip="Target_PhoenixLanding"&gt;Spellfire Vortex&lt;/LSTag&gt; or &lt;LSTag Type="Spell" Tooltip="Target_SearingProtection"&gt;Spellfire Ward&lt;/LSTag&gt; grants you &lt;LSTag Type="Status" Tooltip="SUNSCORCHED"&gt;Weave Infused&lt;/LSTag&gt; for three turns. In addition, you gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Fire damage.</content>
+<content contentuid="hf8d923abg2aeeg446agac9dgbb270810000b" loreTexts="true" version="2">Using &lt;LSTag Type="Spell" Tooltip="Target_PhoenixLanding"&gt;Spellfire Vortex&lt;/LSTag&gt; or &lt;LSTag Type="Spell" Tooltip="Target_SearingProtection"&gt;Spellfire Ward&lt;/LSTag&gt; grants you &lt;LSTag Type="Status" Tooltip="SUNSCORCHED"&gt;Weave Infused&lt;/LSTag&gt; for three turns. In addition, you gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Fire damage.</content>	
 
 <content contentuid="hf8d923abg2aeeg446agac9dgbb27081000s2" loreTexts="true" version="2">Weave Infused</content>
 <content contentuid="hf8d923abg2aeeg446agac9dgbb27081000sb" version="2">Affected creature deals an additional [1] for every 10% of their &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; they are missing.</content>
@@ -173,7 +177,7 @@
 <content contentuid="hf8d923abg2aeeg446agac9dgbb270810000c" version="2">&lt;LSTag Type="Status" Tooltip="TURNED"&gt;Turn&lt;/LSTag&gt; nearby enemies, dealing damage to them in the process. They are forced to flee and cannot come close to you. Aberrations take twice as much damage from this action.</content>
 
 <content contentuid="hf8d923abg2aeeg446agac9dgbb2708100004" loreTexts="true" version="2">Arcane Dominion</content>
-<content contentuid="hf8d923abg2aeeg446agac9dgbb270810000d" loreTexts="true" version="2">While &lt;LSTag Type="Status" Tooltip="SUNSCORCHED"&gt;Weave Infused&lt;/LSTag&gt; is active, you are able to &lt;LSTag Type="Spell" Tooltip="Target_Fly"&gt;Fly&lt;/LSTag&gt;, and you make &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; against creatures engulfed in flame. In addition, you gain &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to Fire damage.</content>
+<content contentuid="hf8d923abg2aeeg446agac9dgbb270810000d" loreTexts="true" version="2">While &lt;LSTag Type="Status" Tooltip="SUNSCORCHED"&gt;Weave Infused&lt;/LSTag&gt; is active, you are able to &lt;LSTag Type="Spell" Tooltip="Target_Fly"&gt;Fly&lt;/LSTag&gt;, gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to all damage, and you make &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; against creatures engulfed in flame. In addition, you gain &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to Fire damage.</content>
 
 <content contentuid="hf8d923abg2aeeg446agac9dgbb2708100005" loreTexts="true" version="2">Aura of Spellfire</content>
 <content contentuid="hf8d923abg2aeeg446agac9dgbb270810000e" loreTexts="true" version="2">During combat, you emit an aura of &lt;i&gt;spellfire&lt;/i&gt; which &lt;LSTag Type="Status" Tooltip="SEARING_SMITE"&gt;Sears&lt;/LSTag&gt; enemies and causes your allies to receive the effects of &lt;LSTag Type="Status" Tooltip="WARDING_BOND"&gt;Warding Bond&lt;/LSTag&gt;.</content>
@@ -204,7 +208,7 @@
 	<content contentuid="h35572396g0398g4fa5g9a19ga44db89fe53f" version="1">Affected weapon adds its wielders &lt;LSTag Tooltip="AbilityModifier"&gt;Charisma Modifier&lt;/LSTag&gt; to &lt;LSTag Tooltip="AbilityModifier"&gt;Attack Rolls&lt;/LSTag&gt;. It has become magical and emits radiant light across [1].</content>
 
 	<content contentuid="h298b9a29g5657g4aa9gaad6gasd2f1s2df15" version="1">Sacred Oath</content>
-	<content contentuid="hb2400634gf3e4g46f1gb93dgsd4f6s4df484" version="3">You may target two additional creatures when casting &lt;LSTag Type="Spell" Tooltip="Target_HolyRebuke"&gt;Holy Rebuke&lt;/LSTag&gt;. Additionally, dealing damage with your &lt;LSTag Type="Spell" Tooltip="Shout_SacredWeapon"&gt;Sacred Weapon&lt;/LSTag&gt; restores your &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;. The value restored is equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Charisma Modifier&lt;/LSTag&gt;.</content>
+	<content contentuid="hb2400634gf3e4g46f1gb93dgsd4f6s4df484" version="3">You may target three separate creatures when casting &lt;LSTag Type="Spell" Tooltip="Target_HolyRebuke"&gt;Holy Rebuke&lt;/LSTag&gt;. Additionally, dealing damage with your &lt;LSTag Type="Spell" Tooltip="Shout_SacredWeapon"&gt;Sacred Weapon&lt;/LSTag&gt; restores your &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;. The value restored is equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Charisma Modifier&lt;/LSTag&gt;.</content>
 
 	<content contentuid="hb27de5a4g2331g490cgbbd5g86200d758e5e" loreTexts="true" version="1">Turn the Wicked</content>
 	<content contentuid="h3961da1bg0e72g49a3gb0c0g2e5d38ac39ba" version="3">&lt;LSTag Type="Status" Tooltip="TURNED"&gt;Turn&lt;/LSTag&gt; nearby enemies, dealing damage to them in the process. They are forced to flee and cannot come close to you. Fiends take twice as much damage from this action.</content>
@@ -239,7 +243,7 @@
 	<content contentuid="h05f4d72eg41c6g4570g8acdg4c3ec6779276" version="6">&lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frighten&lt;/LSTag&gt; an enemy.</content>
 
 	<content contentuid="hb27de5a4g2331g490cgbbd5g86sd2f5d6f58" version="1">Sanctified Commands</content>
-	<content contentuid="h3961da1bg0e72g49a3gb0c0g2e5sdf56d8f7" version="3">Once per combat encounter, you may cast &lt;LSTag Type="Spell" Tooltip="Target_AbjureEnemy"&gt;Abjure Enemy&lt;/LSTag&gt; or &lt;LSTag Type="Spell" Tooltip="Target_InquisitorsMight"&gt;Inquisitor's Might&lt;/LSTag&gt; as a free action. Outside of combat, these actions may be cast for free.</content>
+	<content contentuid="h3961da1bg0e72g49a3gb0c0g2e5sdf56d8f7" version="3">Both &lt;LSTag Type="Spell" Tooltip="Target_AbjureEnemy"&gt;Abjure Enemy&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_InquisitorsMight"&gt;Inquisitor's Might&lt;/LSTag&gt; may now be cast for a single &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; charge.</content>
 
 	<content contentuid="hb27de5a4g2331g490cgbbd5g86200d7asdf9" version="1">Turn the Damned</content>
 	<content contentuid="h3961da1bg0e72g49a3gb0c0g2e5d38a234dd" version="3">&lt;LSTag Type="Status" Tooltip="TURNED"&gt;Turn&lt;/LSTag&gt; nearby enemies, dealing damage to them in the process. They are forced to flee and cannot come close to you. Undead creatures take twice as much damage from this action.</content>
@@ -255,9 +259,9 @@
 	<content contentuid="h32aa4439g4e6eg4398gb2f1g160c7ceab346" version="6">Has &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to damage from spells while within [1] of the Paladin responsible for this status.</content>
 
 	<content contentuid="h298b9a29g5657g4aa9gaad6gad3a822d3f45" loreTexts="true" version="1">Vengeance Incarnate</content>
-	<content contentuid="hb2400634gf3e4g46f1gb93dg1330e4ss6d85" version="3">Once per combat encounter, erupt in radiant fury. Your weapon attacks deal an additional [1] for three turns and all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; you make are rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+	<content contentuid="hb2400634gf3e4g46f1gb93dg1330e4ss6d85" version="3">Once per combat encounter, erupt in radiant fury. Your weapon attacks deal an additional [1] for three turns and all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; you make are rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;In addition, upon casting, &lt;LSTag Type="Status" Tooltip="Tooltip_Condemned"&gt;Condemned&lt;/LSTag&gt; may be triggered again.</content>
 	<content contentuid="h298b9a29g5657g4aa9gaad6gad3a8af00001" loreTexts="true" version="1">Vengeance Incarnate</content>
-	<content contentuid="hb2400634gf3e4g46f1gb93dg1330e4a0000a" version="3">Erupt in radiant fury. Your weapon attacks deal an additional [1] and all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; are made with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+	<content contentuid="hb2400634gf3e4g46f1gb93dg1330e4a0000a" version="3">Erupt in radiant fury. Your weapon attacks deal an additional [1] and all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; are made with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Upon casting, &lt;LSTag Type="Status" Tooltip="Tooltip_Condemned"&gt;Condemned&lt;/LSTag&gt; may be triggered again.</content>
 	<content contentuid="h298b9a29g5657g4aa9gaad6gad3a8af000z1" loreTexts="true" version="1">Vengeance Incarnate</content>
 	<content contentuid="hb2400634gf3e4g46f1gb93dg1330e4a000za" version="3">Affected creature has erupted in radiant fury. Their weapon attacks deal an additional [1] and they make all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
 
@@ -269,7 +273,7 @@
 	<content contentuid="hd7ff90f2gdbe7g475aga57ege03e858ceb9f" version="1">Affected creature has had their will bent by an Oathbreaker, influencing it to attack its allies indescriminately.</content>
 
 	<content contentuid="hbe9433acg21f7g450fg8e4dg52d76d77c680" version="1">Spiteful Suffering</content>
-	<content contentuid="hd646ac32g6ba7g4baagb3beg2ddef1a43dac" version="2">Submit your target to a malicious onslaught of spite, filling them with a sense of imposing dread. All &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made against them will roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Upon dying, your target's dread will then manifest as a shadow under your command.&lt;br&gt;&lt;br&gt;Targeting a corpse will instead immediately raise a Shadow servant until the end of your current combat encounter.</content>
+	<content contentuid="hd646ac32g6ba7g4baagb3beg2ddef1a43dac" version="2">Submit your target to a malicious onslaught of spite, filling them with a sense of imposing dread. All &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made against them will roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Upon dying, your target's dread will then manifest as a shadow under your command.&lt;br&gt;&lt;br&gt;Targeting a corpse during combat will instead immediately raise a Shadow servant until the end of your current combat encounter.</content>
 	<content contentuid="h32f822f1g557fg4f77g9e90gbe3d36acc9eb" version="1">Spiteful Suffering</content>
 	<content contentuid="h058b7513g6ddcg4f92gafc7gd608373e8c13" version="1">Affected creature suffers from an imposing sense of dread. &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made against them roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Upon dying, the affected creature's dread will then manifest as a shadow, allied to whomever applied this condition.</content>
 
@@ -289,7 +293,7 @@
 	<content contentuid="hb2400634gf3e4g46f1gb93dg1sdfsdddfsdd" version="3">&lt;LSTag Type="Status" Tooltip="UNHOLY_SUBJUGATION"&gt;Subjugated&lt;/LSTag&gt; enemies deal the maximum amount of damage possible when dealing damage to another creature.</content>
 
 	<content contentuid="h927a9140g56d3g460fg9314g40fbd232b361" version="2">Aura of Hate</content>
-	<content contentuid="h0c2bc9a2g8e6bg4550ga8b9gfba7b2e8462d" version="7">During combat, you emit an aura which grants yourself, &lt;LSTag Type="Status" Tooltip="UNHOLY_SUBJUGATION"&gt;Subjugated&lt;/LSTag&gt; creatures, and allied Undead a bonus to all damage dealt.</content>
+	<content contentuid="h0c2bc9a2g8e6bg4550ga8b9gfba7b2e8462d" version="7">During combat, you emit an aura which grants yourself, &lt;LSTag Type="Status" Tooltip="UNHOLY_SUBJUGATION"&gt;Subjugated&lt;/LSTag&gt; creatures, and allied Undead a bonus to all damage dealt equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Charisma Modifier&lt;/LSTag&gt;.</content>
 	<content contentuid="h8aa4cdf9ga9e7g46d5gb7a1gb32901defe3c" version="2">Aura of Hate</content>
 	<content contentuid="h1b60bee0geb62g4184ga679g1e7f6de42926" version="3">Affected creature is emitting an aura across [1] which grants this creature, &lt;LSTag Type="Status" Tooltip="UNHOLY_SUBJUGATION"&gt;Subjugated&lt;/LSTag&gt; creatures, and allied Undead an additional [2] to all damage dealt.</content>
 	<content contentuid="hfa4ad8dfge9efg4f7fg8bc2g664c49a83964" version="2">Aura of Hate</content>
@@ -298,13 +302,61 @@
 	<content contentuid="h298b9a29g5657g4aa9gaad6gad3a8af1a141" version="1">Oathbreaker Supreme</content>
 	<content contentuid="hb2400634gf3e4g46f1gb93dg1330e4asd141" version="3">Afflicting a creature with &lt;LSTag Type="Status" Tooltip="SPITEFUL_SUFFERING_1"&gt;Spiteful Suffering&lt;/LSTag&gt; now &lt;LSTag Type="Status" Tooltip="FEARED"&gt;Terrifies&lt;/LSTag&gt; them for one turn.</content>
 
+<content contentuid="0000000000000000000000000000000000000" version="1">RUNIC MYSTFLAME</content>
+
+	<content contentuid="hadb7e84644854b8b9a46f5e4586197e53c25" version="1">Runic Mystflame</content>
+	<content contentuid="h130df7e8eb2d41ce90c97835520d4924917a" version="1">When sworn oaths and divine protection failed you, you instead chose to look to the arcane to keep the flame of your conviction kindled.</content>
+	
+	<content contentuid="h33b21fb0973340df91b0d8f917c6c8df8d94" version="1">Spellshatter</content>
+	<content contentuid="h80920914af3a4234afd098d90988ad4a921e" version="1">Gain &lt;LSTag Type="Spell" Tooltip="Target_Smite_Spellshatter"&gt;Spellshatter Smite&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Countersmite"&gt;Countersmite&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_ArcaneJudgment_Class"&gt;Arcane Righteousness&lt;/LSTag&gt;.</content>
+	
+	<content contentuid="hfd4d9080f3e74a14a55df337654c2029567a" version="1">Spellshatter Smite</content>
+	<content contentuid="h460d8d6187c341f095b97853baf6b860892d" version="1">Smite a creature with arcane energy. Upon dealing damage, your target, and all enemies within [1] of them, must succeed an Intelligence based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or become &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Muted&lt;/LSTag&gt; for 3 turns.</content>
+	<content contentuid="h0e3ec11c2b7049e896226765219dc68ca144" version="1">Spellshatter Smite: Critical</content>
+	
+	<content contentuid="h9353b36c2f614286961c4885b2855600dg9b" version="1">Countersmite</content>
+	<content contentuid="h3c584bd5335c4950b4f2614fcf67efdcdb37" version="1">Spend a &lt;LSTag Type="ActionResource" Tooltip="WarPriestActionPoint"&gt;Crusader's Smite&lt;/LSTag&gt; charge in order to stop a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; from being cast.</content>
+	
+	<content contentuid="h366f2a1350de49a3a5946b7d0f886f01e7dg" version="1">Arcane Righteousness</content>
+	<content contentuid="he59b2cab46b1482dbb0bfecf27f9e336fbd3" version="1">Deal damage to all creatures in a [1] radius and potentially &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Mute&lt;/LSTag&gt; them for 1 turn.</content>
+
+	<content contentuid="h2dd8451c95a44db78045bf5aaaf7e01eb7b7" version="1">Oathcast</content>
+	<content contentuid="hb0ebd2e846374faf9abc80339d2c3bf8b09b" version="1">Lesser Oathcast</content>
+	<content contentuid="ha62620ae6d8d449e885825af6fda2c4ab8e7" version="1">Anointed Oathcast</content>
+	<content contentuid="h1149fdba9777431bb7079ef62eb538fdf6f3" version="1">Exalted Oathcast</content>
+	<content contentuid="h0565da2d4aa047adaf798c741e77ca272272" version="1">Expend &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; charges and &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slots&lt;/LSTag&gt; in order to create Spell Slots of a higher level than you would otherwise be able to cast.</content>
+	<content contentuid="hec012edb556e44ffb4cd229a5f9e7429679d" version="1">Expend a &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; charge and a level one &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; in order to gain a level two Spell Slot until the end of your current combat encounter.</content>
+	<content contentuid="h326aa5c9277e426e9f063a7cfee2521cba1e" version="1">Expend a &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; charge and a level two &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; in order to gain a level four Spell Slot until the end of your current combat encounter.</content>
+	<content contentuid="h69299ced92fa41a9bfe62c1d64aa665ag0d8" version="1">Expend a &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; charge and a level three &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; in order to gain a level six Spell Slot until the end of your current combat encounter.</content>
+	<content contentuid="hf94035869fc34ba9bc4448df3f0a2efb879b" version="1">Affected creature has manifested a level [1] &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;. This Spell Slot will be removed at the end of their current combat encounter.</content>
+	
+	<content contentuid="he304548d505b416981eeccf86d46687d035b" version="1">Divine Onto Arcane</content>
+	<content contentuid="h64f556054b1f46c1a19454a42611cc42gf02" version="1">When making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; or dealing damage to a &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Muted&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="HEAVILY_SILENCED"&gt;Silenced&lt;/LSTag&gt; creature, you roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Once per turn, upon landing a killing blow on a Muted or Silenced enemy, you restore one &lt;LSTag Type="ActionResource" Tooltip="WarPriestActionPoint"&gt;Crusader's Smite&lt;/LSTag&gt; charge.</content>
+	
+	<content contentuid="h47ab16967c8f42f385e59dc6da4613844f48" version="1">Turn the Voiceless</content>
+	<content contentuid="h53c55119f67a493aa2805773970b68b4257b" version="1">Gain &lt;LSTag Type="Spell" Tooltip="Shout_Voiceless"&gt;Turn the Voiceless&lt;/LSTag&gt;.</content>
+	<content contentuid="h94a560590eba4e8782f60235e0ee5e696eb6" version="1">Scourge all nearby enemies within [1] in arcane magic. For each &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Muted&lt;/LSTag&gt; enemy damaged by this action, you restore one &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; charge.</content>
+	
+	<content contentuid="hc7656bfaca2c4b53bf8915e32899ee8c0g62" version="1">Arcane Glory</content>
+	<content contentuid="h74350d3201b7408bb47ad4c0e7bca704689e" version="1">Once per turn, upon landing a killing blow on a &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Muted&lt;/LSTag&gt; enemy, the next Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; you cast will not consume an &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt;, &lt;LSTag Tooltip="BonusAction"&gt;Bonus Action&lt;/LSTag&gt;, or &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;.</content>
+	<content contentuid="h7d1be674c323460abf34b665ef5626f8127e" version="1">Affected creature's next Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; you cast will not consume an &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt;, &lt;LSTag Tooltip="BonusAction"&gt;Bonus Action&lt;/LSTag&gt;, or &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h539f4069730b4efdb2616657c946fdac2g8e" version="1">Aura of the Arcane</content>
+	<content contentuid="hbbc24e1c2706494e91e1b5f91ac6dd63gac2" version="1">Gain &lt;LSTag Type="Spell" Tooltip="Shout_AuraOf_Arcane"&gt;Aura of the Arcane&lt;/LSTag&gt;.</content>
+	<content contentuid="hb2bb793d0c7f499590c6856f80801183e8c6" version="1">Until the end of your current combat encounter, your presence may invoke &lt;LSTag Type="Passive" Tooltip="WildMagic"&gt;Wild Magic Surges&lt;/LSTag&gt; whenever a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; is cast within [1] of you.&lt;br&gt;&lt;br&gt;These Wild Magic surges can be either positive or negative, depending on if an ally or enemy is casting the Spell.</content>
+	<content contentuid="hb317ec8eb4774512ad45856d8432ee20gccd" version="1">Affected creature may trigger a positive &lt;LSTag Type="Passive" Tooltip="WildMagic"&gt;Wild Magic Surge&lt;/LSTag&gt; upon casting a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt;.</content>
+	<content contentuid="h6f514ee7f67742a0a2c7d31f0781cfc18f8d" version="1">Affected creature may trigger a negative &lt;LSTag Type="Passive" Tooltip="WildMagic"&gt;Wild Magic Surge&lt;/LSTag&gt; upon casting a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h74f108b4bca44432817e2073c11abc4ff1c7" version="1">Karsus' Avatar</content>
+	<content contentuid="hde1e219dfff942a580ec7668847a32bdfd18" version="1">Your Spells and &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt; that only select one target can now select three separate targets.</content>
+	
 <content contentuid="0000000000000000000000000000000000000" version="1">TYRANT</content>
 
 	<content contentuid="05ba80fa2f9c43a3b2da424d8e82080b00000" loreTexts="true" version="1">Black Gauntlet Crusader</content>
 	<content contentuid="05ba80fa2f9c43a3b2da424d8e82080bzzzzz" loreTexts="true" version="1">You served with the Banite knights of the Black Gauntlet, a ruthless brotherhood from Mintar intent on imposing absolute order and fealty to the Black Hand.</content>
 
 	<content contentuid="acb55f4f68334da6s574wdf96s87fee200001" version="1">Tyrant's Judgement</content>
-	<content contentuid="acb55f4f68334da6s574wdf96s87fee20000a" version="3">When making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; or dealing damage to a creature benefitting from &lt;LSTag Type="Status" Tooltip="LOCKDOWN_CONDITION"&gt;Lockdown Immunity&lt;/LSTag&gt;, roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Once per turn, upon landing a killing blow on an enemy benefitting from Lockdown Immunity, restore one &lt;LSTag Type="ActionResource" Tooltip="WarPriestActionPoint"&gt;Crusader's Smite&lt;/LSTag&gt; charge.</content>
+	<content contentuid="acb55f4f68334da6s574wdf96s87fee20000a" version="3">When making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; or dealing damage to a creature benefitting from &lt;LSTag Type="Status" Tooltip="LOCKDOWN_CONDITION"&gt;Lockdown Immunity&lt;/LSTag&gt;, roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Once per turn, upon landing a killing blow on an enemy benefitting from Lockdown Immunity, restore one &lt;LSTag Type="ActionResource" Tooltip="WarPriestActionPoint"&gt;Crusader's Smite&lt;/LSTag&gt; charge.</content>
 	<content contentuid="acb55f4f68334da6s574wdf96s87fee2000z1" version="1">Commanding Grasp</content>
 	<content contentuid="acb55f4f68334da6s574wdf96s87fee2000za" version="3">Use the strength of your dominating will to command a hostile creature.</content>
 	<content contentuid="hfec496d6g4fd4g44f9g80f4ge01f6bbgrasp" version="2">Commanding Grasp: Approach</content>
@@ -316,10 +368,10 @@
 	<content contentuid="hd646ac32g6ba7g4baagb3beg2ddef1areign" version="2">Impose your conquering will upon all nearby enemies, &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightening&lt;/LSTag&gt; them.</content>
 
 	<content contentuid="acb55f4f68334da6s574wdf96s87fee200002" version="1">Grovel Beneath Me</content>
-	<content contentuid="acb55f4f68334da6s574wdf96s87fee20000b" version="1">Once per turn, upon using your &lt;LSTag Type="Spell" Tooltip="CTarget_Smite_Tyrant"&gt;Tyrannical Smite&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt; enemies within [1] of you will potentially &lt;LSTag Type="Status" Tooltip="COMMAND_GROVEL"&gt;Grovel&lt;/LSTag&gt; for one turn.</content>
+	<content contentuid="acb55f4f68334da6s574wdf96s87fee20000b" version="1">Once per turn, upon using your &lt;LSTag Type="Spell" Tooltip="CTarget_Smite_Tyrant"&gt;Tyrannical Smite&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt; enemies within [1] of you will potentially &lt;LSTag Type="Status" Tooltip="COMMAND_GROVEL"&gt;Grovel&lt;/LSTag&gt; for one turn.&lt;br&gt;&lt;br&gt;No effect when targeting a creature benefitting from &lt;LSTag Type="Status" Tooltip="LOCKDOWN_CONDITION"&gt;Lockdown Immunity&lt;/LSTag&gt;.</content>
 
 	<content contentuid="acb55f4f68334da6s574wdf96s87fee200003" version="1">Turn the Defiant</content>
-	<content contentuid="acb55f4f68334da6s574wdf96s87fee20000c" version="1">&lt;LSTag Type="Status" Tooltip="TURNED"&gt;Turn&lt;/LSTag&gt; nearby enemies, dealing damage to them in the process. They are forced to flee and cannot come close to you. Creatures benefitting from &lt;LSTag Type="Status" Tooltip="LOCKDOWN_CONDITION"&gt;Lockdown Immunity &lt;/LSTag&gt; take twice as much damage from this action.</content>
+	<content contentuid="acb55f4f68334da6s574wdf96s87fee20000c" version="1">&lt;LSTag Type="Status" Tooltip="TURNED"&gt;Turn&lt;/LSTag&gt; nearby enemies, dealing damage to them in the process. They are forced to flee and cannot come close to you. Creatures benefitting from &lt;LSTag Type="Status" Tooltip="LOCKDOWN_CONDITION"&gt;Lockdown Immunity&lt;/LSTag&gt; take twice as much damage from this action.</content>
 
 	<content contentuid="acb55f4f68334da6s574wdf96s87fee200004" version="1">Escalation of Fear</content>
 	<content contentuid="acb55f4f68334da6s574wdf96s87fee20000d" version="1">Dealing damage to a &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt; enemy will potentially cause them to become &lt;LSTag Type="Status" Tooltip="FEARED"&gt;Terrified&lt;/LSTag&gt; for one turn.</content>

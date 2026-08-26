@@ -434,6 +434,11 @@
 	<content contentuid="hb5232a3egc046g45e9g926we8d6e8feace7c" version="1">Greater Automaton: Phase Three</content>
 	<content contentuid="hbf1f45a4g0c29g4e66ga808gd2225e6f6454" version="1">Affected creature will throw their target backward by [1] upon forcing them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;. In addition, their &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; is doubled, and upon starting each turn, they will &lt;LSTag Type="Spell" Tooltip="Shout_Stomp_Grym"&gt;Stomp&lt;/LSTag&gt;.</content>
 
+	<content contentuid="h7eaafff3gebcfg4210g9e83gb0e56211800d" version="3">Adamantine Reverberation</content>
+	<content contentuid="h72418df5g3418g4245gb0f6gf7124562930e" version="7">Grym's form hardens after being struck, providing [1]. Upon being removed, a shockwave will erupt, pushing targets back by [2] and dealing [3].</content>
+	<content contentuid="h94ea441fgd54dg4307g9f73g027a971f44c3" version="2">Adamantine Reverberation</content>
+	<content contentuid="h77c37c0bg14d4g4852g8eb4g0f4a7b745d35" version="2">Affected creature has gained [1]. Immediately after losing these temporary hit points, the creature knocks back foes [2] backward with a shockwave that deals [3].</content>
+
 <content contentuid="0000000000000000000000000000000000000" version="1">HOOK HORRORS</content>
 
 	<content contentuid="h3344d3e6gb749g4bd5ga9e9g75f0de1c9cca" version="5">Hooked on Horror</content>
@@ -639,6 +644,11 @@
 	<content contentuid="h5e28102fgbdc0g4822g95fcg7fdb32d51613" version="2">Diamonds Scales</content>
 	<content contentuid="h4eb1e5f9g7eeeg4f23g888cg822824ca1392" version="3">Affected creature's diamond scales provide it with [1]. While it has these Temporary Hit Points, it is &lt;LSTag Type="Status" Tooltip="GROUNDED"&gt;Grounded&lt;/LSTag&gt;, and any damage lower than 12 will not affect it. In addition, it can use &lt;LSTag Type="Spell" Tooltip="Shout_DiamondScalesBurst_Bulette"&gt;Shredding Scales&lt;/LSTag&gt; immediately after being hit for the first time each round.</content>
 
+<content contentuid="0000000000000000000000000000000000000" version="1">DOPPELGANGER</content>
+
+	<content contentuid="hc4eef74fg527fg4a60ga04egb2a849b02f9e" version="1">Multiattack: Morphic Ambush</content>
+	<content contentuid="hfd2662f7gd9e7g48c3g9913g0a162e5b9e03" version="1">Doppelgangers can make a &lt;LSTag Type="Spell" Tooltip="Target_Multiattack_Doppelganger"&gt;Multiattack&lt;/LSTag&gt; if their target is &lt;LSTag Type="Status" Tooltip="DOPPELGANGER_OFFBALANCE"&gt;Ambushed&lt;/LSTag&gt;. In addition, you may sometimes find that they are not as dead as you think...</content>
+
 <content contentuid="0000000000000000000000000000000000000" version="1">DRIDER</content>
 
 	<content contentuid="h244001cdg98f8g4682g8353g4a96dd0bfd44" version="1">Multiattack</content>
@@ -678,6 +688,13 @@
 	<content contentuid="h22fe979bg5f78g4142gabfegc3f2c7657d06" version="1">Fist of Gluttony</content>
 	<content contentuid="h3883a7e3g05d3g485cgbad9gcce24ddff3e2" version="2">Lash out with a fungal hand and possibly knock your target &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
 	<content contentuid="hdb517242g1fe3g4581g8f7bga6ccef2cd3c9" version="1">Aim multiple attacks at a &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; target or one under the effects of &lt;LSTag Type="Status" Tooltip="TIMMASK_SPORES"&gt;Timmask Spores&lt;/LSTag&gt;.</content>
+
+<content contentuid="0000000000000000000000000000000000000" version="1">HUMAN</content>
+
+	<content contentuid="h84f58e64gb19cg40fdg940cg2698f8041190" version="1">Ethereal Escape</content>
+	<content contentuid="hd6a22528g779cg47b5gb337gda5b959fa2a3" version="3">When damaged, this creature will escape to the Ethereal plane. They return to the battlefield at the start of their next turn.</content>
+	<content contentuid="h23097a99g1be1g4449g90b7g27dd421608fb" version="1">Ethereal Escape</content>
+	<content contentuid="h356f45c3g6e77g44e4g87feg4b436c9c00c2" version="3">Affected creature has travelled to the Ethereal Plane.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">LORROAKAN</content>
 
@@ -815,5 +832,10 @@
 
 	<content contentuid="h4d7f1eviconiaa4d80ga24bg135c80phases" version="1">Into the Dark</content>
 	<content contentuid="hcd35aviconiaaa4c0fgad2fg2c330ephases" version="1">When dealing damage, this creature potentially &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinds&lt;/LSTag&gt; their targets.</content>
+
+<content contentuid="0000000000000000000000000000000000000" version="1">WITHERS</content>
+
+	<content contentuid="h4d7f1eviconiaa4d80ga24bg135cjergalzz" version="1">From the Cradle, to the Grave</content>
+	<content contentuid="hcd35aviconiaaa4c0fgad2fg2c33jergalzz" version="1">This creature immediately kills any mortal who would dare attempt to damage him.</content>
 
 </contentList>

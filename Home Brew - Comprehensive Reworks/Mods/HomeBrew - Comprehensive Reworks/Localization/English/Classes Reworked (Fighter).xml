@@ -151,7 +151,7 @@
 	<content contentuid="h6bdfd618g15b3g45c9g8a0egd02cecb1fe7a" version="1">You approach the complex problems posed by combat with one distinctly effective solution - you will take anything they can throw at you, and protect your allies while doing so.</content>
 
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209a69a454" version="1">Challenger</content>
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204a99a787" version="8">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to all forms of physical damage. However, enemies will have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; when making &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against you. In addition, when damaging a target, you have a chance to &lt;LSTag Type="Status" Tooltip="CHALLENGERS_CALL"&gt;Challenge&lt;/LSTag&gt; them, and while active, you are considered to be a preferred target. This can be toggled at any time.</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204a99a787" version="8">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to all forms of physical damage. However, enemies will have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; when making &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against you. In addition, when damaging an enemy, you have a chance to &lt;LSTag Type="Status" Tooltip="CHALLENGERS_CALL"&gt;Challenge&lt;/LSTag&gt; them, and while active, you are considered to be a preferred target. This can be toggled at any time.</content>
 	<content contentuid="h0f5c3539g18bbg4891ga824g827151a6a688" version="2">Challenger's Presence</content>
 	<content contentuid="h93857089gb140g4c33ga0a9g26fde3fdfd58" version="7">Affected creature has &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to all forms of physical damage. However, enemies have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; when making &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against them.</content>
 
@@ -189,9 +189,9 @@
 	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur000za" loreTexts="true" version="1">Leap to meet your foe with a flamboyant opening strike.</content>
 
 	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e00004" loreTexts="true" version="3">Cataphract Shock</content>
-	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur0000d" loreTexts="true" version="1">Gain the ability to expend a &lt;LSTag Type="ActionResource" Tooltip="SuperiorityDie"&gt;Superiority Die&lt;/LSTag&gt; upon dealing damage with one of your Chivalric abilities to produce a blast of sheer force on impact, damaging all enemies within [1] of you of you and sending them backward by [2], knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
+	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur0000d" loreTexts="true" version="1">Gain the ability to expend a &lt;LSTag Type="ActionResource" Tooltip="SuperiorityDie"&gt;Superiority Die&lt;/LSTag&gt; upon dealing damage with one of your Chivalric abilities to erupt in a forceful explosion, dealing [1] to all enemies within [2] of your target and possibly knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;. This damage increases alongside your levels in Fighter.</content>
 	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e000z4" loreTexts="true" version="3">Cataphract Shock</content>
-	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur000zd" loreTexts="true" version="1">Upon dealing damage with one of your Chivalric abilities, produce a blast of sheer force, damaging [1] to all enemies within [2] of you and sending them backward by [3], knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
+	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur000zd" loreTexts="true" version="1">Upon dealing damage with one of your Chivalric abilities, erupt in a forceful explosion, dealing [1] to all enemies within [2] of your target and possibly knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e00003" loreTexts="true" version="3">Chivalric Spearhead</content>
 	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur0000c" loreTexts="true" version="1">Run your enemies through with &lt;LSTag Type="Spell" Tooltip="Rush_DraconicBlitz"&gt;Chivalric Spearhead&lt;/LSTag&gt;.</content>
@@ -466,7 +466,7 @@
 	<content contentuid="0e3d63a2603a455a9f70a7874a87c2b4000zc" version="1">When an ally within [1] of you is damaged by an enemy, use &lt;LSTag Type="Spell" Tooltip="Target_ShieldBlow_Daze"&gt;Dazing Bash&lt;/LSTag&gt; against their aggressor.</content>
 		
 	<content contentuid="0e3d63a2603a455a9f70a7874a87c2b400001" version="1">Reinforced Strikes</content>
-	<content contentuid="0e3d63a2603a455a9f70a7874a87c2b40000a" version="1">Dealing damage with a shield deals additional damage equal to your &lt;LSTag Type="ActionResource" Tooltip="SuperiorityDie"&gt;Superiority Die&lt;/LSTag&gt;.</content>
+	<content contentuid="0e3d63a2603a455a9f70a7874a87c2b40000a" version="1">Dealing damage to an enemy with a shield deals additional damage equal to your &lt;LSTag Type="ActionResource" Tooltip="SuperiorityDie"&gt;Superiority Die&lt;/LSTag&gt;.</content>
 
 	<content contentuid="0e3d63a2603a455a9f70a7874a87c2b400004" version="1">Iron Avalanche</content>
 	<content contentuid="0e3d63a2603a455a9f70a7874a87c2b40000d" version="1">Killing a creature with your shield now causes them to erupt, dealing Force damage to any other enemies within [1] of them equal to your &lt;LSTag Type="ActionResource" Tooltip="SuperiorityDie"&gt;Superiority Dice&lt;/LSTag&gt;.</content>

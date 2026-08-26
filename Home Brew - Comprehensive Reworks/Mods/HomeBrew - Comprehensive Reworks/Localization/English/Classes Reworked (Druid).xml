@@ -24,6 +24,26 @@
 	<content contentuid="9b7b811b9c3043e189f945540bf519a55d6f8" version="1">Beastcraft</content>
 	<content contentuid="9b7b811b9c3043e189f945540bf516a2e5d64" version="1">As a Druid, you may assume the form of a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt;. Toggling this passive allows you to Wildshape using either your &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt; or &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;. This may be toggled at any time.</content>
 
+	<content contentuid="3a92be7fa93b4848aa0ecf248433306300001" version="1">Mantra of Recovery</content>
+	<content contentuid="3a92be7fa93b4848aa0ecf24843330630000a" version="1">Call upon your connection to nature, expending &lt;LSTag Type="ActionResource" Tooltip="WildShape"&gt;Wildshape&lt;/LSTag&gt; charges in to restore your &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slots&lt;/LSTag&gt;.</content>
+	<content contentuid="ba8dc90c6dd0425a45a4212368d3491200001" version="1">Lesser Mantra of Recovery</content>
+	<content contentuid="ba8dc90c6dd0425a45a4212368d349120000a" version="1">Spend a &lt;LSTag Type="ActionResource" Tooltip="WildShape"&gt;Wildshape&lt;/LSTag&gt; charge to restore a level one &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;. Upon reaching level three in Druid, this action will also restore a level two Spell Slot.</content>
+	<content contentuid="ba8dc90c6dd0425a45a4212368d3491200002" version="1">Mantra of Recovery</content>
+	<content contentuid="ba8dc90c6dd0425a45a4212368d349120000b" version="1">Spend 2 &lt;LSTag Type="ActionResource" Tooltip="WildShape"&gt;Wildshape&lt;/LSTag&gt; charges to restore a level three &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;. Upon reaching level seven in Druid, this action will also restore a level four Spell Slot.</content>
+	<content contentuid="ba8dc90c6dd0425a45a4212368d3491200003" version="1">Greater Mantra of Recovery</content>
+	<content contentuid="ba8dc90c6dd0425a45a4212368d349120000c" version="1">Spend 3 &lt;LSTag Type="ActionResource" Tooltip="WildShape"&gt;Wildshape&lt;/LSTag&gt; charges to restore a level five &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;. Upon reaching level eleven in Druid, this action will also restore a level six Spell Slot.</content>
+	<content contentuid="ba8dc90c6dd0425a45a4212368d34912666a5" version="1">SpellSlotEnabler</content>
+	<content contentuid="ba8dc90c6dd0425a45a4212368d34912dd5f8" version="1">Required for Mantra of Restoration to function properly. You should not be able to see this.</content>
+	<content contentuid="2ef5c74c3ef74b958689b8cf3cefcbee00000" version="1">Restore higher level &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slots&lt;/LSTag&gt; per upcast. You may only restore Spell Slots which you are able to cast.</content>
+
+	<content contentuid="3a92be7fa93b4848aa0ecf248433306300002" version="1">Mantle of Concentration</content>
+	<content contentuid="3a92be7fa93b4848aa0ecf24843330630000b" version="1">Upon casting Mantra of Recovery, you will automatically succeed all &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; for three turns.</content>
+	<content contentuid="3a92be7fa93b4848aa0ecf2484333063000z2" version="1">Mantle of Concentration</content>
+	<content contentuid="3a92be7fa93b4848aa0ecf2484333063000zb" version="1">Affected creature will automatically succeed all &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; for three turns.</content>
+
+	<content contentuid="3a92be7fa93b4848aa0ecf248433306300003" version="1">Mantra of Rebirth</content>
+	<content contentuid="3a92be7fa93b4848aa0ecf24843330630000c" version="1">At the beginning of each turn in combat, you immediately recover one of your &lt;LSTag Type="ActionResource" Tooltip="WildShape"&gt;Wildshape Charges&lt;/LSTag&gt;.</content>
+
 	<content contentuid="hde7c0e66g9526g4e3bgb10cg1f7f82300b96" version="1">Wildshape</content>
 	<content contentuid="h641039d1gd640g4f6agb229g672cba8a4f93" version="5">Magically assume the shape of a beast.</content>
 	<content contentuid="h80dbdd11g5eedg4a73g9a07gfd95bce69f4e" version="6">While assuming the form of a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt;, you cannot speak or cast Spells. You take on the attributes of your beast form - excluding your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt;, and &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; scores. Equipped items will still apply to you while assuming the form of a Wildshape.</content>
@@ -89,10 +109,10 @@
 	<content contentuid="ae5967aac30a4b8babe8f0f2f7dfecd30000d" version="2">While in combat, you ignore all forms of damage &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt; associated with your current season when dealing damage to an enemy or item.</content>
 
 	<content contentuid="ae5967aac30a4b8babe8f0f2f7dfecd300005" version="2">Maelstrom</content>
-	<content contentuid="ae5967aac30a4b8babe8f0f2f7dfecd30000e" version="2">Once per turn, upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, you immediately trigger &lt;LSTag Type="Passive" Tooltip="TempestuousSeasons"&gt;Tempestuous Seasons&lt;/LSTag&gt; within a [1] area around your target.&lt;br&gt;&lt;br&gt;Triggering Tempestuous Seasons in this way will not advance your season.</content>
+	<content contentuid="ae5967aac30a4b8babe8f0f2f7dfecd30000e" version="2">Once per turn, upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, you immediately trigger &lt;LSTag Type="Status" Tooltip="Tooltip_TempestuousSeasons"&gt;Tempestuous Seasons&lt;/LSTag&gt; within a [1] area around your target.&lt;br&gt;&lt;br&gt;Triggering Tempestuous Seasons in this way will not advance your season.</content>
 
 	<content contentuid="ae5967aac30a4b8babe8f0f2f7dfecd300006" version="2">Avatar of Gaia</content>
-	<content contentuid="ae5967aac30a4b8babe8f0f2f7dfecd30000f" version="2">At the beginning of each turn in combat, you immediately recover all your &lt;LSTag Type="ActionResource" Tooltip="WildShape"&gt;Wildshape Charges&lt;/LSTag&gt;.</content>
+	<content contentuid="ae5967aac30a4b8babe8f0f2f7dfecd30000f" version="2">&lt;LSTag Type="Status" Tooltip="Tooltip_MantraofRebirth"&gt;Mantra of Rebirth&lt;/LSTag&gt; now restores two &lt;LSTag Type="ActionResource" Tooltip="WildShape"&gt;Wildshape Charges&lt;/LSTag&gt; per turn, rather than one.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">CIRCLE OF THE LAND</content>
 
@@ -142,8 +162,11 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">CIRCLE OF THE MOON</content>
 
+	<content contentuid="h282704e7g650dg4a64gbf0dgfb5b681f3be5" version="2">Circle of the Moon</content>
+	<content contentuid="hcd5ebe30g081fg4a7agba99g38d237697789" version="2">Your form is mutable as the mercurial moon, letting you shift effortlessly into various beasts.</content>
+
 	<content contentuid="h2b3423cfg3562g4217g9873g725ds6d2e584" version="2">Moonbreak</content>
-	<content contentuid="h9496db0cgc952g4937g90b7g666sd895e854" version="2">You gain access to all &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt; forms. While assuming the form of a Wildshape, you can swap to any form as a free action. When swapping to another Wildshape form in this manner, you retain the same percentage of &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; of the form you swapped from.</content>
+	<content contentuid="h9496db0cgc952g4937g90b7g666sd895e854" version="2">You gain access to ten &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt; forms. While assuming one of these ten Wildshape forms, you can swap to any of them as a free action. When swapping to another Wildshape form in this manner, you retain the same percentage of &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; of the form you swapped from.</content>
 
 	<content contentuid="h2b3423cfg3562g4217g9873g725ds6d22584" version="2">Wild Infusion</content>
 	<content contentuid="h9496db0cgc952g4937g90b7g666sd8964875" version="2">You are able to utilize your &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slots&lt;/LSTag&gt; to infuse your melee attacks with additional elemental damage.</content>
@@ -183,12 +206,12 @@
 	<content contentuid="5126c10823d3434e8286ee66c19e569800zz1" version="1">Displacer Beast</content>
 
 	<content contentuid="5126c10823d3434e8286ee66c19e569800002" version="2">Veilstalker</content>
-	<content contentuid="5126c10823d3434e8286ee66c19e56980000b" version="2">While assuming a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt;, deal additional Psychic damage and recover &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; at the start of each of your turns, equal to your levels in Druid. This bonus does not apply to damage dealt with an off-hand weapon.</content>
+	<content contentuid="5126c10823d3434e8286ee66c19e56980000b" version="2">While assuming a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt;, deal additional Psychic damage to enemies, and recover &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; at the start of each of your turns, equal to your levels in Druid. This bonus does not apply to damage dealt with an off-hand weapon.</content>
 
 	<content contentuid="5126c10823d3434e8286ee66c19e569800003" version="2">Predatory Communion</content>
 	<content contentuid="5126c10823d3434e8286ee66c19e56980000c" version="2">Gain the ability to morph your allies into &lt;LSTag Type="Spell" Tooltip="Shout_WildShape_DisplacerBeast"&gt;Displacer Beasts&lt;/LSTag&gt;.</content>
 	<content contentuid="5126c10823d3434e8286ee66c19e5698000z3" version="2">Predatory Communion</content>
-	<content contentuid="5126c10823d3434e8286ee66c19e5698000zc" version="2">Forcibly morph an ally into a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape_DisplacerBeast"&gt;Displacer Beast&lt;/LSTag&gt;.</content>
+	<content contentuid="5126c10823d3434e8286ee66c19e5698000zc" version="2">Forcibly morph an ally into a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape_DisplacerBeast"&gt;Displacer Beast&lt;/LSTag&gt;. Allies may create additional copies of themselves while morphed if they also have &lt;LSTag Type="Status" Tooltip="Tooltip_DisplacedNature"&gt;Displaced Nature&lt;/LSTag&gt;.</content>
 
 	<content contentuid="5126c10823d3434e8286ee66c19e569800004" version="2">Distorted Visage</content>
 	<content contentuid="5126c10823d3434e8286ee66c19e56980000d" version="2">You are permanently considered to be &lt;LSTag Type="Status" Tooltip="SNEAKING_HEAVILY_OBSCURED"&gt;Heavily Obscured&lt;/LSTag&gt; to any creature further than [1] from you.</content>
@@ -214,6 +237,7 @@
 	<content contentuid="h927d41d9g5ed6g4a4fga717g45ba259261dc" version="5">Gain [1]. While you have Temporary Hit Points active, you deal an additional [2] when dealing damage. Additionally, &lt;LSTag Type="Spell" Tooltip="Target_HaloOfSpores"&gt;Halo of Spores&lt;/LSTag&gt; will deal double damage while active.</content>
 	<content contentuid="h3c96a155g4061g4c87g9bc3gee1647f1035b" version="2">Symbiotic Entity</content>
 	<content contentuid="h0da9c0dfg1351g4f7bg8ff4gf300f82b1c00" version="4">Affected creature deals an additional [2], and &lt;LSTag Type="Spell" Tooltip="Target_HaloOfSpores"&gt;Halo of Spores&lt;/LSTag&gt; will deal double damage, so long as they have &lt;LSTag Tooltip="TemporaryHitPoints"&gt;Temporary Hit Points&lt;/LSTag&gt;.</content>
+	<content contentuid="18a4141a7d3147d18d8de9d2d3f7c7a900000" version="4">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; A creature reanimated via spores is not considered to be a summon.</content>
 
 	<content contentuid="h580791fcg0d77g485bg8f6eg4a9w8dfe9suy" version="2">Animator</content>
 	<content contentuid="hab01f6f3gbe5ag482ag9399g6e2aosud9fuf" version="4">Gain &lt;LSTag Type="Spell" Tooltip="Target_AnimatingSporesPlayer"&gt;Animating Spores&lt;/LSTag&gt;.</content>
@@ -283,7 +307,7 @@
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d5s654d6845" version="1">Expend one &lt;LSTag Type="ActionResource" Tooltip="WildShape"&gt;Wildshape&lt;/LSTag&gt; Charge to restore one &lt;LSTag Type="ActionResource" Tooltip="StarMapPoint"&gt;Star Map&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h999cdd36g41f6g4d43g9dc3g3871b8600002" version="1">Singularity</content>
-	<content contentuid="hd7d79c36geba5g4fe2ga789g3b4254e0000b" version="3">While in combat, restore one &lt;LSTag Type="ActionResource" Tooltip="StarMapPoint"&gt;Star Map&lt;/LSTag&gt; every three turns.</content>
+	<content contentuid="hd7d79c36geba5g4fe2ga789g3b4254e0000b" version="3">Upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, you restore one &lt;LSTag Type="ActionResource" Tooltip="StarMapPoint"&gt;Star Map&lt;/LSTag&gt;. In addition, while in combat, you restore one Star Map every three turns.</content>
 	<content contentuid="h999cdd36g41f6g4d43g9dc3g3871b86000z2" version="1">Singularity</content>
 	<content contentuid="hd7d79c36geba5g4fe2ga789g3b4254e000zb" version="3">Affected creature will recover one &lt;LSTag Type="ActionResource" Tooltip="StarMapPoint"&gt;Star Map&lt;/LSTag&gt; when this status expires.</content>
 
@@ -302,7 +326,7 @@
 	<content contentuid="h92f30e6bgbd7eg4419ga4b4gce1ba6d22d54" version="1">Expel a concentrated beam of starlight.</content>
 
 	<content contentuid="h999cdd36g41f6g4d43g9dc3g3871b8600005" version="1">Twinkling Constellations</content>
-	<content contentuid="hd7d79c36geba5g4fe2ga789g3b4254e0000e" version="2">Each of your &lt;LSTag Type="Spell" Tooltip="Shout_ShapeoftheCosmos"&gt;Shapes of the Cosmos&lt;/LSTag&gt; now grant an additional passive effect. The &lt;LSTag Type="Spell" Tooltip="Shout_Wildshape_Star_Archer"&gt;Shape of the Archer&lt;/LSTag&gt; now grants &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, the &lt;LSTag Type="Spell" Tooltip="Shout_Wildshape_Star_Chalice"&gt;Shape of the Chalice&lt;/LSTag&gt; now doubles its healing if your targets are below half of their total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;, and the &lt;LSTag Type="Spell" Tooltip="Shout_Wildshape_Star_Dragon"&gt;Shape of the Dragon&lt;/LSTag&gt; now ensures the lowest you can roll on a &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; is 10.</content>
+	<content contentuid="hd7d79c36geba5g4fe2ga789g3b4254e0000e" version="2">Each of your &lt;LSTag Type="Spell" Tooltip="Shout_ShapeoftheCosmos"&gt;Shapes of the Cosmos&lt;/LSTag&gt; now grant an additional passive effect. The &lt;LSTag Type="Spell" Tooltip="Shout_Wildshape_Star_Archer"&gt;Shape of the Archer&lt;/LSTag&gt; now grants &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, the &lt;LSTag Type="Spell" Tooltip="Shout_Wildshape_Star_Chalice"&gt;Shape of the Chalice&lt;/LSTag&gt; now doubles its healing if your targets are below half of their total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;, and the &lt;LSTag Type="Spell" Tooltip="Shout_Wildshape_Star_Dragon"&gt;Shape of the Dragon&lt;/LSTag&gt; now allows you to automatically succeed all &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h999cdd36g41f6g4d43g9dc3g3871b8600006" version="1">Eyes of the Cosmos</content>
 	<content contentuid="hd7d79c36geba5g4fe2ga789g3b4254e0000f" version="2">All three of your &lt;LSTag Type="Spell" Tooltip="Shout_ShapeoftheCosmos"&gt;Shapes of the Cosmos&lt;/LSTag&gt; are now passively active at all times.</content>
@@ -326,7 +350,7 @@
 	<content contentuid="h129b7931g57b1g4463g8eb0gabe7e7266495" version="7">Assume the shape of a bear that can &lt;LSTag Type="Spell" Tooltip="Shout_GoadingRoar_Bear_Summon"&gt;Goad&lt;/LSTag&gt; enemies into attacking it.</content>
 	<content contentuid="h04ebfb42g0d14g4271g8bc0g894b38ccbc0d" version="2">Assume the shape of a bear that can &lt;LSTag Type="Spell" Tooltip="Shout_GoadingRoar_Bear_Summon"&gt;Goad&lt;/LSTag&gt; enemies into attacking it.</content>
 	<content contentuid="hd0467b10g17c5g47b5g959bg3a765850133c" version="1">Goading Roar</content>
-	<content contentuid="h2d645859g28fbg43ecgb562g68a88fc9ed5b" version="2">Roar at nearby enemies to &lt;LSTag Type="Status" Tooltip="TAUNTED"&gt;Goad&lt;/LSTag&gt; them into attacking you.</content>
+	<content contentuid="h2d645859g28fbg43ecgb562g68a88fc9ed5b" version="2">Roar at nearby enemies to potentially &lt;LSTag Type="Status" Tooltip="TAUNTED"&gt;Goad&lt;/LSTag&gt; them into attacking you.</content>
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d93939eooos" version="1">Ursine Protection</content>
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d939didkkjj" version="2">As a bear, you are resistant to even the harshest attacks. You have &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to all physical damage.</content>
 	<content contentuid="h8769c117g1dd3g4db9ga60eg4aa45s65d4f2" version="2">Ursine Shielding</content>
@@ -353,8 +377,8 @@
 	<content contentuid="h003495c7g82d0g4aa9g851bgb4afc573d55c" version="2">Take the shape of a dilophosaurus whose &lt;LSTag Type="Spell" Tooltip="Projectile_CorrosiveSpit_Dilophosaurus"&gt;Corrosive Spit&lt;/LSTag&gt; can dissolve a target's &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;.</content>
 	<content contentuid="h683ebb58gc713g4bc4gb9c2gbcab4ac5552b" version="2">Corrosive Spit</content>
 	<content contentuid="h18fd8438g2488g41bfga7aeg93470229d95d" version="4">Spray a target with corrosive fluids that slowly melt away its &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;.</content>
-	<content contentuid="h46408244gf01dg4accgb982gfd22021efa24" version="4">Corrosion</content>
-	<content contentuid="hbf8ed102g5fbeg416dg8712gc27f00e7191e" version="8">Affected creature is covered in a corrosive fluid, reducing their &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by [1]. The fluid will keep eating away at its defences, further reducing its Armour Class, unless it is washed away with water. In addition, they are unable to utilize their armours physical &lt;LSTag Type="Status" Tooltip="DAMAGE_REDUCTION"&gt;Damage Reduction&lt;/LSTag&gt;.</content>
+	<content contentuid="h46408244gf01dg4accgb982gfd22021efa24" version="4">Acidic Decay</content>
+	<content contentuid="hbf8ed102g5fbeg416dg8712gc27f00e7191e" version="8">Affected creature is covered in an acidic fluid, reducing their &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by [1]. The fluid will keep eating away at its defences, further reducing its Armour Class, unless it is washed away with water. In addition, they are unable to utilize their armours physical &lt;LSTag Type="Status" Tooltip="DAMAGE_REDUCTION"&gt;Damage Reduction&lt;/LSTag&gt;.</content>
 	<content contentuid="h3429c982g747ag4ce8gbbc2g89dacd1b54b9" version="2">Affected creature is covered in a corrosive fluid, reducing their &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by [1]. The fluid can be washed away with water. In addition, they are unable to utilize their armours physical &lt;LSTag Type="Status" Tooltip="DAMAGE_REDUCTION"&gt;Damage Reduction&lt;/LSTag&gt;.</content>
 	<content contentuid="h42eafd44gfe7cg4e24ga220g76236dd6370c" version="2">The target's Armour Class decreases by [1] per turn, up to a maximum penalty of -[2]. Water removes the fluid and its effects.</content>
 	<content contentuid="h0e46ea98g5c80g450aga9b5g9269179a7848" version="1">Clever Girls</content>
@@ -395,7 +419,7 @@
 	<content contentuid="h77e5b733ge51ag4087gae8eg143de199a097" version="1">Pounce</content>
 	<content contentuid="h219f44f4ga9dag4f80gbb76g2201989c3310" version="2">Leap at a target to bite it and knock it &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d34912iekdj" version="2">Apex Predator</content>
-	<content contentuid="ba8dc90c6dd042ee918bba2f68d349126a998" version="3">As an apex predator, you take advantage of every opening. When attacking an enemy who is &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;, you deal an additional +1d8 damage.</content>
+	<content contentuid="ba8dc90c6dd042ee918bba2f68d349126a998" version="3">When dealing damage to an enemy who is &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;, you deal an additional +1d8 damage.</content>
 	<content contentuid="h77e5b733ge51ag4087gae8eg143de16a8454" version="2">Leap</content>
 	<content contentuid="h219f44f4ga9dag4f80gbb76g2201986a9878" version="3">Jump exceptionally far due to your Wildshape.</content>
 	<content contentuid="h77e5b733ge51ag4087gae8eg14338f8djfjd" version="2">Prowling</content>
@@ -496,20 +520,8 @@
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d3491200008" version="1">Killer Instinct</content>
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d349120000h" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all damage rolls while assuming the form of a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt;.</content>
 
-	<content contentuid="ba8dc90c6dd042ee918bba2f68d3491200009" version="1">Mantra of Restoration</content>
-	<content contentuid="ba8dc90c6dd042ee918bba2f68d349120000i" version="1">While not assuming the form of a Wildshape, you may expend &lt;LSTag Type="ActionResource" Tooltip="WildShape"&gt;Wildshape&lt;/LSTag&gt; charges to restore &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slots&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Additionally, gain &lt;LSTag Type="Spell" Tooltip="Shout_WildShape_Combat_Heal"&gt;Lunar Mend&lt;/LSTag&gt;, allowing you to heal yourself while in the form of a Wildshape.</content>
-	<content contentuid="ba8dc90c6dd042ee918bba2f68d349126a855" version="1">Solar Rebirth</content>
-	<content contentuid="ba8dc90c6dd042ee918bba2f68d34912ff5s4" version="1">Call upon your connection to nature to restore your &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slots&lt;/LSTag&gt;.</content>
-	<content contentuid="ba8dc90c6dd0425a45a4212368d3491200001" version="1">Lesser Solar Rebirth</content>
-	<content contentuid="ba8dc90c6dd0425a45a4212368d349120000a" version="1">Spend a &lt;LSTag Type="ActionResource" Tooltip="WildShape"&gt;Wildshape&lt;/LSTag&gt; charge to restore a level one &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;. Upon reaching level three in Druid, this action will also restore a level two Spell Slot.</content>
-	<content contentuid="ba8dc90c6dd0425a45a4212368d3491200002" version="1">Moderate Solar Rebirth</content>
-	<content contentuid="ba8dc90c6dd0425a45a4212368d349120000b" version="1">Spend 2 &lt;LSTag Type="ActionResource" Tooltip="WildShape"&gt;Wildshape&lt;/LSTag&gt; charges to restore a level three &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;. Upon reaching level seven in Druid, this action will also restore a level four Spell Slot.</content>
-	<content contentuid="ba8dc90c6dd0425a45a4212368d3491200003" version="1">Greater Solar Rebirth</content>
-	<content contentuid="ba8dc90c6dd0425a45a4212368d349120000c" version="1">Spend 3 &lt;LSTag Type="ActionResource" Tooltip="WildShape"&gt;Wildshape&lt;/LSTag&gt; charges to restore a level five &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;. Upon reaching level eleven in Druid, this action will also restore a level six Spell Slot.</content>
-	<content contentuid="ba8dc90c6dd0425a45a4212368d34912666a5" version="1">SpellSlotEnabler</content>
-	<content contentuid="ba8dc90c6dd0425a45a4212368d34912dd5f8" version="1">Required for Mantra of Restoration to function properly. You should not be able to see this.</content>
-	<content contentuid="2ef5c74c3ef74b958689b8cf3cefcbee00000" version="1">Restore higher level &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slots&lt;/LSTag&gt; per upcast. You may only restore Spell Slots which you are able to cast.</content>
-
+	<content contentuid="ba8dc90c6dd042ee918bba2f68d3491200009" version="1">Mother Nature's Restoration</content>
+	<content contentuid="ba8dc90c6dd042ee918bba2f68d349120000i" version="1">Gain &lt;LSTag Type="Spell" Tooltip="Shout_WildShape_Combat_Heal"&gt;Lunar Mend&lt;/LSTag&gt;, allowing you to heal yourself while in the form of a Wildshape.</content>
 	<content contentuid="h669ba7f4g8ceeg486cgb81dgf7d3a065d75e" version="1">Lunar Mend</content>
 	<content contentuid="hfbec0bc0g418eg4c6eg9471g41ec6ae3b22d" version="2">Expend &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slots&lt;/LSTag&gt; to regain &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; while assuming the form of a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt;.</content>
 	<content contentuid="h8ee34794g52f7g4282gaf93g5db11b8a5504" version="2">Lesser Lunar Mend</content>
@@ -546,7 +558,7 @@
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d34912000zc" version="1">Deal an additional +1d12 Lightning damage.</content>
 
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d3491200014" version="1">Pack Leader</content>
-	<content contentuid="ba8dc90c6dd042ee918bba2f68d349120000n" version="1">Damaging other creatures potentially &lt;LSTag Type="Status" Tooltip="TAUNTED"&gt;Goads&lt;/LSTag&gt; them into attacking you.</content>
+	<content contentuid="ba8dc90c6dd042ee918bba2f68d349120000n" version="1">Damaging an enemy potentially &lt;LSTag Type="Status" Tooltip="TAUNTED"&gt;Goads&lt;/LSTag&gt; them into attacking you.</content>
 
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d3491200015" version="1">Primal Bloodletter</content>
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d349120000o" version="1">While assuming the form of a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt;, a &lt;LSTag Type="Spell" Tooltip="Shout_ShapeoftheCosmos"&gt;Shape of the Cosmos&lt;/LSTag&gt;, while &lt;LSTag Type="Status" Tooltip="SYMBIOTIC_ENTITY"&gt;Symbiotic Entity&lt;/LSTag&gt; is active, or while your &lt;LSTag Type="Spell" Tooltip="Target_ConjureDryad"&gt;Dryad&lt;/LSTag&gt; is currently summoned, you have a chance to inflict &lt;LSTag Type="Status" Tooltip="GAPING_WOUND"&gt;Gaping Wounds&lt;/LSTag&gt; on your target when you make a successful &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>

@@ -27,6 +27,14 @@
 	<content contentuid="772cd70f49274c7596988bf90e992ca800017" version="6">Spellweaver's Resurgence</content>
 	<content contentuid="772cd70f49274c7596988bf90e992ca80000q" version="6">Upon casting a Spell, restore one of your &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery&lt;/LSTag&gt; charges.</content>
 
+	<content contentuid="5a0a8be93f0843769764a34a3e0fe63800002" version="6">Studious Results</content>
+	<content contentuid="5a0a8be93f0843769764a34a3e0fe6380000b" version="6">Upon fulfilling your &lt;LSTag Type="Status" Tooltip="Tooltip_Scholarly_Acumen"&gt;Scholarly Acumen&lt;/LSTag&gt;, a new Acumen is immediately rolled for.</content>
+
+	<content contentuid="5a0a8be93f0843769764a34a3e0fe63800003" version="6">Acumen Supreme</content>
+	<content contentuid="5a0a8be93f0843769764a34a3e0fe6380000c" version="6">Once per turn, upon fulfilling your &lt;LSTag Type="Status" Tooltip="Tooltip_Scholarly_Acumen"&gt;Scholarly Acumen&lt;/LSTag&gt;, the next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; you make with a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; will automatically roll as a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
+	<content contentuid="5a0a8be93f0843769764a34a3e0fe638000z3" version="6">Acumen Supreme</content>
+	<content contentuid="5a0a8be93f0843769764a34a3e0fe638000zc" version="6">Affected creature will roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; upon making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; with a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt;.</content>
+
 	<content contentuid="212a895d77db46e38c2fca4bc4431d386a213" version="6">Arcane Resurgence</content>
 	<content contentuid="212a895d77db46e38c2fca4bc4431d38asdf9" version="8">Once per turn, you may spend 3 charges of your &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery&lt;/LSTag&gt; in order to recover your &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt;.</content>
 	<content contentuid="212a895d77db46e38c2fca4bc4431d386a21a" version="6">Arcane Resurgence</content>
@@ -47,49 +55,53 @@
 	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad9a6207" loreTexts="true" version="1">You studied magic with adventuring swordmages, familiar with the magical bladework spread by the stormsoul genasi of Shyr and Akanûl.</content>
 
 	<content contentuid="h94981fe3g720cg4a5dga655g1191bf400002" version="1">Steelforged Arcana</content>
-	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad90000b" version="1">In combat, you may siphon the Arcane energy from the fallen. Doing so restores charges of &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery&lt;/LSTag&gt; equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; and infuses your weapon with &lt;LSTag Type="Status" Tooltip="ARCANE_FORCE"&gt;Arcane Force&lt;/LSTag&gt; for three turns.</content>
+	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad90000b" version="1">In combat, you may siphon the Arcane energy from the fallen. Doing so restores charges of &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery&lt;/LSTag&gt; and infuses your weapons with &lt;LSTag Type="Status" Tooltip="ARCANE_FORCE"&gt;Arcane Force&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;In addition, you also gain &lt;LSTag Type="Spell" Tooltip="Projectile_SteelWindStrike"&gt;Steel-Wind Strike&lt;/LSTag&gt;.</content>
 	<content contentuid="h94981fe3g720cg4a5dga655g1191bf4000z2" version="1">Siphon Arcana</content>
-	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad9000zb" version="1">Siphon Arcane energy from the nearby fallen, restoring charges of &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery&lt;/LSTag&gt; and infusing your weapon with &lt;LSTag Type="Status" Tooltip="ARCANE_FORCE"&gt;Arcane Force&lt;/LSTag&gt; for three turns.</content>
+	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad9000zb" version="1">Siphon Arcane energy from the nearby fallen, restoring charges of &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery&lt;/LSTag&gt; and infusing your weapons with &lt;LSTag Type="Status" Tooltip="ARCANE_FORCE"&gt;Arcane Force&lt;/LSTag&gt;.</content>
 	<content contentuid="h94981fe3g720cg4a5dga655g1191bf400zz2" version="1">Siphoned Arcana</content>
-	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad900zzb" version="1">Affected weapon deals an additional [1].</content>
-
-	<content contentuid="h94981fe3g720cg4a5dga655g1191bf400001" version="1">The Approaching Storm</content>
-	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad90000a" version="1">Gain &lt;LSTag Type="Spell" Tooltip="Shout_SteelWindStorm"&gt;Steel-Wind Storm&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Projectile_SteelWindBeam"&gt;Steel-Wind Burst&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Projectile_SteelWindStrike"&gt;Steel-Wind Strike&lt;/LSTag&gt;.</content>
-	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad9zzzzz" version="1">This action utilizes a weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; while also functioning as a Spell. If a Spell innately deals both physical and elemental damage, the elemental damage cannot be increased.</content>
-	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad9yyyyy" version="1">This action utilizes a weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; while also functioning as a &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt;. If a Cantrip innately deals both physical and elemental damage, the elemental damage cannot be increased.</content>
-
-	<content contentuid="h94981fe3g720cg4a5dga655g1191bf4000z1" version="1">Steel-Wind Storm</content>
-	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad9000za" version="1">Invoke the Arcane winds which guide you, granting a +1 bonus to your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; and &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
-	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad9000s1" version="1">Steel-Wind Storm</content>
-	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad9000sa" version="1">Affected creature has a +1 bonus to their &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; and &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
-
+	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad900zzb" version="1">Affected weapon deals an additional [1]. In addition, it's wielder's &lt;LSTag Tooltip="SpellcastingAbilityModifier"&gt;Spellcasting Ability&lt;/LSTag&gt; for &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and damage.</content>
 	<content contentuid="h94981fe3g720cg4a5dga655g1191bf400zz1" version="1">Steel-Wind Strike</content>
-	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad900zza" version="1">While not &lt;LSTag Type="Status" Tooltip="FLANKED"&gt;Threatened&lt;/LSTag&gt;, teleport to a nearby creature in the blink of an eye and strike them with your equipped weapon.</content>
-
-	<content contentuid="h94981fe3g720cg4a5dga655g1191bf40zzz1" version="1">Steel-Wind Burst</content>
-	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad90zzza" version="1">Fire a beam of pure Arcane energy, carrying the properties of your blade toward a target of your choice.</content>
-
-	<content contentuid="h94981fe3g720cg4a5dga655g1191bf400004" loreTexts="true" version="1">Aegis of Assault</content>
-	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad90000d" version="1">Once per turn, upon landing a killing blow, you may cast &lt;LSTag Type="Spell" Tooltip="Target_SteelWindStrike"&gt;Steel-Wind Strike&lt;/LSTag&gt; as a free action.</content>
-	<content contentuid="h94981fe3g720cg4a5dga655g1191bf4000z4" loreTexts="true" version="1">Aegis of Assault</content>
-	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad9000zd" version="1">Affected creature may cast &lt;LSTag Type="Spell" Tooltip="Target_SteelWindStrike"&gt;Steel-Wind Strike&lt;/LSTag&gt; as a free action.</content>
-
-	<content contentuid="h94981fe3g720cg4a5dga655g1191bf400003" version="1">A Storm of Swords</content>
-	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad90000c" version="1">Upon casting &lt;LSTag Type="Spell" Tooltip="Projectile_SteelWindStrike"&gt;Steel-Wind Strike&lt;/LSTag&gt;, a &lt;LSTag Type="Status" Tooltip="CLOAKOFDAGGERS"&gt;Cloak of Daggers&lt;/LSTag&gt; is created under each of your targets for three turns. The strength of your Cloak of Daggers changes depending on the level of &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; used.</content>
+	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad900zza" version="1">Teleport to a nearby creature in the blink of an eye and strike them with your equipped weapon. Afterwards, a &lt;LSTag Type="Status" Tooltip="CLOAKOFDAGGERS"&gt;Cloak of Daggers&lt;/LSTag&gt; is created under your target for three turns. The strength of your Cloak of Daggers changes depending on the level of &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; spent.</content>
 	<content contentuid="h94981fe3g720cg4a5dga655g1191bf4000z3" version="1">Cloak of Daggers</content>
 	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad9000zc" version="1">Deals [1] to all enemies within the cloak.</content>
 	<content contentuid="h94981fe3g720cg4a5dga655g1191bf400zz3" version="1">Cloak of Daggers</content>
-	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad900zzc" version="1">Affected creature is taking [1] each turn.</content>
+	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad900zzc" version="1">Affected creature is taking [1] at the start of each turn.</content>
+
+	<content contentuid="h94981fe3g720cg4a5dga655g1191bf400001" version="1">The Approaching Storm</content>
+	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad90000a" version="1">Gain &lt;LSTag Type="Spell" Tooltip="Shout_SteelWindStorm"&gt;Steel-Wind Storm&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Projectile_SteelWindBeam"&gt;Steel-Wind Burst&lt;/LSTag&gt;.</content>
+	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad9zzzzz" version="1">This action utilizes a weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; while also functioning as a Spell. If a Spell innately deals both physical and elemental damage, the elemental damage cannot be increased.</content>
+	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad9yyyyy" version="1">This action utilizes a weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; while also functioning as a &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt;. If a Cantrip innately deals both physical and elemental damage, the elemental damage cannot be increased.</content>
+	<content contentuid="h94981fe3g720cg4a5dga655g1191bf4000z1" version="1">Steel-Wind Storm</content>
+	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad9000za" version="1">Invoke the Arcane winds which guide you, granting a +2 bonus to your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; and &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
+	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad9000s1" version="1">Steel-Wind Storm</content>
+	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad9000sa" version="1">Affected creature has a +2 bonus to their &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; and &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
+	<content contentuid="h94981fe3g720cg4a5dga655g1191bf40zzz1" version="1">Steel-Wind Burst</content>
+	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad90zzza" version="1">Fire a beam of pure Arcane energy, carrying the properties of your weapon toward a target of your choice and teleporting you to their location. This action cannot miss.</content>
+
+	<content contentuid="h94981fe3g720cg4a5dga655g1191bf400003" version="1">A Storm of Serration</content>
+	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad90000c" version="1">&lt;LSTag Type="Status" Tooltip="CLOAKOFDAGGERS"&gt;Cloak of Daggers&lt;/LSTag&gt; now causes enemies to &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleed&lt;/LSTag&gt; for three turns.</content>
+
+	<content contentuid="h94981fe3g720cg4a5dga655g1191bf400004" loreTexts="true" version="1">Aegis of Assault</content>
+	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad90000d" version="1">Once per turn, upon landing a killing blow, you may cast &lt;LSTag Type="Spell" Tooltip="Projectile_SteelWindStrike"&gt;Steel-Wind Strike&lt;/LSTag&gt; without expending an &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt;.</content>
+	<content contentuid="h94981fe3g720cg4a5dga655g1191bf4000z4" loreTexts="true" version="1">Aegis of Assault</content>
+	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad9000zd" version="1">Affected creature may cast &lt;LSTag Type="Spell" Tooltip="Projectile_SteelWindStrike"&gt;Steel-Wind Strike&lt;/LSTag&gt; without expending an &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h94981fe3g720cg4a5dga655g1191bf400005" version="1">Bloodstorm Serration</content>
+	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad90000e" version="1">Upon damaging a &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleeding&lt;/LSTag&gt; creature with a weapon, you gain a stack of &lt;LSTag Type="Status" Tooltip="BLOODSTORMSERRATION"&gt;Force Serration&lt;/LSTag&gt;.</content>
+	<content contentuid="h94981fe3g720cg4a5dga655g1191bf4000z5" version="1">Force Serration</content>
+	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad9000ze" version="1">Affected creature deals an additional [1] with all weapon attacks.</content>
+
+	<content contentuid="h94981fe3g720cg4a5dga655g1191bf400006" version="1">Razor Wind Sortilege</content>
+	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad90000f" version="1">While &lt;LSTag Type="Status" Tooltip="WINDSOFTHEARCBLADE"&gt;Winds of the Arcblade&lt;/LSTag&gt; is active, &lt;LSTag Type="Spell" Tooltip="Projectile_SteelWindStrike"&gt;Steel-Wind Strike&lt;/LSTag&gt; will always roll as a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">ARCANE WARDEN</content>
 
 	<content contentuid="h90758993g0e2dg426fgb19dg2376b539acf9" loreTexts="true" version="1">Coronal Guards Tradition</content>
 	<content contentuid="h5b05b200g4933g4807gbd1dgd39cade9e34b" loreTexts="true" version="1">You studied magic with professional spellguards, familiar with the defensive techniques developed by the elite elvish &lt;i&gt;armathors&lt;/i&gt; of Myth Drannor.</content>
 	<content contentuid="h7bfd2340gd0f4g425fgb3e9gd2331d75c6ef" version="2">Arcane Ward</content>
-	<content contentuid="h3ec48f72g32f6g4ce7gb7e1ge8d681582f75" version="2">The first Spell you cast each turn charges a magical ward around you. The ward absorbs damage done to you equal to the number of charges remaining. When it is reduced to 0 charges remaining, you take the remaining damage.&lt;br&gt;&lt;br&gt;Casting Spells adds charges to the ward equal to the level of the Spell cast. The maximum amount of ward charges you may have at any time is equal to your level in Wizard. While your Arcane Ward is active, you will be considered to be a preferred target.</content>
+	<content contentuid="h3ec48f72g32f6g4ce7gb7e1ge8d681582f75" version="2">The first Spell you cast each turn charges a magical ward around you. The ward absorbs damage done to you equal to the number of charges remaining. When it is reduced to 0 charges remaining, you take the remaining damage. You are also capable of projecting your ward to an ally, reducing the damage they would take.&lt;br&gt;&lt;br&gt;Casting Spells adds charges to the ward equal to the level of the Spell cast. The maximum amount of ward charges you may have at any time is equal to your level in Wizard. While your Arcane Ward is active, you will be considered to be a preferred target.</content>
 	<content contentuid="hdf50f2a0g3756g4a90g97c9g9fb25fc3bc0f" version="1">Arcane Ward</content>
-	<content contentuid="ha95811b7g5b47g4921g8a3bg8a424bb2f69c" version="3">Affected creature is protected by an Arcane Ward. Arcane Wards block damage equal to the amount of charges it currently has left, then loses 1 charge. Casting Spells will add charges to the ward equal to the level of the Spell cast. While the Arcane Ward is active, this creature is considered to be a preferred target.</content>
-
+	<content contentuid="ha95811b7g5b47g4921g8a3bg8a424bb2f69c" version="3">Affected creature is protected by an Arcane Ward. The damage they take is reduced by an amount equal to the number of charges it currently has left. Casting Spells will add charges to the ward equal to the level of the Spell cast, and while the Arcane Ward is active, this creature is considered to be a preferred target.</content>
 	<content contentuid="h7e7c99dagd015g43c3ga8f7gf343e0e62e3e" version="2">Projected Ward</content>
 	<content contentuid="hab452074g482eg41fbga327gd4a52aacbc65" version="2">When a nearby ally is about to take damage and you have an active &lt;LSTag Type="Status" Tooltip="ARCANE_WARD"&gt;Arcane Ward&lt;/LSTag&gt;, you can utilize your Ward to reduce the damage they take.</content>
 	<content contentuid="h4d1b7459g0898g4a36gbc5agff976b5c9266" version="2">Projected Ward</content>
@@ -97,11 +109,20 @@
 	<content contentuid="h4d1b7459g0898g4a36gbc5agff976b5c9267" version="2">Arcane Ward</content>
 	<content contentuid="h7d79ac57g2651g45cdg9540g8330de6c9b22" version="3">When you are about to take damage, use your &lt;LSTag Type="Passive" Tooltip="ArcaneWard"&gt;Arcane Ward&lt;/LSTag&gt; to reduce the damage by an amount equal equal to its charges. Afterwards, your Arcane Ward loses 1 charge.</content>
 
+	<content contentuid="h7e7c99dagd015g43c3ga8f7gf322d5f46s89" version="2">Retaliatory Reckoning</content>
+	<content contentuid="hab452074g482eg41fbga327gd4s399dfjd33" version="2">Being damaged deals Force damage to your aggressor equal to the amount of &lt;LSTag Type="Status" Tooltip="ARCANE_WARD"&gt;Arcane Ward&lt;/LSTag&gt; charges you have remaining multiplied by two, and potentially grants you an additional charge of Arcane Ward.</content>
+
+	<content contentuid="h7e7c99dagd015g43c3ga8f7gf322d5f46s01" version="2">Critical Warding</content>
+	<content contentuid="hab452074g482eg41fbga327gd4s399dfjd0a" version="2">While you have charges of &lt;LSTag Type="Status" Tooltip="ARCANE_WARD"&gt;Arcane Ward&lt;/LSTag&gt; active, you cannot be &lt;LSTag Tooltip="CriticalHit"&gt;Critically Hit&lt;/LSTag&gt;.</content>
+
 	<content contentuid="h7e7c99dagd015g43c3ga8f7gf3dd2f5d645f" version="2">Aggressive Warding</content>
 	<content contentuid="hab452074g482eg41fbga327gd4ss3f6d4588" version="2">Dealing damage will charge one stack of your &lt;LSTag Type="Status" Tooltip="ARCANE_WARD"&gt;Arcane Ward&lt;/LSTag&gt;.</content>
 
-	<content contentuid="h7e7c99dagd015g43c3ga8f7gf322d5f46s89" version="2">Retaliatory Reckoning</content>
-	<content contentuid="hab452074g482eg41fbga327gd4s399dfjd33" version="2">Being damaged deals Force damage to your aggressor equal to the amount of &lt;LSTag Type="Status" Tooltip="ARCANE_WARD"&gt;Arcane Ward&lt;/LSTag&gt; charges you have remaining.</content>
+	<content contentuid="h7e7c99dagd015g43c3ga8f7gf322d5f46s02" version="2">Eruptive Warding</content>
+	<content contentuid="hab452074g482eg41fbga327gd4s399dfjd0b" version="2">Upon gaining a charge of &lt;LSTag Type="Status" Tooltip="ARCANE_WARD"&gt;Arcane Ward&lt;/LSTag&gt;, you deal Force damage to all enemies within [1] of you equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Intelligence Modifier&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h7e7c99dagd015g43c3ga8f7gf3dd2f5dsent" version="2">Arcane Sentinel</content>
+	<content contentuid="hab452074g482eg41fbga327gd4ss3f6dsent" version="2">Gain permanent &lt;LSTag Type="Status" Tooltip="LOCKDOWN_CONDITION"&gt;Lockdown Immunity&lt;/LSTag&gt; and &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to all forms of damage.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">ELEMENTALIST</content>
 
@@ -129,7 +150,7 @@
 	<content contentuid="he5ac56ebgebf3g4e73gbdf7g8129c98c51cb" version="2">Healing Vapour</content>
 	<content contentuid="h385e6616ge372g41c5g9c2egb9c23e59e3e0" version="2">Conjure a healing mist, restoring the &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; of an ally you can see.</content>
 
-	<content contentuid="51a9b0aeb5c646d7a60393a2c39ff5ec00002" version="1">Rend Elements</content>
+	<content contentuid="51a9b0aeb5c646d7a60393a2c39ff5ec00002" loreTexts="true" version="1">Janni's Essence</content>
 	<content contentuid="51a9b0aeb5c646d7a60393a2c39ff5ec0000b" version="1">Depending on which &lt;LSTag Type="Spell" Tooltip="Target_SummonElementalContainer"&gt;Elemental&lt;/LSTag&gt; you currently have summoned, you ignore &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt; of their respective damage type when targeting an enemy or item.</content>
 
 	<content contentuid="51a9b0aeb5c646d7a60393a2c39ff5ec00003" loreTexts="true" version="1">Janni's Favour</content>
@@ -159,10 +180,10 @@
 	<content contentuid="hcbb5a5cfg7df0g412cga4a4g3c6s6d50005a" version="6">Upon casting a Spell, restore one of your &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery&lt;/LSTag&gt; charges. A &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; must be consumed in order for this effect to trigger.</content>
 
 	<content contentuid="h9aee3403g58c0g4c53g8ca6g38914f4f8164" version="2">Evoke the Weave</content>
-	<content contentuid="hcbb5a5cfg7df0g412cga4a4g3c5b855d728f" version="4">You add your &lt;LSTag Tooltip="AbilityModifier"&gt;Intelligence Modifier&lt;/LSTag&gt; to the Damage Rolls of all Spells you cast.</content>
+	<content contentuid="hcbb5a5cfg7df0g412cga4a4g3c5b855d728f" version="4">You add your &lt;LSTag Tooltip="AbilityModifier"&gt;Intelligence Modifier&lt;/LSTag&gt; to the Damage Rolls of all Spells you cast when damaging an enemy.</content>
 
 	<content contentuid="h9aee3403g58c0g4c53g8ca6g3891666d454d" version="2">Explosive Understanding</content>
-	<content contentuid="hcbb5a5cfg7df0g412cga4a4g3c5b22d5f978" version="4">When dealing damage with a Spell, all enemies within [1] of your target take Force damage equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Intelligence Modifier&lt;/LSTag&gt;.</content>
+	<content contentuid="hcbb5a5cfg7df0g412cga4a4g3c5b22d5f978" version="4">When damaging an enemy with a Spell, all enemies within [1] of your target take Force damage equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Intelligence Modifier&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h9aee3403g58c0g4c53g8ca6g3891622d564d" version="2">Scholar's Focus</content>
 	<content contentuid="hcbb5a5cfg7df0g412cga4a4g3c5b22ss9df7" version="4">The first Spell you cast each turn will not cost an &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt; or &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
@@ -228,9 +249,9 @@
 	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s5ef0e" version="2">Once per turn, upon generating an Elemental Stain, you potentially generate one Elemental Stain of a random element.</content>
 
 	<content contentuid="hc31dc575g4407g476as65d4f58es52fe1506" loreTexts="true" version="2">Arrias's Genesis</content>
-	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s5ef0f" version="2">Gain the ability to expend all of your Elemental Stains to deal 1d8 damage to enemies within a [1] area. The amount of and types of damage you deal scales with how many Elemental Stains you currently possess.</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s5ef0f" version="2">Gain the ability to expend all of your Elemental Stains to deal 1d8 damage to creatures within a [1] area. The amount of and types of damage you deal scales with how many Elemental Stains you currently possess.</content>
 	<content contentuid="hc31dc575g4407g476as65d4f58es52fe15z6" loreTexts="true" version="2">Arrias's Genesis</content>
-	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s5efzf" version="2">Expend all of your Elemental Stains to deal damage to enemies within a [1] area. The amount of damage you deal scales with how many Elemental Stains you currently possess.</content>
+	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s5efzf" version="2">Expend all of your Elemental Stains to deal damage to creatures within a [1] area. The amount of damage you deal scales with how many Elemental Stains you currently possess.</content>
 
 	<content contentuid="hc31dc575g4407g476as65d4f58es52010001" version="2">Acid Stain</content>
 	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef54601000a" loreTexts="true" version="2">The next instance of damage you cause with either a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; will reduce your targets &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by 2 until the end of their next turn.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; &lt;LSTag Type="Passive" Tooltip="ElementalConcierge"&gt;Yrix's Sieve&lt;/LSTag&gt; must be toggled on in order to utilize this effect.</content>
@@ -302,15 +323,15 @@
 	<content contentuid="h2f479431gb8d1g41e5g890dg59ddd0becf9c" version="2">Lifedrinker</content>
 	<content contentuid="he6ee1384geb80g45fbg8d56gbf7262d63153" version="1">When you deal damage with a Spell, you recover &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; equal to half of the total damage dealt.</content>
 
+	<content contentuid="h9aee3403g58c0g4c53g8ca6g380393800071" version="6">Raise Hell</content>
+	<content contentuid="hcbb5a5cfg7df0g412cga4a4g3c6s6d50007a" version="6">At the beginning of any combat encounter, all suitable corpses within [1] are raised as Undead.</content>
+
 	<content contentuid="h9aee3403g58c0g4c53g8ca6g380393800072" version="6">Preemptive Atrocity</content>
 	<content contentuid="hcbb5a5cfg7df0g412cga4a4g3c6s6d50007b" version="6">At the beginning of any combat encounter, you immediately summon a Death Shepherd. In addition, you gain the ability to &lt;LSTag Type="Spell" Tooltip="Target_BindUndead"&gt;Bind Undead&lt;/LSTag&gt; creatures.</content>
 	<content contentuid="h89c2a75ag2f4fg4d83g9e66g81575b900001" version="2">Bind Undead</content>
 	<content contentuid="h699f408ag3943g45bcga13cg10548230000a" version="2">Bind an Undead creature to magically dominate them. Bound Undead retain all capabilities they had in undeath. &lt;LSTag Type="Status" Tooltip="Tooltip_Dangerous_Encounter"&gt;Dangerous&lt;/LSTag&gt; and &lt;LSTag Type="Passive" Tooltip="Fatal_Encounter"&gt;Fatal&lt;/LSTag&gt; creatures cannot be Bound.</content>
 	<content contentuid="h89c2a75ag2f4fg4d83g9e66g81575b9000z1" version="1">Bound Undead</content>
 	<content contentuid="h699f408ag3943g45bcga13cg1054823000za" version="1">Affected creature has been reanimated by a nearby Necromancer. Their soul is now bound to their new owner.</content>
-
-	<content contentuid="h9aee3403g58c0g4c53g8ca6g380393800071" version="6">Raise Hell</content>
-	<content contentuid="hcbb5a5cfg7df0g412cga4a4g3c6s6d50007a" version="6">At the beginning of any combat encounter, all suitable corpses within [1] are raised as Undead.</content>
 
 	<content contentuid="hcaab1c71g330cg4860g8ceeg443b4a5b3fd6" version="2">Apostle of the Risen Dead</content>
 	<content contentuid="h2ad29575gfd7cg4566g8445g7594ca37780e" version="1">All allied Undead within [1] gain a bonus to their &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and damage equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Intelligence Modifier&lt;/LSTag&gt; during combat.</content>
@@ -321,9 +342,9 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">SCHOLARLY ACUMEN</content>
 
 	<content contentuid="5a0a8be93f0843769764a34a3e0fe63800001" version="6">Scholarly Acumen</content>
-	<content contentuid="5a0a8be93f0843769764a34a3e0fe6380000a" version="6">While in combat, at the start of each of your turns you gain one Scholarly Acumen. Scholarly Acumen assign various tasks for you complete in order to further your knowledge of the arcane. Upon completing these tasks, you recover a charge of &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery&lt;/LSTag&gt;.</content>
+	<content contentuid="5a0a8be93f0843769764a34a3e0fe6380000a" version="6">At the start of each of your turns during combat, you gain one to three Scholarly Acumen. Scholarly Acumen assign various tasks for you complete in order to further your knowledge of the arcane. Upon completing these tasks, you recover charges of &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery&lt;/LSTag&gt; equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
 	<content contentuid="5a0a8be93f0843769764a34a3e00000000111" version="6">Scholarly Acumen: Fulfilled</content>
-	<content contentuid="5a0a8be93f0843769764a34a3e00000000zzz" version="6">For completing your assigned study, you have recovered a charge of &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery&lt;/LSTag&gt;.</content>
+	<content contentuid="5a0a8be93f0843769764a34a3e00000000zzz" version="6">For completing your assigned study, you have recovered charges of &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery&lt;/LSTag&gt; equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
 	<content contentuid="5a0a8be93f0843769764a34a3e00000000001" version="6">Scholarly Acumen: Fire</content>
 	<content contentuid="5a0a8be93f0843769764a34a3e00000000002" version="6">Scholarly Acumen: Cold</content>
 	<content contentuid="5a0a8be93f0843769764a34a3e00000000003" version="6">Scholarly Acumen: Lightning</content>
@@ -334,33 +355,27 @@
 	<content contentuid="5a0a8be93f0843769764a34a3e00000000008" version="6">Scholarly Acumen: Psychic</content>
 	<content contentuid="5a0a8be93f0843769764a34a3e00000000009" version="6">Scholarly Acumen: Radiant</content>
 	<content contentuid="5a0a8be93f0843769764a34a3e00000000010" version="6">Scholarly Acumen: Acid</content>
-	<content contentuid="5a0a8be93f0843769764a34a3e0000000000a" version="6">Upon dealing [1], recover one charge of &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery&lt;/LSTag&gt;.</content>
+	<content contentuid="5a0a8be93f0843769764a34a3e0000000000a" version="6">Affected creature will regain &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery&lt;/LSTag&gt; upon dealing [1].</content>
 	<content contentuid="5a0a8be93f0843769764a34a3e00000000011" version="6">Scholarly Acumen: Arcane Flow</content>
-	<content contentuid="5a0a8be93f0843769764a34a3e0000000000b" version="6">You have recovered one charge of &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery&lt;/LSTag&gt; for free this turn.</content>
+	<content contentuid="5a0a8be93f0843769764a34a3e0000000000b" version="6">Affected creature has regained &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery&lt;/LSTag&gt; for free this turn.</content>
 	<content contentuid="5a0a8be93f0843769764a34a3e00000000012" version="6">Scholarly Acumen: Mortality</content>
-	<content contentuid="5a0a8be93f0843769764a34a3e0000000000c" version="6">Upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, recover one charge of &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery&lt;/LSTag&gt;.</content>
+	<content contentuid="5a0a8be93f0843769764a34a3e0000000000c" version="6">Affected creature will regain &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery&lt;/LSTag&gt; upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
 	<content contentuid="5a0a8be93f0843769764a34a3e00000000013" version="6">Scholarly Acumen: Transmutation</content>
-	<content contentuid="5a0a8be93f0843769764a34a3e0000000000d" version="6">Upon casting a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; belonging to the Transmutation school, recover one charge of &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery&lt;/LSTag&gt;.</content>
+	<content contentuid="5a0a8be93f0843769764a34a3e0000000000d" version="6">Affected creature will regain &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery&lt;/LSTag&gt; upon casting a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; belonging to the Transmutation school.</content>
 	<content contentuid="5a0a8be93f0843769764a34a3e00000000014" version="6">Scholarly Acumen: Abjuration</content>
-	<content contentuid="5a0a8be93f0843769764a34a3e0000000000e" version="6">Upon casting a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; belonging to the Abjuration school, recover one charge of &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery&lt;/LSTag&gt;.</content>
+	<content contentuid="5a0a8be93f0843769764a34a3e0000000000e" version="6">Affected creature will regain &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery&lt;/LSTag&gt; upon casting a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; belonging to the Abjuration school.</content>
 	<content contentuid="5a0a8be93f0843769764a34a3e00000000015" version="6">Scholarly Acumen: Conjuration</content>
-	<content contentuid="5a0a8be93f0843769764a34a3e0000000000f" version="6">Upon casting a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; belonging to the Conjuration school, recover one charge of &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery&lt;/LSTag&gt;.</content>
+	<content contentuid="5a0a8be93f0843769764a34a3e0000000000f" version="6">Affected creature will regain &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery&lt;/LSTag&gt; upon casting a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; belonging to the Conjuration school.</content>
 	<content contentuid="5a0a8be93f0843769764a34a3e00000000016" version="6">Scholarly Acumen: Divination</content>
-	<content contentuid="5a0a8be93f0843769764a34a3e0000000000g" version="6">Upon casting a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; belonging to the Divination school, recover one charge of &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery&lt;/LSTag&gt;.</content>
+	<content contentuid="5a0a8be93f0843769764a34a3e0000000000g" version="6">Affected creature will regain &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery&lt;/LSTag&gt; upon casting a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; belonging to the Divination school.</content>
 	<content contentuid="5a0a8be93f0843769764a34a3e00000000017" version="6">Scholarly Acumen: Enchantment</content>
-	<content contentuid="5a0a8be93f0843769764a34a3e0000000000h" version="6">Upon casting a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; belonging to the Enchantment school, recover one charge of &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery&lt;/LSTag&gt;.</content>
+	<content contentuid="5a0a8be93f0843769764a34a3e0000000000h" version="6">Affected creature will regain &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery&lt;/LSTag&gt; upon casting a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; belonging to the Enchantment school.</content>
 	<content contentuid="5a0a8be93f0843769764a34a3e00000000018" version="6">Scholarly Acumen: Evocation</content>
-	<content contentuid="5a0a8be93f0843769764a34a3e0000000000i" version="6">Upon casting a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; belonging to the Evocation school, recover one charge of &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery&lt;/LSTag&gt;.</content>
+	<content contentuid="5a0a8be93f0843769764a34a3e0000000000i" version="6">Affected creature will regain &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery&lt;/LSTag&gt; upon casting a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; belonging to the Evocation school.</content>
 	<content contentuid="5a0a8be93f0843769764a34a3e00000000019" version="6">Scholarly Acumen: Illusion</content>
-	<content contentuid="5a0a8be93f0843769764a34a3e0000000000j" version="6">Upon casting a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; belonging to the Illusion school, recover one charge of &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery&lt;/LSTag&gt;.</content>
+	<content contentuid="5a0a8be93f0843769764a34a3e0000000000j" version="6">Affected creature will regain &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery&lt;/LSTag&gt; upon casting a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; belonging to the Illusion school.</content>
 	<content contentuid="5a0a8be93f0843769764a34a3e00000000020" version="6">Scholarly Acumen: Necromancy</content>
-	<content contentuid="5a0a8be93f0843769764a34a3e0000000000k" version="6">Upon casting a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; belonging to the Necromancy school, recover one charge of &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery&lt;/LSTag&gt;.</content>
-
-	<content contentuid="5a0a8be93f0843769764a34a3e0fe63800002" version="6">Greater Acumen</content>
-	<content contentuid="5a0a8be93f0843769764a34a3e0fe6380000b" version="6">Completing your &lt;LSTag Type="Passive" Tooltip="Scholarly_Acumen"&gt;Scholarly Acumen&lt;/LSTag&gt; now recovers two charges of &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery&lt;/LSTag&gt;.</content>
-
-	<content contentuid="5a0a8be93f0843769764a34a3e0fe63800003" version="6">Superior Acumen</content>
-	<content contentuid="5a0a8be93f0843769764a34a3e0fe6380000c" version="6">Completing your &lt;LSTag Type="Passive" Tooltip="Scholarly_Acumen"&gt;Scholarly Acumen&lt;/LSTag&gt; now recovers three charges of &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery&lt;/LSTag&gt;.</content>
+	<content contentuid="5a0a8be93f0843769764a34a3e0000000000k" version="6">Affected creature will regain &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery&lt;/LSTag&gt; upon casting a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; belonging to the Necromancy school.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">PASSIVES</content>
 

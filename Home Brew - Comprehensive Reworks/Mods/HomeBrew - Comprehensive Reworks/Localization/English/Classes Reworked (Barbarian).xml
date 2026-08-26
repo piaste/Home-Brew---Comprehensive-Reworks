@@ -45,10 +45,10 @@
 	<content contentuid="h559c2233gf74fg4fcfg9408gadcb1cba6316" loreTexts="true" version="6">You completed a Runehunt and were initiated into one of the barbarian tribes of the North. Totemic spirits now answer your rage and grant you their bestial strength.</content>
 
 	<content contentuid="he6b4dabdg3471g4f6fg982cgd435a6f35612" version="14">Rage: Bestial Heart</content>
-	<content contentuid="h4412581eg59ccg45cega74cg82e5995a6d84" version="2">A primal anger lingers within your mind, and beasthood threatens to take hold. You gain access to five Bestial Hearts, each of which have unique passive benefits.</content>
+	<content contentuid="h4412581eg59ccg45cega74cg82e5995a6d84" version="2">A primal anger lingers within your mind, and beasthood threatens to take hold. You gain access to five Bestial Hearts, each of which have unique passive benefits and actions.</content>
 
 	<content contentuid="h649e826cgdffag4a5fgaa39g0299ebd2a164" version="5">Rage: Bestial Heart</content>
-	<content contentuid="h0a7cb1b4gc021g4a9dg8048ga4415df6a933" version="1">Enter a blind fury which channels the ferocity of five Bestial Hearts.</content>
+	<content contentuid="h0a7cb1b4gc021g4a9dg8048ga4415df6a933" version="1">Enter a blind fury which channels the ferocity of five Bestial Hearts. Each of your five Bestial Hearts grant a unique action while enraged.</content>
 
 	<content contentuid="h7056f3edg3197g40b0g9a17g6f3dd5109a13" version="3">Rage: Bear Heart</content>
 	<content contentuid="hed70a984gb439g4400g8d1fg17604a5389dc" version="16">Enter a &lt;LSTag Type="Status" Tooltip="RAGE_TOTEM_BEAR"&gt;Rage&lt;/LSTag&gt; which channels the durability of nature. Deal [1] additional damage with &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attacks&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Throw_ImprovisedWeapon"&gt;Improvised Weapons&lt;/LSTag&gt;, and when &lt;LSTag Type="Spell" Tooltip="Throw_Throw"&gt;Throwing&lt;/LSTag&gt; objects or creatures. In addition, your unarmed damage increases.</content>
@@ -101,20 +101,19 @@
 	<content contentuid="h2bc70a04g9bb0g4ac3g9df7gf00a26cdd35d" version="2">Inciting Howl</content>
 	<content contentuid="h56cdffe6g9623g4647g839ag8cd406319fc5" version="3">Affected creature's &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; is doubled.</content>
 
-	<content contentuid="h0f5c3539g18bbg4891ga824g827156a00003" version="5">Call of the Wild</content>
-	<content contentuid="h93857089gb140g4c33ga0a9g26fde2a0000c" version="1">Each of your five &lt;LSTag Type="Spell" Tooltip="Shout_Rage_Totem_Container"&gt;Bestial Hearts&lt;/LSTag&gt; now grant a unique action while enraged.</content>
-
 	<content contentuid="h0f5c3539g18bbg4891ga824g827156a00002" version="5">Bestial Dominance</content>
-	<content contentuid="h93857089gb140g4c33ga0a9g26fde2a0000b" version="1">Upon enraging under one of your &lt;LSTag Type="Spell" Tooltip="Shout_Rage_Totem_Container"&gt;Bestial Hearts&lt;/LSTag&gt;, you &lt;LSTag Type="Status" Tooltip="DOMINATE_PERSON"&gt;Dominate&lt;/LSTag&gt; all Beasts and Monstrosities within [1] of you.</content>
+	<content contentuid="h93857089gb140g4c33ga0a9g26fde2a0000b" version="1">Upon enraging under one of your &lt;LSTag Type="Spell" Tooltip="Shout_Rage_Totem_Container"&gt;Bestial Hearts&lt;/LSTag&gt;, you &lt;LSTag Type="Status" Tooltip="DOMINATE_PERSON"&gt;Dominate&lt;/LSTag&gt; all Beasts and Monstrosities within [1] of you. In addition, upon starting your turn while enraged, you may swap your Beastial Heart without expending a &lt;LSTag Type="ActionResource" Tooltip="Rage"&gt;Rage Charge&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h0f5c3539g18bbg4891ga824g827156a00005" version="5">Howl of the Wild</content>
 	<content contentuid="h93857089gb140g4c33ga0a9g26fde2a0000e" version="1">Each unique action granted while enraged may now be used with any &lt;LSTag Type="Spell" Tooltip="Shout_Rage_Totem_Container"&gt;Bestial Heart&lt;/LSTag&gt;.</content>
 
 	<content contentuid="79884b545bb749039066e9e1d3651a6400001" version="5">Beast Blood</content>
-	<content contentuid="79884b545bb749039066e9e1d3651a640000a" version="1">While enraged, all damage taken is reduced by 2.</content>
+	<content contentuid="79884b545bb749039066e9e1d3651a640000a" version="1">While enraged and wearing Light Armour, all damage taken is reduced by your &lt;LSTag Tooltip="AbilityModifier"&gt;Strength Modifier&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h0f5c3539g18bbg4891ga824g827156a00004" version="5">Bestial Growth</content>
-	<content contentuid="h93857089gb140g4c33ga0a9g26fde2a0000d" version="1">Upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; while enraged under your &lt;LSTag Type="Spell" Tooltip="Shout_Rage_Totem_Container"&gt;Bestial Hearts&lt;/LSTag&gt;, your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; increases by 2. This lasts until you are no longer enraged.</content>
+	<content contentuid="h93857089gb140g4c33ga0a9g26fde2a0000d" version="1">Upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; while enraged under your &lt;LSTag Type="Spell" Tooltip="Shout_Rage_Totem_Container"&gt;Bestial Hearts&lt;/LSTag&gt;, your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; increases by 1. This lasts until you are no longer enraged.</content>
+	<content contentuid="h0f5c3539g18bbg4891ga824g827156a6a978" version="5">Bestial Growth</content>
+	<content contentuid="h93857089gb140g4c33ga0a9g26fde2a6a545" version="1">Affected creature's &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; is increased by 1 for each stack of this condition. This lasts until they are no longer enraged.</content>
 
 	<content contentuid="h0f5c3539g18bbg4891ga824g827156a00006" version="5">Totemic Rage</content>
 	<content contentuid="h93857089gb140g4c33ga0a9g26fde2a0000f" version="1">While enraged, allies within [1] of you benefit from the passive effects of your &lt;LSTag Type="Spell" Tooltip="Shout_Rage_Totem_Container"&gt;Bestial Hearts&lt;/LSTag&gt;.</content>
@@ -128,9 +127,6 @@
 	<content contentuid="h93857089gb140g4c33ga0a9g26fde2a0004f" version="1">Affected creature is benefiting from the effects of an allied Barbarian's &lt;LSTag Type="Status" Tooltip="RAGE_TOTEM_WOLF"&gt;Tiger Heart&lt;/LSTag&gt;.</content>
 	<content contentuid="h0f5c3539g18bbg4891ga824g827156a00056" version="5">Totemic Rage: Wolf</content>
 	<content contentuid="h93857089gb140g4c33ga0a9g26fde2a0005f" version="1">Affected creature is benefiting from the effects of an allied Barbarian's &lt;LSTag Type="Status" Tooltip="RAGE_TOTEM_WOLF"&gt;Wolf Heart&lt;/LSTag&gt;.</content>
-
-	<content contentuid="h0f5c3539g18bbg4891ga824g827156a6a978" version="5">Wildheart</content>
-	<content contentuid="h93857089gb140g4c33ga0a9g26fde2a6a545" version="1">Affected creature may swap their &lt;LSTag Type="Spell" Tooltip="Shout_Rage_Totem_Container"&gt;Bestial Heart&lt;/LSTag&gt; as a free action.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">BERSERKER</content>
 
@@ -184,9 +180,7 @@
 	<content contentuid="hc526s54df84ef6s84d68f4s2e4f6s6d8fa0c" version="2">When dealing damage to an enemy while enraged, you apply one stack of &lt;LSTag Type="Status" Tooltip="MAG_FROST"&gt;Encrusted With Frost&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h40aa7e41g978dg4da6as54df84sd55f45a04" version="1">Glacial Bellow</content>
-	<content contentuid="hc526s54df84ef6s84d68f4s2e4f6s6d8fa0d" version="2">During combat, you exude an icy aura which deals Cold damage to enemies within [1] of you, equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Charisma Modifier&lt;/LSTag&gt;.</content>
-	<content contentuid="h40aa7e41g978dg4da6as54df84sd55f45az4" version="1">Glacial Bellow</content>
-	<content contentuid="hc526s54df84ef6s84d68f4s2e4f6s6d8fazd" version="2">Affected creature is surrounded by an icy aura which deals Cold damage to enemies within [1] of them, equal to their &lt;LSTag Tooltip="AbilityModifier"&gt;Charisma Modifier&lt;/LSTag&gt;. The aura persists for as long as they remain enraged.</content>
+	<content contentuid="hc526s54df84ef6s84d68f4s2e4f6s6d8fa0d" version="2">Upon dealing damage to enemies with a melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; while enraged, you deal Cold damage to enemies within [1] of you equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Charisma Modifier&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h40aa7e41g978dg4da6as54df84sd55f45a05" version="1">Tundral Strike</content>
 	<content contentuid="hc526s54df84ef6s84d68f4s2e4f6s6d8fa0e" version="2">Upon being damaged by an enemy, you may expend your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; to retaliate with &lt;LSTag Type="Spell" Tooltip="Rush_TundralStrike"&gt;Tundral Strike&lt;/LSTag&gt;, dealing damage to all enemies in a line toward them and inflicting &lt;LSTag Type="Status" Tooltip="CHILLED"&gt;Chilled&lt;/LSTag&gt; for one turn.</content>
@@ -220,7 +214,13 @@
 	<content contentuid="he3cc38b0g238bg416dg86s45d6f4s64d485d" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; The target cannot be thrown if it is Gargantuan in size.</content>
 
 	<content contentuid="h416cac70g5ef0g4496g9d89g598ec0c00003" version="1">Poisebreaker</content>
-	<content contentuid="h108ff3ccga8e3g43f1gbeb5g194e4990000c" version="2">Upon making a melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; while enraged, you deal damage equal to your levels in Barbarian in a [1] area. This can be toggled at any time.</content>
+	<content contentuid="h108ff3ccga8e3g43f1gbeb5g194e4990000c" version="2">Upon making a melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; while enraged, you deal Force damage equal to your level in a [1] area. This can be toggled at any time.</content>
+
+	<content contentuid="h108ff3ccga8e3g43f1gbeb5g194e49900006" version="1">Titanic Strength</content>
+	<content contentuid="h108ff3ccga8e3g43f1gbeb5g194e4990000f" version="2">While enraged, dealing damage to another creature will always knock them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;. In addition, your &lt;LSTag Tooltip="TwoHanded"&gt;Non-Versatile Weapons&lt;/LSTag&gt; are now considered &lt;LSTag Tooltip="Versatile"&gt;Versatile&lt;/LSTag&gt;, allowing you to dual-wield them.</content>
+
+	<content contentuid="h416cac70g5ef0g4496g9d89g598ec0c00005" version="1">Towering Blows</content>
+	<content contentuid="h108ff3ccga8e3g43f1gbeb5g194e4990000e" version="2">While enraged, all damage rolls are made with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; against creatures that are Large or smaller.</content>
 
 	<content contentuid="h416cac70g5ef0g4496g9d89g598ec0c00004" version="1">Frontline Backbreaker</content>
 	<content contentuid="h108ff3ccga8e3g43f1gbeb5g194e4990000d" version="2">Upon using &lt;LSTag Type="Spell" Tooltip="Target_BootOfTheGiants"&gt;Stormheel&lt;/LSTag&gt; or &lt;LSTag Type="Spell" Tooltip="Throw_MightyImpel"&gt;Mighty Impel&lt;/LSTag&gt; to displace an enemy, they become &lt;LSTag Type="Status" Tooltip="GIANT_STAGGERED"&gt;Staggered&lt;/LSTag&gt;. After Staggering another creature, you are able to immediately dive to their location, smashing your weapon down upon them.</content>
@@ -228,12 +228,6 @@
 	<content contentuid="h108ff3ccga8e3g43f1gbeb5g194e499000ad" version="2">Affected creature is vulnerable to a guaranteed follow-up attack from the Barbarian that applied this status.</content>
 	<content contentuid="h416cac70g5ef0g4496g9d89g598ec0c00aa4" version="1">Frontline Backbreaker</content>
 	<content contentuid="h108ff3ccga8e3g43f1gbeb5g194e49900aad" version="2">Dive toward a &lt;LSTag Type="Status" Tooltip="GIANT_STAGGERED"&gt;Staggered&lt;/LSTag&gt; creature, smashing your weapon down upon them.</content>
-
-	<content contentuid="h416cac70g5ef0g4496g9d89g598ec0c00005" version="1">Towering Blows</content>
-	<content contentuid="h108ff3ccga8e3g43f1gbeb5g194e4990000e" version="2">While enraged, all damage rolls are made with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; against creatures that are Large or smaller.</content>
-
-	<content contentuid="h108ff3ccga8e3g43f1gbeb5g194e49900006" version="1">Titanic Strength</content>
-	<content contentuid="h108ff3ccga8e3g43f1gbeb5g194e4990000f" version="2">While enraged, dealing damage to another creature will always knock them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;. In addition, your &lt;LSTag Tooltip="TwoHanded"&gt;Non-Versatile Weapons&lt;/LSTag&gt; are now considered &lt;LSTag Tooltip="Versatile"&gt;Versatile&lt;/LSTag&gt;, allowing you to dual-wield them.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">ROSEMOURN</content>
 
@@ -260,17 +254,17 @@
 	<content contentuid="e45b631605924e679e7ea6024bc4911f000zc" version="1">When an ally within [1] of you is attacked, you may use &lt;LSTag Type="Spell" Tooltip="Target_BloodvineGrasp"&gt;Bloodvine Grasp&lt;/LSTag&gt; on their aggressor as a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;.</content>
 
 	<content contentuid="e45b631605924e679e7ea6024bc4911f00004" version="2">Thornfall</content>
-	<content contentuid="e45b631605924e679e7ea6024bc4911f0000d" version="1">Causing an enemy to take damage by falling will deal an additional [1] to both them, as well as all enemies within [2] of them.</content>
+	<content contentuid="e45b631605924e679e7ea6024bc4911f0000d" version="1">Causing an enemy to take damage by falling will deal an additional [1] to both them, as well as all enemies within [2] of them. This damage increases based on your levels in Barbarian.</content>
 	<content contentuid="e45b631605924e679e7ea6024bc4911f000z4" version="2">Eruption of Thorns</content>
 	<content contentuid="e45b631605924e679e7ea6024bc4911f000zd" version="1">Erupt in thorns, dealing damage to all nearby enemies.</content>
 
 	<content contentuid="e45b631605924e679e7ea6024bc4911f00005" version="2">Bloodvine Thicket</content>
-	<content contentuid="e45b631605924e679e7ea6024bc4911f0000e" version="1">Upon enraging, create a [1] area of &lt;LSTag Type="Spell" Tooltip="Target_SpikeGrowth"&gt;Spike Growth&lt;/LSTag&gt; beneath your feat. In addition, you gain &lt;LSTag Type="Spell" Tooltip="Shout_BloodvineEruption"&gt;Bloodvine Eruption&lt;/LSTag&gt;.</content>
+	<content contentuid="e45b631605924e679e7ea6024bc4911f0000e" version="1">Upon enraging, create a [1] area of &lt;LSTag Type="Spell" Tooltip="Target_SpikeGrowth"&gt;Spike Growth&lt;/LSTag&gt; beneath your feet. In addition, you gain &lt;LSTag Type="Spell" Tooltip="Shout_BloodvineEruption"&gt;Bloodvine Eruption&lt;/LSTag&gt;.</content>
 	<content contentuid="e45b631605924e679e7ea6024bc4911f000z5" version="2">Bloodvine Eruption</content>
 	<content contentuid="e45b631605924e679e7ea6024bc4911f000ze" version="1">Pull all nearby enemies up to [1] closer to you, causing them to &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleed&lt;/LSTag&gt;.</content>
 
 	<content contentuid="e45b631605924e679e7ea6024bc4911f00006" version="2">Heart of Thorns</content>
-	<content contentuid="e45b631605924e679e7ea6024bc4911f0000f" version="1">Upon ending your turn, you deal [1] to all enemies within [2] of you.</content>
+	<content contentuid="e45b631605924e679e7ea6024bc4911f0000f" version="1">Upon ending your turn, you deal [1] to all enemies within [2] of you. This damage increases based on your levels in Barbarian.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">WILD SOUL</content>
 
@@ -287,7 +281,7 @@
 	<content contentuid="h87a4cfdbg2ba1g4a61gbbe7g540a256a9216" version="2">Affected creature deals an additional [1] damage with Spells, &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt;, &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attacks&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Throw_ImprovisedWeapon"&gt;Improvised Weapons&lt;/LSTag&gt;, and when &lt;LSTag Type="Spell" Tooltip="Throw_Throw"&gt;Throwing&lt;/LSTag&gt; objects or creatures.&lt;br&gt;&lt;br&gt;Additionally, this creature's unarmed damage has increased, and they have &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to elemental damage, as well as &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; based &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Spells may continue to be cast during this type of Rage, and will potentially trigger a positive surge of &lt;LSTag Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt; when cast at level one or higher.</content>
 
 	<content contentuid="h98bdd3bag3777g4870ga094g8362c31ieiid" version="14">Chaotic Roar</content>
-	<content contentuid="hc52dfbcfgb62ag4e72g9ea9gc1234b3939dd" version="2">Upon &lt;LSTag Type="Status" Tooltip="RAGE_MAGIC"&gt;Enraging&lt;/LSTag&gt;, you immediately experience a barbarous surge of &lt;LSTag Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt;. Your fury malforms the weave within, causing alterations within the surge that lead to new and unique effects. When damaged, your aggressor may instead experience a negative surge of Wild Magic.</content>
+	<content contentuid="hc52dfbcfgb62ag4e72g9ea9gc1234b3939dd" version="2">Upon &lt;LSTag Type="Status" Tooltip="RAGE_MAGIC"&gt;Enraging&lt;/LSTag&gt;, you immediately experience a barbarous surge of &lt;LSTag Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt;. Your fury malforms the weave within, causing alterations within the surge that lead to new and unique effects.&lt;br&gt;&lt;br&gt;When damaged, your aggressor may instead experience a negative surge of Wild Magic.</content>
 
 	<content contentuid="h851e49beg9dd7g4b09g88c2g3149c6d03a66" version="2">Unstable Recovery</content>
 	<content contentuid="h851e49beg9dd7g4b09g88c2g3149c6d0b826" version="2">Upon landing a killing blow, you recover a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; of the highest level you can cast based on your levels in Barbarian.</content>
@@ -296,7 +290,7 @@
 	<content contentuid="hc52dfbcfgb62ag4e72g9ea9gc1234b36a99a" version="2">Upon landing a killing blow, you immediately experience a positive surge of &lt;LSTag Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt;. Additionally, upon rolling a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, your target immediately experiences a negative surge of Wild Magic. These effects can trigger once per turn.</content>
 
 	<content contentuid="h98bdd3bag3777g4870ga094g8362c31c8a47" version="14">Tenacious Chaos</content>
-	<content contentuid="hc52dfbcfgb62ag4e72g9ea9gc1234b356a95" version="2">Upon &lt;LSTag Type="Status" Tooltip="RAGE_MAGIC"&gt;Enraging&lt;/LSTag&gt;, all allies within [1] immediately experience a positive surge of &lt;LSTag Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt;.</content>
+	<content contentuid="hc52dfbcfgb62ag4e72g9ea9gc1234b356a95" version="2">Upon &lt;LSTag Type="Status" Tooltip="RAGE_MAGIC"&gt;Enraging&lt;/LSTag&gt;, all allies within [1] of you immediately experience a positive surge of &lt;LSTag Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h98bdd3bag3777g4870ga094g8362c319399d" version="14">Wild Bloodlust</content>
 	<content contentuid="hc52dfbcfgb62ag4e72g9ea9gc1234b32iuye" version="2">Upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, you may cast a Spell as a free action. This effect can trigger once per turn.</content>
@@ -341,7 +335,7 @@
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf80000h" version="2">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; based &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;. In addition, your Strength is increased by [1].</content>
 
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf800010" version="1">Rage of the Mountain</content>
-	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf80000j" version="2">While enraged, you also become &lt;LSTag Type="Status" Tooltip="ENLARGE_BARBARIAN"&gt;Enlarged&lt;/LSTag&gt;.</content>
+	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf80000j" version="2">While enraged, you also benefit from the effects of &lt;LSTag Type="Status" Tooltip="THAUMATURGY_BARBARIAN"&gt;Titan's Boon&lt;/LSTag&gt;.</content>
 
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf800011" version="1">Rage of the Undefeated</content>
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf80000k" version="2">While below 25% of your total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;, you may make an additional &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attack&lt;/LSTag&gt; using your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;.</content>

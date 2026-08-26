@@ -50,7 +50,7 @@
 	<content contentuid="h004521f9gf207g4263ga129g05fce1ef59fe" version="3">Summon a giant spider that can shoot &lt;LSTag Type="Spell" Tooltip="Target_Web_Spider_Summon"&gt;Webs&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; enemies with its &lt;LSTag Type="Spell" Tooltip="Target_Bite_GiantSpider_Wildshape"&gt;Bite&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h116ba0c1g51dfg46dbg9f47g8558d9af5422" version="1">Horde Breaker</content>
-	<content contentuid="h2ad75116g5840g449cg83d6geac4697f474d" version="2">Gain the ability to target two creatures standing within [1] of each other.</content>
+	<content contentuid="h2ad75116g5840g449cg83d6geac4697f474d" version="2">Gain the ability to target two creatures standing within [1] of each other.&lt;br&gt;&lt;br&gt;In addition your Ranger Companions gain &lt;LSTag Type="Status" Tooltip="Tooltip_ExtraAttack"&gt;Extra Actions&lt;/LSTag&gt;.</content>
 	<content contentuid="h22e88128g36c8g4cedgbad1g942fe6401a75" version="1">Horde Breaker (Melee)</content>
 	<content contentuid="h4a5c145dgd1adg4034ga26bg8781dcb9fbd4" version="3">Target two creatures standing close to each other. Attack the first creature and then gain the ability to make an additional &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against the second as a free action.</content>
 	<content contentuid="h75a771c9g1465g4ad8gb033gb5152ef8b463" version="1">Horde Breaker (Ranged)</content>
@@ -62,7 +62,7 @@
 	<content contentuid="h8d41be71g1eecg4e2cg8d5egcbfbc41c594c" version="2">Affected creature is open to an additional, free attack from the Ranger who applied this status.</content>
 
 	<content contentuid="h4d476cb8gfa45g4f4cga9d1gdeoeoifoidd2" version="1">Eagle Eyed</content>
-	<content contentuid="h20b19b1bg5da3g41d4g901bgd987q9wdkfw5" version="3">When making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;, you roll your damage with Advantage as well.</content>
+	<content contentuid="h20b19b1bg5da3g41d4g901bgd987q9wdkfw5" version="3">When making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;, you roll your damage with Advantage as well.&lt;br&gt;&lt;br&gt;In addition your Ranger Companions gain &lt;LSTag Type="Status" Tooltip="Tooltip_ExtraAttack_2_Beastial"&gt;Bestial Instinct&lt;/LSTag&gt;.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">BEASTMASTER</content>
 
@@ -92,9 +92,9 @@
 	<content contentuid="heab073adgda32g4f3bgbd7s9ddsdfsds1588" version="3">Affected creature has a +1d4 bonus to Damage Rolls, &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; while remaining within [1] of their Ranger Companion.</content>
 
 	<content contentuid="h9540ee6cg45d6g4d44g9165gd431ac402999" version="3">Bestial Fury</content>
-	<content contentuid="heab073adgda32g4f3bgbd79g117c9d7ieijf" version="3">Your Ranger Companions may make an additional free attack each turn.</content>
+	<content contentuid="heab073adgda32g4f3bgbd79g117c9d7ieijf" version="3">Once per turn, your Ranger Companions restore their &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt; upon landing a killing blow.</content>
 	<content contentuid="h0da46890gdf01g4aafg8838g448555d029dd" version="3">Bestial Fury</content>
-	<content contentuid="h02b7f6d6gab29g416dgbb6bge805faa929ee" version="3">Affected creature may make an additional free attack each turn.</content>
+	<content contentuid="h02b7f6d6gab29g416dgbb6bge805faa929ee" version="3">Once per turn, you restore your &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt; upon landing a killing blow.</content>
 
 	<content contentuid="h9540ee6cg45d6g4d44g9165gd431acadfd21" version="3">Critical Bonds</content>
 	<content contentuid="heab073adgda32g4f3bgbd79g117c9dwer987" version="3">After landing a killing blow, the next time your Ranger Companion deals damage it will roll as a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;. Conversely, after your Ranger Companion lands a killing blow, the next time you deal damage it will also roll as a Critical Hit.</content>
@@ -104,9 +104,9 @@
 	<content contentuid="heab073adgda32g4f3bgbd79g117c9dwdfsd4" version="3">Affected creature will roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; the next time it deals damage.</content>
 
 	<content contentuid="h9540ee6cg45d6g4d44g9165gd431ac46a978" version="3">Bestial Rampage</content>
-	<content contentuid="heab073adgda32g4f3bgbd79g117c9d72345j" version="3">Your Ranger Companions gain an additional &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt;.</content>
+	<content contentuid="heab073adgda32g4f3bgbd79g117c9d72345j" version="3">Once per turn, your Ranger Companions restore their &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt; upon landing a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
 	<content contentuid="h0da46890gdf01g4aafg8838g448555d9292k" version="3">Bestial Rampage</content>
-	<content contentuid="h02b7f6d6gab29g416dgbb6bge805faamcnnc" version="3">Affected creature has an additional &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt;.</content>
+	<content contentuid="h02b7f6d6gab29g416dgbb6bge805faamcnnc" version="3">Once per turn, you restore your &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt; upon landing a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h940ee6cg45d6g4d44g91655d6f8e5f22f545" version="3">Leader of the Pack</content>
 	<content contentuid="heab073adgda32g4f3bgbd66d9f8898f5f875" version="3">Gain the ability to summon two of the same Ranger Companions at once.</content>
@@ -116,25 +116,25 @@
 	<content contentuid="hf8ac8ef1g7fceg417bg8342g2203918207b3" loreTexts="true" version="2">Underdark Trail</content>
 	<content contentuid="h85a6de72gd0a0g4374g8823ge103a79fe7bf" loreTexts="true" version="2">You explored the treacherous caverns of the Realms Below and learned their merciless ways - ambush and kill, before you are ambushed and killed.</content>
 	<content contentuid="hfad5bf4eg0236g4af2g970agfdc9c73a5452" loreTexts="true" version="2">Upperdark Adventurer</content>
-	<content contentuid="hafc743f7g5d89g4175g80bfg869c346a9889" version="9">Gain a +[1] bonus to Initiative. In addition, you are able to see in the dark, both magical and non-magical, up to [2]. In addition, at the beginning of any combat encounter, you gain &lt;LSTag Type="Status" Tooltip="DREAD_SHOT"&gt;Dread Shot&lt;/LSTag&gt;, allowing you to make a weapon attack which will always roll as a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
+	<content contentuid="hafc743f7g5d89g4175g80bfg869c346a9889" version="9">Gain a +[1] bonus to Initiative. In addition, you are able to see in the dark, both magical and non-magical, up to [2]. In addition, you gain the ability to make a basic weapon attack which will always result in a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
 	<content contentuid="h8fe2d065g37c5g4c09ga086gb6a1db243351" version="2">Dread Shot</content>
-	<content contentuid="h0ed18fffge19bg4abag838fg1ed1692e591e" version="2">Affected creature can make a weapon attack which guarantees a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
+	<content contentuid="h0ed18fffge19bg4abag838fg1ed1692e591e" version="2">Affected creature can make a weapon attack which rolls it's damage as a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
 	<content contentuid="h7ce4cdaag2747g414ag9e70g89a77ab8cc20" version="2">Dread Shot (Melee)</content>
-	<content contentuid="hd200815fge088g41d7g9179ga61be33d8d78" version="3">Ambush a target with an additional swift and precise weapon attack. This attack will always roll as a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
+	<content contentuid="hd200815fge088g41d7g9179ga61be33d8d78" version="3">Ambush a target with an additional swift and precise weapon attack. This attack will always roll it's damage as a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
 	<content contentuid="h38398cbag8289g448bg92f7g74f83f0c1de6" version="2">Dread Shot (Ranged)</content>
-	<content contentuid="h6a71465dgecf3g4923g977fgb042eba92178" version="3">Ambush a target with an additional swift and precise weapon attack. This attack will always roll as a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
+	<content contentuid="h6a71465dgecf3g4923g977fgb042eba92178" version="3">Ambush a target with an additional swift and precise weapon attack. This attack will always roll it's damage as a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
 	<content contentuid="h38398cbag8289g448bg92f7g74f83f0c1de7" version="2">Dread Shot (Firearm)</content>
 
 	<content contentuid="hae000758g2c53g402cgb846g1e5a4c39d397" loreTexts="true" version="2">Middledark Survivor</content>
-	<content contentuid="hb8bf311cg5a03g46a9g888bgceed226284f5" version="2">Upon failing an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, you may spend your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; in order to turn it into a success.</content>
+	<content contentuid="hb8bf311cg5a03g46a9g888bgceed226284f5" version="2">Upon failing an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, you may spend your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; in order to turn it into a success.&lt;br&gt;&lt;br&gt;In addition, once per turn, landing a killing blow refreshes the cooldown of your actions which may only be used once per combat.</content>
 	<content contentuid="hae000758g2c53g402cgb846g1e5a4c36a987" loreTexts="true" version="2">Middledark Survivor</content>
 	<content contentuid="hb8bf311cg5a03g46a9g888bgceed2265d552" version="2">Upon failing an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, turn it into a success.</content>
 
 	<content contentuid="hfad5bf4eg0236g4af2g970agfdc9c7d219e1" version="2">Killer's Alacrity</content>
-	<content contentuid="hafc743f7g5d89g4175g80bfg869c348717ec" version="9">Once per turn, upon landing a killing blow, you immediately refresh &lt;LSTag Type="Status" Tooltip="DREAD_SHOT"&gt;Dread Shot&lt;/LSTag&gt;.</content>
+	<content contentuid="hafc743f7g5d89g4175g80bfg869c348717ec" version="9">When dealing damage with &lt;LSTag Type="Spell" Tooltip="Projectile_DreadAmbusher"&gt;Dread Shot&lt;/LSTag&gt;, you always roll the maximum damage possible.</content>
 
 	<content contentuid="hfad5bf4eg0236g4af2g970agfdc9c70a5235" loreTexts="true" version="2">Dread Tormentor</content>
-	<content contentuid="hafc743f7g5d89g4175g80bfg869c34sds687" version="9">When rolling a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; against a target, you may also cause them to become &lt;LSTag Type="Status" Tooltip="FEARED"&gt;Terrified&lt;/LSTag&gt; for one turn.</content>
+	<content contentuid="hafc743f7g5d89g4175g80bfg869c34sds687" version="9">When rolling a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; against a target, you also cause them to become &lt;LSTag Type="Status" Tooltip="FEARED"&gt;Terrified&lt;/LSTag&gt; for one turn.</content>
 
 	<content contentuid="hae000758g2c53g402cgb846g1e5asdfa8397" loreTexts="true" version="2">Lowerdark Predator</content>
 	<content contentuid="hb8bf311cg5a03g46a9g888bgceewersfa4f5" version="2">&lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made against a &lt;LSTag Type="Status" Tooltip="FEARED"&gt;Terrified&lt;/LSTag&gt; target will always roll as a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;. Upon landing a Critical Hit with this passive, Terrified is immediately removed from your target.</content>
@@ -149,12 +149,12 @@
 	<content contentuid="h2969047eg0207g40f8gb6dfg0b261003ebf2" loreTexts="true" version="1">Greypeaks Trail</content>
 	<content contentuid="h6b51c4d5g4778g4f65g999eg5fe728ecf064" loreTexts="true" version="1">You explored the fearsome mountains of the Savage Frontier and learned to hunt the many great monsters that inhabit their ridges.</content>   
 	<content contentuid="h4d476cb8gfa45g4f4cga9d16a98709e9f9a2" version="2">Natural Hunter</content>
-	<content contentuid="h20b19b1bg5da3g41d4g901b12a5113fe8115" version="2">When you deal damage with a weapon, you apply one stack of &lt;LSTag Type="Status" Tooltip="HUNTED"&gt;Hunted&lt;/LSTag&gt;. Each stack of Hunted will reduce your targets &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; by [1], up to a maximum of [2].</content>
+	<content contentuid="h20b19b1bg5da3g41d4g901b12a5113fe8115" version="2">When you deal damage with a weapon, you apply one stack of &lt;LSTag Type="Status" Tooltip="HUNTED"&gt;Hunted&lt;/LSTag&gt;. Each stack of Hunted will reduce your targets &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; by [1], up to a maximum of [2].&lt;br&gt;&lt;br&gt;In addition, landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on an enemy you are currently Hunting will restore one charge of your &lt;LSTag Type="ActionResource" Tooltip="NaturalRecoveryPoint"&gt;Natural Focus&lt;/LSTag&gt;.</content>
 	<content contentuid="h38ea4f90g1325g4370g88d1g28b48f722d58" version="2">Hunted</content>
 	<content contentuid="h587f4801g411bg4d92g9d70gbeef322ffss6" version="2">Affected creature is being hunted by a nearby Ranger. Each stack of Hunted has reduced their &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; by [1]. In addition, they are unable to utilize their armours &lt;LSTag Type="Status" Tooltip="DAMAGE_REDUCTION"&gt;Damage Reduction&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Removed if &lt;LSTag Type="Spell" Tooltip="Target_Help"&gt;Helped&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h4d476cb8gfa45g4f4cga9d13a65409e9f9a2" version="2">Opportune Strike</content>
-	<content contentuid="h20b19b1bg5da3g41d4g901basdf813fe8115" version="2">When an enemy makes an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against an ally, you may spend a charge of your &lt;LSTag Type="ActionResource" Tooltip="NaturalRecoveryPoint"&gt;Natural Focus&lt;/LSTag&gt; in order to make a weapon-based Attack Roll against their aggressor.</content>
+	<content contentuid="h20b19b1bg5da3g41d4g901basdf813fe8115" version="2">When an enemy makes an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against an ally, you may spend your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; in order to make a weapon-based Attack Roll against their aggressor.</content>
 	<content contentuid="h4d476cb8gfa45g4f4cga9d13a65409e6a988" version="2">Opportune Strike</content>
 	<content contentuid="h20b19b1bg5da3g41d4g901basdf813f5a522" version="2">When an enemy makes an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against an ally, make a weapon-based Attack Roll against their aggressor.</content>
 
@@ -168,13 +168,13 @@
 	<content contentuid="h06746addg056dg43f1gada6g851e17ef5b22" version="5">Strike out at all nearby foes, making separate &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against each target.</content>
 
 	<content contentuid="h4d476cb8gfa45g4f4cga9d1gd0b102a255a2" version="2">Marksman's Eye</content>
-	<content contentuid="h20b19b1bg5da3g41d4g901bgd1d616a87715" version="2">When damaging a target you are currently &lt;LSTag Type="Status" Tooltip="HUNTED"&gt;Hunting&lt;/LSTag&gt;, you gain a bonus to all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; equal to the amount of stacks they have remaining.</content>
+	<content contentuid="h20b19b1bg5da3g41d4g901bgd1d616a87715" version="2">When targeting a creature you are currently &lt;LSTag Type="Status" Tooltip="HUNTED"&gt;Hunting&lt;/LSTag&gt;, you make your &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;, and the number needed to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; is reduced by 1.</content>
 
 	<content contentuid="h4d476cb8gfa45g4f4cga9d1gd0b109e9f9a2" version="2">On the Hunt</content>
-	<content contentuid="h20b19b1bg5da3g41d4g901bgd1d613fe8115" version="2">When damaging a target you are currently &lt;LSTag Type="Status" Tooltip="HUNTED"&gt;Hunting&lt;/LSTag&gt;, you roll your damage dice with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. In addition, you ignore all forms of physical &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt; when dealing damage to an enemy or item.</content>
+	<content contentuid="h20b19b1bg5da3g41d4g901bgd1d613fe8115" version="2">When dealing damage to an enemy or item, you ignore all forms of physical &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h4d476cb8gfa45g4f4cga9d13w5e6f5sef21e" version="2">Twinned Strikes</content>
-	<content contentuid="h20b19b1bg5da3g41d4g9015se46f5s4e6f8d" version="2">Your single target Frontier Ballistics may target two creatures instead of one.</content>
+	<content contentuid="h20b19b1bg5da3g41d4g9015se46f5s4e6f8d" version="2">Your Frontier Ballistics that only select one target can now select an additional target, or the same target twice.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">MIRE MIST</content>
 
@@ -185,16 +185,16 @@
 	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf0000a" version="1">Both you and your Ranger Companions deal an additional [1] when dealing damage to an enemy. In addition, each time that you deal damage, you apply one stack of &lt;LSTag Type="Status" Tooltip="ACID"&gt;Acid&lt;/LSTag&gt;.</content>
 
 	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf00002" version="1">Corrosive Bloom</content>
-	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf0000b" version="1">When &lt;LSTag Type="Status" Tooltip="CORRODED"&gt;Corrosion&lt;/LSTag&gt; is removed from an enemy, all enemies within [1] of them receive &lt;LSTag Type="Status" Tooltip="CAUSTIC_BRINE"&gt;Caustic Brine&lt;/LSTag&gt; for three turns.</content>
+	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf0000b" version="1">Upon dealing damage to a creature with a weapon, you afflict them, and all enemies within [1] of them, with &lt;LSTag Type="Status" Tooltip="CAUSTIC_BRINE"&gt;Caustic Brine&lt;/LSTag&gt; for one turn.&lt;br&gt;&lt;br&gt;No effect when targeting a creature already suffering from Caustic Brine.</content>
 
 	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf00003" version="1">Dissolving Touch</content>
 	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf0000c" version="1">You ignore all forms of Acid based &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt; when dealing damage to an enemy or item.</content>
 
 	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf00004" version="1">Burning Quarry</content>
-	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf0000d" version="1">When dealing damage to a creature suffering from &lt;LSTag Type="Status" Tooltip="CAUSTIC_BRINE"&gt;Caustic Brine&lt;/LSTag&gt;, you roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf0000d" version="1">When making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against a creature suffering from &lt;LSTag Type="Status" Tooltip="CAUSTIC_BRINE"&gt;Caustic Brine&lt;/LSTag&gt;, you roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
 
 	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf00005" version="1">Spreading Mire</content>
-	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf0000e" version="1">&lt;LSTag Type="Status" Tooltip="Tooltip_CorrosiveBloom"&gt;Corrosive Bloom&lt;/LSTag&gt; now applies &lt;LSTag Type="Status" Tooltip="CAUSTIC_BRINE"&gt;Caustic Brine&lt;/LSTag&gt; to your targets indefinitely, rather than for three turns.</content>
+	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf0000e" version="1">&lt;LSTag Type="Status" Tooltip="Tooltip_CorrosiveBloom"&gt;Corrosive Bloom&lt;/LSTag&gt; now applies &lt;LSTag Type="Status" Tooltip="CAUSTIC_BRINE"&gt;Caustic Brine&lt;/LSTag&gt; indefinitely, rather than for one turn.</content>
 
 	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf00006" version="1">Fatal Decay</content>
 	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf0000f" version="1">When dealing damage to a &lt;LSTag Type="Status" Tooltip="CORRODED"&gt;Corroded&lt;/LSTag&gt; enemy, you will only roll &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hits&lt;/LSTag&gt;. Upon landing a Critical Hit with this passive, Corrosion is immediately removed from your target.</content>
@@ -239,13 +239,13 @@
 	<content contentuid="hf081aa54g2347g4295g85aeg8048e2e0000a" version="1">Upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on an enemy affected by your swarms, restore one charge of your &lt;LSTag Type="ActionResource" Tooltip="NaturalRecoveryPoint"&gt;Natural Focus&lt;/LSTag&gt;.</content>
 
 	<content contentuid="hedbd9f3fgf4d8g4f16gb0f2gb0e11e900002" version="1">Empowered Swarms</content>
-	<content contentuid="hf081aa54g2347g4295g85aeg8048e2e0000b" version="1">Your swarms are now capable of targeting two creatures at once. Each time a creature affected by one of your swarms dies, you may use it again, even if another creature affected by a swarm still lives.</content>
+	<content contentuid="hf081aa54g2347g4295g85aeg8048e2e0000b" version="1">Your swarms are now capable of targeting two separate creatures at once. Each time a creature affected by one of your swarms dies, you may use it again, even if another creature affected by a swarm still lives.</content>
 
 	<content contentuid="hedbd9f3fgf4d8g4f16gb0f2gb0e11e900003" version="1">Writhing Tide</content>
 	<content contentuid="hf081aa54g2347g4295g85aeg8048e2e0000c" version="1">&lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made against enemies affected by your swarms are rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Additionally, Attack Rolls made against allies affected by your swarms are rolled with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
 
 	<content contentuid="hedbd9f3fgf4d8g4f16gb0f2gb0e11e900004" version="1">Superior Swarms</content>
-	<content contentuid="hf081aa54g2347g4295g85aeg8048e2e0000d" version="1">Your swarms are now capable of targeting three creatures at once. Each time a creature affected by one of your swarms dies, you may use it again, even if another creature affected by a swarm still lives.</content>
+	<content contentuid="hf081aa54g2347g4295g85aeg8048e2e0000d" version="1">Your swarms are now capable of targeting three separate creatures at once. Each time a creature affected by one of your swarms dies, you may use it again, even if another creature affected by a swarm still lives.</content>
 
 	<content contentuid="hedbd9f3fgf4d8g4f16gb0f2gb0e11e900005" version="1">A Storm of Swarms</content>
 	<content contentuid="hf081aa54g2347g4295g85aeg8048e2e0000e" version="1">All effects caused by your Swarms are now twice as potent.</content>
@@ -269,7 +269,7 @@
 	<content contentuid="55a0054c23a247a29697b3a59e5eba7f0000c" version="1">When you make a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt;, you afflict your target with &lt;LSTag Type="Status" Tooltip="HUNTERS_MARK"&gt;Hunter's Mark&lt;/LSTag&gt; for three turns.</content>
 
 	<content contentuid="55a0054c23a247a29697b3a59e5eba7f00004" version="1">Fang Over Fang</content>
-	<content contentuid="55a0054c23a247a29697b3a59e5eba7f0000d" version="1">When your Ranger Companion damages against a target, you may make an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against their target as a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;.</content>
+	<content contentuid="55a0054c23a247a29697b3a59e5eba7f0000d" version="1">When your Ranger Companion damages a target, you may make an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against their target as a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;.</content>
 	<content contentuid="55a0054c23a247a29697b3a59e5eba7f000z4" version="1">Fang Over Fang</content>
 	<content contentuid="55a0054c23a247a29697b3a59e5eba7f000zd" version="1">Make an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against a target your Ranger Companion has damaged. You must be within [1] of the original target.</content>
 

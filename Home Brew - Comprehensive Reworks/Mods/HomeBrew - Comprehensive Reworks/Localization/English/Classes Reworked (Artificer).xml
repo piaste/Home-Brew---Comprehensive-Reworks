@@ -8,6 +8,9 @@
 	<content contentuid="66523fb3deaa14de1766304e0918494800003" version="1">Musket</content>
 	<content contentuid="66523fb3deaa14de1766304e091849480000a" version="2">The player's currently equipped firearm.</content>
 
+	<content contentuid="5aeec0c004874dac95d8170c2054769500000" version="1">Firearm Equipped</content>
+	<content contentuid="5aeec0c004874dac95d8170c20547695zzzzz" version="1">Affected creature has a firearm equipped.</content>
+
 	<content contentuid="66523fb3deaa14de1766304e096s5d4f68e54" version="1">Ammunition: 3</content>
 	<content contentuid="77523fb3deaa14de1766304e09s56ef956e84" version="2">Gain three shots of ammunition to fire your currently equipped firearms unique actions. You may restore your supply of Ammunition by &lt;LSTag Type="Spell" Tooltip="Shout_Reload_Firearm"&gt;Reloading&lt;/LSTag&gt;, or by finishing a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;. Ammunition is also reloaded automatically at the end of each combat encounter.</content>
 
@@ -63,7 +66,7 @@
 	<content contentuid="h509b8e00gacb9g46e8d5ffs5e8f5e5f0000c" version="2">Casting a Spell allows you to make a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt; as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; for the rest of your turn.</content>
 
 	<content contentuid="h509b8e00gacb9g46e8d56sd5f2e8d5f00004" version="1">Ballistic Ricochet</content>
-	<content contentuid="h509b8e00gacb9g46e8d5ffs5e8f5e5f0000d" version="2">Once per turn, upon dealing damage with a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt;, you create an &lt;LSTag Type="Spell" Tooltip="Projectile_ConjureTurret_ArcaneMissile"&gt;Arcane Missile&lt;/LSTag&gt; which seeks out one other target.</content>
+	<content contentuid="h509b8e00gacb9g46e8d5ffs5e8f5e5f0000d" version="2">Upon dealing damage with a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt;, you create an &lt;LSTag Type="Spell" Tooltip="Projectile_ConjureTurret_ArcaneMissile"&gt;Arcane Missile&lt;/LSTag&gt; which seeks out one other target.</content>
 
 	<content contentuid="h509b8e00gacb9g46e8d56sd5f2e8d5f00005" version="1">Runic Reload Module</content>
 	<content contentuid="h509b8e00gacb9g46e8d5ffs5e8f5e5f0000e" version="2">Upon &lt;LSTag Type="Spell" Tooltip="Shout_Reload_Firearm"&gt;Reloading&lt;/LSTag&gt; your firearms, Spells you cast make both their &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and Damage Rolls with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
@@ -81,7 +84,7 @@
 	<content contentuid="49523fb3deaa14de1766304e0911fbc49ae44" version="2">Artillerists specialize in hurling projectiles down range and creating various types of explosions on the battlefield. This destructive power is valued by armies across many different worlds.</content>
 
 	<content contentuid="h509b8e00gacb9g46a5sd6f456e4ef4f00001" version="1">Armour-Piercing Rounds</content>
-	<content contentuid="h509b8e00gacb9g46a5sd6f456e4ef4f0000a" version="2">When dealing damage with a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt; to an enemy or item, you ignore piercing &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt;.</content>
+	<content contentuid="h509b8e00gacb9g46a5sd6f456e4ef4f0000a" version="2">When dealing damage with a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt; to an enemy or item, you ignore piercing &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h509b8e00gacb9g46a5sd6f456e4ef4f00002" version="1">Anti-Material Ammunition</content>
 	<content contentuid="h509b8e00gacb9g46a5sd6f456e4ef4f0000b" version="2">Upon landing a killing blow, you may fire &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
@@ -94,14 +97,14 @@
 	<content contentuid="h509b8e00gacb9g46a5sd6f456e4ef4f000zc" version="2">Affected creature is Marked. &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made against them are rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Only one enemy may be Marked at a time.</content>
 
 	<content contentuid="h509b8e00gacb9g46a5sd6f456e4ef4f00004" version="1">Focus Fire</content>
-	<content contentuid="h509b8e00gacb9g46a5sd6f456e4ef4f0000d" version="2">Dealing damage to an enemy with a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt; which only targets one creature will apply one stack of &lt;LSTag Type="Status" Tooltip="FOCUSFIRE"&gt;Focus Fire&lt;/LSTag&gt;. Each time that they are subsequently damaged by a Ranged Weapon Attack, they take additional damage equal to the amount of Focus Fire stacks they have remaining.&lt;br&gt;&lt;br&gt;Damaging another creature or missing your shot will reset the amount of stacks.</content>
+	<content contentuid="h509b8e00gacb9g46a5sd6f456e4ef4f0000d" version="2">Dealing damage to an enemy with a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt; which only targets one creature will apply one stack of &lt;LSTag Type="Status" Tooltip="FOCUSFIRE"&gt;Focus Fire&lt;/LSTag&gt;. Each time that they are subsequently damaged by a Ranged Weapon Attack, they take additional damage equal to the amount of Focus Fire stacks they have remaining.&lt;br&gt;&lt;br&gt;Damaging another creature or missing your target will reset the amount of stacks that they have.</content>
 	<content contentuid="h509b8e00gacb9g46a5sd6f456e4ef4f000z4" version="1">Focus Fire: Target</content>
 	<content contentuid="h509b8e00gacb9g46a5sd6f456e4ef4f000zd" version="2">Affected creature will take additional damage when the creature who applied this status damages them with a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;The amount of additional damage dealt is equal to the amount of stacks of &lt;LSTag Type="Status" Tooltip="FOCUSFIRE_FOCUSING"&gt;Focus&lt;/LSTag&gt; their aggressor currently has.</content>
 	<content contentuid="h509b8e00gacb9g46a5sd6f456e4ef4f00zz4" version="1">Focus Fire: Focusing</content>
 	<content contentuid="h509b8e00gacb9g46a5sd6f456e4ef4f00zzd" version="2">Affected creature will deal additional damage equal to the amount of stacks of &lt;LSTag Type="Status" Tooltip="FOCUSFIRE_FOCUSING"&gt;Focus&lt;/LSTag&gt; that they have remaining when targeting the creature they are focusing on with a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h509b8e00gacb9g46a5sd6f456e4ef4f00005" version="1">Covering Fire</content>
-	<content contentuid="h509b8e00gacb9g46a5sd6f456e4ef4f0000e" version="2">Once per turn, landing a Killing Blow with a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt; will restore an &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt;.</content>
+	<content contentuid="h509b8e00gacb9g46a5sd6f456e4ef4f0000e" version="2">Once per turn, landing a Killing Blow with a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt; will restore one of your &lt;LSTag Tooltip="Action"&gt;Actions&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h509b8e00gacb9g46a5sd6f456e4ef4f00006" version="1">Quintessential Stockpile</content>
 	<content contentuid="h509b8e00gacb9g46a5sd6f456e4ef4f0000f" version="2">Gain an additional 9 rounds of &lt;LSTag Type="ActionResource" Tooltip="FirearmAmmo"&gt;Ammunition&lt;/LSTag&gt;.</content>
@@ -161,7 +164,9 @@
 	<content contentuid="52fe1476d95548e2a19d5671c3e150710000z" version="2">Guns, explosions, and ample destructive tendencies make you a force to be reckoned with - not because of any magic or nuance. But because you know exactly how to blow shit up.</content>
 
 	<content contentuid="52fe1476d95548e2a19d5671c3e1507100001" version="1">The Anarchist's Cookbook</content>
-	<content contentuid="52fe1476d95548e2a19d5671c3e150710000a" version="2">Each turn during combat, you generate an artifical grenade or explosive which lasts until the end of your turn.</content>
+	<content contentuid="52fe1476d95548e2a19d5671c3e150710000a" version="2">Each turn during combat, you generate an artifical grenade or explosive which lasts until the end of your turn.&lt;br&gt;&lt;br&gt;In addition, you gain the ability to throw an &lt;LSTag Type="Spell" Tooltip="Projectile_Grenadier_StolenExplosives"&gt;Arming Grenade&lt;/LSTag&gt;.</content>
+	<content contentuid="52fe1476d95548e2a19d5671c3e15071000z1" version="1">Arming Grenade</content>
+	<content contentuid="52fe1476d95548e2a19d5671c3e15071000za" version="2">Throw a grenade which detonates after an arming period.</content>
 
 	<content contentuid="52fe1476d95548e2a19d5671c3e1507100002" version="1">Shockwave Theory</content>
 	<content contentuid="52fe1476d95548e2a19d5671c3e150710000b" version="2">Dealing damage with your grenades and explosives forces your targets &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
@@ -203,13 +208,13 @@
 	<content contentuid="h5b8e00gacb9g46a5sd6f45623r4ff8s00zzb" version="2">When an ally is about to damage an enemy, immediately &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; the enemy they are targeting.</content>
 
 	<content contentuid="h509b8e00gacb9g46a583898dfj5df2f00003" version="1">Distributed Subroutine</content>
-	<content contentuid="h5b8e00gacb9g46a5sd6f45623r4ff8s0000c" version="2">You may now &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; two creatures at once.</content>
+	<content contentuid="h5b8e00gacb9g46a5sd6f45623r4ff8s0000c" version="2">You may now &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; two targets at once.</content>
 
 	<content contentuid="h509b8e00gacb9g46a583898dfj5df2f00004" version="1">Wanton Processing</content>
 	<content contentuid="h5b8e00gacb9g46a5sd6f45623r4ff8s0000d" version="2">Once per turn, upon landing a Killing Blow or a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, you restore one &lt;LSTag Type="ActionResource" Tooltip="InfusionSlots"&gt;Matrix Charge&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h509b8e00gacb9g46a583898dfj5df2f00005" version="1">Overclocked Subroutine</content>
-	<content contentuid="h5b8e00gacb9g46a5sd6f45623r4ff8s0000e" version="2">You may now &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; three creatures at once.</content>
+	<content contentuid="h5b8e00gacb9g46a5sd6f45623r4ff8s0000e" version="2">You may now &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; three targets at once.</content>
 
 	<content contentuid="h509b8e00gacb9g46a583898dfj5df2f00006" version="1">Experimental Augmentation</content>
 	<content contentuid="h5b8e00gacb9g46a5sd6f45623r4ff8s0000f" version="2">Upon &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infusing&lt;/LSTag&gt; an ally they will experience a sudden surge of positive &lt;LSTag Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt;. Upon Infusing an enemy, they will instead experience a negative surge of Wild Magic. This may occur once per turn.</content>
@@ -257,7 +262,7 @@
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc400018" version="1">Optimization: Spell Calibration Sequence</content>
 	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40000r" version="2">Grant allies a +1 bonus to their &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt; upon &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infusing&lt;/LSTag&gt; them.</content>
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc400019" version="1">Optimization: Spell Slot Bypass</content>
-	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40000s" version="2">Allies you &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; may cast one Spell without expending a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; No extended effect when Infusing the same ally multiple times.</content>
+	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40000s" version="2">Allies you &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; regain a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; equal to half your levels in Artificer, rounded up.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; No extended effect when Infusing the same ally multiple times.</content>
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc400020" version="1">Optimization: Stability Matrix</content>
 	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40000t" version="2">Grant allies &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; upon &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infusing&lt;/LSTag&gt; them.</content>
 
@@ -313,7 +318,7 @@
 	<content contentuid="862d4e8f8c41462d8a2a4a2cfd5b81e100001" version="1">First Strike</content>
 	<content contentuid="862d4e8f8c41462d8a2a4a2cfd5b81e10000a" version="2">You can no longer be &lt;LSTag Type="Status" Tooltip="SURPRISED"&gt;Surprised&lt;/LSTag&gt;. In addition, you gain &lt;LSTag Type="Status" Tooltip="ALPHA_STRIKE"&gt;Alpha Strike&lt;/LSTag&gt; during your first turn of combat.</content>
 	<content contentuid="862d4e8f8c41462d8a2a4a2cfd5b81e1000z1" version="1">Alpha Strike</content>
-	<content contentuid="862d4e8f8c41462d8a2a4a2cfd5b81e1000za" version="2">Affected creature's &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; may select two targets, or the same target twice. No effect on actions with an area of effect.</content>
+	<content contentuid="862d4e8f8c41462d8a2a4a2cfd5b81e1000za" version="2">Affected creature's &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; may select an additional target, or the same target twice. No effect on actions with an area of effect.</content>
 	<content contentuid="862d4e8f8c41462d8a2a4a2cfd5b81e100zz1" version="1">Alpha Strike</content>
 	<content contentuid="862d4e8f8c41462d8a2a4a2cfd5b81e100zza" version="2">Select two targets, or the same target twice, with your equipped ranged weapon.</content>
 
@@ -386,7 +391,7 @@
 	<content contentuid="115fb28f01e84e44b3536f475sd6s5d5f2dza" version="2">Affected creature deals an additional [1] when dealing damage with their equipped weapon.</content>
 
 	<content contentuid="115fb28f01e84e44b3536f475sd5f4ef2f007" version="1">Emergency Power Cell</content>
-	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe500g" version="2">Once per turn, missing an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; will refund your &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt;.</content>
+	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe500g" version="2">Once per turn, missing a single-target &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; will refund your &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt;.</content>
 
 	<content contentuid="115fb28f01e84e44b3536f475sd5f4ef2f008" version="1">Failsafe Injection</content>
 	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe500h" version="2">Once per combat, upon starting your turn below 75% of your total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;, you consume a synthetic potion. This synthetic potion restores [1] &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; upon ending your turn.</content>
