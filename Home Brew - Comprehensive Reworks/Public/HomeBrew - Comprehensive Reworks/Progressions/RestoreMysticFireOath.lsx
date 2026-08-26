@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="328" />
+  <region id="Progressions">
+    <node id="root">
+      <children>
+
+		<!-- Remove oathbreaker and add oath choice to Mystic Fire Aspirant-->
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="1" />
+					<attribute id="Name" type="LSString" value="Mystflame" />
+					<attribute id="PassivesAdded" type="LSString" value="ClassProgression_Mystflame;Smite_Spellshatter" /> <!-- removed Oathbreaker_Tag-->
+					<attribute id="PassivesRemoved" type="LSString" value="Smite_Divine" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="Selectors" type="LSString" value="SelectPassives(659a1bdf-b0e3-40d7-aa6d-f64cc1f18404,1,Oaths)" /> <!-- Oath selector -->
+					<attribute id="Selectors" type="LSString" value="AddSpells(34013841-cbff-4976-9b50-211894badee8,OathSpells)" /> 
+					<attribute id="TableUUID" type="guid" value="516f676f-2a01-46b7-a715-a04bbdd79b23" />
+					<attribute id="UUID" type="guid" value="987f0f7d-3e27-4948-9a65-7a04ad08d8e1" />
+		</node>
+      </children>
+    </node>
+  </region>
+</save>
