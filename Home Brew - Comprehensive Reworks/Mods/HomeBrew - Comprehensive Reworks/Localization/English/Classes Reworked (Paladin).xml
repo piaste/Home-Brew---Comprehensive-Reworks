@@ -155,8 +155,8 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">CROWNED PHOENIX</content>
 
-	<content contentuid="hf8d923abg2aeeg446agac9dgbb27081e8db2" loreTexts="true" version="2">Mystic Fire Knight</content>
-	<content contentuid="hb0043457gfdd6g470agbfd6g6594b92ca488" loreTexts="true" version="2">You served with Mystra's paladins or with their non-religious allies, the Knights of the Weave. You have learned to channel the power of &lt;i&gt;spellfire&lt;/i&gt; in service of your holy mission.</content>
+	<content contentuid="hf8d923abg2aeeg446agac9dgbb27081e8db2" loreTexts="true" version="2">Knight of the Weave</content>
+	<content contentuid="hb0043457gfdd6g470agbfd6g6594b92ca488" loreTexts="true" version="2">You served with the Knights of the Weave, a loose non-religious order defending the essence of magic from aberrations or shadow powers. You have learned to channel the power of &lt;i&gt;spellfire&lt;/i&gt; in service of your mission.</content>
 
 	<content contentuid="hf8d923abg2aeeg446agac9dgbb2708100001" loreTexts="true" version="2">Bane of the Warped</content>
 <content contentuid="hf8d923abg2aeeg446agac9dgbb270810000a" version="2">When making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; or dealing damage to an Aberration type creature, roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Once per turn, upon landing a killing blow on an enemy Aberration, restore one &lt;LSTag Type="ActionResource" Tooltip="WarPriestActionPoint"&gt;Crusader's Smite&lt;/LSTag&gt; charge.</content>
@@ -304,8 +304,8 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">RUNIC MYSTFLAME</content>
 
-	<content contentuid="hadb7e84644854b8b9a46f5e4586197e53c25" version="1">Runic Mystflame</content>
-	<content contentuid="h130df7e8eb2d41ce90c97835520d4924917a" version="1">When sworn oaths and divine protection failed you, you instead chose to look to the arcane to keep the flame of your conviction kindled.</content>
+	<content contentuid="hadb7e84644854b8b9a46f5e4586197e53c25" loreTexts="true" version="1">Mystic Fire Aspirant</content>
+	<content contentuid="h130df7e8eb2d41ce90c97835520d4924917a" loreTexts="true" version="1">You served with the Knights of the Mystic Fire, paladins of Mystra who enforce the goddess of magic's will against those who would misuse her Art.</content>
 	
 	<content contentuid="h33b21fb0973340df91b0d8f917c6c8df8d94" version="1">Spellshatter</content>
 	<content contentuid="h80920914af3a4234afd098d90988ad4a921e" version="1">Gain &lt;LSTag Type="Spell" Tooltip="Target_Smite_Spellshatter"&gt;Spellshatter Smite&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Countersmite"&gt;Countersmite&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_ArcaneJudgment_Class"&gt;Arcane Righteousness&lt;/LSTag&gt;.</content>
@@ -330,11 +330,11 @@
 	<content contentuid="h69299ced92fa41a9bfe62c1d64aa665ag0d8" version="1">Expend a &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; charge and a level three &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; in order to gain a level six Spell Slot until the end of your current combat encounter.</content>
 	<content contentuid="hf94035869fc34ba9bc4448df3f0a2efb879b" version="1">Affected creature has manifested a level [1] &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;. This Spell Slot will be removed at the end of their current combat encounter.</content>
 	
-	<content contentuid="he304548d505b416981eeccf86d46687d035b" version="1">Divine Onto Arcane</content>
+	<content contentuid="he304548d505b416981eeccf86d46687d035b" loreTexts="true" version="1">Bane of the Stilled</content>
 	<content contentuid="h64f556054b1f46c1a19454a42611cc42gf02" version="1">When making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; or dealing damage to a &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Muted&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="HEAVILY_SILENCED"&gt;Silenced&lt;/LSTag&gt; creature, you roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Once per turn, upon landing a killing blow on a Muted or Silenced enemy, you restore one &lt;LSTag Type="ActionResource" Tooltip="WarPriestActionPoint"&gt;Crusader's Smite&lt;/LSTag&gt; charge.</content>
 	
-	<content contentuid="h47ab16967c8f42f385e59dc6da4613844f48" version="1">Turn the Voiceless</content>
-	<content contentuid="h53c55119f67a493aa2805773970b68b4257b" version="1">Gain &lt;LSTag Type="Spell" Tooltip="Shout_Voiceless"&gt;Turn the Voiceless&lt;/LSTag&gt;.</content>
+	<content contentuid="h47ab16967c8f42f385e59dc6da4613844f48" loreTexts="true" version="1">Turn the Stilled</content>
+	<content contentuid="h53c55119f67a493aa2805773970b68b4257b" loreTexts="true" version="1">Gain &lt;LSTag Type="Spell" Tooltip="Shout_Voiceless"&gt;Turn the Stilled&lt;/LSTag&gt;.</content>
 	<content contentuid="h94a560590eba4e8782f60235e0ee5e696eb6" version="1">Scourge all nearby enemies within [1] in arcane magic. For each &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Muted&lt;/LSTag&gt; enemy damaged by this action, you restore one &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; charge.</content>
 	
 	<content contentuid="hc7656bfaca2c4b53bf8915e32899ee8c0g62" version="1">Arcane Glory</content>
@@ -347,7 +347,7 @@
 	<content contentuid="hb317ec8eb4774512ad45856d8432ee20gccd" version="1">Affected creature may trigger a positive &lt;LSTag Type="Passive" Tooltip="WildMagic"&gt;Wild Magic Surge&lt;/LSTag&gt; upon casting a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt;.</content>
 	<content contentuid="h6f514ee7f67742a0a2c7d31f0781cfc18f8d" version="1">Affected creature may trigger a negative &lt;LSTag Type="Passive" Tooltip="WildMagic"&gt;Wild Magic Surge&lt;/LSTag&gt; upon casting a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt;.</content>
 
-	<content contentuid="h74f108b4bca44432817e2073c11abc4ff1c7" version="1">Karsus' Avatar</content>
+	<content contentuid="h74f108b4bca44432817e2073c11abc4ff1c7" loreTexts="true" version="1">Secrets of Myth Drannor</content>
 	<content contentuid="hde1e219dfff942a580ec7668847a32bdfd18" version="1">Your Spells and &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt; that only select one target can now select three separate targets.</content>
 	
 <content contentuid="0000000000000000000000000000000000000" version="1">TYRANT</content>
