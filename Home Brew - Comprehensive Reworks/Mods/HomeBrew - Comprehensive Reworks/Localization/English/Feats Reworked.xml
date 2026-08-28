@@ -426,23 +426,23 @@
 
 
 
-	<content contentuid="5f53f9c9-b42a-4e56-9fba-d45cba561f06" version="1">Yokebreaker: College of Captivation</content>
-	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df05" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Captivation"&gt;College of Captivation Bard&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="5f53f9c9-b42a-4e56-9fba-d45cba561f06" loreTexts="true" version="1">Yokebreaker: New Ollamh College</content>
+	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df05" loreTexts="true" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Captivation"&gt;New Ollamh Bard&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
-	<content contentuid="fde3ac3a-eedd-4b43-8f27-e60d0860e923" version="1">Yokebreaker: College of Lore</content>
-	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df06" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Lore"&gt;College of Lore Bard&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="fde3ac3a-eedd-4b43-8f27-e60d0860e923" loreTexts="true" version="1">Yokebreaker: Fochlucan House</content>
+	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df06" loreTexts="true" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Lore"&gt;FochlucanS Bard&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
-	<content contentuid="94c029af-fb65-4fbe-b723-613f9b0d233e" version="1">Yokebreaker: College of Moriendi</content>
-	<content contentuid="d5c9fabe-0777-4b6e-8ddf-d3670d678ccb" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Moriendi"&gt;College of Moriendi Bard&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="94c029af-fb65-4fbe-b723-613f9b0d233e" loreTexts="true" version="1">Yokebreaker: Ruins of Canaith</content>
+	<content contentuid="d5c9fabe-0777-4b6e-8ddf-d3670d678ccb" loreTexts="true" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Moriendi"&gt;Canaith Bard&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
-	<content contentuid="17b4e26e-6836-48c3-86f6-184a2b348426" version="1">Yokebreaker: College of Nostalgia</content>
-	<content contentuid="b340d652-5879-4a35-984e-50b92122f161" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Nostalgia"&gt;College of Nostalgia Bard&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="17b4e26e-6836-48c3-86f6-184a2b348426" loreTexts="true" version="1">Yokebreaker: Elfsong Haunt</content>
+	<content contentuid="b340d652-5879-4a35-984e-50b92122f161" loreTexts="true" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Nostalgia"&gt;Elfsong Bard&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
-	<content contentuid="3703a8f9-0db1-44ab-8766-4c5027e0a3ef" version="1">Yokebreaker: College of Steel</content>
-	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df07" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Steel"&gt;College of Steel Bard&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="3703a8f9-0db1-44ab-8766-4c5027e0a3ef" loreTexts="true" version="1">Yokebreaker: MacFuirmidh Skald</content>
+	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df07" loreTexts="true" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Steel"&gt;MacFuirmidh Bard&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
-	<content contentuid="3ce50dbe-92b5-43e5-8d90-1102c4056cf9" version="1">Yokebreaker: College of Valour</content>
-	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df08" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Valour"&gt;College of Valour Bard&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="3ce50dbe-92b5-43e5-8d90-1102c4056cf9" loreTexts="true" version="1">Yokebreaker: Twilight Hall</content>
+	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df08" loreTexts="true" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Valour"&gt;Twilight Hall Bard&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
 
 

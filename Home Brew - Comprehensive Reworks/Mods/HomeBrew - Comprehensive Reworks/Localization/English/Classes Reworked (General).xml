@@ -704,12 +704,12 @@
 	<content contentuid="h7ee37cc71e0c41a48da2d6df19815c6529e6" loreTexts="true" version="1">Barbarian: Wild Weave's Thread</content>
 	<content contentuid="hda932ea0461d44f892254ee645d855000006" loreTexts="true" version="1">Barbarian: Black-Barbed Curse</content>
 
-	<content contentuid="h64b0fa64a67f4e20bb166b95c40999270d36" version="1">Bard: College of Captivation</content>
-	<content contentuid="h55dffb99b6624d6dadaadbc793e2923400cd" version="1">Bard: College of Lore</content>
-	<content contentuid="ee555ab1ab2342fcba14e5536443952900001" version="1">Bard: College of Moriendi</content>
-	<content contentuid="h084ed28ed7454e629237c972eff098409040" version="1">Bard: College of Steel</content>
-	<content contentuid="04384b7fb68c4ff3a97d71e881e058740000a" version="1">Bard: College of Nostalgia</content>
-	<content contentuid="h9250ba68eb664a1cb210c08a3c89e7eeg248" version="1">Bard: College of Valour</content>
+	<content contentuid="h64b0fa64a67f4e20bb166b95c40999270d36" loreTexts="true" version="1">Bard: New Ollamh College</content>
+	<content contentuid="h55dffb99b6624d6dadaadbc793e2923400cd" loreTexts="true" version="1">Bard: Fochlucan House</content>
+	<content contentuid="ee555ab1ab2342fcba14e5536443952900001" loreTexts="true" version="1">Bard: Ruins of Canaith</content>
+	<content contentuid="h084ed28ed7454e629237c972eff098409040" loreTexts="true" version="1">Bard: MacFuirmidh Skald</content>
+	<content contentuid="04384b7fb68c4ff3a97d71e881e058740000a" loreTexts="true" version="1">Bard: Elfsong Haunt</content>
+	<content contentuid="h9250ba68eb664a1cb210c08a3c89e7eeg248" loreTexts="true" version="1">Bard: Twilight Hall</content>
 
 	<content contentuid="had7693e9874e466b8b9501021d0feb43d844" version="1">Cleric: Death Domain</content>
 	<content contentuid="had7693e9874e466b8b9501021aslduif9pwe" version="1">Cleric: Forge Domain</content>
