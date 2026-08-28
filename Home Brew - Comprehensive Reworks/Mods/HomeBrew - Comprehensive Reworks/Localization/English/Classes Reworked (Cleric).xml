@@ -63,7 +63,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">DEATH DOMAIN</content>
 
 	<content contentuid="h695df0c5g7b1eg47a1gbc9eg7f54a0fde1b4" version="1">Death Domain</content>
-	<content contentuid="h3063c312g64f5g4715g9339g241ee234d585" version="1">You nourish your faith on forces that make dealings in death, giving rise to desolate plague and putrid necrosis alike.</content>
+	<content contentuid="h3063c312g64f5g4715g9339g241ee234d585" loreTexts="true" version="1">Your patron deity holds sway over the last breath and the unquiet grave. At each midnight you pray for the power to spread withering diseases and to make corpse-slaves out of the living.</content>
 	
 	<content contentuid="h6cc498f5g13a0g4dc1g8c91gff3580c00001" version="2">Corpse Party</content>
 	<content contentuid="heec87dfbg454fg4550g8622gb200a670000a" version="2">Gain the ability to detonate nearby corpses, dealing Necrotic damage to all creatures in a [1] radius. This action may also target Undead creatures.&lt;br&gt;&lt;br&gt;When damaging an enemy, this action will always apply one stack of &lt;LSTag Type="Status" Tooltip="PLAGUEOFROT"&gt;Curse of Rot&lt;/LSTag&gt;.</content>
@@ -97,10 +97,10 @@
 	<content contentuid="h6cc498f5g13a0g4dc1g8c91gff3580c000z6" version="2">Death of the Firstborns</content>
 	<content contentuid="heec87dfbg454fg4550g8622gb200a67000zf" version="2">Affected creature is &lt;LSTag Tooltip="Vulnerable"&gt;Vulnerable&lt;/LSTag&gt; to all damage for one turn.</content>
 
-<content contentuid="0000000000000000000000000000000000000" version="1">FORGE DOMAIN</content>
+<content contentuid="0000000000000000000000000000000000000" version="1">FORGE DOMAIN</content>S
 
 	<content contentuid="h695df0c5g7b1eg47a16se8f5e6f5e8f898f7" version="1">Forge Domain</content>
-	<content contentuid="h3063c312g64f5g471a6sd5f2ef5d4fe5f254" version="1">Your faith sparks divine fire lit within the firmament of your belief, smelted in an act of holy ambition. A raging inferno held in hand to strike true and just.</content>
+	<content contentuid="h3063c312g64f5g471a6sd5f2ef5d4fe5f254" loreTexts="true" version="1">Your patron deity above all prizes the blazing of embers and the singing of anvils. At each sunrise you pray for the power to hammer the world into shape and your foes into ashes.</content>
 
 	<content contentuid="h695df0c5g7b1eg47a16se8f5e6f5e8f89801" version="1">Divine Embers</content>
 	<content contentuid="h3063c312g64f5g471a6sd5f2ef5d4fe5f20a" version="1">Gain the ability to call a divine hammer to your hand. As you level within Cleric, it will deal additional damage and gain new effects.&lt;br&gt;&lt;br&gt;In addition, when dealing damage to an enemy, you deal additional Fire damage equal to your levels in Cleric. This bonus does not apply to damage dealt with an off-hand weapon.&lt;br&gt;&lt;br&gt;Furthermore, upon dealing Fire damage to an enemy, you generate one stack of &lt;LSTag Type="Status" Tooltip="MAG_FIRE_HEAT"&gt;Heat&lt;/LSTag&gt;.</content>
@@ -139,7 +139,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">ILLUSORY DOMAIN</content>
 
 	<content contentuid="1532e50122e94186bab1a621b059dbed00000" version="1">Illusory Domain</content>
-	<content contentuid="1532e50122e94186bab1a621b059dbedzzzzz" version="1">Your faith is one of occlusion and obscurity. Secrets forged in shadow, bound in rites which elude all but the most devout of followers.</content>
+	<content contentuid="1532e50122e94186bab1a621b059dbedzzzzz" loreTexts="true" version="1">Your patron deity softly echoes in whispered lies and shadows that wear a thousand faces. At each nightfall you pray for the power to cloud mortal senses and to grind minds into lunacy.</content>
 
 	<content contentuid="1532e50122e94186bab1a621b059dbed00001" version="1">Veilcasting</content>
 	<content contentuid="1532e50122e94186bab1a621b059dbed0000a" version="1">If they are not currently &lt;LSTag Type="Status" Tooltip="INVISIBILITY_BLOCKER"&gt;Revealed&lt;/LSTag&gt;, directly targeting an ally with a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; will cause them to become &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; for three turns. This can be toggled at any time.&lt;br&gt;&lt;br&gt;Additionally, upon causing a creature to become &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; through Veilcasting, all enemies within [1] of them receive [2]. This damage increases alongside your levels in Cleric.</content>
@@ -165,6 +165,8 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">LIFE DOMAIN</content>
 
+	<content contentuid="hffe95a98g1b1fg4fdfg9094g8c86867e28ab" loreTexts="true" version="1">Your patron deity cherishes and nurtures the first breath and the beating heart. At each dawn you pray for the power to mend grievous wounds and to shield your flock from harm.</content>
+
 	<content contentuid="h67fe33fdg46c1g415bg95c6g20291e26lc01" version="1">Virtuous Touch</content>
 	<content contentuid="hb803dc22g3235g468fgb4c5g4746de76lc01" version="1">Upon healing a another creature, the target regains additional &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; equal to your level.</content>
 
@@ -188,6 +190,8 @@
 	<content contentuid="hb803dc22g3235g468fgb4c5g4746de76lc09" version="1">&lt;LSTag Type="Spell" Tooltip="Shout_PreserveLife"&gt;Preserve Life&lt;/LSTag&gt; is now able to target the corpses of fallen allies. Targeting a dead ally with Preserve Life will resurrect them with all of their &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">TEMPEST DOMAIN</content>
+
+    <content contentuid="h787e611egd1a7g4273gb076gcf105708e862" version="2" loreTexts="true">Your patron deity manifests in the raging sea, the freezing wind, and the rolling of thunder. At each sunset you pray for the power to command the storms and to call down lightning upon your enemies.</content>
 
 	<content contentuid="ha24a3a6cg38bbg4ef4g8aa3g2a86a454tc01" version="1">Discharge</content>
 	<content contentuid="hd9f3cddag9dc3g44dfg965ag71389787tc01" version="1">Once per action, when dealing damage to a creature, you create projectiles of Cold, Lightning, or Thunder. These projectiles jump to two other enemies within [1] of your target, dealing damage equal to your levels in Cleric to all three targets.</content>
@@ -232,6 +236,8 @@
 	<content contentuid="h7f986d84g57d9g4522gae69gcbde1c6123a4" version="2">When you deal Cold, Lightning or Thunder damage to an enemy, your target must succeed a Constitution based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or become &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stunned&lt;/LSTag&gt;.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">WAR DOMAIN</content>
+
+	<content contentuid="haf4704d6gba0bg4c46gb1eeg1740b978db08" loreTexts="true" version="3">Your patron deity exalts the roar of battle and the glory won by struggle. At each dawn you pray for the power to strike your foes with divine fury and to steel the hearts of your allies.</content>
 
 	<content contentuid="h994500d0g1703g421bg8028g0f3a3103c858" version="2">Radiant Strikes</content>
 	<content contentuid="hf729263eg37dcg43fbg923cg24cc642f6773" version="2">When you deal damage to an enemy, you deal an additional [1].</content>
