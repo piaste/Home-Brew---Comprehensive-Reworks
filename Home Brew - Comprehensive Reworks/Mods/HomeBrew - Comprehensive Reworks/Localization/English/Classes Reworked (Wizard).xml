@@ -51,7 +51,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">ARCBLADE</content>
 
-	<content contentuid="h94981fe3g720cg4a5dga655g1191bf437278" loreTexts="true" version="1">Anarchs of Shyr Tradition</content>
+	<content contentuid="h94981fe3g720cg4a5dga655g1191bf437278" loreTexts="true" version="1">Anarchs of Shyr School</content>
 	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad9a6207" loreTexts="true" version="1">You studied magic with adventuring swordmages, familiar with the magical bladework spread by the stormsoul genasi of Shyr and Akanûl.</content>
 
 	<content contentuid="h94981fe3g720cg4a5dga655g1191bf400002" version="1">Steelforged Arcana</content>
@@ -96,7 +96,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">ARCANE WARDEN</content>
 
-	<content contentuid="h90758993g0e2dg426fgb19dg2376b539acf9" loreTexts="true" version="1">Coronal Guards Tradition</content>
+	<content contentuid="h90758993g0e2dg426fgb19dg2376b539acf9" loreTexts="true" version="1">Coronal Guards School</content>
 	<content contentuid="h5b05b200g4933g4807gbd1dgd39cade9e34b" loreTexts="true" version="1">You studied magic with professional spellguards, familiar with the defensive techniques developed by the elite elvish &lt;i&gt;armathors&lt;/i&gt; of Myth Drannor.</content>
 	<content contentuid="h7bfd2340gd0f4g425fgb3e9gd2331d75c6ef" version="2">Arcane Ward</content>
 	<content contentuid="h3ec48f72g32f6g4ce7gb7e1ge8d681582f75" version="2">The first Spell you cast each turn charges a magical ward around you. The ward absorbs damage done to you equal to the number of charges remaining. When it is reduced to 0 charges remaining, you take the remaining damage. You are also capable of projecting your ward to an ally, reducing the damage they would take.&lt;br&gt;&lt;br&gt;Casting Spells adds charges to the ward equal to the level of the Spell cast. The maximum amount of ward charges you may have at any time is equal to your level in Wizard. While your Arcane Ward is active, you will be considered to be a preferred target.</content>
@@ -126,7 +126,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">ELEMENTALIST</content>
 
-	<content contentuid="51a9b0aeb5c646d7a60393a2c39ff5ec00000" loreTexts="true" version="1">Zakharan Sha'ir Tradition</content>
+	<content contentuid="51a9b0aeb5c646d7a60393a2c39ff5ec00000" loreTexts="true" version="1">Zakharan Sha'ir School</content>
 	<content contentuid="51a9b0aeb5c646d7a60393a2c39ff5eczzzzz" loreTexts="true" version="1">You studied magic with far-travelling wizards, familiar with the elemental summoning rituals practiced in the deserts of the remote Land of Fate.</content>
 
 	<content contentuid="51a9b0aeb5c646d7a60393a2c39ff5ec00001" loreTexts="true" version="1">Calling the Janni</content>
@@ -167,7 +167,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">EVOKER</content>
 
-	<content contentuid="h727905b8g38bdg4c23gb9dcgdf7dce904ee9" loreTexts="true" version="1">Cormyr War Wizards Tradition</content>
+	<content contentuid="h727905b8g38bdg4c23gb9dcgdf7dce904ee9" loreTexts="true" version="1">Cormyr War Wizards School</content>
 	<content contentuid="he03bcffeg9447g47cfgbe07g4ef50cb2606d" loreTexts="true" version="1">You studied magic with hardened battlemages, familiar with the finest tactics and doctrines of the College of War Wizards in Suzail.</content>
 
 	<content contentuid="h445d84b5g0c9bg4349g8c4bg54f039bb4054" version="2">Sculpt Spells</content>
@@ -190,7 +190,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">LUMINAL CONFLUENCE</content>
 
-	<content contentuid="hc31dc575g4407g476as65d4f58es52fe15f1" loreTexts="true" version="1">Netherese Variators Tradition</content>
+	<content contentuid="hc31dc575g4407g476as65d4f58es52fe15f1" loreTexts="true" version="1">Netherese Variators School</content>
 	<content contentuid="h882cb4d7g2c6a65a6s48fe2s6ef546s5ef45" loreTexts="true" version="2">You studied magic with erudite teachers, familiar with the surviving writings of the Netherese elementalist Yrix Alquinnar and the Variators of Eileanar.</content>
 
 	<content contentuid="hc31dc575g4407g476as65d4f58es52000000" loreTexts="true" version="2">Yrix's Sieve</content>
@@ -314,7 +314,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">NECROMANCER</content>
 
-	<content contentuid="hc31dc575g4407g4761gb859g32a5960e693a" loreTexts="true" version="1">Thayan Necromancers Tradition</content>
+	<content contentuid="hc31dc575g4407g4761gb859g32a5960e693a" loreTexts="true" version="1">Thayan Necromancers School</content>
 	<content contentuid="h882cb4d7g2c6ag47d3g998dgaca2f619e3e7" loreTexts="true" version="2">You studied magic with unscrupulous occultists, familiar with the dark arts of undeath taught in the secretive enclaves of the Red Wizards.</content>
 
 	<content contentuid="h89c2a75ag2f4fg4d83g9e66g81575b95f1c4" version="2">Necromantic Apprentice</content>

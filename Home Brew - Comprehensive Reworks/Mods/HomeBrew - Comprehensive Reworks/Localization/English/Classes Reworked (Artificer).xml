@@ -168,7 +168,7 @@
 	<content contentuid="52fe1476d95548e2a19d5671c3e15071000z1" version="1">Arming Grenade</content>
 	<content contentuid="52fe1476d95548e2a19d5671c3e15071000za" version="2">Throw a grenade which detonates after an arming period.</content>
 
-	<content contentuid="52fe1476d95548e2a19d5671c3e1507100002" version="1">Shockwave Theory</content>
+	<content contentuid="52fe1476d95548e2a19d5671c3e1507100002" version="1">Shockwave School</content>
 	<content contentuid="52fe1476d95548e2a19d5671c3e150710000b" version="2">Dealing damage with your grenades and explosives forces your targets &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
 
 	<content contentuid="52fe1476d95548e2a19d5671c3e1507100003" version="1">Explosive Ammunition</content>

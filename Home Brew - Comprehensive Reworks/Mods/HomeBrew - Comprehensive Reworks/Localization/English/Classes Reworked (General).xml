@@ -774,12 +774,12 @@
 	<content contentuid="5b9c6b9f8fb541f3839d6c3738507a9c00009" version="1">Warlock: Pact of Severance</content>
 	<content contentuid="h4eda45b1312b481bbdb967db21001156768a" version="1">Warlock: Pact of the Tome</content>
 
-	<content contentuid="h7a8fbc177eec490588472d84bb58ffdd6266" loreTexts="true" version="1">Wizard: Anarchs of Shyr Tradition</content>
-	<content contentuid="h4eb2a8ec440643a49fcb8159c8ba72df4689" loreTexts="true" version="1">Wizard: Coronal Guards Tradition</content>
-	<content contentuid="5b9c6b9f8fb541f3839d6c3738507a9c00010" loreTexts="true" version="1">Wizard: Zakharan Sha'ir Tradition</content>
-	<content contentuid="he3784714c0d84b9e9326b760ead1364c71g7" loreTexts="true" version="1">Wizard: Cormyr War Wizards Tradition</content>
-	<content contentuid="h297875b8c2474e7ca666ffeba2832cd21893" loreTexts="true" version="1">Wizard: Thayan Necromancers Tradition</content>
-	<content contentuid="he3784714c0d84b9e6689b760ea3s5d2e5888" loreTexts="true" version="1">Wizard: Netherese Variators Tradition</content>
+	<content contentuid="h7a8fbc177eec490588472d84bb58ffdd6266" loreTexts="true" version="1">Wizard: Anarchs of Shyr School</content>
+	<content contentuid="h4eb2a8ec440643a49fcb8159c8ba72df4689" loreTexts="true" version="1">Wizard: Coronal Guards School</content>
+	<content contentuid="5b9c6b9f8fb541f3839d6c3738507a9c00010" loreTexts="true" version="1">Wizard: Zakharan Sha'ir School</content>
+	<content contentuid="he3784714c0d84b9e9326b760ead1364c71g7" loreTexts="true" version="1">Wizard: Cormyr War Wizards School</content>
+	<content contentuid="h297875b8c2474e7ca666ffeba2832cd21893" loreTexts="true" version="1">Wizard: Thayan Necromancers School</content>
+	<content contentuid="he3784714c0d84b9e6689b760ea3s5d2e5888" loreTexts="true" version="1">Wizard: Netherese Variators School</content>
 
 	<content contentuid="h4d0c77c3g56aag4077g80c4g3bk231251215" version="1">The Sound of Silence</content>
 	<content contentuid="h078069acgf62bg4c64g9322938r645686545" version="1">Through magic, you convey your &lt;LSTag Type="Spell" Tooltip="Shout_Bard_Perform_Whistle"&gt;Performances&lt;/LSTag&gt; without making a sound, halving their effectiveness, but allowing you to act freely. While performing, you may also toggle this in order to end your Performance.</content>
