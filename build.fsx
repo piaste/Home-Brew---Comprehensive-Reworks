@@ -92,7 +92,7 @@ let version =
     
     |> _.Attribute(XName.Get "value").Value
     |> System.Int64.Parse
-    |> LSLib.LS.PackedVersion.FromInt64
+    |> PackedVersion.FromInt64
     |> fun pv -> sprintf "%i.%i.%i.%i" pv.Major pv.Minor pv.Revision pv.Build
 
 
@@ -105,6 +105,20 @@ let outputPak, outputZip =
 
     in outputBase + ".pak", outputBase + $"-{version}.zip"
 
+// set this to get the actual version int64
+let testv = None // Some (Version(9, 2, 7))
+match testv with
+| None -> ()
+| Some (v : Version) ->
+    PackedVersion(Major = uint32 v.Major, Minor = uint32 v.Minor, Build = uint32 v.Build, Revision = uint32 v.Revision).ToVersion64()
+    |> printfn "Version code: %i"
+
+    // if you need to revert a code
+    324681383488258055L
+    |> PackedVersion.FromInt64
+    |> fun pv -> printfn "%i.%i.%i.%i" pv.Major pv.Minor pv.Revision pv.Build
+    
+    exit 0
 
 // actual build
 do File.Delete outputPak
