@@ -23,7 +23,7 @@
 
 <content contentuid="h402b1bfeg3f47g43c5ga481g2fddcd3e6972" version="1">Any class can use any piece of gear. Have a specific class fantasy in mind? You can build it!</content>
 
-<content contentuid="h5e550837g8575g4196ga376g55ea38a18e45" version="1">Zetherists are capable of swapping between their guns without expending resources.</content>
+<content contentuid="h5e550837g8575g4196ga376g55ea38a18e45" loreTexts="true" version="1">Wrights are capable of swapping between their guns without expending resources.</content>
 
 <content contentuid="hea0be49bg4758g42e0gab48gef901ee00fda" version="1">To keep their Rage going, Barbarians must score at least one kill or Critical Hit every three turns. Doing so will reset the duration of their Rage.</content>
 

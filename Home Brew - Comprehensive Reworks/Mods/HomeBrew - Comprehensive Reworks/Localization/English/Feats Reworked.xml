@@ -52,8 +52,8 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">CLASS SPECIALIST</content>
 
-	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa2d1f2" version="2">Class Specialist: Zetherist</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa6s8d5" version="4">Select two passives from the Zetherist passives list.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa2d1f2" loreTexts="true" version="2">Class Specialist: Wright</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa6s8d5" loreTexts="true" version="4">Select two passives from the Wright passives list.</content>
 
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa00006" version="2">Class Specialist: Barbarian</content>
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa0000f" version="4">Select two passives from the Barbarian passives list.</content>
@@ -389,22 +389,22 @@
 	<content contentuid="51f62a65-694d-424a-8437-b90074fe975f" version="1">Selecting a subclass you already have levels in will typically provide no benefit.&lt;Br&gt;&lt;br&gt;Spells gained via Yokebreaker cannot be upcast.</content>
 
 	<content contentuid="be31014b-2a27-4970-b6d6-c95bde200001" version="1">Yokebreaker: Arcanist</content>
-	<content contentuid="be31014b-2a27-4970-b6d6-c95bde20000a" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Arcanist"&gt;Arcanist Zetherist&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="be31014b-2a27-4970-b6d6-c95bde20000a" loreTexts="true" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Arcanist"&gt;Arcanist Wright&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
 	<content contentuid="be31014b-2a27-4970-b6d6-c95bde200002" version="1">Yokebreaker: Artillerist</content>
-	<content contentuid="be31014b-2a27-4970-b6d6-c95bde20000b" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Artillerist"&gt;Artillerist Zetherist&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="be31014b-2a27-4970-b6d6-c95bde20000b" loreTexts="true" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Artillerist"&gt;Artillerist Wright&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
 	<content contentuid="be31014b-2a27-4970-b6d6-c95bde200003" version="1">Yokebreaker: Battle Synthetic</content>
-	<content contentuid="be31014b-2a27-4970-b6d6-c95bde20000c" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_BattleSynthetic"&gt;Battle Synthetic Zetherist&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="be31014b-2a27-4970-b6d6-c95bde20000c" loreTexts="true" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_BattleSynthetic"&gt;Battle Synthetic Wright&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
 	<content contentuid="7bd6ea09-9e0b-44bc-8d11-8b5dddf94853" version="1">Yokebreaker: Grenadier</content>
-	<content contentuid="b7a4daca-66d3-41e3-b29b-8d5b6090a751" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Grenadier"&gt;Grenadier Zetherist&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="b7a4daca-66d3-41e3-b29b-8d5b6090a751" loreTexts="true" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Grenadier"&gt;Grenadier Wright&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
 	<content contentuid="be31014b-2a27-4970-b6d6-c95bde200004" version="1">Yokebreaker: Infused Arcsmith</content>
-	<content contentuid="be31014b-2a27-4970-b6d6-c95bde20000d" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_InfusedArcsmith"&gt;Infused Arcsmith Zetherist&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="be31014b-2a27-4970-b6d6-c95bde20000d" loreTexts="true" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_InfusedArcsmith"&gt;Infused Arcsmith Wright&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
 	<content contentuid="1a9d3485-d1ed-4672-86e1-427bff9b0658" version="1">Yokebreaker: Striker</content>
-	<content contentuid="ad7d0046-12ae-4cb0-90c7-85df2ee3bc46" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Striker"&gt;Striker Zetherist&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="ad7d0046-12ae-4cb0-90c7-85df2ee3bc46" loreTexts="true" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Striker"&gt;Striker Wright&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
 
 

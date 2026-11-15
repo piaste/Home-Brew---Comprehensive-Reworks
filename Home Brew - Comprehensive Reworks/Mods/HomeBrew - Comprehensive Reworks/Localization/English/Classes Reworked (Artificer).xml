@@ -14,11 +14,11 @@
 	<content contentuid="66523fb3deaa14de1766304e096s5d4f68e54" version="1">Ammunition: 3</content>
 	<content contentuid="77523fb3deaa14de1766304e09s56ef956e84" version="2">Gain three shots of ammunition to fire your currently equipped firearms unique actions. You may restore your supply of Ammunition by &lt;LSTag Type="Spell" Tooltip="Shout_Reload_Firearm"&gt;Reloading&lt;/LSTag&gt;, or by finishing a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;. Ammunition is also reloaded automatically at the end of each combat encounter.</content>
 
-	<content contentuid="66523fb3deaa14de1766304e0911fbc49ae66" version="1">Zetherist</content>
-	<content contentuid="77523fb3deaa14de1766304e0911fbc49ae77" version="2">Commonly known as Artificers, Zetherists utilize magic to unlock extraordinary capabilities in objects. They view magic as a complex system waiting to be harnessed.</content>
+	<content contentuid="66523fb3deaa14de1766304e0911fbc49ae66" loreTexts="true" version="1">Wright</content>
+	<content contentuid="77523fb3deaa14de1766304e0911fbc49ae77" loreTexts="true" version="2">Also known as Artificers or Zetherists, Wrights channel their magic into objects and substances.</content>
 
 	<content contentuid="h509b8e00gacb9g46e8d5f4e5fee8d5f00001" version="1">Firepower</content>
-	<content contentuid="h509b8e00gacb9g46e8d5f4e5fee8d5f0000a" version="2">Gain three firearms, each with unique uses. As you level within Zetherist, they will deal additional damage and gain new effects.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Swapping your firearms may be done at any time, and will not consume a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;.</content>
+	<content contentuid="h509b8e00gacb9g46e8d5f4e5fee8d5f0000a" loreTexts="true" version="2">Gain three weapons powered by magical &lt;i&gt;smokepowder&lt;/i&gt;, each with unique uses. As you level as a Wright, they will deal additional damage and gain new effects.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Swapping your firearms may be done at any time, and will not consume a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h509b8e00gacb9g46e8d5f4e5fee8d5f00002" version="1">Improved Firepower</content>
 	<content contentuid="h509b8e00gacb9g46e8d5f4e5fee8d5f0000b" version="2">Your firearms have drastically improved craftsmanship. They deal additional damage and have new effects.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Swapping your firearms may be done at any time, and will not consume a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;.</content>
@@ -52,7 +52,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">ARCANIST</content>
 
 	<content contentuid="34523fb3deaa14de1766304e0911fbc49ae33" version="1">Arcanist</content>
-	<content contentuid="45523fb3deaa14de1766304e0911fbc49ae44" version="2">Experts at combining the arcane with machinery to produce mystical effects, the oldest of Zetherist traditions. An Arcanist's versatility has long been valued during times of both war and peace.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Control/Damage</content>
+	<content contentuid="45523fb3deaa14de1766304e0911fbc49ae44" loreTexts="true" version="2">Experts at combining the arcane with machinery to produce mystical effects, the oldest of Wright traditions. An Arcanist's versatility has long been valued during times of both war and peace.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Control/Damage</content>
 
 	<content contentuid="h509b8e00gacb9g46e8d56sd5f2e8d5f00001" version="1">The Right Tools for the Job</content>
 	<content contentuid="h509b8e00gacb9g46e8d5ffs5e8f5e5f0000a" version="2">You may select two of any Spell per level. However, Spells you select must be equipped from your Spellbook. The number of Spells that can be equipped at any given time is equal to your level added to your &lt;LSTag Tooltip="AbilityModifier"&gt;Intelligence Modifier&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;In addition, your firearms utilize your &lt;LSTag Tooltip="SpellcastingAbilityModifier"&gt;Spellcasting Ability&lt;/LSTag&gt; for &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and damage.</content>
@@ -60,7 +60,7 @@
 	<content contentuid="h509b8e00gacb9g46e8d5ffs5e8f5e5f000za" version="10">Affected weapon is magical, utilizing its owners &lt;LSTag Tooltip="SpellcastingAbilityModifier"&gt;Spellcasting Ability&lt;/LSTag&gt; for &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and damage.</content>
 
 	<content contentuid="h509b8e00gacb9g46e8d56sd5f2e8d5f00002" version="1">Mystic Reload</content>
-	<content contentuid="h509b8e00gacb9g46e8d5ffs5e8f5e5f0000b" version="2">Once per turn, upon landing a Killing Blow with a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt;, you restore a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;. The level of the Spell Slot restored is equal to half of your levels in Zetherist, rounded up.</content>
+	<content contentuid="h509b8e00gacb9g46e8d5ffs5e8f5e5f0000b" loreTexts="true" version="2">Once per turn, upon landing a Killing Blow with a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt;, you restore a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;. The level of the Spell Slot restored is equal to half of your levels in Wright, rounded up.</content>
 
 	<content contentuid="h509b8e00gacb9g46e8d56sd5f2e8d5f00003" version="1">Arcane Ballistic</content>
 	<content contentuid="h509b8e00gacb9g46e8d5ffs5e8f5e5f0000c" version="2">Casting a Spell allows you to make a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt; as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; for the rest of your turn.</content>
@@ -262,7 +262,7 @@
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc400018" version="1">Optimization: Spell Calibration Sequence</content>
 	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40000r" version="2">Grant allies a +1 bonus to their &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt; upon &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infusing&lt;/LSTag&gt; them.</content>
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc400019" version="1">Optimization: Spell Slot Bypass</content>
-	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40000s" version="2">Allies you &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; regain a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; equal to half your levels in Zetherist, rounded up.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; No extended effect when Infusing the same ally multiple times.</content>
+	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40000s" version="2">Allies you &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; regain a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; equal to half your levels in Wright, rounded up.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; No extended effect when Infusing the same ally multiple times.</content>
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc400020" version="1">Optimization: Stability Matrix</content>
 	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40000t" version="2">Grant allies &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; upon &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infusing&lt;/LSTag&gt; them.</content>
 
@@ -503,7 +503,7 @@
 	<content contentuid="h691a4d59f41f4427978220a7c85d3cc70922" version="1">Affected creature has entered a crouched stance, doubling their musket's range and the bonus damage provided by &lt;LSTag Type="Passive" Tooltip="BootsontheGround"&gt;Boots on the Ground&lt;/LSTag&gt;. While in this crouched stance, their &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; are made with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;, consume one round of &lt;LSTag Type="ActionResource" Tooltip="FirearmAmmo"&gt;Ammunition&lt;/LSTag&gt;, and their &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; is reduced to zero.</content>
 
 	<content contentuid="h509b8e00gacb9g46e8d55s6d5f4ef4500000" version="1">Summon Firearms</content>
-	<content contentuid="h509b8e00gacb9g46e8d5f4e6as8dfe800000" version="2">Summon one of three unique firearms. As you level in Zetherist, they will deal additional damage and gain new effects.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Summoning your firearms may be done at any time as a free action.</content>
+	<content contentuid="h509b8e00gacb9g46e8d5f4e6as8dfe800000" loreTexts="true" version="2">Summon one of three unique firearms. As you level in Wright, they will deal additional damage and gain new effects.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Summoning your firearms may be done at any time as a free action.</content>
 	<content contentuid="h509b8e00gacb9g46e8d55s6d5f4ef4500001" version="1">Summon Blunderbuss</content>
 	<content contentuid="h509b8e00gacb9g46e8d5f4e6as8dfe80000a" version="2">Summon a blunderbuss, capable of dealing high damage to multiple targets at a short range.</content>
 	<content contentuid="h509b8e00gacb9g46e8d55s6d5f4ef4500002" version="1">Summon Flintlock</content>

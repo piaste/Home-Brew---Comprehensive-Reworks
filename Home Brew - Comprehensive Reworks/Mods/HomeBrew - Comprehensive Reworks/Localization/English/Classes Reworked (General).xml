@@ -715,12 +715,12 @@
 
 	<content contentuid="hb6964c304cb94ecfbf9e855a44188a1ede99" version="1">Subclass Randomizer</content>
 
-	<content contentuid="hb30ed2d16f384cfeab24d003aceee0c00001" version="1">Zetherist: Arcanist</content>
-	<content contentuid="h72cddc14e86d4ba589829b2d8c927f300002" version="1">Zetherist: Artillerist</content>
-	<content contentuid="h72cddc14e86d4ba589829b2d8c95sdf00003" version="1">Zetherist: Battle Synthetic</content>
-	<content contentuid="5c47cf647c2047debf86a2bf2a73b57d00001" version="1">Zetherist: Grenadier</content>
-	<content contentuid="hda932ea0461d44f892254ee645d855000004" version="1">Zetherist: Infused Arcsmith</content>
-	<content contentuid="hda932ea0461d44f892254ee645d855000005" version="1">Zetherist: Striker</content>
+	<content contentuid="hb30ed2d16f384cfeab24d003aceee0c00001" loreTexts="true" version="1">Wright: Arcanist</content>
+	<content contentuid="h72cddc14e86d4ba589829b2d8c927f300002" loreTexts="true" version="1">Wright: Artillerist</content>
+	<content contentuid="h72cddc14e86d4ba589829b2d8c95sdf00003" loreTexts="true" version="1">Wright: Battle Synthetic</content>
+	<content contentuid="5c47cf647c2047debf86a2bf2a73b57d00001" loreTexts="true" version="1">Wright: Grenadier</content>
+	<content contentuid="hda932ea0461d44f892254ee645d855000004" loreTexts="true" version="1">Wright: Infused Arcsmith</content>
+	<content contentuid="hda932ea0461d44f892254ee645d855000005" loreTexts="true" version="1">Wright: Striker</content>
 
 	<content contentuid="hb30ed2d16f384cfeab24d003aceee0ce0744" loreTexts="true" version="1">Barbarian: Uthgardt Telhut</content>
 	<content contentuid="h72cddc14e86d4ba589829b2d8c927f3d9304" loreTexts="true" version="1">Barbarian: Berserker Trance</content>
@@ -841,7 +841,7 @@
 	<content contentuid="115fb28f01e84e44b3536f4741b47c350000a" version="3">Spells are stronger than Cantrips, though they require &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slots&lt;/LSTag&gt; in order to cast.&lt;Br&gt;&lt;br&gt;As a Bard, you may select any Spell.</content>
 
 	<content contentuid="115fb28f01e84e44b3536f475sd5f4ef2f001" version="1">Spells</content>
-	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe5d0a" version="3">Spells are stronger than Cantrips, though they require &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slots&lt;/LSTag&gt; in order to cast.&lt;Br&gt;&lt;br&gt;As a Zetherist, you may select any Spell.</content>
+	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe5d0a" loreTexts="true" version="3">Spells are stronger than Cantrips, though they require &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slots&lt;/LSTag&gt; in order to cast.&lt;Br&gt;&lt;br&gt;As a Wright, you may select any Spell.</content>
 
 	<content contentuid="2308f2d16d384c75b3281d5bb3ce365d000a1" version="1">Cantrips</content>
 	<content contentuid="2308f2d16d384c75b3281d5bb3ce365d000aa" version="3">Cantrips are weaker than Spells, though they do not consume &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slots&lt;/LSTag&gt; when cast.</content>
