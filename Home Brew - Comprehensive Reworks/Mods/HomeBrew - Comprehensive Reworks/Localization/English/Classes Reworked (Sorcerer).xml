@@ -177,7 +177,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">HEMATIC MONARCH</content>
 	
 	<content contentuid="ec1b3d593aba4e20abc695282f20a1a100000" version="1">Hematic Monarch</content>
-	<content contentuid="ec1b3d593aba4e20abc695282f20a1a1zzzzz" version="1">Hematic Monarchs wield blood as both weapon and birthright. Their art is said to descend from Kiku, Vampiric Lord of Terror, who once taught that agony and rapture are but two pulses of the same beating heart.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage
+	<content contentuid="ec1b3d593aba4e20abc695282f20a1a1zzzzz" loreTexts="true" version="1">You were chosen by the Domains of Dread to become a Darklord of crimson tyranny. Though you fled the Mists, your marked soul inexorably calls all blood to heel. &lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage
 	</content>
 	
 	<content contentuid="ffd6d5a62dcb4878b49747e9a884a5f100001" version="1">There Will Be Blood</content>
