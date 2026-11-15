@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+
+	<content contentuid="h73905356gbdedg9101g74fcgba7ac69ba9hb" version="2">Arcane Barrage</content>
+	<content contentuid="hbd8b5855gd61cg5d0agd5cage4642cc576hb" version="1">Fire a barrage of three arcane bolts.</content>
+
+	<content contentuid="h4c929007gfcd5gf501g2aadgd1710575d8hb" version="2">Arcane Spheres</content>
+	<content contentuid="hae1ed21dgf03eg58a6ge421ge462c3311bhb" version="1">Restore an allies &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;, or siphon the life of a nearby enemy, storing it in up to three arcane spheres. For each arcane sphere you hold, you will roll an additional die when targeting a creature with this action.</content>
+	<content contentuid="h4c929007gfcd5gf501g2aadgd1710575d1hb" version="2">Arcane Spheres: 1</content>
+	<content contentuid="hae1ed21dgf03eg58a6ge421ge462c33111hb" version="1">Affected creature has absorbed the life of a nearby enemy, boosting their damage and healing capabilities.</content>
+	<content contentuid="h4c929007gfcd5gf501g2aadgd1710575d2hb" version="2">Arcane Spheres: 2</content>
+	<content contentuid="hae1ed21dgf03eg58a6ge421ge462c33112hb" version="1">Affected creature has absorbed the life of two nearby enemies, greatly boosting their damage and healing capabilities.</content>
+	<content contentuid="h4c929007gfcd5gf501g2aadgd1710575d3hb" version="2">Arcane Spheres: 3</content>
+	<content contentuid="hae1ed21dgf03eg58a6ge421ge462c33113hb" version="1">Affected creature has absorbed the life of three nearby enemies, massively boosting their damage and healing capabilities.</content>
+
+	<content contentuid="h81ec42d3gb750gaaf5g96d3g28cd5899d7hb" version="2">Piercing Torrent</content>
+	<content contentuid="hb4c8c5ffg6616ge12fgb840g9bcd22449ehb" version="1">Fire a piercing stream of concentrated water. The torrent will chain to one other creature who is &lt;LSTag Type="Status" Tooltip="WET"&gt;Wet&lt;/LSTag&gt; within [1] of your original target.</content>
+
+	<content contentuid="hef9fdfeagc1d3ga55bgfa01g8c39978792hb" version="2">Psionic Rush</content>
+	<content contentuid="h4723d704gb1eeg9455ga862g9d8f3708c9hb" version="1">Conjure a psionic shield and rush forward like a battering ram, potentially knocking creatures in your path &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h7abb4ab9g0f01g2d79g2e87g9f625088eahb" version="2">Telekinetic Hurl</content>
+	<content contentuid="h8acce70bgf089gbb7agab4fg8a0db10441hb" version="1">Telekinetically throw a nearby creature or object.</content>
+
+	<content contentuid="ha22e73c2gbee2gfcc3g99b1g88d9c3687ahb" version="2">Blood Offering</content>
+	<content contentuid="haf1b657bg7880g208fg4004g9c4507a73fhb" version="1">Harm yourself in order to harm multiple enemies, or to restore the &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; of multiple allies, by the same amount of dice. The damage you take by casting this Spell cannot be reduced.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Fighters&lt;br&gt;Paladins&lt;br&gt;Warlocks</content>
+
+	<content contentuid="hb5748101g7abcgcd28g7880ga7aa0e60d0hb" version="2">Rend Life</content>
+	<content contentuid="h9c290d9agccb3g59a0gd636g237ab057cdhb" version="1">Rend the very essence of life from a creature, reducing their maximum &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; by [1].&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Fighters&lt;br&gt;Paladins&lt;br&gt;Warlocks</content>
+	<content contentuid="hb5748101g7abcgcd28g7880ga7aa0e600zhb" version="2">Rend Life</content>
+	<content contentuid="h9c290d9agccb3g59a0gd636g237ab0570zhb" version="1">Affected creatrue's maximum &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; have been reduced by [1].</content>
+
+	<content contentuid="h7d999328g30c8gf2d1g5939g4f55610566hb" version="2">Soul Prism</content>
+	<content contentuid="h47a34b74g0f9cg39a1g90f1ge60ba84a4ehb" version="1">Trap the soul of a creature in a prism, providing you with [1].&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Druid&lt;br&gt;Paladins&lt;br&gt;Rangers</content>
+	<content contentuid="h7d999328g30c8gf2d1g5939g4f5561056zhb" version="2">Soul Prism</content>
+	<content contentuid="h47a34b74g0f9cg39a1g90f1ge60ba84a4zhb" version="1">Affected creature is shielded by the life force of the fallen, providing them with [1].</content>
+
+	<content contentuid="hd15a4332gcec4g7541gcad3g35d52c65c1hb" version="2">Conjure Will-o'-Wisps</content>
+	<content contentuid="h2f0d4352g60dagb221ga2beg36aca7238ahb" version="1">Conjure three Will-o'-Wisps, which can be directed to seek out enemies, dealing damage. If your target fails a Charisma based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;, the Wisp will seek out up to two other creatures.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Druid&lt;br&gt;Rangers&lt;br&gt;Rogues&lt;br&gt;Wizards</content>
+	<content contentuid="h5224588bgfae1gfe10gd946gfbb01d5e76hb" version="2">Surrounded by Will-o'-Wisps</content>
+	<content contentuid="hb402db05gc012gf3ceg3eeag5966507946hb" version="1">Affected creature is surrounded by three Will-o'-Wisps, which can be directed to seek out enemies. If their target fails a Charisma based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;, the Wisp will seek out up to two other creatures.</content>
+	<content contentuid="hbd56a254g7c92g71d6g37f0gee0f9edb23hb" version="2">Direct Will-o'-Wisps</content>
+	<content contentuid="h8edf99fcgcc59gf3aeg24a3gece603815fhb" version="1">Direct a Will-o'-Wisp to seek out an enemy. If your target fails a Charisma based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;, the Wisp will seek out up to two other creatures.</content>
+	<content contentuid="h5224588bgfae1gfe10gd946gfbb01d5e7hey" version="1">Hey, listen!</content>
+	<content contentuid="h5224588bgfae1gfe10gd946gfbb01d5ezhey" version="1">Affected creature has taken [1] due to the incessant chattering of a nearby Wisp...</content>
+
+	<content contentuid="h78a7505fgf662gc1d3g01b5gcc92e0b623hb" version="2">Invictus Aeterna</content>
+	<content contentuid="h869594c6g6b76gda3dgb5f4gf90a12ff8fhb" version="1">Target an allied corpse in order to surround yourself in soul stones for three turns. While between the stones, your allies will benefit from the effects of &lt;LSTag Type="Status" Tooltip="DEATH_WARD"&gt;Death Ward&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Fighters&lt;br&gt;Paladins&lt;br&gt;Warlocks</content>
+	<content contentuid="hc28c88d4g5ac9gba7cgc319g29991bfc2fhb" version="2">Invictus Aeterna</content>
+	<content contentuid="h4007b863g8c03gefb8g3955gfb7f20c90chb" version="1">Affected corpse is projecting &lt;LSTag Type="Status" Tooltip="DEATH_WARD"&gt;Death Ward&lt;/LSTag&gt; onto nearby allies.</content>
+
+	<content contentuid="haf307f6ega018g4f54g0c74ge5d850fb23hb" version="2">Corpse Binder</content>
+	<content contentuid="h32874cc0g8693g0bd1g81f5gde7450ce3ehb" version="1">Inflict a sense of overwhelming dread on all nearby creatures, preventing them from regaining &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Paladins&lt;br&gt;Rogues&lt;br&gt;Wizards</content>
+
+	<content contentuid="h298d2efeg6190g0bd9g7958gaf749b2be6hb" version="2">Tidal Wave</content>
+	<content contentuid="ha436b019gf4bbg0bd9g7482gb7b1684714hb" version="1">Throw enemies [1] backward with a sudden wave of overwhelming water.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Barbarians&lt;br&gt;Druid&lt;br&gt;Rangers&lt;br&gt;Sorcerers</content>
+
+	<content contentuid="h4c101928g3595g309ag46cfgaae6e7df25hb" version="2">Tears of Umberlee</content>
+	<content contentuid="h441988b8gb908g3659gd0bdg1e96c4ed8ahb" version="1">Fire three compressed bolts of water, potentially knocking foes &lt;LSTag Type='Status' Tooltip='PRONE'&gt;Prone&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Druid&lt;br&gt;Paladins&lt;br&gt;Rangers</content>
+
+	<content contentuid="hfb171ca7g339agdaecg9905gec290a892ehb" version="2">Torrential Spear</content>
+	<content contentuid="h859a33c0g4e47gb1a9g0337gef839ad2f8hb" version="1">Fire a hyper compressed current of water, piercing foes and leaving them with &lt;LSTag Type='Status' Tooltip='GAPING_WOUND'&gt;Gaping Wounds&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Barbarians&lt;br&gt;Druid&lt;br&gt;Rangers&lt;br&gt;Sorcerers</content>
+
+	<content contentuid="h2bcfa918g6b76g40bcgd4e9gd101e3435fhb" version="2">Blade Storm</content>
+	<content contentuid="hdf9f7daagdc01g80e0g5a4eg1b997ce2dbhb" version="1">Create a storm of swords which rain down over an area of your choice, causing your targets to &lt;LSTag Type='Status' Tooltip='BLEEDING'&gt;Bleed&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Druid&lt;br&gt;Fighters&lt;br&gt;Rangers&lt;br&gt;Warlocks</content>
+
+	<content contentuid="h4003b8a7gd252g4fd7g0e43gec98da3c49hb" version="2">Nature's Grasp</content>
+	<content contentuid="h43ffeb55gdfb2ga59cg2a1fgdcb5d577b2hb" version="1">Conjure poisonous roots around a creature and attempt to &lt;LSTag Type='Status' Tooltip='ENSNARED_VINES_DRUID'&gt;Ensnare&lt;/LSTag&gt; them.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Druid&lt;br&gt;Rangers&lt;br&gt;Rogues&lt;br&gt;Wizards</content>
+
+	<content contentuid="h3b80df1cge708gf7e5ge0a2g8ecce86c19hb" version="2">Nature's Embrace</content>
+	<content contentuid="h8c972475g1bd5g645egdacfgac7e209a46hb" version="1">Conjure rejuvenating roots within an area. Creatures within the area will regain the maximum amount of &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; possible when healed.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Druid&lt;br&gt;Paladins&lt;br&gt;Rangers</content>
+	<content contentuid="h1e139ce3gfa97g32e1g575agd39ff4ef3ehb" version="2">Nature's Embrace</content>
+	<content contentuid="h1162270fg6ffag90e9g2e63g2708578db8hb" version="1">Affected area is causing creatures standing within it to regain the maximum amount of &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; possible when healed.</content>
+	<content contentuid="h1e139ce3gfa97g32e1g575agd39ff4ef3zhb" version="2">Nature's Embrace</content>
+	<content contentuid="h1162270fg6ffag90e9g2e63g2708578dbzhb" version="1">Affected creature will regain the maximum amount of &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; possible when healed.</content>
+
+	<content contentuid="h050365e7gf1bagee83g469dg5978274a21hb" version="2">Acidic Pheromones</content>
+	<content contentuid="hdf5353d7gfa47g9786gc54fgf51a4afe0bhb" version="1">Fill the air with acidic pheromones, potentially causing creatures to lose their sense of self, driving them to &lt;LSTag Type='Status' Tooltip='MADNESS'&gt;Madness&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Druid&lt;br&gt;Fighters&lt;br&gt;Rangers&lt;br&gt;Warlocks</content>
+
+	<content contentuid="h7ce75a15gd755g039bg2976gaaee8295d7hb" version="2">Cragrain</content>
+	<content contentuid="hac8ad0d1ga258g8849gf876gb64ba51e6dhb" version="1">Cause three boulders to rain down on targets of your choice, potentially &lt;LSTag Type='Status' Tooltip='DAZED'&gt;Dazing&lt;/LSTag&gt; them.</content>
+
+	<content contentuid="h587d3372g0c5ag8f34g5f3dg3fc301daf9hb" version="2">Sand Coffin</content>
+	<content contentuid="he5275541gab80g03b6gfd46gb232e22155hb" version="1">Tear stone from the earth and completely encase a target of your choice, potentially &lt;LSTag Type='Status' Tooltip='CRIPPLED'&gt;Crippling&lt;/LSTag&gt; them.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Barbarians&lt;br&gt;Druid&lt;br&gt;Rangers&lt;br&gt;Sorcerers</content>
+
+	<content contentuid="h45f79938g4407g7290g16c9g0098e42ea2hb" version="2">Seismic Eruption</content>
+	<content contentuid="hac5874fcga93bgaa8fgc2b7g2a16634adchb" version="1">Raise a spiked pillar from the ground, potentially forcing any target hit to immediately fall &lt;LSTag Type='Status' Tooltip='PRONE'&gt;Prone&lt;/LSTag&gt;. The pillar leaves behind a boulder.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Barbarians&lt;br&gt;Druid&lt;br&gt;Rangers&lt;br&gt;Sorcerers</content>
+
+	<content contentuid="hef5a6b50g9933g9747g7dadg80d5d594f3hb" version="2">Scatter Shot</content>
+	<content contentuid="hccd358cdgceb5ga834g4689ge2e0e070c0hb" version="1">Scatter a group of sharpened rocks in a line, potentially causing any caught in their path to &lt;LSTag Type='Status' Tooltip='BLEEDING'&gt;Bleed&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Druid&lt;br&gt;Rangers&lt;br&gt;Rogues&lt;br&gt;Wizards</content>
+
+	<content contentuid="he030e10dg3fd5g0442gd814g91fb1906ddhb" version="2">Solar Flare</content>
+	<content contentuid="h876d8873geb8ag4dc1gce97g0d17326ac2hb" version="1">Launch a radiant flare that causes anything it touches to &lt;LSTag Type='Status' Tooltip='BURNING_HOLY'&gt;Eternally Burn&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Druid&lt;br&gt;Paladins&lt;br&gt;Rangers</content>
+
+	<content contentuid="hc5b9e2a0ga88ag36c3gea9egeb6f9ab51chb" version="2">Spirit Sword</content>
+	<content contentuid="hcea05766g1ad3g58a4ge98fg6df527caddhb" version="1">Conjure a spiritual blade from the fallen in order to strike multiple enemies, regaining &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; equal to a quarter of the damage dealt.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Druid&lt;br&gt;Paladins&lt;br&gt;Rangers</content>
+
+	<content contentuid="h804a74cegc58eg17bag2b00gf823baadc4hb" version="2">Hellfire</content>
+	<content contentuid="he3ac7d66gab41g545egff8dg7d538e1c32hb" version="1">Conjure lava from the Hells over a [1] area.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Fighters&lt;br&gt;Rogues&lt;br&gt;Warlocks&lt;br&gt;Wizards</content>
+
+	<content contentuid="h79503597g4711g6e83g1700g4aecf8ef5ehb" version="2">Telekinetic Wave</content>
+	<content contentuid="he9f81a44ge00cgeab1g8222gdcfea667a2hb" version="1">Produce a large telekinetic wave, which deals damage and potentially knocks your targets &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Barbarians&lt;br&gt;Rogues&lt;br&gt;Sorcerers&lt;br&gt;Wizards</content>
+
+	<content contentuid="hdbe8831fg7c51g9b41g2ad2g7a1efb5427hb" version="2">Implode</content>
+	<content contentuid="h5b7cfb8egea04g03d8g4d9bgb867139ee5hb" version="1">Throw a sphere of compressed force, which implodes on impact, pulling creatures toward it's center.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Barbarians&lt;br&gt;Rogues&lt;br&gt;Sorcerers&lt;br&gt;Wizards</content>
+
+	<content contentuid="h677fc697g20b2gf5aeg8e38g55f9f28339hb" version="2">Force Field</content>
+	<content contentuid="hef35c6deg60b3g8d26g6fd1gf52b9ccf29hb" version="1">Create a sphere of telekinetic energy which encloses a [1] area, providing allies with &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to physical damage. Each round, the sphere will emit a shockwave which deals damage and throws enemies backward by [2].&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Paladins&lt;br&gt;Rogues&lt;br&gt;Wizards</content>
+	<content contentuid="hef35c6deg60b3g8d26g6fd1gf52b9ccf2zhb" version="2">Force Field</content>
+	<content contentuid="h677fc697g20b2gf5aeg8e38g55f9f2833zhb" version="1">Affected creature has &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to physical damage.</content>
+
+	<content contentuid="hbe048eafgcaf0g9293g0eb2g63eb87108fhb" version="2">Telekinetic Tethers</content>
+	<content contentuid="hb8a94596g6125gfc1bg2b87g54399c20c8hb" version="1">Tether yourself to three allies, increasing their Initiative by [1].&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Barbarians&lt;br&gt;Rogues&lt;br&gt;Sorcerers&lt;br&gt;Wizards</content>
+	<content contentuid="hb343ed87g6716gfe77g9385ga628389dfehb" version="2">Telekinetic Tethers</content>
+	<content contentuid="h0f5bb1fagf677gda5dg46e5g4dfc54de41hb" version="1">Affected creature's Initiative is increased by [1].</content>
+
+	<content contentuid="hd1bfd8c3ga4c6g2d59g9c7bge7df63c153hb" version="2">Arcane Visage</content>
+	<content contentuid="h77ea07fdge99egc595gce90gbef78326e2hb" version="1">Conjure an all-seeing eye above an area, preventing creatures from becoming &lt;LSTag Type='Status' Tooltip='INVISIBLE'&gt;Invisible&lt;/LSTag&gt;. &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made against creatures within the area are rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Barbarians&lt;br&gt;Rogues&lt;br&gt;Sorcerers&lt;br&gt;Wizards</content>
+	<content contentuid="h8692d2e5g3b2bg29ddg6b89gf4e1e474d9hb" version="2">Arcane Visage</content>
+	<content contentuid="he4abe8f5g5f59gfe5egd0b8g6f2e5e6542hb" version="1">Affected creature is being watched by an all-seeing eye. &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made against them are rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+
+	<content contentuid="hb48d9bfdg44b8g08b2g013agce94f02163hb" version="2">Mind Piercer</content>
+	<content contentuid="h0f280bcbgc68cgf1fbgc2b2gf0d2e3ab01hb" version="1">Conjure multiple swords used to pierce your targets mind, gaining &lt;LSTag Type="Status" Tooltip="MAG_GISH_ARCANE_SYNERGY"&gt;Arcane Synergy&lt;/LSTag&gt; for three turns.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Fighters&lt;br&gt;Rogues&lt;br&gt;Warlocks&lt;br&gt;Wizards</content>
+
+	<content contentuid="h1b324860gf7d1g4a44g2627g750b2c4164hb" version="2">Psionic Swordfall</content>
+	<content contentuid="hc0568b4egc939g9815g1981g3a33b12f0dhb" version="1">Conjure multiple psionic swords, which plunge downward at a target location before exploding at the snap of your fingers, potentially &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stunning&lt;/LSTag&gt; any &lt;LSTag Type="Status" Tooltip="DAZED"&gt;Dazed&lt;/LSTag&gt; creatures caught in the area.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Fighters&lt;br&gt;Rogues&lt;br&gt;Warlocks&lt;br&gt;Wizards</content>
+
+	<content contentuid="h0414b211g9718gfb46g77b8g7491df4a43hb" version="2">Soul Reaver</content>
+	<content contentuid="h202a2606g5a21g9a70g2316gfdbedbf40ahb" version="1">Conjure a scythe made of psionic energy and rend the minds of all creatures in front of you, potentially causing them to go &lt;LSTag Type='Status' Tooltip='MADNESS'&gt;Mad&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Fighters&lt;br&gt;Paladins&lt;br&gt;Warlocks</content>
+
+	<content contentuid="h638dd539g2f69gafe9g663cgd2ffcz308fhb" version="2">Gilgamesh</content>
+	<content contentuid="h08483368gb91ag51e8g0077gd5034z2c54hb" version="1">Open the gates of Babylon and conjure an arsenal of psionic weaponry, firing them in a line. You may then call down weakened arsenals once per turn as a free action.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Fighters&lt;br&gt;Rogues&lt;br&gt;Warlocks&lt;br&gt;Wizards</content>
+	<content contentuid="h638dd539g2f69gafe9g663cgd2ffce308fhb" version="2">Gilgamesh</content>
+	<content contentuid="h08483368gb91ag51e8g0077gdz034a2c54hb" version="3">Affected creature can cast a weakened version of &lt;LSTag Type="Spell" Tooltip="Zone_Gilgamesh_Recast"&gt;Gilgamesh&lt;/LSTag&gt; as a free action.</content>
+	<content contentuid="h08483368gb91ag51e8g0077gd5034a2c52hb" version="1">Affected creature can cast a weakened version of &lt;LSTag Type="Spell" Tooltip="Zone_Gilgamesh_Recast_2"&gt;Gilgamesh&lt;/LSTag&gt; as a free action.</content>
+	<content contentuid="h08483368gb91ag51e8g0077gd5034a2c53hb" version="1">Affected creature can cast a weakened version of &lt;LSTag Type="Spell" Tooltip="Zone_Gilgamesh_Recast_3"&gt;Gilgamesh&lt;/LSTag&gt; as a free action.</content>
+	<content contentuid="h08483368gb91ag51e8g0077gd5034a2c54hb" version="1">Affected creature can cast a weakened version of &lt;LSTag Type="Spell" Tooltip="Zone_Gilgamesh_Recast_4"&gt;Gilgamesh&lt;/LSTag&gt; as a free action.</content>
+	<content contentuid="h08483368gb91ag51e8g0077gd5034a2c55hb" version="1">Affected creature can cast a weakened version of &lt;LSTag Type="Spell" Tooltip="Zone_Gilgamesh_Recast_5"&gt;Gilgamesh&lt;/LSTag&gt; as a free action.</content>
+	<content contentuid="h08483368gb91ag51e8g0077gd5034a2c56hb" version="1">Affected creature can cast a weakened version of &lt;LSTag Type="Spell" Tooltip="Zone_Gilgamesh_Recast_6"&gt;Gilgamesh&lt;/LSTag&gt; as a free action.</content>
+
+	<content contentuid="ha10a9eddg05ddg85dagbdfbg580e435485hb" version="2">Psionic Lockdown</content>
+	<content contentuid="h46f14972g55a7gccf5g8c53gfa25a40efchb" version="1">Grant a creature &lt;LSTag Type='Status' Tooltip='LOCKDOWN_CONDITION'&gt;Lockdown Immunity&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Fighters&lt;br&gt;Rogues&lt;br&gt;Warlocks&lt;br&gt;Wizards</content>
+
+	<content contentuid="hc267f1d0g602ag3937g44afg19e38c3f23hb" version="2">Mindguard Surge</content>
+	<content contentuid="h386cf72agad34gc625g237ega7278b5db8hb" version="1">Erupt in psionic energy, sending psionic shields crashing into all nearby creatures, potentially &lt;LSTag Type='Status' Tooltip='DAZED'&gt;Dazing&lt;/LSTag&gt; them.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Fighters&lt;br&gt;Rogues&lt;br&gt;Warlocks&lt;br&gt;Wizards</content>
+
+	<content contentuid="h7461c7dbg7886g4c3bg7a28g949543a4b2hb" version="2">Aegis Protection</content>
+	<content contentuid="h3cabc4e4gd2f1g6781g0cfegae044ffdfehb" version="1">Wrap a creature in an arcane aegis. The next projectile fired at them will be reflected back at it's sender.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Paladins&lt;br&gt;Rogues&lt;br&gt;Wizards</content>
+	<content contentuid="h3c28f11cgb703gc0bagfaa9g9dd7853533hb" version="2">Aegis Protection</content>
+	<content contentuid="h68e9b61fgb806g5ac1gdc6bgdc0d8ea224hb" version="3">Affected creature is wrapped in an arcane aegis. The next projectile fired at them will be reflected back at it's sender. Removed upon taking damage.</content>
+
+	<content contentuid="h5d2f386ag389dg02d2g5a62g4b04a1094fhb" version="2">Whirlpool</content>
+	<content contentuid="he5f511d5g5023g38a8gbea1gc19b84de64hb" version="1">Conjure a whirlpool at your feet, pulling all nearby creatures close to you.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Barbarians&lt;br&gt;Druid&lt;br&gt;Rangers&lt;br&gt;Sorcerers</content>
+
+</contentList>

@@ -50,28 +50,28 @@
 	<content contentuid="h843e9f50g1485g4d5dgb338f8df33d90000d" version="2">Drop to the previous stage of your Encore.</content>
 
 	<content contentuid="hc9735187g68cag427ag8ff9d8f8dff800005" version="1">Climax</content>
-	<content contentuid="h843e9f50g1485g4d5dgb338f8df33d90000e" version="2">End your performance in climactic triumph! The next Spell that you cast will not consume a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;.</content>
+	<content contentuid="h843e9f50g1485g4d5dgb338f8df33d90000e" version="2">End your performance in climactic triumph! The next Spell that you cast will not consume a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; and you recover a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; equal to the highest level you are capable of casting as a Bard..</content>
 	<content contentuid="hc9735187g68cag427ag8ff9d8f8dff8000z5" version="1">Climax</content>
 	<content contentuid="h843e9f50g1485g4d5dgb338f8df33d9000ze" version="2">Affected creature may cast their next Spell without consuming a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;.</content>
 
 	<content contentuid="hc9735187g68cag427ag8ff9d8f8dff800006" version="1">Climax</content>
-	<content contentuid="h843e9f50g1485g4d5dgb338f8df33d90000f" version="2">End your performance in climactic triumph! You &lt;LSTag Type="Status" Tooltip="HASTE"&gt;Hasten&lt;/LSTag&gt; yourself until the end of your turn.</content>
+	<content contentuid="h843e9f50g1485g4d5dgb338f8df33d90000f" version="2">End your performance in climactic triumph! You &lt;LSTag Type="Status" Tooltip="HASTE"&gt;Hasten&lt;/LSTag&gt; yourself until the end of your turn and recover a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; equal to the highest level you are capable of casting as a Bard..</content>
 	<content contentuid="hc9735187g68cag427ag8ff9d8f8dff8000z6" version="1">Climax</content>
 	<content contentuid="h843e9f50g1485g4d5dgb338f8df33d9000zf" version="2">Affected creature has gained an additional &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h279a572b5d5e5f6e8f5e3g62e52f2e5fz000" version="1">Climax</content>
-	<content contentuid="h279a572b5d5e5f6e8f5e3g62e52f2e5fz00z" version="2">End your performance in climactic triumph! Summon three dancing skeletons, causing enemies within [1] of them to become &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;.</content>
+	<content contentuid="h279a572b5d5e5f6e8f5e3g62e52f2e5fz00z" version="2">End your performance in climactic triumph! Summon three dancing skeletons which cause enemies within [1] of them to become &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;, and recover a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; equal to the highest level you are capable of casting as a Bard..</content>
 	<content contentuid="h17df6462g1bf8g454dg87aeg3d80fs5d5e6f" version="1">Curse of Moriendi</content>
 	<content contentuid="h79198be7g46c4g4c7bgb6aegb16s8e5f8e54" version="1">Affected creature is forced to dance for all eternity. They are considered to be a preferred target, and creatures within [1] of them will become &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt; for one turn.</content>
 
 	<content contentuid="hc9735187g68cag427ag8ff9d8f8dff800008" version="1">Climax</content>
-	<content contentuid="h843e9f50g1485g4d5dgb338f8df33d90000h" version="2">End your performance in climactic triumph! Deal Thunder damage to all enemies within [1].</content>
+	<content contentuid="h843e9f50g1485g4d5dgb338f8df33d90000h" version="2">End your performance in climactic triumph! Deal Thunder damage to all enemies within [1] and recover a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; equal to the highest level you are capable of casting as a Bard..</content>
 
 	<content contentuid="hc9735187g68cag427ag8ff9d8f8dff800007" version="1">Climax</content>
-	<content contentuid="h843e9f50g1485g4d5dgb338f8df33d90000g" version="2">End your performance in climactic triumph! Provide your &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt; to all allies within [1].</content>
+	<content contentuid="h843e9f50g1485g4d5dgb338f8df33d90000g" version="2">End your performance in climactic triumph! Provide your &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt; to all allies within [1] and recover a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; equal to the highest level you are capable of casting as a Bard..</content>
 
 	<content contentuid="hc9735187g68cag427ag8ff9d8f66d9f25484" version="1">Climax</content>
-	<content contentuid="h843e9f50g1485g4d5dgb338f8ddd5f8e6f98" version="2">End your performance in climactic triumph! Cloak both yourself and all allies within [1] under the &lt;LSTag Type="Status" Tooltip="COVEROFCAPTIVATION"&gt;Cover of Captivation&lt;/LSTag&gt;.</content>
+	<content contentuid="h843e9f50g1485g4d5dgb338f8ddd5f8e6f98" version="2">End your performance in climactic triumph! Cloak both yourself and all allies within [1] under the &lt;LSTag Type="Status" Tooltip="COVEROFCAPTIVATION"&gt;Cover of Captivation&lt;/LSTag&gt; and recover a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; equal to the highest level you are capable of casting as a Bard..</content>
 
 	<content contentuid="hc9735187g68cag427ag8680g4ec1859432dc" version="1">Bardic Attack</content>
 	<content contentuid="h843e9f50g1485g4d5dgbc14g6b21f6689a0a" version="2">Add a +[1] bonus to your &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
@@ -97,7 +97,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">CAPTIVATION</content>
 
 	<content contentuid="h79dd9125g6a8cg4291g876eg5e7d08443ad4" loreTexts="true" version="1">New Ollamh College</content>
-	<content contentuid="h0840706bg6708g4f1eg95b9g9ce13ff77983" loreTexts="true" version="2">You learnt your notes in Waterdeep, where the old college was refounded by the noble dilettante Danilo Thann. Your repertoire holds songs to distract angry crowds and embolden friends in need.</content>
+	<content contentuid="h0840706bg6708g4f1eg95b9g9ce13ff77983" loreTexts="true" version="2">You learnt your notes in Waterdeep, where the old college was refounded by the noble dilettante Danilo Thann. Your repertoire holds songs to distract angry crowds and embolden friends in need.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Healer/Tank</content>
 
 	<content contentuid="habfab1deg96a3g4928gbb99g29b61ef00001" version="2">Mantle of Inspiration</content>
 	<content contentuid="hacc1d957g1ef1g4debg9f26gc25bcf40000a" version="1">While &lt;LSTag Type="Spell" Tooltip="Shout_Bard_Perform_Whistle"&gt;Performing&lt;/LSTag&gt; in combat, you imbue allies within [1] of you with a sense of alluringly charismatic panache, causing them to recover &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; each turn equal to their &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;. If an ally is hit by a &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attack&lt;/LSTag&gt; while under the effects of your &lt;LSTag Type="Status" Tooltip="MANTLEOFINSPIRATION"&gt;Mantle of Inspiration&lt;/LSTag&gt;, the attacker immediately becomes &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charmed&lt;/LSTag&gt; for the rest of their turn.&lt;br&gt;&lt;br&gt;Upon reaching a state of &lt;LSTag Type="Status" Tooltip="PERFORMATIVE_CHORUS"&gt;Performative Chorus&lt;/LSTag&gt;, you may allow yourself and all allies within [2] of you to negate their next instance of damage taken.</content>
@@ -112,7 +112,7 @@
 	<content contentuid="habfab1deg96a3g4928gbb99g29b61ef000z3" version="2">Cover of Captivation</content>
 	<content contentuid="hacc1d957g1ef1g4debg9f26gc25bcf4000zc" version="1">When you are about to be damaged, spend one of your &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt; charges to negate the damage you would have taken.</content>
 	<content contentuid="habfab1deg96a3g4928gbb99g29b61ef00zz3" version="2">Cover of Captivation</content>
-	<content contentuid="hacc1d957g1ef1g4debg9f26gc25bcf400zzc" version="1">Affected creature will negate the next instance of damage taken.</content>
+	<content contentuid="hacc1d957g1ef1g4debg9f26gc25bcf400zzc" version="1">Affected creature will negate the next instance of damage taken. Removed upon being targeted by any action.</content>
 
 	<content contentuid="habfab1deg96a3g4928gbb99g29b61ef00004" version="2">Captivating Reclaim</content>
 	<content contentuid="hacc1d957g1ef1g4debg9f26gc25bcf40000d" version="1">When a creature within [1] of you becomes &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charmed&lt;/LSTag&gt; during combat, you immediately regain one charge of &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt;.</content>
@@ -126,13 +126,13 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">LORE</content>
 
 	<content contentuid="h279a572bg826ag49e3g9223g665c354e3de1" loreTexts="true" version="1">Fochlucan House</content>
-	<content contentuid="h4d45858cg3653g4192g8076g08327ea38dc5" loreTexts="true" version="1">You learnt your notes in Silverymoon, where the ancient tradition of Fochlucan has been kept alive as part of its University. Your repertoire is vast and brimming with arcane secrets.</content>
+	<content contentuid="h4d45858cg3653g4192g8076g08327ea38dc5" loreTexts="true" version="1">You learnt your notes in Silverymoon, where the ancient tradition of Fochlucan has been kept alive as part of its University. Your repertoire is vast and brimming with arcane secrets.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Control/Damage</content>
 
 	<content contentuid="he0912b6fge4b5g4b8fgbc26ge66a9a5a8a44" version="1">The Best Kept Secrets</content>
 	<content contentuid="hbf18c5f4g3952g4e08gaeb6ga9228e458848" version="1">Learn two Spells from the Magical Secrets pool per level, rather than one.&lt;br&gt;&lt;br&gt;Upon reaching a state of &lt;LSTag Type="Status" Tooltip="PERFORMATIVE_CHORUS"&gt;Performative Chorus&lt;/LSTag&gt;, you may cast a Spell without expending a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;.</content>
 
 	<content contentuid="he0912b6fge4b5g4b8fgbc26ge66a9a59a555" version="1">Secrets of the Lore</content>
-	<content contentuid="hbf18c5f4g3952g4e08gaeb6ga9228e41a354" version="1">Upon applying your &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt; to an ally, your next Spell will not consume a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;.</content>
+	<content contentuid="hbf18c5f4g3952g4e08gaeb6ga9228e41a354" version="1">Upon applying your &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt; to an ally, your next non-damaging Spell will not consume a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;.</content>
 	<content contentuid="he0912b6fge4b5g4b8fgbc26ge66a9a99a555" version="1">Secrets of the Lore</content>
 	<content contentuid="hbf18c5f4g3952g4e08gaeb6ga9228e22a654" version="1">Affected creature's next Spell they cast will not consume a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;.</content>
 
@@ -151,7 +151,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">MORIENDI</content>
 
 	<content contentuid="h279a572b5d5e5f6e8f5e3g62e52f2e5f0000" loreTexts="true" version="1">Ruins of Canaith</content>
-	<content contentuid="h279a572b5d5e5f6e8f5e3g62e52f2e5f000z" loreTexts="true" version="1">You learnt your notes in Tethyr, where only ruins and stories of the old college survived the Ten Black Days. Your repertoire is heavy with dirges and mourning for the bards' lost souls.</content>
+	<content contentuid="h279a572b5d5e5f6e8f5e3g62e52f2e5f000z" loreTexts="true" version="1">You learnt your notes in Tethyr, where only ruins and stories of the old college survived the Ten Black Days. Your repertoire is heavy with dirges and mourning for the bards' lost souls.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage/Summoner</content>
 
 	<content contentuid="h279a572b5d5e5f6e8f5e3g62e52f2e5f0001" version="1">Requiescat in Pace</content>
 	<content contentuid="h279a572b5d5e5f6e8f5e3g62e52f2e5f000a" version="1">When you deal damage to an enemy, you deal additional Necrotic damage equal to your levels in Bard. This bonus does not apply to damage dealt with an off-hand weapon.&lt;br&gt;&lt;br&gt;Upon reaching a state of &lt;LSTag Type="Status" Tooltip="PERFORMATIVE_CHORUS"&gt;Performative Chorus&lt;/LSTag&gt;, you may summon three skeletons, eternally cursed to dance to your rhythm, &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightening&lt;/LSTag&gt; nearby enemies and afflicting them with &lt;LSTag Type="Status" Tooltip="CHILL_TOUCH"&gt;Bone Chill&lt;/LSTag&gt;.</content>
@@ -174,7 +174,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">NOSTALGIA</content>
 
 	<content contentuid="e334c34320a546bea6b4e7636363749b00000" loreTexts="true" version="1">Elfsong Haunt</content>
-	<content contentuid="e334c34320a546bea6b4e7636363749bzzzzz" loreTexts="true" version="1">You learnt your notes in a tavern in Baldur's Gate, where the music of the lost College of Cli still echoes in the walls. Your repertoire channels the roar of the crowd and the power of old masterpieces.</content>
+	<content contentuid="e334c34320a546bea6b4e7636363749bzzzzz" loreTexts="true" version="1">You learnt your notes in a tavern in Baldur's Gate, where the music of the lost College of Cli still echoes in the walls. Your repertoire channels the roar of the crowd and the power of old masterpieces.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Control/Damage</content>
 
 	<content contentuid="e334c34320a546bea6b4e7636363749b00001" version="1">The Sufferer and the Witness</content>
 	<content contentuid="e334c34320a546bea6b4e7636363749b0000a" version="1">When you deal damage to an enemy, you deal additional [1]. This bonus does not apply to damage dealt with an off-hand weapon and grows in strength alongside your &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Upon reaching a state of &lt;LSTag Type="Status" Tooltip="PERFORMATIVE_CHORUS"&gt;Performative Chorus&lt;/LSTag&gt;, you may deal [2] to all enemies within [3], potentially &lt;LSTag Type="Status" Tooltip="MAG_THUNDER_REVERBERATION"&gt;Reverberating&lt;/LSTag&gt; them.</content>
@@ -197,7 +197,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">STEEL</content>
 
 	<content contentuid="hc308e037g13c2g40e4g8997gfd8641745ea8" loreTexts="true" version="1">MacFuirmidh Skald</content>
-	<content contentuid="hdbbc023cg8d01g479ag895dg5b8ab719ec0a" loreTexts="true" version="2">You learnt your notes in the Moonshaes, where the warlike Northlanders keep the skaldic tradition alive. Your repertoire is rich with tales of glory and ringing steel.</content>
+	<content contentuid="hdbbc023cg8d01g479ag895dg5b8ab719ec0a" loreTexts="true" version="2">You learnt your notes in the Moonshaes, where the warlike Northlanders keep the skaldic tradition alive. Your repertoire is rich with tales of glory and ringing steel.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage</content>
 
 	<content contentuid="9b7b811b9c3043e189f945540bf9a5422aaa1" version="1">Bardic Flourishes</content>
 	<content contentuid="9b7b811b9c3043e189f945540bf939dkkdjje" version="1">Learn two distinct bardic combat techniques.</content>
@@ -238,15 +238,15 @@
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f532lkd" version="3">Upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; with a weapon, restore one charge of your &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt;. This effect can trigger once per turn.</content>
 
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f594802" version="1">Inspirational Blows</content>
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f532l0b" version="3">When dealing damage with a weapon, you deal additional damage equal to your &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt;.</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f532l0b" version="3">When dealing damage with your main-hand weapon, you deal additional damage equal to your &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt;.</content>
 
 	<content contentuid="439cb1c55ce44da8b8f3ccs6d54fs6d600001" version="1">Performative Edge</content>
 	<content contentuid="439cb1c55ce44da8b8f3as5d6f4545840000a" version="3">While &lt;LSTag Type="Spell" Tooltip="Shout_Bard_Perform_Whistle"&gt;Performing&lt;/LSTag&gt; in combat, weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and Damage Rolls are rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
 
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f532l03" version="1">Steel Cast</content>
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f59480c" version="3">Upon landing a killing blow with one of your Steelforged Flourishes, you may immediately cast a Spell without expending an &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt;, &lt;LSTag Tooltip="BonusAction"&gt;Bonus Action&lt;/LSTag&gt;, or &lt;LSTag Tooltip="Reaction"&gt;Reaction&lt;/LSTag&gt;.</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f59480c" version="3">Upon landing a killing blow with one of your Steelforged Flourishes, you may immediately cast a Spell without expending an &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt; or &lt;LSTag Tooltip="BonusAction"&gt;Bonus Action&lt;/LSTag&gt;.</content>
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f5948z3" version="1">Steel Cast</content>
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f532lzc" version="3">Affected creature may cast a Spell without expending an &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt;, &lt;LSTag Tooltip="BonusAction"&gt;Bonus Action&lt;/LSTag&gt;, or &lt;LSTag Tooltip="Reaction"&gt;Reaction&lt;/LSTag&gt;.</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f532lzc" version="3">Affected creature may cast a Spell without expending an &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt; or &lt;LSTag Tooltip="BonusAction"&gt;Bonus Action&lt;/LSTag&gt;.</content>
 
 	<content contentuid="439cb1c55ce44da8b8f3c8eurwueffd500002" version="1">Climactic Strikes</content>
 	<content contentuid="439cb1c55ce44da8b8f3c9a8sdf9u9f50000b" version="3">Once per turn while &lt;LSTag Type="Spell" Tooltip="Shout_Bard_Perform_Whistle"&gt;Performing&lt;/LSTag&gt; in combat, landing a killing blow with a weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; will immediately put you into a state of &lt;LSTag Type="Status" Tooltip="PERFORMATIVE_CHORUS"&gt;Performative Chorus&lt;/LSTag&gt;.</content>
@@ -254,7 +254,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">VALOUR</content>
 
 	<content contentuid="he43c3ee1gb725g4a47g902cg6727f52d77c6" loreTexts="true" version="1">Twilight Hall</content>
-	<content contentuid="h76d3ad64g7e5cg412agac20g17c5e3cb57d0" loreTexts="true" ersion="1">You learned your notes in Berdusk among the Harpers, whose headquarters stand over the former College of Doss. Your repertoire is filled with songs of camaraderie and great deeds achieved in unity.</content>
+	<content contentuid="h76d3ad64g7e5cg412agac20g17c5e3cb57d0" loreTexts="true" ersion="1">You learned your notes in Berdusk among the Harpers, whose headquarters stand over the former College of Doss. Your repertoire is filled with songs of camaraderie and great deeds achieved in unity.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Support</content>
 
 	<content contentuid="hbd0341e3g775bg4a92g84feg270e44176bdb" version="1">Refined Bardic Inspiration</content>
 	<content contentuid="hda0191b3gc731g48f8g8036gb222178522fb" version="1">Through determination and valour, you have refined your craft. You gain &lt;LSTag Type="Spell" Tooltip="Target_BardicInspiration_Combat"&gt;Refined Bardic Inspiration&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Upon reaching a state of &lt;LSTag Type="Status" Tooltip="PERFORMATIVE_CHORUS"&gt;Performative Chorus&lt;/LSTag&gt;, you may grant Refined Bardic Inspiration to all allies within [1].</content>
@@ -310,7 +310,7 @@
 	<content contentuid="171ffb649bb448399193ed1c0d6896dd00001" version="1">Aggressive Rhythm</content>
 	<content contentuid="171ffb649bb448399193ed1c0d6896dd0000a" version="1">While &lt;LSTag Type="Spell" Tooltip="Shout_Bard_Perform_Whistle"&gt;Performing&lt;/LSTag&gt; in combat, emit an aura across [1] which provides a +4 bonus to allied damage rolls.&lt;br&gt;&lt;br&gt;While projecting your &lt;LSTag Type="Status" Tooltip="PERFORMATIVE_VERSE"&gt;Performative Verse&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="PERFORMATIVE_CHORUS"&gt;Performative Chorus&lt;/LSTag&gt;, this bonus increases to +6 or +8, respectively.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Passive" Tooltip="Mute_Songs"&gt;Muting&lt;/LSTag&gt; your Performance halves the effectiveness of this passive.</content>
 	<content contentuid="171ffb649bb448399193ed1c0d6896dd000z1" version="1">Aggressive Rhythm</content>
-	<content contentuid="171ffb649bb448399193ed1c0d6896dd000za" version="1">While in the presence of an allied Bard's performance, this creature receives a +[1] bonus to all damage rolls.</content>
+	<content contentuid="171ffb649bb448399193ed1c0d6896dd000za" version="1">While in the presence of an allied Bard's performance, this creature receives a +[1] bonus to all damage dealt.</content>
 
 	<content contentuid="171ffb649bb448399193ed1c0d6896dd00002" version="1">Discerning Insult</content>
 	<content contentuid="171ffb649bb448399193ed1c0d6896dd0000b" version="1">As a free &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;, reduce the confidence of your target, applying a -1d4 penalty to their &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt;, or &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>

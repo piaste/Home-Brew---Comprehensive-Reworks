@@ -51,6 +51,12 @@
 	<content contentuid="h184ab785gdae3g4b7ega249ge432917ertu9" version="5">Astral Warrior</content>
 	<content contentuid="h63415200gb6c7g41c2g9d2dg8a0341eiuysf" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Psychic damage, basic &lt;LSTag Type="Status" Tooltip="Tooltip_Darkvision"&gt;Darkvision&lt;/LSTag&gt;, and a +2 bonus to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
 
+	<content contentuid="ha32797b6g8153g43b6gbb5cga37cc6czlich" version="5">The Lich Queen's Wish Vessel</content>
+	<content contentuid="hf0c16535gd5a3g4da1gbf6agb69118dzlich" version="1">Affected creature has been blessed by a wish, granting them status immunity to all forms of charm, curse, petrification, polymorph, and possession. The effects of this wish extend to all nearby allies until this creature has been killed.</content>
+
+	<content contentuid="ha32797b6g8153g43b6gbb5cga37cc6cvlich" version="5">Wish Vessel's Blessing</content>
+	<content contentuid="hf0c16535gd5a3g4da1gbf6agb69118dvlich" version="1">Affected creature has status immunity to all forms of charm, curse, petrification, polymorph, and possession.</content>
+
 <content contentuid="0000000000000000000000000000000000000" version="1">DWARF</content>
 
 	<content contentuid="h184ab785gdae3g4b7ega249ge4329170adkd" version="5">Heritage of the Arsenal</content>
@@ -358,7 +364,7 @@
 	<content contentuid="51939390dfff9dif9dff4699fafff6d90000a" version="4">This creature is considered to be far more dangerous than what you typically encounter.&lt;br&gt;&lt;br&gt;When recovering from a &lt;LSTag Type="Status" Tooltip="LOCKDOWN_CONDITION_DESCRIPTION"&gt;Lockdown Condition&lt;/LSTag&gt;, they gain status immunity to all lockdown conditions for three turns.</content>
 
 	<content contentuid="51939390dfff9dif9dff4699fafff6d900002" version="1">Fatal Encounter</content>
-	<content contentuid="51939390dfff9dif9dff4699fafff6d90000b" version="4">This creature exudes an aura of power. Encountering them in combat can easily prove fatal.&lt;br&gt;&lt;br&gt;When recovering from a &lt;LSTag Type="Status" Tooltip="LOCKDOWN_CONDITION_DESCRIPTION"&gt;Lockdown Condition&lt;/LSTag&gt;, they gain status immunity to all lockdown conditions for three turns. In addition, Fatal Encounters have status immunity to being &lt;LSTag Type="Status" Tooltip="DISARMED"&gt;Disarmed&lt;/LSTag&gt; and cannot be killed by being thrown in chasms.</content>
+	<content contentuid="51939390dfff9dif9dff4699fafff6d90000b" version="4">This creature exudes an aura of power. Encountering them in combat can easily prove fatal.&lt;br&gt;&lt;br&gt;When recovering from a &lt;LSTag Type="Status" Tooltip="LOCKDOWN_CONDITION_DESCRIPTION"&gt;Lockdown Condition&lt;/LSTag&gt;, they gain status immunity to all lockdown conditions for three turns. In addition, they have status immunity to being &lt;LSTag Type="Status" Tooltip="DISARMED"&gt;Disarmed&lt;/LSTag&gt;, and cannot be killed by being thrown in chasms.</content>
 
 	<content contentuid="51939390dfff9dif9dff4699fafff6d900003" version="1">Lockdown Immunity</content>
 	<content contentuid="51939390dfff9dif9dff4699fafff6d90000c" version="4">Affected creature has status immunity to all &lt;LSTag Type="Status" Tooltip="LOCKDOWN_CONDITION_DESCRIPTION"&gt;Lockdown Conditions&lt;/LSTag&gt;.</content>
@@ -379,7 +385,10 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">ENEMY PASSIVES</content>
 
 	<content contentuid="hc761eaf7g4df1g4de8g8f79gcaae9s5df256" version="1">Floating</content>
-	<content contentuid="h6bcb2ab7g7c97g4746gb6begba80e5e86858" version="5">This creature is able to float effortlessly. As such, it is unaffected by &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt; and takes no damage when falling.</content>
+	<content contentuid="h6bcb2ab7g7c97g4746gb6begba80e5e86858" version="5">This creature is able to effortlessly float in any direction through the air. As such, it is unaffected by &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;, takes no damage from falling, cannot be killed by being thrown into a chasm, and cannot be &lt;LSTag Type="Spell" Tooltip="Target_Shove"&gt;Shoved&lt;/LSTag&gt; or &lt;LSTag Type="Spell" Tooltip="Throw_Throw"&gt;Thrown&lt;/LSTag&gt;.</content>
+
+	<content contentuid="hc761eaf7g4df1g4de8g8f79gcaae9s5flyin" version="1">Flying</content>
+	<content contentuid="h6bcb2ab7g7c97g4746gb6begba80e5eflyin" version="5">This creature is capable of natural flight. As such, it is unaffected by &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;, takes no damage from falling, and cannot be killed by being thrown into a chasm.</content>
 
 	<content contentuid="h2395dc03ga60dg4ca8gbf28g9cc613301043" version="1">Frightening Assault</content>
 	<content contentuid="h36f181f8g1bcag43bag8f71g69c05e02ea0c" version="2">This creature can perform a &lt;LSTag Type="Spell" Tooltip="Target_Multiattack_Cloaker"&gt;Multiattack&lt;/LSTag&gt; if their target is suffering from a fear based status effect. Upon dealing damage, they may cause their target to become &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;.</content>
@@ -464,9 +473,9 @@
 	<content contentuid="h3344d3e6gb749g4bd5ga9e9g75f0desd5f21" version="5">Displacement</content>
 	<content contentuid="h38d3f000g4a2eg4682g9wsefe845de868545" version="1">While unubscured, Displacer Beasts may cause their targets to go &lt;LSTag Type="Status" Tooltip="MADNESS"&gt;Mad&lt;/LSTag&gt; when dealing damage to them.</content>
 	<content contentuid="ha87e063cg90aag4085g94bbg77b7f89b339e" version="5">Illusory Copy</content>
-	<content contentuid="h50825fb4g9c1ag4146g9efeg7164023ebf01" version="1">Create an illusory Displacer Beast at a location you can see.</content>
+	<content contentuid="h50825fb4g9c1ag4146g9efeg7164023ebf01" version="1">Create an illusory Displacer Beast at a location you can see. Upon taking damage, the illusion will immediately fade.</content>
 	<content contentuid="ha87e063cg90aag4085g94bbg77b7f2d5f6e2" version="5">Illusory Displacement</content>
-	<content contentuid="h50825fb4g9c1ag4146g9efeg716406s8e6f8" version="1">Teleport a creature to an area you can see, rending their mind in the process. Allies will take no damage from this action.</content>
+	<content contentuid="h50825fb4g9c1ag4146g9efeg716406s8e6f8" version="1">Teleport a creature to an area you can see, rending their mind in the process. Allies will take no damage from this action. If your destination target is also a creature, your two targets will swap places.</content>
 
 	<content contentuid="h3344d3e6gb749g4bd5ga9e9g75f2d5f3d542" version="5">Timmask Touch</content>
 	<content contentuid="h38d3f000g4a2eg4682g9wsefe845de5d8f7e" version="1">Upon dealing damage to a creature who is not a plant, Myconid potentially implant &lt;LSTag Type="Status" Tooltip="TIMMASK_SPORES"&gt;Timmask Spores&lt;/LSTag&gt; into their target, unless they or their target are &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burning&lt;/LSTag&gt;.</content>
@@ -516,7 +525,7 @@
 	<content contentuid="5118b4641cdb4145a0fb4699faf1d3220000f" version="4">When dealing damage with a weapon, you deal an additional [1].</content>
 
 	<content contentuid="5118b4641cdb4145a0fb4699faf1d32200007" version="1">Relentless Attacks</content>
-	<content contentuid="5118b4641cdb4145a0fb4699faf1d3220000g" version="4">Upon landing a killing blow, you may make an additional attack as a free action.</content>
+	<content contentuid="5118b4641cdb4145a0fb4699faf1d3220000g" version="4">Once per turn, upon landing a killing blow on an enemy, you restore your &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt;.</content>
 
 	<content contentuid="5118b4641cdb4145a0fb4699faf1d32200008" version="1">Mob Mentality</content>
 	<content contentuid="5118b4641cdb4145a0fb4699faf1d3220000h" version="4">While within [1] of an ally, this creature rolls their damage with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
@@ -536,6 +545,9 @@
 
 	<content contentuid="h58d7ae56g37d3g45f1g8f3egd70ca36f0bd0" version="1">Weak Points</content>
 	<content contentuid="h58d7ae56g37d3g45f1g8f3egd70ca36zzzzz" version="4">When attacked from outside of it's view, this turret will shut down until the beginning of it's next turn.</content>
+
+	<content contentuid="h5fca4903g537dg488cg87b1g63a762a6d64f" version="2">Shadowblend</content>
+	<content contentuid="hea75adfagec2eg4985ga1c1g0b3acf1201d6" version="4">While Lightly or Heavily Obscured, this creature gains the ability to blend with shadows and become &lt;LSTag Type="Status" Tooltip="INVISIBILITY"&gt;Invisible&lt;/LSTag&gt;.</content>
 
 	<content contentuid="hc761eaf7g4df1g4de8g8f79gcaae9047a8f6" version="1">Shadow Veil</content>
 	<content contentuid="h6bcb2ab7g7c97g4746gb6begba800a7c6099" version="5">While Lightly or Heavily Obscured, shadow mastiffs are &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Bludgeoning, Piercing, and Slashing damage.</content>
@@ -600,7 +612,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">AUNTIE ETHEL</content>
 
 	<content contentuid="5118b4641cda5s6df45s62ef168ef4sphases" version="2">Whispering Illusions</content>
-	<content contentuid="5118b4641cdb414as54df645se98rfsphases" version="3">While in combat, this creature will absorb the life of nearby children, regaining [1] at the start of each turn.&lt;br&gt;&lt;br&gt;In addition, when starting it's turn below 33% of it's total Hit Points, it will create five illusions.&lt;br&gt;&lt;br&gt;Only those willing to embrace the hag's whispers may see through her deceptions.</content>
+	<content contentuid="5118b4641cdb414as54df645se98rfsphases" version="3">While in combat, this creature will absorb the life of nearby children, regaining [1] at the start of each turn.&lt;br&gt;&lt;br&gt;In addition, the first time it starts it's turn below 33% of it's total Hit Points, it will experience a positive surge of &lt;LSTag Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Only those willing to embrace the hag's whispers may see through her deceptions.</content>
 
 	<content contentuid="5118b4641cda5s6df45s62ef168ef4s0000z1" version="2">Siphon in Utero</content>
 	<content contentuid="5118b4641cdb414as54df645se98rfs0000za" version="3">Affected creature is abosrbing the life of a nearby child, regaining [1] at the start of each turn.</content>
@@ -644,6 +656,13 @@
 	<content contentuid="h5e28102fgbdc0g4822g95fcg7fdb32d51613" version="2">Diamonds Scales</content>
 	<content contentuid="h4eb1e5f9g7eeeg4f23g888cg822824ca1392" version="3">Affected creature's diamond scales provide it with [1]. While it has these Temporary Hit Points, it is &lt;LSTag Type="Status" Tooltip="GROUNDED"&gt;Grounded&lt;/LSTag&gt;, and any damage lower than 12 will not affect it. In addition, it can use &lt;LSTag Type="Spell" Tooltip="Shout_DiamondScalesBurst_Bulette"&gt;Shredding Scales&lt;/LSTag&gt; immediately after being hit for the first time each round.</content>
 
+<content contentuid="0000000000000000000000000000000000000" version="1">DAME AYLIN</content>
+
+	<content contentuid="h32ef2f4dg95cbg4f2fg8560g5da2545aa3a5" version="2">Silvered Bulwark</content>
+	<content contentuid="h72965760gcf5fg4df4g8636g4e2697d5e15e" version="2">Form a barrier of moonlight around a target that follows them and makes all creatures within &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to all forms of damage.</content>
+	<content contentuid="ha99b477bgd6b5g4bd9g9ac0g20efca56c6a8" version="2">Silvered Bulwark</content>
+	<content contentuid="h53b46118gc71bg4c92g83a9g0234d9d32f95" version="2">Affected creature is &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to all forms of damage. This protection is shared by every creature and object within the barrier surrounding them.</content>
+
 <content contentuid="0000000000000000000000000000000000000" version="1">DOPPELGANGER</content>
 
 	<content contentuid="hc4eef74fg527fg4a60ga04egb2a849b02f9e" version="1">Multiattack: Morphic Ambush</content>
@@ -664,7 +683,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">ELMINSTER</content>
 
 	<content contentuid="d247707e4caa4901b85064c78056a5passive" version="1">Gouda Riddance</content>
-	<content contentuid="b80fb80c0a5e432ca5cd78f85df6b1passive" version="1">This creature turns any mortals who would dare to damage him into a fine block of cheese for three turns. And then they die. This effect will only occur if Elminster isn't hungry.</content>
+	<content contentuid="b80fb80c0a5e432ca5cd78f85df6b1passive" version="1">This creature turns any mortals who would dare to damage him into a fine block of cheese for three turns. And then they die. This effect will only occur if Elminster is hungry.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">GERRINGOTHE THORM</content>
 
@@ -673,8 +692,8 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">GORTASH</content>
 
-	<content contentuid="h22fe979bg5f78g4142gabfegc3f2c7657d06" version="1">Bane's Chosen</content>
-	<content contentuid="h3883a7e3g05d3g485cgbad9gcce24ddff3e2" version="2">Immediately upon starting combat, Gortash will morph into the &lt;LSTag Type="Status" Tooltip="WYR_GORTASH_BANE_BUFF"&gt;Avatar of Tyranny&lt;/LSTag&gt;.</content>
+	<content contentuid="h09a82df0gc406g4333g8a50g55b17passive" version="1">Bane's Chosen</content>
+	<content contentuid="h9835c7d2geb17g4c77gaf0eg45a7bpassive" version="2">Immediately upon starting combat, Gortash will morph into the &lt;LSTag Type="Status" Tooltip="WYR_GORTASH_BANE_BUFF"&gt;Avatar of Tyranny&lt;/LSTag&gt;.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">GLUT</content>
 
@@ -727,6 +746,14 @@
 
 	<content contentuid="h9a4cab23g722e3f5e3ffd23g7e20apassive" version="1">Mask of Shadows</content>
 	<content contentuid="h7cc2127e6s9e6e8e5f45cb1gf5558passive" version="3">This creature has the ability to &lt;LSTag Type="Spell" Tooltip="Target_Shadowstep_Merregon"&gt;Shadow Step&lt;/LSTag&gt;.</content>
+
+<content contentuid="0000000000000000000000000000000000000" version="1">MIND FLAYER</content>
+
+	<content contentuid="ha32797b6g8153g43b6gbb5cga37cc6cflays" version="1">Illithid Draw</content>
+	<content contentuid="hf0c16535gd5a3g4da1gbf6agb69118dflays" version="3">This Mind Flayer is psionically keeping the attention of Commander Zhalk. In addition, it's maximum &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; have been increased by 200.</content>
+
+	<content contentuid="ha32797b6g8153g43b6gbb5cga37cc6czhalk" version="1">The Flayer Dies First!</content>
+	<content contentuid="hf0c16535gd5a3g4da1gbf6agb69118dzhalk" version="3">Affected creature must kill the nearby mind-flayer before it can target any other creature.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">MYRKUL</content>
 
@@ -821,6 +848,9 @@
 	<content contentuid="habee1482gbb49g4b00gbca2gef9bd53c3622" version="5">Affected creature has received instruction from Sa'varsh Kethk.&lt;br&gt;&lt;br&gt;They have [1] and deal an additional [2].</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">VAMPIRES</content>
+
+	<content contentuid="ha9ba6920gd76ag4435gbb3cg3edce9b45d5a" version="2">Sunlight Hypersensitivity</content>
+	<content contentuid="h28b700d2g7a73g4eb4ga71eg83f6a807c96d" version="2">This creature takes [1] if it starts its turn in sunlight. While sunlit, it has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on both &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt;.&lt;Br&gt;&lt;Br&gt;In addition, when dealing damage, this creature ignores Necrotic &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h9a4cab23g72w6e8f9sw84f3g7e20apassive" version="1">Vampiric Regeneration</content>
 	<content contentuid="h7cc2127e6s9e6e8e298347r98f558passive" version="5">When dealing damage to another creature, you regain &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; equal to half the damage you deal.</content>

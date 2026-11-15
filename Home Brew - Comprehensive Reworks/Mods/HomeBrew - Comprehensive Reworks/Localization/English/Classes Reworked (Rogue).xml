@@ -16,9 +16,9 @@
 	<content contentuid="h098941ccgc4ecg49f2gb22agabe4566as982" version="3">&lt;LSTag Type="Spell" Tooltip="Target_SneakAttack"&gt;Sneak Attack&lt;/LSTag&gt; will not activate when attacking this creature until they have started their next turn.</content>
 
 	<content contentuid="hc4558204g2c77g4b58gafb6g0ba6b396a845" version="1">Sneak Attack</content>
-	<content contentuid="h098941ccgc4ecg49f2gb22agabed0b019567" version="3">Deal an extra [1] damage to a creature you have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; against. You must be wielding a &lt;LSTag Tooltip="Finesse"&gt;Finesse Weapon&lt;/LSTag&gt; in order to trigger Sneak Attack.</content>
+	<content contentuid="h098941ccgc4ecg49f2gb22agabed0b019567" version="3">Deal an extra [1] damage to a creature you have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; against. You must be unarmed or wielding a &lt;LSTag Tooltip="Finesse"&gt;Finesse Weapon&lt;/LSTag&gt; in order to trigger Sneak Attack.</content>
 	<content contentuid="hd8a8ad84g4f65g46fdgb04dg5b91daf7f291" version="1">Sneak Attack</content>
-	<content contentuid="h23701712ge994g40bfga729g36dc38dc7c65" version="2">Deal an extra [1] damage to a creature you have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; against. You must be wielding a &lt;LSTag Tooltip="Finesse"&gt;Finesse Weapon&lt;/LSTag&gt; in order to trigger Sneak Attack.</content>
+	<content contentuid="h23701712ge994g40bfga729g36dc38dc7c65" version="2">Deal an extra [1] damage to a creature you have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; against. You must be unarmed or wielding a &lt;LSTag Tooltip="Finesse"&gt;Finesse Weapon&lt;/LSTag&gt; in order to trigger Sneak Attack.</content>
 	<content contentuid="h76d95144gbf2eg4c33gae0bg9661d52519e1" version="1">You can also Sneak Attack creatures &lt;LSTag Type="Status" Tooltip="FLANKED"&gt;Threatened&lt;/LSTag&gt; by adjacent allies provided you aren't attacking with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
 
 	<content contentuid="hc4558204g2c77g4b58gafb6g0ba6b39fsdff" version="1">Lucky Odds: Ability Checks</content>
@@ -30,7 +30,9 @@
 	<content contentuid="d3e15e63749c4b62b8e7760cc70741209sd09" version="3">Gain the ability to &lt;LSTag Type="Spell" Tooltip="Shout_Dash"&gt;Dash&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_Disengage"&gt;Disengage&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Shout_Hide"&gt;Hide&lt;/LSTag&gt; as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;. This effect can be toggled at any time.</content>
 
 	<content contentuid="d3e15e63749c4b62b8e7760ccaw2es6f2e2f1" version="1">Dexterous Maneuvers</content>
-	<content contentuid="d3e15e63749c4b62b8e7760cc72354r6we8fa" version="3">All unarmed based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; that you make receive a bonus equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Dexterity Modifier&lt;/LSTag&gt;.</content>
+	<content contentuid="d3e15e63749c4b62b8e7760cc72354r6we8fa" version="3">All unarmed based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; that you make receive a bonus equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Dexterity Modifier&lt;/LSTag&gt;. In addition, you gain the ability to throw a &lt;LSTag Type="Spell" Tooltip="Projectile_SmokeBomb"&gt;Smoke Bomb&lt;/LSTag&gt; once per turn.</content>
+	<content contentuid="d3e15e63749c4b62b8e7760ccaw2es6f2bomb" version="1">Smoke Bomb</content>
+	<content contentuid="d3e15e63749c4b62b8e7760cc72354r6wbomb" version="3">Throw a bomb which can &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blind&lt;/LSTag&gt; creatures and conceal your position.</content>
 
 	<content contentuid="hc4558204g2c77g4b58gafb6g0ba6b399ja83" version="1">Lucky Toss</content>
 	<content contentuid="h098941ccgc4ecg49f2gb22agabed0b01ofk9" version="3">While in combat, you have a 50% chance to restore one &lt;LSTag Type="ActionResource" Tooltip="LuckPoint"&gt;Luck Point&lt;/LSTag&gt; at the beginning of your turns.</content>
@@ -50,17 +52,17 @@
 
 	<content contentuid="h30561afcgab43g4221gad1eg441f7cf91ef9" loreTexts="true" version="1">Telflamm Streets</content>
 
-	<content contentuid="hecb0341bg3becg4816g9530gc9125e8f1b06" loreTexts="true" version="1">You apprenticed with the mysterious Shadowmasters of the East, picking up some of their signature magic tricks.</content>
+	<content contentuid="hecb0341bg3becg4816g9530gc9125e8f1b06" loreTexts="true" version="1">You apprenticed with the mysterious Shadowmasters of the East, picking up some of their signature magic tricks.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Control/Damage</content>
 
 	<content contentuid="hdb24b7c0g74dag4e54gb7a3gac62e6a68522" version="1">Arcane Trickery</content>
 	<content contentuid="h25b27b77g4bc8g4944g881bg9f10basdf558" version="1">&lt;LSTag Type="Spell" Tooltip="Target_SneakAttack"&gt;Sneak Attack&lt;/LSTag&gt; can trigger when casting &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt; and Spells. Additionally, casting Cantrips and Spells while &lt;LSTag Type="Spell" Tooltip="Shout_Hide"&gt;Hidden&lt;/LSTag&gt; will not break &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Stealth&lt;/LSTag&gt;.</content>
 	<content contentuid="hd8a8ad84g4f65g46fdgb04dg5b91dafss5f8" version="1">Arcane Sneak Attack</content>
-	<content contentuid="h23701712ge994g40bfga729g36dc38dss354" version="2">Deal an extra [1] to a creature you have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; against. If casting a &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; or Spell, Sneak Attack will instead deal Force damage, and Advantage is not required. You must be wielding a &lt;LSTag Tooltip="Finesse"&gt;Finesse Weapon&lt;/LSTag&gt; in order to trigger Sneak Attack.</content>
+	<content contentuid="h23701712ge994g40bfga729g36dc38dss354" version="2">Deal an extra [1] to a creature you have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; against. If casting a &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; or Spell, Sneak Attack will instead deal Force damage, and Advantage is not required. You must be unarmed or wielding a &lt;LSTag Tooltip="Finesse"&gt;Finesse Weapon&lt;/LSTag&gt; in order to trigger Sneak Attack.</content>
 
 	<content contentuid="hae3fe1d9geac1g4c8bga1ceg4c711da0beba" version="1">Blessing of the Trickster</content>
-	<content contentuid="hdb24b7c0g74dag4e54gb7a3gac62ec5ca246" version="1">Grant yourself or another creature &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisibility&lt;/LSTag&gt; at the start of each turn.</content>
+	<content contentuid="hdb24b7c0g74dag4e54gb7a3gac62ec5ca246" version="1">Grant yourself or another creature &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisibility&lt;/LSTag&gt;. For as long as you maintain &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt;, your target will become Invisible at the start of each of their turns while in combat. They may also become Invisible outside of combat if starting their turn while &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Sneaking&lt;/LSTag&gt;.</content>
 	<content contentuid="hbb9315bcgddeag441cga98age71e88bc04ad" version="2">Blessing of the Trickster</content>
-	<content contentuid="h25b27b77g4bc8g4944g881bg9f10bb390cee" version="1">Affected creature will become &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisibility&lt;/LSTag&gt; at the start of each turn.</content>
+	<content contentuid="h25b27b77g4bc8g4944g881bg9f10bb390cee" version="1">Affected creature will become &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisibility&lt;/LSTag&gt; at the start of each turn while in combat. They may also become Invisible outside of combat if starting their turn while &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Sneaking&lt;/LSTag&gt;.</content>
 
 	<content contentuid="hdb24b7c0g74dag4e54gb7a3gac6a6666a248" version="1">Trick of the Light</content>
 	<content contentuid="h25b27b77g4bc8g4944g881bg9f66699a8d21" version="1">&lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made against you are rolled with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;. Upon being damaged, this effect is disabled for three turns.</content>
@@ -83,7 +85,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">ASSASSIN</content>
 
 	<content contentuid="h9640be26g0277g412fg8cfdgc88ceeac21de" loreTexts="true" version="1">Galenas Paths</content>
-	<content contentuid="h941ec3e2geb18g475ega113gb538e05370ca" loreTexts="true" version="1">You apprenticed with the legendary Assassins of the Galenas Mountains, slaying your targets with a single strike.</content> 
+	<content contentuid="h941ec3e2geb18g475ega113gb538e05370ca" loreTexts="true" version="1">You apprenticed with the legendary Assassins of the Galenas Mountains, slaying your targets with a single strike.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage</content> 
 
 	<content contentuid="h653597fcg1942g4ce1gaefag1ecf2fa01d4b" version="1">Assassinate</content>
 	<content contentuid="h853b555ege835g49e1g9e27g74680e24aef5" version="4">You immediately restore your &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt; and &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; at the beginning of combat and have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; when attacking targets who have not taken a turn yet.&lt;br&gt;&lt;br&gt;Outside of combat, while &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Sneaking&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt;, any successful &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; you make deals an additonal 12 damage multiplied by your levels in Rogue. The type of damage dealt is the same as your main-hand melee weapon.&lt;br&gt;&lt;br&gt;Additionally, you gain the ability to &lt;LSTag Type="Spell" Tooltip="Target_Assassinate"&gt;Assassinate&lt;/LSTag&gt; a target of your choice, once per combat.</content>
@@ -116,15 +118,54 @@
 	<content contentuid="hc4558204g2c77g4b58gafb6g0ba6b39adsdf" version="1">Execute</content>
 	<content contentuid="h098941ccgc4ecg49f2gb22agabed0b0ewrff" version="3">Dealing damage to a target with less than 20% of its total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; instantly kills them.</content>
 
+<content contentuid="0000000000000000000000000000000000000" version="1">GAUNTLET</content>
+
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b700000" version="1">Gauntlet</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b7zzzzz" version="1">With gauntlet and dagger in hand, you bend the battlefield to your will, dragging enemies into reach, striking from impossible angles, and stealing their final moments for yourself.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Control/Damage</content>
+
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b700001" version="1">Dimensional Claw</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b70000a" version="1">Your weapons and unarmed damage may scale using your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt;, rather than your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt;. This can be toggled at any time.&lt;br&gt;&lt;br&gt;Additionally, while unarmed or dealing damage with a dagger in your main-hand, you gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
+	
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b700002" version="1">Get Over Here</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b70000b" version="1">Gain the ability to throw a grappling hook, pulling a creature [1] closer to you and dealing damage equal to your &lt;LSTag Type="Spell" Tooltip="Target_SneakAttack"&gt;Sneak Attack&lt;/LSTag&gt; in the process. In addition, when making a melee based unarmed &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, you deal an additional [2].</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b7000z2" version="1">Get Over Here</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b7000zb" version="1">Throw a grapling hook and pull a creature [1] closer to you, dealing damage equal to your &lt;LSTag Type="Spell" Tooltip="Target_SneakAttack"&gt;Sneak Attack&lt;/LSTag&gt; in the process.</content>
+
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b700003" version="1">Dagger Tail</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b70000c" version="1">After having used &lt;LSTag Type="Spell" Tooltip="Target_GetOverHere"&gt;Get Over Here&lt;/LSTag&gt; to pull a creature closer, you may expend a &lt;LSTag Type="ActionResource" Tooltip="LuckPoint"&gt;Luck Point&lt;/LSTag&gt; to kick them, pushing them backward by [1] and knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b7000z3" version="1">Dagger Tail</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b7000zc" version="1">After having used &lt;LSTag Type="Spell" Tooltip="Target_GetOverHere"&gt;Get Over Here&lt;/LSTag&gt; to pull a creature closer, kick them, pushing them backward by [1] and knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
+
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b700004" version="1">Cloak and Dagger</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b70000d" version="1">Gain the ability to teleport up to [1], potentially &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinding&lt;/LSTag&gt; enemies within [2] of where you land. In addition, after damaging an enemy with a weapon or a melee-based unarmed &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, you may immediately follow up with &lt;LSTag Type="Spell" Tooltip="Target_GetOverHere"&gt;Get Over Here&lt;/LSTag&gt; if they are farther than [3] away.</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b7000z4" version="1">Cloak and Dagger</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b7000zd" version="1">Teleport up to [1], potentially &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinding&lt;/LSTag&gt; enemies within [2] of where you land.</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b700zz4" version="1">Get Over Here</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b700zzd" version="1">After damaging an enemy who is farther than [1] away with a weapon or a melee-based unarmed &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, throw a grapling hook and pull them [2] closer to you, dealing damage equal to your &lt;LSTag Type="Spell" Tooltip="Target_SneakAttack"&gt;Sneak Attack&lt;/LSTag&gt; in the process.</content>
+
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b700005" version="1">Warrior Within</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b70000e" version="1">Gain the ability to attack all creatures within [1], pushing them backward by [2] and knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;. You may also do so after you successfully avoid an enemies melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b7000z5" version="1">Warrior Within</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b7000ze" version="1">Attack all creatures within [1], pushing them backward by [2] and knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b700zz5" version="1">Warrior Within</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b700zze" version="1">After having avoided an enemies melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, attack all creatures within [1], pushing them backward by [2] and knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
+
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b700006" version="1">The Sands of Time</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b70000f" version="1">Upon killing a creature, you store their essence as sand in an hourglass. After having killed three creatures, you may use their sand in order to restore your &lt;LSTag Type="ActionResource" Tooltip="LuckPoint"&gt;Luck Points&lt;/LSTag&gt;.</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b7000z6" version="1">The Sands of Time</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b7000zf" version="1">Expend your currently held sand in order to restore your &lt;LSTag Type="ActionResource" Tooltip="LuckPoint"&gt;Luck Points&lt;/LSTag&gt;.</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b700zz6" version="1">The Sands of Time</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b700zzf" version="1">Affected creature is storing sand obtained from killing enemies. Upon gaining three stacks of this condition, they will be able to fully restore their &lt;LSTag Type="ActionResource" Tooltip="LuckPoint"&gt;Luck Points&lt;/LSTag&gt;.</content>
+
 <content contentuid="0000000000000000000000000000000000000" version="1">HIDDEN TOXICANT</content>
 
 	<content contentuid="hedbd9f3fgf4d8g4f16gb02we68f4s65ef485" loreTexts="true" version="1">Westgate Docks</content>
-	<content contentuid="hf081aa54g2345s4e6f84s6e2f1e87f42f454" loreTexts="true" version="1">You apprenticed with the ruthless Night Masks, acquiring a collection of deadly recipes from all over Faerûn.</content>
+	<content contentuid="hf081aa54g2345s4e6f84s6e2f1e87f42f454" loreTexts="true" version="1">You apprenticed with the ruthless Night Masks, acquiring a collection of deadly recipes from all over Faerûn.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Control/Damage</content>
 
 	<content contentuid="hf081aa54g2345s4e6f84s6e2f1e87f42f454" version="1">Imbued Toxicity</content>
 	<content contentuid="hf081aa54g2345s4e6f84s6e2f1e87f40000a" version="1">Upon dealing Poison damage to an enemy, you afflict them with one stack of &lt;LSTag Type="Status" Tooltip="TOXICITY"&gt;Cursed Toxicity&lt;/LSTag&gt;. Stacks of Toxicity can then be &lt;LSTag Type="Spell" Tooltip="Target_Toxicity_Container"&gt;Detonated&lt;/LSTag&gt; in order to trigger various effects. In addition, your &lt;LSTag Type="Spell" Tooltip="Target_SneakAttack"&gt;Sneak Attack&lt;/LSTag&gt; deals Poison damage.</content>
 	<content contentuid="hedbd9f3fgf4d8g4f16gb02we68f4s6500011" version="1">Toxic Sneak Attack</content>
-	<content contentuid="hf081aa54g2345s4e6f84s6e2f1e87f40001a" version="2">Deal an extra [1] damage to a creature you have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; against. You must be wielding a &lt;LSTag Tooltip="Finesse"&gt;Finesse Weapon&lt;/LSTag&gt; in order to trigger Sneak Attack.</content>
+	<content contentuid="hf081aa54g2345s4e6f84s6e2f1e87f40001a" version="2">Deal an extra [1] damage to a creature you have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; against. You must be unarmed or wielding a &lt;LSTag Tooltip="Finesse"&gt;Finesse Weapon&lt;/LSTag&gt; in order to trigger Sneak Attack.</content>
 	<content contentuid="hedbd9f3fgf4d8g4f16gb02we68f4s6500021" version="1">Cursed Toxicity</content>
 	<content contentuid="hf081aa54g2345s4e6f84s6e2f1e87f40002a" version="1">Affected creature is afflicted with a cursed toxin, waiting to be activated. The curse renders them unable to utilize their armours physical &lt;LSTag Type="Status" Tooltip="DAMAGE_REDUCTION"&gt;Damage Reduction&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Removed at the end of combat.</content>
 	<content contentuid="hedbd9f3fgf4d8g4f16gb02we68f4s6500030" version="1">Detonate Toxicity</content>
@@ -166,12 +207,12 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">MERCENARY</content>
 
 	<content contentuid="hc28be462g2fd3g4877g8cadgf069f941993c" loreTexts="true" version="1">Skullport Caves</content>
-	<content contentuid="h2eeb9353g59b7g44aeg9bcag22fdd7fd811d" loreTexts="true" version="1">You apprenticed with the chaotic Xanathar Guild, making a name for yourself by wit and weapon in the lawless Port of Shadows under Waterdeep.</content>
+	<content contentuid="h2eeb9353g59b7g44aeg9bcag22fdd7fd811d" loreTexts="true" version="1">You apprenticed with the chaotic Xanathar Guild, making a name for yourself by wit and weapon in the lawless Port of Shadows under Waterdeep.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage/Tank</content>
 
 	<content contentuid="h34233a5agb50eg4820g9f10g3e21aa000001" version="1">Taking the Initiative</content>
 	<content contentuid="hba8f1eeeg12c1g43dag9a43g15d42b30000a" version="2">Gain a bonus to your Initiative and Charisma based &lt;LSTag Tooltip="SkillCheck"&gt;Skill Checks&lt;/LSTag&gt; equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;In addition, &lt;LSTag Type="Spell" Tooltip="Target_SneakAttack"&gt;Sneak Attack&lt;/LSTag&gt; may now trigger at any time provided you don't have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; when making the &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; and the target is not &lt;LSTag Type="Status" Tooltip="ALERTED"&gt;Alerted&lt;/LSTag&gt;.</content>
 	<content contentuid="h34233a5agb50eg4820g9f10g3e21aa0000z1" version="1">Sneak Attack</content>
-	<content contentuid="hba8f1eeeg12c1g43dag9a43g15d42b3000za" version="3">Deal an extra [1] damage to a creature. You must be wielding a &lt;LSTag Tooltip="Finesse"&gt;Finesse Weapon&lt;/LSTag&gt; in order to trigger Sneak Attack.</content>
+	<content contentuid="hba8f1eeeg12c1g43dag9a43g15d42b3000za" version="3">Deal an extra [1] damage to a creature. You must be unarmed or wielding a &lt;LSTag Tooltip="Finesse"&gt;Finesse Weapon&lt;/LSTag&gt; in order to trigger Sneak Attack.</content>
 
 	<content contentuid="hc28be462g2fd3g4877g8cadg6sd8f745493c" version="1">Field Experience</content>
 	<content contentuid="hdd2d1cbbgaafdg4946gafdfgcdee5d845f1e" version="4">Gain &lt;LSTag Type="Spell" Tooltip="Target_DirtyTrick_Disarm"&gt;Disarming Feint&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_DirtyTrick_Blind"&gt;Blinding Powder&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_DirtyTrick_Vicious"&gt;Mocking Tone&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_DirtyTrick_Panache"&gt;Provocative Challenge&lt;/LSTag&gt;.</content>
@@ -204,7 +245,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">THIEF</content>
 
 	<content contentuid="h5f0c4c41gc718g4b5dg91d3gfec0303bbcc3" loreTexts="true" version="1">Amnian Roads</content>
-	<content contentuid="hcd3d3bacgb879g492ega933g2254d1202f48" loreTexts="true" version="1">You apprenticed with the powerful Shadow Thieves, pursuing coin and adventure wherever luck took you.</content>
+	<content contentuid="hcd3d3bacgb879g492ega933g2254d1202f48" loreTexts="true" version="1">You apprenticed with the powerful Shadow Thieves, pursuing coin and adventure wherever luck took you.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage/Support</content>
 
 	<content contentuid="hc4558204g2c77g4b58g6a98522a6b394a6a8" version="1">Get Out of Jail Free</content>
 	<content contentuid="h098941ccgc4ecg49f2g6a45123ed0b02e844" version="3">You always start combat with all of your &lt;LSTag Type="ActionResource" Tooltip="LuckPoint"&gt;Luck Points&lt;/LSTag&gt;. When an enemy is about to hit you, you can use a Luck Point in order to cause it to miss. When you are about to miss an enemy, you can use a Luck Point in order to cause your attack to hit.</content>
@@ -234,12 +275,12 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">VIRULENCE</content>
 
 	<content contentuid="dfd64ed09bb241db9f6107f73591ee2600000" loreTexts="true" version="1">Cormyr Hallways</content>
-	<content contentuid="dfd64ed09bb241db9f6107f73591ee26zzzzz" loreTexts="true" version="1">You apprenticed with the aristocratic Fire Knives, coating your blades in substance lethal enough to pierce armour and slay kings.</content>
+	<content contentuid="dfd64ed09bb241db9f6107f73591ee26zzzzz" loreTexts="true" version="1">You apprenticed with the aristocratic Fire Knives, coating your blades in substance lethal enough to pierce armour and slay kings.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage</content>
 
 	<content contentuid="dfd64ed09bb241db9f6107f73591ee2600001" version="1">Virulent Edge</content>
 	<content contentuid="dfd64ed09bb241db9f6107f73591ee260000a" version="1">Your &lt;LSTag Type="Spell" Tooltip="Target_SneakAttack"&gt;Sneak Attack&lt;/LSTag&gt; deals Acid damage. In addition, when dealing damage to an enemy, you deal additional Acid damage equal to your levels in Rogue. This bonus does not apply to damage dealt with an off-hand weapon.</content>
 	<content contentuid="dfd64ed09bb241db9f6107f73591ee26000z1" version="1">Virulent Sneak Attack</content>
-	<content contentuid="dfd64ed09bb241db9f6107f73591ee26000za" version="2">Deal an extra [1] damage to a creature you have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; against. You must be wielding a &lt;LSTag Tooltip="Finesse"&gt;Finesse Weapon&lt;/LSTag&gt; in order to trigger Sneak Attack.</content>
+	<content contentuid="dfd64ed09bb241db9f6107f73591ee26000za" version="2">Deal an extra [1] damage to a creature you have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; against. You must be unarmed or wielding a &lt;LSTag Tooltip="Finesse"&gt;Finesse Weapon&lt;/LSTag&gt; in order to trigger Sneak Attack.</content>
 
 	<content contentuid="dfd64ed09bb241db9f6107f73591ee2600002" version="1">Corrosive Strike</content>
 	<content contentuid="dfd64ed09bb241db9f6107f73591ee260000b" version="1">Upon triggering &lt;LSTag Type="Spell" Tooltip="Target_SneakAttack"&gt;Sneak Attack&lt;/LSTag&gt; on an enemy, they immediately become &lt;LSTag Type="Status" Tooltip="CORRODED"&gt;Corroded&lt;/LSTag&gt; for one turn.</content>
@@ -254,7 +295,7 @@
 	<content contentuid="dfd64ed09bb241db9f6107f73591ee260000e" version="1">When targeting a creature coated in &lt;LSTag Type="Status" Tooltip="ACID"&gt;Acid&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="CORRODED"&gt;Corrosion&lt;/LSTag&gt;, you make all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and Damage Rolls with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
 
 	<content contentuid="dfd64ed09bb241db9f6107f73591ee2600006" version="1">Terminal Exposure</content>
-	<content contentuid="dfd64ed09bb241db9f6107f73591ee260000f" version="1">When dealing physical damage to a &lt;LSTag Type="Status" Tooltip="CORRODED"&gt;Corroded&lt;/LSTag&gt; enemy with a weapon, you deal additional damage equal to your &lt;LSTag Type="Spell" Tooltip="Target_SneakAttack"&gt;Sneak Attack&lt;/LSTag&gt;. Upon dealing this bonus damage, Corrosion is immediately removed from your target.</content>
+	<content contentuid="dfd64ed09bb241db9f6107f73591ee260000f" version="1">When dealing physical damage to a &lt;LSTag Type="Status" Tooltip="CORRODED"&gt;Corroded&lt;/LSTag&gt; enemy with your main-hand weapon, you deal additional damage equal to your &lt;LSTag Type="Spell" Tooltip="Target_SneakAttack"&gt;Sneak Attack&lt;/LSTag&gt;. Upon dealing this bonus damage, Corrosion is immediately removed from your target.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">PASSIVES</content>
 
@@ -335,6 +376,6 @@
 	<content contentuid="d3e15e63749c4b62b8e7760cc7074120000xs" version="3">Affected creature is &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; until the end of their next turn.</content>
 
 	<content contentuid="d3e15e63749c4b62b8e7760cc707412000020" version="1">Venomous</content>
-	<content contentuid="d3e15e63749c4b62b8e7760cc70741200000t" version="3">When dealing damage with a weapon, you potentially afflict your target with &lt;LSTag Type="Status" Tooltip="TOXIN_WYVERN"&gt;Wyvern Toxin&lt;/LSTag&gt; for one turn.</content>
+	<content contentuid="d3e15e63749c4b62b8e7760cc70741200000t" version="3">When dealing damage with a weapon or while unarmed, you potentially afflict your target with &lt;LSTag Type="Status" Tooltip="TOXIN_WYVERN"&gt;Wyvern Toxin&lt;/LSTag&gt; for one turn.</content>
 
 </contentList>

@@ -113,12 +113,12 @@
 	<content contentuid="fe6f4159abae42539029e28400149r99gdf9f" version="3">When making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; with one of your Smites, you make your roll with a +20 bonus.</content>
 
 	<content contentuid="fe6f4159abae42539029e2840012093812345" version="3">Condemned</content>
-	<content contentuid="fe6f4159abae42539029e28400149r9912345" version="3">Once per combat, when making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; with one of your Smites, you will deal the maximum damage possible.</content>
+	<content contentuid="fe6f4159abae42539029e28400149r9912345" version="3">Once per combat, when making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; with one of your Smites, you will deal the maximum damage possible.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">ANCIENT WARDEN</content>
 
 	<content contentuid="h2a7352eag799cg44afgaf7cg1ad3e9fbbf42" loreTexts="true" version="1">Sibling of the Ruby Rose</content>
-	<content contentuid="h7bd98082g8d1cg49b7gbdd9g5d45924e8d01" loreTexts="true" version="1">You served with the legendary Sisters and Brothers of the Ruby Rose, an order of paladins devoted to the defence of beauty, truth, and purity.</content>
+	<content contentuid="h7bd98082g8d1cg49b7gbdd9g5d45924e8d01" loreTexts="true" version="1">You served with the legendary Sisters and Brothers of the Ruby Rose, an order of paladins devoted to the defence of beauty, truth, and purity.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Healer/Support</content>
 
 	<content contentuid="h298b9a29g5657g4aa9gaad6gad3a8af6ad54" loreTexts="true" version="1">Bane of the Wretched</content>
 	<content contentuid="hb2400634gf3e4g46f1gb93dg1330e4d6asdf" version="3">When making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; or dealing damage to a Fey type creature, roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Once per turn, upon landing a killing blow on a Fey enemy, restore one &lt;LSTag Type="ActionResource" Tooltip="WarPriestActionPoint"&gt;Crusader's Smite&lt;/LSTag&gt; charge.</content>
@@ -156,7 +156,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">CROWNED PHOENIX</content>
 
 	<content contentuid="hf8d923abg2aeeg446agac9dgbb27081e8db2" loreTexts="true" version="2">Knight of the Weave</content>
-	<content contentuid="hb0043457gfdd6g470agbfd6g6594b92ca488" loreTexts="true" version="2">You served with the Knights of the Weave, a loose non-religious order defending the essence of magic from aberrations or shadow powers. You have learned to channel the power of &lt;i&gt;spellfire&lt;/i&gt; in service of your mission.</content>
+	<content contentuid="hb0043457gfdd6g470agbfd6g6594b92ca488" loreTexts="true" version="2">You served with the Knights of the Weave, a loose non-religious order defending the essence of magic from aberrations or shadow powers. You have learned to channel the power of &lt;i&gt;spellfire&lt;/i&gt; in service of your mission.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage/Tank</content>
 
 	<content contentuid="hf8d923abg2aeeg446agac9dgbb2708100001" loreTexts="true" version="2">Bane of the Warped</content>
 <content contentuid="hf8d923abg2aeeg446agac9dgbb270810000a" version="2">When making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; or dealing damage to an Aberration type creature, roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Once per turn, upon landing a killing blow on an enemy Aberration, restore one &lt;LSTag Type="ActionResource" Tooltip="WarPriestActionPoint"&gt;Crusader's Smite&lt;/LSTag&gt; charge.</content>
@@ -185,14 +185,14 @@
 <content contentuid="hf8d923abg2aeeg446agac9dgbb27081000se" loreTexts="true" version="2">Affected creature is &lt;LSTag Type="Status" Tooltip="SEARING_SMITE"&gt;Searing&lt;/LSTag&gt; all enemies within [1] of them with &lt;i&gt;spellfire&lt;/i&gt; and causing their allies to receive the effects of &lt;LSTag Type="Status" Tooltip="WARDING_BOND"&gt;Warding Bond&lt;/LSTag&gt;.</content>
 
 <content contentuid="hf8d923abg2aeeg446agac9dgbb2708100006" loreTexts="true" version="2">Vessel of the Weave</content>
-<content contentuid="hf8d923abg2aeeg446agac9dgbb270810000f" loreTexts="true" version="2">The first time you are &lt;LSTag Type="Status" Tooltip="DOWNED"&gt;Downed&lt;/LSTag&gt; in any combat encounter, you immediately recover all of your &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;, erupting in an uncontrollable surge of &lt;i&gt;spellfire&lt;/i&gt; and gaining &lt;LSTag Type="Status" Tooltip="SUNSCORCHED"&gt;Weave Infused&lt;/LSTag&gt; for three turns. When you recover from being Downed in this way, you retain your &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt; and &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;.</content>
+<content contentuid="hf8d923abg2aeeg446agac9dgbb270810000f" loreTexts="true" version="2">The first time you are &lt;LSTag Type="Status" Tooltip="DOWNED"&gt;Downed&lt;/LSTag&gt; in any combat encounter, you immediately recover all of your &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;, erupting in an uncontrollable surge of &lt;i&gt;spellfire&lt;/i&gt; and gaining &lt;LSTag Type="Status" Tooltip="SUNSCORCHED"&gt;Weave Infused&lt;/LSTag&gt; for three turns. When you recover from being Downed in this way, you retain your &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt;, &lt;LSTag Tooltip="BonusAction"&gt;Bonus Action&lt;/LSTag&gt;, and &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;.</content>
 <content contentuid="hf8d923abg2aeeg446agac9dgbb27081000s6" loreTexts="true" version="2">Spent Conduit</content>
 <content contentuid="hf8d923abg2aeeg446agac9dgbb27081000sf" loreTexts="true" version="2">Affected creature may self-revive again at the end of their next combat encounter.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">DEVOUT PARAGON</content>
 
 	<content contentuid="h07d494ebg069ag42a7g8fdfge1cb3672bac5" loreTexts="true" version="1">Radiant Heart Auxiliary</content>
-	<content contentuid="h238b6cb3gdff0g4151gbd79g2af569925479" loreTexts="true" version="1">You served in the junior ranks of the Most Noble Order of the Radiant Heart, a fraternal organization that preserves peace and protects the weak across the Realms. </content>
+	<content contentuid="h238b6cb3gdff0g4151gbd79g2af569925479" loreTexts="true" version="1">You served in the junior ranks of the Most Noble Order of the Radiant Heart, a fraternal organization that preserves peace and protects the weak across the Realms.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage/Support</content>
 
 	<content contentuid="h298b9a29g5657g4aa9gaad6gad3a8afasdfd" loreTexts="true" version="1">Bane of the Wicked</content>
 	<content contentuid="hb2400634gf3e4g46f1gb93dg1330e4dwerdd" version="3">When making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; or dealing damage to a Fiend type creature, roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Once per turn, upon landing a killing blow on an enemy Fiend, restore one &lt;LSTag Type="ActionResource" Tooltip="WarPriestActionPoint"&gt;Crusader's Smite&lt;/LSTag&gt; charge.</content>
@@ -224,12 +224,12 @@
 	<content contentuid="h883a2333g00cag41c3gbc95g563f6c765164" version="4">Has &lt;LSTag Type="Status" Tooltip="HEROISM"&gt;Heroism&lt;/LSTag&gt; as well as &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to all fear based status effects while within [1] of the Paladin responsible for this status.</content>
 
 	<content contentuid="h298b9a29g5657g4aa9gaad6gad22d3d1f1d5" loreTexts="true" version="1">Champion of Justice</content>
-	<content contentuid="hb2400634gf3e4g46f1gb93dg136s6d5f4d54" version="3">When making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against a creature afflicted with stacks of &lt;LSTag Type="Status" Tooltip="MAG_RADIANT_RADIATING_ORB"&gt;Radiating Orb&lt;/LSTag&gt;, you roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; and deal an additional [1].</content>
+	<content contentuid="hb2400634gf3e4g46f1gb93dg136s6d5f4d54" version="3">When making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against a creature afflicted with stacks of &lt;LSTag Type="Status" Tooltip="MAG_RADIANT_RADIATING_ORB"&gt;Radiating Orb&lt;/LSTag&gt;, you roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; and deal an additional [1]. This bonus does not apply to damage dealt with your off-hand weapon.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">OATHBOUND CRUSADER</content>
 
 	<content contentuid="h83972695g2797g49bdg8e3bga526a352143d" loreTexts="true" version="1">Gilded Eye Inquisitor</content>
-	<content contentuid="h573bd5d7g78ccg467cga56dg4392c97ad6ba" loreTexts="true" version="1">You served with the fanatic Order of the Gilded Eye, knights of Helm who mercilessly hunt down corruption and evil in the North.</content>
+	<content contentuid="h573bd5d7g78ccg467cga56dg4392c97ad6ba" loreTexts="true" version="1">You served with the fanatic Order of the Gilded Eye, knights of Helm who mercilessly hunt down corruption and evil in the North.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage</content>
 
 	<content contentuid="h298b9a29g5657g4aa9gaad6gad3a8afsdf98" loreTexts="true" version="1">Bane of the Damned</content>
 	<content contentuid="hb2400634gf3e4g46f1gb93dg1330e4derere" version="3">When making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; or dealing damage to a Undead type creature, roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Once per turn, upon landing a killing blow on an enemy Undead, restore one &lt;LSTag Type="ActionResource" Tooltip="WarPriestActionPoint"&gt;Crusader's Smite&lt;/LSTag&gt; charge.</content>
@@ -261,11 +261,14 @@
 	<content contentuid="h298b9a29g5657g4aa9gaad6gad3a822d3f45" loreTexts="true" version="1">Vengeance Incarnate</content>
 	<content contentuid="hb2400634gf3e4g46f1gb93dg1330e4ss6d85" version="3">Once per combat encounter, erupt in radiant fury. Your weapon attacks deal an additional [1] for three turns and all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; you make are rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;In addition, upon casting, &lt;LSTag Type="Status" Tooltip="Tooltip_Condemned"&gt;Condemned&lt;/LSTag&gt; may be triggered again.</content>
 	<content contentuid="h298b9a29g5657g4aa9gaad6gad3a8af00001" loreTexts="true" version="1">Vengeance Incarnate</content>
-	<content contentuid="hb2400634gf3e4g46f1gb93dg1330e4a0000a" version="3">Erupt in radiant fury. Your weapon attacks deal an additional [1] and all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; are made with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Upon casting, &lt;LSTag Type="Status" Tooltip="Tooltip_Condemned"&gt;Condemned&lt;/LSTag&gt; may be triggered again.</content>
+	<content contentuid="hb2400634gf3e4g46f1gb93dg1330e4a0000a" version="3">Erupt in radiant fury. Your main-hand weapon attacks deal an additional [1] and all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; are made with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Upon casting, &lt;LSTag Type="Status" Tooltip="Tooltip_Condemned"&gt;Condemned&lt;/LSTag&gt; may be triggered again.</content>
 	<content contentuid="h298b9a29g5657g4aa9gaad6gad3a8af000z1" loreTexts="true" version="1">Vengeance Incarnate</content>
-	<content contentuid="hb2400634gf3e4g46f1gb93dg1330e4a000za" version="3">Affected creature has erupted in radiant fury. Their weapon attacks deal an additional [1] and they make all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+	<content contentuid="hb2400634gf3e4g46f1gb93dg1330e4a000za" version="3">Affected creature has erupted in radiant fury. Their main-hand weapon attacks deal an additional [1] and they make all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">OATHBREAKER</content>
+
+	<content contentuid="h1b152143g9aacg4821g8b1dg0a5c8c384b99" version="1">Oathbreaker</content>
+	<content contentuid="h23db7ea6g6882g428bg9af2g50b797dba11b" version="1">You have broken your sacred Oath in pursuit of power and ambition. Only darkness remains to fuel you now.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Control/Summoner</content>
 
 	<content contentuid="ha612b54dg48c5g45cegbe8fg273c791e5a41" version="1">Subjugate Creature</content>
 	<content contentuid="h7c01bf17g01deg4907gb001g8280ca511db6" version="3">Use the power of your shattered Oath to exert control over a hostile creature, influencing them to attack their allies.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Passive" Tooltip="Fatal_Encounter"&gt;Fatal Encounters&lt;/LSTag&gt; cannot be Subjugated.</content>
@@ -305,7 +308,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">RUNIC MYSTFLAME</content>
 
 	<content contentuid="hadb7e84644854b8b9a46f5e4586197e53c25" loreTexts="true" version="1">Mystic Fire Aspirant</content>
-	<content contentuid="h130df7e8eb2d41ce90c97835520d4924917a" loreTexts="true" version="1">You served with the Knights of the Mystic Fire, paladins of Mystra who enforce the goddess of magic's will against those who would misuse her Art.</content>
+	<content contentuid="h130df7e8eb2d41ce90c97835520d4924917a" loreTexts="true" version="1">You served with the Knights of the Mystic Fire, paladins of Mystra who enforce the goddess of magic's will against those who would misuse her Art.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Control/Support</content>
 	
 	<content contentuid="h33b21fb0973340df91b0d8f917c6c8df8d94" version="1">Spellshatter</content>
 	<content contentuid="h80920914af3a4234afd098d90988ad4a921e" version="1">Gain &lt;LSTag Type="Spell" Tooltip="Target_Smite_Spellshatter"&gt;Spellshatter Smite&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Countersmite"&gt;Countersmite&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_ArcaneJudgment_Class"&gt;Arcane Righteousness&lt;/LSTag&gt;.</content>
@@ -353,7 +356,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">TYRANT</content>
 
 	<content contentuid="05ba80fa2f9c43a3b2da424d8e82080b00000" loreTexts="true" version="1">Black Gauntlet Crusader</content>
-	<content contentuid="05ba80fa2f9c43a3b2da424d8e82080bzzzzz" loreTexts="true" version="1">You served with the Banite knights of the Black Gauntlet, a ruthless brotherhood from Mintar intent on imposing absolute order and fealty to the Black Hand.</content>
+	<content contentuid="05ba80fa2f9c43a3b2da424d8e82080bzzzzz" loreTexts="true" version="1">You served with the Banite knights of the Black Gauntlet, a ruthless brotherhood from Mintar intent on imposing absolute order and fealty to the Black Hand.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Control/Damage</content>
 
 	<content contentuid="acb55f4f68334da6s574wdf96s87fee200001" version="1">Tyrant's Judgement</content>
 	<content contentuid="acb55f4f68334da6s574wdf96s87fee20000a" version="3">When making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; or dealing damage to a creature benefitting from &lt;LSTag Type="Status" Tooltip="LOCKDOWN_CONDITION"&gt;Lockdown Immunity&lt;/LSTag&gt;, roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Once per turn, upon landing a killing blow on an enemy benefitting from Lockdown Immunity, restore one &lt;LSTag Type="ActionResource" Tooltip="WarPriestActionPoint"&gt;Crusader's Smite&lt;/LSTag&gt; charge.</content>
@@ -447,7 +450,7 @@
 	<content contentuid="fe6f4159abae42539029e284001d12deafiow" version="3">Affected creature will recover one &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; charge when this status expires.</content>
 
 	<content contentuid="fe6f4159abae42539029e284001d12de00010" version="3">Principle of Belief</content>
-	<content contentuid="fe6f4159abae42539029e284001d12de0000j" version="3">When dealing damage to Aberrations, Fey, Fiends, or Undead, you deal an additional +12 damage.</content>
+	<content contentuid="fe6f4159abae42539029e284001d12de0000j" version="3">When dealing damage to Aberrations, Fey, Fiends, or Undead, you deal an additional +12 damage. This bonus does not apply to damage dealt with your off-hand weapon.</content>
 
 	<content contentuid="h3e63e6aag19b0g400agb559g2e125483261f" version="3">Repel the Damned</content>
 	<content contentuid="h90dc6c92g4bdag440cg8119g6a95df4567cf" version="3">All enemies within [1] of you take damage at the start of their turns equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Charisma Modifier&lt;/LSTag&gt;. The type of damage dealt changes depending on your choice of subclass.</content>

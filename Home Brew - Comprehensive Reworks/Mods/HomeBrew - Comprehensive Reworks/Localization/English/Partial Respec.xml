@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+    <content contentuid="hf59a97cfa2e14c83827458f51067092c0b31" version="1">When disabled, Partial Respec does not alter the vanilla respec flow or show its custom UI.</content>
+    <content contentuid="he6f3b596d74a4742bb57aba99d48bd73c57g" version="1">Enable Partial Respec</content>
+    <content contentuid="hc9937944a2094124aa000f777fa8453865fd" version="1">0 = no debug, 1 = basic debug, 2 = verbose debug.</content>
+    <content contentuid="h62696829ce6f49edaa3e77092984bba62dfd" version="1">Debug level</content>
+    <content contentuid="hceda4f95ge6c1g4134g8fedg30704e3a533d" version="1">Partial Respec</content>
+    <content contentuid="h8730f71cg2996g4d93ga849g99897df1703a" version="1">Choose the last level to keep from your current build.&lt;br&gt;Your character will return at that level, ready to level up back from that point on.</content>
+    <content contentuid="h6f1869a4g06a4g45c9gb27fga6c1819eeb2e" version="1">Confirm</content>
+    <content contentuid="h60c59b13gd01fg443aga97egcd80ad888951" version="1">Full Respec</content>
+    <content contentuid="h5e41976eg3042g4a83g936egbf3422228144" version="1">Select</content>
+    <content contentuid="hd1efcd1dg3ed5g41f2g8773g45d3361b1289" version="1">Partial Respec Complete</content>
+    <content contentuid="hd49f4790g3b38g49c4g99a0ge44f585673ae" version="1">Level [1]</content>
+    <content contentuid="hf39c9f10gb179g4084g8ff6gc74285976171" version="1">[1] [2]</content>
+    <content contentuid="h2559478fg7db0g4c65gb791gbb5b2f8cce16" version="1">&lt;i&gt;Kept through level [1]&lt;/i&gt;:</content>
+    <content contentuid="h5e37a2dfg4880g424bga1e6ge5cb67ad838b" version="1">Classes: [1]</content>
+    <content contentuid="h4c0fbf6egc03cg4114g9db7g5a83d073ccf7" version="1">None</content>
+    <content contentuid="h294a397ag4d41g4d36g903eg6902f6f3441c" version="1">Subclasses: [1]</content>
+    <content contentuid="h5f0a79b9g4348g4049g9b77g0ff34a14484a" version="1">Feats: [1]</content>
+    <content contentuid="h6f3bc421g66a2g43a8gb450g95cd5c862ffb" version="1">Class Passives: [1]</content>
+    <content contentuid="h9e2ea072gc77dg475dgb36eg2d90b35ef740" version="1">, </content>
+    <content contentuid="h424602aag4ac8g437bgba0bg09b557a3a31e" version="1">&lt;i&gt;Levels 1-[1] restored&lt;/i&gt;</content>
+    <content contentuid="ha2a60b34gfd95g4cd6gafa6g934565f64fa5" version="1">Classes kept: [1]</content>
+    <content contentuid="hd2c871c3g413fg44b9gb1b1g17f37946342a" version="1">Ready to rebuild from level [1]</content>
+    <content contentuid="hca715032g6928g42e4g91ebg062f59702816" version="1">Unknown class: [1]</content>
+    <content contentuid="h5ea6b060g79d4g4542ga9beg674b004d3428" version="1">Unknown subclass: [1]</content>
+    <content contentuid="h1fa2342eg6b09g4874gbd98g2d575b62a78a" version="1">Unknown feat: [1]</content>
+    <content contentuid="h17481e45gd9d8g48e7ga58ag752a8cf65a78" version="1">Unknown passive: [1]</content>
+</contentList>

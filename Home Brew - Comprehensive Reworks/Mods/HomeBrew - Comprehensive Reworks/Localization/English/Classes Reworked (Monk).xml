@@ -7,7 +7,7 @@
 	<content contentuid="hfe6be642g5ae0g4e79gaccag91689d25420c" version="3">You gain one Ki Point per level, which are restored upon taking a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;. Ki Points fuel various techniques as a Monk, allowing you to be more effective and versatile in combat.</content>
 
 	<content contentuid="d03f845e0df8463295a0cc3b6d86442c6a942" version="6">Martial Arts</content>
-	<content contentuid="d03f845e0df8463295a0cc3b6d86442c6a921" version="6">Your weapons may scale with your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt;, rather than your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt;. This can be toggled at any time.&lt;br&gt;&lt;br&gt;Additionally, you are able to benefit from &lt;LSTag Type="Status" Tooltip="Tooltip_FreeHandling"&gt;Free Handling&lt;/LSTag&gt; while you are unarmed.</content>
+	<content contentuid="d03f845e0df8463295a0cc3b6d86442c6a921" version="6">Your weapons and unarmed damage may scale using your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt;, rather than your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt;. This can be toggled at any time.&lt;br&gt;&lt;br&gt;Additionally, you are able to benefit from &lt;LSTag Type="Status" Tooltip="Tooltip_FreeHandling"&gt;Free Handling&lt;/LSTag&gt; while you are unarmed, and you regain &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Points&lt;/LSTag&gt; each turn equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; minus one.</content>
 
 	<content contentuid="h69adc5a5ge60ag4affg84a0gd14490176db0" version="1">Unarmed Strike</content>
 	<content contentuid="hefec7f3fg7e34g4a1ag97a4gc4223e9e32b4" version="2">Swiftly strike an enemy.</content>
@@ -16,16 +16,16 @@
 	<content contentuid="h8ed549a4ga454g49b4gb319g7335ccf73b3a" version="6">Punch twice in rapid succession.</content>
 
 	<content contentuid="d03f845e0df8463295a0cc3b6d86442c4a452" version="6">Martial Flux</content>
-	<content contentuid="d03f845e0df8463295a0cc3b6d86442c2a354" version="6">Upon starting your turn, you regain one &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Point&lt;/LSTag&gt;.</content>
+	<content contentuid="d03f845e0df8463295a0cc3b6d86442c2a354" version="6">When expending &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Points&lt;/LSTag&gt; in order to make an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, the number needed to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; is reduced by one.</content>
 
 	<content contentuid="d03f845e0df8463295a0cc3b6d86442c6a9ed" version="6">Ki Resonance</content>
-	<content contentuid="d03f845e0df8463295a0cc3b6d86442c1a345" version="6">When expending &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Points&lt;/LSTag&gt; in order to deal damage, the lowest number you are capable of rolling is an 8.</content>
+	<content contentuid="d03f845e0df8463295a0cc3b6d86442c1a345" version="6">When expending &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Points&lt;/LSTag&gt; in order to deal damage, the lowest number you are capable of rolling is a 8.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">WAY OF THE ARCANE</content>
 
 	<content contentuid="hbe016590gb2f5g4fe9gaf36gddde7240410d" loreTexts="true" version="1">Shining Hand Training</content>
-	<content contentuid="hca811246g62bbg4c39g9f3fg9abcfa4caa75" loreTexts="true" version="2">You trained in Amn with the time-honoured Azuthian monks of the Shining Hand, who mix wizardry with monastic discipline in devotion to the Lord of Spells.</content>
 	<content contentuid="hd7b3cc90g33b2g453aga78bgeb5db0093e19" loreTexts="true" version="1">Shining Hand Training</content>
+	<content contentuid="hca811246g62bbg4c39g9f3fg9abcfa4caa75" loreTexts="true" version="2">You trained in Amn with the time-honoured Azuthian monks of the Shining Hand, who mix wizardry with monastic discipline in devotion to the Lord of Spells.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Control/Damage</content>
 	<content contentuid="hb20d489bg56dfg4abfg9128gba50ebe6a4a8" version="6">This &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; is considered an &lt;LSTag Tooltip="AttackRoll"&gt;Unarmed Attack Roll&lt;/LSTag&gt;. As such, it rolls using your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt;, depending on which is higher.</content>
 
 	<content contentuid="h6fd86334ge5e3g47d0gb00fg7b0s2e2f1e52" version="2">Arcane Flurry</content>
@@ -123,7 +123,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">WAY OF THE DRUNKEN FIST</content>
 
 	<content contentuid="h392ca1c2g2438g40c6ga3e6ge2b15b83f947" loreTexts="true" version="1">Saint Dionysus Training</content>
-	<content contentuid="hf8c35f5fg841eg4cbegaec6gf45dc0ad011e" loreTexts="true" version="1">You trained in Damara with the eccentric Ilmatari monks of the Order of St. Dionysus, who revere their founder as the patron saint of alcohol and wine.</content>
+	<content contentuid="hf8c35f5fg841eg4cbegaec6gf45dc0ad011e" loreTexts="true" version="1">You trained in Damara with the eccentric Ilmatari monks of the Order of St. Dionysus, who revere their founder as the patron saint of alcohol and wine.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Control/Damage</content>
 
 	<content contentuid="h3beda6c5g0a7bg4b59g8451g6as5d4f00001" version="1">Flurry of Blows: Intoxicating</content>
 	<content contentuid="h3beda6c5g0a7bg4b59g8451g6as5d4f0000a" version="1">While &lt;LSTag Type="Status" Tooltip="DRUNK"&gt;Inebriated&lt;/LSTag&gt;, deliver two hits in rapid succession. If your target is Inebriated, this action will potentially knock them &lt;LSTag Type="Status" Tooltip="UNCONSCIOUS"&gt;Unconscious&lt;/LSTag&gt; for one turn, removing the condition.</content>
@@ -157,7 +157,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">WAY OF THE GENTLE FIST</content>
 
 	<content contentuid="acb55f4f68334d90acd68f5f37353d0b00000" loreTexts="true" version="1">Broken Ones Training</content>
-	<content contentuid="acb55f4f68334d90acd68f5f37353d0bzzzzz" loreTexts="true" version="1">You trained in the Dalelands with the wandering Ilmatari monks called the Broken Ones, who pursue the path of healers and protectors of the meek.</content>
+	<content contentuid="acb55f4f68334d90acd68f5f37353d0bzzzzz" loreTexts="true" version="1">You trained in the Dalelands with the wandering Ilmatari monks called the Broken Ones, who pursue the path of healers and protectors of the meek.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage/Healer</content>
 
 	<content contentuid="acb55f4f68334d90acd68f5f37353d0b00002" version="1">Mending Blows</content>
 	<content contentuid="acb55f4f68334d90acd68f5f37353d0b0000b" version="1">You are considered to be a priority target. This can be toggled at any time.&lt;br&gt;&lt;br&gt;In addition, each turn, and when dealing melee damage to an enemy, you heal yourself and all allies within [1] of your target for an amount equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Wisdom Modifier&lt;/LSTag&gt;.</content>
@@ -182,8 +182,8 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">WAY OF THE OPEN HAND</content>
 
 	<content contentuid="hf4a79fb8ge057g4725g934dg83cc685ec654" loreTexts="true" version="1">White Rod Training</content>
-	<content contentuid="h29ded009g66f1g4448g8fceg68452f0b4c5d" loreTexts="true" version="1">You trained in Calimshan with the renowned Loviatan monks of the White Rod, who know a thousand and one ways to inflict pain with their bare hands.</content>
-	<content contentuid="h3cf42f71g6a06g4e7ag9c4fge283255a4bc4" loreTexts="true" version="2">You trained in Calimshan with the renowned Loviatan monks of the White Rod, who know a thousand and one ways to inflict pain with their bare hands.</content>
+	<content contentuid="h29ded009g66f1g4448g8fceg68452f0b4c5d" loreTexts="true" version="1">You trained in Calimshan with the renowned Loviatan monks of the White Rod, who know a thousand and one ways to inflict pain with their bare hands.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage</content>
+	<content contentuid="h3cf42f71g6a06g4e7ag9c4fge283255a4bc4" loreTexts="true" version="2">You trained in Calimshan with the renowned Loviatan monks of the White Rod, who know a thousand and one ways to inflict pain with their bare hands.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage</content>
 
 	<content contentuid="h82f6ed54g78a2g4a1fga040g44dba16sd5f8" version="2">Open Combat</content>
 	<content contentuid="hdd2d1cbbgaafdg4946gafdfgcd1cb42d5f45" version="4">Gain &lt;LSTag Type="Spell" Tooltip="Target_OpenHandTechnique_Knock"&gt;Flurry of Blows: Topple&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_OpenHandTechnique_NoReactions"&gt;Flurry of Blows: Stagger&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_OpenHandTechnique_Push"&gt;Flurry of Blows: Push&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_UnarmedStrike_Monk"&gt;Unarmed Strike&lt;/LSTag&gt;.</content>
@@ -196,7 +196,7 @@
 	<content contentuid="h72afe393gd62eg4d84g9429g6f67d5226e6c" version="5">Deliver two lightning fast blows and possibly push your target [1] away.</content>
 
 	<content contentuid="h451f9a42gca5ag40d5ga31ag3024c66a6sdd" version="6">Weaponized Fists</content>
-	<content contentuid="h4dc41c23g84a5g459dg80e3g0e22fb19sd98" version="6">Gain the ability to cast the standard variant of &lt;LSTag Type="Spell" Tooltip="Target_UnarmedAttackDual"&gt;Flurry of Blows&lt;/LSTag&gt; as an &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt; at any time.</content>
+	<content contentuid="h4dc41c23g84a5g459dg80e3g0e22fb19sd98" version="6">Gain the ability to cast the standard variant of &lt;LSTag Type="Spell" Tooltip="Target_FlurryOfBlows_Free"&gt;Flurry of Blows&lt;/LSTag&gt; as an &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt; at any time.</content>
 
 	<content contentuid="h5decdf3dgf82cg42b6gb6dega2294e952dd0" version="3">Stunning Strike (Armed)</content>
 	<content contentuid="hadda723bgfc48g48c7ga21bg586272f41179" version="1">Stunning Strike (Unarmed)</content>
@@ -228,7 +228,7 @@
 
 	<content contentuid="h05e1db8ag8572g4908ga042gffda9f365c57" loreTexts="true" version="1">Dark Moon Training</content>
 	<content contentuid="h28328e2eg7c83g4436gae8bgdddb6d09a2bf" loreTexts="true" version="1">Dark Moon Training</content>
-	<content contentuid="hb783e700ga178g434eg9843g2f441cac38a8" loreTexts="true" version="3">You trained in the Cloud Peaks with the secretive Sharran monks of the Dark Moon, who wrap themselves in the very shadows to hunt down the enemies of their faith.</content>
+	<content contentuid="hb783e700ga178g434eg9843g2f441cac38a8" loreTexts="true" version="3">You trained in the Cloud Peaks with the secretive Sharran monks of the Dark Moon, who wrap themselves in the very shadows to hunt down the enemies of their faith.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage</content>
 
 	<content contentuid="h82f6ed54g78a2g4a1fga040g44666d8f99f8" version="2">Fists of Shade</content>
 	<content contentuid="hdd2d1cbbgaafdg4946gafdfgc5dffffed41e" version="4">Gain &lt;LSTag Type="Spell" Tooltip="Target_ShadowStep"&gt;Shadow Step&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_CloakOfShadows_Monk"&gt;Cloak of Shadows&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_ShadowStrike_Instant"&gt;Shadow Strike&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_ShadowStrike_Instant_Unarmed"&gt;Shadow Strike: Unarmed&lt;/LSTag&gt;.</content>
@@ -270,7 +270,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">WAY OF THE TEMPERED STEEL</content>
 
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500000" loreTexts="true" version="1">Soaring Way Training</content>
-	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000z" loreTexts="true" version="1">You trained in Telflamm with the exotic Shou monks of Xiang Temple, who hone their blades no less than their own bodies.</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000z" loreTexts="true" version="1">You trained in Telflamm with the exotic Shou monks of Xiang Temple, who hone their blades no less than their own bodies.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage</content>
 
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500001" version="1">Tempered Discipline</content>
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000a" version="1">Gain the ability to summon a &lt;LSTag Type="Spell" Tooltip="Shout_Summon_TemperedBlade"&gt;Tempered Blade&lt;/LSTag&gt;, which grows in strength alongside your levels in Monk. In addition, you gain the ability to perform &lt;LSTag Type="Spell" Tooltip="Target_JudgementCut"&gt;Judgement Cut&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_MirageBlade"&gt;Mirage Blade&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_TemperedStrike"&gt;Tempered Strike&lt;/LSTag&gt;.</content>
@@ -293,22 +293,22 @@
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae76505000y1" version="2">Mirage Blade</content>
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae76505000ya" version="5">Target a creature from afar with your equipped main-hand weapon, teleporting to their position. In addition, you may instead target the ground in order to teleport to an area you can see.</content>
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae76505000z1" version="2">Tempered Strike</content>
-	<content contentuid="a19b576b3c4541089f1d4b0e4ae76505000za" version="5">Deliver a focused blow with your main-hand weapon, dealing twice as much damage as a normal strike.</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae76505000za" version="5">Deliver a focused blow with your main-hand weapon, dealing twice as much base damage as a normal strike.</content>
 
-	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500002" version="1">Focused Serenity</content>
-	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000b" version="1">When dealing damage to an enemy with a weapon, you add your base unarmed damage to the damage dealt.</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500004" version="1">Unanswered Angle</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000d" version="1">When dealing damage to an enemy or item, you ignore all physical &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt;.</content>
 
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500003" version="1">Macabre Patience</content>
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000c" version="1">&lt;LSTag Type="Spell" Tooltip="Target_JudgementCut"&gt;Judgement Cut&lt;/LSTag&gt; now targets creatures within [1] of your original target. In addition, &lt;LSTag Type="Spell" Tooltip="Target_MirageBlade"&gt;Mirage Blade&lt;/LSTag&gt; is now capable of targeting two separate creatures, rather than one. Finally, when dealing damage to an enemy with &lt;LSTag Type="Spell" Tooltip="Target_TemperedStrike"&gt;Tempered Strike&lt;/LSTag&gt;, you roll your damage with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
 
-	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500004" version="1">Unanswered Angle</content>
-	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000d" version="1">When dealing damage to an enemy or item with a weapon, you ignore all physical &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt;.</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500002" version="1">Focused Serenity</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000b" version="1">When dealing damage to an enemy with your main-hand weapon, you add your base unarmed damage to the damage dealt.</content>
 
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500005" version="1">Concentration</content>
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000e" version="1">At the start of each turn, you regain one &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Point&lt;/LSTag&gt;. In addition, ending your turn without moving will restore an additional Ki Point.</content>
 
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500006" loreTexts="true" version="1">Strike of the Daito</content>
-	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000f" version="1">When targeting a creature with all of their &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_JudgementCut"&gt;Judgement Cut&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_MirageBlade"&gt;Mirage Blade&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_TemperedStrike"&gt;Tempered Strike&lt;/LSTag&gt; will always trigger a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000f" version="1">When targeting a creature with all of their &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_JudgementCut"&gt;Judgement Cut&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_MirageBlade"&gt;Mirage Blade&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_TemperedStrike"&gt;Tempered Strike&lt;/LSTag&gt; will always trigger a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, and will deal the maximum damage possible.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">PASSIVES</content>
 

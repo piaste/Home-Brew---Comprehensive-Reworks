@@ -50,7 +50,7 @@
 	<content contentuid="h004521f9gf207g4263ga129g05fce1ef59fe" version="3">Summon a giant spider that can shoot &lt;LSTag Type="Spell" Tooltip="Target_Web_Spider_Summon"&gt;Webs&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; enemies with its &lt;LSTag Type="Spell" Tooltip="Target_Bite_GiantSpider_Wildshape"&gt;Bite&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h116ba0c1g51dfg46dbg9f47g8558d9af5422" version="1">Horde Breaker</content>
-	<content contentuid="h2ad75116g5840g449cg83d6geac4697f474d" version="2">Gain the ability to target two creatures standing within [1] of each other.&lt;br&gt;&lt;br&gt;In addition your Ranger Companions gain &lt;LSTag Type="Status" Tooltip="Tooltip_ExtraAttack"&gt;Extra Actions&lt;/LSTag&gt;.</content>
+	<content contentuid="h2ad75116g5840g449cg83d6geac4697f474d" version="2">Gain the ability to target two creatures standing within [1] of each other.&lt;br&gt;&lt;br&gt;In addition your Ranger Companions gain an &lt;LSTag Type="Status" Tooltip="Tooltip_ExtraAttack"&gt;Extra Action&lt;/LSTag&gt;.</content>
 	<content contentuid="h22e88128g36c8g4cedgbad1g942fe6401a75" version="1">Horde Breaker (Melee)</content>
 	<content contentuid="h4a5c145dgd1adg4034ga26bg8781dcb9fbd4" version="3">Target two creatures standing close to each other. Attack the first creature and then gain the ability to make an additional &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against the second as a free action.</content>
 	<content contentuid="h75a771c9g1465g4ad8gb033gb5152ef8b463" version="1">Horde Breaker (Ranged)</content>
@@ -68,7 +68,7 @@
 
 
 	<content contentuid="hd3d0e53ag76a8g4275g98b2g751f2c421b8a" loreTexts="true" version="1">High Forest Trail</content>
-	<content contentuid="h2accac8fg28eeg4d85gb412g2f6f8ec2d756" loreTexts="true" version="1">You explored the endless paths of the Great Everwood and learned to befriend the many beasts that call it home.</content>
+	<content contentuid="h2accac8fg28eeg4d85gb412g2f6f8ec2d756" loreTexts="true" version="1">You explored the endless paths of the Great Everwood and learned to befriend the many beasts that call it home.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Summoner/Support</content>
 
 	<content contentuid="hdea6e468g7f71g48f6gaf6fg36fce0dfy4f2" version="3">Nevermore</content>
 	<content contentuid="hdea6e468g7f71g48f6gaf6fg36fce0df6568" version="3">You will not provoke attacks of opportunity.</content>
@@ -78,9 +78,9 @@
 	<content contentuid="h42fd1334g1251g4ce6gbcd8gc38a02443a74" version="3">Disengage</content>
 
 	<content contentuid="h9540ee6cg45d6g4d44g9165gd43asdf125de" version="3">Spear of the Wildfront</content>
-	<content contentuid="heab073adgda32g4f3bgbd79asdfs96546588" version="3">Damage dealt by your Ranger Companion is rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. However, &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made against them are rolled with Advantage as well. This can be toggled at any time.</content>
+	<content contentuid="heab073adgda32g4f3bgbd79asdfs96546588" version="3">Damage dealt by your Ranger Companion is rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. However, they are considered to be a priority target. This can be toggled at any time.</content>
 	<content contentuid="h9540ee6cg45d6g4d44g916s5453asdf125de" version="3">Spear of the Wildfront</content>
-	<content contentuid="heab073adgda32g4f3bgbd6s852fs96546588" version="3">Damage dealt by your Ranger Companion is rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. However, &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made against them are rolled with Advantage as well. This can be toggled at any time.</content>
+	<content contentuid="heab073adgda32g4f3bgbd6s852fs96546588" version="3">Damage dealt by your Ranger Companion is rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. However, they are considered to be a priority target. This can be toggled at any time.</content>
 	<content contentuid="h0f5c3539g18bbg4891ga824g82716a6a6885" version="2">Spear of the Wildfront</content>
 	<content contentuid="h93857089gb140g4c33ga0a9g26fde3asdf88" version="7">Affected creature has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; when rolling for damage. However, enemies also have Advantage when making &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against it.</content>
 
@@ -114,7 +114,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">GLOOM STALKER</content>
 
 	<content contentuid="hf8ac8ef1g7fceg417bg8342g2203918207b3" loreTexts="true" version="2">Underdark Trail</content>
-	<content contentuid="h85a6de72gd0a0g4374g8823ge103a79fe7bf" loreTexts="true" version="2">You explored the treacherous caverns of the Realms Below and learned their merciless ways - ambush and kill, before you are ambushed and killed.</content>
+	<content contentuid="h85a6de72gd0a0g4374g8823ge103a79fe7bf" loreTexts="true" version="2">You explored the treacherous caverns of the Realms Below and learned their merciless ways - ambush and kill, before you are ambushed and killed.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage</content>
 	<content contentuid="hfad5bf4eg0236g4af2g970agfdc9c73a5452" loreTexts="true" version="2">Upperdark Adventurer</content>
 	<content contentuid="hafc743f7g5d89g4175g80bfg869c346a9889" version="9">Gain a +[1] bonus to Initiative. In addition, you are able to see in the dark, both magical and non-magical, up to [2]. In addition, you gain the ability to make a basic weapon attack which will always result in a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
 	<content contentuid="h8fe2d065g37c5g4c09ga086gb6a1db243351" version="2">Dread Shot</content>
@@ -126,7 +126,7 @@
 	<content contentuid="h38398cbag8289g448bg92f7g74f83f0c1de7" version="2">Dread Shot (Firearm)</content>
 
 	<content contentuid="hae000758g2c53g402cgb846g1e5a4c39d397" loreTexts="true" version="2">Middledark Survivor</content>
-	<content contentuid="hb8bf311cg5a03g46a9g888bgceed226284f5" version="2">Upon failing an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, you may spend your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; in order to turn it into a success.&lt;br&gt;&lt;br&gt;In addition, once per turn, landing a killing blow refreshes the cooldown of your actions which may only be used once per combat.</content>
+	<content contentuid="hb8bf311cg5a03g46a9g888bgceed226284f5" version="2">Upon failing an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, you may spend your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; in order to turn it into a success.&lt;br&gt;&lt;br&gt;In addition, once per turn, landing a killing blow will refresh the cooldown of your actions which may only be used once per combat.</content>
 	<content contentuid="hae000758g2c53g402cgb846g1e5a4c36a987" loreTexts="true" version="2">Middledark Survivor</content>
 	<content contentuid="hb8bf311cg5a03g46a9g888bgceed2265d552" version="2">Upon failing an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, turn it into a success.</content>
 
@@ -147,7 +147,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">HUNTER</content>
 
 	<content contentuid="h2969047eg0207g40f8gb6dfg0b261003ebf2" loreTexts="true" version="1">Greypeaks Trail</content>
-	<content contentuid="h6b51c4d5g4778g4f65g999eg5fe728ecf064" loreTexts="true" version="1">You explored the fearsome mountains of the Savage Frontier and learned to hunt the many great monsters that inhabit their ridges.</content>   
+	<content contentuid="h6b51c4d5g4778g4f65g999eg5fe728ecf064" loreTexts="true" version="1">You explored the fearsome mountains of the Savage Frontier and learned to hunt the many great monsters that inhabit their ridges.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Control/Damage</content>   
 	<content contentuid="h4d476cb8gfa45g4f4cga9d16a98709e9f9a2" version="2">Natural Hunter</content>
 	<content contentuid="h20b19b1bg5da3g41d4g901b12a5113fe8115" version="2">When you deal damage with a weapon, you apply one stack of &lt;LSTag Type="Status" Tooltip="HUNTED"&gt;Hunted&lt;/LSTag&gt;. Each stack of Hunted will reduce your targets &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; by [1], up to a maximum of [2].&lt;br&gt;&lt;br&gt;In addition, landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on an enemy you are currently Hunting will restore one charge of your &lt;LSTag Type="ActionResource" Tooltip="NaturalRecoveryPoint"&gt;Natural Focus&lt;/LSTag&gt;.</content>
 	<content contentuid="h38ea4f90g1325g4370g88d1g28b48f722d58" version="2">Hunted</content>
@@ -168,7 +168,7 @@
 	<content contentuid="h06746addg056dg43f1gada6g851e17ef5b22" version="5">Strike out at all nearby foes, making separate &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against each target.</content>
 
 	<content contentuid="h4d476cb8gfa45g4f4cga9d1gd0b102a255a2" version="2">Marksman's Eye</content>
-	<content contentuid="h20b19b1bg5da3g41d4g901bgd1d616a87715" version="2">When targeting a creature you are currently &lt;LSTag Type="Status" Tooltip="HUNTED"&gt;Hunting&lt;/LSTag&gt;, you make your &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;, and the number needed to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; is reduced by 1.</content>
+	<content contentuid="h20b19b1bg5da3g41d4g901bgd1d616a87715" version="2">When targeting a creature you are currently &lt;LSTag Type="Status" Tooltip="HUNTED"&gt;Hunting&lt;/LSTag&gt;, you make your &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h4d476cb8gfa45g4f4cga9d1gd0b109e9f9a2" version="2">On the Hunt</content>
 	<content contentuid="h20b19b1bg5da3g41d4g901bgd1d613fe8115" version="2">When dealing damage to an enemy or item, you ignore all forms of physical &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt;.</content>
@@ -179,7 +179,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">MIRE MIST</content>
 
 	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf00000" loreTexts="true" version="1">Merdelain Trail</content>
-	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bfzzzzz" loreTexts="true" version="1">You explored the tainted ruins of the Mere of Dead Men and learned the power of the dreadful acid breathed by its black dragons.</content>
+	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bfzzzzz" loreTexts="true" version="1">You explored the tainted ruins of the Mere of Dead Men and learned the power of the dreadful acid breathed by its black dragons.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage/Support</content>
 
 	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf00001" version="1">Caustic Mire</content>
 	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf0000a" version="1">Both you and your Ranger Companions deal an additional [1] when dealing damage to an enemy. In addition, each time that you deal damage, you apply one stack of &lt;LSTag Type="Status" Tooltip="ACID"&gt;Acid&lt;/LSTag&gt;.</content>
@@ -202,7 +202,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">SWARMKEEPER</content>
 
 	<content contentuid="hedbd9f3fgf4d8g4f16gb0f2gb0e11e9ba758" loreTexts="true" version="1">Neverwinter Wood Trail</content>
-	<content contentuid="hf081aa54g2347g4295g85aeg8048e2e23d8d" loreTexts="true" version="1">You explored the fey-touched meadows of the old Llewyrrwood and learned to bond with swarms of tiny nature spirits.</content>
+	<content contentuid="hf081aa54g2347g4295g85aeg8048e2e23d8d" loreTexts="true" version="1">You explored the fey-touched meadows of the old Llewyrrwood and learned to bond with swarms of tiny nature spirits.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Healer/Support</content>
 	<content contentuid="hc8f4441fg5384g43e6gb731ged328dd1927e" version="1">Spirits of nature flock to your company.&lt;br&gt;Bonds which bind you to the Feywild.&lt;br&gt;Adventures which bind you to your companions.</content>
 
 	<content contentuid="hd96c8a80g18f3g49c6ga651gdf1fa48000z1" version="2">Recall Swarm</content>
@@ -253,7 +253,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">TWINFANG</content>
 
 	<content contentuid="55a0054c23a247a29697b3a59e5eba7f00000" loreTexts="true" version="1">Evermoors Trail</content>
-	<content contentuid="55a0054c23a247a29697b3a59e5eba7f0000z" loreTexts="true" version="1">You explored the giants-infested swamps of the Trollmoors and learned that a ranger and his companion can fell far bigger prey when fighting together.</content>
+	<content contentuid="55a0054c23a247a29697b3a59e5eba7f0000z" loreTexts="true" version="1">You explored the giants-infested swamps of the Trollmoors and learned that a ranger and his companion can fell far bigger prey when fighting together.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage</content>
 
 	<content contentuid="55a0054c23a247a29697b3a59e5eba7f00001" version="1">Closing Bite</content>
 	<content contentuid="55a0054c23a247a29697b3a59e5eba7f0000a" version="1">When you make a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt;, you may make a melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;. This can be toggled at any time.</content>
@@ -277,7 +277,7 @@
 	<content contentuid="55a0054c23a247a29697b3a59e5eba7f0000e" version="1">When both you and your Ranger Companion damage the same creature, they become &lt;LSTag Type="Status" Tooltip="CRIPPLED"&gt;Crippled&lt;/LSTag&gt; for one turn.</content>
 
 	<content contentuid="55a0054c23a247a29697b3a59e5eba7f00006" version="1">Apex Coordination</content>
-	<content contentuid="55a0054c23a247a29697b3a59e5eba7f0000f" version="1">When either you or your Ranger Companion deal damage to a creature the other has already damaged, you deal an additional +1d12 damage.</content>
+	<content contentuid="55a0054c23a247a29697b3a59e5eba7f0000f" version="1">When either you or your Ranger Companion deal damage to a creature the other has already damaged, you deal an additional +1d12 damage. This bonus does not apply to damage dealt with your off-hand weapon.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">ARROWS</content>
 

@@ -63,7 +63,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">DEATH DOMAIN</content>
 
 	<content contentuid="h695df0c5g7b1eg47a1gbc9eg7f54a0fde1b4" version="1">Death Domain</content>
-	<content contentuid="h3063c312g64f5g4715g9339g241ee234d585" loreTexts="true" version="1">Your patron deity holds sway over the last breath and the unquiet grave. At each midnight you pray for the power to spread withering diseases and to make corpse-slaves out of the living.</content>
+	<content contentuid="h3063c312g64f5g4715g9339g241ee234d585" loreTexts="true" version="1">Your patron deity holds sway over the last breath and the unquiet grave. At each midnight you pray for the power to spread withering diseases and to make corpse-slaves out of the living.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage</content>
 	
 	<content contentuid="h6cc498f5g13a0g4dc1g8c91gff3580c00001" version="2">Corpse Party</content>
 	<content contentuid="heec87dfbg454fg4550g8622gb200a670000a" version="2">Gain the ability to detonate nearby corpses, dealing Necrotic damage to all creatures in a [1] radius. This action may also target Undead creatures.&lt;br&gt;&lt;br&gt;When damaging an enemy, this action will always apply one stack of &lt;LSTag Type="Status" Tooltip="PLAGUEOFROT"&gt;Curse of Rot&lt;/LSTag&gt;.</content>
@@ -75,9 +75,9 @@
 	<content contentuid="h6cc498f5g13a0g4dc1g8c91gff3580c00002" version="2">Channel Divinity: Proclaim Undeath</content>
 	<content contentuid="heec87dfbg454fg4550g8622gb200a670000b" version="2">Gain the ability to use a &lt;LSTag Type="ActionResource" Tooltip="ChannelDivinity"&gt;Channel Divinity&lt;/LSTag&gt; charge to &lt;LSTag Type="Status" Tooltip="CURSEOFUNDEATH"&gt;Proclaim&lt;/LSTag&gt; a creature as Undead.</content>
 	<content contentuid="h6cc498f5g13a0g4dc1g8c91gff3580c000z2" version="1">Channel Divinity: Proclaim Undeath</content>
-	<content contentuid="heec87dfbg454fg4550g8622gb200a67000zb" version="2">&lt;LSTag Type="Status" Tooltip="CURSEOFUNDEATH"&gt;Proclaim&lt;/LSTag&gt; a creature as Undead, granting them &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to both Necrotic and Poison damage.</content>
+	<content contentuid="heec87dfbg454fg4550g8622gb200a67000zb" version="2">&lt;LSTag Type="Status" Tooltip="CURSEOFUNDEATH"&gt;Proclaim&lt;/LSTag&gt; a creature as Undead, granting them &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to Necrotic damage.</content>
 	<content contentuid="h6cc498f5g13a0g4dc1g8c91gff3580c00ss2" version="1">Proclaimed Undeath</content>
-	<content contentuid="heec87dfbg454fg4550g8622gb200a6700ssb" version="2">Affected creature is considered to be Undead. In addition, they have &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to Necrotic and Poison damage.</content>
+	<content contentuid="heec87dfbg454fg4550g8622gb200a6700ssb" version="2">Affected creature is considered to be Undead. In addition, they have &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to Necrotic damage.</content>
 
 	<content contentuid="h6cc498f5g13a0g4dc1g8c91gff3580c00003" version="1">Harvest</content>
 	<content contentuid="heec87dfbg454fg4550g8622gb200a670000c" version="1">While within [1] of a corpse, they radiate a necrotic aura, dealing [2] to all enemies within [3] at the end of each of their turns and preventing them from recovering &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;In addition, when the aura damages a creature suffering from a &lt;LSTag Type="Status" Tooltip="PLAGUEOFROT"&gt;Curse of Rot&lt;/LSTag&gt;, they receive one additional stack. This can be toggled at any time.</content>
@@ -100,7 +100,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">FORGE DOMAIN</content>S
 
 	<content contentuid="h695df0c5g7b1eg47a16se8f5e6f5e8f898f7" version="1">Forge Domain</content>
-	<content contentuid="h3063c312g64f5g471a6sd5f2ef5d4fe5f254" loreTexts="true" version="1">Your patron deity above all prizes the blazing of embers and the singing of anvils. At each sunrise you pray for the power to hammer the world into shape and your foes into ashes.</content>
+	<content contentuid="h3063c312g64f5g471a6sd5f2ef5d4fe5f254" loreTexts="true" version="1">Your patron deity above all prizes the blazing of embers and the singing of anvils. At each sunrise you pray for the power to hammer the world into shape and your foes into ashes.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage/Tank</content>
 
 	<content contentuid="h695df0c5g7b1eg47a16se8f5e6f5e8f89801" version="1">Divine Embers</content>
 	<content contentuid="h3063c312g64f5g471a6sd5f2ef5d4fe5f20a" version="1">Gain the ability to call a divine hammer to your hand. As you level within Cleric, it will deal additional damage and gain new effects.&lt;br&gt;&lt;br&gt;In addition, when dealing damage to an enemy, you deal additional Fire damage equal to your levels in Cleric. This bonus does not apply to damage dealt with an off-hand weapon.&lt;br&gt;&lt;br&gt;Furthermore, upon dealing Fire damage to an enemy, you generate one stack of &lt;LSTag Type="Status" Tooltip="MAG_FIRE_HEAT"&gt;Heat&lt;/LSTag&gt;.</content>
@@ -139,10 +139,10 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">ILLUSORY DOMAIN</content>
 
 	<content contentuid="1532e50122e94186bab1a621b059dbed00000" version="1">Illusory Domain</content>
-	<content contentuid="1532e50122e94186bab1a621b059dbedzzzzz" loreTexts="true" version="1">Your patron deity softly echoes in whispered lies and shadows that wear a thousand faces. At each nightfall you pray for the power to cloud mortal senses and to grind minds into lunacy.</content>
+	<content contentuid="1532e50122e94186bab1a621b059dbedzzzzz" loreTexts="true" version="1">Your patron deity softly echoes in whispered lies and shadows that wear a thousand faces. At each nightfall you pray for the power to cloud mortal senses and to grind minds into lunacy.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Control/Support</content>
 
 	<content contentuid="1532e50122e94186bab1a621b059dbed00001" version="1">Veilcasting</content>
-	<content contentuid="1532e50122e94186bab1a621b059dbed0000a" version="1">If they are not currently &lt;LSTag Type="Status" Tooltip="INVISIBILITY_BLOCKER"&gt;Revealed&lt;/LSTag&gt;, directly targeting an ally with a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; will cause them to become &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; for three turns. This can be toggled at any time.&lt;br&gt;&lt;br&gt;Additionally, upon causing a creature to become &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; through Veilcasting, all enemies within [1] of them receive [2]. This damage increases alongside your levels in Cleric.</content>
+	<content contentuid="1532e50122e94186bab1a621b059dbed0000a" version="1">Directly targeting an ally with a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; will cause them to become &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; for three turns. This can be toggled at any time.&lt;br&gt;&lt;br&gt;Additionally, upon causing a creature to become &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; through Veilcasting, all enemies within [1] of them receive [2]. This damage increases alongside your levels in Cleric.</content>
 
 	<content contentuid="1532e50122e94186bab1a621b059dbed00002" version="1">Mirror Force</content>
 	<content contentuid="1532e50122e94186bab1a621b059dbed0000b" version="1">When an ally is damaged by an enemy, use a &lt;LSTag Type="ActionResource" Tooltip="ChannelDivinity"&gt;Channel Divinity&lt;/LSTag&gt; charge to reflect the damage back to their aggeressor. In addition, you cause your ally to regain [2]. This &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; restored increases alongside your levels in Cleric.</content>
@@ -150,7 +150,7 @@
 	<content contentuid="1532e50122e94186bab1a621b059dbed000zb" version="1">When an ally is damaged by an enemy, reflect the damage back to their aggeressor. In addition, you cause your ally to regain [2].</content>
 
 	<content contentuid="1532e50122e94186bab1a621b059dbed00003" version="1">Phantom Communion</content>
-	<content contentuid="1532e50122e94186bab1a621b059dbed0000c" version="1">If you are not currently &lt;LSTag Type="Status" Tooltip="INVISIBILITY_BLOCKER"&gt;Revealed&lt;/LSTag&gt;, targeting an ally with a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; will cause you to become &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; as well.</content>
+	<content contentuid="1532e50122e94186bab1a621b059dbed0000c" version="1">Targeting an ally with a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; will cause you to become &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; as well.</content>
 
 	<content contentuid="1532e50122e94186bab1a621b059dbed00004" version="1">Dreamfracture</content>
 	<content contentuid="1532e50122e94186bab1a621b059dbed0000d" version="1">Upon dealing Psychic damage to an enemy, you potentially &lt;LSTag Type="Status" Tooltip="SURPRISED"&gt;Surprise&lt;/LSTag&gt; your target for one turn.</content>
@@ -165,7 +165,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">LIFE DOMAIN</content>
 
-	<content contentuid="hffe95a98g1b1fg4fdfg9094g8c86867e28ab" loreTexts="true" version="1">Your patron deity cherishes and nurtures the first breath and the beating heart. At each dawn you pray for the power to mend grievous wounds and to shield your flock from harm.</content>
+	<content contentuid="hffe95a98g1b1fg4fdfg9094g8c86867e28ab" loreTexts="true" version="1">Your patron deity cherishes and nurtures the first breath and the beating heart. At each dawn you pray for the power to mend grievous wounds and to shield your flock from harm.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Healer/Support</content>
 
 	<content contentuid="h67fe33fdg46c1g415bg95c6g20291e26lc01" version="1">Virtuous Touch</content>
 	<content contentuid="hb803dc22g3235g468fgb4c5g4746de76lc01" version="1">Upon healing a another creature, the target regains additional &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; equal to your level.</content>
@@ -191,7 +191,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">TEMPEST DOMAIN</content>
 
-    <content contentuid="h787e611egd1a7g4273gb076gcf105708e862" version="2" loreTexts="true">Your patron deity manifests in the raging sea, the freezing wind, and the rolling of thunder. At each sunset you pray for the power to command the storms and to call down lightning upon your enemies.</content>
+    <content contentuid="h787e611egd1a7g4273gb076gcf105708e862" version="2" loreTexts="true">Your patron deity manifests in the raging sea, the freezing wind, and the rolling of thunder. At each sunset you pray for the power to command the storms and to call down lightning upon your enemies.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Control/Damage</content>
 
 	<content contentuid="ha24a3a6cg38bbg4ef4g8aa3g2a86a454tc01" version="1">Discharge</content>
 	<content contentuid="hd9f3cddag9dc3g44dfg965ag71389787tc01" version="1">Once per action, when dealing damage to a creature, you create projectiles of Cold, Lightning, or Thunder. These projectiles jump to two other enemies within [1] of your target, dealing damage equal to your levels in Cleric to all three targets.</content>
@@ -237,10 +237,10 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">WAR DOMAIN</content>
 
-	<content contentuid="haf4704d6gba0bg4c46gb1eeg1740b978db08" loreTexts="true" version="3">Your patron deity exalts the roar of battle and the glory won by struggle. At each dawn you pray for the power to strike your foes with divine fury and to steel the hearts of your allies.</content>
+	<content contentuid="haf4704d6gba0bg4c46gb1eeg1740b978db08" loreTexts="true" version="3">Your patron deity exalts the roar of battle and the glory won by struggle. At each dawn you pray for the power to strike your foes with divine fury and to steel the hearts of your allies.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage</content>
 
 	<content contentuid="h994500d0g1703g421bg8028g0f3a3103c858" version="2">Radiant Strikes</content>
-	<content contentuid="hf729263eg37dcg43fbg923cg24cc642f6773" version="2">When you deal damage to an enemy, you deal an additional [1].</content>
+	<content contentuid="hf729263eg37dcg43fbg923cg24cc642f6773" version="2">When dealing damage to an enemy, you deal an additional [1].</content>
 
 	<content contentuid="hef0a183bgbc91g478cg8e70g38f55677ac77" version="2">War God's Blessing</content>
 	<content contentuid="h52cf6bc9gdc15g4852gae20ga2dc3879ffad" version="3">Bestow the glory of your god, using your &lt;LSTag Type="ActionResource" Tooltip="ChannelDivinity"&gt;Channel Divinity&lt;/LSTag&gt; charge to grant either yourself or an ally within [1] a +[2] bonus to an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
@@ -324,11 +324,11 @@
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e0000i" version="1">When an enemy damages you with a melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, deal damage to them equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Wisdom Modifier&lt;/LSTag&gt; multiplied by two. The type of damage dealt changes depending on your choice of subclass.</content>
 
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e00010" version="1">Immaculate Ward</content>
-	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e0000j" version="1">When an enemy makes an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against you, you may use your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; and one of your &lt;LSTag Type="ActionResource" Tooltip="ChannelDivinity"&gt;Channel Divinity&lt;/LSTag&gt; charges to receive &lt;LSTag Type="Status" Tooltip="BLADE_WARD_IMMACULATE"&gt;Immaculate Blade Ward&lt;/LSTag&gt; for one turn.</content>
+	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e0000j" version="1">When an enemy makes an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against you, you may use your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; and one of your &lt;LSTag Type="ActionResource" Tooltip="ChannelDivinity"&gt;Channel Divinity&lt;/LSTag&gt; charges to receive &lt;LSTag Type="Status" Tooltip="BLADE_WARD_IMMACULATE"&gt;Immaculate Blessed Ward&lt;/LSTag&gt; for one turn.</content>
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e00z10" version="1">Immaculate Ward</content>
-	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e000zj" version="1">When an enemy makes an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against you, receive &lt;LSTag Type="Status" Tooltip="BLADE_WARD_IMMACULATE"&gt;Immaculate Blade Ward&lt;/LSTag&gt; for one turn.</content>
-	<content contentuid="h95b5ab2fgeef8g4901ga451g443b608ffldi" version="1">Immaculate Blade Ward</content>
-	<content contentuid="hbaec3368g3f8bg4577g8a7fg6c16b2099df9" version="1">Affected creature is &lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to the next instance of Bludgeoning, Piercing, or Slashing damage they would have suffered.</content>
+	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e000zj" version="1">When an enemy makes an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against you, receive &lt;LSTag Type="Status" Tooltip="BLADE_WARD_IMMACULATE"&gt;Immaculate Blessed Ward&lt;/LSTag&gt; for one turn.</content>
+	<content contentuid="h95b5ab2fgeef8g4901ga451g443b608ffldi" version="1">Immaculate Blessed Ward</content>
+	<content contentuid="hbaec3368g3f8bg4577g8a7fg6c16b2099df9" version="1">Affected creature is &lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to the next instance of damage they would have suffered.</content>
 
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e00011" version="1">Martyrdom</content>
 	<content contentuid="6593b492919e49e9b6dffa5d2a42cb6e0000k" version="1">Upon being &lt;LSTag Tooltip="Downed"&gt;Downed&lt;/LSTag&gt; or killed within [1] of an enemy, erupt as a raging inferno, uncontrollably scorching them. The damage of this passive scales with your level.</content>

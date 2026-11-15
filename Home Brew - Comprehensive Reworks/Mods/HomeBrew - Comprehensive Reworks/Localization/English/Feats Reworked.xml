@@ -44,7 +44,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">CHARGER</content>
 
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa00005" version="2">Charger</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa0000e" version="4">Gain the ability to charge toward nearby enemies as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; once per turn, &lt;LSTag Type="Spell" Tooltip="Rush_Charger_Attack&gt;Attacking&lt;/LSTag&gt; or &lt;LSTag Type="Spell" Tooltip="Rush_Charger_Push"&gt;Shoving&lt;/LSTag&gt; them in the process.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa0000e" version="4">Gain the ability to charge toward nearby enemies as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; once per turn, &lt;LSTag Type="Spell" Tooltip="Rush_Charger_Attack"&gt;Attacking&lt;/LSTag&gt; or &lt;LSTag Type="Spell" Tooltip="Rush_Charger_Push"&gt;Shoving&lt;/LSTag&gt; them in the process.</content>
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa00055" version="2">Charger: Attack</content>
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa000ee" version="4">Charge into nearby enemies, making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against the first you come in contact with.</content>
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa00555" version="2">Charger: Shove</content>
@@ -52,8 +52,8 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">CLASS SPECIALIST</content>
 
-	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa2d1f2" version="2">Class Specialist: Artificer</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa6s8d5" version="4">Select two passives from the Artificer passives list.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa2d1f2" version="2">Class Specialist: Zetherist</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa6s8d5" version="4">Select two passives from the Zetherist passives list.</content>
 
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa00006" version="2">Class Specialist: Barbarian</content>
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa0000f" version="4">Select two passives from the Barbarian passives list.</content>
@@ -193,7 +193,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">MAGE SLAYER</content>
 
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa00027" version="2">Mage Slayer</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa000a0" version="3">Enemies you hit immediately lose &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; on any Spells they were maintaining and become &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Muted&lt;/LSTag&gt; for one turn.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; This passive effect also applies to any creatures that you summon.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa000a0" version="3">Enemies you hit immediately lose &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; on any Spells they were maintaining and become &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Muted&lt;/LSTag&gt; for one turn.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">MARTIAL ADEPT</content>
 
@@ -226,7 +226,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">RESTRICTED TERRITORY</content>
 
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa00033" version="1">Restricted Territory</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa000g0" version="1">Gain the ability to use your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; to make a melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against an enemy who enters your weapons range. Additionally, landing an &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attack&lt;/LSTag&gt; will deal the maximum damage possible.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa000g0" version="1">Gain the ability to use your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; to make a melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against an enemy who enters your weapons range. Additionally, &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attack&lt;/LSTag&gt; you make will roll your &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and damage with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa00z33" version="1">Restricted Territory</content>
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa00zg0" version="1">Make a melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against an enemy who enters your range.</content>
 
@@ -247,14 +247,14 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">SHARPSHOOTER</content>
 
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa00036" version="3">Sharpshooter</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa000j0" version="3">Your &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; do not receive penalties from &lt;LSTag Tooltip="HighGroundRules"&gt;High Ground Rules&lt;/LSTag&gt;, and your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; is added twice when rolling for damage. In addition, you ignore all physical &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt; when dealing damage to an enemy or item.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa000j0" version="3">Your &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; and ranged Spells do not receive penalties from &lt;LSTag Tooltip="HighGroundRules"&gt;High Ground Rules&lt;/LSTag&gt;, and your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; is added twice when rolling for damage. In addition, you ignore all physical &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt; when dealing damage to an enemy or item.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">SHIELDBEARER</content>
 
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa00037" version="3">Shieldbearer</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa000k0" version="3">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Dexterity based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; while wielding a shield. In addition, you gain three &lt;LSTag Type="ActionResource" Tooltip="Shieldbearer"&gt;Shieldbearer Charges&lt;/LSTag&gt; which can be used to negate an instance of incoming damage or reflect projectiles after performing a &lt;LSTag Type="Spell" Tooltip="Target_ShieldBlow_Riposte"&gt;Shield Bash&lt;/LSTag&gt;. Once per turn, landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on an enemy will restore one Shieldbearer Charge.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa000k0" version="3">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Dexterity based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; while wielding a shield. In addition, you gain a &lt;LSTag Type="ActionResource" Tooltip="Shieldbearer"&gt;Shieldbearer Charge&lt;/LSTag&gt; which can be used to negate an instance of incoming damage or reflect projectiles after performing a &lt;LSTag Type="Spell" Tooltip="Target_ShieldBlow_Riposte"&gt;Shield Bash&lt;/LSTag&gt;. Once per turn, landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on an enemy will restore your Shieldbearer Charge.</content>
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa0zz37" version="3">Shieldbearer Charge</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa0zzk0" version="3">The amount of times you may utilize your Shield to negate an instance of incoming damage or reflect projectiles.&lt;br&gt;&lt;br&gt;Once per turn, landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on an enemy will restore one Shieldbearer Charge.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa0zzk0" version="3">Allows you to utilize your Shield to negate an instance of incoming damage or reflect projectiles.&lt;br&gt;&lt;br&gt;Once per turn, landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on an enemy will restore your Shieldbearer Charge.</content>
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aazzz37" version="3">Armoured Fortress</content>
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aazzzk0" version="3">Negate an instance of incoming damage.</content>
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c3reflect" version="3">Deflective Fortress</content>
@@ -267,19 +267,21 @@
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa00038" version="3">Spellbreak</content>
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa000l0" version="5">When casting a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt;, reduce the number needed to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; by 2.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; This passive effect also applies to any creatures that you summon.</content>
 
-<content contentuid="0000000000000000000000000000000000000" version="1">TAVERN BRAWLER</content>
+<content contentuid="0000000000000000000000000000000000000" version="1">TEMPERED BRAWLER</content>
 
-	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa00039" version="3">Tavern Brawler</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa00039" version="3">Tempered Brawler</content>
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa000m0" version="1">When making an unarmed attack or &lt;LSTag Type="Spell" Tooltip="Throw_Throw"&gt;Throw&lt;/LSTag&gt;, your &lt;LSTag Tooltip="AbilityModifier"&gt;Strength Modifier&lt;/LSTag&gt; is added to all damage rolls. Additionally, your &lt;LSTag Tooltip="AbilityModifier"&gt;Dexterity Modifier&lt;/LSTag&gt; is added to all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Furthermore, melee weapons you equip in your Main-Hand gain the &lt;LSTag Tooltip="Thrown"&gt;Thrown&lt;/LSTag&gt; property. When thrown, they will return back to you.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; This passive effect also applies to any creatures that you summon.</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f55d2f5s677" version="3">Tavern Brawler</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714fyujjh569f8" version="5">Cause your Main-Hand melee weapon to gain the &lt;LSTag Tooltip="Thrown"&gt;Thrown&lt;/LSTag&gt; property. When thrown, it will return to you.</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f6s4f5duu25" version="3">Tavern Brawler</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f8888u5j844" version="5">Affected weapon has gained the &lt;LSTag Tooltip="Thrown"&gt;Thrown&lt;/LSTag&gt; property. When thrown, it will return to who threw it.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f55d2f5s677" version="3">Tempered Brawler</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714fyujjh569f8" version="5">Cause your Main-Hand melee weapon to gain the &lt;LSTag Tooltip="Thrown"&gt;Thrown&lt;/LSTag&gt; property. When thrown, it will return to you. In addition, your weapon will gain the ability to fire a ranged projectile, which will carry the properties of the weapon.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f6s4f5duu25" version="3">Tempered Brawler</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f8888u5j844" version="5">Affected weapon has gained the &lt;LSTag Tooltip="Thrown"&gt;Thrown&lt;/LSTag&gt; property. When thrown, it will return to who threw it. In addition, the weapon has gained the ability to fire a ranged projectile.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f55d2fthrow" version="3">Tempered Projection</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714fyujjhthrow" version="5">Swing your Main-Hand melee weapon in order to create a projectile which carries the properties of your weapon. This action is considered to be the same as throwing your weapon.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">TOUGH</content>
 
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa00040" version="3">Tough</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa000n0" version="4">Increase the amount of &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; you have by 4 per level. Additionally, any damage dealt to you that totals 2 or less is nullified.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; This passive effect also applies to any creatures that you summon.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa000n0" version="4">Increase the amount of &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; you have by 4 per level. Additionally, you ignore all damage taken equal to 2 or less, and cannot be &lt;LSTag Tooltip="CriticalHit"&gt;Critically Hit&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; This passive effect also applies to any creatures that you summon.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">WAR CASTER</content>
 
@@ -363,7 +365,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">REACTIVE ASSAULT</content>
 
 	<content contentuid="8a87461fd8dd4f5b9098ded714sdf68878d09" version="2">Reactive Assault</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f60d1fd250i" version="3">Upon landing a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, you may expend your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; in order to make a basic weapon-based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; This passive effect also applies to any creatures that you summon.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f60d1fd250i" version="3">Once per turn, upon landing a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, you may expend your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; in order to make a basic weapon-based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; This passive effect also applies to any creatures that you summon.</content>
 	<content contentuid="8a87461fd8dd4f5b9098ded714sdf6887zz09" version="2">Reactive Assault</content>
 	<content contentuid="8a87461fd8dd4f5b9098ded714f60d1fdzz0i" version="3">Affected creature may use their &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; in order to make a basic weapon-based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
 	<content contentuid="8a87461fd8dd4f5b9098ded714sdf6887xx09" version="2">Reactive Assault: Bonus Attack</content>
@@ -387,22 +389,22 @@
 	<content contentuid="51f62a65-694d-424a-8437-b90074fe975f" version="1">Selecting a subclass you already have levels in will typically provide no benefit.&lt;Br&gt;&lt;br&gt;Spells gained via Yokebreaker cannot be upcast.</content>
 
 	<content contentuid="be31014b-2a27-4970-b6d6-c95bde200001" version="1">Yokebreaker: Arcanist</content>
-	<content contentuid="be31014b-2a27-4970-b6d6-c95bde20000a" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Arcanist"&gt;Arcanist Artificer&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="be31014b-2a27-4970-b6d6-c95bde20000a" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Arcanist"&gt;Arcanist Zetherist&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
 	<content contentuid="be31014b-2a27-4970-b6d6-c95bde200002" version="1">Yokebreaker: Artillerist</content>
-	<content contentuid="be31014b-2a27-4970-b6d6-c95bde20000b" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Artillerist"&gt;Artillerist Artificer&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="be31014b-2a27-4970-b6d6-c95bde20000b" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Artillerist"&gt;Artillerist Zetherist&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
 	<content contentuid="be31014b-2a27-4970-b6d6-c95bde200003" version="1">Yokebreaker: Battle Synthetic</content>
-	<content contentuid="be31014b-2a27-4970-b6d6-c95bde20000c" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_BattleSynthetic"&gt;Battle Synthetic Artificer&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="be31014b-2a27-4970-b6d6-c95bde20000c" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_BattleSynthetic"&gt;Battle Synthetic Zetherist&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
 	<content contentuid="7bd6ea09-9e0b-44bc-8d11-8b5dddf94853" version="1">Yokebreaker: Grenadier</content>
-	<content contentuid="b7a4daca-66d3-41e3-b29b-8d5b6090a751" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Grenadier"&gt;Grenadier Artificer&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="b7a4daca-66d3-41e3-b29b-8d5b6090a751" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Grenadier"&gt;Grenadier Zetherist&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
 	<content contentuid="be31014b-2a27-4970-b6d6-c95bde200004" version="1">Yokebreaker: Infused Arcsmith</content>
-	<content contentuid="be31014b-2a27-4970-b6d6-c95bde20000d" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_InfusedArcsmith"&gt;Infused Arcsmith Artificer&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="be31014b-2a27-4970-b6d6-c95bde20000d" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_InfusedArcsmith"&gt;Infused Arcsmith Zetherist&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
 	<content contentuid="1a9d3485-d1ed-4672-86e1-427bff9b0658" version="1">Yokebreaker: Striker</content>
-	<content contentuid="ad7d0046-12ae-4cb0-90c7-85df2ee3bc46" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Striker"&gt;Striker Artificer&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="ad7d0046-12ae-4cb0-90c7-85df2ee3bc46" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Striker"&gt;Striker Zetherist&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
 
 
@@ -483,6 +485,12 @@
 
 	<content contentuid="c5e31ade-84b3-4b74-856b-af58833764fa" version="1">Yokebreaker: Circle of the Stars</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df16" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Stars"&gt;Circle of the Stars Druid&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+
+	<content contentuid="97d0cd5c-578a-4801-8d05-b8abd2eb0370" version="1">Yokebreaker: Circle of the Totemic</content>
+	<content contentuid="2bd59821-d7c4-4b9f-8073-1ae1d22aeac1" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Totemist"&gt;Circle of the Totemic Druid&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+
+	<content contentuid="46742ca9-a65f-4c00-8055-bc30221b3c6e" version="1">Yokebreaker: Circle of the Venom</content>
+	<content contentuid="7d7ed5ef-7e97-4729-8fe6-4b58262fbf5e" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_CircleoftheVenom"&gt;Circle of the Venom Druid&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
 
 
@@ -582,10 +590,16 @@
 	<content contentuid="d6521329-2633-4ef7-9198-222173557313" loreTexts="true" version="1">Yokebreaker: Cormyr Hallways</content>
 	<content contentuid="0c3e7fc1-1536-4540-88f6-370b34addd2e" loreTexts="true" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Virulence"&gt;Cormyr Hallways Rogue&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
+	<content contentuid="1aa795e0-afec-40a3-bc5c-836f1c1c68bb" version="1">Yokebreaker: Gauntlet</content>
+	<content contentuid="2f5ac748-b05d-42d3-a476-f3d99f1cdf03" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Gauntlet"&gt;Gauntlet Rogue&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+
 
 
 	<content contentuid="e4c32443-a174-4fd1-93d8-9f91148ffe30" version="1">Yokebreaker: Draconic Bloodline</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df37" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_DraconicBloodline"&gt;Draconic Bloodline Sorcerer&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+
+	<content contentuid="05a2aeca-12db-4811-a3d9-f308ee20c5f9" version="1">Yokebreaker: Hematic Monarch</content>
+	<content contentuid="50577c05-aac4-43c0-b40c-55ad524ccbeb" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_HematicMonarch"&gt;Hematic Monarch Sorcerer&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
 	<content contentuid="e032fd36-033e-4e44-b45b-e8cd5676ab0d" loreTexts="true" version="1">Yokebreaker: Spellfire Wielder</content>
 	<content contentuid="f8eb5743-ea2a-4249-8f16-846545c86cb4" loreTexts="true" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_RadiantBloom"&gt;Spellfire Wielder Sorcerer&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
@@ -593,8 +607,8 @@
 	<content contentuid="bdb436c7-daf0-43d9-944f-4ddbf08befe0" version="1">Yokebreaker: Shade Walker</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df38" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_ShadeWalker"&gt;Shade Walker Sorcerer&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
-	<content contentuid="502ca0fa-586c-4b22-a50e-3af8b8a24e34" version="1">Yokebreaker: Soul of the Frenzied Tundra</content>
-	<content contentuid="241d2854-851a-43d8-98f7-c3aa0a125c57" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_FrenziedTundra"&gt;Soul of the Frenzied Tundra Sorcerer&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="502ca0fa-586c-4b22-a50e-3af8b8a24e34" version="1">Yokebreaker: Soul of the Tundral</content>
+	<content contentuid="241d2854-851a-43d8-98f7-c3aa0a125c57" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_FrenziedTundra"&gt;Soul of the Tundral Sorcerer&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
 	<content contentuid="ba6dd9aa-f5c4-4d65-ba06-b415e0f424d4" loreTexts="true" version="1">Yokebreaker: Volcanic Heart</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df39" loreTexts="true" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Volcanist"&gt;Volcanic Heart Sorcerer&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>

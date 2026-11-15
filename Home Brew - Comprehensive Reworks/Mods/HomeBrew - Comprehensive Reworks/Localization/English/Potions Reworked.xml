@@ -36,13 +36,17 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">POTION OF SLEEP</content>
 	<content contentuid="h6af0c0b4ga716g4077ga346gf19db8d7574c" version="1">Soporific Oil</content>
 	<content contentuid="hab1c6872g65e7g405egbfc5ge120d3a64b95" version="2">When applied to a creature, they fall into a magical slumber. Condition ends when the creature takes damage or they are &lt;LSTag Type="Spell" Tooltip="Target_Help"&gt;Helped&lt;/LSTag&gt;.</content>
+	<content contentuid="h8d75c64dg9573g4f9cg9c77gb0796c1bfdd1" version="2">A small, handwritten note affixed to this bottle cautions that its effects may, on rare occasions, prove unreliable against those of elven blood.</content>
+	<content contentuid="h777b8ebcg4470g48a6gbeb5ga1935b295a3d" version="3">A small, handwritten note affixed to this bottle cautions that its effects may, on rare occasions, prove unreliable against those of elven blood.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">POTION OF VITALITY</content>
 	<content contentuid="h32c8dbe5g463fg4394gbe02ge4d876634ecb" version="1">Drink to cure any form of disease.</content>
 	<content contentuid="h361555aega14cg4908g9669gf45e31f111b6" version="2">Affected creature is cured of all disease.</content>
 
-<content contentuid="0000000000000000000000000000000000000" version="1">POTION OF SPEED</content>
-	<content contentuid="h9c035a0dga908g41c0g8f99g2b7184a971a9" version="5">Drink to spike your adrenaline, granting yourself the ability to exert beyond your physical limits. While &lt;LSTag Type="Status" Tooltip="HASTE"&gt;Hastened&lt;/LSTag&gt;, you are able to make one action per turn without expending an &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt;, &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;, or &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;These Hastened actions generate a stack of &lt;LSTag Type="Status" Tooltip="HASTE_LETHARGY"&gt;Exhaustion&lt;/LSTag&gt;, and Exhaustion stacks are also generated when damaged. All &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made against Exhausted creatures are rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;, and should you reach ten stacks of Exhaustion, you immediately fall &lt;LSTag Type="Status" Tooltip="UNCONSCIOUS"&gt;Unconscious&lt;/LSTag&gt; for three turns.</content>
+<content contentuid="0000000000000000000000000000000000000" version="1">POTION OF AGGRESSION</content>
+	<content contentuid="h50d2f74cg74f8g4672g8997gdb221462aad7" version="1">Potion of Aggression</content>
+	<content contentuid="h131ed16dgdbffg47a3gb790g070613f7f70d" version="4">This solution ripples and splashes of its own accord, almost like it's trying to escape the bottle.</content>
+	<content contentuid="h9c035a0dga908g41c0g8f99g2b7184a971a9" version="5">Drink to spike your aggression, granting yourself &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on both &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and damage.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">REMEDIAL POTION</content>
 	<content contentuid="h732b0d75g52c6g427ag9604g8c8a52aa8618" version="2">Drink to cure all forms of blindness and paralysis.</content>
