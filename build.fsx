@@ -113,7 +113,7 @@ let outputPak, outputZip =
     in outputBase + ".pak", outputBase + $"-{version}.zip"
 
 // set this to get the actual version int64
-let testv = None // Some (Version(9, 2, 7))
+let testv = None // Some (Version(9, 2, 8))
 match testv with
 | None -> ()
 | Some (v : Version) ->
