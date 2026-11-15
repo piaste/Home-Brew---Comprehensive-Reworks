@@ -19,7 +19,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">ARCANE ARCHER</content>
 
 	<content contentuid="h77a3f5afg2328g47c0gb00agffee653d9a1e" version="1">Arcane Archer</content>
-	<content contentuid="h85ff75b5g7ec5g445dga8ffgf95bbb8f5cbc" version="1">You are capable of infusing the weave into your attacks, providing your archery with a supernatural quality - and your foes something to fear.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage/Support</content>
+	<content contentuid="h85ff75b5g7ec5g445dga8ffgf95bbb8f5cbc" loreTexts="true" version="1">You mastered the ancient elven art of infusing the &lt;i&gt;weave&lt;/i&gt; into your arrows, delivering fearsome destruction or cunning wizardry with your shots.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage/Support</content>
 	<content contentuid="h5c182d74g17e4g41d7g8f76g94f7b210feea" version="1">Arcane Quiver</content>
 	<content contentuid="hf1b82802gb809g4e09gbb73gcb06c780034d" version="2">Through your Arcane Quiver, you tap into the weave itself, enabling you to infuse your &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; with various types of magic.</content>
 	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad9xyzab" version="1">This action utilizes a weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; while also functioning as a &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt;. If a Cantrip innately deals both physical and elemental damage, the elemental damage cannot be increased.</content>
@@ -147,8 +147,8 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">CHAMPION</content>
 
-	<content contentuid="h8df49fb1g13acg4b8fgb3dfg7d5eebc5dd34" version="3">You approach the complex problems posed by combat with one distinctly effective solution - you will take anything they can throw at you, and protect your allies while doing so.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Support/Tank</content>
-	<content contentuid="h6bdfd618g15b3g45c9g8a0egd02cecb1fe7a" version="1">You approach the complex problems posed by combat with one distinctly effective solution - you will take anything they can throw at you, and protect your allies while doing so.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Support/Tank</content>
+	<content contentuid="h8df49fb1g13acg4b8fgb3dfg7d5eebc5dd34" loreTexts="true" version="3">You stand as an unyielding bulwark against the chaos of battle, enduring its fiercest trials and keeping your companions from harm.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Support/Tank</content>
+	<content contentuid="h6bdfd618g15b3g45c9g8a0egd02cecb1fe7a" loreTexts="true" version="1">You stand as an unyielding bulwark against the chaos of battle, enduring its fiercest trials and keeping your companions from harm.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Support/Tank</content>
 
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209a69a454" version="1">Challenger</content>
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204a99a787" version="8">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to all forms of physical damage, and when damaging an enemy, you have a chance to &lt;LSTag Type="Status" Tooltip="CHALLENGERS_CALL"&gt;Challenge&lt;/LSTag&gt; them. However, enemies will consider you to be a preferred target. This can be toggled at any time.</content>
@@ -460,7 +460,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">PALISADE</content>
 
 	<content contentuid="0e3d63a2603a455a9f70a7874a87c2b400000" version="1">Palisade</content>
-	<content contentuid="0e3d63a2603a455a9f70a7874a87c2b4zzzzz" version="1">The best offense is a good defense, and you've taken the adage to heart. Shield in hand, you march forward, ready to bash any who challenge you into a fine mist.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage/Tank</content>
+	<content contentuid="0e3d63a2603a455a9f70a7874a87c2b4zzzzz" loreTexts="true" version="1">You turn defence into an art, advancing behind your shield with unwavering determination and meeting any who stand in your way with crushing force.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage/Tank</content>
 			
 	<content contentuid="0e3d63a2603a455a9f70a7874a87c2b400001" version="1">Reinforced Strikes</content>
 	<content contentuid="0e3d63a2603a455a9f70a7874a87c2b40000a" version="1">Dealing damage to an enemy with a shield deals additional damage equal to your &lt;LSTag Type="ActionResource" Tooltip="SuperiorityDie"&gt;Superiority Die&lt;/LSTag&gt;.</content>
