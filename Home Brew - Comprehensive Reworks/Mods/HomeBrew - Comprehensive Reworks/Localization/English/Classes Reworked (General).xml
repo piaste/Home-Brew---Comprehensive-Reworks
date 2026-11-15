@@ -793,7 +793,7 @@
 	<content contentuid="h74cb6d76f7084d1d9ccca5ba1622140blood" version="1">Sorcerer: Hematic Monarch</content>
 	<content contentuid="5b9c6b9f8fb541f3839d6c3738507a9c00008" loreTexts="true" version="1">Sorcerer: Radiant Bloom</content>
 	<content contentuid="h73a8aafef8874258bc6950b4c4d569b0842e" version="1">Sorcerer: Shade Walker</content>
-	<content contentuid="5b9c6b9f8fb541f3839d6c3738507a9c00007" version="1">Sorcerer: Soul of the Tundral</content>
+	<content contentuid="5b9c6b9f8fb541f3839d6c3738507a9c00007" loreTexts="true" version="1">Sorcerer: Virago Spawn</content>
 	<content contentuid="h304a5e34541a42f098df489329c48ee49a00" loreTexts="true" version="1">Sorcerer: Volcanic Heart</content>
 	<content contentuid="h0c1d71fc32044f7480d64ef77b978f2d1eea" version="1">Sorcerer: Wild Magic</content>
 

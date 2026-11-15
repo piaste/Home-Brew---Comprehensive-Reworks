@@ -307,8 +307,8 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">SOUL OF THE TUNDRA</content>
 
-	<content contentuid="9585509cf15f491a86ba751105cc210000000" version="1">Soul of the Tundral</content>
-	<content contentuid="9585509cf15f491a86ba751105cc2100zzzzz" version="1">Within your blood rages an endless winter. Those touched by your frozen power are driven into a maddened frenzy beneath the tundra's merciless chill.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Control/Damage</content>
+	<content contentuid="9585509cf15f491a86ba751105cc210000000" loreTexts="true" version="1">Virago Spawn</content>
+	<content contentuid="9585509cf15f491a86ba751105cc2100zzzzz" loreTexts="true" version="1">Your forefather was seduced by a frostwind virago, a siren of the icy peaks whose call drives men to madness. Generations later, her fey powers manifest in your magic. &lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Control/Damage</content>
 
 	<content contentuid="9585509cf15f491a86ba751105cc210000001" version="1">Winter is Coming</content>
 	<content contentuid="9585509cf15f491a86ba751105cc21000000a" version="1">When dealing damage to an enemy, you deal additional Cold damage equal to your levels in Sorcerer. This bonus does not apply to damage dealt with an off-hand weapon.</content>
