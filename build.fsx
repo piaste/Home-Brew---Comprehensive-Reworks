@@ -45,7 +45,14 @@ module Localization =
                yield! lines
                yield "</contentList>" |]
         // test for validity
-        Xml.Linq.XDocument.Parse (String.concat "\n" content) |> ignore
+        try 
+            Xml.Linq.XDocument.Parse (String.concat "\n" content) |> ignore
+        with e ->
+            let iText = content |> Array.indexed 
+                        |> Array.map (fun (i, s) -> sprintf "%i %s" i s) 
+                        |> String.concat "\n"
+            printfn "Error in %s: %s" iText e.Message
+            reraise()
 
         // write out
         do generatedXmlPath |> Path.GetDirectoryName |> Directory.CreateDirectory |> ignore
