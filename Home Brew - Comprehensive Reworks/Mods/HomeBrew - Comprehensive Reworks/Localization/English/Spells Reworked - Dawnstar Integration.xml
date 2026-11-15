@@ -92,8 +92,8 @@
 	<content contentuid="he030e10dg3fd5g0442gd814g91fb1906ddhb" version="2">Solar Flare</content>
 	<content contentuid="h876d8873geb8ag4dc1gce97g0d17326ac2hb" version="1">Launch a radiant flare that causes anything it touches to &lt;LSTag Type='Status' Tooltip='BURNING_HOLY'&gt;Eternally Burn&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Druid&lt;br&gt;Paladins&lt;br&gt;Rangers</content>
 
-	<content contentuid="hc5b9e2a0ga88ag36c3gea9egeb6f9ab51chb" version="2">Spirit Sword</content>
-	<content contentuid="hcea05766g1ad3g58a4ge98fg6df527caddhb" version="1">Conjure a spiritual blade from the fallen in order to strike multiple enemies, regaining &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; equal to a quarter of the damage dealt.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Druid&lt;br&gt;Paladins&lt;br&gt;Rangers</content>
+	<content contentuid="hc5b9e2a0ga88ag36c3gea9egeb6f9ab51chb" loreTexts="true" version="2">Jallarzi's Vital Strike</content>
+	<content contentuid="hcea05766g1ad3g58a4ge98fg6df527caddhb" loreTexts="true" version="1">Channel radiant energy into a blade in order to strike multiple enemies, regaining &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; equal to a quarter of the damage dealt.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Druid&lt;br&gt;Paladins&lt;br&gt;Rangers</content>
 
 	<content contentuid="h804a74cegc58eg17bag2b00gf823baadc4hb" version="2">Hellfire</content>
 	<content contentuid="he3ac7d66gab41g545egff8dg7d538e1c32hb" version="1">Conjure lava from the Hells over a [1] area.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Fighters&lt;br&gt;Rogues&lt;br&gt;Warlocks&lt;br&gt;Wizards</content>
@@ -128,15 +128,15 @@
 	<content contentuid="h0414b211g9718gfb46g77b8g7491df4a43hb" version="2">Soul Reaver</content>
 	<content contentuid="h202a2606g5a21g9a70g2316gfdbedbf40ahb" version="1">Conjure a scythe made of psionic energy and rend the minds of all creatures in front of you, potentially causing them to go &lt;LSTag Type='Status' Tooltip='MADNESS'&gt;Mad&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Fighters&lt;br&gt;Paladins&lt;br&gt;Warlocks</content>
 
-	<content contentuid="h638dd539g2f69gafe9g663cgd2ffcz308fhb" version="2">Gilgamesh</content>
-	<content contentuid="h08483368gb91ag51e8g0077gd5034z2c54hb" version="1">Open the gates of Babylon and conjure an arsenal of psionic weaponry, firing them in a line. You may then call down weakened arsenals once per turn as a free action.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Fighters&lt;br&gt;Rogues&lt;br&gt;Warlocks&lt;br&gt;Wizards</content>
-	<content contentuid="h638dd539g2f69gafe9g663cgd2ffce308fhb" version="2">Gilgamesh</content>
-	<content contentuid="h08483368gb91ag51e8g0077gdz034a2c54hb" version="3">Affected creature can cast a weakened version of &lt;LSTag Type="Spell" Tooltip="Zone_Gilgamesh_Recast"&gt;Gilgamesh&lt;/LSTag&gt; as a free action.</content>
-	<content contentuid="h08483368gb91ag51e8g0077gd5034a2c52hb" version="1">Affected creature can cast a weakened version of &lt;LSTag Type="Spell" Tooltip="Zone_Gilgamesh_Recast_2"&gt;Gilgamesh&lt;/LSTag&gt; as a free action.</content>
-	<content contentuid="h08483368gb91ag51e8g0077gd5034a2c53hb" version="1">Affected creature can cast a weakened version of &lt;LSTag Type="Spell" Tooltip="Zone_Gilgamesh_Recast_3"&gt;Gilgamesh&lt;/LSTag&gt; as a free action.</content>
-	<content contentuid="h08483368gb91ag51e8g0077gd5034a2c54hb" version="1">Affected creature can cast a weakened version of &lt;LSTag Type="Spell" Tooltip="Zone_Gilgamesh_Recast_4"&gt;Gilgamesh&lt;/LSTag&gt; as a free action.</content>
-	<content contentuid="h08483368gb91ag51e8g0077gd5034a2c55hb" version="1">Affected creature can cast a weakened version of &lt;LSTag Type="Spell" Tooltip="Zone_Gilgamesh_Recast_5"&gt;Gilgamesh&lt;/LSTag&gt; as a free action.</content>
-	<content contentuid="h08483368gb91ag51e8g0077gd5034a2c56hb" version="1">Affected creature can cast a weakened version of &lt;LSTag Type="Spell" Tooltip="Zone_Gilgamesh_Recast_6"&gt;Gilgamesh&lt;/LSTag&gt; as a free action.</content>
+	<content contentuid="h638dd539g2f69gafe9g663cgd2ffcz308fhb" loreTexts = "true" version="2">Blades of Disaster</content>
+	<content contentuid="h08483368gb91ag51e8g0077gd5034z2c54hb" loreTexts = "true" version="1">Tap the energies of the Astral Plane and manifest a torrent of psionic blades. You may then call down weakened arsenals once per turn as a free action.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Fighters&lt;br&gt;Rogues&lt;br&gt;Warlocks&lt;br&gt;Wizards</content>
+	<content contentuid="h638dd539g2f69gafe9g663cgd2ffce308fhb" loreTexts = "true" version="2">Blades of Disaster</content>
+	<content contentuid="h08483368gb91ag51e8g0077gdz034a2c54hb" loreTexts = "true" version="3">Affected creature can cast a weakened version of &lt;LSTag Type="Spell" Tooltip="Zone_Gilgamesh_Recast"&gt;Blades of Disaster&lt;/LSTag&gt; as a free action.</content>
+	<content contentuid="h08483368gb91ag51e8g0077gd5034a2c52hb" loreTexts = "true" version="1">Affected creature can cast a weakened version of &lt;LSTag Type="Spell" Tooltip="Zone_Gilgamesh_Recast_2"&gt;Blades of Disaster&lt;/LSTag&gt; as a free action.</content>
+	<content contentuid="h08483368gb91ag51e8g0077gd5034a2c53hb" loreTexts = "true" version="1">Affected creature can cast a weakened version of &lt;LSTag Type="Spell" Tooltip="Zone_Gilgamesh_Recast_3"&gt;Blades of Disaster&lt;/LSTag&gt; as a free action.</content>
+	<content contentuid="h08483368gb91ag51e8g0077gd5034a2c54hb" loreTexts = "true" version="1">Affected creature can cast a weakened version of &lt;LSTag Type="Spell" Tooltip="Zone_Gilgamesh_Recast_4"&gt;Blades of Disaster&lt;/LSTag&gt; as a free action.</content>
+	<content contentuid="h08483368gb91ag51e8g0077gd5034a2c55hb" loreTexts = "true" version="1">Affected creature can cast a weakened version of &lt;LSTag Type="Spell" Tooltip="Zone_Gilgamesh_Recast_5"&gt;Blades of Disaster&lt;/LSTag&gt; as a free action.</content>
+	<content contentuid="h08483368gb91ag51e8g0077gd5034a2c56hb" loreTexts = "true" version="1">Affected creature can cast a weakened version of &lt;LSTag Type="Spell" Tooltip="Zone_Gilgamesh_Recast_6"&gt;Blades of Disaster&lt;/LSTag&gt; as a free action.</content>
 
 	<content contentuid="ha10a9eddg05ddg85dagbdfbg580e435485hb" version="2">Psionic Lockdown</content>
 	<content contentuid="h46f14972g55a7gccf5g8c53gfa25a40efchb" version="1">Grant a creature &lt;LSTag Type='Status' Tooltip='LOCKDOWN_CONDITION'&gt;Lockdown Immunity&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Fighters&lt;br&gt;Rogues&lt;br&gt;Warlocks&lt;br&gt;Wizards</content>
