@@ -783,7 +783,7 @@
 
 	<content contentuid="h887976b614304ec78b4449ad1d3e45012f6e" version="1">Rogue: Arcane Trickster</content>
 	<content contentuid="h5ac4211b67404f48a9e8976bf17a7b077674" version="1">Rogue: Assassin</content>
-	<content contentuid="h5ac4211b67404f48a9e8976bf2se5f6gaunt" version="1">Rogue: Gauntlet</content>
+	<content contentuid="h5ac4211b67404f48a9e8976bf2se5f6gaunt" loreTexts="true" version="1">Rogue: Tantras Cranes</content>
 	<content contentuid="h5ac4211b67404f48a9e8976bf2se5f6s54ef" version="1">Rogue: Hidden Toxicant</content>
 	<content contentuid="h1a147cb174bc46c59e2a8a8997501d256223" version="1">Rogue: Mercenary</content>
 	<content contentuid="hf3a37e1adfa04e18a9f37b5103b8aead7e76" version="1">Rogue: Thief</content>

@@ -120,10 +120,10 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">GAUNTLET</content>
 
-	<content contentuid="c84f670f8f044d128fd7132cc2f848b700000" version="1">Gauntlet</content>
-	<content contentuid="c84f670f8f044d128fd7132cc2f848b7zzzzz" version="1">With gauntlet and dagger in hand, you bend the battlefield to your will, dragging enemies into reach, striking from impossible angles, and stealing their final moments for yourself.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Control/Damage</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b700000" loreTexts="true" version="1">Tantras Cranes</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b7zzzzz" loreTexts="true" version="1">You apprenticed with the disciplined Grayclaws of Tantras, wielding their signature clawed gauntlets in crane-height duels against encroaching guilds.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Control/Damage</content>
 
-	<content contentuid="c84f670f8f044d128fd7132cc2f848b700001" version="1">Dimensional Claw</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b700001" loreTexts="true" version="1">Grayclaw</content>
 	<content contentuid="c84f670f8f044d128fd7132cc2f848b70000a" version="1">Your weapons and unarmed damage may scale using your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt;, rather than your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt;. This can be toggled at any time.&lt;br&gt;&lt;br&gt;Additionally, while unarmed or dealing damage with a dagger in your main-hand, you gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
 	
 	<content contentuid="c84f670f8f044d128fd7132cc2f848b700002" version="1">Get Over Here</content>
@@ -143,19 +143,19 @@
 	<content contentuid="c84f670f8f044d128fd7132cc2f848b700zz4" version="1">Get Over Here</content>
 	<content contentuid="c84f670f8f044d128fd7132cc2f848b700zzd" version="1">After damaging an enemy who is farther than [1] away with a weapon or a melee-based unarmed &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, throw a grapling hook and pull them [2] closer to you, dealing damage equal to your &lt;LSTag Type="Spell" Tooltip="Target_SneakAttack"&gt;Sneak Attack&lt;/LSTag&gt; in the process.</content>
 
-	<content contentuid="c84f670f8f044d128fd7132cc2f848b700005" version="1">Warrior Within</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b700005" loreTexts="true" version="1">Grayclaw Reversal</content>
 	<content contentuid="c84f670f8f044d128fd7132cc2f848b70000e" version="1">Gain the ability to attack all creatures within [1], pushing them backward by [2] and knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;. You may also do so after you successfully avoid an enemies melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
-	<content contentuid="c84f670f8f044d128fd7132cc2f848b7000z5" version="1">Warrior Within</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b7000z5" loreTexts="true" version="1">Grayclaw Reversal</content>
 	<content contentuid="c84f670f8f044d128fd7132cc2f848b7000ze" version="1">Attack all creatures within [1], pushing them backward by [2] and knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
-	<content contentuid="c84f670f8f044d128fd7132cc2f848b700zz5" version="1">Warrior Within</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b700zz5" loreTexts="true" version="1">Grayclaw Reversal</content>
 	<content contentuid="c84f670f8f044d128fd7132cc2f848b700zze" version="1">After having avoided an enemies melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, attack all creatures within [1], pushing them backward by [2] and knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
 
-	<content contentuid="c84f670f8f044d128fd7132cc2f848b700006" version="1">The Sands of Time</content>
-	<content contentuid="c84f670f8f044d128fd7132cc2f848b70000f" version="1">Upon killing a creature, you store their essence as sand in an hourglass. After having killed three creatures, you may use their sand in order to restore your &lt;LSTag Type="ActionResource" Tooltip="LuckPoint"&gt;Luck Points&lt;/LSTag&gt;.</content>
-	<content contentuid="c84f670f8f044d128fd7132cc2f848b7000z6" version="1">The Sands of Time</content>
-	<content contentuid="c84f670f8f044d128fd7132cc2f848b7000zf" version="1">Expend your currently held sand in order to restore your &lt;LSTag Type="ActionResource" Tooltip="LuckPoint"&gt;Luck Points&lt;/LSTag&gt;.</content>
-	<content contentuid="c84f670f8f044d128fd7132cc2f848b700zz6" version="1">The Sands of Time</content>
-	<content contentuid="c84f670f8f044d128fd7132cc2f848b700zzf" version="1">Affected creature is storing sand obtained from killing enemies. Upon gaining three stacks of this condition, they will be able to fully restore their &lt;LSTag Type="ActionResource" Tooltip="LuckPoint"&gt;Luck Points&lt;/LSTag&gt;.</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b700006" loreTexts="true" version="1">The Torque of Faith</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b70000f" loreTexts="true" version="1">Tymora's mysteriously stolen artifact is now in your hands. After having defeated three creatures, you may use its powers in order to restore your &lt;LSTag Type="ActionResource" Tooltip="LuckPoint"&gt;Luck Points&lt;/LSTag&gt;.</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b7000z6" loreTexts="true" version="1">The Torque of Faith</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b7000zf" loreTexts="true" version="1">Expend the powers of Tymora's Torque in order to restore your &lt;LSTag Type="ActionResource" Tooltip="LuckPoint"&gt;Luck Points&lt;/LSTag&gt;.</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b700zz6" loreTexts="true" version="1">Golden Favours</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b700zzf" loreTexts="true" version="1">The loops of Tymora's artifact are charged by your victories. Upon gaining three stacks of this condition, it will be able to fully restore their &lt;LSTag Type="ActionResource" Tooltip="LuckPoint"&gt;Luck Points&lt;/LSTag&gt;.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">HIDDEN TOXICANT</content>
 

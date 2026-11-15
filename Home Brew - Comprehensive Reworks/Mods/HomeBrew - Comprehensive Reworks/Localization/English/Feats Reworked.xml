@@ -590,8 +590,8 @@
 	<content contentuid="d6521329-2633-4ef7-9198-222173557313" loreTexts="true" version="1">Yokebreaker: Cormyr Hallways</content>
 	<content contentuid="0c3e7fc1-1536-4540-88f6-370b34addd2e" loreTexts="true" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Virulence"&gt;Cormyr Hallways Rogue&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
-	<content contentuid="1aa795e0-afec-40a3-bc5c-836f1c1c68bb" version="1">Yokebreaker: Gauntlet</content>
-	<content contentuid="2f5ac748-b05d-42d3-a476-f3d99f1cdf03" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Gauntlet"&gt;Gauntlet Rogue&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="1aa795e0-afec-40a3-bc5c-836f1c1c68bb" loreTexts="true" version="1">Yokebreaker: Tantras Cranes</content>
+	<content contentuid="2f5ac748-b05d-42d3-a476-f3d99f1cdf03" loreTexts="true" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Gauntlet"&gt;Tantras Cranes Rogue&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
 
 
