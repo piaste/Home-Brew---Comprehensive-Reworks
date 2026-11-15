@@ -274,7 +274,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">VIRULENCE</content>
 
-	<content contentuid="dfd64ed09bb241db9f6107f73591ee2600000" loreTexts="true" version="1">Cormyr Hallways</content>
+	<content contentuid="dfd64ed09bb241db9f6107f73591ee2600000" loreTexts="true" version="1">Cormyr Halls</content>
 	<content contentuid="dfd64ed09bb241db9f6107f73591ee26zzzzz" loreTexts="true" version="1">You apprenticed with the aristocratic Fire Knives, coating your blades in substance lethal enough to pierce armour and slay kings.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage</content>
 
 	<content contentuid="dfd64ed09bb241db9f6107f73591ee2600001" version="1">Virulent Edge</content>
