@@ -756,42 +756,42 @@
 	<content contentuid="h8e07c781f6be48bb8d11f539e1c8b49bg65b" version="1">Fighter: Champion</content>
 	<content contentuid="h8e07c781f6be48bb8d11f539e12d5f3d5f65" loreTexts="true" version="1">Fighter: Blazing Cavalier</content>
 	<content contentuid="hc956224f7f584e9096e7a3c79458d1cc9bg3" version="1">Fighter: Eldritch Knight</content>
-	<content contentuid="hb2ff7aec766b4e64b8113c7656e78468c3a3" version="1">Fighter: Frontier Knight</content>
+	<content contentuid="hb2ff7aec766b4e64b8113c7656e78468c3a3" loreTexts="true" version="1">Fighter: Weapon Master</content>
 	<content contentuid="5b9c6b9f8fb541f3839d6c3738507a9c00001" version="1">Fighter: Palisade</content>
 
-	<content contentuid="he4b572ffeab94f5abe81a1a1cf592b3f16f8" version="1">Monk: Way of the Arcane</content>
-	<content contentuid="hd8792c892dc84db3af6522385b14d22579f5" version="1">Monk: Way of the Drunken Fist</content>
-	<content contentuid="5b9c6b9f8fb541f3839d6c3738507a9c00002" version="1">Monk: Way of the Gentle Fist</content>
-	<content contentuid="h5a5318c3f19b4e7cb289bd094bfee3f80aa4" version="1">Monk: Way of the Open Hand</content>
-	<content contentuid="h3358a14e04844f9598c3eb0f6098f96f160d" version="1">Monk: Way of the Shadow Arts</content>
-	<content contentuid="5b9c6b9f8fb541f3839d6c3738507a9c00003" version="1">Monk: Way of the Tempered Steel</content>
+	<content contentuid="he4b572ffeab94f5abe81a1a1cf592b3f16f8" loreTexts="true" version="1">Monk: Shining Hand Training</content>
+	<content contentuid="hd8792c892dc84db3af6522385b14d22579f5" loreTexts="true" version="1">Monk: St. Dionysus Training</content>
+	<content contentuid="5b9c6b9f8fb541f3839d6c3738507a9c00002" loreTexts="true" version="1">Monk: Broken Ones Training</content>
+	<content contentuid="h5a5318c3f19b4e7cb289bd094bfee3f80aa4" loreTexts="true" version="1">Monk: White Rod Training</content>
+	<content contentuid="h3358a14e04844f9598c3eb0f6098f96f160d" loreTexts="true" version="1">Monk: Dark Moon Training</content>
+	<content contentuid="5b9c6b9f8fb541f3839d6c3738507a9c00003" loreTexts="true" version="1">Monk: Soaring Way Training</content>
 
-	<content contentuid="h5689281b356a4051921b16eb13a486a4bea7" version="1">Paladin: Ancient Warden</content>
-	<content contentuid="h72389daf54ac4fad93c7dcc2f902c9e0f209" version="1">Paladin: Crowned Phoenix</content>
-	<content contentuid="h33046c15ea574ec5a91bd4c8709dead4a46g" version="1">Paladin: Devout Paragon</content>
-	<content contentuid="h20453170b9ff4b9c8c32d33a020357b50ac9" version="1">Paladin: Oathbound Crusader</content>
+	<content contentuid="h5689281b356a4051921b16eb13a486a4bea7" loreTexts="true" version="1">Paladin: Sibling of the Ruby Rose</content>
+	<content contentuid="h72389daf54ac4fad93c7dcc2f902c9e0f209" loreTexts="true" version="1">Paladin: Knight of the Weave</content>
+	<content contentuid="h33046c15ea574ec5a91bd4c8709dead4a46g" loreTexts="true" version="1">Paladin: Radiant Heart Auxiliary</content>
+	<content contentuid="h20453170b9ff4b9c8c32d33a020357b50ac9" loreTexts="true" version="1">Paladin: Gilded Eye Inquisitor</content>
 	<content contentuid="hf4ed1f7d36d94c2abcda899d07b9e943ab47" version="1">Paladin: Oathbreaker</content>
-	<content contentuid="5b9c6b9f8fb541f3839d6c3738507a2252564" version="1">Paladin: Runic Mystflame</content>
-	<content contentuid="5b9c6b9f8fb541f3839d6c3738507a9c00004" version="1">Paladin: Tyrant</content>
+	<content contentuid="5b9c6b9f8fb541f3839d6c3738507a2252564" loreTexts="true" version="1">Paladin: Mystic Fire Aspirant</content>
+	<content contentuid="5b9c6b9f8fb541f3839d6c3738507a9c00004" loreTexts="true" version="1">Paladin: Black Gauntlet Crusader</content>
 
-	<content contentuid="he2f1a1df896949edb5d6b3530f25289178g6" version="1">Ranger: Beast Master</content>
-	<content contentuid="hd6c7fa424e574445908ea18fb4f6d8de3b9c" version="1">Ranger: Gloom Stalker</content>
-	<content contentuid="h621dfdee398b463792b18ff7d88eb5d75127" version="1">Ranger: Hunter</content>
-	<content contentuid="h437731e40ccf4eed92b833bf3e3a7c8e2e55" version="1">Ranger: Swarmkeeper</content>
-	<content contentuid="h437731e40ccf4eed92b833bf3e3a7c8etwin" version="1">Ranger: Twinfang</content>
-	<content contentuid="5b9c6b9f8fb541f3839d6c3738507a9c00005" version="1">Ranger: Mire Mist</content>
+	<content contentuid="he2f1a1df896949edb5d6b3530f25289178g6" loreTexts="true" version="1">Ranger: High Forest Trail</content>
+	<content contentuid="hd6c7fa424e574445908ea18fb4f6d8de3b9c" loreTexts="true" version="1">Ranger: Underdark Trail</content>
+	<content contentuid="h621dfdee398b463792b18ff7d88eb5d75127" loreTexts="true" version="1">Ranger: Greypeaks Trail</content>
+	<content contentuid="h437731e40ccf4eed92b833bf3e3a7c8e2e55" loreTexts="true" version="1">Ranger: Neverwinter Wood Trail</content>
+	<content contentuid="h437731e40ccf4eed92b833bf3e3a7c8etwin" loreTexts="true" version="1">Ranger: Evermoors Trail</content>
+	<content contentuid="5b9c6b9f8fb541f3839d6c3738507a9c00005" loreTexts="true" version="1">Ranger: Merdelain Trail</content>
 
-	<content contentuid="h887976b614304ec78b4449ad1d3e45012f6e" version="1">Rogue: Arcane Trickster</content>
-	<content contentuid="h5ac4211b67404f48a9e8976bf17a7b077674" version="1">Rogue: Assassin</content>
+	<content contentuid="h887976b614304ec78b4449ad1d3e45012f6e" loreTexts="true" version="1">Rogue: Telflamm Streets</content>
+	<content contentuid="h5ac4211b67404f48a9e8976bf17a7b077674" loreTexts="true" version="1">Rogue: Galenas Paths</content>
 	<content contentuid="h5ac4211b67404f48a9e8976bf2se5f6gaunt" loreTexts="true" version="1">Rogue: Tantras Cranes</content>
-	<content contentuid="h5ac4211b67404f48a9e8976bf2se5f6s54ef" version="1">Rogue: Hidden Toxicant</content>
-	<content contentuid="h1a147cb174bc46c59e2a8a8997501d256223" version="1">Rogue: Mercenary</content>
-	<content contentuid="hf3a37e1adfa04e18a9f37b5103b8aead7e76" version="1">Rogue: Thief</content>
-	<content contentuid="5b9c6b9f8fb541f3839d6c3738507a9c00006" version="1">Rogue: Virulence</content>
+	<content contentuid="h5ac4211b67404f48a9e8976bf2se5f6s54ef" loreTexts="true" version="1">Rogue: Westgate Docks</content>
+	<content contentuid="h1a147cb174bc46c59e2a8a8997501d256223" loreTexts="true" version="1">Rogue: Skullport Caves</content>
+	<content contentuid="hf3a37e1adfa04e18a9f37b5103b8aead7e76" loreTexts="true" version="1">Rogue: Amnian Roads</content>
+	<content contentuid="5b9c6b9f8fb541f3839d6c3738507a9c00006" loreTexts="true" version="1">Rogue: Cormyr Halls</content>
 
 	<content contentuid="h74cb6d76f7084d1d9ccca5ba1622140f3c7d" version="1">Sorcerer: Draconic Bloodline</content>
 	<content contentuid="h74cb6d76f7084d1d9ccca5ba1622140blood" version="1">Sorcerer: Hematic Monarch</content>
-	<content contentuid="5b9c6b9f8fb541f3839d6c3738507a9c00008" version="1">Sorcerer: Radiant Bloom</content>
+	<content contentuid="5b9c6b9f8fb541f3839d6c3738507a9c00008" loreTexts="true" version="1">Sorcerer: Radiant Bloom</content>
 	<content contentuid="h73a8aafef8874258bc6950b4c4d569b0842e" version="1">Sorcerer: Shade Walker</content>
 	<content contentuid="5b9c6b9f8fb541f3839d6c3738507a9c00007" version="1">Sorcerer: Soul of the Tundral</content>
 	<content contentuid="h304a5e34541a42f098df489329c48ee49a00" loreTexts="true" version="1">Sorcerer: Volcanic Heart</content>
